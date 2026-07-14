@@ -101,7 +101,10 @@ TECH_TERMS = [
 
 LINK_BLACKLIST = re.compile(
     r"(privacy|cookie|login|facebook|linkedin|twitter|instagram|mailto:|tel:|"
-    r"#$|javascript:|\.pdf$|\.jpg$|\.png$|about|contact|blog|news|nieuws)",
+    r"#$|javascript:|\.pdf$|\.jpg$|\.png$|about|contact|blog|news|nieuws|"
+    r"/oplossing|/inzicht|webinar|/solutions|/producten|/diensten|"
+    r"/services/|/cases|/events|whitepaper|brochure|/partners|"
+    r"/prijzen|/pricing|/demo\b|/klanten|/customers|/testimonial)",
     re.I,
 )
 
