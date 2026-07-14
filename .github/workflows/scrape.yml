@@ -37,9 +37,8 @@ jobs:
         run: python scraper.py
 
       - name: Commit state and results
-        run: |
-          git config user.name "jobradar-bot"
-          git config user.email "bot@jobradar"
-          git add state/ output/
-          git diff --cached --quiet || git commit -m "scan: $(date -u +%F)"
-          git push
+        - name: Commit state and results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "scan results"
+          file_pattern: "state/** output/**"
