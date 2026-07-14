@@ -1,0 +1,45 @@
+name: JobRadar daily scan
+
+on:
+  schedule:
+    # GitHub Actions cron runs in UTC. 08:00 in Brussels is 06:00 UTC in
+    # summer (CEST) and 07:00 UTC in winter (CET). We trigger at both hours,
+    # Monday-Friday, and SCHEDULE_GUARD in scraper.py only lets the run
+    # through when it is actually 08:00 local time - so it runs exactly
+    # once per weekday, year round.
+    - cron: '0 6 * * 1-5'
+    - cron: '0 7 * * 1-5'
+  workflow_dispatch: {}   # allows a manual test run from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run scraper
+        env:
+          SCHEDULE_GUARD: '1'
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}   # optional
+        run: python scraper.py
+
+      - name: Commit state and results
+        run: |
+          git config user.name "jobradar-bot"
+          git config user.email "bot@jobradar"
+          git add state/ output/
+          git diff --cached --quiet || git commit -m "scan: $(date -u +%F)"
+          git push
