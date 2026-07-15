@@ -1,5 +1,5 @@
-[
-  {
+{
+  "https://tabaknatie.be/job/teamlead-it-solutions-m-v-x/": {
     "title": "Teamlead IT Solutions (m/v/x) Antwerpen Freelance Posted 1 month ago",
     "url": "https://tabaknatie.be/job/teamlead-it-solutions-m-v-x/",
     "company": "Tabaknatie",
@@ -11,7 +11,7 @@
       "ci/cd"
     ]
   },
-  {
+  "https://tabaknatie.be/job/business-integrator-manager/": {
     "title": "Business Integration Manager (m/v/x) Antwerpen Full Time Posted 4 months ago",
     "url": "https://tabaknatie.be/job/business-integrator-manager/",
     "company": "Tabaknatie",
@@ -19,7 +19,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://pionira.be/vacatures/senior-software-engineer/": {
     "title": "Software Engineer .NET",
     "url": "https://pionira.be/vacatures/senior-software-engineer/",
     "company": "Pionira",
@@ -33,7 +33,7 @@
       "rest"
     ]
   },
-  {
+  "https://www.olympus-mobility.be/nl/vacature-it-soft-ware-engineer": {
     "title": "Java Soft­ware Engi­neer (Gent) Geen dag is hetzelfde. Zin om te blijven bouwen aan onze robuuste back-end in Java?",
     "url": "https://www.olympus-mobility.be/nl/vacature-it-soft-ware-engineer",
     "company": "Olympus Mobility",
@@ -50,7 +50,7 @@
       "microservices"
     ]
   },
-  {
+  "https://ict-emmaus.cvw.io/?lang=nl-BE&job=398025&q=ICT-toepassingsbeheerder": {
     "title": "ICT toepassingsbeheerder Zoersel, België Bediende Afstandswerk mogelijk Lees verder",
     "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=398025&q=ICT-toepassingsbeheerder",
     "company": "Emmaüs ICT",
@@ -58,7 +58,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://ict-emmaus.cvw.io/?lang=nl-BE&job=393400&q=Medewerker-gebruikersondersteuning-ICT": {
     "title": "Medewerker gebruikersondersteuning ICT Zoersel, België Bediende Lees verder",
     "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=393400&q=Medewerker-gebruikersondersteuning-ICT",
     "company": "Emmaüs ICT",
@@ -66,7 +66,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://ict-emmaus.cvw.io/?lang=nl-BE&job=379228&q=Cyberweerbaarheid-Specialist-ICT": {
     "title": "Cyberweerbaarheid Specialist - ICT Mechelen, België Bediende Lees verder",
     "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=379228&q=Cyberweerbaarheid-Specialist-ICT",
     "company": "Emmaüs ICT",
@@ -74,7 +74,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://cartamundi.com/en/careers/engineering": {
     "title": "Engineering",
     "url": "https://cartamundi.com/en/careers/engineering",
     "company": "Cartamundi",
@@ -82,7 +82,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://cartamundi.com/en/career/389620/": {
     "title": "Data & Simulation Analyst",
     "url": "https://cartamundi.com/en/career/389620/",
     "company": "Cartamundi",
@@ -90,7 +90,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://cartamundi.com/en/career/392899/": {
     "title": "Quality Engineer",
     "url": "https://cartamundi.com/en/career/392899/",
     "company": "Cartamundi",
@@ -98,7 +98,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://cartamundi.com/en/career/394145/": {
     "title": "Global Packaging Automation Technology Expert - Germany",
     "url": "https://cartamundi.com/en/career/394145/",
     "company": "Cartamundi",
@@ -106,7 +106,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://cartamundi.com/en/career/397265/": {
     "title": "Quality Engineer (m/w/d) in Vollzeit (37 h/Woche), unbefristet",
     "url": "https://cartamundi.com/en/career/397265/",
     "company": "Cartamundi",
@@ -114,7 +114,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://cartamundi.com/en/career/397621/": {
     "title": "Process Engineer (m/w/d) in Vollzeit (40 h/Woche) - Germany",
     "url": "https://cartamundi.com/en/career/397621/",
     "company": "Cartamundi",
@@ -122,7 +122,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/equipment-engineer/": {
     "title": "Equipment Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/equipment-engineer/",
     "company": "Groot Groter Groots",
@@ -130,7 +130,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/mechanical-engineer-equipment/": {
     "title": "Mechanical Engineer Equipment",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/mechanical-engineer-equipment/",
     "company": "Groot Groter Groots",
@@ -138,7 +138,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/ot-architect/": {
     "title": "OT Architect",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/ot-architect/",
     "company": "Groot Groter Groots",
@@ -146,7 +146,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/scada-ot-engineer/": {
     "title": "SCADA & OT Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/scada-ot-engineer/",
     "company": "Groot Groter Groots",
@@ -157,7 +157,7 @@
       "linux"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/manager-civil-engineering/": {
     "title": "Manager Civil Engineering",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/manager-civil-engineering/",
     "company": "Groot Groter Groots",
@@ -165,7 +165,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/project-engineer-low-voltage/": {
     "title": "Project Engineer Low Voltage",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/project-engineer-low-voltage/",
     "company": "Groot Groter Groots",
@@ -173,7 +173,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/engineer-high-voltage/": {
     "title": "Engineer High Voltage",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/engineer-high-voltage/",
     "company": "Groot Groter Groots",
@@ -181,7 +181,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/implementation-engineer-high-voltage/": {
     "title": "Implementation Engineer High Voltage",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/implementation-engineer-high-voltage/",
     "company": "Groot Groter Groots",
@@ -189,7 +189,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/engineer-civil-infrastructure/": {
     "title": "Engineer Civil Infrastructure",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/engineer-civil-infrastructure/",
     "company": "Groot Groter Groots",
@@ -197,7 +197,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/project-engineer-low-voltage-1/": {
     "title": "Project Engineer Low Voltage",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/project-engineer-low-voltage-1/",
     "company": "Groot Groter Groots",
@@ -205,7 +205,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/projectleader-civil-infrastructure/": {
     "title": "Projectleader Civil Infrastructure",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/projectleader-civil-infrastructure/",
     "company": "Groot Groter Groots",
@@ -213,7 +213,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/structural-engineer-equipment/": {
     "title": "Structural Engineer Equipment",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/structural-engineer-equipment/",
     "company": "Groot Groter Groots",
@@ -221,7 +221,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/interface-integration-specialist/": {
     "title": "Interface Integration Specialist",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/interface-integration-specialist/",
     "company": "Groot Groter Groots",
@@ -232,7 +232,7 @@
       "power bi"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/ot-support-engineer/": {
     "title": "OT Support Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/ot-support-engineer/",
     "company": "Groot Groter Groots",
@@ -243,7 +243,7 @@
       "linux"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/equipment-software-engineer/": {
     "title": "Equipment Software Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/equipment-software-engineer/",
     "company": "Groot Groter Groots",
@@ -251,7 +251,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/projectleader-civil-infrastructure-pavement-mpet/": {
     "title": "Projectleader Civil Infrastructure - Asphalt",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/projectleader-civil-infrastructure-pavement-mpet/",
     "company": "Groot Groter Groots",
@@ -259,7 +259,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/functional-data-expert/": {
     "title": "Data Integration Analyst",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/functional-data-expert/",
     "company": "Groot Groter Groots",
@@ -270,7 +270,7 @@
       "power bi"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/application-support-engineer-emerald/": {
     "title": "Application Support Engineer - Emerald Project",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/application-support-engineer-emerald/",
     "company": "Groot Groter Groots",
@@ -280,7 +280,7 @@
       "sql"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/system-analist-automation-support/": {
     "title": "System Analist Automation Support",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/system-analist-automation-support/",
     "company": "Groot Groter Groots",
@@ -290,7 +290,7 @@
       "linux"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/senior-linux-platform-engineer/": {
     "title": "Senior Linux / Platform Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/senior-linux-platform-engineer/",
     "company": "Groot Groter Groots",
@@ -304,7 +304,7 @@
       "linux"
     ]
   },
-  {
+  "https://www.grootgrotergroots.be/nl-be/jobs/cyber-security-engineer/": {
     "title": "Cyber Security Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/cyber-security-engineer/",
     "company": "Groot Groter Groots",
@@ -312,7 +312,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/12714": {
     "title": "IT Analist SAP - LIMS",
     "url": "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/12714",
     "company": "Indaver",
@@ -322,7 +322,7 @@
       "sap"
     ]
   },
-  {
+  "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/13275": {
     "title": "SAP Specialist",
     "url": "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/13275",
     "company": "Indaver",
@@ -332,7 +332,7 @@
       "sap"
     ]
   },
-  {
+  "https://be.tuvaustria.com/jobs/senior-data-engineer/": {
     "title": "Data Engineer",
     "url": "https://be.tuvaustria.com/jobs/senior-data-engineer/",
     "company": "TÜV Austria",
@@ -349,7 +349,7 @@
       "kafka"
     ]
   },
-  {
+  "https://be.tuvaustria.com/jobs/senior-test-automation-engineer/": {
     "title": "Software Test Automation Engineer",
     "url": "https://be.tuvaustria.com/jobs/senior-test-automation-engineer/",
     "company": "TÜV Austria",
@@ -364,7 +364,7 @@
       "rest"
     ]
   },
-  {
+  "https://be.tuvaustria.com/jobs/cyber-security-consultant-with-teamlead-ambition/": {
     "title": "Cyber Security Consultant (with teamlead ambition)",
     "url": "https://be.tuvaustria.com/jobs/cyber-security-consultant-with-teamlead-ambition/",
     "company": "TÜV Austria",
@@ -375,7 +375,7 @@
       "aws"
     ]
   },
-  {
+  "https://be.tuvaustria.com/jobs/freelance-it-consultant/": {
     "title": "Freelance IT consultant",
     "url": "https://be.tuvaustria.com/jobs/freelance-it-consultant/",
     "company": "TÜV Austria",
@@ -387,7 +387,7 @@
       "agile"
     ]
   },
-  {
+  "https://www.qover.com/careers": {
     "title": "Case study Bike Rad Power Bikes: e-bike insurance for an ‘even better customer experience’",
     "url": "https://www.qover.com/careers",
     "company": "Qover",
@@ -395,7 +395,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://careers.qargo.com/jobs/8003777-business-analyst-german-speaking": {
     "title": "Business Analyst - German Speaking Customer Success · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/8003777-business-analyst-german-speaking",
     "company": "Qargo",
@@ -405,7 +405,7 @@
       "sql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7969262-team-lead-integrations": {
     "title": "Team Lead Integrations Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7969262-team-lead-integrations",
     "company": "Qargo",
@@ -418,7 +418,7 @@
       "rest"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7969219-integrations-software-engineer": {
     "title": "Integrations Software Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7969219-integrations-software-engineer",
     "company": "Qargo",
@@ -432,7 +432,7 @@
       "rest"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7969167-support-engineer": {
     "title": "Support Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7969167-support-engineer",
     "company": "Qargo",
@@ -442,7 +442,7 @@
       "sql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7969132-business-analyst": {
     "title": "Business Analyst Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7969132-business-analyst",
     "company": "Qargo",
@@ -452,7 +452,7 @@
       "sql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7844890-product-analyst": {
     "title": "Product Analyst Product · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7844890-product-analyst",
     "company": "Qargo",
@@ -460,7 +460,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://careers.qargo.com/jobs/7779164-software-engineering-internship": {
     "title": "Software Engineering Internship Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7779164-software-engineering-internship",
     "company": "Qargo",
@@ -475,7 +475,7 @@
       "graphql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7707202-qa-engineer": {
     "title": "QA Engineer Product · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7707202-qa-engineer",
     "company": "Qargo",
@@ -485,7 +485,7 @@
       "sql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7664388-site-reliability-engineer": {
     "title": "Site Reliability Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7664388-site-reliability-engineer",
     "company": "Qargo",
@@ -497,7 +497,7 @@
       "ci/cd"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7603336-backend-software-engineer": {
     "title": "Backend Software Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7603336-backend-software-engineer",
     "company": "Qargo",
@@ -511,7 +511,7 @@
       "graphql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7602926-frontend-software-engineer": {
     "title": "Frontend Software Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7602926-frontend-software-engineer",
     "company": "Qargo",
@@ -522,7 +522,7 @@
       "graphql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/7316911-mobile-engineer": {
     "title": "Mobile Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7316911-mobile-engineer",
     "company": "Qargo",
@@ -534,7 +534,7 @@
       "graphql"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/6902571-ai-software-engineer": {
     "title": "AI Software Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/6902571-ai-software-engineer",
     "company": "Qargo",
@@ -544,7 +544,7 @@
       "python"
     ]
   },
-  {
+  "https://careers.qargo.com/jobs/5598974-junior-software-engineer": {
     "title": "Junior Software Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/5598974-junior-software-engineer",
     "company": "Qargo",
@@ -558,7 +558,7 @@
       "graphql"
     ]
   },
-  {
+  "https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.qargo.com&utm_medium=referral&utm_source=career-site": {
     "title": "Applicant tracking system by Teamtailor",
     "url": "https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.qargo.com&utm_medium=referral&utm_source=career-site",
     "company": "Qargo",
@@ -568,7 +568,7 @@
       "rest"
     ]
   },
-  {
+  "https://msc.csod.com/ux/ats/careersite/4/home/requisition/4180?c=msc": {
     "title": "Product Owner",
     "url": "https://msc.csod.com/ux/ats/careersite/4/home/requisition/4180?c=msc",
     "company": "MSC",
@@ -576,7 +576,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/business-process-analyst": {
     "title": "Wervik Business Process Analyst bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/business-process-analyst",
     "company": "Vanheede",
@@ -584,7 +584,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/business-process-architect": {
     "title": "Wervik Business Process Architect bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/business-process-architect",
     "company": "Vanheede",
@@ -592,7 +592,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/ict-applications-manager": {
     "title": "Wervik ICT Applications Manager bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/ict-applications-manager",
     "company": "Vanheede",
@@ -600,7 +600,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/digital-business-domain-architect": {
     "title": "Wervik Digital Business Architect - Transport / Industry bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/digital-business-domain-architect",
     "company": "Vanheede",
@@ -608,7 +608,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/project-engineer-infrastructure": {
     "title": "Wervik Project Engineer Infrastructure bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/project-engineer-infrastructure",
     "company": "Vanheede",
@@ -616,7 +616,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/process-engineer-water": {
     "title": "Rumbeke Process Engineer (Water) bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/process-engineer-water",
     "company": "Vanheede",
@@ -624,7 +624,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.vanheede.com/nl/automation-supervisor": {
     "title": "Rumbeke Automation Supervisor bekijk vacature",
     "url": "https://jobs.vanheede.com/nl/automation-supervisor",
     "company": "Vanheede",
@@ -632,7 +632,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://vanden-broele.jobtoolz.com/nl/ai-engineer-freelance-of-vast": {
     "title": "AI engineer (freelance of vast)",
     "url": "https://vanden-broele.jobtoolz.com/nl/ai-engineer-freelance-of-vast",
     "company": "Vanden Broele",
@@ -643,7 +643,7 @@
       "azure"
     ]
   },
-  {
+  "https://vanden-broele.jobtoolz.com/nl/net-application-developer-met-ervaring": {
     "title": ".NET software engineer met ervaring",
     "url": "https://vanden-broele.jobtoolz.com/nl/net-application-developer-met-ervaring",
     "company": "Vanden Broele",
@@ -659,7 +659,7 @@
       "agile"
     ]
   },
-  {
+  "https://vanden-broele.jobtoolz.com/nl/analist-developer-skryv-projecten-freelance": {
     "title": "Analist Developer - Skryv projecten (freelance)",
     "url": "https://vanden-broele.jobtoolz.com/nl/analist-developer-skryv-projecten-freelance",
     "company": "Vanden Broele",
@@ -676,7 +676,7 @@
       "ci/cd"
     ]
   },
-  {
+  "https://vanden-broele.jobtoolz.com/nl/dev-ops-cloud-engineer-met-java-kennis": {
     "title": "DevOps (Cloud) Engineer met Java kennis",
     "url": "https://vanden-broele.jobtoolz.com/nl/dev-ops-cloud-engineer-met-java-kennis",
     "company": "Vanden Broele",
@@ -690,7 +690,7 @@
       "agile"
     ]
   },
-  {
+  "https://vanden-broele.jobtoolz.com/nl/full-stack-developer-met-ervaring": {
     "title": "Full Stack Developer met ervaring (vast/freelance)",
     "url": "https://vanden-broele.jobtoolz.com/nl/full-stack-developer-met-ervaring",
     "company": "Vanden Broele",
@@ -701,7 +701,7 @@
       "javascript"
     ]
   },
-  {
+  "https://www.picanol.be/nl/jobs/vind-een-job?f%5B0%5D=department%3A8969": {
     "title": "IT Applications",
     "url": "https://www.picanol.be/nl/jobs/vind-een-job?f%5B0%5D=department%3A8969",
     "company": "Picanol",
@@ -712,7 +712,7 @@
       ".net"
     ]
   },
-  {
+  "https://www.picanol.be/nl/jobs/hands-maintenance-engineer": {
     "title": "Hands-on Maintenance Engineer",
     "url": "https://www.picanol.be/nl/jobs/hands-maintenance-engineer",
     "company": "Picanol",
@@ -720,7 +720,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://www.picanol.be/nl/jobs/it-software-engineer-c-net-cloud-ai": {
     "title": "IT Software engineer (C#, .NET, Cloud & AI)",
     "url": "https://www.picanol.be/nl/jobs/it-software-engineer-c-net-cloud-ai",
     "company": "Picanol",
@@ -735,7 +735,7 @@
       "microservices"
     ]
   },
-  {
+  "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=394971&q=Senior-Business-Analist": {
     "title": "Senior Business Analist Ridderkerk, Nederland Bakker Lees verder",
     "url": "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=394971&q=Senior-Business-Analist",
     "company": "Greenyard",
@@ -746,7 +746,7 @@
       "power bi"
     ]
   },
-  {
+  "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=337736&q=Proces-Engineer-Operationele-Technologie": {
     "title": "Proces Engineer Operationele Technologie Ridderkerk, Nederland Bakker Lees verder",
     "url": "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=337736&q=Proces-Engineer-Operationele-Technologie",
     "company": "Greenyard",
@@ -757,7 +757,7 @@
       "power bi"
     ]
   },
-  {
+  "https://jobs.pelckmans.be/nl/medior-senior-full-stack-javascript-developer": {
     "title": "Kalmthout Medior / Senior Full-stack Javascript Developer bekijk vacature",
     "url": "https://jobs.pelckmans.be/nl/medior-senior-full-stack-javascript-developer",
     "company": "Pelckmans",
@@ -774,7 +774,7 @@
       "agile"
     ]
   },
-  {
+  "https://jobs.aertssen.be/vacatures/detail/?id=2566&title=sharepoint-expert-power-platform-developer-stabroek": {
     "title": "SharePoint Expert – Power Platform Developer Stabroek",
     "url": "https://jobs.aertssen.be/vacatures/detail/?id=2566&title=sharepoint-expert-power-platform-developer-stabroek",
     "company": "Aertssen",
@@ -785,7 +785,7 @@
       "power bi"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7973461-python-full-stack-ai-developer": {
     "title": "Python / Full Stack AI Developer Business Analysts · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7973461-python-full-stack-ai-developer",
     "company": "BrightAnalytics",
@@ -795,7 +795,7 @@
       "python"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7973323-software-engineer": {
     "title": "Software Engineer IT · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7973323-software-engineer",
     "company": "BrightAnalytics",
@@ -808,7 +808,7 @@
       "docker"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7133321-front-end-developer": {
     "title": "Front-End Developer IT · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7133321-front-end-developer",
     "company": "BrightAnalytics",
@@ -818,7 +818,7 @@
       "typescript"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7104767-internship-business-analyst": {
     "title": "Internship Business Analyst Business Analysts · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7104767-internship-business-analyst",
     "company": "BrightAnalytics",
@@ -828,7 +828,7 @@
       "python"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7104684-internship-back-front-end-developer": {
     "title": "Internship back-/front-end developer IT · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7104684-internship-back-front-end-developer",
     "company": "BrightAnalytics",
@@ -836,7 +836,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7081622-back-end-developer-roeselare": {
     "title": "Back-End Developer (Roeselare) IT · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7081622-back-end-developer-roeselare",
     "company": "BrightAnalytics",
@@ -850,7 +850,7 @@
       "microservices"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7079548-full-stack-developer": {
     "title": "Full Stack Developer IT · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7079548-full-stack-developer",
     "company": "BrightAnalytics",
@@ -863,7 +863,7 @@
       "mysql"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/nl/jobs/7079447-business-analyst": {
     "title": "Business Analyst Business Analysts · Hooglede",
     "url": "https://jobs.brightanalytics.eu/nl/jobs/7079447-business-analyst",
     "company": "BrightAnalytics",
@@ -874,7 +874,7 @@
       "sql"
     ]
   },
-  {
+  "https://jobs.brightanalytics.eu/departments/business-analysts": {
     "title": "Business Analysts",
     "url": "https://jobs.brightanalytics.eu/departments/business-analysts",
     "company": "BrightAnalytics",
@@ -884,7 +884,7 @@
       "python"
     ]
   },
-  {
+  "https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=jobs.brightanalytics.eu&utm_medium=referral&utm_source=career-site": {
     "title": "Applicant tracking system by Teamtailor",
     "url": "https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=jobs.brightanalytics.eu&utm_medium=referral&utm_source=career-site",
     "company": "BrightAnalytics",
@@ -894,7 +894,7 @@
       "rest"
     ]
   },
-  {
+  "https://jobs.jeco-energies.com/nl/high-voltage-engineer": {
     "title": "Hybride (Aartselaar) High Voltage Engineer bekijk vacature",
     "url": "https://jobs.jeco-energies.com/nl/high-voltage-engineer",
     "company": "Jeco Energies",
@@ -902,7 +902,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://jobs.jeco-energies.com/nl/ai-specialist-implementation-engineer": {
     "title": "Hybride (Herentals) AI Specialist & Implementation Engineer bekijk vacature",
     "url": "https://jobs.jeco-energies.com/nl/ai-specialist-implementation-engineer",
     "company": "Jeco Energies",
@@ -914,7 +914,7 @@
       "azure"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/solution-architect-saas-ai-enablement-2/": {
     "title": "Solution Architect, SaaS & AI Enablement Dublin, Ireland",
     "url": "https://www.bluecrux.com/jobs/solution-architect-saas-ai-enablement-2/",
     "company": "Bluecrux",
@@ -925,7 +925,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/sap-scm-solution-architect/": {
     "title": "SAP SCM Solution Architect Aalst or Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/sap-scm-solution-architect/",
     "company": "Bluecrux",
@@ -935,7 +935,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/sap-master-data-consultant/": {
     "title": "SAP Master Data Consultant Barcelona, Spain",
     "url": "https://www.bluecrux.com/jobs/sap-master-data-consultant/",
     "company": "Bluecrux",
@@ -945,7 +945,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/sap-scm-solution-architect-2/": {
     "title": "SAP SCM Solution Architect Dublin, Ireland",
     "url": "https://www.bluecrux.com/jobs/sap-scm-solution-architect-2/",
     "company": "Bluecrux",
@@ -955,7 +955,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/anaplan-solution-architect-3/": {
     "title": "Anaplan Solution Architect Aalst or Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/anaplan-solution-architect-3/",
     "company": "Bluecrux",
@@ -965,7 +965,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/solution-architect-saas-ai-enablement/": {
     "title": "Solution Architect, SaaS & AI Enablement Aalst or Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/solution-architect-saas-ai-enablement/",
     "company": "Bluecrux",
@@ -976,7 +976,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/anaplan-solution-architect-5/": {
     "title": "Anaplan Solution Architect Millburn NJ, United States",
     "url": "https://www.bluecrux.com/jobs/anaplan-solution-architect-5/",
     "company": "Bluecrux",
@@ -986,7 +986,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/saas-product-owner-2/": {
     "title": "SaaS Product Owner Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/saas-product-owner-2/",
     "company": "Bluecrux",
@@ -996,7 +996,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/junior-product-engineering-professional-fresh-graduate/": {
     "title": "Junior Product & Engineering Professional (Fresh Graduate) Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/junior-product-engineering-professional-fresh-graduate/",
     "company": "Bluecrux",
@@ -1006,7 +1006,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/software-engineer-2/": {
     "title": "Software Engineer Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/software-engineer-2/",
     "company": "Bluecrux",
@@ -1016,7 +1016,7 @@
       "sap"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/data-engineer-2/": {
     "title": "Data Engineer Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/data-engineer-2/",
     "company": "Bluecrux",
@@ -1030,7 +1030,7 @@
       "spark"
     ]
   },
-  {
+  "https://www.bluecrux.com/jobs/omp-solution-architect/": {
     "title": "OMP Solution Architect Aalst or Mechelen, Belgium",
     "url": "https://www.bluecrux.com/jobs/omp-solution-architect/",
     "company": "Bluecrux",
@@ -1041,7 +1041,7 @@
       "agile"
     ]
   },
-  {
+  "https://www.aikido.dev/company/careers": {
     "title": "Jens Gellynck Security Engineer",
     "url": "https://www.aikido.dev/company/careers",
     "company": "Aikido Security",
@@ -1054,7 +1054,7 @@
       "ci/cd"
     ]
   },
-  {
+  "https://workat.septentrio.com/job-detail/?id=mp07xx4": {
     "title": "Fulltime Leuven Vacancy | Senior Cybersecurity Specialist | Leuven",
     "url": "https://workat.septentrio.com/job-detail/?id=mp07xx4",
     "company": "Septentrio",
@@ -1062,7 +1062,7 @@
     "first_seen": "2026-07-15",
     "stack": []
   },
-  {
+  "https://workat.septentrio.com/job-detail/?id=mp07x1n": {
     "title": "Fulltime Leuven or Espoo Vacancy | Embedded Software Engineer | Leuven or Espoo",
     "url": "https://workat.septentrio.com/job-detail/?id=mp07x1n",
     "company": "Septentrio",
@@ -1077,7 +1077,7 @@
       "agile"
     ]
   },
-  {
+  "https://workat.septentrio.com/job-detail/?id=mp07uxa": {
     "title": "Fulltime Leuven Vacancy | Senior DevOps Engineer | Leuven",
     "url": "https://workat.septentrio.com/job-detail/?id=mp07uxa",
     "company": "Septentrio",
@@ -1094,4 +1094,4 @@
       "ci/cd"
     ]
   }
-]
+}
