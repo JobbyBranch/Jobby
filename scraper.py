@@ -50,19 +50,26 @@ HEADERS = {
 JS_RENDERED_DOMAINS = ("cvw.io", "csod.com", "oraclecloud.com")
 
 # Titles must match at least one INCLUDE term...
+# NOTE: the bare word "engineer" is deliberately NOT in this list — only
+# qualified IT-engineer titles count. Mechanical/electrical/process engineers
+# are excluded via NON_IT_KEYWORDS below.
 IT_KEYWORDS = [
-    "developer", "ontwikkelaar", "programmeur", "engineer", "software",
-    "devops", "cloud", "ict", " it ", "it-", "system", "systeem", "network",
+    "developer", "ontwikkelaar", "programmeur", "software",
+    "devops", "cloud", "ict", "it", "it-", "network",
     "netwerk", "cyber", "security", "analist", "analyst", "architect",
     "sap", "erp", "crm", "frontend", "front-end", "backend", "back-end",
     "fullstack", "full-stack", "full stack", "java", "python", ".net",
-    "php", "scrum master", "product owner", "tester", "qa ", "test engineer",
+    "php", "scrum master", "product owner", "tester", "qa", "test engineer",
     "database", "data engineer", "data scientist", "data analist",
-    "data analyst", "machine learning", "infrastructure", "infrastructuur",
+    "data analyst", "machine learning", "ai engineer", "genai",
+    "generative ai", "llm", "infrastructure", "infrastructuur",
     "helpdesk", "servicedesk", "support engineer", "applicatiebeheer",
     "application manager", "functioneel analist", "functional analyst",
     "business intelligence", "power bi", "informatica", "webmaster",
     "integration", "integratie", "automation", "automatisering",
+    "system engineer", "systeembeheer", "system administrator",
+    "platform engineer", "cloud engineer", "sre", "site reliability",
+    "ml engineer", "security engineer", "network engineer",
 ]
 
 # ...and must NOT match any EXCLUDE term. Exclusions win: this keeps out
@@ -87,6 +94,17 @@ NON_IT_KEYWORDS = [
     "graphic designer", "social media", "e-commerce manager", "category",
     "buyer", "aankoper", "purchas", "procurement", "quality manager",
     "safety", "preventie", "milieu", "environment", "teamleider productie",
+    # non-IT engineering disciplines (we are an IT consultancy)
+    "mechanical", "mechanisch", "mechatronic", "hardware", "electronic",
+    "elektronica", "electrical", "elektrisch", "elektrotechn",
+    "process engineer", "project engineer", "field service",
+    "technical service engineer", "r&d engineer", "design engineer",
+    "structural", "civil engineer", "hvac", "thermal", "optical",
+    "rf engineer", "quality engineer", "validation engineer",
+    "manufacturing engineer", "industrial engineer", "industrialisation",
+    "industrialization", "calculation engineer", "commissioning",
+    "piping", "verification engineer",
+    "systems integration engineer aerospace", "avionic", "embedded hardware",
 ]
 
 TECH_TERMS = [
