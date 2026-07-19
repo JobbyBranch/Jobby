@@ -1,23 +1,371 @@
 [
   {
-    "title": "Analytics Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/8070015-analytics-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "title": "Dessel Tender engineer elektromechanische technieken bekijk vacature",
+    "url": "https://jobs.smetgroup.be/nl/tender-engineer-elektromechanische-technieken",
+    "company": "Smet Group",
+    "source": "https://jobs.smetgroup.be/nl",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Dessel Software engineer/developer bekijk vacature",
+    "url": "https://jobs.smetgroup.be/nl/software-engineer-developer",
+    "company": "Smet Group",
+    "source": "https://jobs.smetgroup.be/nl",
     "first_seen": "2026-07-19",
     "stack": [
-      "sql",
-      "tableau"
+      "python",
+      "azure",
+      "rest"
     ]
   },
   {
-    "title": "Proposal Engineer Stabroek",
-    "url": "https://jobs.aertssen.be/vacatures/detail/?id=2592&title=proposal-engineer-stabroek",
-    "company": "Aertssen",
-    "source": "https://jobs.aertssen.be/vacatures/",
+    "title": "Zedelgem Component Engineer Actuators bekijk vacature",
+    "url": "https://www.cnhind-belgium.be/nl/component-engineer-actuators",
+    "company": "CNH Industrial Belgium",
+    "source": "https://www.cnhind-belgium.be/nl#vacatures",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Zedelgem Software Engineer Forage Harvester bekijk vacature",
+    "url": "https://www.cnhind-belgium.be/nl/software-engineer-forage-harvester",
+    "company": "CNH Industrial Belgium",
+    "source": "https://www.cnhind-belgium.be/nl#vacatures",
     "first_seen": "2026-07-19",
     "stack": [
-      "javascript"
+      "azure",
+      "agile"
+    ]
+  },
+  {
+    "title": "Zedelgem Plant Engineer bekijk vacature",
+    "url": "https://www.cnhind-belgium.be/nl/plant-engineer",
+    "company": "CNH Industrial Belgium",
+    "source": "https://www.cnhind-belgium.be/nl#vacatures",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "BUSINESS ANALYST CAD PLM Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=350950&q=BUSINESS-ANALYST-CAD-PLM",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "BUSINESS ANALYST SAP MM Hooglede-Gits, België Bediende",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=334476&q=BUSINESS-ANALYST-SAP-MM",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "GenAI Engineer Hooglede-Gits, België Bediende",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=389596&q=GenAI-Engineer",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "NC - PROGRAMMEUR Hooglede-Gits, België Arbeider",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=384046&q=NC-PROGRAMMEUR",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "PROJECT ENGINEER ENGINEERING Hooglede-Gits, België Bediende Geen afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=372662&q=PROJECT-ENGINEER-ENGINEERING",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "Senior Network Engineer Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=388028&q=Senior-Network-Engineer",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "Senior Network Engineer Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=331935&q=Senior-Network-Engineer",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "SENIOR PROCESS ENGINEER Hooglede-Gits, België Bediende",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=391171&q=SENIOR-PROCESS-ENGINEER",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "TECHNICAL SERVICE ENGINEER ALU Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=388247&q=TECHNICAL-SERVICE-ENGINEER-ALU",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "TECHNICAL SERVICE ENGINEER PVC Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=338043&q=TECHNICAL-SERVICE-ENGINEER-PVC",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "TECHNICAL SUPPORT ENGINEER Hooglede-Gits, België Bediende Afstandswerk mogelijk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=331013&q=TECHNICAL-SUPPORT-ENGINEER",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "spring",
+      "python",
+      ".net",
+      "azure",
+      "sap"
+    ]
+  },
+  {
+    "title": "Hybride (Zedelgem) IT BUSINESS ANALYST bekijk vacature",
+    "url": "https://jobs.jacops.be/nl/it-business-analyst",
+    "company": "Jacops",
+    "source": "https://jobs.jacops.be/nl",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "sql",
+      "power bi",
+      "scrum",
+      "agile"
+    ]
+  },
+  {
+    "title": "Lauwe Senior Data Engineer bekijk vacature",
+    "url": "https://jobs.jetimport.be/nl/data-engineer",
+    "company": "Jet Import",
+    "source": "https://jobs.jetimport.be/nl",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "azure",
+      "sql"
+    ]
+  },
+  {
+    "title": "(Senior) Business analist (manufacturing) Veurne, België Optimaliseren van de bedrijfsprocessen rondom manufacturing",
+    "url": "https://jobs.duco.eu/?lang=nl-BE&section=2a8e1887-db4b-b3f8-e585-34a634849f3a&job=331099&q=-Senior-Business-analist-manufacturing-",
+    "company": "Duco",
+    "source": "https://jobs.duco.eu/?lang=nl-BE&section=2a8e1887-db4b-b3f8-e585-34a634849f3a",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "azure"
+    ]
+  },
+  {
+    "title": "Menen ICT System Engineer bekijk vacature",
+    "url": "https://jobs.valtechgroup.eu/nl/ict-system-engineer",
+    "company": "Valtech Group",
+    "source": "https://jobs.valtechgroup.eu/nl",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "azure"
+    ]
+  },
+  {
+    "title": "FPGA Engineer",
+    "url": "https://scioteq.recruitee.com/o/fpga-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Quality Assurance Engineer",
+    "url": "https://scioteq.recruitee.com/o/quality-assurance-engineer-1",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "(sr.) Software Engineer - Defense & Security",
+    "url": "https://scioteq.recruitee.com/o/sr-software-engineer-defense-security",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "java",
+      "python",
+      "linux"
+    ]
+  },
+  {
+    "title": "Avionics System & Cyber Security Engineer",
+    "url": "https://scioteq.recruitee.com/o/avionics-system-cyber-security-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Development Engineer Embedded Software",
+    "url": "https://scioteq.recruitee.com/o/development-engineer-embedded-software",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "python"
+    ]
+  },
+  {
+    "title": "Display Engineer Avionics",
+    "url": "https://scioteq.recruitee.com/o/display-engineer-avionics",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Electronics Development Engineer Avionics",
+    "url": "https://scioteq.recruitee.com/o/electronics-development-engineer-avionics-3",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "ERP Business Analyst",
+    "url": "https://scioteq.recruitee.com/o/erp-business-analyst",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Industrialisation Engineer Software",
+    "url": "https://scioteq.recruitee.com/o/industrialisation-engineer-software",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "c#",
+      "javascript",
+      "sql"
+    ]
+  },
+  {
+    "title": "Product Validation Engineer",
+    "url": "https://scioteq.recruitee.com/o/product-validation-engineer-3",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "R&I Avionics System Engineer",
+    "url": "https://scioteq.recruitee.com/o/ri-avionics-system-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Senior Optics Engineer",
+    "url": "https://scioteq.recruitee.com/o/senior-optics-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Software Quality Assurance Engineer",
+    "url": "https://scioteq.recruitee.com/o/software-quality-assurance-engineer-1",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "AI Engineer",
+    "url": "https://jobs.smartrecruiters.com/Locinox/744000129921959-ai-engineer",
+    "company": "Locinox",
+    "source": "https://jobs.locinox.com/#Departementen",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "python"
     ]
   }
 ]
