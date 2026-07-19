@@ -63,7 +63,7 @@ sources:
     url: "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium"
   - company: "Renson"
     url: "https://jobs.renson.be/nl/vacatures"
-    - company: "Smet Group"
+  - company: "Smet Group"
     url: "https://jobs.smetgroup.be/nl"
   - company: "CNH Industrial Belgium"
     url: "https://www.cnhind-belgium.be/nl#vacatures"
