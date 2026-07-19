@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobRadar — vacancy monitoring &amp; candidate matching</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%23EC4899'/></svg>" />
+  <script>
+    window.addEventListener("error", function (e) {
+      var el = document.getElementById("root");
+      if (el) el.innerHTML = '<div style="font-family: system-ui, sans-serif; padding:48px; color:#B4231F; font-size:14px; line-height:1.6;">' +
+        '<strong>JobRadar could not start.</strong><br>Please copy this message to Claude:<br><br><code style="background:#FEF2F2;padding:8px 12px;border-radius:8px;display:inline-block;max-width:90%;word-break:break-word;">' +
+        String(e.message || e.error || e).replace(/</g, "&lt;") + (e.filename ? "<br>in " + e.filename.split("/").pop() + " line " + e.lineno : "") +
+        '</code></div>';
+    }, true);
+  </script>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style> body { margin: 0; } </style>
+</head>
+<body>
+  <div id="root">
+    <div style="font-family: system-ui, sans-serif; padding: 48px; color: #64687D; font-size: 15px;">
+      Loading JobRadar…
+    </div>
+  </div>
+  <script type="text/babel" data-presets="react">
+const { useState, useMemo, useEffect } = React;
+
+/* ─────────── CONFIG ─────────── */
+const LIVE_DATA_URL = "https://raw.githubusercontent.com/JobbyBranch/Jobby/main/output/latest.json";
+
+/* ─────────── ICONS (inline, lucide-style) ─────────── */
+const icon = (inner) => ({ size = 16, color = "currentColor", strokeWidth = 2, className = "", style = {} }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth}
+    strokeLinecap="round" strokeLinejoin="round" className={className} style={style}
+    dangerouslySetInnerHTML={{ __html: inner }} />
+);
+const Radar = icon('<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/><line x1="12" y1="12" x2="18.5" y2="5.5"/>');
+const Zap = icon('<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>');
+const Search = icon('<circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/>');
+const ChevronDown = icon('<polyline points="6 9 12 15 18 9"/>');
+const Globe = icon('<circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>');
+const Bell = icon('<path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>');
+const Sparkles = icon('<path d="M12 3l1.9 5.2L19 10l-5.1 1.8L12 17l-1.9-5.2L5 10l5.1-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>');
+const Users = icon('<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>');
+const TrendingUp = icon('<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>');
+const Plus = icon('<line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>');
+const ArrowUpRight = icon('<line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/>');
+const LayoutDashboard = icon('<rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/>');
+const Pause = icon('<rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/>');
+const Play = icon('<polygon points="6 3 20 12 6 21 6 3"/>');
+const Upload = icon('<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>');
+const ChevronsLeft = icon('<polyline points="11 17 6 12 11 7"/><polyline points="18 17 13 12 18 7"/>');
+const ChevronsRight = icon('<polyline points="13 17 18 12 13 7"/><polyline points="6 17 11 12 6 7"/>');
+const List = icon('<line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>');
+const Building2 = icon('<path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v8h4"/><path d="M18 9h2a2 2 0 0 1 2 2v11h-4"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/>');
+const BarChart3 = icon('<path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/>');
+const Flame = icon('<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>');
+const ArrowUp = icon('<line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/>');
+const ArrowDown = icon('<line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>');
+const Clock = icon('<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>');
+const Link2 = icon('<path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 1 1 0 10h-2"/><line x1="8" y1="12" x2="16" y2="12"/>');
+const CalendarIcon = icon('<rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>');
+const Pencil = icon('<path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/>');
+const Trash2 = icon('<polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/>');
+const Download = icon('<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>');
+const XIcon = icon('<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>');
+const ShieldCheck = icon('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>');
+const RefreshCw = icon('<polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>');
+
+/* ─────────── LIGHTWEIGHT CHARTS (no external libs) ─────────── */
+function MiniAreaChart({ data }) {
+  const W = 640, H = 200, P = 28;
+  const maxMon = Math.max(...data.map((d) => d.monitored)) * 1.15;
+  const maxMkt = Math.max(...data.map((d) => d.market)) * 1.15;
+  const x = (i) => P + (i * (W - 2 * P)) / (data.length - 1);
+  const yMon = (v) => H - P - (v / maxMon) * (H - 2 * P);
+  const yMkt = (v) => H - P - (v / maxMkt) * (H - 2 * P);
+  const monPts = data.map((d, i) => `${x(i)},${yMon(d.monitored)}`).join(" ");
+  const mktPts = data.map((d, i) => `${x(i)},${yMkt(d.market)}`).join(" ");
+  const monArea = `${P},${H - P} ${monPts} ${W - P},${H - P}`;
+  return (
+    <svg viewBox={`0 0 ${W} ${H + 18}`} className="w-full" style={{ height: 230 }}>
+      <defs>
+        <linearGradient id="agrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#EC4899" stopOpacity="0.25" />
+          <stop offset="100%" stopColor="#EC4899" stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      {[0.25, 0.5, 0.75, 1].map((f) => (
+        <line key={f} x1={P} x2={W - P} y1={H - P - f * (H - 2 * P)} y2={H - P - f * (H - 2 * P)} stroke="#E9EAF1" strokeDasharray="3 3" />
+      ))}
+      <polygon points={monArea} fill="url(#agrad)" />
+      <polyline points={mktPts} fill="none" stroke="#4F6BFF" strokeWidth="2" strokeDasharray="5 4" />
+      <polyline points={monPts} fill="none" stroke="#EC4899" strokeWidth="2.5" strokeLinejoin="round" />
+      {data.map((d, i) => <circle key={i} cx={x(i)} cy={yMon(d.monitored)} r="3" fill="#EC4899" />)}
+      {data.map((d, i) => (
+        <text key={i} x={x(i)} y={H + 8} textAnchor="middle" fontSize="9.5" fontWeight="600" fill="#9DA1B4">{d.week}</text>
+      ))}
+    </svg>
+  );
+}
+
+function MiniBarChart({ data }) {
+  const W = 640, H = 210, P = 26;
+  const maxAbs = Math.max(...data.map((d) => Math.abs(d.change))) * 1.15;
+  const zero = P + ((H - 2 * P) * maxAbs) / (2 * maxAbs) + (H - 2 * P) / 2 * 0; // midline
+  const y0 = H / 2;
+  const scale = (H / 2 - P) / maxAbs;
+  const bw = (W - 2 * P) / data.length;
+  return (
+    <svg viewBox={`0 0 ${W} ${H + 14}`} className="w-full" style={{ height: 230 }}>
+      <line x1={P - 8} x2={W - P + 8} y1={y0} y2={y0} stroke="#E9EAF1" />
+      {data.map((d, i) => {
+        const h = Math.abs(d.change) * scale;
+        const bx = P + i * bw + bw * 0.18;
+        const by = d.change >= 0 ? y0 - h : y0;
+        return (
+          <g key={d.skill}>
+            <rect x={bx} y={by} width={bw * 0.64} height={h} rx="5" fill={d.change >= 0 ? "#4F6BFF" : "#F0A5C0"} />
+            <text x={bx + bw * 0.32} y={d.change >= 0 ? by - 5 : by + h + 11} textAnchor="middle" fontSize="9.5" fontWeight="700"
+              fill={d.change >= 0 ? "#4F6BFF" : "#DB5E8F"}>{d.change > 0 ? "+" : ""}{d.change}%</text>
+            <text x={bx + bw * 0.32} y={H + 8} textAnchor="middle" fontSize="9" fontWeight="600" fill="#9DA1B4">{d.skill}</text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+
+/* ─────────── DESIGN TOKENS ─────────── */
+const T = {
+  bg: "#F7F8FB",
+  card: "#FFFFFF",
+  ink: "#0E1129",
+  sub: "#64687D",
+  faint: "#9DA1B4",
+  line: "#E9EAF1",
+  pink: "#EC4899",
+  pinkSoft: "#FDF0F7",
+  blue: "#4F6BFF",
+  blueSoft: "#F0F3FF",
+  green: "#10B981",
+  greenSoft: "#ECFDF5",
+  amber: "#D97706",
+  amberSoft: "#FFFBEB",
+  red: "#DC2626",
+  redSoft: "#FEF2F2",
+  grad: "linear-gradient(135deg, #EC4899 0%, #4F6BFF 100%)",
+};
+
+const cardStyle = {
+  background: T.card,
+  border: `1px solid ${T.line}`,
+  borderRadius: 16,
+  boxShadow: "0 1px 2px rgba(14,17,41,0.04), 0 8px 24px rgba(14,17,41,0.04)",
+};
+
+/* ─────────── LIVE DATA (scraper) HELPERS ─────────── */
+const AVATAR_COLORS = ["#EC4899", "#4F6BFF", "#8B5CF6", "#06B6D4", "#F59E0B", "#10B981", "#6366F1", "#F43F5E"];
+
+function companyVisual(name) {
+  let h = 0;
+  for (const ch of name) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  const words = name.trim().split(/\s+/);
+  const logo = (words.length > 1 ? words[0][0] + words[1][0] : name.slice(0, 2)).toUpperCase();
+  return { logo, color: AVATAR_COLORS[h % AVATAR_COLORS.length] };
+}
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [], field = "", inQ = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (inQ) {
+      if (ch === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else inQ = false; }
+      else field += ch;
+    } else if (ch === '"') inQ = true;
+    else if (ch === ",") { row.push(field); field = ""; }
+    else if (ch === "\n" || ch === "\r") {
+      if (ch === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); field = "";
+      if (row.some((c) => c.trim() !== "")) rows.push(row);
+      row = [];
+    } else field += ch;
+  }
+  row.push(field);
+  if (row.some((c) => c.trim() !== "")) rows.push(row);
+  return rows;
+}
+
+function sheetRowsToCandidates(rows) {
+  if (rows.length < 2) throw new Error("sheet has no data rows");
+  const header = rows[0].map((h) => h.trim().toLowerCase());
+  const col = (names) => header.findIndex((h) => names.some((n) => h.includes(n)));
+  const iName = col(["name", "naam"]);
+  const iTitle = col(["role", "title", "functie", "rol"]);
+  const iYears = col(["year", "jaren", "ervaring", "experience"]);
+  const iSkills = col(["skill", "tech", "stack"]);
+  if (iName < 0) throw new Error("no Name column found — the first row must contain column names (Name, Role, Years, Skills)");
+  return rows.slice(1)
+    .filter((r) => (r[iName] || "").trim())
+    .map((r, i) => {
+      const name = r[iName].trim();
+      const v = companyVisual(name);
+      return {
+        id: Date.now() + i,
+        name,
+        title: iTitle >= 0 ? (r[iTitle] || "—").trim() : "—",
+        years: iYears >= 0 ? (parseInt(r[iYears]) || 0) : 0,
+        skills: iSkills >= 0 ? [...new Set(String(r[iSkills] || "").split(/[,;]+/).map((x) => normalizeSkill(x)).filter(Boolean))] : [],
+        initials: v.logo, color: v.color,
+      };
+    });
+}
+
+function mapScraperJobs(data) {
+  const now = Date.now();
+  return data
+    .filter((j) => j && j.title && j.url)
+    .map((j, i) => {
+      const v = companyVisual(j.company || "?");
+      const fs = j.first_seen ? new Date(j.first_seen) : null;
+      const isNew = fs ? (now - fs.getTime()) / 86400000 < 2 : false;
+      return {
+        id: `live-${i}`,
+        company: j.company || "Unknown",
+        logo: v.logo,
+        logoColor: v.color,
+        title: j.title,
+        iso: j.first_seen || "",
+        stack: [...new Set((j.stack || []).map(normalizeSkill))].slice(0, 6),
+        exp: j.experience || "",
+        url: j.url,
+        ai_matches: j.ai_matches || null,
+        isNew,
+      };
+    });
+}
+
+
+/* ─────────── MOCK DATA ─────────── */
+const CANDIDATES = [
+  { id: 1, name: "Sofie Vermeulen", initials: "SV", color: "#EC4899", years: 6, skills: ["java", "spring", "kubernetes", "aws", "kafka"], title: "Senior Java Engineer" },
+  { id: 2, name: "Thomas De Wit", initials: "TD", color: "#4F6BFF", years: 4, skills: ["react", "typescript", "node.js", "graphql", "aws"], title: "Fullstack Developer" },
+  { id: 3, name: "Amina El Khattabi", initials: "AE", color: "#8B5CF6", years: 8, skills: ["python", "django", "postgresql", "docker", "azure"], title: "Backend Lead" },
+  { id: 4, name: "Jonas Peeters", initials: "JP", color: "#06B6D4", years: 5, skills: ["java", "spring", "angular", "oracle", "jenkins"], title: "Java Developer" },
+  { id: 5, name: "Laura Janssens", initials: "LJ", color: "#F59E0B", years: 3, skills: ["react", "next.js", "typescript", "tailwind", "vercel"], title: "Frontend Developer" },
+  { id: 6, name: "Karim Benali", initials: "KB", color: "#10B981", years: 7, skills: ["kubernetes", "terraform", "aws", "python", "ci/cd"], title: "DevOps Engineer" },
+  { id: 7, name: "Elke Maes", initials: "EM", color: "#6366F1", years: 9, skills: ["java", "spring", "microservices", "kafka", "azure"], title: "Solution Architect" },
+  { id: 8, name: "Pieter Claes", initials: "PC", color: "#F43F5E", years: 2, skills: ["python", "pandas", "sql", "airflow", "gcp"], title: "Data Engineer" },
+];
+
+const INITIAL_JOBS = [
+  { id: 1, company: "KBC Group", logo: "KB", logoColor: "#4F6BFF", title: "Senior Java Developer", iso: "2026-07-15", stack: ["java", "spring boot", "kubernetes", "aws"], exp: "5+ yrs", url: "https://jobs.kbc.com/senior-java-developer", isNew: true },
+  { id: 2, company: "Odoo", logo: "OD", logoColor: "#8B5CF6", title: "Fullstack JavaScript Engineer", iso: "2026-07-15", stack: ["react", "node.js", "typescript", "graphql"], exp: "3+ yrs", url: "https://odoo.com/jobs/fullstack-js", isNew: true },
+  { id: 3, company: "KBC Group", logo: "KB", logoColor: "#4F6BFF", title: "DevOps Engineer", iso: "2026-07-15", stack: ["kubernetes", "terraform", "aws", "ci/cd"], exp: "4+ yrs", url: "https://jobs.kbc.com/devops-engineer", isNew: true },
+  { id: 4, company: "Barco", logo: "BA", logoColor: "#06B6D4", title: "Backend Python Developer", iso: "2026-07-14", stack: ["python", "django", "postgresql", "docker"], exp: "3+ yrs", url: "https://barco.com/careers/backend-python", isNew: false },
+  { id: 5, company: "Colruyt Group", logo: "CG", logoColor: "#F59E0B", title: "Solution Architect", iso: "2026-07-14", stack: ["java", "microservices", "kafka", "azure"], exp: "8+ yrs", url: "https://jobs.colruytgroup.com/solution-architect", isNew: false },
+  { id: 6, company: "Odoo", logo: "OD", logoColor: "#8B5CF6", title: "Data Engineer", iso: "2026-07-13", stack: ["python", "sql", "airflow", "gcp"], exp: "2+ yrs", url: "https://odoo.com/jobs/data-engineer", isNew: false },
+];
+
+const SIMULATED_JOBS = [
+  { company: "Materialise", logo: "MA", logoColor: "#EC4899", title: "Cloud Platform Engineer", stack: ["kubernetes", "aws", "python", "terraform"], exp: "4+ yrs", url: "https://materialise.com/jobs/cloud-platform" },
+  { company: "KBC Group", logo: "KB", logoColor: "#4F6BFF", title: "Java Integration Developer", stack: ["java", "spring", "kafka", "oracle"], exp: "3+ yrs", url: "https://jobs.kbc.com/java-integration" },
+  { company: "Odoo", logo: "OD", logoColor: "#8B5CF6", title: "Frontend Engineer", stack: ["react", "typescript", "next.js", "tailwind"], exp: "2+ yrs", url: "https://odoo.com/jobs/frontend" },
+];
+
+const INITIAL_SOURCES = [
+  { id: 1, company: "Octiva", name: "octiva.tech", url: "https://octiva.tech/jobs/", status: "live" },
+  { id: 2, company: "Tabaknatie", name: "tabaknatie.be", url: "https://tabaknatie.be/vacancies/", status: "live" },
+  { id: 3, company: "Pionira", name: "pionira.be", url: "https://pionira.be/vacatures/", status: "live" },
+  { id: 4, company: "Olympus Mobility", name: "olympus-mobility.be", url: "https://www.olympus-mobility.be/nl/over-olympus-mobility/vacatures", status: "live" },
+  { id: 5, company: "Emma\u00fcs ICT", name: "ict-emmaus.cvw.io", url: "https://ict-emmaus.cvw.io/?lang=nl-BE", status: "live" },
+  { id: 6, company: "Warren", name: "warren.eu", url: "https://www.warren.eu/nl/about/careers", status: "live" },
+  { id: 7, company: "Robovision", name: "robovision.ai", url: "https://robovision.ai/about-us/careers", status: "live" },
+  { id: 8, company: "Ads & Data", name: "jobs.adsanddata.be", url: "https://jobs.adsanddata.be/", status: "live" },
+  { id: 9, company: "Cartamundi", name: "cartamundi.com", url: "https://cartamundi.com/careers", status: "live" },
+  { id: 10, company: "Reynaers Aluminium", name: "reynaers.com", url: "https://www.reynaers.com/careers", status: "live" },
+  { id: 11, company: "Groot Groter Groots", name: "grootgrotergroots.be", url: "https://www.grootgrotergroots.be/nl-be/jobs/", status: "live" },
+  { id: 12, company: "Indaver", name: "indaver.com", url: "https://indaver.com/careers/our-vacancies/vacancies-belgium", status: "live" },
+  { id: 13, company: "Brady", name: "brady.hr-technologies.com", url: "https://brady.hr-technologies.com/front/nl/vacancies", status: "live" },
+  { id: 14, company: "Twipe", name: "twipemobile.com", url: "https://www.twipemobile.com/careers/", status: "live" },
+  { id: 15, company: "VITO", name: "vito.be", url: "https://vito.be/nl/jobs#paragraph-16553", status: "live" },
+  { id: 16, company: "DPG Media", name: "dpgmediagroup.com", url: "https://www.dpgmediagroup.com/nl-BE/werken-bij-ons/alle-vacatures", status: "live" },
+  { id: 17, company: "Remmicom", name: "jobs.remmicom.be", url: "https://jobs.remmicom.be/jobs/", status: "live" },
+  { id: 18, company: "Flowtribe", name: "flowtribe.io", url: "https://www.flowtribe.io/jobs", status: "live" },
+  { id: 19, company: "H.Essers", name: "jobs.essers.com", url: "https://jobs.essers.com/nl-be/vacatures/", status: "live" },
+  { id: 20, company: "T\u00dcV Austria", name: "be.tuvaustria.com", url: "https://be.tuvaustria.com/jobs/", status: "live" },
+  { id: 21, company: "Qover", name: "qover.com", url: "https://www.qover.com/careers#jobs", status: "live" },
+  { id: 22, company: "Qargo", name: "careers.qargo.com", url: "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium", status: "live" },
+  { id: 23, company: "MSC", name: "msc.csod.com", url: "https://msc.csod.com/ux/ats/careersite/4/home?c=msc&country=be", status: "live" },
+  { id: 24, company: "Vanheede", name: "jobs.vanheede.com", url: "https://jobs.vanheede.com/nl", status: "live" },
+  { id: 25, company: "Vanden Broele", name: "vandenbroele.be", url: "https://www.vandenbroele.be/jobs#jobsection", status: "live" },
+  { id: 26, company: "Unilin", name: "jobs.unilin.com", url: "https://jobs.unilin.com/nl-be/jobs?filter=jobcode.eq.is&page=1&page_size=12&view_size=12", status: "live" },
+  { id: 27, company: "Picanol", name: "picanol.be", url: "https://www.picanol.be/nl/jobs/vind-een-job", status: "live" },
+  { id: 28, company: "Greenyard", name: "careers-greenyard.cvw.io", url: "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93", status: "live" },
+  { id: 29, company: "Pelckmans", name: "jobs.pelckmans.be", url: "https://jobs.pelckmans.be/nl", status: "live" },
+  { id: 30, company: "Aertssen", name: "jobs.aertssen.be", url: "https://jobs.aertssen.be/vacatures/", status: "live" },
+  { id: 31, company: "BrightAnalytics", name: "jobs.brightanalytics.eu", url: "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium", status: "live" },
+  { id: 32, company: "Renson", name: "jobs.renson.be", url: "https://jobs.renson.be/nl/vacatures", status: "live" },
+  { id: 33, company: "Jeco Energies", name: "jobs.jeco-energies.com", url: "https://jobs.jeco-energies.com/nl", status: "live" },
+  { id: 34, company: "Bluecrux", name: "bluecrux.com", url: "https://www.bluecrux.com/jobs/", status: "live" },
+  { id: 35, company: "Meat&More", name: "meatandmore.be", url: "https://www.meatandmore.be/nl/vacatures?field_preference_1=All&field_function=250&field_province=All", status: "live" },
+  { id: 36, company: "RGF Staffing", name: "rgfstaffing.be", url: "https://www.rgfstaffing.be/nl/jobs", status: "live" },
+  { id: 37, company: "Aperam", name: "hdhy.fa.em3.oraclecloud.com", url: "https://hdhy.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/AperamCareerSite/jobs?location=Belgium&locationId=300000000361235&locationLevel=country&mode=location", status: "live" },
+  { id: 38, company: "Aikido Security", name: "aikido.dev", url: "https://www.aikido.dev/company/careers#jobs", status: "live" },
+  { id: 39, company: "Septentrio", name: "workat.septentrio.com", url: "https://workat.septentrio.com/", status: "live" },
+];
+
+/* trends mock data */
+const WEEKLY_TRENDS = [
+  { week: "W17", monitored: 6, market: 210 },
+  { week: "W18", monitored: 8, market: 224 },
+  { week: "W19", monitored: 7, market: 218 },
+  { week: "W20", monitored: 11, market: 240 },
+  { week: "W21", monitored: 9, market: 236 },
+  { week: "W22", monitored: 13, market: 255 },
+  { week: "W23", monitored: 12, market: 261 },
+  { week: "W24", monitored: 15, market: 270 },
+  { week: "W25", monitored: 14, market: 268 },
+  { week: "W26", monitored: 18, market: 285 },
+  { week: "W27", monitored: 17, market: 290 },
+  { week: "W28", monitored: 21, market: 302 },
+];
+
+const COMPANY_TRENDS = [
+  { company: "KBC Group", logo: "KB", logoColor: "#4F6BFF", last30: 12, prev30: 7, open: 14 },
+  { company: "Odoo", logo: "OD", logoColor: "#8B5CF6", last30: 9, prev30: 4, open: 9 },
+  { company: "Proximus", logo: "PX", logoColor: "#6366F1", last30: 6, prev30: 6, open: 7 },
+  { company: "Materialise", logo: "MA", logoColor: "#EC4899", last30: 5, prev30: 2, open: 6 },
+  { company: "Barco", logo: "BA", logoColor: "#06B6D4", last30: 3, prev30: 5, open: 4 },
+  { company: "Colruyt Group", logo: "CG", logoColor: "#F59E0B", last30: 2, prev30: 3, open: 3 },
+];
+
+const SKILL_TRENDS = [
+  { skill: "Kubernetes", change: 38 },
+  { skill: "AWS", change: 24 },
+  { skill: "TypeScript", change: 19 },
+  { skill: "Python", change: 12 },
+  { skill: "Java", change: 6 },
+  { skill: "Terraform", change: 31 },
+  { skill: "Angular", change: -14 },
+  { skill: "PHP", change: -22 },
+];
+
+/* ─────────── SKILL NORMALIZATION (Level 2) ─────────── */
+// variant -> canonical. Both candidate skills and vacancy stacks pass through
+// this, so "React.js", "reactjs" and "react" all match each other.
+const SKILL_SYNONYMS = {
+  "reactjs": "react", "react.js": "react", "react js": "react",
+  "vuejs": "vue", "vue.js": "vue", "vue js": "vue", "nuxt": "nuxt.js", "nuxtjs": "nuxt.js",
+  "nextjs": "next.js", "next js": "next.js",
+  "angularjs": "angular", "angular.js": "angular",
+  "nodejs": "node.js", "node": "node.js", "node js": "node.js",
+  "ts": "typescript", "js": "javascript", "es6": "javascript",
+  "k8s": "kubernetes", "kube": "kubernetes", "aks": "kubernetes", "eks": "kubernetes", "gke": "kubernetes",
+  "amazon web services": "aws", "google cloud": "gcp", "google cloud platform": "gcp",
+  "microsoft azure": "azure", "azure cloud": "azure",
+  "dotnet": ".net", ".net core": ".net", "dot net": ".net", "asp.net": ".net", "asp.net core": ".net", ".net framework": ".net",
+  "csharp": "c#", "c sharp": "c#",
+  "golang": "go",
+  "postgres": "postgresql", "psql": "postgresql",
+  "mssql": "sql server", "ms sql": "sql server", "ms-sql": "sql server", "sqlserver": "sql server", "t-sql": "sql server",
+  "mongo": "mongodb",
+  "es": "elasticsearch", "elastic": "elasticsearch",
+  "tf": "terraform", "iac": "terraform",
+  "cicd": "ci/cd", "ci-cd": "ci/cd", "ci cd": "ci/cd", "continuous integration": "ci/cd", "devops": "ci/cd",
+  "springboot": "spring boot", "spring-boot": "spring boot", "spring": "spring boot",
+  "jakarta ee": "java", "java ee": "java", "j2ee": "java", "jee": "java",
+  "hibernate/jpa": "hibernate", "jpa": "hibernate",
+  "power-bi": "power bi", "powerbi": "power bi",
+  "ml": "machine learning", "ai": "machine learning", "artificial intelligence": "machine learning",
+  "rhel": "linux", "red hat": "linux", "redhat": "linux", "ubuntu": "linux", "debian": "linux", "centos": "linux",
+  "scrummaster": "scrum master", "scrum-master": "scrum master",
+  "po": "product owner", "productowner": "product owner",
+  "ba": "business analysis", "business analyst": "business analysis", "business analyse": "business analysis",
+  "functional analyst": "functional analysis", "functioneel analist": "functional analysis", "functionele analyse": "functional analysis",
+  "pm": "project management", "project manager": "project management", "projectleider": "project management",
+  "active directory": "entra id", "azure ad": "entra id", "ad": "entra id",
+  "openshift": "kubernetes", "rancher": "kubernetes",
+  "kafka streams": "kafka", "apache kafka": "kafka",
+  "adf": "azure data factory", "data factory": "azure data factory",
+  "netwerk": "network", "networking": "network", "netwerken": "network",
+  "beveiliging": "security", "cybersecurity": "security", "cyber security": "security",
+  "d365": "dynamics 365", "dynamics": "dynamics 365",
+};
+
+function normalizeSkill(raw) {
+  const s = String(raw).toLowerCase().trim();
+  return SKILL_SYNONYMS[s] || s;
+}
+
+// generic terms count for less in the score than distinctive ones
+const GENERIC_SKILLS = new Set(["sql", "agile", "scrum", "git", "rest", "api", "html", "css", "javascript", "jira", "confluence", "docker", "ci/cd", "linux", "unit testing"]);
+const skillWeight = (sk) => (GENERIC_SKILLS.has(sk) ? 0.5 : 1);
+
+/* ─────────── AI MATCH RESOLVER (Level 3) ─────────── */
+// The scraper stores matches as sheet row numbers (never names). Here we map
+// rows back to the candidate list synced in THIS browser. The "check" field
+// (first letter + years) detects when the sheet order changed since matching;
+// on any mismatch we fall back to live keyword matching.
+function resolveAiMatches(job, candidates) {
+  if (!job.ai_matches || !Array.isArray(job.ai_matches) || !job.ai_matches.length) return null;
+  const out = [];
+  for (const m of job.ai_matches) {
+    const c = candidates[m.row];
+    if (!c) return null;
+    const chk = (c.name[0] || "?").toLowerCase() + String(c.years);
+    if (m.check && m.check !== chk) return null;
+    out.push({ ...c, score: Math.max(0, Math.min(100, m.score | 0)), overlap: [], reason: m.reason || "", ai: true });
+  }
+  return out.slice(0, 3);
+}
+
+/* ─────────── MATCHING ─────────── */
+function matchCandidates(job, candidates) {
+  const reqYears = parseInt(job.exp) || 0;
+  const jobStack = [...new Set(job.stack.map(normalizeSkill))];
+  const jobWeightTotal = jobStack.reduce((a, sk) => a + skillWeight(sk), 0) || 1;
+  return candidates.map((c) => {
+    const cSkills = new Set(c.skills.map(normalizeSkill));
+    const overlap = jobStack.filter((sk) => cSkills.has(sk));
+    const skillScore = overlap.reduce((a, sk) => a + skillWeight(sk), 0) / jobWeightTotal;
+    const expScore = c.years >= reqYears ? 1 : c.years / reqYears;
+    const score = Math.round((skillScore * 0.75 + expScore * 0.25) * 100);
+    const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+    const reason =
+      overlap.length === 0
+        ? "No direct stack overlap"
+        : `${overlap.slice(0, 3).map(cap).join(", ")} · ${c.years} yrs experience${c.years >= reqYears ? "" : ` (below ${job.exp})`}`;
+    return { ...c, score, overlap, reason };
+  }).sort((a, b) => b.score - a.score).slice(0, 3);
+}
+
+/* ─────────── ATOMS ─────────── */
+const Chip = ({ label, tone = "blue" }) => {
+  const map = { blue: { bg: T.blueSoft, fg: T.blue }, pink: { bg: T.pinkSoft, fg: T.pink }, gray: { bg: "#F3F4F8", fg: T.sub } };
+  const s = map[tone];
+  return <span className="inline-flex items-center text-[12px] font-semibold px-2 py-[3px] rounded-md mr-1.5 mb-1" style={{ background: s.bg, color: s.fg }}>{label}</span>;
+};
+
+const Avatar = ({ c, size = 30, ring = true }) => (
+  <div className="flex items-center justify-center rounded-full font-bold text-white shrink-0 select-none"
+    style={{ width: size, height: size, background: `linear-gradient(135deg, ${c.color}, ${c.color}CC)`, fontSize: size / 2.7, boxShadow: ring ? "0 0 0 2px #fff" : "none" }}
+    title={`${c.name} · ${c.title}`}>
+    {c.initials}
+  </div>
+);
+
+const Logo = ({ job, size = 46 }) => (
+  <div className="flex items-center justify-center rounded-xl font-bold text-white shrink-0" style={{ width: size, height: size, fontSize: size * 0.3, background: `linear-gradient(135deg, ${job.logoColor}, ${job.logoColor}B8)`, boxShadow: `0 3px 10px ${job.logoColor}40` }}>
+    {job.logo}
+  </div>
+);
+
+const ScorePill = ({ score }) => {
+  const tone = score >= 75 ? { fg: T.green, bg: T.greenSoft } : score >= 50 ? { fg: T.amber, bg: T.amberSoft } : { fg: T.red, bg: T.redSoft };
+  return (
+    <div className="flex items-center gap-1.5 px-2 py-[3px] rounded-full" style={{ background: tone.bg }}>
+      <span className="w-1.5 h-1.5 rounded-full" style={{ background: tone.fg }} />
+      <span className="text-[12px] font-bold tabular-nums" style={{ color: tone.fg }}>{score}%</span>
+    </div>
+  );
+};
+
+const Delta = ({ value, suffix = "%" }) => {
+  const up = value >= 0;
+  return (
+    <span className="inline-flex items-center gap-0.5 text-[12.5px] font-bold tabular-nums px-1.5 py-[2px] rounded-md" style={{ color: up ? T.green : T.red, background: up ? T.greenSoft : T.redSoft }}>
+      {up ? <ArrowUp size={11} /> : <ArrowDown size={11} />}{Math.abs(value)}{suffix}
+    </span>
+  );
+};
+
+const Stat = ({ icon: Icon, label, value, tint, extra }) => (
+  <div style={cardStyle} className="p-4 flex items-center gap-3.5 transition-shadow hover:shadow-md">
+    <div className="rounded-xl p-2.5" style={{ background: tint === "pink" ? T.pinkSoft : T.blueSoft }}>
+      <Icon size={18} color={tint === "pink" ? T.pink : T.blue} strokeWidth={2.2} />
+    </div>
+    <div className="min-w-0">
+      <div className="flex items-center gap-2">
+        <span className="text-[23px] font-bold leading-tight tracking-tight tabular-nums" style={{ color: T.ink }}>{value}</span>
+        {extra}
+      </div>
+      <div className="text-[13px] font-medium truncate" style={{ color: T.sub }}>{label}</div>
+    </div>
+  </div>
+);
+
+const PageHeader = ({ title, subtitle, action }) => (
+  <div className="flex items-center justify-between gap-3 flex-wrap mb-6">
+    <div>
+      <h1 className="text-[21px] font-bold tracking-tight">{title}</h1>
+      <p className="text-[14px] font-medium mt-0.5" style={{ color: T.sub }}>{subtitle}</p>
+    </div>
+    {action}
+  </div>
+);
+
+/* ─────────── JOB ROW (shared by list & grouped views) ─────────── */
+function JobRow({ job, open, onToggle, isLast, showCompany = true }) {
+  return (
+    <div className={job.isNew ? "slide" : ""} style={{ borderBottom: isLast ? "none" : `1px solid ${T.line}` }}>
+      <button onClick={onToggle} className="row-hover w-full text-left px-5 py-4 flex items-start gap-3.5">
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 flex-wrap">
+            {showCompany ? (
+              <span className="text-[15.5px] font-bold tracking-tight" style={{ color: T.ink }}>{job.company}</span>
+            ) : (
+              <span className="text-[15px] font-bold tracking-tight" style={{ color: T.ink }}>{job.title}</span>
+            )}
+            {job.isNew && <span className="text-[11px] font-bold px-1.5 py-[2px] rounded-md text-white uppercase tracking-wide" style={{ background: T.grad }}>New</span>}
+
+          </div>
+          {showCompany && (
+            <div className="text-[14.5px] font-semibold mt-0.5 mb-2" style={{ color: T.sub }}>{job.title}</div>
+          )}
+          <div className={`flex flex-wrap items-center ${showCompany ? "" : "mt-1.5"}`}>
+            {job.stack.map((s) => <Chip key={s} label={s} />)}
+            {job.exp && <Chip label={job.exp} tone="pink" />}
+          </div>
+          <a href={job.url} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()} className="inline-flex items-center gap-1 text-[13px] font-semibold mt-1.5 hover:underline" style={{ color: T.blue }}>
+            {job.url.replace("https://", "")} <ArrowUpRight size={12} />
+          </a>
+        </div>
+        <div className="hidden sm:flex flex-col items-end gap-2 shrink-0 pt-0.5">
+          <div className="flex -space-x-1.5">{job.matches.map((m) => <Avatar key={m.id} c={m} size={28} />)}</div>
+          <div className="flex items-center gap-1 text-[12.5px] font-semibold" style={{ color: T.faint }}>
+            Top matches
+            <ChevronDown size={13} style={{ transform: open ? "rotate(180deg)" : "none", transition: "transform .2s" }} />
+          </div>
+        </div>
+      </button>
+
+      {open && (
+        <div className="expand px-5 pb-5">
+          <div className="rounded-xl p-4" style={{ background: "#FAFBFE", border: `1px solid ${T.line}` }}>
+            <div className="flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-wider mb-3" style={{ color: T.pink }}>
+              <Sparkles size={13} /> Top 3 Matches
+              {job.matches[0] && job.matches[0].ai && (
+                <span className="text-[11px] font-bold px-1.5 py-[2px] rounded-md text-white normal-case tracking-normal" style={{ background: T.grad }}>AI-matched</span>
+              )}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              {job.matches.map((m, i) => (
+                <div key={m.id} className="rounded-xl p-3.5 transition-shadow hover:shadow-md" style={{ background: "#fff", border: `1px solid ${T.line}` }}>
+                  <div className="flex items-center gap-2.5 mb-2">
+                    <Avatar c={m} size={34} ring={false} />
+                    <div className="min-w-0 flex-1">
+                      <div className="text-[14px] font-bold truncate tracking-tight">{m.name}</div>
+                      <div className="text-[12.5px] font-medium truncate" style={{ color: T.sub }}>{m.title}</div>
+                    </div>
+                    <ScorePill score={m.score} />
+                  </div>
+                  <div className="h-1 rounded-full mb-2.5 overflow-hidden" style={{ background: "#EEF0F6" }}>
+                    <div className="h-full rounded-full" style={{ width: `${m.score}%`, background: T.grad }} />
+                  </div>
+                  <p className="text-[13px] font-medium leading-relaxed" style={{ color: T.sub }}>
+                    <span className="font-bold" style={{ color: T.ink }}>#{i + 1}</span> · {m.reason}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ─────────── DASHBOARD · daily digest ─────────── */
+function formatDayLabel(iso) {
+  if (!iso) return "Date unknown";
+  const d = new Date(iso + "T00:00:00");
+  if (isNaN(d)) return iso;
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const diff = Math.round((today - d) / 86400000);
+  const nice = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  if (diff === 0) return `Today · ${nice}`;
+  if (diff === 1) return `Yesterday · ${nice}`;
+  return nice;
+}
+
+function DashboardView({ enriched, searchFiltered, jobs, query, setQuery, expanded, setExpanded, simulate, dataMode, syncInfo, candidatesCount }) {
+  const [dayOverrides, setDayOverrides] = useState({});
+
+  const companiesCount = new Set(jobs.map((j) => j.company)).size;
+  const todayIso = new Date().toISOString().slice(0, 10);
+  const newToday = jobs.filter((j) => j.iso === todayIso).length;
+  const newCount = jobs.filter((j) => j.isNew).length;
+
+  // group by day, newest first
+  const days = useMemo(() => {
+    const map = new Map();
+    searchFiltered.forEach((j) => {
+      const key = j.iso || "unknown";
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(j);
+    });
+    return [...map.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
+  }, [searchFiltered]);
+
+  const isDayOpen = (key, idx) => (key in dayOverrides ? dayOverrides[key] : idx === 0);
+  const toggleDay = (key, idx) => setDayOverrides((p) => ({ ...p, [key]: !isDayOpen(key, idx) }));
+
+  return (
+    <>
+      <PageHeader
+        title="New jobs per day"
+        subtitle="Every morning scan, grouped by day — so your recruiters see at a glance what's new"
+        action={
+          <div className="flex items-center gap-2">
+            <span className="flex items-center gap-1.5 text-[12.5px] font-semibold px-2.5 py-1.5 rounded-full"
+              style={{ background: dataMode === "live" ? T.greenSoft : "#F3F4F8", color: dataMode === "live" ? T.green : T.faint }}>
+              <span className={`w-1.5 h-1.5 rounded-full ${dataMode === "live" ? "glow" : ""}`} style={{ background: dataMode === "live" ? T.green : T.faint }} />
+              {dataMode === "live" ? `Live data${syncInfo?.time ? ` · synced ${syncInfo.time}` : ""}` : "Demo data"}
+            </span>
+            {dataMode === "demo" && (
+              <button onClick={simulate} className="flex items-center gap-1.5 text-[14px] font-semibold px-4 h-9 rounded-[10px] text-white transition-opacity hover:opacity-90"
+                style={{ background: T.grad, boxShadow: "0 4px 14px rgba(236,72,153,0.28)" }}>
+                <Zap size={14} strokeWidth={2.4} /> Simulate scan
+              </button>
+            )}
+          </div>
+        }
+      />
+
+      <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+        <Stat icon={Building2} label="Companies tracked" value={companiesCount} tint="blue" />
+        <Stat icon={Sparkles} label="New jobs today" value={newToday} tint="pink" />
+        <Stat icon={TrendingUp} label="New this week" value={newCount} tint="blue" />
+        <Stat icon={Users} label="Candidates in CV base" value={candidatesCount} tint="pink" />
+      </div>
+
+      {/* search */}
+      <div className="flex items-center gap-2 px-3 h-9 rounded-[10px] max-w-[300px] mb-5" style={{ background: "#fff", border: `1px solid ${T.line}` }}>
+        <Search size={14} color={T.faint} />
+        <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search company, role or tech…" className="outline-none text-[14px] font-medium w-full bg-transparent" />
+      </div>
+
+      {/* day groups */}
+      <div className="space-y-4">
+        {days.map(([key, dayJobs], idx) => {
+          const open = isDayOpen(key, idx);
+          return (
+            <section key={key} style={cardStyle} className="overflow-hidden">
+              <button onClick={() => toggleDay(key, idx)} className="row-hover w-full flex items-center gap-3 px-5 py-4 text-left">
+                <div className="rounded-xl p-2" style={{ background: idx === 0 ? T.pinkSoft : T.blueSoft }}>
+                  <CalendarIcon size={16} color={idx === 0 ? T.pink : T.blue} strokeWidth={2.2} />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="text-[15.5px] font-bold tracking-tight truncate">{formatDayLabel(key)}</div>
+                </div>
+                <span className="text-[13px] font-bold tabular-nums px-2.5 py-1 rounded-full shrink-0"
+                  style={{ background: idx === 0 ? T.pinkSoft : T.blueSoft, color: idx === 0 ? T.pink : T.blue }}>
+                  {dayJobs.length} new job{dayJobs.length !== 1 ? "s" : ""}
+                </span>
+                <ChevronDown size={16} color={T.faint} className="shrink-0" style={{ transform: open ? "rotate(180deg)" : "none", transition: "transform .2s" }} />
+              </button>
+              {open && (
+                <div className="expand" style={{ borderTop: `1px solid ${T.line}` }}>
+                  {dayJobs.map((job, i) => (
+                    <JobRow key={job.id} job={job} open={expanded === job.id} onToggle={() => setExpanded(expanded === job.id ? null : job.id)} isLast={i === dayJobs.length - 1} />
+                  ))}
+                </div>
+              )}
+            </section>
+          );
+        })}
+
+        {days.length === 0 && (
+          <div style={cardStyle} className="px-5 py-12 text-center">
+            <p className="text-[14.5px] font-semibold" style={{ color: T.sub }}>No jobs match your search</p>
+            <p className="text-[13.5px] font-medium mt-1" style={{ color: T.faint }}>Try another company, role or technology</p>
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
+/* ─────────── HIRING TRENDS ─────────── */
+function TrendsView() {
+  const [range, setRange] = useState("90d");
+  const totalLast30 = COMPANY_TRENDS.reduce((a, c) => a + c.last30, 0);
+  const totalPrev30 = COMPANY_TRENDS.reduce((a, c) => a + c.prev30, 0);
+  const marketDelta = Math.round(((totalLast30 - totalPrev30) / totalPrev30) * 100);
+  const sorted = [...COMPANY_TRENDS].sort((a, b) => b.last30 - a.last30);
+  const fastest = [...COMPANY_TRENDS].sort((a, b) => (b.last30 - b.prev30) / Math.max(b.prev30, 1) - (a.last30 - a.prev30) / Math.max(a.prev30, 1))[0];
+  const maxBar = Math.max(...sorted.map((c) => c.last30));
+
+
+  return (
+    <>
+      <PageHeader
+        title="Hiring trends"
+        subtitle="How the IT labor market is moving across your monitored companies"
+        action={
+          <div className="flex items-center rounded-[10px] p-0.5" style={{ background: "#fff", border: `1px solid ${T.line}` }}>
+            {["30d", "90d", "12m"].map((r) => (
+              <button key={r} onClick={() => setRange(r)} className="text-[13px] font-semibold px-3 h-7 rounded-lg transition-colors" style={{ background: range === r ? T.blueSoft : "transparent", color: range === r ? T.blue : T.faint }}>
+                {r}
+              </button>
+            ))}
+          </div>
+        }
+      />
+
+      {/* headline stats */}
+      <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+        <Stat icon={BarChart3} label="New IT jobs · last 30 days" value={totalLast30} tint="blue" extra={<Delta value={marketDelta} />} />
+        <Stat icon={Flame} label="Most active company" value={sorted[0].company.split(" ")[0]} tint="pink" />
+        <Stat icon={TrendingUp} label={`Fastest growing · ${fastest.company}`} value={`+${Math.round(((fastest.last30 - fastest.prev30) / Math.max(fastest.prev30, 1)) * 100)}%`} tint="pink" />
+        <Stat icon={Sparkles} label="Hottest skill in demand" value="Kubernetes" tint="blue" extra={<Delta value={38} />} />
+      </div>
+
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 mb-5">
+        {/* market chart */}
+        <div style={cardStyle} className="p-5">
+          <div className="mb-4">
+            <h3 className="text-[15.5px] font-bold tracking-tight">New IT vacancies per week</h3>
+            <p className="text-[13px] font-medium mt-0.5" style={{ color: T.sub }}>Your monitored pages vs. the wider Belgian IT market (indexed)</p>
+          </div>
+          <MiniAreaChart data={WEEKLY_TRENDS} />
+          <div className="flex items-center gap-4 mt-2 text-[12.5px] font-semibold" style={{ color: T.sub }}>
+            <span className="flex items-center gap-1.5"><span className="w-2.5 h-[3px] rounded-full" style={{ background: T.pink }} /> Your monitored pages</span>
+            <span className="flex items-center gap-1.5"><span className="w-2.5 h-[3px] rounded-full" style={{ background: T.blue }} /> Market index (dashed)</span>
+          </div>
+        </div>
+
+        {/* tech demand */}
+        <div style={cardStyle} className="p-5">
+          <div className="mb-4">
+            <h3 className="text-[15.5px] font-bold tracking-tight">Tech stack demand</h3>
+            <p className="text-[13px] font-medium mt-0.5" style={{ color: T.sub }}>Change in mentions across new vacancies · last 90 days</p>
+          </div>
+          <MiniBarChart data={SKILL_TRENDS} />
+        </div>
+      </div>
+
+      {/* company leaderboard */}
+      <div style={cardStyle} className="overflow-hidden">
+        <div className="px-5 pt-5 pb-4" style={{ borderBottom: `1px solid ${T.line}` }}>
+          <h3 className="text-[15.5px] font-bold tracking-tight">Who is hiring the most?</h3>
+          <p className="text-[13px] font-medium mt-0.5" style={{ color: T.sub }}>New IT vacancies posted in the last 30 days vs. the 30 days before — spot momentum early</p>
+        </div>
+        <div className="hidden md:grid px-5 py-3 text-[12px] font-bold uppercase tracking-wider" style={{ gridTemplateColumns: "1fr 2fr 90px 100px 90px", color: T.faint, borderBottom: `1px solid ${T.line}` }}>
+          <span>Company</span><span>Last 30 days</span><span>Prev. 30d</span><span>Momentum</span><span>Open roles</span>
+        </div>
+        {sorted.map((c, i) => {
+          const delta = Math.round(((c.last30 - c.prev30) / Math.max(c.prev30, 1)) * 100);
+          const hot = delta >= 50;
+          return (
+            <div key={c.company} className="row-hover trend-row items-center gap-y-2 px-5 py-3.5" style={{ borderBottom: i < sorted.length - 1 ? `1px solid ${T.line}` : "none" }}>
+              <div className="flex items-center gap-2.5 min-w-0">
+                <Logo job={c} size={32} />
+                <div className="min-w-0">
+                  <div className="text-[14px] font-bold tracking-tight truncate flex items-center gap-1.5">
+                    {c.company}
+                    {hot && <span className="inline-flex items-center gap-0.5 text-[11px] font-bold px-1.5 py-[1px] rounded-md" style={{ background: T.pinkSoft, color: T.pink }}><Flame size={10} /> Hot</span>}
+                  </div>
+                </div>
+              </div>
+              <div className="hidden md:flex items-center gap-2.5">
+                <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: "#EEF0F6" }}>
+                  <div className="h-full rounded-full" style={{ width: `${(c.last30 / maxBar) * 100}%`, background: `linear-gradient(90deg, ${c.logoColor}, ${c.logoColor}99)` }} />
+                </div>
+                <span className="text-[13.5px] font-bold tabular-nums w-6 text-right">{c.last30}</span>
+              </div>
+              <span className="hidden md:block text-[13.5px] font-medium tabular-nums" style={{ color: T.sub }}>{c.prev30}</span>
+              <div className="justify-self-end md:justify-self-start"><Delta value={delta} /></div>
+              <span className="hidden md:block text-[13.5px] font-medium tabular-nums" style={{ color: T.sub }}>{c.open}</span>
+            </div>
+          );
+        })}
+      </div>
+    </>
+  );
+}
+
+/* ─────────── CANDIDATES ─────────── */
+function CandidatesView({ candidates, setCandidates }) {
+  const [q, setQ] = useState("");
+  const [editing, setEditing] = useState(null); // null | "new" | id
+  const emptyForm = { name: "", title: "", years: 3, skills: "" };
+  const [form, setForm] = useState(emptyForm);
+  const fileRef = React.useRef(null);
+  const [sheetUrl, setSheetUrl] = useState(() => { try { return localStorage.getItem("jobradar-sheet-url") || ""; } catch (e) { return ""; } });
+  const [sheetBusy, setSheetBusy] = useState(false);
+  const [sheetInfo, setSheetInfo] = useState(null);
+
+  const syncSheet = async () => {
+    if (!sheetUrl) return;
+    setSheetBusy(true); setSheetInfo(null);
+    try {
+      const r = await fetch(sheetUrl);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const text = await r.text();
+      if (text.trim().startsWith("<")) throw new Error("that link returns a web page, not CSV — use File \u2192 Share \u2192 Publish to web and pick CSV");
+      const mapped = sheetRowsToCandidates(parseCsv(text));
+      if (!mapped.length) throw new Error("no candidate rows found");
+      setCandidates(mapped);
+      try { localStorage.setItem("jobradar-sheet-url", sheetUrl); } catch (e) {}
+      setSheetInfo({ count: mapped.length, time: new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }) });
+    } catch (e) {
+      setSheetInfo({ error: e.message });
+    } finally {
+      setSheetBusy(false);
+    }
+  };
+
+  const list = candidates.filter((c) =>
+    c.name.toLowerCase().includes(q.toLowerCase()) ||
+    c.skills.some((sk) => sk.includes(q.toLowerCase())) ||
+    c.title.toLowerCase().includes(q.toLowerCase()));
+
+  const startNew = () => { setForm(emptyForm); setEditing("new"); };
+  const startEdit = (c) => { setForm({ name: c.name, title: c.title, years: c.years, skills: c.skills.join(", ") }); setEditing(c.id); };
+  const remove = (c) => { if (window.confirm(`Remove ${c.name} from the CV base?`)) setCandidates((prev) => prev.filter((x) => x.id !== c.id)); };
+
+  const save = () => {
+    if (!form.name.trim()) return;
+    const v = companyVisual(form.name.trim());
+    const data = {
+      name: form.name.trim(),
+      title: form.title.trim() || "—",
+      years: Math.max(0, parseInt(form.years) || 0),
+      skills: [...new Set(String(form.skills).split(/[,;]+/).map((x) => normalizeSkill(x)).filter(Boolean))].slice(0, 14),
+      initials: v.logo, color: v.color,
+    };
+    if (editing === "new") setCandidates((prev) => [{ id: Date.now(), ...data }, ...prev]);
+    else setCandidates((prev) => prev.map((c) => (c.id === editing ? { ...c, ...data } : c)));
+    setEditing(null);
+  };
+
+  const exportJson = () => {
+    const blob = new Blob([JSON.stringify(candidates, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "candidates-backup.json";
+    a.click();
+  };
+
+  const importJson = (e) => {
+    const f = e.target.files[0];
+    if (!f) return;
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const arr = JSON.parse(r.result);
+        if (!Array.isArray(arr) || !arr.length) throw new Error("empty");
+        const mapped = arr.map((c, i) => {
+          const v = companyVisual(String(c.name || "?"));
+          return {
+            id: Date.now() + i,
+            name: String(c.name || "Unknown"),
+            title: String(c.title || "—"),
+            years: parseInt(c.years) || 0,
+            skills: (Array.isArray(c.skills) ? c.skills : String(c.skills || "").split(","))
+              .map((x) => normalizeSkill(x)).filter(Boolean),
+            initials: v.logo, color: v.color,
+          };
+        });
+        setCandidates(mapped);
+      } catch (err) {
+        window.alert("Could not read this file. It must be a JSON list of candidates — click Export first to see the exact format.");
+      }
+    };
+    r.readAsText(f);
+    e.target.value = "";
+  };
+
+  const inputStyle = { background: "#F4F5F9", border: `1px solid ${T.line}`, borderRadius: 10 };
+
+  return (
+    <>
+      <PageHeader
+        title="Candidates"
+        subtitle={`${candidates.length} candidates in your CV base — every new vacancy is matched against this list`}
+        action={
+          <div className="flex items-center gap-2">
+            <button onClick={() => fileRef.current && fileRef.current.click()} className="flex items-center gap-1.5 text-[13.5px] font-semibold px-3 h-9 rounded-[10px] transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+              <Upload size={13} /> Import
+            </button>
+            <button onClick={exportJson} className="flex items-center gap-1.5 text-[13.5px] font-semibold px-3 h-9 rounded-[10px] transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+              <Download size={13} /> Export
+            </button>
+            <button onClick={startNew} className="flex items-center gap-1.5 text-[14px] font-semibold px-4 h-9 rounded-[10px] text-white transition-opacity hover:opacity-90" style={{ background: T.grad, boxShadow: "0 4px 14px rgba(79,107,255,0.28)" }}>
+              <Plus size={14} strokeWidth={2.4} /> Add candidate
+            </button>
+            <input ref={fileRef} type="file" accept=".json,application/json" onChange={importJson} style={{ display: "none" }} />
+          </div>
+        }
+      />
+
+      {/* privacy note */}
+      <div style={cardStyle} className="p-3.5 mb-5 flex items-start gap-3">
+        <ShieldCheck size={16} color={T.green} style={{ marginTop: 2, flexShrink: 0 }} />
+        <p className="text-[13px] font-medium leading-relaxed" style={{ color: T.sub }}>
+          <span className="font-bold" style={{ color: T.ink }}>Your candidate data stays on this device.</span> It is stored only in this browser — never uploaded to GitHub or any server. Use <span className="font-bold">Export</span> regularly as a backup and to move the list to another computer (then Import it there). Clearing your browser data removes the list.
+        </p>
+      </div>
+
+      {/* google sheet sync */}
+      <div style={cardStyle} className="p-4 mb-5">
+        <div className="flex items-center gap-2 mb-1">
+          <RefreshCw size={14} color={T.blue} />
+          <span className="text-[14.5px] font-bold tracking-tight">Sync from Google Sheet</span>
+        </div>
+        <p className="text-[13px] font-medium mb-3" style={{ color: T.sub }}>
+          Keep candidates in a team-editable Google Sheet with columns <span className="font-bold">Name, Role, Years, Skills</span>. In the Sheet: File → Share → Publish to web → choose <span className="font-bold">Comma-separated values (.csv)</span> → paste that link here. The link is remembered only in this browser.
+        </p>
+        <div className="flex items-center gap-2 flex-wrap">
+          <div className="flex items-center gap-2 px-3 h-9 rounded-[10px] flex-1 min-w-[240px]" style={{ background: "#F4F5F9", border: `1px solid ${T.line}` }}>
+            <Link2 size={14} color={T.faint} />
+            <input value={sheetUrl} onChange={(e) => setSheetUrl(e.target.value)} placeholder="https://docs.google.com/spreadsheets/d/e/…/pub?output=csv" className="outline-none text-[13.5px] font-medium w-full bg-transparent" />
+          </div>
+          <button onClick={syncSheet} disabled={sheetBusy || !sheetUrl} className="flex items-center gap-1.5 text-[14px] font-semibold px-4 h-9 rounded-[10px] text-white transition-opacity hover:opacity-90 disabled:opacity-50" style={{ background: T.grad }}>
+            <RefreshCw size={13} className={sheetBusy ? "spin" : ""} /> {sheetBusy ? "Syncing…" : "Sync"}
+          </button>
+        </div>
+        {sheetInfo && sheetInfo.error && (
+          <p className="text-[13px] font-semibold mt-2.5" style={{ color: T.red }}>Couldn't sync: {sheetInfo.error}</p>
+        )}
+        {sheetInfo && sheetInfo.count != null && (
+          <p className="text-[13px] font-semibold mt-2.5" style={{ color: T.green }}>Synced {sheetInfo.count} candidates at {sheetInfo.time} — replaced the local list.</p>
+        )}
+      </div>
+
+      {/* editor */}
+      {editing !== null && (
+        <div style={cardStyle} className="p-5 mb-5 expand">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-[15.5px] font-bold tracking-tight">{editing === "new" ? "Add candidate" : "Edit candidate"}</h3>
+            <button onClick={() => setEditing(null)} className="flex items-center justify-center w-7 h-7 rounded-lg transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+              <XIcon size={13} />
+            </button>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+            <div>
+              <label className="text-[12.5px] font-bold uppercase tracking-wider" style={{ color: T.faint }}>Name</label>
+              <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="e.g. Sofie Vermeulen" className="w-full mt-1 px-3 h-9 outline-none text-[14px] font-medium" style={inputStyle} />
+            </div>
+            <div>
+              <label className="text-[12.5px] font-bold uppercase tracking-wider" style={{ color: T.faint }}>Current role</label>
+              <input value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} placeholder="e.g. Senior Java Engineer" className="w-full mt-1 px-3 h-9 outline-none text-[14px] font-medium" style={inputStyle} />
+            </div>
+            <div>
+              <label className="text-[12.5px] font-bold uppercase tracking-wider" style={{ color: T.faint }}>Years of experience</label>
+              <input type="number" min="0" max="50" value={form.years} onChange={(e) => setForm({ ...form, years: e.target.value })} className="w-full mt-1 px-3 h-9 outline-none text-[14px] font-medium" style={inputStyle} />
+            </div>
+          </div>
+          <div className="mb-4">
+            <label className="text-[12.5px] font-bold uppercase tracking-wider" style={{ color: T.faint }}>Skills — comma separated</label>
+            <input value={form.skills} onChange={(e) => setForm({ ...form, skills: e.target.value })} placeholder="java, spring, kubernetes, aws" className="w-full mt-1 px-3 h-9 outline-none text-[14px] font-medium" style={inputStyle} />
+            <p className="text-[12px] font-medium mt-1" style={{ color: T.faint }}>These are what vacancies are matched on — use the same words vacancies use (java, react, azure, devops…)</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <button onClick={save} disabled={!form.name.trim()} className="text-[14px] font-semibold px-5 h-9 rounded-[10px] text-white transition-opacity hover:opacity-90 disabled:opacity-40" style={{ background: T.grad }}>
+              {editing === "new" ? "Add candidate" : "Save changes"}
+            </button>
+            <button onClick={() => setEditing(null)} className="text-[14px] font-semibold px-4 h-9 rounded-[10px] transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
+
+      <div className="flex items-center gap-2 px-3 h-9 rounded-[10px] max-w-[280px] mb-5" style={{ background: "#fff", border: `1px solid ${T.line}` }}>
+        <Search size={14} color={T.faint} />
+        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search name, role or skill…" className="outline-none text-[14px] font-medium w-full bg-transparent" />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+        {list.map((c) => (
+          <div key={c.id} style={cardStyle} className="p-4 transition-shadow hover:shadow-md">
+            <div className="flex items-center gap-3 mb-3">
+              <Avatar c={c} size={40} ring={false} />
+              <div className="min-w-0 flex-1">
+                <div className="text-[15px] font-bold tracking-tight truncate">{c.name}</div>
+                <div className="text-[13px] font-medium truncate" style={{ color: T.sub }}>{c.title} · {c.years} yrs</div>
+              </div>
+              <div className="flex items-center gap-1">
+                <button onClick={() => startEdit(c)} title="Edit" className="flex items-center justify-center w-7 h-7 rounded-lg transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+                  <Pencil size={12} />
+                </button>
+                <button onClick={() => remove(c)} title="Remove" className="flex items-center justify-center w-7 h-7 rounded-lg transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: "#DC2626" }}>
+                  <Trash2 size={12} />
+                </button>
+              </div>
+            </div>
+            <div className="flex flex-wrap mb-2">{c.skills.map((sk) => <Chip key={sk} label={sk} />)}</div>
+          </div>
+        ))}
+        {list.length === 0 && (
+          <div className="col-span-full px-5 py-12 text-center" style={cardStyle}>
+            <p className="text-[14.5px] font-semibold" style={{ color: T.sub }}>{candidates.length === 0 ? "Your CV base is empty" : `No candidates match “${q}”`}</p>
+            <p className="text-[13.5px] font-medium mt-1" style={{ color: T.faint }}>{candidates.length === 0 ? "Click “Add candidate” to add your first profile" : "Try another name, role or skill"}</p>
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
+/* ─────────── SOURCES ─────────── */
+function SourcesView({ sources, setSources, dataMode, dataUrl, setDataUrl, connect, syncing, syncInfo, resetDemo }) {
+  const toggle = (id) => setSources((prev) => prev.map((s) => (s.id === id ? { ...s, status: s.status === "live" ? "paused" : "live" } : s)));
+  const live = sources.filter((s) => s.status === "live").length;
+  return (
+    <>
+      <PageHeader
+        title="Sources"
+        subtitle={`${sources.length} career pages monitored · scanned every weekday at 08:00`}
+        action={
+          <button className="flex items-center gap-1.5 text-[14px] font-semibold px-4 h-9 rounded-[10px] text-white transition-opacity hover:opacity-90" style={{ background: T.grad, boxShadow: "0 4px 14px rgba(236,72,153,0.28)" }}>
+            <Plus size={14} strokeWidth={2.4} /> Add career page
+          </button>
+        }
+      />
+
+      {/* live scraper data */}
+      <div style={cardStyle} className="p-4 mb-5">
+        <div className="flex items-center gap-2 mb-1 flex-wrap">
+          <Link2 size={15} color={T.pink} />
+          <span className="text-[14.5px] font-bold tracking-tight">Live scraper data</span>
+          <span className="flex items-center gap-1.5 text-[12px] font-semibold px-2 py-[3px] rounded-full"
+            style={{ background: dataMode === "live" ? T.greenSoft : "#F3F4F8", color: dataMode === "live" ? T.green : T.faint }}>
+            <span className={`w-1.5 h-1.5 rounded-full ${dataMode === "live" ? "glow" : ""}`} style={{ background: dataMode === "live" ? T.green : T.faint }} />
+            {dataMode === "live" ? "Connected" : "Not connected — showing demo data"}
+          </span>
+        </div>
+        <p className="text-[13px] font-medium mb-3" style={{ color: T.sub }}>
+          Paste the raw URL of your scraper's latest.json — e.g. https://raw.githubusercontent.com/you/jobradar/main/output/latest.json — and the dashboard replaces the demo data with your real vacancies.
+        </p>
+        <div className="flex items-center gap-2 flex-wrap">
+          <div className="flex items-center gap-2 px-3 h-9 rounded-[10px] flex-1 min-w-[240px]" style={{ background: "#F4F5F9", border: `1px solid ${T.line}` }}>
+            <Globe size={14} color={T.faint} />
+            <input value={dataUrl} onChange={(e) => setDataUrl(e.target.value)} placeholder="https://raw.githubusercontent.com/…/output/latest.json"
+              className="outline-none text-[13.5px] font-medium w-full bg-transparent" />
+          </div>
+          <button onClick={() => connect(dataUrl)} disabled={syncing || !dataUrl}
+            className="flex items-center gap-1.5 text-[14px] font-semibold px-4 h-9 rounded-[10px] text-white transition-opacity hover:opacity-90 disabled:opacity-50"
+            style={{ background: T.grad }}>
+            <RefreshCw size={13} className={syncing ? "spin" : ""} /> {syncing ? "Syncing…" : dataMode === "live" ? "Refresh" : "Connect"}
+          </button>
+          {dataMode === "live" && (
+            <button onClick={resetDemo} className="text-[13.5px] font-semibold px-3 h-9 rounded-[10px] transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+              Back to demo
+            </button>
+          )}
+        </div>
+        {syncInfo?.error && (
+          <p className="text-[13px] font-semibold mt-2.5" style={{ color: T.red }}>
+            Couldn't load: {syncInfo.error}. Check that the URL points to public raw JSON your browser can reach (raw.githubusercontent.com works out of the box).
+          </p>
+        )}
+        {syncInfo?.count != null && (
+          <p className="text-[13px] font-semibold mt-2.5" style={{ color: T.green }}>
+            Loaded {syncInfo.count} vacancies · synced at {syncInfo.time}. New vacancies are matched against your CV base automatically.
+          </p>
+        )}
+      </div>
+
+      {/* schedule banner */}
+      <div style={cardStyle} className="p-4 mb-5 flex items-center gap-3.5 flex-wrap">
+        <div className="rounded-xl p-2.5" style={{ background: T.blueSoft }}>
+          <Clock size={18} color={T.blue} strokeWidth={2.2} />
+        </div>
+        <div className="flex-1 min-w-[220px]">
+          <div className="text-[14.5px] font-bold tracking-tight">Scan schedule: Monday – Friday at 08:00</div>
+          <div className="text-[13px] font-medium mt-0.5" style={{ color: T.sub }}>Timezone Europe/Brussels · no scans in the weekend · {live} of {sources.length} pages active</div>
+        </div>
+        <div className="flex items-center gap-1.5 text-[13px] font-semibold px-3 py-1.5 rounded-full" style={{ background: T.greenSoft, color: T.green }}>
+          <span className="glow w-1.5 h-1.5 rounded-full" style={{ background: T.green }} />
+          Next scan: Wed Jul 15, 08:00
+        </div>
+      </div>
+
+      <div style={cardStyle} className="overflow-hidden">
+        <div className="hidden md:grid px-5 py-3 text-[12px] font-bold uppercase tracking-wider" style={{ gridTemplateColumns: "180px 1fr 110px 90px", color: T.faint, borderBottom: `1px solid ${T.line}` }}>
+          <span>Company</span><span>Career page</span><span>Status</span><span className="text-right">Action</span>
+        </div>
+        {sources.map((s, i) => (
+          <div key={s.id} className="row-hover source-row items-center px-5 py-3" style={{ borderBottom: i < sources.length - 1 ? `1px solid ${T.line}` : "none" }}>
+            <div className="text-[14px] font-bold tracking-tight truncate pr-2">{s.company}</div>
+            <a href={s.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-[13.5px] font-medium truncate hover:underline min-w-0" style={{ color: T.blue }}>
+              <span className="truncate">{s.name}</span> <ArrowUpRight size={12} className="shrink-0" />
+            </a>
+            <div className="flex items-center gap-1.5 text-[13px] font-semibold" style={{ color: s.status === "live" ? T.green : T.faint }}>
+              <span className={`w-1.5 h-1.5 rounded-full ${s.status === "live" ? "glow" : ""}`} style={{ background: s.status === "live" ? T.green : T.faint }} />
+              {s.status === "live" ? "Live" : "Paused"}
+            </div>
+            <div className="flex justify-end">
+              <button onClick={() => toggle(s.id)} className="flex items-center gap-1 text-[13px] font-semibold px-2.5 h-7 rounded-lg transition-colors hover:bg-gray-50" style={{ border: `1px solid ${T.line}`, color: T.sub }}>
+                {s.status === "live" ? <><Pause size={11} /> Pause</> : <><Play size={11} /> Resume</>}
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+/* ─────────── ALERTS ─────────── */
+function AlertsView() {
+  const [threshold, setThreshold] = useState(75);
+  const [channels, setChannels] = useState({ slack: true, email: true });
+  const Toggle = ({ on, onClick }) => (
+    <button onClick={onClick} className="relative w-9 h-5 rounded-full transition-colors" style={{ background: on ? T.blue : "#D8DAE5" }}>
+      <span className="absolute top-[2px] w-4 h-4 rounded-full bg-white transition-all" style={{ left: on ? 18 : 2, boxShadow: "0 1px 3px rgba(0,0,0,.2)" }} />
+    </button>
+  );
+  return (
+    <>
+      <PageHeader title="Alerts" subtitle="Choose when and where you get notified about strong matches" />
+      <div className="max-w-xl space-y-4">
+        <div style={cardStyle} className="p-5">
+          <div className="text-[15px] font-bold tracking-tight mb-1">Match threshold</div>
+          <p className="text-[13.5px] font-medium mb-4" style={{ color: T.sub }}>Notify me when a new vacancy scores at least <span className="font-bold" style={{ color: T.pink }}>{threshold}%</span> against a candidate.</p>
+          <input type="range" min={50} max={95} step={5} value={threshold} onChange={(e) => setThreshold(+e.target.value)} className="w-full accent-pink-500" />
+          <div className="flex justify-between text-[12px] font-semibold mt-1" style={{ color: T.faint }}><span>50%</span><span>95%</span></div>
+        </div>
+        <div style={cardStyle} className="p-5">
+          <div className="text-[15px] font-bold tracking-tight mb-4">Channels</div>
+          <div className="flex items-center justify-between py-2">
+            <div><div className="text-[14px] font-semibold">Slack</div><div className="text-[13px] font-medium" style={{ color: T.faint }}>#new-vacancies channel</div></div>
+            <Toggle on={channels.slack} onClick={() => setChannels((c) => ({ ...c, slack: !c.slack }))} />
+          </div>
+          <div className="flex items-center justify-between py-2" style={{ borderTop: `1px solid ${T.line}` }}>
+            <div><div className="text-[14px] font-semibold">Email digest</div><div className="text-[13px] font-medium" style={{ color: T.faint }}>Daily at 9:00</div></div>
+            <Toggle on={channels.email} onClick={() => setChannels((c) => ({ ...c, email: !c.email }))} />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+/* ─────────── SIDEBAR ─────────── */
+const NAV = [
+  { id: "dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { id: "trends", label: "Hiring trends", icon: BarChart3 },
+  { id: "candidates", label: "Candidates", icon: Users, badge: "count" },
+  { id: "sources", label: "Sources", icon: Globe },
+  { id: "alerts", label: "Alerts", icon: Bell },
+];
+
+function Sidebar({ view, setView, collapsed, setCollapsed, newCount, candidatesCount }) {
+  return (
+    <nav className="shrink-0 sticky top-0 h-screen flex flex-col transition-all duration-200" style={{ width: collapsed ? 64 : 224, background: "#FFFFFF", borderRight: `1px solid ${T.line}` }}>
+      <div className="flex items-center gap-2.5 px-4 h-16" style={{ borderBottom: `1px solid ${T.line}` }}>
+        <div className="rounded-[10px] p-[7px] shrink-0" style={{ background: T.grad }}>
+          <Radar size={18} color="#fff" strokeWidth={2.4} />
+        </div>
+        {!collapsed && <span className="text-[17px] font-bold tracking-tight">jobradar</span>}
+      </div>
+
+      <div className="flex-1 px-2.5 py-4 space-y-1">
+        {NAV.map((item) => {
+          const active = view === item.id;
+          const showBadge = item.id === "dashboard" && newCount > 0;
+          return (
+            <button key={item.id} onClick={() => setView(item.id)} title={collapsed ? item.label : undefined}
+              className="w-full flex items-center gap-2.5 px-2.5 h-9 rounded-[10px] text-[14px] font-semibold transition-colors"
+              style={{ background: active ? T.blueSoft : "transparent", color: active ? T.blue : T.sub, justifyContent: collapsed ? "center" : "flex-start" }}>
+              <item.icon size={16} strokeWidth={2.2} className="shrink-0" />
+              {!collapsed && <span className="flex-1 text-left">{item.label}</span>}
+              {!collapsed && showBadge && <span className="text-[11px] font-bold px-1.5 py-[1px] rounded-full text-white" style={{ background: T.grad }}>{newCount}</span>}
+              {!collapsed && item.badge && !showBadge && <span className="text-[11.5px] font-bold px-1.5 py-[1px] rounded-full" style={{ background: "#F3F4F8", color: T.faint }}>{candidatesCount}</span>}
+            </button>
+          );
+        })}
+      </div>
+
+      <div className="px-2.5 pb-4 space-y-2">
+        {!collapsed && (
+          <div className="flex items-center gap-2 px-2.5 py-2 rounded-[10px] text-[12.5px] font-semibold" style={{ background: T.greenSoft, color: T.green }}>
+            <span className="glow w-1.5 h-1.5 rounded-full shrink-0" style={{ background: T.green }} />
+            Monitoring 39 pages
+          </div>
+        )}
+        <div className="flex items-center gap-2.5 px-2.5 py-2" style={{ borderTop: `1px solid ${T.line}` }}>
+          {!collapsed && (
+            <>
+              <div className="flex items-center justify-center w-7 h-7 rounded-full text-[11.5px] font-bold text-white shrink-0" style={{ background: T.ink }}>YO</div>
+              <div className="min-w-0 flex-1">
+                <div className="text-[13px] font-bold truncate">Your Agency</div>
+                <div className="text-[11.5px] font-medium truncate" style={{ color: T.faint }}>Pro plan</div>
+              </div>
+            </>
+          )}
+          <button onClick={() => setCollapsed(!collapsed)} className="flex items-center justify-center w-7 h-7 rounded-lg transition-colors hover:bg-gray-50 shrink-0 mx-auto" style={{ border: `1px solid ${T.line}`, color: T.sub }} title={collapsed ? "Expand" : "Collapse"}>
+            {collapsed ? <ChevronsRight size={13} /> : <ChevronsLeft size={13} />}
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
+/* ─────────── APP ─────────── */
+function JobRadar() {
+  const [view, setView] = useState("dashboard");
+  const [collapsed, setCollapsed] = useState(false);
+  const [jobs, setJobs] = useState(INITIAL_JOBS);
+  const [sources, setSources] = useState(INITIAL_SOURCES);
+  const [expanded, setExpanded] = useState(1);
+  const [query, setQuery] = useState("");
+  const [simIndex, setSimIndex] = useState(0);
+  const [toast, setToast] = useState(null);
+  const [candidates, setCandidates] = useState(() => {
+    try {
+      const saved = localStorage.getItem("jobradar-candidates");
+      if (saved) { const arr = JSON.parse(saved); if (Array.isArray(arr) && arr.length) return arr; }
+    } catch (e) {}
+    return CANDIDATES;
+  });
+  useEffect(() => {
+    try { localStorage.setItem("jobradar-candidates", JSON.stringify(candidates)); } catch (e) {}
+  }, [candidates]);
+
+  const [dataMode, setDataMode] = useState("demo");
+  const [dataUrl, setDataUrl] = useState(LIVE_DATA_URL);
+  const [syncing, setSyncing] = useState(false);
+  const [syncInfo, setSyncInfo] = useState(null);
+
+  const connectLiveData = async (url) => {
+    if (!url) return;
+    setSyncing(true);
+    setSyncInfo(null);
+    try {
+      const r = await fetch(url);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const data = await r.json();
+      if (!Array.isArray(data)) throw new Error("expected a JSON array (latest.json)");
+      const mapped = mapScraperJobs(data);
+      setJobs(mapped);
+      setDataMode("live");
+      setExpanded(mapped[0]?.id ?? null);
+      const time = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+      setSyncInfo({ time, count: mapped.length });
+      setToast(`Live data connected — ${mapped.length} vacancies loaded`);
+      setTimeout(() => setToast(null), 3200);
+    } catch (e) {
+      setSyncInfo({ error: e.message });
+    } finally {
+      setSyncing(false);
+    }
+  };
+
+  useEffect(() => { if (LIVE_DATA_URL) connectLiveData(LIVE_DATA_URL); }, []);
+
+  const resetDemo = () => {
+    setJobs(INITIAL_JOBS);
+    setDataMode("demo");
+    setSyncInfo(null);
+    setExpanded(1);
+  };
+
+  const enriched = useMemo(() => jobs.map((j) => ({ ...j, matches: resolveAiMatches(j, candidates) || matchCandidates(j, candidates) })), [jobs, candidates]);
+  const searchFiltered = enriched.filter((j) => {
+    const q = query.toLowerCase();
+    return j.company.toLowerCase().includes(q) || j.title.toLowerCase().includes(q) || j.stack.some((s) => s.includes(q));
+  });
+  const newCount = jobs.filter((j) => j.isNew).length;
+
+  const simulate = () => {
+    const next = SIMULATED_JOBS[simIndex % SIMULATED_JOBS.length];
+    const job = { ...next, id: Date.now(), iso: new Date().toISOString().slice(0, 10), isNew: true };
+    setJobs((p) => [job, ...p]);
+    setSimIndex((i) => i + 1);
+    setExpanded(job.id);
+    setToast(`New vacancy at ${next.company} — matched against ${candidates.length} CVs`);
+    setTimeout(() => setToast(null), 3200);
+  };
+
+  return (
+    <div className="min-h-screen flex" style={{ background: T.bg, color: T.ink, fontFamily: "'Inter', system-ui, sans-serif" }}>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        * { -webkit-font-smoothing: antialiased; }
+        @keyframes slideIn { from { transform: translateY(-10px); opacity: 0 } to { transform: translateY(0); opacity: 1 } }
+        .slide { animation: slideIn .3s cubic-bezier(.2,.8,.3,1) }
+        @keyframes expand { from { opacity: 0; transform: translateY(-4px) } to { opacity: 1; transform: translateY(0) } }
+        .expand { animation: expand .25s ease-out }
+        @keyframes glow { 0%,100% { opacity:1 } 50% { opacity:.4 } }
+        .glow { animation: glow 1.6s infinite }
+        @keyframes spin360 { to { transform: rotate(360deg) } }
+        .spin { animation: spin360 1s linear infinite }
+        .row-hover { transition: background .15s ease }
+        .row-hover:hover { background: #FAFBFE }
+        input::placeholder { color: #9DA1B4 }
+        input[type=range] { height: 4px }
+        .trend-row { display: grid; grid-template-columns: 1fr auto; }
+        @media (min-width: 768px) { .trend-row { grid-template-columns: 1fr 2fr 90px 100px 90px; } }
+        .source-row { display: grid; grid-template-columns: 1fr auto; gap: 4px 8px; }
+        @media (min-width: 768px) { .source-row { grid-template-columns: 180px 1fr 110px 90px; } }
+      `}</style>
+
+      <Sidebar view={view} setView={setView} collapsed={collapsed} setCollapsed={setCollapsed} newCount={newCount} candidatesCount={candidates.length} />
+
+      {toast && (
+        <div className="slide fixed top-5 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-4 py-2.5 rounded-xl text-[14px] font-semibold text-white" style={{ background: T.ink, boxShadow: "0 12px 32px rgba(14,17,41,0.25)" }}>
+          <Bell size={14} color="#F9A8D4" /> {toast}
+        </div>
+      )}
+
+      <main className="flex-1 min-w-0 px-5 md:px-8 py-7 overflow-y-auto">
+        <div className="max-w-5xl mx-auto">
+          {view === "dashboard" && (
+            <DashboardView enriched={enriched} searchFiltered={searchFiltered} jobs={jobs} query={query} setQuery={setQuery} expanded={expanded} setExpanded={setExpanded} simulate={simulate} dataMode={dataMode} syncInfo={syncInfo} candidatesCount={candidates.length} />
+          )}
+          {view === "trends" && <TrendsView />}
+          {view === "candidates" && <CandidatesView candidates={candidates} setCandidates={setCandidates} />}
+          {view === "sources" && <SourcesView sources={sources} setSources={setSources} dataMode={dataMode} dataUrl={dataUrl} setDataUrl={setDataUrl} connect={connectLiveData} syncing={syncing} syncInfo={syncInfo} resetDemo={resetDemo} />}
+          {view === "alerts" && <AlertsView />}
+        </div>
+      </main>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<JobRadar />);
+
+  </script>
+</body>
+</html>
