@@ -31,6 +31,9 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
+import csv
+import io
+
 import requests
 import yaml
 from bs4 import BeautifulSoup
@@ -420,6 +423,135 @@ def enrich_with_claude(job: dict, page_text: str) -> dict:
     return job
 
 
+
+# ── AI MATCHING (Level 3) ─────────────────────────────────────────────
+def load_candidates() -> list[dict]:
+    """Fetch the published candidates sheet (CSV). Returns [] when not configured.
+
+    Expected columns: Name, Role, Years, Skills, Profile (career digest).
+    Row index (0-based, data rows only) is the candidate's stable reference —
+    names are never written into match output for privacy.
+    """
+    url = os.environ.get("CANDIDATES_CSV_URL")
+    if not url:
+        return []
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=25)
+        r.raise_for_status()
+        rows = list(csv.reader(io.StringIO(r.text)))
+        if len(rows) < 2:
+            return []
+        header = [h.strip().lower() for h in rows[0]]
+        def col(*names):
+            for n in names:
+                for i, h in enumerate(header):
+                    if n in h:
+                        return i
+            return -1
+        iN, iR = col("name", "naam"), col("role", "functie")
+        iY, iS = col("year", "ervaring"), col("skill")
+        iP = col("profile", "digest", "history")
+        cands = []
+        for idx, row in enumerate(rows[1:]):
+            if iN < 0 or iN >= len(row) or not row[iN].strip():
+                continue
+            get = lambda i: row[i].strip() if 0 <= i < len(row) else ""
+            cands.append({
+                "row": idx,
+                "name": get(iN),
+                "role": get(iR),
+                "years": int(re.sub(r"\D", "", get(iY)) or 0),
+                "skills": [x.strip().lower() for x in re.split(r"[,;]+", get(iS)) if x.strip()],
+                "profile": get(iP),
+            })
+        print(f"[matching] loaded {len(cands)} candidates"
+              f" ({sum(1 for c in cands if c['profile'])} with career digest)")
+        return cands
+    except Exception as e:
+        print(f"[matching] could not load candidates: {e}")
+        return []
+
+
+def prefilter_candidates(job: dict, candidates: list[dict], top: int = 10) -> list[dict]:
+    """Cheap keyword pass: keep only plausibly relevant candidates for the AI."""
+    stack = set(s.lower() for s in job.get("stack", []))
+    title = job.get("title", "").lower()
+    scored = []
+    for c in candidates:
+        overlap = len(stack & set(c["skills"]))
+        title_hit = sum(1 for sk in c["skills"] if sk in title)
+        role_hit = 1 if any(w in title for w in c["role"].lower().split()[:3] if len(w) > 3) else 0
+        scored.append((overlap * 2 + title_hit + role_hit, c))
+    scored.sort(key=lambda x: -x[0])
+    picked = [c for sc, c in scored[:top] if sc > 0]
+    return picked if picked else [c for _, c in scored[:top]]
+
+
+def _match_check(c: dict) -> str:
+    return (c["name"][:1].lower() or "?") + str(c["years"])
+
+
+def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
+    """Ask Claude to judge the shortlist against the full vacancy text."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key or not candidates:
+        return job
+    shortlist = prefilter_candidates(job, candidates)
+    if not shortlist:
+        return job
+    lines = []
+    for c in shortlist:
+        hist = c["profile"][:1400] if c["profile"] else "(no career digest — judge on role/skills only)"
+        lines.append(f"Row {c['row']} | {c['role']} | {c['years']} yrs | "
+                     f"skills: {', '.join(c['skills'][:14])} | history: {hist}")
+    prompt = (
+        "You are a senior IT recruiter. Pick the 3 best candidates for this vacancy.\n"
+        "Judge on real fit: concrete past work in the history matters more than keyword overlap; "
+        "seniority and domain must be plausible. Be honest — if fit is weak, score low.\n"
+        "Refer to candidates ONLY as their row number, never by name.\n"
+        'Reply ONLY with JSON: {"matches": [{"row": <int>, "score": <0-100>, '
+        '"reason": "<one concrete sentence citing their relevant history>"}]} '
+        "with exactly 3 entries, best first.\n\n"
+        f"VACANCY: {job['title']} at {job['company']}\n"
+        f"FULL TEXT:\n{page_text[:6000]}\n\n"
+        f"CANDIDATES:\n" + "\n".join(lines)
+    )
+    try:
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
+                     "content-type": "application/json"},
+            json={"model": "claude-sonnet-4-6", "max_tokens": 500,
+                  "messages": [{"role": "user", "content": prompt}]},
+            timeout=60,
+        )
+        r.raise_for_status()
+        text = r.json()["content"][0]["text"]
+        data = json.loads(re.sub(r"```json|```", "", text).strip())
+        by_row = {c["row"]: c for c in candidates}
+        out = []
+        for m in data.get("matches", [])[:3]:
+            row = int(m.get("row", -1))
+            if row not in by_row:
+                continue
+            reason = str(m.get("reason", ""))[:300]
+            for c in candidates:  # privacy scrub: no names in public output
+                if c["name"] and c["name"] in reason:
+                    reason = reason.replace(c["name"], f"row {c['row']}")
+                first = c["name"].split()[0] if c["name"] else ""
+                if len(first) > 2 and first in reason:
+                    reason = reason.replace(first, f"row {c['row']}")
+            out.append({"row": row, "score": max(0, min(100, int(m.get("score", 0)))),
+                        "reason": reason, "check": _match_check(by_row[row])})
+        if out:
+            job["ai_matches"] = out
+            print(f"    ai-matched: rows {[m['row'] for m in out]}"
+                  f" ({[m['score'] for m in out]}%)")
+    except Exception as e:
+        print(f"    ! ai matching failed: {e}")
+    return job
+
+
 def notify_slack(new_jobs: list[dict]) -> None:
     webhook = os.environ.get("SLACK_WEBHOOK_URL")
     if not webhook or not new_jobs:
@@ -459,6 +591,7 @@ def main() -> None:
 
     sources = load_sources()
     state = load_state()
+    candidates = load_candidates()
     new_jobs = []
 
     try:
@@ -488,6 +621,7 @@ def main() -> None:
                 page_text = BeautifulSoup(detail or "", "html.parser") \
                     .get_text(" ", strip=True)
                 job = enrich_with_claude(job, page_text)
+                job = ai_match_job(job, page_text, candidates)
                 state[job["url"]] = job
                 new_jobs.append(job)
                 print(f"  + NEW: {job['title']}  "
