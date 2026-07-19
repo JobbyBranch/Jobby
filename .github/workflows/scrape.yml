@@ -30,7 +30,8 @@ jobs:
         env:
           # Guard only for scheduled runs; manual runs skip the time check
           SCHEDULE_GUARD: ${{ github.event_name == 'schedule' && '1' || '0' }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CANDIDATES_CSV_URL: ${{ secrets.CANDIDATES_CSV_URL }}# optional
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}   # optional
         run: python scraper.py
 
