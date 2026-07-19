@@ -1,892 +1,102 @@
 [
   {
-    "title": "Teamlead IT Solutions (m/v/x) Antwerpen Freelance Posted 2 months ago",
-    "url": "https://tabaknatie.be/job/teamlead-it-solutions-m-v-x/",
-    "company": "Tabaknatie",
-    "source": "https://tabaknatie.be/vacancies/",
+    "title": "Senior Software Engineer Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/senior-software-engineer-1?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": [
-      ".net",
-      "react",
-      "ci/cd"
-    ]
-  },
-  {
-    "title": "Business Integration Manager (m/v/x) Antwerpen Full Time Posted 4 months ago",
-    "url": "https://tabaknatie.be/job/business-integrator-manager/",
-    "company": "Tabaknatie",
-    "source": "https://tabaknatie.be/vacancies/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Software Engineer .NET",
-    "url": "https://pionira.be/vacatures/senior-software-engineer/",
-    "company": "Pionira",
-    "source": "https://pionira.be/vacatures/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "c#",
-      ".net",
-      "azure",
-      "sql",
-      "rest"
-    ]
-  },
-  {
-    "title": "Java Soft­ware Engi­neer (Gent) Geen dag is hetzelfde. Zin om te blijven bouwen aan onze robuuste back-end in Java?",
-    "url": "https://www.olympus-mobility.be/nl/vacature-it-soft-ware-engineer",
-    "company": "Olympus Mobility",
-    "source": "https://www.olympus-mobility.be/nl/over-olympus-mobility/vacatures",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "java",
-      "spring",
+      "python",
       "kubernetes",
       "docker",
-      "aws",
-      "postgresql",
-      "jenkins",
-      "microservices"
-    ]
-  },
-  {
-    "title": "ICT toepassingsbeheerder Zoersel, België Bediende Afstandswerk mogelijk Lees verder",
-    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=398025&q=ICT-toepassingsbeheerder",
-    "company": "Emmaüs ICT",
-    "source": "https://ict-emmaus.cvw.io/?lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Cyberweerbaarheid Specialist - ICT Mechelen, België Bediende Lees verder",
-    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=379228&q=Cyberweerbaarheid-Specialist-ICT",
-    "company": "Emmaüs ICT",
-    "source": "https://ict-emmaus.cvw.io/?lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Data & Simulation Analyst",
-    "url": "https://cartamundi.com/en/career/389620/",
-    "company": "Cartamundi",
-    "source": "https://cartamundi.com/careers",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "OT Architect",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/ot-architect/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Engineer Civil Infrastructure",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/engineer-civil-infrastructure/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Projectleader Civil Infrastructure",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/projectleader-civil-infrastructure/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "OT Support Engineer",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/ot-support-engineer/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "docker",
-      "linux"
-    ]
-  },
-  {
-    "title": "Interface Integration Specialist",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/interface-integration-specialist/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql",
-      "power bi"
-    ]
-  },
-  {
-    "title": "Equipment Software Engineer",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/equipment-software-engineer/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Data Integration Analyst",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/functional-data-expert/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql",
-      "power bi"
-    ]
-  },
-  {
-    "title": "Application Support Engineer - Emerald Project",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/application-support-engineer-emerald/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql"
-    ]
-  },
-  {
-    "title": "System Analist Automation Support",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/system-analist-automation-support/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "linux"
-    ]
-  },
-  {
-    "title": "Senior Linux / Platform Engineer",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/senior-linux-platform-engineer/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "kubernetes",
-      "docker",
-      "gitlab",
       "ci/cd",
-      "linux"
+      "microservices",
+      "agile"
     ]
   },
   {
-    "title": "Cyber Security Engineer",
-    "url": "https://www.grootgrotergroots.be/nl-be/jobs/cyber-security-engineer/",
-    "company": "Groot Groter Groots",
-    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
+    "title": "Labo Prototype Ontwikkelaar Genk Lab & Technicians",
+    "url": "https://jobs.vito.be/l/nl/o/labo-prototype-ontwikkelaar?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": []
   },
   {
-    "title": "Data Engineer",
-    "url": "https://be.tuvaustria.com/jobs/senior-data-engineer/",
-    "company": "TÜV Austria",
-    "source": "https://be.tuvaustria.com/jobs/",
+    "title": "Research Software Engineer Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/research-software-engineer?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": [
-      "python",
-      "javascript",
-      "docker",
-      "terraform",
-      "aws",
-      "azure",
-      "gcp",
-      "kafka"
+      "python"
     ]
   },
   {
-    "title": "Software Test Automation Engineer",
-    "url": "https://be.tuvaustria.com/jobs/senior-test-automation-engineer/",
-    "company": "TÜV Austria",
-    "source": "https://be.tuvaustria.com/jobs/",
+    "title": "R&D Expert Construction Automation & Building Envelopes Genk R&D & Engineering",
+    "url": "https://jobs.vito.be/l/nl/o/rd-expert-construction-automation-building-envelopes?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "DevOps / Cloud Engineer – Earth Observation & Big Data Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/devops-cloud-engineer-earth-observation-big-data?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": [
-      "javascript",
+      "kubernetes",
       "docker",
+      "terraform",
       "aws",
-      "azure",
       "ci/cd",
-      "rest"
-    ]
-  },
-  {
-    "title": "Cyber Security Consultant (with teamlead ambition)",
-    "url": "https://be.tuvaustria.com/jobs/cyber-security-consultant-with-teamlead-ambition/",
-    "company": "TÜV Austria",
-    "source": "https://be.tuvaustria.com/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "javascript",
-      "aws"
-    ]
-  },
-  {
-    "title": "Freelance IT consultant",
-    "url": "https://be.tuvaustria.com/jobs/freelance-it-consultant/",
-    "company": "TÜV Austria",
-    "source": "https://be.tuvaustria.com/jobs/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "javascript",
-      "aws",
+      "linux",
+      "spark",
       "agile"
     ]
   },
   {
-    "title": "Case study Bike Rad Power Bikes: e-bike insurance for an ‘even better customer experience’",
-    "url": "https://www.qover.com/careers",
-    "company": "Qover",
-    "source": "https://www.qover.com/careers#jobs",
+    "title": "Microsoft 365 Application Lead Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/microsoft-365-application-lead?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": []
   },
   {
-    "title": "Business Analyst - German Speaking Customer Success · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/8003777-business-analyst-german-speaking",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "title": "Strategy & Sustainability Intelligence Analyst Mol Support",
+    "url": "https://jobs.vito.be/l/nl/o/strategy-sustainability-intelligence-analyst?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
-    "stack": [
-      "sql"
-    ]
+    "stack": []
   },
   {
-    "title": "Team Lead Integrations Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7969262-team-lead-integrations",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "title": "Senior Data & Cloud Operations Engineer Tienen R&D & Engineering",
+    "url": "https://jobs.vito.be/l/nl/o/senior-data-cloud-operations-engineer?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": [
       "python",
-      "django",
-      "graphql",
-      "rest"
-    ]
-  },
-  {
-    "title": "Integrations Software Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7969219-integrations-software-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "django",
-      "react",
-      "graphql",
-      "rest"
-    ]
-  },
-  {
-    "title": "Support Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7969167-support-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql"
-    ]
-  },
-  {
-    "title": "Business Analyst Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7969132-business-analyst",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql"
-    ]
-  },
-  {
-    "title": "Product Analyst Product · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7844890-product-analyst",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Software Engineering Internship Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7779164-software-engineering-internship",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "django",
-      "javascript",
-      "react",
-      "kubernetes",
-      "graphql"
-    ]
-  },
-  {
-    "title": "QA Engineer Product · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7707202-qa-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql"
-    ]
-  },
-  {
-    "title": "Site Reliability Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7664388-site-reliability-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "postgresql",
-      "ci/cd"
-    ]
-  },
-  {
-    "title": "Backend Software Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7603336-backend-software-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "django",
-      "kubernetes",
-      "sql",
-      "graphql"
-    ]
-  },
-  {
-    "title": "Frontend Software Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/7602926-frontend-software-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "react",
-      "graphql"
-    ]
-  },
-  {
-    "title": "AI Software Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/6902571-ai-software-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python"
-    ]
-  },
-  {
-    "title": "Junior Software Engineer Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/5598974-junior-software-engineer",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "django",
-      "react",
-      "kubernetes",
-      "graphql"
-    ]
-  },
-  {
-    "title": "Product Owner",
-    "url": "https://msc.csod.com/ux/ats/careersite/4/home/requisition/4180?c=msc",
-    "company": "MSC",
-    "source": "https://msc.csod.com/ux/ats/careersite/4/home?c=msc&country=be",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Wervik Business Process Analyst bekijk vacature",
-    "url": "https://jobs.vanheede.com/nl/business-process-analyst",
-    "company": "Vanheede",
-    "source": "https://jobs.vanheede.com/nl",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Wervik Business Process Architect bekijk vacature",
-    "url": "https://jobs.vanheede.com/nl/business-process-architect",
-    "company": "Vanheede",
-    "source": "https://jobs.vanheede.com/nl",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Wervik ICT Applications Manager bekijk vacature",
-    "url": "https://jobs.vanheede.com/nl/ict-applications-manager",
-    "company": "Vanheede",
-    "source": "https://jobs.vanheede.com/nl",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Wervik Digital Business Architect - Transport / Industry bekijk vacature",
-    "url": "https://jobs.vanheede.com/nl/digital-business-domain-architect",
-    "company": "Vanheede",
-    "source": "https://jobs.vanheede.com/nl",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Rumbeke Automation Supervisor bekijk vacature",
-    "url": "https://jobs.vanheede.com/nl/automation-supervisor",
-    "company": "Vanheede",
-    "source": "https://jobs.vanheede.com/nl",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": ".NET software engineer met ervaring",
-    "url": "https://vanden-broele.jobtoolz.com/nl/net-application-developer-met-ervaring",
-    "company": "Vanden Broele",
-    "source": "https://www.vandenbroele.be/jobs#jobsection",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "c#",
-      ".net",
-      "javascript",
-      "typescript",
       "aws",
-      "sql",
-      "agile"
-    ]
-  },
-  {
-    "title": "AI engineer (freelance of vast)",
-    "url": "https://vanden-broele.jobtoolz.com/nl/ai-engineer-freelance-of-vast",
-    "company": "Vanden Broele",
-    "source": "https://www.vandenbroele.be/jobs#jobsection",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "aws",
-      "azure"
-    ]
-  },
-  {
-    "title": "Analist Developer - Skryv projecten (freelance)",
-    "url": "https://vanden-broele.jobtoolz.com/nl/analist-developer-skryv-projecten-freelance",
-    "company": "Vanden Broele",
-    "source": "https://www.vandenbroele.be/jobs#jobsection",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "java",
-      "react",
-      "angular",
-      "node.js",
-      "docker",
-      "terraform",
+      "azure",
       "sql",
       "ci/cd"
     ]
   },
   {
-    "title": "DevOps (Cloud) Engineer met Java kennis",
-    "url": "https://vanden-broele.jobtoolz.com/nl/dev-ops-cloud-engineer-met-java-kennis",
-    "company": "Vanden Broele",
-    "source": "https://www.vandenbroele.be/jobs#jobsection",
+    "title": "Application & Platform Security Architect Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/application-platform-security-architect?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
     "first_seen": "2026-07-19",
     "stack": [
-      "java",
-      "spring",
-      "terraform",
-      "aws",
-      "agile"
-    ]
-  },
-  {
-    "title": "Full Stack Developer met ervaring (vast/freelance)",
-    "url": "https://vanden-broele.jobtoolz.com/nl/full-stack-developer-met-ervaring",
-    "company": "Vanden Broele",
-    "source": "https://www.vandenbroele.be/jobs#jobsection",
-    "first_seen": "2026-07-19",
-    "stack": [
-      ".net",
-      "javascript"
-    ]
-  },
-  {
-    "title": "IT Applications",
-    "url": "https://www.picanol.be/nl/jobs/vind-een-job?f%5B0%5D=department%3A8969",
-    "company": "Picanol",
-    "source": "https://www.picanol.be/nl/jobs/vind-een-job",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "c#",
-      ".net"
-    ]
-  },
-  {
-    "title": "IT Software engineer (C#, .NET, Cloud & AI)",
-    "url": "https://www.picanol.be/nl/jobs/it-software-engineer-c-net-cloud-ai",
-    "company": "Picanol",
-    "source": "https://www.picanol.be/nl/jobs/vind-een-job",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "c#",
-      ".net",
-      "angular",
+      "kubernetes",
       "azure",
-      "sql",
-      "microservices"
-    ]
-  },
-  {
-    "title": "Senior Business Analist Ridderkerk, Nederland Bakker Lees verder",
-    "url": "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=394971&q=Senior-Business-Analist",
-    "company": "Greenyard",
-    "source": "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql",
-      "power bi"
-    ]
-  },
-  {
-    "title": "Kalmthout Medior / Senior Full-stack Javascript Developer bekijk vacature",
-    "url": "https://jobs.pelckmans.be/nl/medior-senior-full-stack-javascript-developer",
-    "company": "Pelckmans",
-    "source": "https://jobs.pelckmans.be/nl",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "javascript",
-      "react",
-      "aws",
-      "sql",
-      "postgresql",
-      "mysql",
-      "mongodb",
-      "agile"
-    ]
-  },
-  {
-    "title": "SharePoint Expert – Power Platform Developer Stabroek",
-    "url": "https://jobs.aertssen.be/vacatures/detail/?id=2566&title=sharepoint-expert-power-platform-developer-stabroek",
-    "company": "Aertssen",
-    "source": "https://jobs.aertssen.be/vacatures/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "javascript",
-      "power bi"
-    ]
-  },
-  {
-    "title": "Python / Full Stack AI Developer Business Analysts · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7973461-python-full-stack-ai-developer",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python"
-    ]
-  },
-  {
-    "title": "Software Engineer IT · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7973323-software-engineer",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "php",
-      "laravel",
-      "javascript",
-      "docker"
-    ]
-  },
-  {
-    "title": "Front-End Developer IT · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7133321-front-end-developer",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "typescript"
-    ]
-  },
-  {
-    "title": "Internship Business Analyst Business Analysts · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7104767-internship-business-analyst",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python"
-    ]
-  },
-  {
-    "title": "Internship back-/front-end developer IT · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7104684-internship-back-front-end-developer",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Back-End Developer (Roeselare) IT · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7081622-back-end-developer-roeselare",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "php",
-      "laravel",
-      "node.js",
-      "mysql",
-      "microservices"
-    ]
-  },
-  {
-    "title": "Full Stack Developer IT · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7079548-full-stack-developer",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "php",
-      "laravel",
-      "javascript",
-      "mysql"
-    ]
-  },
-  {
-    "title": "Business Analyst Business Analysts · Hooglede",
-    "url": "https://jobs.brightanalytics.eu/nl/jobs/7079447-business-analyst",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "sql"
-    ]
-  },
-  {
-    "title": "Business Analysts",
-    "url": "https://jobs.brightanalytics.eu/departments/business-analysts",
-    "company": "BrightAnalytics",
-    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python"
-    ]
-  },
-  {
-    "title": "Dessel Software engineer/developer bekijk vacature",
-    "url": "https://jobs.smetgroup.be/nl/software-engineer-developer",
-    "company": "Smet Group",
-    "source": "https://jobs.smetgroup.be/nl",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python",
-      "azure",
-      "rest"
-    ]
-  },
-  {
-    "title": "Zedelgem Software Engineer Forage Harvester bekijk vacature",
-    "url": "https://www.cnhind-belgium.be/nl/software-engineer-forage-harvester",
-    "company": "CNH Industrial Belgium",
-    "source": "https://www.cnhind-belgium.be/nl#vacatures",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "azure",
-      "agile"
-    ]
-  },
-  {
-    "title": "BUSINESS ANALYST CAD PLM Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=350950&q=BUSINESS-ANALYST-CAD-PLM",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "BUSINESS ANALYST SAP MM Hooglede-Gits, België Bediende",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=334476&q=BUSINESS-ANALYST-SAP-MM",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "GenAI Engineer Hooglede-Gits, België Bediende",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=389596&q=GenAI-Engineer",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "NC - PROGRAMMEUR Hooglede-Gits, België Arbeider",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=384046&q=NC-PROGRAMMEUR",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "Senior Network Engineer Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=388028&q=Senior-Network-Engineer",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "Senior Network Engineer Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=331935&q=Senior-Network-Engineer",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "TECHNICAL SUPPORT ENGINEER Hooglede-Gits, België Bediende Afstandswerk mogelijk",
-    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=331013&q=TECHNICAL-SUPPORT-ENGINEER",
-    "company": "Deceuninck",
-    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "spring",
-      "python",
-      ".net",
-      "azure",
-      "sap"
-    ]
-  },
-  {
-    "title": "Hybride (Zedelgem) IT BUSINESS ANALYST bekijk vacature",
-    "url": "https://jobs.jacops.be/nl/it-business-analyst",
-    "company": "Jacops",
-    "source": "https://jobs.jacops.be/nl",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "sql",
-      "power bi",
-      "scrum",
-      "agile"
-    ]
-  },
-  {
-    "title": "Lauwe Senior Data Engineer bekijk vacature",
-    "url": "https://jobs.jetimport.be/nl/data-engineer",
-    "company": "Jet Import",
-    "source": "https://jobs.jetimport.be/nl",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "azure",
-      "sql"
-    ]
-  },
-  {
-    "title": "(Senior) Business analist (manufacturing) Veurne, België Optimaliseren van de bedrijfsprocessen rondom manufacturing",
-    "url": "https://jobs.duco.eu/?lang=nl-BE&section=2a8e1887-db4b-b3f8-e585-34a634849f3a&job=331099&q=-Senior-Business-analist-manufacturing-",
-    "company": "Duco",
-    "source": "https://jobs.duco.eu/?lang=nl-BE&section=2a8e1887-db4b-b3f8-e585-34a634849f3a",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "azure"
-    ]
-  },
-  {
-    "title": "Menen ICT System Engineer bekijk vacature",
-    "url": "https://jobs.valtechgroup.eu/nl/ict-system-engineer",
-    "company": "Valtech Group",
-    "source": "https://jobs.valtechgroup.eu/nl",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "azure"
-    ]
-  },
-  {
-    "title": "(sr.) Software Engineer - Defense & Security",
-    "url": "https://scioteq.recruitee.com/o/sr-software-engineer-defense-security",
-    "company": "ScioTeq",
-    "source": "https://scioteq.recruitee.com/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "java",
-      "python",
-      "linux"
-    ]
-  },
-  {
-    "title": "Development Engineer Embedded Software",
-    "url": "https://scioteq.recruitee.com/o/development-engineer-embedded-software",
-    "company": "ScioTeq",
-    "source": "https://scioteq.recruitee.com/",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python"
-    ]
-  },
-  {
-    "title": "ERP Business Analyst",
-    "url": "https://scioteq.recruitee.com/o/erp-business-analyst",
-    "company": "ScioTeq",
-    "source": "https://scioteq.recruitee.com/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "Software Quality Assurance Engineer",
-    "url": "https://scioteq.recruitee.com/o/software-quality-assurance-engineer-1",
-    "company": "ScioTeq",
-    "source": "https://scioteq.recruitee.com/",
-    "first_seen": "2026-07-19",
-    "stack": []
-  },
-  {
-    "title": "AI Engineer",
-    "url": "https://jobs.smartrecruiters.com/Locinox/744000129921959-ai-engineer",
-    "company": "Locinox",
-    "source": "https://jobs.locinox.com/#Departementen",
-    "first_seen": "2026-07-19",
-    "stack": [
-      "python"
+      "ci/cd"
     ]
   }
 ]

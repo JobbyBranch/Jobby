@@ -888,5 +888,105 @@
     "stack": [
       "python"
     ]
+  },
+  {
+    "title": "Senior Software Engineer Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/senior-software-engineer-1?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "python",
+      "kubernetes",
+      "docker",
+      "ci/cd",
+      "microservices",
+      "agile"
+    ]
+  },
+  {
+    "title": "Labo Prototype Ontwikkelaar Genk Lab & Technicians",
+    "url": "https://jobs.vito.be/l/nl/o/labo-prototype-ontwikkelaar?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Research Software Engineer Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/research-software-engineer?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "python"
+    ]
+  },
+  {
+    "title": "R&D Expert Construction Automation & Building Envelopes Genk R&D & Engineering",
+    "url": "https://jobs.vito.be/l/nl/o/rd-expert-construction-automation-building-envelopes?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "DevOps / Cloud Engineer – Earth Observation & Big Data Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/devops-cloud-engineer-earth-observation-big-data?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "kubernetes",
+      "docker",
+      "terraform",
+      "aws",
+      "ci/cd",
+      "linux",
+      "spark",
+      "agile"
+    ]
+  },
+  {
+    "title": "Microsoft 365 Application Lead Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/microsoft-365-application-lead?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Strategy & Sustainability Intelligence Analyst Mol Support",
+    "url": "https://jobs.vito.be/l/nl/o/strategy-sustainability-intelligence-analyst?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": []
+  },
+  {
+    "title": "Senior Data & Cloud Operations Engineer Tienen R&D & Engineering",
+    "url": "https://jobs.vito.be/l/nl/o/senior-data-cloud-operations-engineer?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "python",
+      "aws",
+      "azure",
+      "sql",
+      "ci/cd"
+    ]
+  },
+  {
+    "title": "Application & Platform Security Architect Mol ICT & Data Science",
+    "url": "https://jobs.vito.be/l/nl/o/application-platform-security-architect?source=VITOWebsite",
+    "company": "VITO",
+    "source": "https://vito.be/nl/jobs#paragraph-16553",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "kubernetes",
+      "azure",
+      "ci/cd"
+    ]
   }
 ]
