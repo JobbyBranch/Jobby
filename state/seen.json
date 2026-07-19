@@ -1093,5 +1093,26 @@
       "gitlab",
       "ci/cd"
     ]
+  },
+  "https://careers.qargo.com/jobs/8070015-analytics-engineer": {
+    "title": "Analytics Engineer Engineering · Ghent · Hybrid",
+    "url": "https://careers.qargo.com/jobs/8070015-analytics-engineer",
+    "company": "Qargo",
+    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "sql",
+      "tableau"
+    ]
+  },
+  "https://jobs.aertssen.be/vacatures/detail/?id=2592&title=proposal-engineer-stabroek": {
+    "title": "Proposal Engineer Stabroek",
+    "url": "https://jobs.aertssen.be/vacatures/detail/?id=2592&title=proposal-engineer-stabroek",
+    "company": "Aertssen",
+    "source": "https://jobs.aertssen.be/vacatures/",
+    "first_seen": "2026-07-19",
+    "stack": [
+      "javascript"
+    ]
   }
 }
