@@ -33,6 +33,8 @@ from zoneinfo import ZoneInfo
 
 import csv
 import io
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 import yaml
@@ -594,40 +596,63 @@ def main() -> None:
     candidates = load_candidates()
     new_jobs = []
 
-    try:
-        for src in sources:
-            company, url = src["company"], src["url"]
-            print(f"\n[{company}] {url}")
+    workers = int(os.environ.get("SCAN_WORKERS", "8"))
+    state_lock = threading.Lock()          # guards state + new_jobs
+    render_sem = threading.Semaphore(2)    # max concurrent headless browsers
+    ai_sem = threading.Semaphore(3)        # max concurrent Anthropic calls
+
+    def scan_source(src):
+        company, url = src["company"], src["url"]
+        lines = [f"[{company}] {url}"]
+        found_new = []
+        try:
             html = fetch(url)
             if html is None:
-                continue
+                lines.append("  fetch failed")
+                return lines, found_new
             jobs = extract_job_links(html, url)
-
-            # Fallback: static fetch found nothing but the page may be JS-driven
             if not jobs and not needs_rendering(url) and playwright_available():
-                print("  0 links via plain fetch — retrying with rendering")
-                html = fetch(url, force_render=True)
+                lines.append("  0 links via plain fetch — retrying with rendering")
+                with render_sem:
+                    html = fetch(url, force_render=True)
                 if html:
                     jobs = extract_job_links(html, url)
-
-            print(f"  found {len(jobs)} IT-looking job links")
+            lines.append(f"  found {len(jobs)} IT-looking job links")
             for job in jobs:
-                if job["url"] in state:
-                    continue
+                with state_lock:
+                    if job["url"] in state:
+                        continue
                 job["company"] = company
                 job["source"] = url
                 job["first_seen"] = now.strftime("%Y-%m-%d")
                 detail = fetch(job["url"]) if job["url"] != url else html
                 page_text = BeautifulSoup(detail or "", "html.parser") \
                     .get_text(" ", strip=True)
-                job = enrich_with_claude(job, page_text)
-                job = ai_match_job(job, page_text, candidates)
-                state[job["url"]] = job
-                new_jobs.append(job)
-                print(f"  + NEW: {job['title']}  "
-                      f"[{', '.join(job.get('stack', []))}]")
-                time.sleep(1)  # be polite
-            time.sleep(1.5)
+                with ai_sem:
+                    job = enrich_with_claude(job, page_text)
+                    job = ai_match_job(job, page_text, candidates)
+                with state_lock:
+                    if job["url"] in state:      # re-check after slow AI step
+                        continue
+                    state[job["url"]] = job
+                    new_jobs.append(job)
+                found_new.append(job)
+                lines.append(f"  + NEW: {job['title']}  "
+                             f"[{', '.join(job.get('stack', []))}]")
+                time.sleep(0.6)   # politeness within one site
+        except Exception as e:
+            lines.append(f"  ! source failed: {e}")
+        return lines, found_new
+
+    try:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(scan_source, src): src for src in sources}
+            done_count = 0
+            for fut in as_completed(futures):
+                lines, _ = fut.result()
+                done_count += 1
+                print("\n" + "\n".join(lines) +
+                      f"\n  ({done_count}/{len(sources)} sources done)")
     finally:
         close_browser()
 
