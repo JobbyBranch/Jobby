@@ -81,35 +81,88 @@ def log(msg):
     print(msg, flush=True)
 
 
+LOGIN_MARKERS = ("j_username", "j_password", "wachtwoord", "password", "aanmelden", "log in", "login")
+
+def _looks_like_login_page(html: str) -> bool:
+    low = html.lower()
+    return any(m in low for m in LOGIN_MARKERS[:2]) or ("<form" in low and any(m in low for m in LOGIN_MARKERS))
+
+
 def kbo_session() -> requests.Session:
     ses = requests.Session()
-    ses.headers["User-Agent"] = "JobRadar harvester (contact: repo owner)"
+    ses.headers["User-Agent"] = "Mozilla/5.0 (X11; Linux x86_64) JobRadar harvester"
     login, pw = os.environ.get("KBO_LOGIN"), os.environ.get("KBO_PASSWORD")
     if not login or not pw:
         sys.exit("KBO_LOGIN / KBO_PASSWORD secrets missing")
-    # try the files index; if bounced to login, do the form login
-    r = ses.get(f"{KBO_BASE}/affiliation/xml/", auth=(login, pw), timeout=30)
-    if "j_spring_security_check" in r.text or r.status_code in (401, 403):
-        ses.post(f"{KBO_BASE}/static/j_spring_security_check",
-                 data={"j_username": login, "j_password": pw}, timeout=30)
-        r = ses.get(f"{KBO_BASE}/affiliation/xml/", timeout=30)
-    if r.status_code != 200:
-        sys.exit(f"KBO login failed (HTTP {r.status_code}) — check the secrets")
-    ses._index_html = r.text
-    return ses
+
+    # candidate file-listing pages (env override wins, for quick fixes without code edits)
+    candidates = []
+    if os.environ.get("KBO_FILES_URL"):
+        candidates.append(os.environ["KBO_FILES_URL"])
+    candidates += [f"{KBO_BASE}/affiliation/xml/?files",
+                   f"{KBO_BASE}/affiliation/xml/",
+                   f"{KBO_BASE}/affiliation/xml/files/"]
+
+    # login attempt 1: Spring security form login
+    try:
+        ses.get(f"{KBO_BASE}/login", timeout=30)
+    except requests.RequestException:
+        pass
+    for action in (f"{KBO_BASE}/static/j_spring_security_check",
+                   f"{KBO_BASE}/j_spring_security_check",
+                   f"{KBO_BASE}/login"):
+        try:
+            pr = ses.post(action, data={"j_username": login, "j_password": pw,
+                                        "username": login, "password": pw},
+                          timeout=30, allow_redirects=True)
+            log(f"[kbo] form login via {action.rsplit('/',1)[-1]}: HTTP {pr.status_code}")
+        except requests.RequestException as e:
+            log(f"[kbo] form login via {action.rsplit('/',1)[-1]} failed: {e}")
+
+    best = None
+    for url in candidates:
+        for auth in (None, (login, pw)):
+            try:
+                r = ses.get(url, auth=auth, timeout=30)
+            except requests.RequestException as e:
+                log(f"[kbo] {url} ({'basic' if auth else 'session'}): {e}")
+                continue
+            has_zip = "Full.zip" in r.text
+            log(f"[kbo] {url} ({'basic' if auth else 'session'}): HTTP {r.status_code}, "
+                f"login-page={_looks_like_login_page(r.text)}, contains-Full.zip={has_zip}")
+            if r.status_code == 200 and has_zip:
+                ses._index_html, ses._index_url = r.text, url
+                return ses
+            if r.status_code == 200 and best is None:
+                best = (url, r.text)
+
+    # nothing had zips — dump diagnostics and bail
+    if best:
+        url, html = best
+        text = re.sub(r"<[^>]+>", " ", html)
+        text = re.sub(r"\s+", " ", text)[:500]
+        log(f"[kbo][debug] best page was {url}; visible text starts: {text}")
+    sys.exit("KBO: no page with Full.zip files found — see debug lines above. "
+             "Tip: set repo variable KBO_FILES_URL to the exact files-page URL from your browser.")
 
 
 def download_latest_full(ses: requests.Session) -> Path:
-    names = re.findall(r"KboOpenData_\d+_\d{4}_\d{2}_Full\.zip", ses._index_html)
+    names = re.findall(r"KboOpenData_[\w.]*?\d{4}_\d{2}[\w.]*?_Full\.zip", ses._index_html)
     if not names:
-        sys.exit("No Full.zip found on the KBO files page — page layout may have changed")
+        sys.exit("Files page loaded but no Full.zip filename matched — layout changed")
     latest = sorted(set(names))[-1]
     dest = ROOT / latest
     if dest.exists():
         log(f"[kbo] {latest} already downloaded")
         return dest
     log(f"[kbo] downloading {latest} (few hundred MB, be patient)…")
-    with ses.get(f"{KBO_BASE}/affiliation/xml/files/{latest}", stream=True, timeout=120) as r:
+    base = getattr(ses, "_index_url", f"{KBO_BASE}/affiliation/xml/")
+    dl_base = base.split("?")[0].rstrip("/")
+    if not dl_base.endswith("/files"):
+        dl_base += "/files"
+    dl = f"{dl_base}/{latest}"
+    log(f"[kbo] GET {dl}")
+    with ses.get(dl, stream=True, timeout=120) as r:
         r.raise_for_status()
         with open(dest, "wb") as f:
             for chunk in r.iter_content(1 << 20):
