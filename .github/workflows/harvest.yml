@@ -1,0 +1,45 @@
+name: JobRadar company harvest (KBO)
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "Max new companies to resolve this run"
+        default: "800"
+      max_serper:
+        description: "Max Serper searches to spend this run"
+        default: "500"
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Harvest companies from KBO
+        env:
+          KBO_LOGIN: ${{ secrets.KBO_LOGIN }}
+          KBO_PASSWORD: ${{ secrets.KBO_PASSWORD }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          MAX_NEW_COMPANIES: ${{ inputs.max_new }}
+          MAX_SERPER: ${{ inputs.max_serper }}
+        run: python harvest.py
+
+      - name: Commit results
+        run: |
+          git config user.name "jobradar-bot"
+          git config user.email "bot@jobradar"
+          git add companies_auto.txt harvest_state.json
+          git diff --cached --quiet || git commit -m "company harvest"
+          git push
