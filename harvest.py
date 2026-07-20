@@ -88,62 +88,88 @@ def _looks_like_login_page(html: str) -> bool:
     return any(m in low for m in LOGIN_MARKERS[:2]) or ("<form" in low and any(m in low for m in LOGIN_MARKERS))
 
 
+def _parse_form(html: str):
+    """Extract (action, fields) from the first <form> in the page."""
+    m = re.search(r"<form\b[^>]*>(.*?)</form>", html, re.S | re.I)
+    if not m:
+        return None, {}
+    form_tag = html[m.start():html.index(">", m.start()) + 1]
+    am = re.search(r"action\s*=\s*[\"']([^\"']*)[\"']", form_tag, re.I)
+    action = am.group(1) if am else ""
+    fields = {}
+    for inp in re.finditer(r"<input\b[^>]*>", m.group(1), re.I):
+        tag = inp.group(0)
+        name = re.search(r"name\s*=\s*[\"']([^\"']+)[\"']", tag, re.I)
+        if not name:
+            continue
+        value = re.search(r"value\s*=\s*[\"']([^\"']*)[\"']", tag, re.I)
+        typ = re.search(r"type\s*=\s*[\"']([^\"']+)[\"']", tag, re.I)
+        fields[name.group(1)] = {"value": value.group(1) if value else "",
+                                 "type": (typ.group(1).lower() if typ else "text")}
+    return action, fields
+
+
 def kbo_session() -> requests.Session:
+    from urllib.parse import urljoin
     ses = requests.Session()
     ses.headers["User-Agent"] = "Mozilla/5.0 (X11; Linux x86_64) JobRadar harvester"
     login, pw = os.environ.get("KBO_LOGIN"), os.environ.get("KBO_PASSWORD")
     if not login or not pw:
         sys.exit("KBO_LOGIN / KBO_PASSWORD secrets missing")
 
-    # candidate file-listing pages (env override wins, for quick fixes without code edits)
-    candidates = []
-    if os.environ.get("KBO_FILES_URL"):
-        candidates.append(os.environ["KBO_FILES_URL"])
-    candidates += [f"{KBO_BASE}/affiliation/xml/?files",
-                   f"{KBO_BASE}/affiliation/xml/",
-                   f"{KBO_BASE}/affiliation/xml/files/"]
+    files_url = os.environ.get("KBO_FILES_URL", f"{KBO_BASE}/affiliation/xml/?files")
 
-    # login attempt 1: Spring security form login
-    try:
-        ses.get(f"{KBO_BASE}/login", timeout=30)
-    except requests.RequestException:
-        pass
-    for action in (f"{KBO_BASE}/static/j_spring_security_check",
-                   f"{KBO_BASE}/j_spring_security_check",
-                   f"{KBO_BASE}/login"):
-        try:
-            pr = ses.post(action, data={"j_username": login, "j_password": pw,
-                                        "username": login, "password": pw},
-                          timeout=30, allow_redirects=True)
-            log(f"[kbo] form login via {action.rsplit('/',1)[-1]}: HTTP {pr.status_code}")
-        except requests.RequestException as e:
-            log(f"[kbo] form login via {action.rsplit('/',1)[-1]} failed: {e}")
+    # 1. load the page -> login form + session cookies
+    r = ses.get(files_url, timeout=30)
+    if "Full.zip" in r.text:
+        ses._index_html, ses._index_url = r.text, files_url
+        log("[kbo] already authenticated (no login needed)")
+        return ses
 
-    best = None
-    for url in candidates:
-        for auth in (None, (login, pw)):
-            try:
-                r = ses.get(url, auth=auth, timeout=30)
-            except requests.RequestException as e:
-                log(f"[kbo] {url} ({'basic' if auth else 'session'}): {e}")
-                continue
-            has_zip = "Full.zip" in r.text
-            log(f"[kbo] {url} ({'basic' if auth else 'session'}): HTTP {r.status_code}, "
-                f"login-page={_looks_like_login_page(r.text)}, contains-Full.zip={has_zip}")
-            if r.status_code == 200 and has_zip:
-                ses._index_html, ses._index_url = r.text, url
-                return ses
-            if r.status_code == 200 and best is None:
-                best = (url, r.text)
+    # 2. parse the real form and fill it
+    action, fields = _parse_form(r.text)
+    if not fields:
+        sys.exit("[kbo] no login form found on the page — layout changed, need a new look")
+    payload = {}
+    user_set = pass_set = False
+    for name, meta in fields.items():
+        low = name.lower()
+        if meta["type"] == "password":
+            payload[name] = pw; pass_set = True
+        elif not user_set and (meta["type"] in ("text", "email")) and \
+                any(k in low for k in ("user", "login", "mail", "name", "id")):
+            payload[name] = login; user_set = True
+        else:
+            payload[name] = meta["value"]  # hidden tokens (CSRF, flow ids) echoed back
+    if not user_set:  # fallback: first text input gets the username
+        for name, meta in fields.items():
+            if meta["type"] in ("text", "email"):
+                payload[name] = login; user_set = True; break
+    log(f"[kbo] login form: action='{action or '(self)'}', fields={sorted(fields)}, "
+        f"user-field-found={user_set}, password-field-found={pass_set}")
+    if not pass_set:
+        sys.exit("[kbo] no password field in the form — page is not a standard login form")
 
-    # nothing had zips — dump diagnostics and bail
-    if best:
-        url, html = best
-        text = re.sub(r"<[^>]+>", " ", html)
-        text = re.sub(r"\s+", " ", text)[:500]
-        log(f"[kbo][debug] best page was {url}; visible text starts: {text}")
-    sys.exit("KBO: no page with Full.zip files found — see debug lines above. "
-             "Tip: set repo variable KBO_FILES_URL to the exact files-page URL from your browser.")
+    submit_url = urljoin(r.url, action) if action else r.url
+    pr = ses.post(submit_url, data=payload, timeout=30, allow_redirects=True)
+    log(f"[kbo] submitted login to {submit_url}: HTTP {pr.status_code}")
+
+    # 3. fetch the files page with the authenticated session
+    r2 = ses.get(files_url, timeout=30)
+    if "Full.zip" in r2.text:
+        ses._index_html, ses._index_url = r2.text, files_url
+        log("[kbo] login OK — files page visible")
+        return ses
+    if "Full.zip" in pr.text:
+        ses._index_html, ses._index_url = pr.text, submit_url
+        log("[kbo] login OK — files listed in post-login page")
+        return ses
+
+    txt = re.sub(r"<[^>]+>", " ", r2.text)
+    txt = re.sub(r"\s+", " ", txt)[:400]
+    log(f"[kbo][debug] after login still no files; page says: {txt}")
+    sys.exit("[kbo] login submitted but files page still not visible — "
+             "likely wrong credentials or an extra login step; see debug above")
 
 
 def download_latest_full(ses: requests.Session) -> Path:
