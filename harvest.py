@@ -151,8 +151,15 @@ def kbo_session() -> requests.Session:
         sys.exit("[kbo] no password field in the form — page is not a standard login form")
 
     submit_url = urljoin(r.url, action) if action else r.url
+    ses.headers["Referer"] = r.url
     pr = ses.post(submit_url, data=payload, timeout=30, allow_redirects=True)
     log(f"[kbo] submitted login to {submit_url}: HTTP {pr.status_code}")
+    log(f"[kbo] post-login landed on: {pr.url}")
+    low = (pr.url + " " + pr.text[:3000]).lower()
+    if any(k in low for k in ("login_error", "bad credentials", "badcredentials", "authentication failed", "onjuist", "incorrect")):
+        sys.exit("[kbo] VERDICT: the server explicitly rejected the credentials — "
+                 "the KBO_LOGIN / KBO_PASSWORD secrets don't match a working login. "
+                 "Verify in an incognito browser window, then overwrite both secrets.")
 
     # 3. fetch the files page with the authenticated session
     r2 = ses.get(files_url, timeout=30)
