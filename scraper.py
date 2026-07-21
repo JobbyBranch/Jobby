@@ -172,6 +172,18 @@ LINK_BLACKLIST = re.compile(
 _browser = None
 _playwright = None
 
+# Playwright's sync API is thread-bound: every call must happen on the thread
+# that started it. All rendering is therefore routed through this single-worker
+# executor — one thread owns the browser for the whole run.
+_RENDER_POOL = None
+
+def _render_pool():
+    global _RENDER_POOL
+    if _RENDER_POOL is None:
+        from concurrent.futures import ThreadPoolExecutor as _TPE
+        _RENDER_POOL = _TPE(max_workers=1, thread_name_prefix="render")
+    return _RENDER_POOL
+
 
 def _get_browser():
     global _browser, _playwright
@@ -199,6 +211,11 @@ def playwright_available() -> bool:
 
 
 def fetch_rendered(url: str) -> str | None:
+    """Thread-safe wrapper: executes the real render on the browser thread."""
+    return _render_pool().submit(_fetch_rendered_impl, url).result()
+
+
+def _fetch_rendered_impl(url: str) -> str | None:
     """Fetch a page with headless Chromium so client-side JS runs."""
     try:
         browser = _get_browser()
@@ -654,7 +671,11 @@ def main() -> None:
                 print("\n" + "\n".join(lines) +
                       f"\n  ({done_count}/{len(sources)} sources done)")
     finally:
-        close_browser()
+        try:
+            _render_pool().submit(close_browser).result(timeout=30)
+            _render_pool().shutdown(wait=False)
+        except Exception as e:
+            print(f"(browser cleanup issue ignored: {e})")
 
     save_state(state)
     write_outputs(state, new_jobs, now)
