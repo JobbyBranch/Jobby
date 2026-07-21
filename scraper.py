@@ -362,9 +362,12 @@ def classify_with_claude(title: str) -> bool | None:
                     "content": (
                         "Is this an IT job (software, data engineering, infrastructure, "
                         "cybersecurity, IT support, IT analysis/architecture)? "
-                        "Marketing, sales, HR, finance, legal, logistics, healthcare "
-                        "and manual/technical trades are NOT IT, even if the title "
-                        "mentions digital or data. Job title (Dutch or English): "
+                        "NOT IT: marketing, sales, HR, finance, legal, logistics, "
+                        "healthcare, manual/technical trades, procurement/purchasing "
+                        "(aankoper, buyer — even of IT), quality/mechanical/electrical/"
+                        "process/field-service engineering, and bare category words "
+                        "that are not a concrete vacancy (like 'Engineering', 'Jobs', "
+                        "'Techniek'). Job title (Dutch or English): "
                         f"'{title}'. Answer with exactly one word: yes or no."
                     ),
                 }],
@@ -394,7 +397,11 @@ def extract_job_links(html: str, base_url: str) -> list[dict]:
             continue
         if not plausible_job_url(href, base_url):
             continue
-        keyword_says_it = looks_like_it_job(title)
+        # hard exclusions (mechanical/quality/process engineers, sales, HR...)
+        # always win — the AI classifier may NOT override them
+        if _match_any(title, NON_IT_KEYWORDS):
+            continue
+        keyword_says_it = _match_any(title, IT_KEYWORDS)
         ai_says_it = classify_with_claude(title)
         is_it = ai_says_it if ai_says_it is not None else keyword_says_it
         if not is_it:
@@ -532,13 +539,14 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
     lines = []
     for c in shortlist:
         hist = c["profile"][:1400] if c["profile"] else "(no career digest — judge on role/skills only)"
-        lines.append(f"Row {c['row']} | {c['role']} | {c['years']} yrs | "
+        lines.append(f"ROW={c['row']} | {c['role']} | {c['years']} yrs | "
                      f"skills: {', '.join(c['skills'][:14])} | history: {hist}")
     prompt = (
         "You are a senior IT recruiter. Pick the 3 best candidates for this vacancy.\n"
         "Judge on real fit: concrete past work in the history matters more than keyword overlap; "
         "seniority and domain must be plausible. Be honest — if fit is weak, score low.\n"
-        "Refer to candidates ONLY as their row number, never by name.\n"
+        "Refer to candidates ONLY by the exact ROW= number shown (these are "
+        "sheet row numbers, NOT positions 1-10 in this list).\n"
         'Reply ONLY with JSON: {"matches": [{"row": <int>, "score": <0-100>, '
         '"reason": "<one concrete sentence citing their relevant history>"}]} '
         "with exactly 3 entries, best first.\n\n"
@@ -557,10 +565,23 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
         )
         r.raise_for_status()
         text = r.json()["content"][0]["text"]
-        data = json.loads(re.sub(r"```json|```", "", text).strip())
-        by_row = {c["row"]: c for c in candidates}
+        jm = re.search(r"\{.*\}", text, re.S)
+        if not jm:
+            raise ValueError(f"no JSON in model reply: {text[:120]!r}")
+        data = json.loads(jm.group(0))
+        # STRICT: only shortlist rows are valid answers. If the model answered
+        # with 1-based shortlist positions instead of sheet rows, remap them.
+        shortlist_rows = {c["row"] for c in shortlist}
+        raw = data.get("matches", [])[:3]
+        raw_rows = [int(m.get("row", -1)) for m in raw]
+        if raw_rows and not all(rr in shortlist_rows for rr in raw_rows) \
+                and all(1 <= rr <= len(shortlist) for rr in raw_rows):
+            for m, rr in zip(raw, raw_rows):
+                m["row"] = shortlist[rr - 1]["row"]
+            print("    (remapped positional rows to sheet rows)")
+        by_row = {c["row"]: c for c in shortlist}
         out = []
-        for m in data.get("matches", [])[:3]:
+        for m in raw:
             row = int(m.get("row", -1))
             if row not in by_row:
                 continue
