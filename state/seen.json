@@ -1215,5 +1215,1278 @@
       "ci/cd",
       "microservices"
     ]
+  },
+  "https://ict-emmaus.cvw.io/?lang=nl-BE&job=398019&q=Aankoper-ICT": {
+    "title": "Aankoper ICT Mechelen, België Bediende Afstandswerk mogelijk Lees verder",
+    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=398019&q=Aankoper-ICT",
+    "company": "Emmaüs ICT",
+    "source": "https://ict-emmaus.cvw.io/?lang=nl-BE",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 28,
+        "reason": "20 years of project management and PMO experience provides the closest transferable skills (stakeholder management, structured reporting, contract oversight) but there is no procurement, purchasing, or public tender history whatsoever.",
+        "check": "g20"
+      },
+      {
+        "row": 2,
+        "score": 18,
+        "reason": "3 years as a Business & Functional Analyst offers some analytical and internal-client-facing experience, but there is no evidence of any purchasing, supplier management, or overheidsopdrachten background.",
+        "check": "c3"
+      },
+      {
+        "row": 5,
+        "score": 15,
+        "reason": "5 years as a Product Owner shows some vendor interaction and requirements work, but nothing in the candidate's history relates to ICT procurement, contract management, or public procurement legislation.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://cartamundi.com/en/careers/engineering": {
+    "title": "Engineering",
+    "url": "https://cartamundi.com/en/careers/engineering",
+    "company": "Cartamundi",
+    "source": "https://cartamundi.com/careers",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null
+  },
+  "https://cartamundi.com/en/career/392899/": {
+    "title": "Quality Engineer",
+    "url": "https://cartamundi.com/en/career/392899/",
+    "company": "Cartamundi",
+    "source": "https://cartamundi.com/careers",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Excel",
+      "SAP",
+      "Office"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 4,
+        "score": 18,
+        "reason": "Has 6 years of data analysis experience which partially aligns with the KPI reporting and data analysis aspects of the role, but has no quality engineering, manufacturing, or process improvement background.",
+        "check": "n6"
+      },
+      {
+        "row": 3,
+        "score": 12,
+        "reason": "20 years of project management experience offers some overlap with coordinating corrective actions and cross-functional projects, but lacks any quality engineering, manufacturing, or technical domain history.",
+        "check": "g20"
+      },
+      {
+        "row": 2,
+        "score": 10,
+        "reason": "3 years as a business/functional analyst provides marginal transferable skills in process documentation, but has no quality systems, manufacturing, or engineering background relevant to this role.",
+        "check": "c3"
+      }
+    ]
+  },
+  "https://www.grootgrotergroots.be/nl-be/jobs/scada-ot-engineer/": {
+    "title": "SCADA & OT Engineer",
+    "url": "https://www.grootgrotergroots.be/nl-be/jobs/scada-ot-engineer/",
+    "company": "Groot Groter Groots",
+    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "SCADA",
+      "PLC",
+      "Linux",
+      "Siemens TIA Portal",
+      "ABB Automation Builder",
+      "OPC UA",
+      "Modbus",
+      "Profinet",
+      "MQTT",
+      "Ansible"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 28,
+        "reason": "Cloud & DevOps background with Azure gives the closest adjacent technical profile (Linux, scripting, infrastructure), but there is no concrete SCADA, PLC, OT, or industrial network history evident.",
+        "check": "j6"
+      },
+      {
+        "row": 1,
+        "score": 12,
+        "reason": "11 years of Python scripting is a marginal plus listed in the vacancy, but there is zero evidence of OT, SCADA, PLC, or industrial systems experience.",
+        "check": "w11"
+      },
+      {
+        "row": 3,
+        "score": 8,
+        "reason": "20 years of project management could theoretically support automation project delivery, but there is no technical OT or SCADA background whatsoever.",
+        "check": "g20"
+      }
+    ]
+  },
+  "https://jobs.lever.co/Qover/ec01234c-3488-4aec-ad7c-9a50013196c9": {
+    "title": "Associate Solutions Consultant - Insurtech Platform (Json, HTML/CSS) 1-3y exp",
+    "url": "https://jobs.lever.co/Qover/ec01234c-3488-4aec-ad7c-9a50013196c9",
+    "company": "Qover",
+    "source": "https://www.qover.com/careers#jobs",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "json",
+      "html",
+      "css"
+    ],
+    "experience": "2-3 yrs",
+    "ai_matches": [
+      {
+        "row": 2,
+        "score": 72,
+        "reason": "3 years as a Business & Functional Analyst directly matches the role's core requirement of requirements gathering and process modeling within the stated 2–3 year experience band, making her the closest profile to the hybrid analyst/configurator role despite no explicit JSON or insurtech history visi",
+        "check": "c3"
+      },
+      {
+        "row": 5,
+        "score": 45,
+        "reason": "5 years as a Product Owner suggests familiarity with SaaS platform lifecycle, partner requirements, and functional specifications, which partially overlaps with the consultative and configuration ownership aspects of the role, though seniority slightly exceeds the 1–3 year target and no technical co",
+        "check": "l5"
+      },
+      {
+        "row": 9,
+        "score": 40,
+        "reason": "8 years of Business & Functional Analysis with a Salesforce specialization demonstrates hands-on platform configuration and requirement definition experience that mirrors the role's analysis-to-configuration model, though seniority and absence of JSON/insurtech context are notable mismatches.",
+        "check": "k8"
+      }
+    ]
+  },
+  "https://careers.qargo.com/jobs/8070015-analytics-engineer": {
+    "title": "Analytics Engineer Engineering · Ghent · Hybrid",
+    "url": "https://careers.qargo.com/jobs/8070015-analytics-engineer",
+    "company": "Qargo",
+    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "SQL",
+      "Lightdash",
+      "Superset",
+      "Tableau",
+      "Looker",
+      "Power BI",
+      "Mixpanel"
+    ],
+    "experience": "2+ yrs",
+    "ai_matches": [
+      {
+        "row": 4,
+        "score": 72,
+        "reason": "6 years as Senior Business Data Analyst / BI Lead directly covers the core requirements of data analysis, BI dashboarding, and stakeholder collaboration, making her the closest match despite limited detail on SQL/dbt stack.",
+        "check": "n6"
+      },
+      {
+        "row": 2,
+        "score": 28,
+        "reason": "3 years in business and functional analysis provides some adjacent data interpretation skills, but there is no evidence of SQL proficiency, data modelling, or BI tooling required for this role.",
+        "check": "c3"
+      },
+      {
+        "row": 8,
+        "score": 18,
+        "reason": "6 years in Cloud & DevOps with Azure experience offers marginal relevance to data pipeline infrastructure, but there is no demonstrated analytics engineering, SQL, or dashboarding background.",
+        "check": "j6"
+      }
+    ]
+  },
+  "https://jobs.lever.co/Qover/99d840fb-7056-4eb2-b3b3-04758b58b478": {
+    "title": "Senior Full-Stack Software Engineer - Build the Future of Embedded Insurance",
+    "url": "https://jobs.lever.co/Qover/99d840fb-7056-4eb2-b3b3-04758b58b478",
+    "company": "Qover",
+    "source": "https://www.qover.com/careers#jobs",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "REST APIs"
+    ],
+    "experience": "5+ yrs",
+    "ai_matches": [
+      {
+        "row": 11,
+        "score": 38,
+        "reason": "Row 11 is the only candidate with hands-on full-stack development history, but 4 years of Java experience falls short of the 5+ years required and there is no evidence of Node.js, React, MongoDB, or cloud work.",
+        "check": "k4"
+      },
+      {
+        "row": 20,
+        "score": 22,
+        "reason": "Row 20 has 8 years of senior-level backend development in C#, which the vacancy explicitly acknowledges as a transferable ecosystem, but there is no full-stack, frontend, or cloud history visible.",
+        "check": "j8"
+      },
+      {
+        "row": 14,
+        "score": 15,
+        "reason": "Row 14 brings 25 years of cloud/systems engineering (AWS) which partially overlaps with the GCP/infrastructure requirements, but the role demands full-stack software engineering, not system/infra engineering, making the fit weak.",
+        "check": "d25"
+      }
+    ]
+  },
+  "https://vanden-broele.jobtoolz.com/nl/ai-expert-freelance-of-vast": {
+    "title": "AI expert (freelance of vast)",
+    "url": "https://vanden-broele.jobtoolz.com/nl/ai-expert-freelance-of-vast",
+    "company": "Vanden Broele",
+    "source": "https://www.vandenbroele.be/jobs#jobsection",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "LLM",
+      "NLP",
+      "semantic search",
+      "hybrid search",
+      "AWS",
+      "Azure"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 68,
+        "score": 22,
+        "reason": "20 years of Linux/cloud engineering provides the closest overlap with the required cloud platform (AWS/Azure) experience, though there is no evidence of LLM, NLP, or AI-specific work in their history.",
+        "check": "t20"
+      },
+      {
+        "row": 28,
+        "score": 12,
+        "reason": "8 years as a streaming data engineer with Kafka gives some data-pipeline relevance, but there is no demonstrable experience with LLMs, semantic search, NLP, or AI model evaluation required for this role.",
+        "check": "a8"
+      },
+      {
+        "row": 33,
+        "score": 8,
+        "reason": "13 years of business/functional analysis could marginally support the advisory and requirements side of the role, but the candidate has no technical AI, NLP, or LLM background whatsoever.",
+        "check": "r13"
+      }
+    ]
+  },
+  "https://msc.csod.com/ux/ats/careersite/4/home/requisition/4183?c=msc": {
+    "title": "Senior Power Platform Expert",
+    "url": "https://msc.csod.com/ux/ats/careersite/4/home/requisition/4183?c=msc",
+    "company": "MSC",
+    "source": "https://msc.csod.com/ux/ats/careersite/4/home?c=msc&country=be",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Power BI",
+      "Power Apps",
+      "Power Automate",
+      "DAX",
+      "SQL",
+      "SharePoint",
+      "APIs"
+    ],
+    "experience": "5+ yrs",
+    "ai_matches": [
+      {
+        "row": 4,
+        "score": 52,
+        "reason": "As a Senior Business Data Analyst / BI Lead with 6 years in data analysis, candidate 4 is the closest match, likely having BI tooling exposure, though no explicit Power Platform history is confirmed in the provided profile.",
+        "check": "n6"
+      },
+      {
+        "row": 12,
+        "score": 22,
+        "reason": "20 years as a Senior Business & Functional Analyst / Product Owner gives stakeholder-bridging and requirements skills, but there is no evidence of Power Platform, Power BI, or low-code development experience in their history.",
+        "check": "b20"
+      },
+      {
+        "row": 3,
+        "score": 15,
+        "reason": "20 years of project/PMO management could support governance and stakeholder work peripherally, but the profile shows no technical Power Platform, BI, or data modeling background whatsoever.",
+        "check": "g20"
+      }
+    ]
+  },
+  "https://careers.qargo.com/jobs/7986883-technical-support-officer-be": {
+    "title": "Technical Support Officer (BE) Customer Success · Ghent · Hybrid",
+    "url": "https://careers.qargo.com/jobs/7986883-technical-support-officer-be",
+    "company": "Qargo",
+    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Excel",
+      "CSV",
+      "PDF"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 2,
+        "score": 52,
+        "reason": "As a Business & Functional Analyst, row 2 has the closest profile to the role — client-facing analytical work, requirements gathering, and software configuration align partially with technical support and data management tasks, though no direct support or logistics background is evident.",
+        "check": "c3"
+      },
+      {
+        "row": 4,
+        "score": 45,
+        "reason": "Row 4's 6 years in business data analysis and BI suggests advanced Excel/data skills relevant to CSV/mapping configuration duties, but there is no customer support or transportation domain history to support a strong fit.",
+        "check": "n6"
+      },
+      {
+        "row": 9,
+        "score": 38,
+        "reason": "Row 9's 8 years as a Salesforce functional analyst implies client-facing configuration and support experience within a SaaS context, which partially maps to onboarding and system setup responsibilities, though the domain mismatch with logistics is significant.",
+        "check": "k8"
+      }
+    ]
+  },
+  "https://vanden-broele.jobtoolz.com/nl/business-functioneel-analist": {
+    "title": "Business/functioneel analist (freelance/payroll)",
+    "url": "https://vanden-broele.jobtoolz.com/nl/business-functioneel-analist",
+    "company": "Vanden Broele",
+    "source": "https://www.vandenbroele.be/jobs#jobsection",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": "several years",
+    "ai_matches": [
+      {
+        "row": 31,
+        "score": 88,
+        "reason": "15 years as Business/Functional Analyst and Product Owner directly matches the role's core requirements of stakeholder management, backlog ownership, and the PO tandem described in the vacancy.",
+        "check": "n15"
+      },
+      {
+        "row": 33,
+        "score": 85,
+        "reason": "13 years of dedicated freelance Business & Functional Analysis experience aligns precisely with the seniority level and analytical responsibilities required for this role.",
+        "check": "r13"
+      },
+      {
+        "row": 32,
+        "score": 75,
+        "reason": "9 years as Business Analyst/Product Owner provides solid directly relevant experience covering user stories, stakeholder communication, and Agile ways of working expected in this position.",
+        "check": "y9"
+      }
+    ]
+  },
+  "https://careers.qargo.com/jobs/7316911-mobile-engineer": {
+    "title": "Mobile Engineer Engineering · Ghent · Hybrid",
+    "url": "https://careers.qargo.com/jobs/7316911-mobile-engineer",
+    "company": "Qargo",
+    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "react native",
+      "expo",
+      "typescript",
+      "graphql",
+      "firebase",
+      "firestore",
+      "ios",
+      "android"
+    ],
+    "experience": "2+ yrs"
+  },
+  "https://msc.csod.com/ux/ats/careersite/4/home/requisition/3918?c=msc": {
+    "title": "Release Manager",
+    "url": "https://msc.csod.com/ux/ats/careersite/4/home/requisition/3918?c=msc",
+    "company": "MSC",
+    "source": "https://msc.csod.com/ux/ats/careersite/4/home?c=msc&country=be",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Azure",
+      "Azure DevOps",
+      "Git",
+      "PowerShell",
+      "SQL",
+      "Power BI"
+    ],
+    "experience": "5+ yrs"
+  },
+  "https://jobs.vanheede.com/nl/project-engineer-infrastructure": {
+    "title": "Wervik Project Engineer Infrastructure bekijk vacature",
+    "url": "https://jobs.vanheede.com/nl/project-engineer-infrastructure",
+    "company": "Vanheede",
+    "source": "https://jobs.vanheede.com/nl",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "autocad"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 22,
+        "reason": "20 years of project management experience is the closest transferable skill, though all background is in IT/PMO with zero evidence of construction, infrastructure, or built-environment project delivery required for this role.",
+        "check": "g20"
+      },
+      {
+        "row": 5,
+        "score": 8,
+        "reason": "5 years as Product Owner involves some planning and stakeholder coordination, but there is no construction, civil engineering, or infrastructure background whatsoever making fit extremely weak.",
+        "check": "l5"
+      },
+      {
+        "row": 2,
+        "score": 6,
+        "reason": "3 years in business/functional analysis provides minimal overlap with the building engineering and site management responsibilities of this infrastructure project engineer role.",
+        "check": "c3"
+      }
+    ]
+  },
+  "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=337736&q=Proces-Engineer-Operationele-Technologie": {
+    "title": "Proces Engineer Operationele Technologie Ridderkerk, Nederland Bakker Lees verder",
+    "url": "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93&job=337736&q=Proces-Engineer-Operationele-Technologie",
+    "company": "Greenyard",
+    "source": "https://careers-greenyard.cvw.io/?lang=nl-NL&section=ac930450-2270-c738-a2af-a1f62c945c93",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "MES",
+      "WCS",
+      "PLC",
+      "HMI",
+      "SCADA",
+      "IoT",
+      "SAP",
+      "Industrial Networks"
+    ],
+    "experience": null
+  },
+  "https://jobs.brightanalytics.eu/nl/jobs/7714163-ai-engineer-production-mlops": {
+    "title": "AI Engineer (Production & MLOps) IT · Hooglede",
+    "url": "https://jobs.brightanalytics.eu/nl/jobs/7714163-ai-engineer-production-mlops",
+    "company": "BrightAnalytics",
+    "source": "https://jobs.brightanalytics.eu/jobs?query=&country=Belgium",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "python",
+      "scikit-learn",
+      "pytorch",
+      "tensorflow",
+      "langchain",
+      "sql",
+      "mongodb",
+      "clickhouse",
+      "kubeflow",
+      "php"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 74,
+        "score": 12,
+        "reason": "Has banking/insurance domain exposure which is adjacent to FinTech, but no evidence of any AI, ML, MLOps, Python, or data engineering work required for this role.",
+        "check": "g7"
+      },
+      {
+        "row": 25,
+        "score": 8,
+        "reason": "15 years as Product Owner/Business Analyst shows seniority but zero concrete history in ML systems, data pipelines, or production AI deployment that this role demands.",
+        "check": "i15"
+      },
+      {
+        "row": 23,
+        "score": 6,
+        "reason": "QA/Scrum Master background suggests some technical awareness, but no demonstrated experience with MLOps, model training, or any AI/ML tooling relevant to this vacancy.",
+        "check": "n10"
+      }
+    ]
+  },
+  "https://www.cnhind-belgium.be/nl/technical-trainer-tractors": {
+    "title": "Zedelgem Technical Trainer Tractors bekijk vacature",
+    "url": "https://www.cnhind-belgium.be/nl/technical-trainer-tractors",
+    "company": "CNH Industrial Belgium",
+    "source": "https://www.cnhind-belgium.be/nl#vacatures",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years of project management is the closest to an organizational/coordination role, but there is no technical tractor, agricultural, or training background whatsoever.",
+        "check": "g20"
+      },
+      {
+        "row": 5,
+        "score": 12,
+        "reason": "Product Owner experience involves some stakeholder coordination and content ownership, which marginally overlaps with training coordination duties, but no agricultural or technical machinery background exists.",
+        "check": "l5"
+      },
+      {
+        "row": 2,
+        "score": 10,
+        "reason": "Business and functional analysis involves structured thinking and needs identification, which weakly parallels identifying training gaps, but there is no relevant technical or agricultural domain history.",
+        "check": "c3"
+      }
+    ]
+  },
+  "https://www.cnhind-belgium.be/nl/component-engineer-actuators": {
+    "title": "Zedelgem Component Engineer Actuators bekijk vacature",
+    "url": "https://www.cnhind-belgium.be/nl/component-engineer-actuators",
+    "company": "CNH Industrial Belgium",
+    "source": "https://www.cnhind-belgium.be/nl#vacatures",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "ProE/CREO",
+      "Unigraphics",
+      "Catia",
+      "Teamcenter",
+      "CAN",
+      "J1939",
+      "ISO11783",
+      "MS Office"
+    ],
+    "experience": "2+ yrs",
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years of project management experience provides the weakest adjacent relevance to the vacancy's project coordination requirements, but there is no electromechanical or actuator engineering background whatsoever.",
+        "check": "g20"
+      },
+      {
+        "row": 5,
+        "score": 8,
+        "reason": "5 years as Product Owner offers marginal overlap with product development lifecycle concepts, but no engineering, actuator, or electromechanical experience is present.",
+        "check": "l5"
+      },
+      {
+        "row": 2,
+        "score": 6,
+        "reason": "3 years of business/functional analysis has no relevance to electromechanical component engineering, but specification documentation is a distant conceptual parallel.",
+        "check": "c3"
+      }
+    ]
+  },
+  "https://www.cnhind-belgium.be/nl/manufacturing-engineer-lasserij": {
+    "title": "Zedelgem Manufacturing Engineer Lasserij bekijk vacature",
+    "url": "https://www.cnhind-belgium.be/nl/manufacturing-engineer-lasserij",
+    "company": "CNH Industrial Belgium",
+    "source": "https://www.cnhind-belgium.be/nl#vacatures",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "MS Office",
+      "Excel",
+      "Word",
+      "Access",
+      "PowerPoint",
+      "Power BI",
+      "CAD",
+      "CAM",
+      "AutoCAD"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years of project management experience offers the closest transferable skill (managing complex projects and stakeholders), but there is zero manufacturing, welding, or industrial engineering background evident in the history.",
+        "check": "g20"
+      },
+      {
+        "row": 4,
+        "score": 12,
+        "reason": "6 years in data/BI analysis marginally touches the vacancy's data-analysis and Power BI requirements, but no manufacturing, process engineering, or welding domain experience is present.",
+        "check": "n6"
+      },
+      {
+        "row": 2,
+        "score": 8,
+        "reason": "3 years as a business/functional analyst provides some process-documentation adjacency (e.g., writing specifications), but no manufacturing engineering, welding, or industrial background whatsoever.",
+        "check": "c3"
+      }
+    ]
+  },
+  "https://jobs.locinox.com/r-d-bij-locinox": {
+    "title": "R&D @ Locinox",
+    "url": "https://jobs.locinox.com/r-d-bij-locinox",
+    "company": "Locinox",
+    "source": "https://jobs.locinox.com/#Departementen",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years of project management experience is the closest to an R&D coordination role, but there is no evidence of mechanical/electronic product design or engineering background relevant to Locinox's hardware R&D vacancy.",
+        "check": "g20"
+      },
+      {
+        "row": 5,
+        "score": 12,
+        "reason": "Product Owner experience touches on product development lifecycle, but there is no evidence of mechanical or electronic engineering work required for Locinox's Senior Design Engineer role.",
+        "check": "l5"
+      },
+      {
+        "row": 1,
+        "score": 10,
+        "reason": "AI/Python engineering background is entirely software-focused with no mechanical, electronics, or physical product design history relevant to gate technology R&D at Locinox.",
+        "check": "w11"
+      }
+    ]
+  },
+  "https://jobs.smetgroup.be/nl/technieker": {
+    "title": "Hybride (Dessel) Technieker bekijk vacature",
+    "url": "https://jobs.smetgroup.be/nl/technieker",
+    "company": "Smet Group",
+    "source": "https://jobs.smetgroup.be/nl",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years of project management is the closest to any hands-on technical or site coordination background in this pool, but there is no evidence of mechanical, heavy machinery, or construction field work required for this technician role.",
+        "check": "g20"
+      },
+      {
+        "row": 8,
+        "score": 10,
+        "reason": "6 years as a Cloud & DevOps engineer shows a technical profile, but Azure/cloud work has no overlap with the mechanical maintenance, drilling machines, or dewatering installations central to this vacancy.",
+        "check": "j6"
+      },
+      {
+        "row": 5,
+        "score": 8,
+        "reason": "A Product Owner background has no demonstrated mechanical or construction site experience relevant to maintaining and operating ground-drilling or dewatering equipment at Smet Group.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://vandewiele.com/careers/automation-engineer-cobots": {
+    "title": "Automation Engineer - Cobots",
+    "url": "https://vandewiele.com/careers/automation-engineer-cobots",
+    "company": "Vandewiele",
+    "source": "https://vandewiele.com/careers/open-vacancies?specialisations=&types=&locations=belgium&brands=",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "PLC",
+      "CAD",
+      "Creo"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 18,
+        "reason": "Cloud & DevOps background with scripting/automation experience is the closest technical profile in this pool, but has no robotics, PLC, mechatronics, or cobot history making the fit very weak.",
+        "check": "j6"
+      },
+      {
+        "row": 1,
+        "score": 12,
+        "reason": "AI/Python engineering background offers some analytical and automation-adjacent skills, but there is no evidence of industrial automation, cobot programming, or PLC experience relevant to this role.",
+        "check": "w11"
+      },
+      {
+        "row": 3,
+        "score": 8,
+        "reason": "20 years of project management could marginally support business case and ROI documentation aspects, but the role requires hands-on cobot programming and technical engineering expertise which is entirely absent.",
+        "check": "g20"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/fpga-engineer": {
+    "title": "FPGA Engineer",
+    "url": "https://scioteq.recruitee.com/o/fpga-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "VHDL",
+      "Verilog",
+      "Xilinx Vivado",
+      "Intel Quartus",
+      "Lattice Diamond",
+      "SPI",
+      "I2C",
+      "UART",
+      "AXI",
+      "PCIe"
+    ],
+    "experience": "5-10 yrs",
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 12,
+        "reason": "Cloud & DevOps background with Azure is the closest to any engineering discipline in this pool, but has zero FPGA, HDL, or embedded hardware experience relevant to this role.",
+        "check": "j6"
+      },
+      {
+        "row": 6,
+        "score": 8,
+        "reason": ".NET development experience represents some software engineering foundation, but there is no evidence of VHDL/Verilog, digital logic, or hardware design work required for this FPGA role.",
+        "check": "l5"
+      },
+      {
+        "row": 0,
+        "score": 6,
+        "reason": "Java software engineering background provides basic programming discipline, but no FPGA, firmware, or hardware-related experience is present in the candidate's history.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/quality-assurance-engineer-1": {
+    "title": "Quality Assurance Engineer",
+    "url": "https://scioteq.recruitee.com/o/quality-assurance-engineer-1",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 18,
+        "reason": "Cloud & DevOps background has the closest tangential overlap with structured engineering processes, but there is no evidence of QA, ISO 9001/AS9100, avionics, or hardware inspection experience.",
+        "check": "j6"
+      },
+      {
+        "row": 3,
+        "score": 12,
+        "reason": "20 years of project management could include audit facilitation and process governance, but there is no concrete history in quality assurance, electronics, or aerospace regulatory frameworks.",
+        "check": "g20"
+      },
+      {
+        "row": 5,
+        "score": 10,
+        "reason": "Product Owner role involves some process and requirements management, but there is no demonstrated experience in QMS, NPI, FMEA, or any aerospace/defense quality domain.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/avionics-system-cyber-security-engineer": {
+    "title": "Avionics System & Cyber Security Engineer",
+    "url": "https://scioteq.recruitee.com/o/avionics-system-cyber-security-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "FPGA",
+      "embedded software",
+      "electronics"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 18,
+        "reason": "Six years in Cloud & DevOps with Azure is the closest adjacent technical background, but there is no evidence of avionics, embedded systems, FPGA, cybersecurity standards (DO-326A/DO-356A), or safety engineering — all core requirements for this role.",
+        "check": "j6"
+      },
+      {
+        "row": 1,
+        "score": 10,
+        "reason": "Eleven years as an AI/Python engineer shows technical seniority, but there is no demonstrated history in avionics, embedded systems, cybersecurity, or regulatory frameworks relevant to this vacancy.",
+        "check": "w11"
+      },
+      {
+        "row": 6,
+        "score": 8,
+        "reason": "Five years of .NET development reflects software engineering experience, but there is no overlap with avionics systems, hardware architectures, FPGA, or cybersecurity disciplines required by ScioTeq.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/electronics-development-engineer-avionics-3": {
+    "title": "Electronics Development Engineer Avionics",
+    "url": "https://scioteq.recruitee.com/o/electronics-development-engineer-avionics-3",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 7,
+        "score": 18,
+        "reason": "Frontend/UX background has the weakest overlap but at least touches on display/human interface concepts tangentially, making it marginally the closest among a pool where none have electronics, avionics, embedded systems, or DO-254 experience.",
+        "check": "g11"
+      },
+      {
+        "row": 6,
+        "score": 12,
+        "reason": "Software development background in .NET provides some low-level engineering familiarity, but there is no electronics, hardware design, or aerospace domain history whatsoever.",
+        "check": "l5"
+      },
+      {
+        "row": 8,
+        "score": 10,
+        "reason": "Cloud & DevOps engineering shows technical seniority in an engineering discipline, but has zero relevance to analog/digital electronics design, embedded systems, or avionics certification processes.",
+        "check": "j6"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/industrialisation-engineer-software": {
+    "title": "Industrialisation Engineer Software",
+    "url": "https://scioteq.recruitee.com/o/industrialisation-engineer-software",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "C#",
+      "NET 4.7",
+      "NET 8+",
+      "Visual Studio",
+      "MSSQL",
+      "HTML",
+      "JavaScript",
+      "Razor",
+      "CSS",
+      "SCPI"
+    ],
+    "experience": null
+  },
+  "https://scioteq.recruitee.com/o/office-365-ai-specialist": {
+    "title": "Office 365 & AI Specialist",
+    "url": "https://scioteq.recruitee.com/o/office-365-ai-specialist",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Office 365",
+      "MS Teams",
+      "SharePoint Online",
+      "OneDrive",
+      "MS CoPilot",
+      "ChatGPT",
+      "Gemini",
+      "Power Apps",
+      "Power Automate",
+      "Word"
+    ],
+    "experience": "5+ yrs",
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 38,
+        "reason": "6 years of Azure/Cloud experience gives some Microsoft ecosystem overlap, but there is no concrete evidence of Office 365 administration, SharePoint, MS Teams rollout, Power Platform, or AI tooling experience required for this role.",
+        "check": "j6"
+      },
+      {
+        "row": 1,
+        "score": 22,
+        "reason": "11 years as an AI Engineer with Python background touches the AI dimension of the role, but there is no demonstrated history with Microsoft 365, SharePoint, Teams adoption, or digital workplace environments.",
+        "check": "w11"
+      },
+      {
+        "row": 4,
+        "score": 15,
+        "reason": "6 years in data/BI analysis shows some analytical capability, but the history contains no evidence of Office 365 administration, SharePoint, Teams, Power Automate, or user training responsibilities central to this vacancy.",
+        "check": "n6"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/product-validation-engineer-3": {
+    "title": "Product Validation Engineer",
+    "url": "https://scioteq.recruitee.com/o/product-validation-engineer-3",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 23,
+        "score": 18,
+        "reason": "Has a QA Engineer component in their title which is the closest adjacent skill to product validation, but there is no evidence of electronics engineering, hardware testing, EMI/environmental standards, or avionics/defense domain experience required for this role.",
+        "check": "n10"
+      },
+      {
+        "row": 5,
+        "score": 8,
+        "reason": "Pure Product Owner background with no indication of engineering, hardware validation, or relevant domain experience in avionics or defense, making this a very weak fit.",
+        "check": "l5"
+      },
+      {
+        "row": 25,
+        "score": 7,
+        "reason": "15 years as Product Owner/Business Analyst with no engineering or technical validation background relevant to this hardware-focused, standards-driven avionics role.",
+        "check": "i15"
+      }
+    ]
+  },
+  "https://scioteq.recruitee.com/o/ri-avionics-system-engineer": {
+    "title": "R&I Avionics System Engineer",
+    "url": "https://scioteq.recruitee.com/o/ri-avionics-system-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "ARP4754A",
+      "model-based design"
+    ],
+    "experience": "5+ yrs",
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 12,
+        "reason": "Cloud & DevOps background with embedded/systems-adjacent engineering is the closest technical profile in this pool, but has no avionics, aerospace, or system engineering experience whatsoever.",
+        "check": "j6"
+      },
+      {
+        "row": 3,
+        "score": 8,
+        "reason": "20 years of project management experience could offer peripheral value in R&I program coordination, but there is zero evidence of avionics, aerospace, or system engineering domain knowledge.",
+        "check": "g20"
+      },
+      {
+        "row": 7,
+        "score": 6,
+        "reason": "Frontend/UX experience with 11 years could tangentially relate to display systems (ScioTeq's visualization focus), but there is no avionics, embedded, or system engineering history to support this role.",
+        "check": "g11"
+      }
+    ]
+  },
+  "https://www.akoni.be/jobs/data-analyse-uit-erp-website-analytics-informatie": {
+    "title": "Data Analyse",
+    "url": "https://www.akoni.be/jobs/data-analyse-uit-erp-website-analytics-informatie",
+    "company": "AKONI",
+    "source": "https://www.akoni.be/jobs",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 57,
+        "score": 72,
+        "reason": "6 years as BI Specialist with Power BI directly supports Akoni's need for interactive dashboards and data visualization from ERP sources.",
+        "check": "s6"
+      },
+      {
+        "row": 77,
+        "score": 65,
+        "reason": "5 years as a Data Analyst with SQL background aligns directly with the Data Analyse role title and core analytical tasks Akoni describes.",
+        "check": "t5"
+      },
+      {
+        "row": 66,
+        "score": 52,
+        "reason": "10 years in Data & Analytics Lead with Databricks shows strong analytical depth, though the seniority and platform focus may be overqualified for Akoni's SME-oriented ERP reporting work.",
+        "check": "j10"
+      }
+    ]
+  },
+  "https://alphams.eu/nl/": {
+    "title": "Google Analytics",
+    "url": "https://alphams.eu/nl/",
+    "company": "AMSY",
+    "source": "https://alphams.eu/nl/",
+    "first_seen": "2026-07-21",
+    "stack": []
+  },
+  "https://anteagroup.be/vacatures/stage-digital-innovation": {
+    "title": "Antwerpen , Gent Stage Digital Innovation",
+    "url": "https://anteagroup.be/vacatures/stage-digital-innovation",
+    "company": "ANTEA BELGIUM",
+    "source": "https://anteagroup.be/vacatures",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "Power Automate",
+      "SharePoint",
+      "Teams",
+      "Forms",
+      "Azure",
+      "Entra ID",
+      "AI",
+      "ETL",
+      "ELT",
+      "BI"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 72,
+        "reason": "6 years as Cloud & DevOps Engineer with Azure directly matches internship track 3 (cloud environment setup, Azure, identity & access management, monitoring).",
+        "check": "j6"
+      },
+      {
+        "row": 1,
+        "score": 65,
+        "reason": "11 years as AI Engineer with Python background aligns well with internship track 2 (AI use cases, proof-of-concepts, document analysis, knowledge extraction).",
+        "check": "w11"
+      },
+      {
+        "row": 4,
+        "score": 58,
+        "reason": "6 years as Senior Business Data Analyst / BI Lead maps to internship track 4 (data platform, ETL/ELT, data modelling, BI stakeholder collaboration).",
+        "check": "n6"
+      }
+    ]
+  },
+  "https://careers.agfa.com/go/Information-Technology/2710501/": {
+    "title": "Information Technology",
+    "url": "https://careers.agfa.com/go/Information-Technology/2710501/",
+    "company": "Agfa-Gevaert",
+    "source": "https://careers.agfa.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "sap"
+    ],
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 78,
+        "reason": "6 years of hands-on Azure Cloud & DevOps engineering maps directly to the open DevOps Developer and Senior Software Developer Cloud roles listed in Gent and Waterloo.",
+        "check": "j6"
+      },
+      {
+        "row": 7,
+        "score": 72,
+        "reason": "11 years as a Frontend Developer / UX Designer with Angular experience aligns closely with the UX Designer – Enterprise Imaging vacancy in Vienna and frontend needs across Agfa's product portfolio.",
+        "check": "g11"
+      },
+      {
+        "row": 4,
+        "score": 62,
+        "reason": "6 years as a Senior Business Data Analyst / BI Lead is a credible match for the Business Intelligence & Analytics Product Manager role listed in Gent, though the lack of explicit product management history limits the score.",
+        "check": "n6"
+      }
+    ]
+  },
+  "https://careers.agfa.com/go/Engineering-&-Production/2710801/": {
+    "title": "Engineering",
+    "url": "https://careers.agfa.com/go/Engineering-&-Production/2710801/",
+    "company": "Agfa-Gevaert",
+    "source": "https://careers.agfa.com/",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 62,
+        "reason": "20 years of senior project management experience aligns most directly with the open 'Project Manager EIE' role listed in Agfa's Engineering & Production vacancies.",
+        "check": "g20"
+      },
+      {
+        "row": 8,
+        "score": 32,
+        "reason": "6 years of Cloud & DevOps/Azure engineering has some relevance to the IT System Engineer or Field Service Engineer roles, though none of the open positions are a strong DevOps match.",
+        "check": "j6"
+      },
+      {
+        "row": 6,
+        "score": 25,
+        "reason": "5 years of .NET development offers the closest technical engineering background among the remaining software profiles, marginally relevant to IT-adjacent engineering support roles, but still a weak fit for predominantly hardware/production/field-service vacancies.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://jobs.ovivio.com/head-of-ai/nl": {
+    "title": "Head of AI Fulltime / Parttime Almere / Hybride",
+    "url": "https://jobs.ovivio.com/head-of-ai/nl",
+    "company": "Adeona",
+    "source": "https://jobs.ovivio.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "AI",
+      "Machine Learning",
+      "Data Engineering",
+      "Python",
+      "LLMs"
+    ],
+    "experience": "10+ yrs"
+  },
+  "https://jobs.aluminiumduffel.com/nl/vacatures/g/jobs/c/engineer-13092/index.aspx": {
+    "title": "Engineer (2)",
+    "url": "https://jobs.aluminiumduffel.com/nl/vacatures/g/jobs/c/engineer-13092/index.aspx",
+    "company": "Aluminium Duffel",
+    "source": "https://jobs.aluminiumduffel.com/index.aspx",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years in project management is the closest transferable hard skill to a production/process engineering role, though there is no manufacturing, aluminium, or industrial engineering background evident.",
+        "check": "g20"
+      },
+      {
+        "row": 8,
+        "score": 10,
+        "reason": "6 years as a Cloud & DevOps Engineer shows technical discipline, but the role requires process/production engineering in an aluminium manufacturing environment, which is entirely absent from this candidate's history.",
+        "check": "j6"
+      },
+      {
+        "row": 4,
+        "score": 8,
+        "reason": "6 years in data/BI analysis offers marginal analytical relevance to KPI-driven production engineering, but there is no industrial, manufacturing, or materials engineering experience to support a credible fit.",
+        "check": "n6"
+      }
+    ]
+  },
+  "https://www.verelst.be/vacatures?department=9": {
+    "title": "Engineering",
+    "url": "https://www.verelst.be/vacatures?department=9",
+    "company": "BETONBOUW VERELST",
+    "source": "https://www.verelst.be/vacatures",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 18,
+        "reason": "20 years of project management is the closest transferable skill to a Werkvoorbereider/construction engineering role, though there is no concrete evidence of construction or BIM domain experience.",
+        "check": "g20"
+      },
+      {
+        "row": 2,
+        "score": 10,
+        "reason": "Business & functional analysis background offers marginal overlap with construction engineering coordination, but no construction, BIM, or technical building history is evident.",
+        "check": "c3"
+      },
+      {
+        "row": 5,
+        "score": 8,
+        "reason": "Product Owner experience involves some stakeholder and process coordination, which is the weakest possible adjacent skill, but no construction or engineering domain history is present.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://www.bmt.org/careers": {
+    "title": "Development",
+    "url": "https://www.bmt.org/careers",
+    "company": "BMT BELGIUM",
+    "source": "https://www.bmt.org/careers",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "ai_matches": [
+      {
+        "row": 6,
+        "score": 62,
+        "reason": "5 years of .NET development provides directly applicable software engineering experience for a development role at an engineering consultancy like BMT Belgium.",
+        "check": "l5"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "7 years of hands-on Java freelance development demonstrates solid, concrete software engineering delivery history relevant to a development vacancy.",
+        "check": "l7"
+      },
+      {
+        "row": 7,
+        "score": 52,
+        "reason": "11 years of frontend/Angular development and UX design offers meaningful technical depth for building engineering tools or digital solutions like those in BMT's innovation portfolio.",
+        "check": "g11"
+      }
+    ]
+  },
+  "https://biometriq.be/careers/": {
+    "title": "Close and do not switch language",
+    "url": "https://biometriq.be/careers/",
+    "company": "BiometrIQ",
+    "source": "https://biometriq.be/careers/",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null
+  },
+  "https://careers.captureage.com/jobs/5123832-open-application-engineering": {
+    "title": "Open Application: Engineering",
+    "url": "https://careers.captureage.com/jobs/5123832-open-application-engineering",
+    "company": "CaptureAge",
+    "source": "https://careers.captureage.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "C++",
+      "C#",
+      "WPF",
+      "TypeScript",
+      "Rust"
+    ],
+    "experience": null
+  },
+  "https://www.heylengroup.com/career/young-professional-data-analytics/": {
+    "title": "Young Professional Data & Analytics Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/young-professional-data-analytics/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 77,
+        "score": 52,
+        "reason": "5 years as a Data Analyst with SQL as core skill is the closest match to the vacancy's requirement of analysing financial/logistical data and pattern recognition, and the junior seniority aligns with a 'Young Professional' role, though no explicit fintech or ERP/econometrics background is evidenced.",
+        "check": "t5"
+      },
+      {
+        "row": 57,
+        "score": 38,
+        "reason": "6 years in BI/data analytics with Power BI suggests some relevant data interpretation experience, but the role is a project lead level which is overqualified for a Young Professional position and there is no evidence of financial data or inventory/ERP domain work.",
+        "check": "s6"
+      },
+      {
+        "row": 29,
+        "score": 28,
+        "reason": "Azure Data Factory engineering background provides some data pipeline relevance, but the role is a technical engineering position with no demonstrated financial analysis, econometrics, or client-facing data interpretation work that the vacancy explicitly requires.",
+        "check": "b7"
+      }
+    ]
+  },
+  "https://jobs.bruynooghe.be/nl/sales-engineer-automation": {
+    "title": "Staden Sales Engineer Automation bekijk vacature",
+    "url": "https://jobs.bruynooghe.be/nl/sales-engineer-automation",
+    "company": "CONSTRUCTIE BRUYNOOGHE",
+    "source": "https://jobs.bruynooghe.be/nl",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 28,
+        "reason": "20 years of project management experience offers the closest transferable seniority, but there is no evidence of industrial automation, machine-building, or sales engineering background required for this role.",
+        "check": "g20"
+      },
+      {
+        "row": 8,
+        "score": 18,
+        "reason": "6 years in technical engineering (Cloud/DevOps) at least demonstrates a technical engineering profile, but Azure cloud work has no overlap with industrial PLC/automation sales or food-industry machinery.",
+        "check": "j6"
+      },
+      {
+        "row": 5,
+        "score": 14,
+        "reason": "Product Owner experience implies some stakeholder and requirements work, but there is no automation, industrial, or sales engineering history that maps to the vacancy requirements.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://www.customs4trade.com/careers": {
+    "title": "Google Analytics",
+    "url": "https://www.customs4trade.com/careers",
+    "company": "CUSTOMS4TRADE",
+    "source": "https://www.customs4trade.com/careers",
+    "first_seen": "2026-07-21",
+    "stack": [],
+    "ai_matches": [
+      {
+        "row": 4,
+        "score": 52,
+        "reason": "As a Senior Business Data Analyst / BI Lead with 6 years in data analysis, candidate 4 is the closest fit for a Google Analytics role, which requires data interpretation and reporting skills, though no explicit GA experience is evidenced.",
+        "check": "n6"
+      },
+      {
+        "row": 2,
+        "score": 22,
+        "reason": "Candidate 2's 3 years as a Business & Functional Analyst provides some adjacent analytical thinking, but there is no data or web analytics background to suggest meaningful fit for a Google Analytics position.",
+        "check": "c3"
+      },
+      {
+        "row": 5,
+        "score": 15,
+        "reason": "Candidate 5's Product Owner background involves working with data and metrics at a high level, offering the weakest but marginally relevant connection to analytics work among the remaining candidates.",
+        "check": "l5"
+      }
+    ]
   }
 }
