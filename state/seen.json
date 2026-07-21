@@ -988,5 +988,232 @@
       "azure",
       "ci/cd"
     ]
+  },
+  "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/12714": {
+    "title": "IT Analist SAP - LIMS",
+    "url": "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/12714",
+    "company": "Indaver",
+    "source": "https://indaver.com/careers/our-vacancies/vacancies-belgium",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "sap"
+    ]
+  },
+  "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/13275": {
+    "title": "SAP Specialist",
+    "url": "https://indaver.com/careers/our-vacancies/vacancies-belgium/job-detail/13275",
+    "company": "Indaver",
+    "source": "https://indaver.com/careers/our-vacancies/vacancies-belgium",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "sap"
+    ]
+  },
+  "https://be.tuvaustria.com/jobs/ai-engineer/": {
+    "title": "AI Engineer",
+    "url": "https://be.tuvaustria.com/jobs/ai-engineer/",
+    "company": "TÜV Austria",
+    "source": "https://be.tuvaustria.com/jobs/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "java",
+      "c#",
+      "javascript",
+      "docker",
+      "aws",
+      "azure",
+      "ci/cd",
+      "microservices"
+    ]
+  },
+  "https://careers.agfa.com/HealthCare/": {
+    "title": "HealthCare IT",
+    "url": "https://careers.agfa.com/HealthCare/",
+    "company": "Agfa-Gevaert",
+    "source": "https://careers.agfa.com/",
+    "first_seen": "2026-07-21",
+    "stack": []
+  },
+  "https://jobs.ovivio.com/senior-data-engineer-2/nl": {
+    "title": "Senior Data Engineer & Consultant Fulltime / Parttime Almere / Hybride",
+    "url": "https://jobs.ovivio.com/senior-data-engineer-2/nl",
+    "company": "Adeona",
+    "source": "https://jobs.ovivio.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "azure",
+      "sql"
+    ]
+  },
+  "https://jobs.ovivio.com/software-consultant-flexkids/nl": {
+    "title": "Software Consultant Flexkids Fulltime / Parttime Almere / Hybride",
+    "url": "https://jobs.ovivio.com/software-consultant-flexkids/nl",
+    "company": "Adeona",
+    "source": "https://jobs.ovivio.com/",
+    "first_seen": "2026-07-21",
+    "stack": []
+  },
+  "https://jobs.ovivio.com/devops-engineer-3/nl": {
+    "title": "DevOps Engineer Fulltime Almere / Hybride",
+    "url": "https://jobs.ovivio.com/devops-engineer-3/nl",
+    "company": "Adeona",
+    "source": "https://jobs.ovivio.com/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "aws",
+      "ci/cd",
+      "linux"
+    ]
+  },
+  "https://jobs.belfius.be/go/Data-Scientist%2C-Actuary-&-Quant/8934701/": {
+    "title": "Data Scientist, Actuary & Quant",
+    "url": "https://jobs.belfius.be/go/Data-Scientist%2C-Actuary-&-Quant/8934701/",
+    "company": "BELFIUS AUTO LEASE",
+    "source": "https://jobs.belfius.be/",
+    "first_seen": "2026-07-21",
+    "stack": []
+  },
+  "https://jobs.belfius.be/content/Data-Tech-talenten/": {
+    "title": "Gepassioneerd door technologie en data? AI, cloud, chatbots...: innoveer met impact.",
+    "url": "https://jobs.belfius.be/content/Data-Tech-talenten/",
+    "company": "BELFIUS AUTO LEASE",
+    "source": "https://jobs.belfius.be/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "java",
+      "spring",
+      "python",
+      "javascript",
+      "azure",
+      "agile"
+    ]
+  },
+  "https://www.vandenbraembussche.be/jobs/it-medewerker": {
+    "title": "IT medewerker Eeklo Functie IT Meer informatie",
+    "url": "https://www.vandenbraembussche.be/jobs/it-medewerker",
+    "company": "BETONCENTRALE VAN DEN BRAEMBUSSCHE",
+    "source": "https://www.vandenbraembussche.be/jobs",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "javascript"
+    ]
+  },
+  "https://www.bleckmann.com/nl/vacatures/it-automation-support": {
+    "title": "IT Automation Support Almelo, Netherlands",
+    "url": "https://www.bleckmann.com/nl/vacatures/it-automation-support",
+    "company": "BLECKMANN BELGIË NV",
+    "source": "https://www.bleckmann.com/nl/vacatures",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "sql",
+      "spark",
+      "rest"
+    ]
+  },
+  "https://www.mybns.com/vacatures/": {
+    "title": "INFRASTRUCTURE",
+    "url": "https://www.mybns.com/vacatures/",
+    "company": "BUSINESS NETWORK SYSTEMS",
+    "source": "https://www.mybns.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "php"
+    ]
+  },
+  "https://www.mybns.com/vacatures/junior-system-engineer-2/": {
+    "title": "Junior System Engineer (M/V/X)",
+    "url": "https://www.mybns.com/vacatures/junior-system-engineer-2/",
+    "company": "BUSINESS NETWORK SYSTEMS",
+    "source": "https://www.mybns.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "azure"
+    ]
+  },
+  "https://www.mybns.com/vacatures/drupal-developer/": {
+    "title": "Drupal Developer (M/V/X)",
+    "url": "https://www.mybns.com/vacatures/drupal-developer/",
+    "company": "BUSINESS NETWORK SYSTEMS",
+    "source": "https://www.mybns.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "php",
+      "sql",
+      "mysql",
+      "linux"
+    ]
+  },
+  "https://www.chiesi.be/jobs": {
+    "title": "Itália",
+    "url": "https://www.chiesi.be/jobs",
+    "company": "CHIESI",
+    "source": "https://www.chiesi.be/jobs",
+    "first_seen": "2026-07-21",
+    "stack": []
+  },
+  "https://www.heylengroup.com/career/data-analist/": {
+    "title": "arrow_forward_ios Data Analist Finterface Breda",
+    "url": "https://www.heylengroup.com/career/data-analist/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "sql"
+    ]
+  },
+  "https://www.heylengroup.com/career/it-data-operations-engineer/": {
+    "title": "arrow_forward_ios IT Data & Operations Engineer Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/it-data-operations-engineer/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "sql",
+      "sap"
+    ]
+  },
+  "https://www.heylengroup.com/career/full-stack-developer/": {
+    "title": "arrow_forward_ios Full Stack Developer Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/full-stack-developer/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "c#",
+      ".net",
+      "javascript",
+      "typescript",
+      "angular",
+      "azure",
+      "sql",
+      "sap"
+    ]
+  },
+  "https://cumbaya.travel/jobs/front-end-engineer-mobile-web": {
+    "title": "Front-End Engineer, Mobile & Web Brussels/Leuven, Belgium Nov 21, 2025",
+    "url": "https://cumbaya.travel/jobs/front-end-engineer-mobile-web",
+    "company": "Cumbaya",
+    "source": "https://cumbaya.travel/careers",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "typescript",
+      "react"
+    ]
+  },
+  "https://cumbaya.travel/jobs/software-ai-engineer": {
+    "title": "Software & AI Engineer Brussels/Leuven, Belgium Nov 15, 2025",
+    "url": "https://cumbaya.travel/jobs/software-ai-engineer",
+    "company": "Cumbaya",
+    "source": "https://cumbaya.travel/careers",
+    "first_seen": "2026-07-21",
+    "stack": [
+      "python",
+      "terraform",
+      "gcp",
+      "sql",
+      "postgresql",
+      "ci/cd",
+      "microservices"
+    ]
   }
 }
