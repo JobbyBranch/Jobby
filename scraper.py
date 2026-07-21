@@ -52,7 +52,7 @@ HEADERS = {
 }
 
 # Domains known to render their vacancies with JavaScript -> Playwright
-JS_RENDERED_DOMAINS = ("cvw.io", "csod.com", "oraclecloud.com")
+JS_RENDERED_DOMAINS = ("cvw.io", "csod.com", "oraclecloud.com" "reynaers.com", "amptec.be", "dpgmediagroup.com", "vandewiele.com",)
 
 # Titles must match at least one INCLUDE term...
 # NOTE: the bare word "engineer" is deliberately NOT in this list — only
@@ -221,8 +221,8 @@ def _fetch_rendered_impl(url: str) -> str | None:
         browser = _get_browser()
         page = browser.new_page(user_agent=HEADERS["User-Agent"],
                                 locale="nl-BE")
-        page.goto(url, wait_until="networkidle", timeout=45000)
-        page.wait_for_timeout(2500)  # give lazy widgets a moment
+        page.goto(url, wait_until="load", timeout=30000)
+        page.wait_for_timeout(3500)  # let client-side widgets settle
         html = page.content()
         page.close()
         return html
@@ -317,6 +317,16 @@ def _match_any(text: str, keywords) -> bool:
     return False
 
 
+NAV_JUNK = ("arrow_forward_ios", "arrow_forward", "read more", "lees meer",
+            "meer informatie", "apply now", "solliciteer nu")
+
+def clean_title(title: str) -> str:
+    t = title.strip()
+    for junk in NAV_JUNK:
+        t = re.sub(re.escape(junk), "", t, flags=re.I).strip(" -·|")
+    return re.sub(r"\s{2,}", " ", t).strip()
+
+
 def looks_like_it_job(title: str) -> bool:
     if _match_any(title, NON_IT_KEYWORDS):
         return False
@@ -393,6 +403,7 @@ def extract_job_links(html: str, base_url: str) -> list[dict]:
         if key in seen_here:
             continue
         seen_here.add(key)
+        title = clean_title(title)
         jobs.append({"title": title, "url": key})
     return jobs
 
