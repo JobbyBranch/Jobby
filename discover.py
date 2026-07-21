@@ -48,6 +48,28 @@ PATTERNS = [
     "https://{d}/careers",
 ]
 
+# redirect targets that are legitimate career platforms
+KNOWN_ATS = {
+    "recruitee.com", "jobtoolz.com", "teamtailor.com", "workable.com",
+    "greenhouse.io", "lever.co", "smartrecruiters.com", "cvwarehouse.com",
+    "cvw.io", "csod.com", "oraclecloud.com", "successfactors.com",
+    "successfactors.eu", "workday.com", "myworkdayjobs.com", "talentlyft.com",
+    "homerun.co", "join.com", "personio.de", "personio.com", "onlyfy.jobs",
+    "hr-technologies.com", "talentfinder.be", "jobsolutions.be",
+}
+# never accept these as a "career page" (redirect traps)
+REJECT_HOSTS = {
+    "instagram.com", "facebook.com", "linkedin.com", "youtube.com",
+    "twitter.com", "x.com", "google.com", "godaddy.com", "sedoparking.com",
+    "dan.com", "combell.com",
+}
+
+def _reg(host):
+    host = host.lower().replace("www.", "")
+    parts = host.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+
+
 JOBISH = re.compile(
     r"(vacature|vacatures|job|jobs|career|careers|solliciteer|werken bij|"
     r"join (our|the) team|open positions|opportunit)", re.I)
@@ -106,10 +128,15 @@ def root_alive(base: str) -> bool:
     return False
 
 
-def probe(url: str):
+def probe(url, base):
     try:
         r = session().get(url, timeout=TIMEOUT, allow_redirects=True)
         if r.status_code >= 400:
+            return None
+        final_host = _reg(urlparse(r.url).netloc)
+        if final_host in REJECT_HOSTS or "login" in urlparse(r.url).path.lower():
+            return None
+        if final_host != _reg(base) and final_host not in KNOWN_ATS:
             return None
         if len(JOBISH.findall(r.text[:200000])) >= 2:
             return r.url
@@ -125,7 +152,7 @@ def check_company(name: str, base: str):
     for pat in PATTERNS:
         if time.time() - start > PER_COMPANY_BUDGET:
             return name, None, "time-budget"
-        hit = probe(pat.format(d=base))
+        hit = probe(pat.format(d=base), base)
         if hit:
             return name, hit, "found"
     return name, None, "no-career-page"
@@ -135,7 +162,9 @@ def flush(found, missed, skipped, done, total):
     out = ["# Auto-discovered career pages — review, then append to sources.yaml",
            "sources:"]
     for n, u in found:
-        out.append(f'  - company: "{n}"')
+        clean = n.replace('"', '').replace("'", '').strip(' -_.,;')
+        clean = re.sub(r'\s+', ' ', clean) or n.strip()
+        out.append(f'  - company: "{clean}"')
         out.append(f'    url: "{u}"')
     (ROOT / "discovered_sources.yaml").write_text("\n".join(out) + "\n", encoding="utf-8")
     report = [
