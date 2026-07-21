@@ -1,7 +1,7 @@
 name: JobRadar source discovery
 
 on:
-  workflow_dispatch: {}   # run manually from the Actions tab
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -24,7 +24,7 @@ jobs:
         run: python discover.py
 
       - name: Commit results
-      if: always()
+        if: always()
         run: |
           git config user.name "jobradar-bot"
           git config user.email "bot@jobradar"
