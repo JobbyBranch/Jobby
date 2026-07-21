@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
 """
-JobRadar source discovery
-─────────────────────────
-Reads companies.txt (lines of "Company Name;domain"), probes each company's
-likely career-page URLs, verifies which one actually serves a jobs page, and
-writes:
+JobRadar source discovery — v2 (parallel, fast-fail, incremental)
 
-  discovered_sources.yaml  -> ready-to-append entries for sources.yaml
-  discovery_report.txt     -> per-company result (found / not found / skipped)
+Probes each company's likely career-page URLs and keeps only verified job
+pages. Built to chew through harvested registry batches:
 
-Companies whose domain already appears in sources.yaml are skipped, so you
-can re-run this safely after adding more names to companies.txt.
-
-Run manually via the "JobRadar source discovery" workflow in GitHub Actions.
+  - 12 companies probed in parallel
+  - dead/parked domains detected with one cheap root-check, then skipped
+  - hard time budget per company
+  - results flushed to disk continuously — a timeout or crash loses nothing
 """
 
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -29,8 +27,10 @@ HEADERS = {
                   "(KHTML, like Gecko) Chrome/126.0 Safari/537.36 JobRadar/1.0",
     "Accept-Language": "nl-BE,nl;q=0.9,en;q=0.8",
 }
+TIMEOUT = 8
+PER_COMPANY_BUDGET = 45   # seconds, hard cap
+WORKERS = 12
 
-# Probed in this order — first verified hit wins
 PATTERNS = [
     "https://jobs.{d}",
     "https://careers.{d}",
@@ -41,18 +41,25 @@ PATTERNS = [
     "https://www.{d}/nl/vacatures",
     "https://www.{d}/careers",
     "https://www.{d}/en/careers",
-    "https://www.{d}/nl/careers",
     "https://www.{d}/werken-bij",
     "https://www.{d}/nl/werken-bij",
-    "https://www.{d}/jobs-en-carriere",
     "https://{d}/jobs",
-    "https://{d}/careers",
     "https://{d}/vacatures",
+    "https://{d}/careers",
 ]
 
 JOBISH = re.compile(
     r"(vacature|vacatures|job|jobs|career|careers|solliciteer|werken bij|"
     r"join (our|the) team|open positions|opportunit)", re.I)
+
+_local = threading.local()
+
+
+def session() -> requests.Session:
+    if not hasattr(_local, "ses"):
+        _local.ses = requests.Session()
+        _local.ses.headers.update(HEADERS)
+    return _local.ses
 
 
 def load_existing_domains() -> set:
@@ -68,78 +75,114 @@ def load_existing_domains() -> set:
     return domains
 
 
-def probe(url: str):
-    """Return (final_url, ok) — ok means the page exists and smells like jobs."""
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=12, allow_redirects=True)
-        if r.status_code >= 400:
-            return None, False
-        text = r.text[:200000]
-        # a jobs page should mention jobs; a soft-404 landing page usually won't
-        hits = len(JOBISH.findall(text))
-        return r.url, hits >= 2
-    except requests.RequestException:
-        return None, False
-
-
-def main():
-    existing = load_existing_domains()
+def load_companies() -> list[tuple[str, str]]:
     lines = []
     for fname in ("companies.txt", "companies_auto.txt"):
         p = ROOT / fname
         if p.exists():
-            lines += [l.strip() for l in p.read_text(encoding="utf-8").splitlines()]
-    found, missed, skipped = [], [], []
-
+            lines += p.read_text(encoding="utf-8").splitlines()
+    out, seen = [], set()
     for line in lines:
+        line = line.strip()
         if not line or line.startswith("#") or ";" not in line:
             continue
         name, domain = [p.strip() for p in line.split(";", 1)]
         base = domain.lower().replace("www.", "")
-        reg = ".".join(base.split(".")[-2:])
-        if reg in existing:
-            skipped.append(f"{name} — already in sources.yaml")
-            print(f"[skip] {name} (already tracked)")
+        if base and base not in seen:
+            seen.add(base)
+            out.append((name, base))
+    return out
+
+
+def root_alive(base: str) -> bool:
+    """One cheap check: does anything answer at all on this domain?"""
+    for scheme in ("https", "http"):
+        try:
+            r = session().get(f"{scheme}://{base}", timeout=6, allow_redirects=True)
+            if r.status_code < 500:
+                return True
+        except requests.RequestException:
             continue
+    return False
 
-        print(f"[probe] {name} ({domain})")
-        hit = None
-        for pat in PATTERNS:
-            url = pat.format(d=base)
-            final, ok = probe(url)
-            if ok:
-                hit = final
-                break
-            time.sleep(0.2)
 
+def probe(url: str):
+    try:
+        r = session().get(url, timeout=TIMEOUT, allow_redirects=True)
+        if r.status_code >= 400:
+            return None
+        if len(JOBISH.findall(r.text[:200000])) >= 2:
+            return r.url
+    except requests.RequestException:
+        pass
+    return None
+
+
+def check_company(name: str, base: str):
+    start = time.time()
+    if not root_alive(base):
+        return name, None, "dead-domain"
+    for pat in PATTERNS:
+        if time.time() - start > PER_COMPANY_BUDGET:
+            return name, None, "time-budget"
+        hit = probe(pat.format(d=base))
         if hit:
-            found.append((name, hit))
-            print(f"   -> FOUND: {hit}")
-        else:
-            missed.append(name)
-            print("   -> not found")
-        time.sleep(0.4)
+            return name, hit, "found"
+    return name, None, "no-career-page"
 
-    out = ["# Auto-discovered career pages — review, then append to sources.yaml", "sources:"]
-    for name, url in found:
-        out.append(f'  - company: "{name}"')
-        out.append(f'    url: "{url}"')
+
+def flush(found, missed, skipped, done, total):
+    out = ["# Auto-discovered career pages — review, then append to sources.yaml",
+           "sources:"]
+    for n, u in found:
+        out.append(f'  - company: "{n}"')
+        out.append(f'    url: "{u}"')
     (ROOT / "discovered_sources.yaml").write_text("\n".join(out) + "\n", encoding="utf-8")
-
     report = [
-        f"Discovery report — {len(found)} found, {len(missed)} not found, {len(skipped)} skipped",
+        f"Discovery report — {done}/{total} processed | "
+        f"{len(found)} found, {len(missed)} not found, {len(skipped)} skipped",
         "",
-        "== FOUND ==",
-        *[f"{n}: {u}" for n, u in found],
-        "",
-        "== NOT FOUND (needs a manual look) ==",
-        *missed,
-        "",
-        "== SKIPPED (already tracked) ==",
-        *skipped,
+        "== FOUND ==", *[f"{n}: {u}" for n, u in found],
+        "", "== NOT FOUND ==", *[f"{n} ({why})" for n, why in missed],
+        "", "== SKIPPED (already tracked) ==", *skipped,
     ]
     (ROOT / "discovery_report.txt").write_text("\n".join(report) + "\n", encoding="utf-8")
-    print(f"\nDone: {len(found)} found, {len(missed)} missed, {len(skipped)} skipped")
+
+
+def main():
+    existing = load_existing_domains()
+    companies = load_companies()
+    todo, skipped = [], []
+    for name, base in companies:
+        reg = ".".join(base.split(".")[-2:])
+        if reg in existing:
+            skipped.append(name)
+        else:
+            todo.append((name, base))
+    total = len(todo)
+    print(f"[discover] {total} companies to probe ({len(skipped)} already tracked)")
+
+    found, missed, done = [], [], 0
+    lock = threading.Lock()
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        futs = {pool.submit(check_company, n, b): n for n, b in todo}
+        for fut in as_completed(futs):
+            name, url, verdict = fut.result()
+            with lock:
+                done += 1
+                if url:
+                    found.append((name, url))
+                    print(f"[{done}/{total}] FOUND {name}: {url}", flush=True)
+                else:
+                    missed.append((name, verdict))
+                    if done % 25 == 0:
+                        print(f"[{done}/{total}] …", flush=True)
+                if done % 25 == 0:
+                    flush(found, missed, skipped, done, total)
+
+    flush(found, missed, skipped, done, total)
+    print(f"\n[discover] done: {len(found)} career pages found, "
+          f"{len(missed)} without, {len(skipped)} skipped")
 
 
 if __name__ == "__main__":
