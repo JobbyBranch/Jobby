@@ -27,7 +27,8 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run scraper
-        env:ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CANDIDATES_CSV_URL: ${{ secrets.CANDIDATES_CSV_URL }}
           # Guard only for scheduled runs; manual runs skip the time check
           SCHEDULE_GUARD: ${{ github.event_name == 'schedule' && '1' || '0' }}
