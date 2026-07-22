@@ -615,8 +615,10 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
         "- 'Senior' in a title is about capability signals in the history (ownership, "
         "architecture, mentoring), not just the year count.\n"
         "- Be honest — if the fit is genuinely weak, score low.\n"
-        "Refer to candidates ONLY by the exact ROW= number shown (these are "
-        "sheet row numbers, NOT positions 1-10 in this list).\n"
+        "In the JSON 'row' field use the exact ROW= number shown (these are "
+        "sheet row numbers, NOT positions 1-10 in this list). In the 'reason' "
+        "text, refer to the person only as 'this candidate' — never by name "
+        "and never by row number.\n"
         'Reply ONLY with JSON: {"matches": [{"row": <int>, "score": <0-100>, '
         '"reason": "<one concrete sentence, max 20 words, citing their relevant history>"}]} '
         "with exactly 3 entries, best first.\n\n"
@@ -649,10 +651,11 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
             reason = str(m.get("reason", ""))[:300]
             for c in candidates:  # privacy scrub: no names in public output
                 if c["name"] and c["name"] in reason:
-                    reason = reason.replace(c["name"], f"row {c['row']}")
+                    reason = reason.replace(c["name"], "this candidate")
                 first = c["name"].split()[0] if c["name"] else ""
                 if len(first) > 2 and first in reason:
-                    reason = reason.replace(first, f"row {c['row']}")
+                    reason = reason.replace(first, "this candidate")
+            reason = re.sub(r"\b[Rr]ow[ =-]?\d+\b", "this candidate", reason)
             out.append({"row": row, "score": max(0, min(100, int(m.get("score", 0)))),
                         "reason": reason, "check": _match_check(by_row[row])})
         if out:
