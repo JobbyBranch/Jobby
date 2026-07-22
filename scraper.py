@@ -594,13 +594,27 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
         return job
     lines = []
     for c in shortlist:
-        hist = c["profile"][:1400] if c["profile"] else "(no career digest — judge on role/skills only)"
+        hist = c["profile"][:2400] if c["profile"] else "(no career digest — judge on role/skills only)"
         lines.append(f"ROW={c['row']} | {c['role']} | {c['years']} yrs | "
                      f"skills: {', '.join(c['skills'][:14])} | history: {hist}")
     prompt = (
-        "You are a senior IT recruiter. Pick the 3 best candidates for this vacancy.\n"
-        "Judge on real fit: concrete past work in the history matters more than keyword overlap; "
-        "seniority and domain must be plausible. Be honest — if fit is weak, score low.\n"
+        "You are a senior IT recruiter at a Belgian consultancy. Pick the 3 best "
+        "candidates for this vacancy.\n"
+        "Score = the likelihood a client would interview this candidate for this role:\n"
+        "  85-100: submit immediately — stack and seniority fit, concrete matching history\n"
+        "  70-84: strong fit — right stack, minor gaps (missing nice-to-haves, adjacent domain)\n"
+        "  55-69: good fit worth pitching — core skills present, real but coachable gaps\n"
+        "  35-54: partial fit — some overlap, would need selling\n"
+        "  <35: weak — wrong profile\n"
+        "Calibration rules:\n"
+        "- Concrete past work in the history outweighs keyword overlap.\n"
+        "- Years-of-experience requirements are indicative, NOT hard bars: a candidate "
+        "within ~70% of the asked years with an exact stack match still scores in the "
+        "strong range (e.g. 5 yrs for a '7 yrs' vacancy with matching stack: 70+, not 40s). "
+        "Only penalize heavily when the seniority gap is large (junior vs architect).\n"
+        "- 'Senior' in a title is about capability signals in the history (ownership, "
+        "architecture, mentoring), not just the year count.\n"
+        "- Be honest — if the fit is genuinely weak, score low.\n"
         "Refer to candidates ONLY by the exact ROW= number shown (these are "
         "sheet row numbers, NOT positions 1-10 in this list).\n"
         'Reply ONLY with JSON: {"matches": [{"row": <int>, "score": <0-100>, '
