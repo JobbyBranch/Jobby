@@ -1,0 +1,59 @@
+name: JobRadar nightly pipeline (harvest + discover + merge)
+
+on:
+  schedule:
+    - cron: '0 20 * * *'    # 22:00 Brussels, far away from the morning scans
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "Companies to harvest this cycle"
+        default: "2000"
+      max_serper:
+        description: "Serper budget this cycle"
+        default: "1500"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobradar-pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests PyYAML
+
+      - name: Harvest next companies from KBO
+        env:
+          KBO_LOGIN: ${{ secrets.KBO_LOGIN }}
+          KBO_PASSWORD: ${{ secrets.KBO_PASSWORD }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          MAX_NEW_COMPANIES: ${{ inputs.max_new || '2000' }}
+          MAX_SERPER: ${{ inputs.max_serper || '1500' }}
+        run: python harvest.py
+
+      - name: Discover career pages
+        run: python discover.py
+
+      - name: Merge into sources.yaml
+        run: python merge_sources.py
+
+      - name: Commit everything
+        if: always()
+        run: |
+          git config user.name "jobradar-bot"
+          git config user.email "bot@jobradar"
+          git add sources.yaml sources_added.log companies_auto.txt harvest_state.json discovered_sources.yaml discovery_report.txt || true
+          git diff --cached --quiet || git commit -m "nightly pipeline: harvest + discover + merge"
+          git pull --rebase origin main
+          git push
