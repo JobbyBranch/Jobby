@@ -108,7 +108,8 @@ NON_IT_KEYWORDS = [
     "rf engineer", "quality engineer", "validation engineer",
     "manufacturing engineer", "industrial engineer", "industrialisation",
     "industrialization", "calculation engineer", "commissioning",
-    "piping", "verification engineer",
+    "piping", "verification engineer", "cnc", "nc-programmeur",
+    "nc - programmeur", "verspaner", "draaier-frezer",
     "systems integration engineer aerospace", "avionic", "embedded hardware",
 ]
 
@@ -367,7 +368,11 @@ def classify_with_claude(title: str) -> bool | None:
                         "(aankoper, buyer — even of IT), quality/mechanical/electrical/"
                         "process/field-service engineering, and bare category words "
                         "that are not a concrete vacancy (like 'Engineering', 'Jobs', "
-                        "'Techniek'). Job title (Dutch or English): "
+                        "'Techniek'). CNC/NC programming (machine operating) and pure "
+                        "PLC/machine/robot automation without software development are "
+                        "NOT IT. If the title clearly states a work location outside "
+                        "Belgium (e.g. a Dutch, German or French city), answer no. "
+                        "Job title (Dutch or English): "
                         f"'{title}'. Answer with exactly one word: yes or no."
                     ),
                 }],
@@ -461,6 +466,49 @@ def enrich_with_claude(job: dict, page_text: str) -> dict:
 
 
 
+def anthropic_call(payload: dict, timeout: int = 60) -> dict | None:
+    """POST to the Anthropic API with retries on overload (529/429/5xx)."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+    for attempt in range(3):
+        try:
+            r = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
+                         "content-type": "application/json"},
+                json=payload, timeout=timeout,
+            )
+            if r.status_code in (429, 500, 502, 503, 529):
+                time.sleep(6 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            return r.json()
+        except requests.RequestException:
+            if attempt == 2:
+                raise
+            time.sleep(6 * (attempt + 1))
+    raise RuntimeError("Anthropic API overloaded after 3 attempts")
+
+
+def anthropic_text(resp: dict | None) -> str:
+    if not isinstance(resp, dict):
+        return ""
+    content = resp.get("content") or []
+    if not content or not isinstance(content[0], dict):
+        return ""
+    return content[0].get("text") or ""
+
+
+def parse_first_json(text: str):
+    """Parse the FIRST JSON object in the text, ignoring anything after it."""
+    idx = text.find("{")
+    if idx < 0:
+        raise ValueError(f"no JSON in model reply: {text[:120]!r}")
+    obj, _ = json.JSONDecoder().raw_decode(text[idx:])
+    return obj
+
+
 # ── AI MATCHING (Level 3) ─────────────────────────────────────────────
 def load_candidates() -> list[dict]:
     """Fetch the published candidates sheet (CSV). Returns [] when not configured.
@@ -511,17 +559,25 @@ def load_candidates() -> list[dict]:
 
 def prefilter_candidates(job: dict, candidates: list[dict], top: int = 10) -> list[dict]:
     """Cheap keyword pass: keep only plausibly relevant candidates for the AI."""
-    stack = set(s.lower() for s in job.get("stack", []))
+    stack = set(x.lower() for x in job.get("stack", []))
     title = job.get("title", "").lower()
+    title_tokens = set(w for w in re.findall(r"[a-z\+#\.]+", title) if len(w) > 3)
     scored = []
     for c in candidates:
-        overlap = len(stack & set(c["skills"]))
-        title_hit = sum(1 for sk in c["skills"] if sk in title)
-        role_hit = 1 if any(w in title for w in c["role"].lower().split()[:3] if len(w) > 3) else 0
-        scored.append((overlap * 2 + title_hit + role_hit, c))
+        skills = set(c["skills"])
+        role_tokens = set(w for w in re.findall(r"[a-z\+#\.]+", c["role"].lower()) if len(w) > 3)
+        overlap = len(stack & skills)
+        title_skill = sum(1 for sk in skills if len(sk) > 2 and sk in title)
+        role_overlap = len(title_tokens & role_tokens)
+        scored.append((overlap * 2 + title_skill + role_overlap * 2, c))
     scored.sort(key=lambda x: -x[0])
     picked = [c for sc, c in scored[:top] if sc > 0]
-    return picked if picked else [c for _, c in scored[:top]]
+    if picked:
+        return picked
+    # no signal at all: send a DIVERSE cross-section of the bench (varied roles),
+    # not simply the first ten sheet rows
+    step = max(1, len(candidates) // top)
+    return candidates[::step][:top]
 
 
 def _match_check(c: dict) -> str:
@@ -548,27 +604,17 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
         "Refer to candidates ONLY by the exact ROW= number shown (these are "
         "sheet row numbers, NOT positions 1-10 in this list).\n"
         'Reply ONLY with JSON: {"matches": [{"row": <int>, "score": <0-100>, '
-        '"reason": "<one concrete sentence citing their relevant history>"}]} '
+        '"reason": "<one concrete sentence, max 20 words, citing their relevant history>"}]} '
         "with exactly 3 entries, best first.\n\n"
         f"VACANCY: {job['title']} at {job['company']}\n"
         f"FULL TEXT:\n{page_text[:6000]}\n\n"
         f"CANDIDATES:\n" + "\n".join(lines)
     )
     try:
-        r = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
-                     "content-type": "application/json"},
-            json={"model": "claude-sonnet-4-6", "max_tokens": 500,
-                  "messages": [{"role": "user", "content": prompt}]},
-            timeout=60,
-        )
-        r.raise_for_status()
-        text = r.json()["content"][0]["text"]
-        jm = re.search(r"\{.*\}", text, re.S)
-        if not jm:
-            raise ValueError(f"no JSON in model reply: {text[:120]!r}")
-        data = json.loads(jm.group(0))
+        resp = anthropic_call({"model": "claude-sonnet-4-6", "max_tokens": 800,
+                               "messages": [{"role": "user", "content": prompt}]})
+        text = anthropic_text(resp)
+        data = parse_first_json(text)
         # STRICT: only shortlist rows are valid answers. If the model answered
         # with 1-based shortlist positions instead of sheet rows, remap them.
         shortlist_rows = {c["row"] for c in shortlist}
@@ -580,11 +626,12 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
                 m["row"] = shortlist[rr - 1]["row"]
             print("    (remapped positional rows to sheet rows)")
         by_row = {c["row"]: c for c in shortlist}
-        out = []
+        out, used_rows = [], set()
         for m in raw:
             row = int(m.get("row", -1))
-            if row not in by_row:
+            if row not in by_row or row in used_rows:
                 continue
+            used_rows.add(row)
             reason = str(m.get("reason", ""))[:300]
             for c in candidates:  # privacy scrub: no names in public output
                 if c["name"] and c["name"] in reason:
@@ -603,15 +650,23 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
     return job
 
 
-def notify_slack(new_jobs: list[dict]) -> None:
+def notify_slack(new_jobs: list[dict], candidates: list[dict] | None = None) -> None:
     webhook = os.environ.get("SLACK_WEBHOOK_URL")
     if not webhook or not new_jobs:
         return
+    by_row = {c["row"]: c for c in (candidates or [])}
     lines = [f"*JobRadar — {len(new_jobs)} new IT vacancies found* :radar:"]
     for j in new_jobs[:20]:
         stack = ", ".join(j.get("stack", [])[:5])
-        lines.append(f"• *{j['company']}* — <{j['url']}|{j['title']}>"
-                     + (f" _( {stack} )_" if stack else ""))
+        line = (f"• *{j['company']}* — <{j['url']}|{j['title']}>"
+                + (f" _( {stack} )_" if stack else ""))
+        am = j.get("ai_matches") or []
+        if am and am[0].get("row") in by_row:
+            top = by_row[am[0]["row"]]
+            line += f"\n    ↳ best match: *{top['name']}* ({am[0].get('score', 0)}%)"
+        lines.append(line)
+    if len(new_jobs) > 20:
+        lines.append(f"_…and {len(new_jobs) - 20} more in the dashboard_")
     try:
         requests.post(webhook, json={"text": "\n".join(lines)}, timeout=15)
     except requests.RequestException as e:
@@ -713,7 +768,7 @@ def main() -> None:
     write_outputs(state, new_jobs, now)
     print(f"\nDone: {len(new_jobs)} new vacancies · "
           f"{len(state)} total in latest.json")
-    notify_slack(new_jobs)
+    notify_slack(new_jobs, candidates)
 
 
 if __name__ == "__main__":
