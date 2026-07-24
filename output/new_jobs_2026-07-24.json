@@ -1,2411 +1,266 @@
 [
   {
-    "title": "Integrations Product Owner Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/8108304-integrations-product-owner",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "title": "Data Analist Finterface Breda",
+    "url": "https://www.heylengroup.com/career/data-analist/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
     "first_seen": "2026-07-24",
     "stack": [
-      "APIs",
-      "JSON",
-      "XML"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 48,
-        "score": 62,
-        "reason": "This candidate brings 10 years as Senior Product Owner, signalling ownership and seniority closest to the integrations PO scope required.",
-        "check": "m10"
-      },
-      {
-        "row": 25,
-        "score": 58,
-        "reason": "This candidate combines 15 years of Product Owner and Business Analyst experience, supporting the discovery-to-delivery lifecycle Qargo needs.",
-        "check": "i15"
-      },
-      {
-        "row": 23,
-        "score": 55,
-        "reason": "This candidate's 10-year PO and QA background suggests delivery rigour and validation skills relevant to integration operational readiness.",
-        "check": "n10"
-      }
+      "sql"
     ]
   },
   {
-    "title": "Integration Analyst Engineering · Ghent · Hybrid",
-    "url": "https://careers.qargo.com/jobs/8107910-integration-analyst",
-    "company": "Qargo",
-    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "title": "IT Data & Operations Engineer Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/it-data-operations-engineer/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
     "first_seen": "2026-07-24",
     "stack": [
-      "JSON",
-      "XML",
-      "API"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 15,
-        "score": 72,
-        "reason": "20 years as Technical & Functional Analyst/PO signals the technical-functional hybrid ownership this integration engineering role requires.",
-        "check": "d20"
-      },
-      {
-        "row": 22,
-        "score": 68,
-        "reason": "10 years as Functional & Technical Analyst with Agile coaching suggests system-level analysis depth closest to integration work.",
-        "check": "b10"
-      },
-      {
-        "row": 9,
-        "score": 55,
-        "reason": "Salesforce specialisation implies API and data-model familiarity, giving this candidate a technical edge over pure business analysts.",
-        "check": "k8"
-      }
-    ]
-  },
-  {
-    "title": "Senior Data Engineer (employee or freelance)",
-    "url": "https://jobs.lever.co/Qover/00ba66c3-b0e5-4e99-a656-366bbe5b7d24",
-    "company": "Qover",
-    "source": "https://www.qover.com/careers#jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "google bigquery",
-      "dbt",
-      "airbyte",
-      "python",
       "sql",
-      "bash",
-      "looker",
-      "git",
-      "docker",
-      "ci/cd"
-    ],
-    "experience": "5+ yrs",
-    "ai_matches": [
-      {
-        "row": 42,
-        "score": 62,
-        "reason": "This candidate brings 17 years as a Data Engineer with Databricks experience, covering data engineering depth though on Azure stack, not BigQuery/dbt.",
-        "check": "b17"
-      },
-      {
-        "row": 29,
-        "score": 55,
-        "reason": "This candidate has 7 years as a Data Engineer on Azure with Azure Data Factory, covering pipeline work but lacking BigQuery and dbt specifics.",
-        "check": "b7"
-      },
-      {
-        "row": 4,
-        "score": 38,
-        "reason": "This candidate has 6 years in data analysis and BI lead work, offering some data and Looker-adjacent experience but no engineering or dbt background.",
-        "check": "n6"
-      }
+      "sap"
     ]
   },
   {
-    "title": "AI Engineer",
-    "url": "https://jobs.smartrecruiters.com/Locinox/744000138315994-ai-engineer",
-    "company": "Locinox",
-    "source": "https://jobs.locinox.com/#Departementen",
+    "title": "Full Stack Developer Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/full-stack-developer/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
     "first_seen": "2026-07-24",
     "stack": [
-      "Python",
-      "C",
-      "Azure AI Studio",
-      "Microsoft Foundry",
-      "Git",
-      "OpenAI",
-      "Claude",
-      "Gemini"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 1,
-        "score": 88,
-        "reason": "This candidate holds an AI Engineer title with 11 years Python experience, directly matching the core stack and role requirements.",
-        "check": "w11"
-      },
-      {
-        "row": 29,
-        "score": 42,
-        "reason": "This candidate has Azure data engineering background, offering partial overlap with Microsoft Foundry/Azure AI Studio but no AI or Python focus.",
-        "check": "b7"
-      },
-      {
-        "row": 8,
-        "score": 38,
-        "reason": "This candidate brings Azure cloud and DevOps experience, providing infrastructure adjacency but lacking AI, Python, or LLM history.",
-        "check": "j6"
-      }
+      "c#",
+      ".net",
+      "javascript",
+      "typescript",
+      "angular",
+      "azure",
+      "sql",
+      "sap"
     ]
   },
   {
-    "title": "Technical Support Engineer Fulltime / Parttime Hybride / Antwerpen",
-    "url": "https://jobs.ovivio.com/technical-support-engineer/nl",
-    "company": "Adeona",
-    "source": "https://jobs.ovivio.com/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "MS SQL Server",
-      "C#",
-      "Azure Virtual Desktop",
-      "XML",
-      "JSON",
-      "OAuth",
-      "Single Sign-On",
-      "Windows"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 46,
-        "score": 72,
-        "reason": "This candidate's 28-year career in IT network engineering and team lead support aligns with second-line technical support and customer-facing troubleshooting responsibilities.",
-        "check": "k28"
-      },
-      {
-        "row": 8,
-        "score": 52,
-        "reason": "This candidate's Azure and cloud/DevOps background partially covers Azure Virtual Desktop and infrastructure configuration required in the role.",
-        "check": "j6"
-      },
-      {
-        "row": 40,
-        "score": 42,
-        "reason": "This candidate's full-stack engineering background offers some adjacent technical depth, but no SQL, support, or C# history is evident.",
-        "check": "a6"
-      }
-    ]
-  },
-  {
-    "title": "Data Analyst",
-    "url": "https://www.bleckmann.com/nl/vacatures/data-analyst",
-    "company": "BLECKMANN BELGIË NV",
-    "source": "https://www.bleckmann.com/nl/vacatures",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": "2+ yrs",
-    "ai_matches": [
-      {
-        "row": 77,
-        "score": 72,
-        "reason": "This candidate has 5 years as Data Analyst with SQL skills, directly matching the operational data analysis and reporting requirements.",
-        "check": "t5"
-      },
-      {
-        "row": 4,
-        "score": 65,
-        "reason": "This candidate brings 6 years of data analysis and BI experience, covering KPI monitoring and analytical reporting needs of the role.",
-        "check": "n6"
-      },
-      {
-        "row": 2,
-        "score": 42,
-        "reason": "This candidate has 3 years of business/functional analysis experience but lacks explicit logistics or operational data analyst background.",
-        "check": "c3"
-      }
-    ]
-  },
-  {
-    "title": "Agile Master (m/w/d)",
-    "url": "https://recruiting.dmgmori.com/Vacancies/879/Description/1",
+    "title": "Dualer Student (m/w/d) für die Studienrichtung Mechatronik und Automation | Ausbildungsjahr 2027",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1167/Description/1",
     "company": "DMG MORI BeLux",
     "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
     "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 47,
-        "score": 82,
-        "reason": "This candidate brings 22 years of experience as Agile Delivery Lead, directly matching the Agile Master role's coaching and delivery focus.",
-        "check": "p22"
-      },
-      {
-        "row": 22,
-        "score": 70,
-        "reason": "This candidate combines 10 years of functional analysis with an Agile Coach title, covering coaching and method facilitation required by the role.",
-        "check": "b10"
-      },
-      {
-        "row": 23,
-        "score": 65,
-        "reason": "This candidate holds a Scrum Master and Product Owner background over 10 years, covering core agile facilitation skills needed for the vacancy.",
-        "check": "n10"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": "DevOps Engineer (m/w/d)",
-    "url": "https://recruiting.dmgmori.com/Vacancies/1158/Description/1",
+    "title": "Pricing Analyst (m/w/d)",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1161/Description/1",
     "company": "DMG MORI BeLux",
     "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
     "first_seen": "2026-07-24",
-    "stack": [
-      "Azure",
-      "Azure DevOps",
-      "GitHub Actions",
-      "Git",
-      "Python",
-      "Bash",
-      "PowerShell",
-      "Docker",
-      "Infrastructure as Code"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 8,
-        "score": 78,
-        "reason": "This candidate has 6 years as Cloud & DevOps Engineer with direct Azure experience matching CI/CD and cloud infrastructure requirements.",
-        "check": "j6"
-      },
-      {
-        "row": 52,
-        "score": 72,
-        "reason": "This candidate brings 8 years as Senior Platform & DevOps Engineer with Kubernetes, signalling strong pipeline automation and platform ownership.",
-        "check": "j8"
-      },
-      {
-        "row": 60,
-        "score": 58,
-        "reason": "This candidate has 8 years of infrastructure/DevOps experience; Linux focus is adjacent but lacks explicit Azure or CI/CD tooling signals.",
-        "check": "a8"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": "Got it!",
-    "url": "https://jobs.drumdrum.eu/",
-    "company": "DRUMDRUM",
-    "source": "https://jobs.drumdrum.eu/",
+    "title": "vacatures ICT Emmaüs",
+    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE",
+    "company": "Emmaüs",
+    "source": "https://www.emmaus.be/jobs",
     "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "This candidate has CTO/leadership background but zero overlap with production, logistics, or CE driving roles.",
-        "check": "d12"
-      },
-      {
-        "row": 35,
-        "score": 10,
-        "reason": "This candidate is a software engineer with Java history, entirely mismatched with barrel recycling operational vacancies.",
-        "check": "e6"
-      },
-      {
-        "row": 0,
-        "score": 10,
-        "reason": "This candidate is a freelance Java engineer with no relevant history for any of the advertised industrial or logistics roles.",
-        "check": "l7"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": "Data-app EnergieID",
-    "url": "https://ecopower.be/tipsenkennis/energieid",
-    "company": "ECOPOWER",
-    "source": "https://ecopower.be/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 75,
-        "score": 62,
-        "reason": "This candidate brings 20 yrs as Data Engineer/Platform Architect with Python, relevant for building data pipelines behind an energy monitoring app.",
-        "check": "w20"
-      },
-      {
-        "row": 29,
-        "score": 55,
-        "reason": "This candidate has 7 yrs Azure Data Factory experience as Data Engineer, useful for integrating smart meter and energy data flows.",
-        "check": "b7"
-      },
-      {
-        "row": 4,
-        "score": 52,
-        "reason": "This candidate has 6 yrs as Senior BI/Data Analyst with data analysis history, relevant for energy consumption reporting and dashboard insights.",
-        "check": "n6"
-      }
-    ]
-  },
-  {
-    "title": "Full-Stack Developer",
-    "url": "https://eventpay.be/vacatures/full-stack-developer/",
-    "company": "EVENTPAY",
-    "source": "https://eventpay.be/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "PHP",
-      "Laravel",
-      "SQL",
-      "Postgres",
-      "Laravel Livewire",
-      "Vanilla JS",
-      "Tailwind CSS",
-      "PostCSS",
-      "Laravel Vite",
-      "Alpine.js"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 39,
-        "score": 82,
-        "reason": "This candidate has 8 years of senior freelance full-stack PHP experience, directly matching Laravel/PHP backend requirements.",
-        "check": "r8"
-      },
-      {
-        "row": 7,
-        "score": 45,
-        "reason": "This candidate has 11 years of frontend/UX experience but Angular stack diverges from required Vanilla JS/Alpine.js/Tailwind.",
-        "check": "g11"
-      },
-      {
-        "row": 40,
-        "score": 38,
-        "reason": "This candidate shows full-stack seniority and technical lead experience but Node.js stack does not align with PHP/Laravel requirements.",
-        "check": "a6"
-      }
-    ]
-  },
-  {
-    "title": "Full Stack Engineer Ghent Highsail",
-    "url": "https://apply.workable.com/entouragevc/j/C26089C16A/",
-    "company": "Entourage Capital II",
-    "source": "https://www.entourage.io/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 40,
-        "score": 72,
-        "reason": "This candidate brings 6 years as Senior Full Stack Engineer/Technical Lead with Node.js, signaling ownership and leadership relevant to a full stack role.",
-        "check": "a6"
-      },
-      {
-        "row": 16,
-        "score": 65,
-        "reason": "This candidate has 26 years as Full-Stack .NET Developer and Team Lead, demonstrating deep seniority and architectural ownership across full stack projects.",
-        "check": "i26"
-      },
-      {
-        "row": 13,
-        "score": 58,
-        "reason": "This candidate has 5 years of freelance full-stack .NET development, covering core full stack skills with a concrete independent delivery track record.",
-        "check": "y5"
-      }
-    ]
-  },
-  {
-    "title": "Resident UX Engineer Ghent Entourage Studio",
-    "url": "https://apply.workable.com/entouragevc/j/09CC3E1394",
-    "company": "Entourage Capital II",
-    "source": "https://www.entourage.io/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 23,
-        "score": 32,
-        "reason": "This candidate's Product Owner/QA/Scrum background has some UX adjacency but no UX engineering history.",
-        "check": "n10"
-      },
-      {
-        "row": 35,
-        "score": 18,
-        "reason": "This candidate's Java software engineering history shows no UX, design systems, or front-end experience.",
-        "check": "e6"
-      },
-      {
-        "row": 0,
-        "score": 15,
-        "reason": "This candidate's Java freelance history shows no overlap with UX engineering or front-end development.",
-        "check": "l7"
-      }
-    ]
-  },
-  {
-    "title": "Solution engineer",
-    "url": "https://elogautomation.com/job/solution-engineer/",
-    "company": "E’Log Automation",
-    "source": "https://elogautomation.com/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Inventor",
-      "AutoCAD",
-      "Navisworks",
-      "Excel",
-      "Word",
-      "PowerPoint"
-    ],
-    "experience": "Several years",
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 38,
-        "reason": "This candidate has system/network engineering background, the closest technical profile, but lacks CAD/logistics automation history.",
-        "check": "l8"
-      },
-      {
-        "row": 14,
-        "score": 32,
-        "reason": "This candidate has 25 years of technical seniority but entirely in cloud/AWS, with no mechanical design or logistics automation overlap.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 28,
-        "reason": "This candidate brings technical engineering experience but is cloud/DevOps focused with no evidence of Inventor, AutoCAD, or intralogistics work.",
-        "check": "j6"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://enervice.be/vacatures/",
-    "company": "Enervice",
-    "source": "https://enervice.be/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "This candidate's CTO/Technology Lead background with Azure is the broadest senior tech profile, but no real vacancy exists to match against.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 17,
-        "reason": "This candidate's 25-year Senior Cloud Engineer history covers the widest cloud footprint, though the vacancy contains no actual job requirements.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 16,
-        "reason": "This candidate's Cloud Architect title with 15 years of .NET/Azure signals high seniority, but the vacancy text is a cookie-consent page with no role defined.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.vandamme.eu/nl-be/jobs",
+    "title": "Bekijk meer | IT specialist",
+    "url": "https://www.vandamme.eu/nl-be/jobs/it-specialist",
     "company": "FIRMA VAN DAMME",
     "source": "https://www.vandamme.eu/nl-be/jobs",
     "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "No vacancy requirements exist; this candidate's broad tech leadership offers widest generic coverage of unknown role.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 11,
-        "reason": "No vacancy requirements exist; this candidate's cloud seniority provides marginal generic relevance to the Cloudflare-named page.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 10,
-        "reason": "No vacancy requirements exist; this candidate's architect-level background is noted but cannot be matched to an undefined role.",
-        "check": "m15"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": "ICT-coördinator",
-    "url": "https://www.thuiszorgfamiliezorg.be/vacature-ict-coordinator/",
-    "company": "Familiezorg West-Vlaanderen",
-    "source": "https://www.thuiszorgfamiliezorg.be/vacatures/",
+    "title": "architecture",
+    "url": "https://www.glennsestigarchitects.com/careers/architecture/",
+    "company": "Glenn Sestig Architects",
+    "source": "https://www.glennsestigarchitects.com/careers/",
     "first_seen": "2026-07-24",
-    "stack": [
-      "Microsoft 365",
-      "Intune",
-      "Azure",
-      "programming",
-      "databases",
-      "security"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 72,
-        "reason": "This candidate's CTO/Technology Lead background with 12 years Azure experience signals leadership, infrastructure oversight, and digital coordination matching the role.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 55,
-        "reason": "This candidate's 25-year Senior System Engineer (Cloud) history covers infrastructure and stability management, partially matching the IT-coordinator scope.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 42,
-        "reason": "This candidate's Azure and architecture background offers some infrastructure relevance, but the profile is developer/architect-focused with no leadership or coordination signals.",
-        "check": "m15"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": ". Craft CMS developer",
-    "url": "https://glue.be/jobs/craft-cms-developer",
-    "company": "GLUE",
-    "source": "https://glue.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Craft CMS",
-      "HTML5",
-      "CSS3",
-      "ES6",
-      "PHP",
-      "MVC",
-      "SQL",
-      "React",
-      "Git",
-      "Webpack"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 7,
-        "score": 38,
-        "reason": "This candidate's 11-year frontend/UX background with Angular covers HTML/CSS/JS skills, the closest overlap in this pool.",
-        "check": "g11"
-      },
-      {
-        "row": 18,
-        "score": 25,
-        "reason": "This candidate has senior frontend experience but Blazor/.NET focus misaligns with the PHP/Craft CMS stack required.",
-        "check": "t16"
-      },
-      {
-        "row": 13,
-        "score": 18,
-        "reason": "This candidate's full-stack freelance background shows some versatility, but .NET focus has no alignment with Craft CMS or PHP.",
-        "check": "y5"
-      }
-    ]
-  },
-  {
-    "title": ". Front-end developer",
-    "url": "https://glue.be/jobs/front-end-developer",
-    "company": "GLUE",
-    "source": "https://glue.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "HTML5",
-      "CSS3",
-      "Javascript",
-      "Figma",
-      "Sketch",
-      "Git",
-      "Webpack",
-      "Postcss",
-      "Twig",
-      "Alpine.js"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 7,
-        "score": 62,
-        "reason": "This candidate's 11-year Frontend Developer/UX Designer background with Angular aligns closest to the UX-focused front-end role required.",
-        "check": "g11"
-      },
-      {
-        "row": 18,
-        "score": 30,
-        "reason": "This candidate focuses on Blazor/.NET front-end, not the HTML5/CSS3/Twig/Alpine/React/Craft CMS stack the vacancy demands.",
-        "check": "t16"
-      },
-      {
-        "row": 13,
-        "score": 22,
-        "reason": "This candidate is a .NET full-stack freelancer with no evident front-end UX or CMS specialisation matching the vacancy.",
-        "check": "y5"
-      }
-    ]
-  },
-  {
-    "title": "Technical Support",
-    "url": "https://jobs.xpo.com/content/Technical-Support/?locale=en_US",
-    "company": "GXO LOGISTICS ANTWERP BELGIUM",
-    "source": "https://jobs.xpo.com/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 46,
-        "score": 52,
-        "reason": "This candidate's 28 years in IT network engineering and team lead support history is the closest match to a technical support role.",
-        "check": "k28"
-      },
-      {
-        "row": 15,
-        "score": 28,
-        "reason": "This candidate's 20 years in functional analysis shows IT depth but no concrete technical support or infrastructure history.",
-        "check": "d20"
-      },
-      {
-        "row": 22,
-        "score": 24,
-        "reason": "This candidate's functional/technical analyst background with Agile coaching shows IT breadth but lacks any support-role history.",
-        "check": "b10"
-      }
-    ]
-  },
-  {
-    "title": "FRONT-END DEVELOPER",
-    "url": "https://www.idcreation.be/nl/jobs/front-end-developer",
-    "company": "IDCREATION",
-    "source": "https://www.idcreation.be/nl/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "HTML5",
-      "CSS3",
-      "ASP.NET",
-      "Javascript",
-      "C#",
-      "jQuery",
-      "SQL",
-      "Photoshop",
-      "Illustrator"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 18,
-        "score": 78,
-        "reason": "This candidate's 16-year senior front-end .NET title with Blazor directly matches the vacancy's HTML/CSS/.NET CMS front-end focus.",
-        "check": "t16"
-      },
-      {
-        "row": 7,
-        "score": 65,
-        "reason": "This candidate's 11-year frontend/UX designer background covers front-end development concretely, though Angular differs from the jQuery/.NET stack.",
-        "check": "g11"
-      },
-      {
-        "row": 13,
-        "score": 48,
-        "reason": "This candidate's full-stack .NET freelance history provides relevant .NET exposure but lacks a dedicated front-end development track record.",
-        "check": "y5"
-      }
-    ]
-  },
-  {
-    "title": "Backend .NET developer",
-    "url": "https://www.idcreation.be/nl/jobs/backend-net-developer",
-    "company": "IDCREATION",
-    "source": "https://www.idcreation.be/nl/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      ".NET",
-      "ASP.NET",
-      "C#",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "jQuery",
-      "SQL"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 21,
-        "score": 88,
-        "reason": "This candidate brings 16 years of dedicated senior backend .NET/C# history, a direct stack match for the role.",
-        "check": "n16"
-      },
-      {
-        "row": 20,
-        "score": 82,
-        "reason": "This candidate has 8 years as a Senior .NET Developer with a solid C# backend history fitting the vacancy well.",
-        "check": "j8"
-      },
-      {
-        "row": 44,
-        "score": 80,
-        "reason": "This candidate's 8-year Senior .NET/C# background closely aligns with the backend .NET developer requirements.",
-        "check": "d8"
-      }
-    ]
-  },
-  {
-    "title": "AI & Machine Learning",
-    "url": "https://jobs.iqvia.com/en/ai-and-machine-learning",
+    "title": "IQVIA Alumni Network",
+    "url": "https://jobs.iqvia.com/en/alumni-network",
     "company": "IQVIA MedTech NV",
     "source": "https://jobs.iqvia.com/en",
     "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 42,
-        "score": 48,
-        "reason": "This candidate's 17 yrs in data engineering with Databricks offers the closest overlap to ML data pipeline work at IQVIA.",
-        "check": "b17"
-      },
-      {
-        "row": 28,
-        "score": 38,
-        "reason": "This candidate's streaming data engineering background with Kafka provides some adjacent data infrastructure relevance.",
-        "check": "a8"
-      },
-      {
-        "row": 49,
-        "score": 33,
-        "reason": "This candidate's CTO/tech lead role with Azure cloud experience offers broad technical leadership, marginally relevant to AI platform delivery.",
-        "check": "d12"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": "Solutions Engineer",
-    "url": "https://www.inmanta.com/careers/solutions-engineer",
-    "company": "Inmanta",
-    "source": "https://www.inmanta.com/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 72,
-        "reason": "This candidate's 8 years as a Network/System Engineer directly matches the core NetDev hybrid profile the vacancy requires.",
-        "check": "l8"
-      },
-      {
-        "row": 30,
-        "score": 58,
-        "reason": "This candidate's 8 years in cloud-native platform engineering with Kubernetes aligns with distributed systems and CI/CD aspects of the role.",
-        "check": "m8"
-      },
-      {
-        "row": 8,
-        "score": 52,
-        "reason": "This candidate's 6 years in Cloud & DevOps with Azure covers the CI/CD and systems integration bonus points sought by the vacancy.",
-        "check": "j6"
-      }
-    ]
-  },
-  {
-    "title": "Software Engineer",
-    "url": "https://www.inmanta.com/careers/software-engineer",
-    "company": "Inmanta",
-    "source": "https://www.inmanta.com/careers",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "python"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 1,
-        "score": 78,
-        "reason": "This candidate brings 11 years of Python engineering experience, directly matching Inmanta's core language requirement.",
-        "check": "w11"
-      },
-      {
-        "row": 8,
-        "score": 52,
-        "reason": "This candidate's 6 years in Cloud & DevOps with Azure aligns with the CI/CD and distributed systems bonus criteria.",
-        "check": "j6"
-      },
-      {
-        "row": 0,
-        "score": 42,
-        "reason": "This candidate has 7 years of strong OOP background in Java, covering the software craftsmanship requirement despite no Python.",
-        "check": "l7"
-      }
-    ]
-  },
-  {
-    "title": "Data / Digital & IT",
-    "url": "https://jobs.engie.com/go/data-digital-&-it-us/9412455/",
-    "company": "Joulz Sun4Business 1",
-    "source": "https://jobs.engie.com/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 75,
-        "score": 72,
-        "reason": "This candidate brings 20 years as Data Engineer / Platform Architect with strong Python and platform design history fitting a digital/IT data role.",
-        "check": "w20"
-      },
-      {
-        "row": 66,
-        "score": 70,
-        "reason": "This candidate has 10 years as Data & Analytics Lead with Databricks, signaling both technical depth and leadership ownership.",
-        "check": "j10"
-      },
-      {
-        "row": 42,
-        "score": 68,
-        "reason": "This candidate offers 17 years of Data Engineering experience with Databricks, providing strong seniority for a data/digital position.",
-        "check": "b17"
-      }
-    ]
-  },
-  {
-    "title": "Supply Chain Software",
-    "url": "https://www.knapp.com/",
-    "company": "KNAPP AG",
-    "source": "https://www.knapp.com/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 58,
-        "score": 62,
-        "reason": "This candidate has 10 years of functional analysis specifically in logistics and supply chain IT, directly relevant to KNAPP's WMS/WES domain.",
-        "check": "b10"
-      },
-      {
-        "row": 0,
-        "score": 38,
-        "reason": "This candidate has 7 years of Java engineering, which may overlap with supply chain software development but lacks any logistics or warehouse domain history.",
-        "check": "l7"
-      },
-      {
-        "row": 35,
-        "score": 35,
-        "reason": "This candidate has 6 years of Java development, offering some technical overlap but no evident supply chain or logistics software background.",
-        "check": "e6"
-      }
-    ]
-  },
-  {
-    "title": "KiSoft SCADA",
-    "url": "https://www.knapp.com/kisoft-scada/",
-    "company": "KNAPP AG",
-    "source": "https://www.knapp.com/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 56,
-        "score": 42,
-        "reason": "This candidate's .NET/Azure architecture background is the closest stack match for a C#-based SCADA platform, though no warehouse automation history is evident.",
-        "check": "m15"
-      },
-      {
-        "row": 21,
-        "score": 38,
-        "reason": "This candidate brings 16 years of senior .NET/C# backend development, offering relevant stack overlap for industrial supervision software despite no SCADA history.",
-        "check": "n16"
-      },
-      {
-        "row": 63,
-        "score": 35,
-        "reason": "This candidate's 19 years of .NET/C# freelance development provides stack compatibility, but no SCADA or automation domain experience is visible in the history.",
-        "check": "k19"
-      }
-    ]
-  },
-  {
-    "title": "KiSoft Analytics",
-    "url": "https://www.knapp.com/kisoft-analytics/",
-    "company": "KNAPP AG",
-    "source": "https://www.knapp.com/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null
-  },
-  {
-    "title": "Bug Bounty",
-    "url": "https://www.knapp.com/en/bug-bounty/",
+    "title": "Supply Chain Software im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/",
     "company": "KNAPP AG",
     "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
       "sap"
-    ],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 32,
-        "reason": "This candidate's CTO/technology lead background gives broadest system oversight, marginally relevant to identifying architectural vulnerabilities.",
-        "check": "d12"
-      },
-      {
-        "row": 56,
-        "score": 28,
-        "reason": "This candidate's cloud architecture experience across .NET and Azure offers some transferable security-adjacent system knowledge.",
-        "check": "m15"
-      },
-      {
-        "row": 14,
-        "score": 26,
-        "reason": "This candidate's 25 years of senior cloud/system engineering experience provides infrastructure depth loosely relevant to bug bounty scope.",
-        "check": "d25"
-      }
     ]
   },
   {
-    "title": "Accept all",
-    "url": "https://www.kongsbergsystems.com/en/careers",
-    "company": "Kongsberg Precision Cutting Systems Belgium",
-    "source": "https://www.kongsbergsystems.com/en/careers",
+    "title": "Lagerverwaltungssoftware im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/lagerverwaltungssoftware/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "spring",
-      "azure"
-    ],
-    "ai_matches": [
-      {
-        "row": 0,
-        "score": 0,
-        "reason": "Vacancy text contains no job description; scoring any candidate is impossible without role requirements.",
-        "check": "l7"
-      },
-      {
-        "row": 7,
-        "score": 0,
-        "reason": "No role, stack, or seniority requirements are present in the vacancy to evaluate this candidate against.",
-        "check": "g11"
-      },
-      {
-        "row": 14,
-        "score": 0,
-        "reason": "Cookie consent page provides zero job criteria; no valid match can be determined for this candidate.",
-        "check": "d25"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Nederlands-BE",
-    "url": "https://www.lmbenelux.com/jobs/",
-    "company": "La Martiniquaise Benelux",
-    "source": "https://www.lmbenelux.com/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://loois.be/vacatures/",
-    "company": "LOOIS VERZEKERINGSKANTOOR",
-    "source": "https://loois.be/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "This candidate's CTO/cloud technology background is the closest to any infrastructure context, but the vacancy is not a real job posting.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 16,
-        "reason": "This candidate's senior cloud/AWS engineering history has marginal relevance, but there is no actual role defined in this vacancy.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 14,
-        "reason": "This candidate's Azure cloud architect background offers some infrastructure overlap, but the vacancy contains no real job requirements to match against.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "English-BE",
-    "url": "https://www.lmbenelux.com/en-be/jobs-in-belux/",
-    "company": "La Martiniquaise Benelux",
-    "source": "https://www.lmbenelux.com/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "This candidate's CTO/leadership background is the closest to a general business role, but no FMCG or commercial history exists.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 10,
-        "reason": "This candidate's senior seniority and broad cloud experience offers some transferable leadership, but no relevant spirits or commercial background.",
-        "check": "d25"
-      },
-      {
-        "row": 7,
-        "score": 9,
-        "reason": "This candidate's UX/frontend focus touches customer-facing design thinking, but no FMCG, sales, or beverage industry history is present.",
-        "check": "g11"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.mobilelocker.eu/nl/careers",
-    "company": "MOBILE LOCKER",
-    "source": "https://www.mobilelocker.eu/nl/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 22,
-        "reason": "This candidate's senior cloud/AWS background is the closest match to the infrastructure-heavy cookie-consent page context.",
-        "check": "d25"
-      },
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "This candidate's CTO/Azure cloud leadership has marginal relevance to web infrastructure, but no real vacancy exists to match.",
-        "check": "d12"
-      },
-      {
-        "row": 56,
-        "score": 15,
-        "reason": "This candidate's Azure cloud architect profile offers slight overlap with CDN/DNS infrastructure, but the vacancy is undefined.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Senior DevOps Engineer - On-Site Infrastructure in Belgium",
-    "url": "https://apply.workable.com/j/22C0B38209",
-    "company": "MOBILE LOCKER",
-    "source": "https://www.mobilelocker.eu/nl/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 70,
-        "score": 82,
-        "reason": "This candidate brings 29 years of senior Linux/DevOps experience, directly matching on-site infrastructure needs.",
-        "check": "g29"
-      },
-      {
-        "row": 60,
-        "score": 78,
-        "reason": "This candidate has 8 years as a freelance Infrastructure/DevOps Engineer with core Linux skills for on-site work.",
-        "check": "a8"
-      },
-      {
-        "row": 55,
-        "score": 72,
-        "reason": "This candidate's 20 years in infrastructure and security engineering aligns well with on-site Belgian infrastructure requirements.",
-        "check": "k20"
-      }
-    ]
-  },
-  {
-    "title": "Senior Full Stack Engineer (PHP/Symfony/Vue.js)",
-    "url": "https://apply.workable.com/j/BA57ED37EA",
-    "company": "MOBILE LOCKER",
-    "source": "https://www.mobilelocker.eu/nl/careers",
+    "title": "SAP EWM by KNAPP",
+    "url": "https://www.knapp.com/sap-ewm-by-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "PHP",
-      "Symfony",
-      "Vue.js"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 39,
-        "score": 82,
-        "reason": "This candidate has 8 years as Senior Freelance Full-Stack PHP Developer, directly matching the core backend requirement.",
-        "check": "r8"
-      },
-      {
-        "row": 51,
-        "score": 79,
-        "reason": "This candidate brings 10 years of senior PHP engineering experience, exceeding the seniority bar for the role.",
-        "check": "l10"
-      },
-      {
-        "row": 40,
-        "score": 42,
-        "reason": "This candidate has 6 years full-stack experience but is Node.js-focused, not PHP/Symfony or Vue.js.",
-        "check": "a6"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Full stack .NET developer",
-    "url": "https://www.mediportal.be/nl/jobs/full-stack-net-developer/",
-    "company": "MediPortal",
-    "source": "https://www.mediportal.be/nl/jobs",
+    "title": "SAP EWM Service by KNAPP",
+    "url": "https://www.knapp.com/sap-ewm-service/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "C#",
-      "MVC",
-      "WebAPI",
-      "ASP.NET Core",
-      "TypeScript",
-      "Vue",
-      "Knockout",
-      "Azure"
-    ],
-    "experience": "2+ yrs",
-    "ai_matches": [
-      {
-        "row": 26,
-        "score": 78,
-        "reason": "This candidate is a dedicated freelance full stack .NET developer with 4 years of C# history, closely matching the vacancy's 2+ year requirement.",
-        "check": "r4"
-      },
-      {
-        "row": 6,
-        "score": 75,
-        "reason": "This candidate brings 5 years as a .NET developer, directly covering the core back-end stack required by the role.",
-        "check": "l5"
-      },
-      {
-        "row": 13,
-        "score": 73,
-        "reason": "This candidate has 5 years of freelance full-stack .NET experience, aligning well with the full-stack scope and seniority level sought.",
-        "check": "y5"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Cloudflare 1",
-    "url": "https://matco-international.com/nl/vacatures/",
-    "company": "Matco International Belgium",
-    "source": "https://matco-international.com/nl/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 38,
-        "reason": "This candidate's CTO/Technology Lead role with Azure background is the broadest fit for an unclear cloud/platform vacancy.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 36,
-        "reason": "This candidate's 25-year Senior System Engineer (Cloud/AWS) history offers the closest infrastructure alignment to the cookie/CDN context.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 33,
-        "reason": "This candidate's .NET & Azure Cloud Architect background provides some cloud platform relevance to an ambiguous vacancy.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Aalst DevOps / Automation Engineer (PowerShell & PHP) bekijk vacature",
-    "url": "https://jobs.nzvl.be/nl/developer",
-    "company": "NEUTRAAL ZIEKENFONDS VLAANDEREN",
-    "source": "https://jobs.nzvl.be/nl",
+    "title": "SAP EWM MFS by KNAPP",
+    "url": "https://www.knapp.com/sap-ewm-mfs-by-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "powershell",
-      "php",
-      "html",
-      "css",
-      "javascript",
-      "sql",
-      "api"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 8,
-        "score": 52,
-        "reason": "This candidate has 6 years Cloud & DevOps background but no visible PowerShell scripting or PHP/web development history.",
-        "check": "j6"
-      },
-      {
-        "row": 60,
-        "score": 42,
-        "reason": "This candidate brings 8 years infrastructure/DevOps on Linux but lacks the PowerShell automation and PHP development the role requires.",
-        "check": "a8"
-      },
-      {
-        "row": 52,
-        "score": 38,
-        "reason": "This candidate has senior platform/DevOps experience but history centres on Kubernetes orchestration, not PowerShell scripting or PHP application development.",
-        "check": "j8"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Software engineer – PLC",
-    "url": "https://nuyttensautomatisatie.be/vacatures/software-engineer-plc/",
-    "company": "NUYTTENS AUTOMATISATIE",
-    "source": "https://nuyttensautomatisatie.be/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 32,
-        "reason": "This candidate has 25 years in cloud/AWS system engineering, with no PLC, automation, or industrial control history.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 20,
-        "reason": "This candidate's background is purely cloud and DevOps (Azure), with no overlap with PLC or industrial automation.",
-        "check": "j6"
-      },
-      {
-        "row": 1,
-        "score": 18,
-        "reason": "This candidate specialises in AI/Python engineering with no evidence of PLC programming or electromechanical automation work.",
-        "check": "w11"
-      }
-    ]
-  },
-  {
-    "title": "Full-stack software developer",
-    "url": "https://nextgenicsbv.recruitee.com/o/full-stack-software-ontwikkelaar-om-medische-verslagen-begrijpbaar-te-maken",
-    "company": "NextGenics",
-    "source": "https://www.nextgenics.co/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 40,
-        "score": 72,
-        "reason": "This candidate brings 6 yrs as Senior Full Stack Engineer / Technical Lead with Node.js, signaling ownership and seniority relevant to a full-stack product role.",
-        "check": "a6"
-      },
-      {
-        "row": 39,
-        "score": 65,
-        "reason": "This candidate has 8 yrs senior full-stack PHP experience with concrete seniority signals, covering backend depth for a product-focused hiring platform.",
-        "check": "r8"
-      },
-      {
-        "row": 16,
-        "score": 63,
-        "reason": "This candidate's 26 yrs as Full-Stack .NET Developer / Team Lead demonstrates strong architectural and leadership capability, despite a stack not specified in the vacancy.",
-        "check": "i26"
-      }
-    ]
-  },
-  {
-    "title": "Software engineer – PC/PLC",
-    "url": "https://nuyttensautomatisatie.be/vacatures/software-engineer-pc-plc/",
-    "company": "NUYTTENS AUTOMATISATIE",
-    "source": "https://nuyttensautomatisatie.be/jobs/",
+    "title": "Transport­management Software im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/transportmanagement-software/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "PLC",
-      "PC"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 51,
-        "score": 38,
-        "reason": "This candidate has senior software engineering experience but only in PHP web development, not PLC/PC automation.",
-        "check": "l10"
-      },
-      {
-        "row": 62,
-        "score": 32,
-        "reason": "This candidate's 8 years are in fullstack React development with no industrial automation or PLC history.",
-        "check": "b8"
-      },
-      {
-        "row": 1,
-        "score": 28,
-        "reason": "This candidate's 11 years focus on AI/Python with no machine or process automation background evident.",
-        "check": "w11"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Software Engineer",
-    "url": "https://www.octopus.be/nl/vacatures/software-engineer-windows-linux/",
-    "company": "OCTOPUS",
-    "source": "https://www.octopus.be/nl/vacatures/",
+    "title": "KiSoft Delivery Management Software",
+    "url": "https://www.knapp.com/kisoft-delivery-management-software/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "java",
-      "spring",
-      "rest-api",
-      "angular",
-      "sql"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 0,
-        "score": 82,
-        "reason": "This candidate has 7 years of dedicated Java freelance engineering experience, directly matching the must-have requirement.",
-        "check": "l7"
-      },
-      {
-        "row": 35,
-        "score": 80,
-        "reason": "This candidate brings 6 years as a Java Software Engineer, closely matching the stack and junior/medior seniority level sought.",
-        "check": "e6"
-      },
-      {
-        "row": 62,
-        "score": 42,
-        "reason": "This candidate has fullstack experience but primary stack is React, not Java, creating a significant must-have gap.",
-        "check": "b8"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Software",
-    "url": "https://www.sas.com/en_us/careers.html",
-    "company": "NV SAS INSTITUTE SA",
-    "source": "https://www.sas.com/en_us/careers.html",
+    "title": "Integraties",
+    "url": "https://www.ledenbeheer.be/nl/oplossingen/integraties",
+    "company": "LEDENBEHEER",
+    "source": "https://www.ledenbeheer.be/nl",
     "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 0,
-        "score": 62,
-        "reason": "This candidate brings 7 years of Java freelance engineering experience, closely matching SAS's Java-heavy platform development needs.",
-        "check": "l7"
-      },
-      {
-        "row": 35,
-        "score": 58,
-        "reason": "This candidate has 6 years of Java software engineering, providing solid backend alignment with SAS Institute's platform stack.",
-        "check": "e6"
-      },
-      {
-        "row": 62,
-        "score": 38,
-        "reason": "This candidate's 8 years of fullstack/React experience offers partial overlap but limited alignment with SAS's primarily backend Java environment.",
-        "check": "b8"
-      }
-    ]
+    "stack": []
   },
   {
-    "title": "Dashboards & Analytics",
-    "url": "https://www.pozyx.io/products/software/positioning-analytics",
-    "company": "POZYX",
-    "source": "https://www.pozyx.io/company/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 66,
-        "score": 72,
-        "reason": "This candidate leads Data & Analytics with 10 years Databricks experience, directly supporting an RTLS analytics dashboard role.",
-        "check": "j10"
-      }
-    ]
-  },
-  {
-    "title": "Indoor Location Tracking",
-    "url": "https://www.pozyx.io/technology/indoor-location-tracking-and-positioning",
-    "company": "POZYX",
-    "source": "https://www.pozyx.io/company/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 52,
-        "reason": "This candidate's CTO/tech lead background with Azure covers platform architecture relevant to RTLS management systems.",
-        "check": "d12"
-      },
-      {
-        "row": 56,
-        "score": 45,
-        "reason": "This candidate's .NET and Azure cloud architecture experience aligns with Pozyx's backend platform and dashboard development needs.",
-        "check": "m15"
-      },
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate's senior cloud/AWS system engineering background could support RTLS infrastructure deployment, though no IoT history shown.",
-        "check": "d25"
-      }
-    ]
-  },
-  {
-    "title": "Systems Engineer",
-    "url": "https://www.prodata-systems.be/jobs/systems-engineer-0",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
+    "title": "Software Plattformen im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/software-plattformen/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "VMware",
-      "Microsoft Windows Server",
-      "Exchange",
-      "Office 365",
-      "Active Directory",
-      "VMware Horizon",
-      "PowerShell",
-      "HPE Storage",
-      "Veeam",
-      "Backup systems"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 72,
-        "reason": "This candidate's 8-year Network/System Engineer background directly aligns with the infrastructure and systems integration role required.",
-        "check": "l8"
-      },
-      {
-        "row": 14,
-        "score": 45,
-        "reason": "This candidate has 25 years as Senior System Engineer but history shows AWS/cloud focus, not the HPE/VMware/VDI stack required.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 38,
-        "reason": "This candidate's Cloud & DevOps/Azure background offers some infrastructure overlap but lacks the VMware, storage, and VDI specifics needed.",
-        "check": "j6"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Third line support engineer",
-    "url": "https://www.prodata-systems.be/jobs/third-line-support-engineer",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
+    "title": "SAP by KNAPP",
+    "url": "https://www.knapp.com/sap-by-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "PowerShell",
-      "Active Directory",
-      "VPN",
-      "MFA",
-      "Windows 10",
-      "O365",
-      "Intune",
-      "Exchange",
-      "Apple iOS",
-      "macOS"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 46,
-        "score": 52,
-        "reason": "This candidate has 28 years in networking and team lead support, covering the closest overlap with L3 support infrastructure work.",
-        "check": "k28"
-      },
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate's 25-year senior system engineering background touches server/cloud infrastructure but lacks explicit end-user support or AD/O365 history.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 30,
-        "reason": "This candidate has Azure and DevOps experience with some scripting relevance but no evident end-user support, AD, or ITIL background.",
-        "check": "j6"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Flexible Support Engineer",
-    "url": "https://www.prodata-systems.be/jobs/flexible-support-engineer",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": "2-3 yrs",
-    "ai_matches": [
-      {
-        "row": 46,
-        "score": 58,
-        "reason": "This candidate has 28 years in network/IT and team lead support experience, closely matching 2nd-line support requirements.",
-        "check": "k28"
-      },
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate has 25 years in systems engineering with cloud focus, offering broad IT infrastructure background but no explicit support role history.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 32,
-        "reason": "This candidate has 6 years in cloud and DevOps, providing some relevant IT infrastructure exposure though no support engineer background.",
-        "check": "j6"
-      }
-    ]
-  },
-  {
-    "title": "Network Consultant",
-    "url": "https://www.prodata-systems.be/jobs/network-consultant",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
+    "title": "Kommissionierroboter Pick-it-Easy Robot",
+    "url": "https://www.knapp.com/pick-it-easy-robot-kommissionierroboter/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "Extreme Networks",
-      "LAN",
-      "WLAN",
-      "SDWAN",
-      "NAC",
-      "Routing",
-      "Switching",
-      "Wireless"
-    ],
-    "experience": "5-7 yrs",
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 72,
-        "reason": "This candidate has 8 years as Network/System Engineer, closely matching the 5-7 yr networking requirement and role scope.",
-        "check": "l8"
-      },
-      {
-        "row": 76,
-        "score": 65,
-        "reason": "This candidate brings 8 years of datacenter network and security engineering, covering LAN/switching overlap relevant to the role.",
-        "check": "l8"
-      },
-      {
-        "row": 46,
-        "score": 58,
-        "reason": "This candidate's 28 years in network engineering shows deep expertise but team lead seniority may exceed the consultant profile sought.",
-        "check": "k28"
-      }
+      "sap",
+      "rest"
     ]
   },
   {
-    "title": "Level 2 Service Desk Engineer",
-    "url": "https://www.prodata-systems.be/jobs/level-2-service-desk-engineer",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
+    "title": "Integrationspartnerschaft als Erfolgsfaktor: DCS und KNAPP 5. Mai 2026 3. Juni 2026",
+    "url": "https://www.knapp.com/wissen/case-studies/integrationspartnerschaft-als-erfolgsfaktor-dcs-und-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "Microsoft Windows",
-      "Microsoft Office",
-      "Active Directory",
-      "Microsoft Windows Server",
-      "Networking"
-    ],
-    "experience": "3+ yrs",
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 62,
-        "reason": "This candidate has 8 years as a Network/System Engineer, directly covering networking and system skills required for L2 support.",
-        "check": "l8"
-      },
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate's 25 years in senior cloud/system engineering shows infrastructure knowledge but is overqualified and lacks a service desk background.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 32,
-        "reason": "This candidate's Cloud & DevOps background with Azure offers some infrastructure overlap but no evident service desk or end-user support history.",
-        "check": "j6"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Senior Security Consultant ( Analyst)",
-    "url": "https://www.prodata-systems.be/jobs/senior-security-consultant-analyst",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Checkpoint",
-      "F5",
-      "Silverpeak",
-      "Ethernet",
-      "TCP/IP",
-      "DHCP",
-      "IPAM",
-      "DNS",
-      "firewalls",
-      "IDS/IPS"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 55,
-        "score": 72,
-        "reason": "This candidate has 20 years in infrastructure & security engineering with Active Directory, suggesting solid perimeter and identity management exposure relevant to the role.",
-        "check": "k20"
-      },
-      {
-        "row": 14,
-        "score": 32,
-        "reason": "This candidate's cloud/AWS system engineering background has minimal overlap with the security consultant, firewall, and SIEM skills required.",
-        "check": "d25"
-      },
-      {
-        "row": 3,
-        "score": 28,
-        "reason": "This candidate's 20 years in project/PMO management shows no evidence of security architecture, perimeter security, or network protocol experience needed.",
-        "check": "g20"
-      }
-    ]
-  },
-  {
-    "title": "Senior Network Consultant",
-    "url": "https://www.prodata-systems.be/jobs/senior-network-consultant",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Ethernet",
-      "TCP/IP",
-      "DHCP",
-      "IPAM",
-      "DNS",
-      "OSPF",
-      "BGP",
-      "EIGRP",
-      "LAN",
-      "WLAN"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 55,
-        "reason": "This candidate has 8 years of direct network/system engineering history, the closest profile to the vacancy's LAN/WLAN/routing requirements.",
-        "check": "l8"
-      },
-      {
-        "row": 14,
-        "score": 22,
-        "reason": "This candidate's cloud/AWS background has no overlap with the network consulting stack required.",
-        "check": "d25"
-      },
-      {
-        "row": 30,
-        "score": 18,
-        "reason": "This candidate's Kubernetes/cloud-native history lacks the LAN, WLAN, and routing protocol experience the role demands.",
-        "check": "m8"
-      }
-    ]
-  },
-  {
-    "title": "Senior Security Consultant",
-    "url": "https://www.prodata-systems.be/jobs/senior-security-consultant",
-    "company": "PRODATA SYSTEMS",
-    "source": "https://www.prodata-systems.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Checkpoint",
-      "F5",
-      "Okta",
-      "Ethernet",
-      "TCP/IP",
-      "DHCP",
-      "IPAM",
-      "DNS",
-      "firewalls",
-      "IDS/IPS"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 55,
-        "score": 62,
-        "reason": "This candidate has 20 years as Senior Infrastructure & Security Engineer with Active Directory, the closest match to the vacancy's identity management and perimeter security requirements.",
-        "check": "k20"
-      },
-      {
-        "row": 14,
-        "score": 32,
-        "reason": "This candidate's cloud/AWS background offers adjacent infrastructure skills but no concrete security consulting history relevant to the vacancy.",
-        "check": "d25"
-      },
-      {
-        "row": 30,
-        "score": 28,
-        "reason": "This candidate's cloud-native platform engineering shows infrastructure depth but lacks any demonstrated security stack overlap with the vacancy requirements.",
-        "check": "m8"
-      }
-    ]
-  },
-  {
-    "title": "Microsoft Security Consultant",
-    "url": "https://resilientsecurity.be/vacatures/microsoft-security-consultant/",
-    "company": "Resilient",
-    "source": "https://resilientsecurity.be/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Azure",
-      "Entra ID",
-      "Azure AD",
-      "Defender XDR",
-      "Purview",
-      "Sentinel",
-      "Microsoft 365"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 55,
-        "score": 52,
-        "reason": "This candidate has 20 years in infrastructure & security with Active Directory expertise, but lacks evident Microsoft cloud security (Entra ID, Sentinel, Defender) history.",
-        "check": "k20"
-      },
-      {
-        "row": 76,
-        "score": 22,
-        "reason": "This candidate's background is Cisco ACI datacenter networking, with no evident alignment to Microsoft cloud security or IAM stack required.",
-        "check": "l8"
-      }
-    ]
-  },
-  {
-    "title": "Full-Stack Software Developers Full-time",
-    "url": "https://www.riskconcile.com/careers/full-stack-software-developers/",
+    "title": "Investment Management Data Analyst Full-time",
+    "url": "https://www.riskconcile.com/careers/investment-management-data-analyst/",
     "company": "RiskConcile",
     "source": "https://www.riskconcile.com/careers/",
     "first_seen": "2026-07-24",
     "stack": [
-      "python",
-      "vue.js",
-      "javascript",
-      "css",
-      "django",
-      "aws"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 62,
-        "score": 58,
-        "reason": "This candidate has 8 years fullstack experience with React, the closest match to the Vue.js/JS frontend stack required.",
-        "check": "b8"
-      },
-      {
-        "row": 40,
-        "score": 45,
-        "reason": "This candidate's 6-year Node.js Technical Lead background shows fullstack seniority, though no Python/Vue.js history visible.",
-        "check": "a6"
-      },
-      {
-        "row": 39,
-        "score": 38,
-        "reason": "This candidate brings 8 years senior fullstack experience, but PHP primary stack diverges from the Python/Vue.js requirements.",
-        "check": "r8"
-      }
+      "python"
     ]
   },
   {
-    "title": "IAM Consultant",
-    "url": "https://resilientsecurity.be/vacatures/iam-consultant/",
-    "company": "Resilient",
-    "source": "https://resilientsecurity.be/jobs/",
+    "title": "Junior Product Owner / Project coordinator",
+    "url": "https://www.routeyou.com/jobs/jr-product-owner-coordinator-0526",
+    "company": "RouteYou",
+    "source": "https://www.routeyou.com/en/jobs",
     "first_seen": "2026-07-24",
     "stack": [
-      "Omada Identity",
-      "One Identity Manager",
-      "Entra ID",
-      "Delinea Platform",
-      "Secret Server",
-      "Safeguard",
-      "Azure PIM",
-      "CyberArk",
-      "Active Directory",
-      "SAML"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 32,
-        "reason": "This candidate has Azure exposure as CTO, but no IAM, IGA, PAM, or identity governance history visible.",
-        "check": "d12"
-      },
-      {
-        "row": 56,
-        "score": 28,
-        "reason": "This candidate's Azure cloud architect background offers marginal adjacency but zero IAM/IGA/PAM domain evidence.",
-        "check": "m15"
-      },
-      {
-        "row": 14,
-        "score": 25,
-        "reason": "This candidate's cloud/AWS seniority is notable but shows no identity, access management, or security governance experience.",
-        "check": "d25"
-      }
+      "node",
+      "scrum"
     ]
   },
   {
-    "title": "Software Tester Part-time",
-    "url": "https://www.riskconcile.com/careers/software-tester/",
-    "company": "RiskConcile",
-    "source": "https://www.riskconcile.com/careers/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 62,
-        "score": 48,
-        "reason": "This candidate's fullstack background covers both front-end and back-end, directly matching the basic dev knowledge requirement for this tester role.",
-        "check": "b8"
-      },
-      {
-        "row": 51,
-        "score": 38,
-        "reason": "This candidate's 10 years of senior engineering experience shows technical depth, partially relevant to a software testing role requiring dev familiarity.",
-        "check": "l10"
-      },
-      {
-        "row": 35,
-        "score": 32,
-        "reason": "This candidate's Java engineering background provides basic back-end knowledge, offering limited but non-zero overlap with the testing role's technical requirements.",
-        "check": "e6"
-      }
-    ]
-  },
-  {
-    "title": "Freelance Front-end Developer",
-    "url": "https://www.sayhey.be/nl/jobs/job/id/334/Freelance-Front-end-Developer",
-    "company": "SAY HEY",
-    "source": "https://www.sayhey.be/nl/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "GSAP",
-      "Figma",
-      "CMS"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 43,
-        "score": 38,
-        "reason": "This candidate has Angular front-end experience, the closest to UI development in this pool, though lacks creative/CSS focus.",
-        "check": "e8"
-      },
-      {
-        "row": 39,
-        "score": 32,
-        "reason": "This candidate's PHP full-stack background shows some web development history, but no evidence of front-end craft or design-to-code work.",
-        "check": "r8"
-      },
-      {
-        "row": 18,
-        "score": 28,
-        "reason": "This candidate has 16 years and a front-end title, but Blazor/.NET signals server-side rendering, not creative HTML/CSS/JS/GSAP work.",
-        "check": "t16"
-      }
-    ]
-  },
-  {
-    "title": "Developer",
-    "url": "https://developers.sap.com/",
+    "title": "SAP insights",
+    "url": "https://www.sap.com/insights.html",
     "company": "SAP BELGIUM - SYSTEMS APPLICATIONS AND PRODUCTS",
     "source": "https://jobs.sap.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "ABAP",
-      "JavaScript",
-      "Node.js",
-      "Python",
-      "CDS",
-      "OData",
-      "SAP CAP",
-      "SAP BTP",
-      "SAP AI Core"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 11,
-        "score": 28,
-        "reason": "This candidate's Java full-stack background offers the closest adjacency to SAP CAP/Java runtime, but no SAP history exists.",
-        "check": "k4"
-      },
-      {
-        "row": 16,
-        "score": 22,
-        "reason": "This candidate's 26-year enterprise full-stack and team lead background shows seniority breadth, but zero SAP/BTP stack overlap.",
-        "check": "i26"
-      },
-      {
-        "row": 20,
-        "score": 18,
-        "reason": "This candidate's 8 years of senior .NET backend work shows solid enterprise development, but no SAP ecosystem exposure is evidenced.",
-        "check": "j8"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Software",
-    "url": "https://sevocomm.com/en/careers",
-    "company": "SEVOCOMM",
-    "source": "https://sevocomm.com/en/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 51,
-        "score": 42,
-        "reason": "This candidate brings 10 yrs senior software engineering ownership signals, most relevant seniority for an unspecified telecom software role.",
-        "check": "l10"
-      },
-      {
-        "row": 62,
-        "score": 38,
-        "reason": "This candidate's 8 yrs fullstack React background offers broad software coverage for an undefined software engineering opening.",
-        "check": "b8"
-      },
-      {
-        "row": 0,
-        "score": 36,
-        "reason": "This candidate has 7 yrs Java freelance experience, a common enterprise stack relevant to telecom software contexts.",
-        "check": "l7"
-      }
-    ]
-  },
-  {
-    "title": "Senior Ruby on Rails Developer",
-    "url": "https://careers.shypple.com/o/senior-ruby-on-rails-developer-7",
-    "company": "SHYPPLE BELGIUM",
-    "source": "https://careers.shypple.com/",
+    "title": "SAP community",
+    "url": "https://community.sap.com/",
+    "company": "SAP BELGIUM - SYSTEMS APPLICATIONS AND PRODUCTS",
+    "source": "https://jobs.sap.com/",
     "first_seen": "2026-07-24",
     "stack": [
-      "ruby",
-      "ruby on rails",
-      "postgresql",
-      "sql",
-      "kubernetes",
-      "ci/cd"
-    ],
-    "experience": "6+ yrs",
-    "ai_matches": [
-      {
-        "row": 54,
-        "score": 42,
-        "reason": "This candidate has 12 yrs senior backend Java experience, a compiled OOP language with transferable fundamentals, closest to Rails backend profile.",
-        "check": "j12"
-      },
-      {
-        "row": 64,
-        "score": 38,
-        "reason": "This candidate brings 8 yrs senior Java backend experience, strong server-side engineering fundamentals though no Ruby or Rails history.",
-        "check": "c8"
-      },
-      {
-        "row": 39,
-        "score": 36,
-        "reason": "This candidate has 8 yrs senior full-stack PHP experience, a scripted web-backend language with some Rails-adjacent patterns but no Ruby history.",
-        "check": "r8"
-      }
+      "sap"
     ]
   },
   {
-    "title": "Update Behind The Scenes Van klant tot code: de job van Software Engineer",
-    "url": "https://sparklink.be/nl/updates/van-klant-tot-code-de-job-van-software-engineer",
-    "company": "SPARKLINK",
-    "source": "https://sparklink.be/nl/jobs",
+    "title": "Procesanalist 23/7/2026 - Dessel",
+    "url": "https://jobs.solid-talent.be/solidsite/procesanalist-dessel/",
+    "company": "SOLID TALENT",
+    "source": "https://jobs.solid-talent.be/",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "SAP Series",
+    "url": "https://www.sonitron.be/careers/SAP series, https:/www.sonitron.be/products/sap-series/, ",
+    "company": "SONITRON",
+    "source": "https://www.sonitron.be/careers/",
     "first_seen": "2026-07-24",
     "stack": [
-      "Salesforce",
-      "Angular",
-      "HTML",
-      "CSS"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 62,
-        "score": 72,
-        "reason": "This candidate brings 8 years of fullstack software engineering with React, closely matching Sparklink's Angular/frontend-inclusive full-cycle development work.",
-        "check": "b8"
-      },
-      {
-        "row": 51,
-        "score": 58,
-        "reason": "This candidate has 10 years as a senior software engineer with concrete ownership signals, though PHP stack is adjacent rather than a direct Salesforce/Angular match.",
-        "check": "l10"
-      },
-      {
-        "row": 35,
-        "score": 52,
-        "reason": "This candidate has 6 years of software engineering experience, but Java backend focus is only partially aligned with Sparklink's Salesforce-based platform work.",
-        "check": "e6"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.storm.be/jobs",
-    "company": "STORM 85",
-    "source": "https://www.storm.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "No valid vacancy was parsed; this candidate is selected arbitrarily as no role requirements exist.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 12,
-        "reason": "No valid vacancy was parsed; this candidate is selected arbitrarily as no role requirements exist.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 12,
-        "reason": "No valid vacancy was parsed; this candidate is selected arbitrarily as no role requirements exist.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Senior Solution Architect",
-    "url": "https://storaenso.wd502.myworkdayjobs.com/nl-NL/Stora_Enso_site_opportunities/job/Ostrava/Senior-Solution-Architect_JR112117",
-    "company": "STORA ENSO LANGERBRUGGE",
-    "source": "https://storaenso.wd502.myworkdayjobs.com/Stora_Enso_site_opportunities",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 62,
-        "reason": "25 years as Senior Cloud System Engineer with AWS background aligns most closely with architecture-level technical scope.",
-        "check": "d25"
-      },
-      {
-        "row": 30,
-        "score": 55,
-        "reason": "8 years in cloud-native platform engineering with Kubernetes signals infrastructure architecture experience relevant to a solution architect role.",
-        "check": "m8"
-      },
-      {
-        "row": 12,
-        "score": 42,
-        "reason": "20 years of senior business and functional analysis provides cross-domain understanding useful in solution architecture, though technical depth is unclear.",
-        "check": "b20"
-      }
-    ]
-  },
-  {
-    "title": "Data Engineer",
-    "url": "https://storaenso.wd502.myworkdayjobs.com/nl-NL/Stora_Enso_site_opportunities/job/Ostrava/Data-Engineer_JR112130",
-    "company": "STORA ENSO LANGERBRUGGE",
-    "source": "https://storaenso.wd502.myworkdayjobs.com/Stora_Enso_site_opportunities",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 42,
-        "score": 82,
-        "reason": "This candidate brings 17 years as a Data Engineer with Databricks expertise, signaling strong seniority and modern data platform ownership.",
-        "check": "b17"
-      },
-      {
-        "row": 73,
-        "score": 78,
-        "reason": "This candidate combines 7 years as a BI & Data Engineer with Databricks stack and a Track Lead title indicating mentoring and delivery ownership.",
-        "check": "w7"
-      },
-      {
-        "row": 29,
-        "score": 72,
-        "reason": "This candidate has 7 years as an Azure Data Engineer with Azure Data Factory, a common backbone for industrial data pipeline roles like this one.",
-        "check": "b7"
-      }
-    ]
-  },
-  {
-    "title": "Ingénieur middleware DataPower Durée indéterminée 35,00 Heures / Semaine Solidaris - Bruxelles Offre jusqu'au 31-12-2026",
-    "url": "https://jobs.solidaris.be/offre-demploi-generique/ingenieur-middleware-datapower-h-f-x",
-    "company": "Solidaris, socialistische mutualiteit van de provincie West-Vlaanderen",
-    "source": "https://jobs.solidaris.be/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "DataPower",
-      "API Connect",
-      "Windows Server",
-      "Linux",
-      "Microsoft SQL",
-      "Jira",
-      "Confluence",
-      "ITX",
-      "IWS",
-      "Seeburger"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate's 25-year senior cloud/systems engineering background offers the closest infrastructure operations overlap, though no DataPower/middleware history is evident.",
-        "check": "d25"
-      },
-      {
-        "row": 49,
-        "score": 33,
-        "reason": "This candidate's CTO/tech lead role with Azure exposure shows broad IT ownership, but no DataPower, API Connect, or EAI experience is present.",
-        "check": "d12"
-      },
-      {
-        "row": 0,
-        "score": 28,
-        "reason": "This candidate's 7-year Java background offers marginal API integration adjacency, but no middleware, DataPower, or EAI experience is demonstrated.",
-        "check": "l7"
-      }
-    ]
-  },
-  {
-    "title": "Engineer System Mainframe Durée indéterminée 35,00 Heures / Semaine Solidaris - Bruxelles Offre jusqu'au 31-12-2026",
-    "url": "https://jobs.solidaris.be/offre-demploi-generique/ingenieur-systeme-mainframe-it-7-2025",
-    "company": "Solidaris, socialistische mutualiteit van de provincie West-Vlaanderen",
-    "source": "https://jobs.solidaris.be/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Z/OS",
-      "JES2",
-      "SMPE",
-      "HCD",
-      "SMS",
-      "DFHSM",
-      "TCPIP",
-      "DB2",
-      "CICS",
-      "Websphere MQ"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate has 25 years in system engineering but history shows cloud/AWS focus, not mainframe Z/OS stack.",
-        "check": "d25"
-      },
-      {
-        "row": 36,
-        "score": 30,
-        "reason": "This candidate has network/system engineering background but no evidence of mainframe, Z/OS, or IBM platform experience.",
-        "check": "l8"
-      },
-      {
-        "row": 8,
-        "score": 22,
-        "reason": "This candidate's cloud and DevOps history on Azure shows no overlap with required mainframe Z/OS or IBM subsystems.",
-        "check": "j6"
-      }
-    ]
-  },
-  {
-    "title": "Analyste Programmeur Mainframe Durée indéterminée 35,00 Heures / Semaine Solidaris - Bruxelles Offre jusqu'au",
-    "url": "https://jobs.solidaris.be/offre-demploi-generique/analyste-programmeur-mainframe-it-1-2026",
-    "company": "Solidaris, socialistische mutualiteit van de provincie West-Vlaanderen",
-    "source": "https://jobs.solidaris.be/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "IBM Mainframe Z/OS",
-      "CICS",
-      "PL/1",
-      "DB2",
-      "Cognos Analytics",
-      "Jira",
-      "Confluence"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 21,
-        "score": 32,
-        "reason": "This candidate has backend development experience but in .NET/C#, with no mainframe, CICS, PL1, or DB2 history.",
-        "check": "n16"
-      },
-      {
-        "row": 63,
-        "score": 30,
-        "reason": "This candidate brings 19 years of development experience but entirely in .NET/C#, not mainframe Z/OS or related stack.",
-        "check": "k19"
-      },
-      {
-        "row": 56,
-        "score": 29,
-        "reason": "This candidate has broad architecture experience but in .NET and Azure Cloud, with no evidence of mainframe or PL1 skills.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Data Engineer Durée indéterminée 35,00 Heures / Semaine Solidaris - Bruxelles Offre jusqu'au 31-12-2026",
-    "url": "https://jobs.solidaris.be/offre-demploi-generique/data-engineer-aout-2025",
-    "company": "Solidaris, socialistische mutualiteit van de provincie West-Vlaanderen",
-    "source": "https://jobs.solidaris.be/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "SQL",
-      "Python",
-      "PySpark",
-      "Microsoft Fabric",
-      "Microsoft Azure",
-      "Databricks",
-      "Snowflake",
-      "Cognos",
-      "Power BI",
-      "Tableau"
-    ],
-    "experience": "5+ yrs",
-    "ai_matches": [
-      {
-        "row": 73,
-        "score": 82,
-        "reason": "This candidate combines BI and Data Engineering with Databricks experience and a track lead role signalling ownership and seniority.",
-        "check": "w7"
-      },
-      {
-        "row": 42,
-        "score": 78,
-        "reason": "This candidate brings 17 years as Data Engineer with concrete Databricks history, directly matching the modern data platform requirement.",
-        "check": "b17"
-      },
-      {
-        "row": 29,
-        "score": 74,
-        "reason": "This candidate has 7 years as Azure Data Engineer with Azure Data Factory history, closely aligning with the Microsoft Azure/Fabric platform stack.",
-        "check": "b7"
-      }
-    ]
-  },
-  {
-    "title": "IT Engineer",
-    "url": "https://teamtel.be/jobs/it-engineer/",
-    "company": "TEAMTEL",
-    "source": "https://teamtel.be/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Windows",
-      "Microsoft 365",
-      "networks"
-    ],
-    "experience": "2+ yrs",
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 62,
-        "reason": "This candidate has 8 years of network/system engineering history, directly relevant to the Windows/networking/IT-support scope of this role.",
-        "check": "l8"
-      },
-      {
-        "row": 8,
-        "score": 38,
-        "reason": "This candidate has Azure/cloud DevOps experience, tangentially related but too specialised for a 1st-line helpdesk/IT-support position.",
-        "check": "j6"
-      },
-      {
-        "row": 14,
-        "score": 35,
-        "reason": "This candidate's 25-year senior cloud/AWS background is heavily over-specialised and misaligned with a KMO helpdesk engineer role.",
-        "check": "d25"
-      }
-    ]
-  },
-  {
-    "title": "Senior IT Support Engineer",
-    "url": "https://teamtel.be/jobs/senior-it-support-engineer/",
-    "company": "TEAMTEL",
-    "source": "https://teamtel.be/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Windows Server",
-      "Microsoft 365",
-      "Azure",
-      "Linux",
-      "3CX",
-      "firewalls",
-      "NAS",
-      "virtualization"
-    ],
-    "experience": "10+ yrs",
-    "ai_matches": [
-      {
-        "row": 55,
-        "score": 82,
-        "reason": "This candidate brings 20 years in infrastructure and security with Active Directory expertise directly matching Windows Server and security requirements.",
-        "check": "k20"
-      },
-      {
-        "row": 46,
-        "score": 78,
-        "reason": "This candidate has 28 years as IT Network Engineer and Team Lead Support, covering networking, team leadership, and support ownership the role demands.",
-        "check": "k28"
-      },
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate's 25 years are AWS cloud-focused, with no evident Windows Server, M365, or IT support history matching the SME support role.",
-        "check": "d25"
-      }
-    ]
-  },
-  {
-    "title": "IT Field Engineer",
-    "url": "https://teamtel.be/jobs/it-field-engineer/",
-    "company": "TEAMTEL",
-    "source": "https://teamtel.be/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "Windows Server",
-      "Microsoft 365",
-      "VPN",
-      "firewall",
-      "routing",
-      "VMware",
-      "Hyper-V",
-      "VoIP"
-    ],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 36,
-        "score": 72,
-        "reason": "This candidate brings 8 years of hands-on network/system engineering directly matching the vacancy's core networking and infrastructure requirements.",
-        "check": "l8"
-      },
-      {
-        "row": 14,
-        "score": 38,
-        "reason": "This candidate has 25 years of system engineering experience but is cloud/AWS-focused with no evident field support or telecom history.",
-        "check": "d25"
-      },
-      {
-        "row": 8,
-        "score": 32,
-        "reason": "This candidate has Azure cloud and DevOps experience but lacks the on-site field support, VoIP, and Windows Server SME focus required.",
-        "check": "j6"
-      }
+      "sap"
     ]
   }
 ]

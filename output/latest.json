@@ -279,35 +279,6 @@
     ]
   },
   {
-    "title": "Got it!",
-    "url": "https://jobs.drumdrum.eu/",
-    "company": "DRUMDRUM",
-    "source": "https://jobs.drumdrum.eu/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "This candidate has CTO/leadership background but zero overlap with production, logistics, or CE driving roles.",
-        "check": "d12"
-      },
-      {
-        "row": 35,
-        "score": 10,
-        "reason": "This candidate is a software engineer with Java history, entirely mismatched with barrel recycling operational vacancies.",
-        "check": "e6"
-      },
-      {
-        "row": 0,
-        "score": 10,
-        "reason": "This candidate is a freelance Java engineer with no relevant history for any of the advertised industrial or logistics roles.",
-        "check": "l7"
-      }
-    ]
-  },
-  {
     "title": "Data-app EnergieID",
     "url": "https://ecopower.be/tipsenkennis/energieid",
     "company": "ECOPOWER",
@@ -464,62 +435,6 @@
         "score": 28,
         "reason": "This candidate brings technical engineering experience but is cloud/DevOps focused with no evidence of Inventor, AutoCAD, or intralogistics work.",
         "check": "j6"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://enervice.be/vacatures/",
-    "company": "Enervice",
-    "source": "https://enervice.be/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "This candidate's CTO/Technology Lead background with Azure is the broadest senior tech profile, but no real vacancy exists to match against.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 17,
-        "reason": "This candidate's 25-year Senior Cloud Engineer history covers the widest cloud footprint, though the vacancy contains no actual job requirements.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 16,
-        "reason": "This candidate's Cloud Architect title with 15 years of .NET/Azure signals high seniority, but the vacancy text is a cookie-consent page with no role defined.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.vandamme.eu/nl-be/jobs",
-    "company": "FIRMA VAN DAMME",
-    "source": "https://www.vandamme.eu/nl-be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "No vacancy requirements exist; this candidate's broad tech leadership offers widest generic coverage of unknown role.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 11,
-        "reason": "No vacancy requirements exist; this candidate's cloud seniority provides marginal generic relevance to the Cloudflare-named page.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 10,
-        "reason": "No vacancy requirements exist; this candidate's architect-level background is noted but cannot be matched to an undefined role.",
-        "check": "m15"
       }
     ]
   },
@@ -863,35 +778,6 @@
     ]
   },
   {
-    "title": "Supply Chain Software",
-    "url": "https://www.knapp.com/",
-    "company": "KNAPP AG",
-    "source": "https://www.knapp.com/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 58,
-        "score": 62,
-        "reason": "This candidate has 10 years of functional analysis specifically in logistics and supply chain IT, directly relevant to KNAPP's WMS/WES domain.",
-        "check": "b10"
-      },
-      {
-        "row": 0,
-        "score": 38,
-        "reason": "This candidate has 7 years of Java engineering, which may overlap with supply chain software development but lacks any logistics or warehouse domain history.",
-        "check": "l7"
-      },
-      {
-        "row": 35,
-        "score": 35,
-        "reason": "This candidate has 6 years of Java development, offering some technical overlap but no evident supply chain or logistics software background.",
-        "check": "e6"
-      }
-    ]
-  },
-  {
     "title": "KiSoft SCADA",
     "url": "https://www.knapp.com/kisoft-scada/",
     "company": "KNAPP AG",
@@ -960,75 +846,6 @@
     ]
   },
   {
-    "title": "Accept all",
-    "url": "https://www.kongsbergsystems.com/en/careers",
-    "company": "Kongsberg Precision Cutting Systems Belgium",
-    "source": "https://www.kongsbergsystems.com/en/careers",
-    "first_seen": "2026-07-24",
-    "stack": [
-      "spring",
-      "azure"
-    ],
-    "ai_matches": [
-      {
-        "row": 0,
-        "score": 0,
-        "reason": "Vacancy text contains no job description; scoring any candidate is impossible without role requirements.",
-        "check": "l7"
-      },
-      {
-        "row": 7,
-        "score": 0,
-        "reason": "No role, stack, or seniority requirements are present in the vacancy to evaluate this candidate against.",
-        "check": "g11"
-      },
-      {
-        "row": 14,
-        "score": 0,
-        "reason": "Cookie consent page provides zero job criteria; no valid match can be determined for this candidate.",
-        "check": "d25"
-      }
-    ]
-  },
-  {
-    "title": "Nederlands-BE",
-    "url": "https://www.lmbenelux.com/jobs/",
-    "company": "La Martiniquaise Benelux",
-    "source": "https://www.lmbenelux.com/jobs/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://loois.be/vacatures/",
-    "company": "LOOIS VERZEKERINGSKANTOOR",
-    "source": "https://loois.be/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "This candidate's CTO/cloud technology background is the closest to any infrastructure context, but the vacancy is not a real job posting.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 16,
-        "reason": "This candidate's senior cloud/AWS engineering history has marginal relevance, but there is no actual role defined in this vacancy.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 14,
-        "reason": "This candidate's Azure cloud architect background offers some infrastructure overlap, but the vacancy contains no real job requirements to match against.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
     "title": "English-BE",
     "url": "https://www.lmbenelux.com/en-be/jobs-in-belux/",
     "company": "La Martiniquaise Benelux",
@@ -1054,34 +871,6 @@
         "score": 9,
         "reason": "This candidate's UX/frontend focus touches customer-facing design thinking, but no FMCG, sales, or beverage industry history is present.",
         "check": "g11"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.mobilelocker.eu/nl/careers",
-    "company": "MOBILE LOCKER",
-    "source": "https://www.mobilelocker.eu/nl/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 22,
-        "reason": "This candidate's senior cloud/AWS background is the closest match to the infrastructure-heavy cookie-consent page context.",
-        "check": "d25"
-      },
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "This candidate's CTO/Azure cloud leadership has marginal relevance to web infrastructure, but no real vacancy exists to match.",
-        "check": "d12"
-      },
-      {
-        "row": 56,
-        "score": 15,
-        "reason": "This candidate's Azure cloud architect profile offers slight overlap with CDN/DNS infrastructure, but the vacancy is undefined.",
-        "check": "m15"
       }
     ]
   },
@@ -1181,34 +970,6 @@
         "score": 73,
         "reason": "This candidate has 5 years of freelance full-stack .NET experience, aligning well with the full-stack scope and seniority level sought.",
         "check": "y5"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://matco-international.com/nl/vacatures/",
-    "company": "Matco International Belgium",
-    "source": "https://matco-international.com/nl/vacatures/",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 38,
-        "reason": "This candidate's CTO/Technology Lead role with Azure background is the broadest fit for an unclear cloud/platform vacancy.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 36,
-        "reason": "This candidate's 25-year Senior System Engineer (Cloud/AWS) history offers the closest infrastructure alignment to the cookie/CDN context.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 33,
-        "reason": "This candidate's .NET & Azure Cloud Architect background provides some cloud platform relevance to an ambiguous vacancy.",
-        "check": "m15"
       }
     ]
   },
@@ -1370,34 +1131,6 @@
         "row": 62,
         "score": 42,
         "reason": "This candidate has fullstack experience but primary stack is React, not Java, creating a significant must-have gap.",
-        "check": "b8"
-      }
-    ]
-  },
-  {
-    "title": "Software",
-    "url": "https://www.sas.com/en_us/careers.html",
-    "company": "NV SAS INSTITUTE SA",
-    "source": "https://www.sas.com/en_us/careers.html",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 0,
-        "score": 62,
-        "reason": "This candidate brings 7 years of Java freelance engineering experience, closely matching SAS's Java-heavy platform development needs.",
-        "check": "l7"
-      },
-      {
-        "row": 35,
-        "score": 58,
-        "reason": "This candidate has 6 years of Java software engineering, providing solid backend alignment with SAS Institute's platform stack.",
-        "check": "e6"
-      },
-      {
-        "row": 62,
-        "score": 38,
-        "reason": "This candidate's 8 years of fullstack/React experience offers partial overlap but limited alignment with SAS's primarily backend Java environment.",
         "check": "b8"
       }
     ]
@@ -1960,35 +1693,6 @@
     ]
   },
   {
-    "title": "Software",
-    "url": "https://sevocomm.com/en/careers",
-    "company": "SEVOCOMM",
-    "source": "https://sevocomm.com/en/careers",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 51,
-        "score": 42,
-        "reason": "This candidate brings 10 yrs senior software engineering ownership signals, most relevant seniority for an unspecified telecom software role.",
-        "check": "l10"
-      },
-      {
-        "row": 62,
-        "score": 38,
-        "reason": "This candidate's 8 yrs fullstack React background offers broad software coverage for an undefined software engineering opening.",
-        "check": "b8"
-      },
-      {
-        "row": 0,
-        "score": 36,
-        "reason": "This candidate has 7 yrs Java freelance experience, a common enterprise stack relevant to telecom software contexts.",
-        "check": "l7"
-      }
-    ]
-  },
-  {
     "title": "Senior Ruby on Rails Developer",
     "url": "https://careers.shypple.com/o/senior-ruby-on-rails-developer-7",
     "company": "SHYPPLE BELGIUM",
@@ -2055,34 +1759,6 @@
         "score": 52,
         "reason": "This candidate has 6 years of software engineering experience, but Java backend focus is only partially aligned with Sparklink's Salesforce-based platform work.",
         "check": "e6"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.storm.be/jobs",
-    "company": "STORM 85",
-    "source": "https://www.storm.be/jobs",
-    "first_seen": "2026-07-24",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 12,
-        "reason": "No valid vacancy was parsed; this candidate is selected arbitrarily as no role requirements exist.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 12,
-        "reason": "No valid vacancy was parsed; this candidate is selected arbitrarily as no role requirements exist.",
-        "check": "d25"
-      },
-      {
-        "row": 56,
-        "score": 12,
-        "reason": "No valid vacancy was parsed; this candidate is selected arbitrarily as no role requirements exist.",
-        "check": "m15"
       }
     ]
   },
@@ -2406,6 +2082,270 @@
         "reason": "This candidate has Azure cloud and DevOps experience but lacks the on-site field support, VoIP, and Windows Server SME focus required.",
         "check": "j6"
       }
+    ]
+  },
+  {
+    "title": "Data Analist Finterface Breda",
+    "url": "https://www.heylengroup.com/career/data-analist/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sql"
+    ]
+  },
+  {
+    "title": "IT Data & Operations Engineer Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/it-data-operations-engineer/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sql",
+      "sap"
+    ]
+  },
+  {
+    "title": "Full Stack Developer Finventory Oud Gastel, Nederland",
+    "url": "https://www.heylengroup.com/career/full-stack-developer/",
+    "company": "CREATIVE COOLING GROUP",
+    "source": "https://www.heylengroup.com/vacatures/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "c#",
+      ".net",
+      "javascript",
+      "typescript",
+      "angular",
+      "azure",
+      "sql",
+      "sap"
+    ]
+  },
+  {
+    "title": "Dualer Student (m/w/d) für die Studienrichtung Mechatronik und Automation | Ausbildungsjahr 2027",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1167/Description/1",
+    "company": "DMG MORI BeLux",
+    "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "Pricing Analyst (m/w/d)",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1161/Description/1",
+    "company": "DMG MORI BeLux",
+    "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "vacatures ICT Emmaüs",
+    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE",
+    "company": "Emmaüs",
+    "source": "https://www.emmaus.be/jobs",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "Bekijk meer | IT specialist",
+    "url": "https://www.vandamme.eu/nl-be/jobs/it-specialist",
+    "company": "FIRMA VAN DAMME",
+    "source": "https://www.vandamme.eu/nl-be/jobs",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "architecture",
+    "url": "https://www.glennsestigarchitects.com/careers/architecture/",
+    "company": "Glenn Sestig Architects",
+    "source": "https://www.glennsestigarchitects.com/careers/",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "IQVIA Alumni Network",
+    "url": "https://jobs.iqvia.com/en/alumni-network",
+    "company": "IQVIA MedTech NV",
+    "source": "https://jobs.iqvia.com/en",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "Supply Chain Software im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Lagerverwaltungssoftware im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/lagerverwaltungssoftware/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "SAP EWM by KNAPP",
+    "url": "https://www.knapp.com/sap-ewm-by-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "SAP EWM Service by KNAPP",
+    "url": "https://www.knapp.com/sap-ewm-service/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "SAP EWM MFS by KNAPP",
+    "url": "https://www.knapp.com/sap-ewm-mfs-by-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Transport­management Software im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/transportmanagement-software/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "KiSoft Delivery Management Software",
+    "url": "https://www.knapp.com/kisoft-delivery-management-software/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Integraties",
+    "url": "https://www.ledenbeheer.be/nl/oplossingen/integraties",
+    "company": "LEDENBEHEER",
+    "source": "https://www.ledenbeheer.be/nl",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "Software Plattformen im Überblick",
+    "url": "https://www.knapp.com/loesungen/technologien/supply-chain-software/software-plattformen/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "SAP by KNAPP",
+    "url": "https://www.knapp.com/sap-by-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Kommissionierroboter Pick-it-Easy Robot",
+    "url": "https://www.knapp.com/pick-it-easy-robot-kommissionierroboter/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap",
+      "rest"
+    ]
+  },
+  {
+    "title": "Integrationspartnerschaft als Erfolgsfaktor: DCS und KNAPP 5. Mai 2026 3. Juni 2026",
+    "url": "https://www.knapp.com/wissen/case-studies/integrationspartnerschaft-als-erfolgsfaktor-dcs-und-knapp/",
+    "company": "KNAPP AG",
+    "source": "https://www.knapp.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Investment Management Data Analyst Full-time",
+    "url": "https://www.riskconcile.com/careers/investment-management-data-analyst/",
+    "company": "RiskConcile",
+    "source": "https://www.riskconcile.com/careers/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "python"
+    ]
+  },
+  {
+    "title": "Junior Product Owner / Project coordinator",
+    "url": "https://www.routeyou.com/jobs/jr-product-owner-coordinator-0526",
+    "company": "RouteYou",
+    "source": "https://www.routeyou.com/en/jobs",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "node",
+      "scrum"
+    ]
+  },
+  {
+    "title": "SAP insights",
+    "url": "https://www.sap.com/insights.html",
+    "company": "SAP BELGIUM - SYSTEMS APPLICATIONS AND PRODUCTS",
+    "source": "https://jobs.sap.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "SAP community",
+    "url": "https://community.sap.com/",
+    "company": "SAP BELGIUM - SYSTEMS APPLICATIONS AND PRODUCTS",
+    "source": "https://jobs.sap.com/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Procesanalist 23/7/2026 - Dessel",
+    "url": "https://jobs.solid-talent.be/solidsite/procesanalist-dessel/",
+    "company": "SOLID TALENT",
+    "source": "https://jobs.solid-talent.be/",
+    "first_seen": "2026-07-24",
+    "stack": []
+  },
+  {
+    "title": "SAP Series",
+    "url": "https://www.sonitron.be/careers/SAP series, https:/www.sonitron.be/products/sap-series/, ",
+    "company": "SONITRON",
+    "source": "https://www.sonitron.be/careers/",
+    "first_seen": "2026-07-24",
+    "stack": [
+      "sap"
     ]
   },
   {
@@ -2747,35 +2687,6 @@
         "score": 18,
         "reason": "Python skills align with test scripting requirements, but background is AI engineering with no evident QA or testing history.",
         "check": "w11"
-      }
-    ]
-  },
-  {
-    "title": "Belgium",
-    "url": "https://jobs.essers.com/nl-be/vacatures/",
-    "company": "H.Essers",
-    "source": "https://jobs.essers.com/nl-be/vacatures/",
-    "first_seen": "2026-07-22",
-    "stack": [],
-    "experience": null,
-    "ai_matches": [
-      {
-        "row": 49,
-        "score": 22,
-        "reason": "CTO/Technology Lead with Azure background is the most senior IT profile matching H.Essers' IT & BI category.",
-        "check": "d12"
-      },
-      {
-        "row": 14,
-        "score": 18,
-        "reason": "Senior Cloud Engineer with 25 years AWS experience could fit H.Essers' IT infrastructure needs marginally.",
-        "check": "d25"
-      },
-      {
-        "row": 42,
-        "score": 15,
-        "reason": "Data Engineer with 17 years Databricks experience loosely aligns with H.Essers' Business Intelligence job category.",
-        "check": "b17"
       }
     ]
   },
@@ -5118,34 +5029,6 @@
     ]
   },
   {
-    "title": "Accept all",
-    "url": "https://vandewiele.com/careers/open-vacancies?specialisations=&types=&locations=belgium&brands=",
-    "company": "Vandewiele",
-    "source": "https://vandewiele.com/careers/open-vacancies?specialisations=&types=&locations=belgium&brands=",
-    "first_seen": "2026-07-22",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 21,
-        "score": 62,
-        "reason": "16 years senior .NET backend development aligns with Vandewiele's Senior Software Engineer vacancy in R&D/Engineering.",
-        "check": "n16"
-      },
-      {
-        "row": 56,
-        "score": 58,
-        "reason": "15 years as .NET & Azure Cloud Architect fits the Senior Software Engineer role with modern cloud-stack relevance.",
-        "check": "m15"
-      },
-      {
-        "row": 35,
-        "score": 42,
-        "reason": "6 years Java software engineering provides a plausible junior-to-mid fit for Vandewiele's software engineering openings.",
-        "check": "e6"
-      }
-    ]
-  },
-  {
     "title": "Development Engineer Embedded Software",
     "url": "https://scioteq.recruitee.com/o/development-engineer-embedded-software",
     "company": "ScioTeq",
@@ -5399,34 +5282,6 @@
         "row": 56,
         "score": 22,
         "reason": "Azure Cloud Architect has M365/Azure AD adjacent skills but is overqualified and has no IT support/servicedesk history.",
-        "check": "m15"
-      }
-    ]
-  },
-  {
-    "title": "Cloudflare 1",
-    "url": "https://www.bleckmann.com/nl/vacatures",
-    "company": "BLECKMANN BELGIË NV",
-    "source": "https://www.bleckmann.com/nl/vacatures",
-    "first_seen": "2026-07-22",
-    "stack": [],
-    "ai_matches": [
-      {
-        "row": 14,
-        "score": 22,
-        "reason": "25 years as Senior Cloud/AWS System Engineer is the closest match to any infrastructure role at Bleckmann.",
-        "check": "d25"
-      },
-      {
-        "row": 49,
-        "score": 18,
-        "reason": "CTO/Technology Lead with 12 years Azure experience covers broad cloud and technical leadership context.",
-        "check": "d12"
-      },
-      {
-        "row": 56,
-        "score": 15,
-        "reason": ".NET & Azure Cloud Architect background offers cloud infrastructure relevance for a logistics tech environment.",
         "check": "m15"
       }
     ]
