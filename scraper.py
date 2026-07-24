@@ -498,7 +498,14 @@ def anthropic_call(payload: dict, timeout: int = 60) -> dict | None:
             if r.status_code in (429, 500, 502, 503, 529):
                 time.sleep(6 * (attempt + 1))
                 continue
-            r.raise_for_status()
+            if r.status_code >= 400:
+                # surface the API's own explanation (billing, validation, ...)
+                detail = ""
+                try:
+                    detail = (r.json().get("error") or {}).get("message", "")[:220]
+                except Exception:
+                    detail = r.text[:220]
+                raise requests.HTTPError(f"{r.status_code} from Anthropic API: {detail}")
             return r.json()
         except requests.RequestException:
             if attempt == 2:
@@ -651,16 +658,25 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
         "obvious direct competitor, say so explicitly). Refer to the person only "
         "as 'deze kandidaat', NEVER a name. End with a friendly call-to-action "
         "for a short call and 'Met vriendelijke groeten,'. No subject line, no "
-        "placeholders.\n\n"
+        "placeholders. Keep the TOTAL response compact: pitches ~120 words each, "
+        "never exceed the JSON structure.\n\n"
         f"VACANCY: {job['title']} at {job['company']}\n"
         f"FULL TEXT:\n{page_text[:6000]}\n\n"
         f"CANDIDATES:\n" + "\n".join(lines)
     )
     try:
-        resp = anthropic_call({"model": "claude-sonnet-4-6", "max_tokens": 1800,
+        resp = anthropic_call({"model": "claude-sonnet-4-6", "max_tokens": 3000,
                                "messages": [{"role": "user", "content": prompt}]})
         text = anthropic_text(resp)
-        data = parse_first_json(text)
+        try:
+            data = parse_first_json(text)
+        except (ValueError, json.JSONDecodeError):
+            # reply was malformed/truncated — one retry demanding brevity
+            resp = anthropic_call({"model": "claude-sonnet-4-6", "max_tokens": 3000,
+                                   "messages": [{"role": "user", "content": prompt +
+                                    "\nIMPORTANT: your previous attempt was cut off. "
+                                    "Reply with COMPACT valid JSON only; pitches max 100 words."}]})
+            data = parse_first_json(anthropic_text(resp))
         # STRICT: only shortlist rows are valid answers. If the model answered
         # with 1-based shortlist positions instead of sheet rows, remap them.
         shortlist_rows = {c["row"] for c in shortlist}
