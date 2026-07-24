@@ -145,6 +145,31 @@ def _registrable(host: str) -> str:
     return ".".join(parts[-2:]) if len(parts) >= 2 else host.lower()
 
 
+HUB_ENDINGS = {
+    "careers", "career", "carriere", "carrieres", "vacatures", "vacature-overzicht",
+    "jobs", "vacancies", "werken-bij", "werkenbij", "join-us", "joinus",
+    "jobs-en-carriere", "werken", "opportunities",
+}
+
+def _norm_url(u: str) -> str:
+    from urllib.parse import urlparse
+    p = urlparse(u)
+    base = (p.netloc.lower().replace("www.", "") + p.path.rstrip("/").lower()) or u.lower()
+    return base + ("?" + p.query if p.query else "")
+
+
+def is_listing_hub(url: str, source_url: str) -> bool:
+    """True when a link is the careers PAGE itself, not an individual vacancy."""
+    from urllib.parse import urlparse
+    if _norm_url(url) == _norm_url(source_url):
+        return True
+    p = urlparse(url)
+    if p.query:
+        return False  # ?id=123 style vacancy links are fine
+    segs = [x for x in p.path.lower().split("/") if x]
+    return bool(segs) and segs[-1] in HUB_ENDINGS
+
+
 def plausible_job_url(href: str, base_url: str) -> bool:
     h, b = urlparse(href), urlparse(base_url)
     same_site = _registrable(h.netloc) == _registrable(b.netloc)
@@ -390,6 +415,8 @@ def extract_job_links(html: str, base_url: str) -> list[dict]:
         if urlparse(href).netloc == "":
             continue
         if not plausible_job_url(href, base_url):
+            continue
+        if is_listing_hub(href, base_url):
             continue
         # hard exclusions (mechanical/quality/process engineers, sales, HR...)
         # always win — the AI classifier may NOT override them
@@ -709,6 +736,12 @@ def main() -> None:
 
     sources = load_sources()
     state = load_state()
+    # retroactive cleanup: purge previously captured listing-hub "vacancies"
+    hubs = [u for u, j in state.items() if is_listing_hub(u, j.get("source", u))]
+    for u in hubs:
+        del state[u]
+    if hubs:
+        print(f"[cleanup] purged {len(hubs)} listing-hub entries from state")
     candidates = load_candidates()
     new_jobs = []
 
