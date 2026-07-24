@@ -633,17 +633,31 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
         "- Be honest — if the fit is genuinely weak, score low.\n"
         "In the JSON 'row' field use the exact ROW= number shown (these are "
         "sheet row numbers, NOT positions 1-10 in this list). In the 'reason' "
-        "text, refer to the person only as 'this candidate' — never by name "
+        "text (in Dutch), refer to the person only as 'deze kandidaat' — never by name "
         "and never by row number.\n"
         'Reply ONLY with JSON: {"matches": [{"row": <int>, "score": <0-100>, '
-        '"reason": "<one concrete sentence, max 20 words, citing their relevant history>"}]} '
-        "with exactly 3 entries, best first.\n\n"
+        '"reason": "<één concrete zin in het Nederlands, max 20 woorden, verwijzend naar hun relevante ervaring>", '
+        '"pitch": "<only for scores >= 75: a persuasive Dutch e-mail body>"}]} '
+        "with exactly 3 entries, best first.\n"
+        "PITCH rules (only when score >= 75, otherwise omit the field): write the "
+        "body of a short persuasive Dutch e-mail (120-170 words) from an IT "
+        "consultancy to the hiring manager of this vacancy. Structure: 'Beste,' "
+        "— hook referencing their vacancy and asking if they work with external "
+        "consultants — then SELL the candidate concretely: name the exact "
+        "technologies from the vacancy the candidate has proven experience with, "
+        "and use their career history to build credibility (e.g. relevant past "
+        "employers, the same sector or domain as this company, projects that "
+        "mirror what the vacancy asks — if they worked at this company or an "
+        "obvious direct competitor, say so explicitly). Refer to the person only "
+        "as 'deze kandidaat', NEVER a name. End with a friendly call-to-action "
+        "for a short call and 'Met vriendelijke groeten,'. No subject line, no "
+        "placeholders.\n\n"
         f"VACANCY: {job['title']} at {job['company']}\n"
         f"FULL TEXT:\n{page_text[:6000]}\n\n"
         f"CANDIDATES:\n" + "\n".join(lines)
     )
     try:
-        resp = anthropic_call({"model": "claude-sonnet-4-6", "max_tokens": 800,
+        resp = anthropic_call({"model": "claude-sonnet-4-6", "max_tokens": 1800,
                                "messages": [{"role": "user", "content": prompt}]})
         text = anthropic_text(resp)
         data = parse_first_json(text)
@@ -667,13 +681,24 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
             reason = str(m.get("reason", ""))[:300]
             for c in candidates:  # privacy scrub: no names in public output
                 if c["name"] and c["name"] in reason:
-                    reason = reason.replace(c["name"], "this candidate")
+                    reason = reason.replace(c["name"], "deze kandidaat")
                 first = c["name"].split()[0] if c["name"] else ""
                 if len(first) > 2 and first in reason:
-                    reason = reason.replace(first, "this candidate")
-            reason = re.sub(r"\b[Rr]ow[ =-]?\d+\b", "this candidate", reason)
-            out.append({"row": row, "score": max(0, min(100, int(m.get("score", 0)))),
-                        "reason": reason, "check": _match_check(by_row[row])})
+                    reason = reason.replace(first, "deze kandidaat")
+            reason = re.sub(r"\b[Rr]ow[ =-]?\d+\b", "deze kandidaat", reason)
+            entry = {"row": row, "score": max(0, min(100, int(m.get("score", 0)))),
+                     "reason": reason, "check": _match_check(by_row[row])}
+            pitch = str(m.get("pitch", "") or "")[:2200]
+            if pitch:
+                for c in candidates:
+                    if c["name"] and c["name"] in pitch:
+                        pitch = pitch.replace(c["name"], "deze kandidaat")
+                    first = c["name"].split()[0] if c["name"] else ""
+                    if len(first) > 2 and first in pitch:
+                        pitch = pitch.replace(first, "deze kandidaat")
+                pitch = re.sub(r"\b[Rr]ow[ =-]?\d+\b", "deze kandidaat", pitch)
+                entry["pitch"] = pitch
+            out.append(entry)
         if out:
             job["ai_matches"] = out
             print(f"    ai-matched: rows {[m['row'] for m in out]}"
