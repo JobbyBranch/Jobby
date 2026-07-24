@@ -239,21 +239,10 @@ def needs_rendering(url: str) -> bool:
 
 # ── Core helpers ──────────────────────────────────────────────────────
 def guard_schedule() -> None:
-    """When SCHEDULE_GUARD=1, only proceed at 08:00 local on weekdays.
-
-    GitHub Actions cron is UTC: we trigger at 06:00 and 07:00 UTC and this
-    guard keeps only the run that is 08:00 in Brussels, so DST is handled.
-    """
-    if os.environ.get("SCHEDULE_GUARD") != "1":
-        return
-    now = datetime.now(TZ)
-    if now.weekday() >= 5:
-        print(f"[guard] {now:%a %H:%M} — weekend, skipping.")
-        sys.exit(0)
-    if now.hour != 8:
-        print(f"[guard] {now:%a %H:%M} — not the 08:00 Brussels run, skipping.")
-        sys.exit(0)
-
+    """Retired: the double-cron timezone guard proved fragile against GitHub's
+    delayed schedules (runs fired late and were wrongly skipped). The workflow
+    now uses a single cron and this check is a no-op kept for compatibility."""
+    return
 
 def load_sources() -> list[dict]:
     with open(ROOT / "sources.yaml", encoding="utf-8") as f:
@@ -669,7 +658,13 @@ def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
 
 def notify_slack(new_jobs: list[dict], candidates: list[dict] | None = None) -> None:
     webhook = os.environ.get("SLACK_WEBHOOK_URL")
-    if not webhook or not new_jobs:
+    if not webhook:
+        return
+    if not new_jobs:
+        try:
+            requests.post(webhook, json={"text": "JobRadar scan completed — no new IT vacancies today. :white_check_mark:"}, timeout=15)
+        except requests.RequestException:
+            pass
         return
     by_row = {c["row"]: c for c in (candidates or [])}
     lines = [f"*JobRadar — {len(new_jobs)} new IT vacancies found* :radar:"]
