@@ -1,5 +1,300 @@
 [
   {
+    "title": "Engineer Software",
+    "url": "https://scioteq.recruitee.com/o/engineer-software",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-07-28",
+    "stack": [
+      "C#",
+      "NET 4.7",
+      "NET 8+",
+      "Visual Studio",
+      "MSSQL",
+      "HTML",
+      "JavaScript",
+      "Razor",
+      "CSS",
+      "SCPI"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 78,
+        "reason": "Deze kandidaat bouwde een geautomatiseerd testsysteem voor Barco-projectors én heeft aantoonbare C#- en .NET-ervaring.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk nam kennis van de vacature Engineer Software bij ScioTeq en wilde u vragen of u samenwerkt met externe consultants voor deze invulling.\n\nDeze kandidaat heeft een profiel dat sterk aansluit bij uw noden. Bij Barco ontwikkelde deze kandidaat een geautomatiseerd testsysteem voor bioscoopprojectoren — exact het type e-test en industrialisatiewerk dat ScioTeq vraagt. Naast Python en C beschikt deze kandidaat over relevante C#- en .NET-bagage, en heeft hands-on ervaring met SQL-databases, CI/CD en backend-architectuur. De combinatie van test automation, hardware-nabije software en een proactieve, eigenaarschap-gedreven werkwijze sluit nauw aan bij uw profiel voor PEI-ondersteuning.\n\nDaarnaast spreekt deze kandidaat vloeiend Nederlands en Engels, en is gewend te werken in technische omgevingen met hoge kwaliteitseisen.\n\nGraag vertel ik u meer in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 6,
+        "score": 82,
+        "reason": "Deze kandidaat werkt dagelijks met C#, .NET 8, SQL en JavaScript — exact de gevraagde kernstack van ScioTeq.",
+        "check": "l5",
+        "pitch": "Beste,\n\nIk zag uw openstaande vacature voor Engineer Software bij ScioTeq en neem even de vrijheid u te contacteren. Werkt u samen met externe consultants voor technische profielen?\n\nDeze kandidaat is een hands-on .NET-developer met bewezen ervaring in C#, .NET Core 8, SQL en JavaScript/TypeScript — precies de kernstack die u vraagt. In de huidige rol bij IQVIA worden productietools, reporting dashboards en portaalapplicaties gebouwd, wat sterk vergelijkbaar is met de database reporting en SPC-dashboards die ScioTeq vereist. Azure DevOps, Entity Framework en unit testing zijn dagelijkse praktijk.\n\nDe achtergrond in gereguleerde omgevingen (life sciences/farma) getuigt van een kwaliteitsgedreven aanpak die aansluit bij uw quality system-vereisten. Communicatie in Nederlands én Engels is geen probleem.\n\nMag ik u bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 73,
+        "score": 57,
+        "reason": "Deze kandidaat heeft .NET/C#-achtergrond én werkte bij Barco, een directe sectorgenoot van ScioTeq in visualisatietechnologie.",
+        "check": "w7"
+      }
+    ]
+  },
+  {
+    "title": "Lead AI Delivery Engineer",
+    "url": "https://jobs.symphonyai.com/jobs/3118?lang=en-us",
+    "company": "SymphonyAI NetReveal Belgium",
+    "source": "https://jobs.symphonyai.com/jobs",
+    "first_seen": "2026-07-28",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare LLM fine-tuning, AI-engineering en software-architectuurervaring in productieomgevingen.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Lead AI Delivery Engineer bij SymphonyAI NetReveal. Werkt u hiervoor samen met externe consultants?\n\nDeze kandidaat heeft 11 jaar ervaring en combineert hands-on AI-engineering met sterke delivery-competenties. Bij Foliant werkt deze kandidaat actief aan LLM fine-tuning (Axolotl, Ollama) en bouwde een AWS data lake met timeseries- en geospatiale data — technologieën die rechtstreeks aansluiten bij SymphonyAI's AI SaaS-platform. Bij AWV droeg deze kandidaat als software-architect de adoptie van lokaal gehoste LLM's voor NLP, wat de brug slaat naar uw financieel-criminaliteitsdomein. Eerder werkte deze kandidaat bij INTIX aan financiële transactiezoekopdrachten met Java, Kafka en Solr — domeinervaring die relevant is voor NetReveal's fraud- en compliance-oplossingen.\n\nDeze breedte van AI-engineering én deliveryervaring in productie maakt deze kandidaat sterk voor een leidende rol.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 40,
+        "score": 72,
+        "reason": "Deze kandidaat leidde end-to-end delivery van enterprise SaaS-platformen met teams tot 12 developers en volledige stakeholdermanagement.",
+        "check": "a6"
+      },
+      {
+        "row": 47,
+        "score": 65,
+        "reason": "Deze kandidaat leidde complexe delivery-trajecten tot 25M EUR met agile governance, maar mist technische AI- of data-engineering achtergrond.",
+        "check": "p22"
+      }
+    ]
+  },
+  {
+    "title": "Senior Software Engineer (platform focus)",
+    "url": "https://job-boards.eu.greenhouse.io/yuso/jobs/4939638101",
+    "company": "YUSO",
+    "source": "https://yuso.com/nl/vacatures",
+    "first_seen": "2026-07-28",
+    "stack": [
+      "python",
+      "aws",
+      "aws cdk",
+      "kafka",
+      "kinesis",
+      "spark"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 88,
+        "reason": "Deze kandidaat bouwde Kafka Streams, Spark, Flink en Airflow pipelines op AWS met Terraform — exact de gevraagde streaming- en IaC-stack.",
+        "check": "a8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de openstaande rol Senior Software Engineer (platform focus) bij YUSO, en vroeg me af of jullie samenwerken met externe consultants voor deze positie.\n\nDeze kandidaat heeft 8 jaar concrete ervaring met precies de stack die YUSO zoekt: Kafka, Kafka Streams, Flink, Spark en Airflow voor real-time en event-driven pipelines, volledig op AWS met Terraform als Infrastructure as Code. Bij DPG Media migreerde deze kandidaat legacy Spark batch-jobs naar event-driven Kafka Streams in Scala voor real-time user-profiling — een opdracht die sterk lijkt op het telemetrie-migratietraject dat YUSO beschrijft. De AWS-infrastructuur werd beheerd via Terraform op EKS met ArgoCD en CI/CD-automation, wat aansluit bij de productie-grade platformvereisten. Bovendien is deze kandidaat DDD- en data-mesh-minded, wat perfect past bij de samenwerking met de Lead Data Engineer en de quants.\n\nIk stel graag een kort gesprekje voor om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 42,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 17 jaar ervaring met Kafka-streaming, Databricks/PySpark en CI/CD inclusief automated testing en production monitoring op AWS.",
+        "check": "b17",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature Senior Software Engineer (platform focus) bij YUSO wou ik peilen of jullie openstaan voor externe profielen.\n\nDeze kandidaat heeft 17 jaar data- en software-engineeringervaring, waarvan de recente jaren bij Nike gebouwd rond Kafka-streaming voor inventory- en orderfeeds, PySpark-pipelines op Databricks met geautomatiseerde validatie, en CI/CD met geautomatiseerde testing — allemaal in een AWS-context. De sterke observability-aanpak via Splunk, SLA-monitoring en production incident resolution sluit direct aan op YUSO's vraag om het platform productie-ready te maken. Eerder bij Cognizant leidde deze kandidaat een volledige Snowflake-migratie inclusief data governance en self-service analytics, wat aantoont dat hij/zij end-to-end platformverantwoordelijkheid aankan. De combinatie van streaming, DataOps en mentoring maakt dit een geloofwaardig senior profiel.\n\nZin in een korte call om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 35,
+        "score": 62,
+        "reason": "Deze kandidaat heeft bewezen Kafka-ervaring met Avro en event-driven microservices, maar mist directe streaming-platform- en AWS IaC-achtergrond.",
+        "check": "e6"
+      }
+    ]
+  },
+  {
+    "title": "Cross-platform mobile full stack developer .NET (medior)",
+    "url": "https://www.vdk.be/nl/overzicht-vacatures/cross-platform-mobile-full-stack-developer-net-medior",
+    "company": "vdk bank",
+    "source": "https://www.vdk.be/nl/particulieren/werken-bij-vdk-bank",
+    "first_seen": "2026-07-28",
+    "stack": [
+      ".NET MAUI",
+      ".NET 8",
+      ".NET Core",
+      ".NET Framework 4.8",
+      "MVVM",
+      "Dependency injection",
+      "jQuery",
+      "jQuery UI",
+      "HTML5",
+      "CSS3"
+    ],
+    "experience": "3-5 yrs",
+    "ai_matches": [
+      {
+        "row": 63,
+        "score": 91,
+        "reason": "Deze kandidaat heeft aantoonbare .NET MAUI-ervaring (Xamarin-migratie) én bouwde mobiele apps voor treindiensten met .NET 8 backends.",
+        "check": "k19",
+        "pitch": "Beste,\n\nVdk bank is op zoek naar een cross-platform mobile full-stack .NET developer — werkt u ook met externe consultants voor zulke profielen?\n\nWe hebben een freelance .NET-specialist met 19 jaar ervaring die uitzonderlijk goed aansluit op uw vacature. Deze kandidaat heeft rechtstreekse .NET MAUI-ervaring opgedaan via een Xamarin-naar-MAUI-migratieplanning én bouwde eerder volledige Xamarin full-stack mobiele apps voor nieuwsmerken (10+ apps). Voor NMBS/Ypto ontwikkelde deze kandidaat een mission-critical backend in .NET Core/.NET 8 voor een mobiele treinpersoneelsapp — precies het type mobile + backend combinatie dat vdk bank zoekt. Daarnaast is er sterke TDD-discipline, CQRS/Clean Architecture en ervaring met beveiligde enterprise-integraties. De financiële sector en gereguleerde omgevingen zijn vertrouwd terrein.\n\nKort overleg om dit verder te bespreken? Ik plan graag een call op een moment dat u past.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 13,
+        "score": 76,
+        "reason": "Deze kandidaat bouwde cross-platform mobiele apps met Ionic en Flutter én .NET/Angular backends voor Vlaamse KMO's.",
+        "check": "y5",
+        "pitch": "Beste,\n\nVoor de open positie van cross-platform mobile full-stack .NET developer bij vdk bank — werkt u samen met externe consultants?\n\nDeze kandidaat heeft 5 jaar freelance-ervaring en leverde meerdere cross-platform mobiele trajecten op: een Ionic-app voor chauffeurs in een logistiek platform (.NET + Angular backend) en een Flutter-mobiele app bij een cloudmigratie voor 5.000+ klanten. De combinatie van .NET backend, Angular frontend én mobiele development in één profiel is zeldzaam. Ervaring met Azure Functions, CI/CD, Docker en geautomatiseerde workflows sluit bovendien aan op uw toekomstige projecten. De kandidaat werkt voor Vlaamse bedrijven en begrijpt de lokale markt goed.\n\nZin in een korte call om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 6,
+        "score": 62,
+        "reason": "Deze kandidaat werkt actief met .NET Core 8, Angular 18 en unit testing, maar heeft geen zichtbare mobiele ontwikkelervaring.",
+        "check": "l5"
+      }
+    ]
+  },
+  {
+    "title": "IT project manager",
+    "url": "https://www.vdk.be/nl/overzicht-vacatures/it-project-manager",
+    "company": "vdk bank",
+    "source": "https://www.vdk.be/nl/particulieren/werken-bij-vdk-bank",
+    "first_seen": "2026-07-28",
+    "stack": [
+      ".NET",
+      "Visual Studio",
+      "SQL Server"
+    ],
+    "experience": "3+ yrs",
+    "ai_matches": [
+      {
+        "row": 37,
+        "score": 78,
+        "reason": "Deze kandidaat leidde complexe IT-programma's in de financieel-sociale sector met budget- en scopebeheer, stakeholdermanagement en steerco-rapportage.",
+        "check": "n15",
+        "pitch": "Beste,\n\nVdk bank is op zoek naar een IT project manager met ervaring in een gereguleerde omgeving — werkt u hiervoor ook samen met externe consultants?\n\nDeze kandidaat beschikt over 15 jaar ervaring in programma- en projectmanagement, inclusief budgetbewaking, scopebeheer en rapportage naar stuurcomités — exact wat vdk bank vraagt. Als program manager bij LCM leidde deze kandidaat het Open Zorg-platform (SaaS-transitie voor mutualities), met coördinatie over infra-, DBA-, middleware- en clientteams. De ervaring in een sterk gereguleerde, financieel-administratieve omgeving sluit nauw aan bij de bancaire context van vdk. Stakeholdermanagement op zowel functioneel als conceptueel niveau, change management en aftercare-structuren zijn bewezen competenties. Als Product Owner bij CM toont deze kandidaat ook de brug tussen business en IT.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 47,
+        "score": 75,
+        "reason": "Deze kandidaat beheerde projecten van 25M+ EUR met volledige stakeholder- en scope-opvolging in complexe, gereguleerde omgevingen.",
+        "check": "p22",
+        "pitch": "Beste,\n\nVdk bank zoekt een IT project manager met stevige ervaring in gestructureerde projectopvolging — werkt u daarvoor ook met externe profielen?\n\nDeze kandidaat heeft 22 jaar brede ICT-ervaring en leidde recent een businesskritisch project van meer dan 25 miljoen EUR bij Luminus, inclusief data-uitwisselingen met Elia. De combinatie van end-to-end projectmanagement, stuurcomité-rapportage, budgetbewaking en people management van 15 directe rapporten toont het gewenste senioriteitsniveau. De brug tussen business en IT-teams, alsook ervaring als Scrum Master, PO en agile coach, maken deze kandidaat tot een sterke schakelrol — precies wat vdk bank omschrijft. Beschikbaar als freelancer of vast, met een masterdiploma Toegepaste Economie (KU Leuven) en drietaligheid als extra troeven.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 3,
+        "score": 62,
+        "reason": "Deze kandidaat heeft brede IT-projectmanagementervaring inclusief een achtergrond bij Banksys/Atos Worldline in de betalingssector.",
+        "check": "g20"
+      }
+    ]
+  },
+  {
+    "title": "Hybride (Sint-Andries) Medior .NET Developer bekijk vacature",
+    "url": "https://jobs.711.nl/nl/medior-net-developer",
+    "company": "711",
+    "source": "https://jobs.711.nl/nl",
+    "first_seen": "2026-07-28",
+    "stack": [
+      ".NET",
+      "C#",
+      "ASP.NET Core",
+      "Web API",
+      "SignalR",
+      "Entity Framework Core",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "Azure DevOps"
+    ],
+    "experience": "2-5 yrs",
+    "ai_matches": [
+      {
+        "row": 6,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 5 jaar .NET/C# ervaring met ASP.NET Core, EF, Azure DevOps en CI/CD in productieomgevingen.",
+        "check": "l5",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie vacature voor een Medior .NET Developer bij 711 — werken jullie ook samen met externe consultants?\n\nIk heb een interessante kandidaat voor u: deze kandidaat heeft 5 jaar hands-on ervaring als .NET Developer met C#, ASP.NET Core (.NET 8), Entity Framework en Azure DevOps — exact de stack die 711 hanteert. In de huidige opdracht bij IQVIA bouwt deze kandidaat productieapplicaties in .NET Core 8 met Angular, inclusief authenticatie-integraties en tool-automatisatie. Azure DevOps en CI/CD-pipelines maken deel uit van de dagelijkse werkpraktijk. Het profiel is pragmatisch, sterk in backend-businesslogica en klaar om de DevOps-component (20%) op te nemen zoals jullie vacature vraagt.\n\nMag ik een kort gesprekje inplannen om dit concreet te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 26,
+        "score": 75,
+        "reason": "Deze kandidaat bouwde modulaire Azure-integratie-frameworks en beheerst .NET Core, Docker, CI/CD en CQRS hands-on.",
+        "check": "r4",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie zoektocht naar een Medior .NET Developer bij 711 — werken jullie ook met externe consultants?\n\nDeze kandidaat heeft 4 jaar freelance ervaring als Full Stack .NET Developer met een sterke focus op ASP.NET Core, C#, Docker, CI/CD en Azure-integraties — stuk voor stuk technologieën die centraal staan in jullie Power Gaming-stack. Bij BrainSolutions architecteerde deze kandidaat een modulair integratieframework en werkte aan langlopende, security-kritische projecten. Docker en Linux-first workflows zijn dagelijkse praktijk. Bovendien trekt deze kandidaat interne kennisdelingen rond moderne tooling, wat perfect aansluit bij jullie cultuur van ownership en continuous improvement.\n\nZin om dit kort te bespreken via een call?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 38,
+        "score": 68,
+        "reason": "Deze kandidaat heeft 14 jaar C#/.NET ervaring en bouwt actief REST APIs met PostgreSQL en gestructureerde testomgevingen.",
+        "check": "k14"
+      }
+    ]
+  },
+  {
+    "title": "IT Product Expert for PLM & CAD (m/w/*)",
+    "url": "https://jobs.primetals.com/Job/263856",
+    "company": "Primetals Technologies Belgium",
+    "source": "https://jobs.primetals.com/Jobs",
+    "first_seen": "2026-07-28",
+    "stack": [
+      "SAP PLM Engineering Control Center ECTR",
+      "NX Siemens",
+      "3D CAD"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 45,
+        "score": 52,
+        "reason": "Deze kandidaat heeft diepgaande ervaring met data governance, MDM en product lifecycle in manufacturing, maar mist concrete PLM/CAD- en NX Siemens-kennis.",
+        "check": "p13"
+      },
+      {
+        "row": 31,
+        "score": 38,
+        "reason": "Deze kandidaat heeft supply chain en ERP-ervaring in manufacturing, maar heeft geen aantoonbare PLM-, CAD- of NX Siemens-achtergrond.",
+        "check": "n15"
+      },
+      {
+        "row": 15,
+        "score": 32,
+        "reason": "Deze kandidaat heeft een technische analistenachtergrond in manufacturing, maar heeft geen ervaring met PLM-systemen, SAP ECTR of 3D CAD.",
+        "check": "d20"
+      }
+    ]
+  },
+  {
+    "title": "(Software-)Developer for digital automation Solutions (m/f/*)",
+    "url": "https://jobs.primetals.com/Job/269672",
+    "company": "Primetals Technologies Belgium",
+    "source": "https://jobs.primetals.com/Jobs",
+    "first_seen": "2026-07-28",
+    "stack": [
+      "C++",
+      "OOP"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 20,
+        "score": 72,
+        "reason": "Deze kandidaat heeft directe ervaring met ERP-ontwikkeling voor een internationale staalconstructeur en industriële telecommonitoring met WPF, C# en testautomatisering.",
+        "check": "j8",
+        "pitch": "Beste,\n\nWe zagen uw vacature voor een Software Developer bij Primetals Technologies en vroegen ons af of u samenwerkt met externe consultants voor dit type profielen.\n\nWe hebben een Senior .NET Developer die sterk aansluit bij uw zoekprofiel. Deze kandidaat werkt momenteel aan ERP-ontwikkeling voor een internationale staalconstructeur (offshore wind), exact de heavy industry context die Primetals ademt. Daarvoor ontwikkelde deze kandidaat industriële netwerk-monitoringsoftware bij Belden (TXCare), met focus op performance, WCF-architectuur en uitgebreide testdekking — signalen van technische ownership die u zoekt.\n\nC#, WPF, MVVM en sterke testdiscipline zijn bewezen in productieomgevingen. De combinatie van desktop-heavy industriële applicaties en Blazor/webontwikkeling maakt deze kandidaat veelzijdig inzetbaar binnen uw EA ID SE-team.\n\nMag ik een kort gesprek inplannen om te kijken of dit past?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat heeft embedded Java-ervaring voor EV-chargers en geautomatiseerde testsystemen (Python, C, Linux) bij Barco, wat gedeeltelijk aansluit bij sensor- en automatiseringscontext.",
+        "check": "l7"
+      },
+      {
+        "row": 13,
+        "score": 38,
+        "reason": "Deze kandidaat bouwde een logistiek platform voor een bouwbedrijf (.NET, Angular, Electron/Ionic) en heeft enige industriële domeinnabijheid via Staalbeton, maar mist C++ en automatiseringskennis.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
     "title": "Junior Software Engineer Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/5598974-junior-software-engineer",
     "company": "Qargo",
