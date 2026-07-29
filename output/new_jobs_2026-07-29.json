@@ -1,0 +1,708 @@
+[
+  {
+    "title": "ICT toepassingsbeheerder Zoersel, België Bediende Afstandswerk mogelijk Lees verder",
+    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=398025&q=ICT-toepassingsbeheerder&api=false",
+    "company": "Emmaüs ICT",
+    "source": "https://ict-emmaus.cvw.io/?lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": "2+ yrs",
+    "contact": {
+      "name": "Patsy Luyten",
+      "email": "koen.verbeeck@emmaus.be"
+    },
+    "ai_matches": [
+      {
+        "row": 58,
+        "score": 28,
+        "reason": "Deze kandidaat heeft uitsluitend logistieke IT-ervaring en geen enkele aansluiting bij zorgapplicaties of toepassingsbeheer in een medische context.",
+        "check": "b10"
+      }
+    ]
+  },
+  {
+    "title": "Cyberweerbaarheid Specialist - ICT Mechelen, België Bediende Lees verder",
+    "url": "https://ict-emmaus.cvw.io/?lang=nl-BE&job=379228&q=Cyberweerbaarheid-Specialist-ICT&api=false",
+    "company": "Emmaüs ICT",
+    "source": "https://ict-emmaus.cvw.io/?lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": "2-5 yrs",
+    "contact": {
+      "name": "Marc Rosseau",
+      "email": "marc.rosseau@emmaus.be"
+    },
+    "ai_matches": [
+      {
+        "row": 57,
+        "score": 18,
+        "reason": "Deze kandidaat heeft een BI/data-achtergrond zonder aantoonbare cybersecurity-, risicobeheer- of compliance-ervaring.",
+        "check": "s6"
+      },
+      {
+        "row": 58,
+        "score": 12,
+        "reason": "Deze kandidaat heeft een sterke logistieke IT-achtergrond maar geen raakvlak met cybersecurity, NIS2 of informatiebeveiliging.",
+        "check": "b10"
+      }
+    ]
+  },
+  {
+    "title": "BUSINESS ANALYST SAP MM Hooglede-Gits, België Bediende",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=334476&q=BUSINESS-ANALYST-SAP-MM&api=false",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "werken@deceuninck.com"
+    },
+    "ai_matches": [
+      {
+        "row": 31,
+        "score": 52,
+        "reason": "Deze kandidaat heeft concrete supply chain en ERP-analysedervaring bij Ravago, inclusief inventory, WMS en logistieke compliance in een internationale productieomgeving.",
+        "check": "n15"
+      },
+      {
+        "row": 33,
+        "score": 45,
+        "reason": "Deze kandidaat heeft als functioneel analist een D365 F&O ERP-implementatie geleid bij Febelco, met migraties, API-integraties en functioneel-technisch ontwerp.",
+        "check": "r13"
+      },
+      {
+        "row": 4,
+        "score": 30,
+        "reason": "Deze kandidaat heeft business- en procesanalyse-ervaring in een industriële omgeving bij Atlas Copco Airpower Business IT, maar mist ERP- en SAP MM-achtergrond.",
+        "check": "n6"
+      }
+    ]
+  },
+  {
+    "title": "GenAI Engineer Hooglede-Gits, België Bediende",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=389596&q=GenAI-Engineer&api=false",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "werken@deceuninck.com"
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare LLM fine-tuning ervaring (Axolotl, Ollama, Claude Code) en dreef zelf LLM-adoptie bij een overheidsinstelling.",
+        "check": "w11",
+        "pitch": "Beste,\n\nU zoekt een GenAI Engineer bij Deceuninck — werkt u daarvoor samen met externe consultants?\n\nWij hebben een profiel dat sterk aansluit. Deze kandidaat is AI Engineer met 11 jaar ervaring en werkt momenteel aan LLM fine-tuning met Axolotl en Ollama, AWS data lakes (EC2/S3) en Claude Code. Bij AWV dreef hij als software-architect zelf de adoptie van een lokaal gehoste LLM voor NLP-toepassingen — precies het type GenAI-initiatieven dat Deceuninck wil realiseren.\n\nDarnaast beschikt deze kandidaat over een brede technische achtergrond in Python, Node.js, React, TypeScript en cloud (AWS), wat integratie met bestaande systemen vergemakkelijkt. De combinatie van hands-on AI-engineering én architecturaal denkvermogen maakt dit profiel uitzonderlijk sterk voor een industriële omgeving zoals de uwe.\n\nGraag plannen we een kort gesprek om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat heeft sterke Python- en SaaS-achtergrond maar geen aantoonbare GenAI- of LLM-ervaring in de historiek.",
+        "check": "l7"
+      },
+      {
+        "row": 29,
+        "score": 38,
+        "reason": "Deze kandidaat heeft data-engineering ervaring op Azure maar geen GenAI- of LLM-gerelateerde projecten in de historiek.",
+        "check": "b7"
+      }
+    ]
+  },
+  {
+    "title": "Senior Network Engineer Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=388028&q=Senior-Network-Engineer&api=false",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "werken@deceuninck.com"
+    },
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 88,
+        "reason": "Deze kandidaat heeft als KBC network engineer architecturale ervaring met Infoblox, Palo Alto, Check Point, F5 en Cisco — exact de gevraagde stack.",
+        "check": "l8",
+        "pitch": "Beste,\n\nWe zagen dat Deceuninck op zoek is naar een Senior Network Engineer in Hooglede-Gits. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWij stellen u graag deze kandidaat voor: een netwerkingenieur met 8 jaar hands-on ervaring bij KBC Group, waar hij/zij datacenter-netwerkinfrastructuur beheerde en architecturale keuzes maakte rond Infoblox DNS/DHCP/IPAM, Check Point- en Palo Alto-firewalls, Cisco (Legacy + ACI) en F5 load balancing — precies de technologieën die relevant zijn voor een complexe productieomgeving zoals die van Deceuninck.\n\nConcrete realisaties: volledig redundante Infoblox Anycast-implementatie voor België en Hongarije, DMZ-redesign en DNS Express-migratie. Daarnaast freelance actief in network security en monitoring (Kibana, NetScout). Ook sterk in kennisdeling en begeleiding van collega's.\n\nMag ik u even bellen voor een kort gesprek om dit profiel toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 76,
+        "score": 85,
+        "reason": "Deze kandidaat combineert bij KBC bewezen Cisco ACI, Infoblox, Check Point, Palo Alto en netwerk­automatisering met Ansible/Python — sterke match met de vacature.",
+        "check": "l8",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature Senior Network Engineer bij Deceuninck in Hooglede-Gits, wou ik u graag een uitstekend profiel voorstellen. Werkt Deceuninck samen met externe consultancypartners voor dit soort rollen?\n\nDeze kandidaat is actief bij KBC Group als datacenter network & security engineer en beheerst exact de technologieën die u zoekt: Cisco ACI leaf-spine fabric, Infoblox DNS/DHCP/IPAM, Check Point en Palo Alto firewalls, Cisco ISE voor netwerktoegangscontrole, en NetDevOps via Ansible, Python en Jenkins CI/CD. Bovendien beschikt deze kandidaat over Cisco DevNet Associate- en Check Point CCSA/CCSE-certificeringen — een solide technisch fundament.\n\nDe combinatie van security, automatisering en datacenter-architectuur maakt dit profiel bijzonder geschikt voor een internationale industriële omgeving zoals Deceuninck.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 72,
+        "reason": "Deze kandidaat leidde een SD-WAN-uitrol (HPE Aruba EdgeConnect) over ~280 sites met LAN/WAN/WiFi/VoIP-beheer en leveranciersbeheer bij Telenet en Proximus.",
+        "check": "k28"
+      }
+    ]
+  },
+  {
+    "title": "Senior Network Engineer Hooglede-Gits, België Bediende Gedeeltelijk afstandswerk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=331935&q=Senior-Network-Engineer&api=false",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "werken@deceuninck.com"
+    },
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 88,
+        "reason": "Deze kandidaat heeft bij KBC als Infoblox DNS/DHCP/IPAM-expert architecturale ontwerpen en datacenternetwerken (Checkpoint, Palo Alto, Cisco, F5) beheerd.",
+        "check": "l8",
+        "pitch": "Beste,\n\nWe lezen dat Deceuninck op zoek is naar een Senior Network Engineer. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWe hebben een uitzonderlijk sterke kandidaat beschikbaar die naadloos aansluit op uw vacature. Deze kandidaat werkte jarenlang bij KBC Group als datacenter network/system engineer met diepgaande expertise in precies de technologieën die u zoekt: Infoblox DNS/DHCP/IPAM (inclusief architecturaal ontwerp en vendor management), Palo Alto en Check Point firewalls, Cisco (legacy én ACI), en F5 load balancing. Concrete projecten omvatten de volledige uitrol van Infoblox Anycast voor België en Hongarije, een DMZ-herarchitectuur en monitoring via Kibana en NetScout.\n\nBovendien heeft deze kandidaat bewezen kunnen mentoren en onboarden — waardevolle meerwaarde voor elk netwerkteam. De combinatie van hands-on technische diepgang én communicatieve sterktes maakt dit profiel uitzonderlijk veelzijdig.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 76,
+        "score": 85,
+        "reason": "Deze kandidaat beheert bij KBC datacenter-netwerken met Cisco ACI, Infoblox, Check Point, Palo Alto en NetDevOps-automatisering via Ansible/Python/Jenkins.",
+        "check": "l8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Senior Network Engineer bij Deceuninck wil ik u graag een sterk profiel voorstellen. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat is actief bij KBC als datacenter network & security engineer en beheerst exact de technologieën die voor uw rol relevant zijn: Cisco ACI leaf-spine architectuur, Check Point en Palo Alto firewalls, Infoblox DNS/DHCP/IPAM, en Cisco ISE voor netwerktoegangscontrole. Wat dit profiel onderscheidt is de sterke NetDevOps-aanpak: volledige Infrastructure-as-Code workflows via Ansible, Python en Jenkins CI/CD.\n\nDeze kandidaat beschikt over relevante certificeringen (Cisco DevNet Associate, Check Point CCSA/CCSE) en toont aantoonbare cross-team samenwerking in een grote internationale bankomgeving — vergelijkbaar met de schaal van Deceuninck.\n\nMag ik u kort bellen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 72,
+        "reason": "Deze kandidaat leidde een SD-WAN-uitrol over ~280 productiesites met Aruba, Cisco, VoIP en operator management bij een grote nutsbedrijf.",
+        "check": "k28"
+      }
+    ]
+  },
+  {
+    "title": "TECHNICAL SUPPORT ENGINEER Hooglede-Gits, België Bediende Afstandswerk mogelijk",
+    "url": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE&job=331013&q=TECHNICAL-SUPPORT-ENGINEER&api=false",
+    "company": "Deceuninck",
+    "source": "https://jobpage.cvwarehouse.com/?companyGuid=cb68e829-440c-495d-ba3d-68cf7aeb7f8a&lang=nl-BE",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "werken@deceuninck.com"
+    },
+    "ai_matches": [
+      {
+        "row": 46,
+        "score": 82,
+        "reason": "Deze kandidaat beheert LAN/WAN/WiFi-infrastructuur over ~280 productiesites en leidde een SD-WAN-uitrol bij een grote nutsmaatschappij.",
+        "check": "k28",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor Technical Support Engineer bij Deceuninck en vragen ons af of u ook samenwerkt met externe consultants. We hebben een kandidaat die naadloos aansluit bij uw noden.\n\nDeze kandidaat heeft bijna 30 jaar IT-ervaring en werkt momenteel als network support engineer bij een grote nutsmaatschappij, waar hij LAN/WAN, firewall, WiFi en monitoring beheert over ongeveer 280 productielocaties — een context die sterk lijkt op die van Deceuninck. Hij leidde een volledige SD-WAN-uitrol (HPE Aruba EdgeConnect), beheert telefonie via Teams, VoIP en Cisco Call Manager, en coördineert leveranciers zoals Telenet en Proximus. Zijn achtergrond combineert hands-on support met projectleiderschap en uitgebreide documentatievaardigheden.\n\nDeze kandidaat is vertrouwd met complexe, gedistribueerde omgevingen in een industriële setting — precies wat Deceuninck vraagt. Graag bellen we u even op om dit concreet toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 14,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 25 jaar hybride infra-ervaring met SCCM, RHEL, VMware en AWS, inclusief grote migratieprojecten bij J&J en DKV.",
+        "check": "d25",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Technical Support Engineer bij Deceuninck nemen we graag contact op. Werkt u ook samen met externe IT-consultants?\n\nDeze kandidaat beschikt over 25 jaar brede infrastructuurervaring: van Windows Server, Active Directory en SCCM tot RHEL, VMware, AWS en Ansible. Bij Johnson & Johnson beheerde hij jarenlang een grootschalige hybride omgeving met patch compliance, RHEL-upgrades en Kubernetes — in een internationale, multisite context vergelijkbaar met Deceuninck. Eerder bij DKV leidde hij een Exchange-migratie voor 800+ mailboxen en een volledige server/SAN/firewall-omgeving. Zijn profiel combineert solide hands-on support met infrastructuurautomatisering en cloud.\n\nDeze kandidaat brengt de technische breedte en senioriteit mee die een wereldspeler als Deceuninck nodig heeft. We plannen graag een kort gesprek om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 60,
+        "reason": "Deze kandidaat heeft sterke Linux/Ansible/RHEL-migratieervaring bij o.a. Orange Cyberdefense en FOD Justitie, relevant voor server- en infrastructuurbeheer.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "Technology & Analytics",
+    "url": "https://jobs.iqvia.com/en/technology-and-analytics",
+    "company": "IQVIA MedTech NV",
+    "source": "https://jobs.iqvia.com/en",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 66,
+        "score": 78,
+        "reason": "Deze kandidaat combineert Databricks, Azure, Python en ML/AI in een healthcare-logistiek domein dat nauw aansluit bij IQVIA's data- en analyticsfocus.",
+        "check": "j10",
+        "pitch": "Beste,\n\nIk neem contact met u op naar aanleiding van de Technology & Analytics vacatures bij IQVIA MedTech. Werkt u ook met externe consultants om uw team te versterken?\n\nDeze kandidaat is een ervaren Data & Analytics Lead met 10 jaar ervaring en een indrukwekkend trackrecord in precies de technologieën die IQVIA centraal stelt: Databricks, Azure, Python, data engineering en ML/AI-toepassingen. Bij Yusen Logistics Healthcare leidde deze kandidaat een internationaal team van 10 en bouwde een volledig governed Databricks lakehouse dat analytics, operaties én een commercieel BI SaaS-product aandrijft — sterk vergelijkbaar met IQVIA's schaalbare, AI-gedreven platformvisie.\n\nBovendien heeft deze kandidaat aantoonbare impact geleverd: 50% snellere data-refresh, 60% lagere Power BI-latentie en substantiële kostenreducties op Azure. De combinatie van data governance, product ownership en technisch leiderschap maakt dit een uitzonderlijk profiel voor uw omgeving.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 49,
+        "score": 58,
+        "reason": "Deze kandidaat toont brede Azure-, SaaS- en ISO 27001-ervaring met AI-workflows, maar mist diepgang in analytics, data engineering of life sciences.",
+        "check": "d12"
+      }
+    ]
+  },
+  {
+    "title": "IT Manager HQ Full-time, hq",
+    "url": "https://www.yust.com/jobs/it-manager/",
+    "company": "YUST Housing Brussels",
+    "source": "https://www.yust.com/jobs/",
+    "first_seen": "2026-07-29",
+    "stack": [
+      "MEWS PMS",
+      "POS",
+      "Microsoft 365",
+      "Azure",
+      "Exchange Online",
+      "Intune",
+      "SharePoint",
+      "LAN",
+      "Wi-Fi",
+      "VOIP"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 46,
+        "score": 72,
+        "reason": "Deze kandidaat heeft uitgebreide hands-on ervaring met LAN, WAN, WiFi, VoIP, Intune en netwerkinfrastructuur over honderden sites.",
+        "check": "k28",
+        "pitch": "Beste,\n\nWe zagen dat YUST op zoek is naar een IT Manager voor hun HQ in Brussel. Werkt u ook samen met externe consultants voor zulke profielen?\n\nDeze kandidaat is een doorgewinterde senior netwerkprofessional met meer dan 25 jaar ervaring, momenteel actief als network support engineer en project lead bij een grote Belgische infrastructuurspeler. Exact de technologieën die YUST vraagt komen sterk aan bod in de loopbaan: LAN/WAN-configuratie, WiFi (Aruba), VoIP (Teams, Cisco Call Manager), Intune en fysieke netwerkinfrastructuur. Als project lead rolde deze kandidaat SD-WAN uit over ~280 productiesites, inclusief leveranciersbeheer bij Telenet en Proximus.\n\nDe combinatie van technische diepgang, documentatiediscipline en team-lead ervaring maakt dit een profiel dat meteen zelfstandig kan opereren bij de uitrol van nieuwe YUST-locaties in Brussel, Utrecht en Keulen.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 3,
+        "score": 58,
+        "reason": "Deze kandidaat heeft als IT-projectlead bij Econocom nieuwe gebouwen opgezet (Daikin Gent & Polen) en ISO27001-compliance beheerd, relevant voor YUST's groeitraject.",
+        "check": "g20"
+      },
+      {
+        "row": 13,
+        "score": 42,
+        "reason": "Deze kandidaat heeft Power BI, Azure, SharePoint en cloudmigraties gebouwd voor KMO's, wat gedeeltelijk aansluit bij het data warehouse- en Microsoft 365-luik van de vacature.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "Softwaredeveloper 1 open positie Wilrijk , België",
+    "url": "https://www.poweredbyzeno.be/jobs/softwaredeveloper-6",
+    "company": "Zeno Charged",
+    "source": "https://www.poweredbyzeno.be/jobs",
+    "first_seen": "2026-07-29",
+    "stack": [
+      "Python",
+      "Django",
+      "IOT"
+    ],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "info@poweredbyzeno.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 88,
+        "reason": "Deze kandidaat heeft directe EV-charger ervaring bij Enovates met OCPP en load balancing, plus Python en CRM-ontwikkeling.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een softwaredeveloper bij Zeno Charged en vroeg me af of jullie samenwerken met externe consultants. Ik heb een kandidaat die ik graag even onder jullie aandacht breng.\n\nDeze kandidaat heeft recentelijk bij Enovates gewerkt aan embedded Java voor EV-laadstations, inclusief een distributed load balancing algoritme en OCPP 2.01 implementatie — exact het domein waarin Zeno actief is. Daarnaast heeft deze kandidaat sterke Python-kennis (o.a. bij Barco voor geautomatiseerde testsystemen) en bewees zich als co-founder van een SaaS-platform waarbij volledige architectuur, DevOps en hosting zelfstandig werden opgezet.\n\nBij NSX werd bovendien een CRM-omgeving gebouwd in Angular — rechtstreeks aansluitend op de CRM-uitbouw die Zeno vraagt. De combinatie van e-mobility domeinkennis, Python en SaaS-bouwervaring maakt deze kandidaat uitzonderlijk sterk voor jullie rol.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 1,
+        "score": 79,
+        "reason": "Deze kandidaat combineert AI/LLM-engineering met Python, data-analyse en timeseries-verwerking, inclusief AWS data lake ervaring.",
+        "check": "w11",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een softwaredeveloper bij Zeno Charged — gericht op IOT, data-analyse en AI — wou ik even polsen of jullie openstaan voor externe profielen.\n\nDeze kandidaat is een ervaren AI Engineer met ruime Python-expertise en bewezen ervaring in LLM fine-tuning, timeseries- en geospatiale dataverwerking via een AWS data lake. Bij AWV droeg deze kandidaat de adoptie van lokaal gehoste LLMs voor NLP-toepassingen en fungeerde als software-architect — een sterk signaal van zelfstandig en architecturaal denken.\n\nDe combinatie van AI-gedreven codering, data-analyse en brede backend-ervaring (Node, Java, Go) sluit nauw aan bij jullie ambitie rond Zeno Brain en energiemarktoptimalisatie. Kennis van Django ontbreekt, maar de Python-basis is diepgaand en de leercurve verwaarloosbaar.\n\nIk stel graag een kort kennismakingsgesprek voor. Wanneer heeft u een momentje?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 13,
+        "score": 62,
+        "reason": "Deze kandidaat werkte met Python, Azure Functions en dashboards voor KMO-klanten, met relevante full-stack en automatiseringsachtergrond.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "Belgium",
+    "url": "https://careers.creditsafe.com/be-nl/",
+    "company": "ALLEMEERSCH BTW-eenheid",
+    "source": "https://careers.creditsafe.com/",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "careers@creditsafe.be"
+    },
+    "ai_matches": [
+      {
+        "row": 49,
+        "score": 62,
+        "reason": "Deze kandidaat leidde ISO 27001, GDPR/NIS2 en SaaS-schaling bij B2B-bedrijven, relevant voor GraydonCreditsafe's data- en complianceomgeving.",
+        "check": "d12"
+      },
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Deze kandidaat bouwde een KMO-SaaS-platform en een privacy/GDPR-tool, wat raakvlakken heeft met Creditsafe's datadiensten.",
+        "check": "l7"
+      },
+      {
+        "row": 42,
+        "score": 35,
+        "reason": "Deze kandidaat heeft 17 jaar data-engineering ervaring met sterke DataOps en datakwaliteitsprocessen, relevant voor een datagerichte organisatie.",
+        "check": "b17"
+      }
+    ]
+  },
+  {
+    "title": "IT Hulp op afstand",
+    "url": "https://www.royal-aware.com/nl/it-hulp-op-afstand.html",
+    "company": "A-ware Milk Processing Belgium",
+    "source": "https://www.royal-aware.com/nl/",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 14,
+        "score": 18,
+        "reason": "Deze kandidaat heeft infrastructuurervaring maar de vacature betreft enkel een TeamViewer remote-support downloadpagina zonder IT-rol.",
+        "check": "d25"
+      },
+      {
+        "row": 0,
+        "score": 12,
+        "reason": "Deze kandidaat is Java/SaaS-ontwikkelaar; de vacature is een statische TeamViewer-downloadpagina zonder concrete IT-vacature.",
+        "check": "l7"
+      },
+      {
+        "row": 49,
+        "score": 10,
+        "reason": "Deze kandidaat heeft CTO-profiel; de 'vacature' is slechts een interne TeamViewer remote support downloadpagina, geen echte rol.",
+        "check": "d12"
+      }
+    ]
+  },
+  {
+    "title": "PROJECTARCHITECT",
+    "url": "https://www.architectenjobs.be/vacature/projectarchitect-19/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": "3-10 yrs",
+    "contact": {
+      "name": null,
+      "email": "l.tanghe@architectdugardyn.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 15,
+        "reason": "Deze kandidaat is software engineer in Java/Python zonder enige ervaring in architectuur, renovatie of bouwprojecten.",
+        "check": "l7"
+      },
+      {
+        "row": 7,
+        "score": 12,
+        "reason": "Deze kandidaat is frontend developer/UX designer zonder achtergrond in architectuur of de bouwsector.",
+        "check": "g11"
+      },
+      {
+        "row": 14,
+        "score": 10,
+        "reason": "Deze kandidaat is cloud/infra engineer zonder enige relevante ervaring in architectuur of bouwprojecten.",
+        "check": "d25"
+      }
+    ]
+  },
+  {
+    "title": "projectarchitect",
+    "url": "https://www.architectenjobs.be/vacature/projectarchitect-20/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-07-29",
+    "stack": [
+      "Vectorworks",
+      "Adobe"
+    ],
+    "experience": "2-5 yrs",
+    "contact": {
+      "name": "Domien",
+      "email": "domien@polygoon.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 10,
+        "reason": "Deze kandidaat is een Java/software-engineer zonder enige architecturale of bouwtechnische achtergrond relevant voor dit architectenbureau.",
+        "check": "l7"
+      },
+      {
+        "row": 7,
+        "score": 8,
+        "reason": "Deze kandidaat heeft uitsluitend een IT/frontend-achtergrond en geen relevante ervaring als architect in de bouwsector.",
+        "check": "g11"
+      },
+      {
+        "row": 14,
+        "score": 5,
+        "reason": "Deze kandidaat is een cloud/infra-engineer en heeft geen enkele aansluiting bij architectuur of bouwprojecten.",
+        "check": "d25"
+      }
+    ]
+  },
+  {
+    "title": "Alle locaties",
+    "url": "https://renovatiewerkengids.be/locaties/",
+    "company": "T AKSENT",
+    "source": "https://renovatiewerkengids.be/",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 56,
+        "score": 18,
+        "reason": "Deze kandidaat is .NET-architect met cloud- en automotive-ervaring, niet een renovatiespecialist.",
+        "check": "m15"
+      },
+      {
+        "row": 0,
+        "score": 15,
+        "reason": "Deze kandidaat is Java/SaaS-ontwikkelaar zonder enige link met renovatiewerken of bouwsector.",
+        "check": "l7"
+      },
+      {
+        "row": 14,
+        "score": 12,
+        "reason": "Deze kandidaat is cloud/infra-engineer bij pharma en verzekeringen, geen renovatiedomein-match.",
+        "check": "d25"
+      }
+    ]
+  },
+  {
+    "title": "integration & prototyping",
+    "url": "https://www.ace.eu/nl-nl/integratie-prototyping",
+    "company": "A.C.E. Belgium",
+    "source": "https://www.ace.eu/nl-nl",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "info@ace.eu"
+    },
+    "ai_matches": [
+      {
+        "row": 56,
+        "score": 72,
+        "reason": "Deze kandidaat ontwierp cloudarchitectuur voor MAN Trucks Belgium en werkt actief in automotive & mobility met multidisciplinaire technische integratie.",
+        "check": "m15",
+        "pitch": "Beste,\n\nWe lazen met interesse over de integration & prototyping dienstverlening van ACE Belgium. Werkt u ook samen met externe consultants voor technische versterking?\n\nWe hebben een .NET & Azure Cloud Architect in portefeuille met 15 jaar ervaring in multidisciplinaire productontwikkeling en systeemintegratie — precies wat ACE dagelijks doet. Deze kandidaat ontwierp recent de volledige cloudarchitectuur voor MAN Trucks Belgium (MANSIS-platform): SAP-koppeling, CRM-integratie, .NET Aspire, Azure Container Apps en Service Bus. Automotive & mobility is dus een vertrouwd domein.\n\nDaarnaast begeleidt deze kandidaat teams actief via Event Storming, DDD en Vertical Slice Architecture — sterk voor multidisciplinaire co-development omgevingen zoals die van ACE. Ervaring met IaC (Bicep/Terraform), cloud security en NIS2 maakt deze kandidaat ook breed inzetbaar in complexe klantprojecten.\n\nMag ik een kort gesprek inplannen om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 28,
+        "score": 62,
+        "reason": "Deze kandidaat deed bij imec digital-twin prototyping en heeft een sterke achtergrond in technische integratie van data-gedreven systemen.",
+        "check": "a8"
+      },
+      {
+        "row": 63,
+        "score": 58,
+        "reason": "Deze kandidaat bouwde een mission-critical integratiebrug tussen Infrabel en NMBS met enterprise messaging en moderne .NET-architectuur op Kubernetes.",
+        "check": "k19"
+      }
+    ]
+  },
+  {
+    "title": "Project Architect",
+    "url": "https://www.architectenjobs.be/vacature/project-architect-8/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-07-29",
+    "stack": [
+      "Revit"
+    ],
+    "experience": "5+ yrs",
+    "contact": {
+      "name": null,
+      "email": "noord@archi2000.be"
+    },
+    "ai_matches": [
+      {
+        "row": 56,
+        "score": 18,
+        "reason": "Deze kandidaat is .NET/Azure cloud architect zonder enige ervaring in architectuur, BIM of residentiële bouw.",
+        "check": "m15"
+      },
+      {
+        "row": 57,
+        "score": 12,
+        "reason": "Deze kandidaat is BI/data specialist zonder architecturale of bouwkundige achtergrond.",
+        "check": "s6"
+      },
+      {
+        "row": 69,
+        "score": 10,
+        "reason": "Deze kandidaat is IT project manager met SAP-focus, volledig buiten de bouwsector.",
+        "check": "d26"
+      }
+    ]
+  },
+  {
+    "title": "Test Analyst",
+    "url": "https://www.stepstone.be/jobs--Test-Analyst-Antwerpen-VANBREDA-RISK-BENEFITS--2230590-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 22,
+        "score": 79,
+        "reason": "Deze kandidaat combineerde test coördinator bij Katoen Natie met uitgebreide UAT- en analyse-ervaring bij Crelan en Telenet.",
+        "check": "b10",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor een Test Analyst bij 't Soetekint - de Levensboom met veel interesse. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nWe hebben een sterke kandidaat die wij graag aan u voorstellen. Deze kandidaat combineert 10 jaar ervaring in functionele analyse, testen en agile werken. Bij Katoen Natie vervulde deze kandidaat expliciet de rol van test coördinator, aangevuld met Scrum Master verantwoordelijkheden. Bij Crelan werd complexe migratieanalyse (AXA naar Crelan) en omnichannel dataflow-analyse uitgevoerd, steeds met aandacht voor kwaliteitsborging en UAT. De brede sectorervaring — banking, telecom, gaming — toont aanpassingsvermogen, terwijl de agile en stakeholdermanagement-skills naadloos aansluiten op een omgeving zoals de uwe. Functionele analyse én testen zitten volledig verweven in het profiel.\n\nGraag plannen we een kort gesprek om toe te lichten waarom deze kandidaat een directe meerwaarde kan bieden. Met vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 72,
+        "reason": "Deze kandidaat faciliteerde herhaaldelijk UAT-trajecten bij Agentschap Overheidspersoneel en Baloise, met sterke BPMN- en requirementsachtergrond.",
+        "check": "c3"
+      },
+      {
+        "row": 12,
+        "score": 75,
+        "reason": "Deze kandidaat beschikt over 20 jaar ervaring met expliciete UAT, BPMN en complexe stakeholdermanagement in publieke sector en financiën.",
+        "check": "b20",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Test Analyst bij 't Soetekint - de Levensboom nemen we graag contact op. Werkt u ook met externe consultants voor dergelijke opdrachten?\n\nWij stellen u graag een uitzonderlijk ervaren kandidaat voor met 20 jaar track record in business- en functionele analyse, UAT en BPMN. Deze kandidaat werkte als senior functioneel analist bij Wonen in Vlaanderen (publieke sector) en bij Digitaal Vlaanderen, omgevingen die qua complexiteit en stakeholderdruk vergelijkbaar zijn met de zorgsector. UAT, end-to-end feature-validatie en het opstellen van heldere functionele specificaties zijn kernelementen doorheen de volledige carrière. De combinatie van publieke sector expertise, betaalplatformen en payroll-transformaties toont brede inhoudelijke diepgang en aanpassingsvermogen. Dit is een kandidaat die meteen meedraaiert en kwaliteit bewaakt van requirements tot oplevering.\n\nMag ik u bellen voor een kort kennismakingsgesprek? Met vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "projectarchitect",
+    "url": "https://www.architectenjobs.be/vacature/projectarchitect-9/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-07-29",
+    "stack": [
+      "CAD",
+      "BIM",
+      "Archicad",
+      "MS Office",
+      "Adobe"
+    ],
+    "experience": "4-5 yrs",
+    "contact": {
+      "name": "Bertie De Gauquier",
+      "email": "bertie.de.gauquier@dbv-architecten.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 8,
+        "reason": "Deze kandidaat heeft een IT-achtergrond zonder enige architectuur- of bouwervaring.",
+        "check": "l7"
+      },
+      {
+        "row": 7,
+        "score": 6,
+        "reason": "Deze kandidaat is frontend developer zonder relevante architectuurervaring in de bouwsector.",
+        "check": "g11"
+      },
+      {
+        "row": 14,
+        "score": 5,
+        "reason": "Deze kandidaat is cloud/IT-ingenieur zonder enige aansluiting bij architectuur of bouwprojecten.",
+        "check": "d25"
+      }
+    ]
+  },
+  {
+    "title": "vacature voor een ir-architect - stagiair ir-architect - architect-assistent",
+    "url": "https://www.architectenjobs.be/vacature/vacature-voor-een-ir-architect-stagiair-ir-architect-architect-assistent/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 56,
+        "score": 12,
+        "reason": "Deze kandidaat is een .NET/Azure cloud architect zonder enige achtergrond in bouwkunde of architectuur.",
+        "check": "m15"
+      },
+      {
+        "row": 75,
+        "score": 10,
+        "reason": "Deze kandidaat is een data/platform architect met IT-profiel, geen link met bouwtechniek of ir-architect.",
+        "check": "w20"
+      }
+    ]
+  },
+  {
+    "title": "Full-Stack .NET Developer",
+    "url": "https://www.stepstone.be/jobs--Full-Stack-NET-Developer-Kontich-HIFFERMAN--2233392-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-07-29",
+    "stack": [
+      ".NET 10",
+      "ASP.NET Core",
+      "C#",
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "DevExtreme",
+      "MySQL",
+      "EF Core",
+      "RabbitMQ"
+    ],
+    "experience": "5+ yrs",
+    "ai_matches": [
+      {
+        "row": 16,
+        "score": 92,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring inclusief .NET 10, ASP.NET Core, EF Core, NServiceBus, Angular 2-19 en Docker in productie.",
+        "check": "i26",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor een Full-Stack .NET Developer bij FAM STUMABO en vroegen ons af of u ook samenwerkt met externe consultants voor dit type profiel.\n\nWij stellen u graag deze kandidaat voor: een ervaren .NET-professional met meer dan 25 jaar hands-on expertise, actief tot .NET 10, ASP.NET Core, EF Core en Angular (tot versie 19). Wat deze kandidaat bijzonder maakt, is de combinatie van diepgaande messaging-ervaring via NServiceBus (vergelijkbaar met RabbitMQ/MassTransit) én een scherpe focus op clean architecture, CI/CD en containerisatie met Docker. Op het vlak van AI-tools is deze kandidaat eveneens actief bezig met Claude, Copilot en lokale LLMs — exact de mindset die u zoekt.\n\nDaarbovenop heeft deze kandidaat een bewezen track record als technisch lead en mentor, ideaal voor een rol waarbij architecturale vraagstukken zelfstandig worden opgenomen.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 21,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare RabbitMQ-, Kubernetes-, EF Core- en ASP.NET-ervaring in productie, inclusief distributed systems en technische analyse.",
+        "check": "n16",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Full-Stack .NET Developer bij FAM STUMABO wil ik u graag een sterk profiel voorstellen — mits u openstaat voor samenwerking met externe consultants.\n\nDeze kandidaat werkt al 16 jaar in .NET en heeft recent complexe cloud-native trajecten geleid: RabbitMQ, Kubernetes, EF Core, PostgreSQL en Azure Service Bus behoren tot het dagelijkse arsenaal. Bij een lopend project werd een legacy applicatie volledig herschreven naar een cloud-webapplicatie met CQRS, Kafka en Kubernetes — een aanpak die nauw aansluit bij uw eigen AKS- en MassTransit-omgeving. Technische analyse en teamlead-ervaring zijn aanwezig, wat waardevol is voor een eerste interne developer die zelfstandig architecturale beslissingen moet nemen.\n\nAngular is minder prominent in het profiel, maar de backend-diepgang en de messaging-expertise maken dit een overtuigend kandidaat voor uw stack.\n\nKort bellen om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 43,
+        "score": 76,
+        "reason": "Deze kandidaat heeft 8 jaar Angular/TypeScript- en .NET-ervaring met RxJS, NgRx, CQRS en AI-assisted workflows in productieprojecten.",
+        "check": "e8",
+        "pitch": "Beste,\n\nWe zagen uw vacature voor een Full-Stack .NET Developer bij FAM STUMABO en willen u graag een profiel voorstellen dat sterk aansluit op uw frontend-vereisten.\n\nDeze kandidaat heeft 8 jaar ervaring als Angular- en .NET-developer, met diepgaande kennis van TypeScript, RxJS en NgRx — precies de Angular-competenties die u als must-have omschrijft. Op de backend is er aantoonbare ervaring met ASP.NET Core, EF Core, CQRS/event sourcing en Azure, inclusief CI/CD en geautomatiseerd testen (Jest, Cypress, NUnit). AI-tools zoals Copilot en Claude worden actief ingezet in de dagelijkse workflow. Recente projecten bij onder meer Wit-Gele Kruis en CERM tonen aan dat deze kandidaat zelfstandig complexe features kan bouwen van analyse tot oplevering.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Expert IT Risk & Compliance",
+    "url": "https://www.stepstone.be/jobs--Expert-IT-Risk-Compliance-Livornostraat-25-1050-Landsbond-van-Liberale-Mutualiteiten-ZIEKTEVERZ-FONDS--2231597-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-07-29",
+    "stack": [],
+    "experience": "3-5 yrs",
+    "ai_matches": [
+      {
+        "row": 45,
+        "score": 22,
+        "reason": "Deze kandidaat heeft data governance-expertise maar geen aantoonbare IT Risk, DORA/NIS2 of compliance-ervaring.",
+        "check": "p13"
+      }
+    ]
+  }
+]
