@@ -21,7 +21,7 @@ export async function onRequestPost({ request, env }) {
   const domain = String(body.domain || "").trim().toLowerCase();
   if (!company && !domain) return json({ error: "geen bedrijf opgegeven" }, 400);
 
-  const cacheKey = "lusha:" + (domain || company.toLowerCase());
+  const cacheKey = "lusha2:" + (domain || company.toLowerCase());
   const cached = await env.WORKFLOW_KV.get(cacheKey);
   if (cached) return json({ ...JSON.parse(cached), cached: true });
 
@@ -70,21 +70,37 @@ export async function onRequestPost({ request, env }) {
   const byId = {};
   enriched.forEach((c) => { byId[c.contactId || c.contact_id || c.id] = c; });
 
+  const firstVal = (arr) => {
+    if (!Array.isArray(arr) || !arr.length) return null;
+    const x = arr[0];
+    if (typeof x === "string") return x;
+    return x.email || x.emailAddress || x.address || x.number ||
+           x.internationalNumber || x.localizedNumber || null;
+  };
   const contacts = picked.map((p) => {
-    const e = byId[p.id] || p.raw || {};
-    const emails = e.emailAddresses || e.email_addresses || e.emails || [];
-    const phones = e.phoneNumbers || e.phone_numbers || e.phones || [];
-    const first = (x) => (Array.isArray(x) && x.length ? (x[0].email || x[0].emailAddress || x[0].number || x[0].internationalNumber || x[0]) : null);
+    const outer = byId[p.id] || {};
+    const d = outer.data || outer;                       // Lusha nests fields under .data
+    const raw = p.raw || {};
+    const emails = d.emailAddresses || d.email_addresses || d.emails || [];
+    const phones = d.phoneNumbers || d.phone_numbers || d.phones || [];
     return {
-      name: e.name || [e.firstName || e.first_name, e.lastName || e.last_name].filter(Boolean).join(" ") || p.raw?.name || "Onbekend",
+      name: d.name || [d.firstName || d.first_name, d.lastName || d.last_name].filter(Boolean).join(" ")
+            || raw.name || [raw.firstName, raw.lastName].filter(Boolean).join(" ") || "Onbekend",
       title: p.title,
-      email: typeof first(emails) === "string" ? first(emails) : null,
-      phone: typeof first(phones) === "string" ? first(phones) : null,
+      email: firstVal(emails),
+      phone: firstVal(phones),
     };
   });
 
   const payload = { contacts, via };
-  await env.WORKFLOW_KV.put(cacheKey, JSON.stringify(payload), { expirationTtl: 60 * 60 * 24 * 30 });
+  const hasData = contacts.some((c) => c.email || c.phone);
+  if (!hasData && enriched.length) {
+    // toon een staaltje van Lusha's echte antwoord zodat we kunnen kalibreren
+    payload.debug = JSON.stringify(enriched[0]).slice(0, 700);
+  }
+  if (hasData) {
+    await env.WORKFLOW_KV.put(cacheKey, JSON.stringify(payload), { expirationTtl: 60 * 60 * 24 * 30 });
+  }
   return json(payload);
 }
 
