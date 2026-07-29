@@ -37,6 +37,7 @@ export async function onRequestPost({ request, env }) {
         title: String(body.title || prev.title || "").slice(0, 160),
         cand: String(body.cand || prev.cand || "").slice(0, 80),
         note: prev.note || "",
+        feedback: prev.feedback || "",
         at,
       };
     } else {
@@ -45,6 +46,10 @@ export async function onRequestPost({ request, env }) {
   } else if (body.action === "note" && body.key) {
     if (doc.interests[body.key]) {
       doc.interests[body.key].note = String(body.note || "").slice(0, 500);
+    }
+  } else if (body.action === "feedback" && body.key) {
+    if (doc.interests[body.key]) {
+      doc.interests[body.key].feedback = String(body.feedback || "").slice(0, 800);
     }
   } else if (body.action === "stage" && body.key && STAGES.includes(body.stage)) {
     if (doc.interests[body.key]) {
