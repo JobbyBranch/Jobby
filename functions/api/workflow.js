@@ -1,9 +1,3 @@
-// JobRadar team workflow API — Cloudflare Pages Function
-// Path in repo: functions/api/workflow.js
-// Storage: KV namespace bound as WORKFLOW_KV (Pages project → Settings → Bindings)
-// Security: lives on the same domain as the app, so Cloudflare Access
-// (the e-mail gate) protects it automatically — only the team can read/write.
-
 const KEY = "v1";
 
 async function readDoc(env) {
@@ -36,4 +30,21 @@ export async function onRequestPost({ request, env }) {
     if (body.status === "yes" || body.status === "no") {
       doc.interests[k] = { status: body.status, by: String(body.by || "?").slice(0, 40), at };
     } else {
-      delete doc.interests[k];   //
+      delete doc.interests[k];
+    }
+  } else if (body.action === "claim" && body.company) {
+    const k = String(body.company).slice(0, 120);
+    if (body.owner) {
+      doc.claims[k] = { owner: String(body.owner).slice(0, 40), at };
+    } else {
+      delete doc.claims[k];
+    }
+  } else {
+    return new Response(JSON.stringify({ error: "unknown action" }), { status: 400 });
+  }
+
+  await env.WORKFLOW_KV.put(KEY, JSON.stringify(doc));
+  return new Response(JSON.stringify(doc), {
+    headers: { "content-type": "application/json", "cache-control": "no-store" },
+  });
+}
