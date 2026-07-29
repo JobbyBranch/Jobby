@@ -42,6 +42,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).parent
 STATE_FILE = ROOT / "state" / "seen.json"
+META_FILE = ROOT / "state" / "meta.json"
 OUTPUT_DIR = ROOT / "output"
 TZ = ZoneInfo("Europe/Brussels")
 
@@ -902,6 +903,50 @@ def main() -> None:
             _render_pool().shutdown(wait=False)
         except Exception as e:
             print(f"(browser cleanup issue ignored: {e})")
+
+    # ── nieuwe kandidaten vs bestaande markt ─────────────────────────
+    # Wanneer de sheet nieuwe kandidaten bevat, herbeoordeel gericht de al
+    # bekende vacatures waar de nieuwkomer door de voorselectie komt — zo
+    # concurreert een nieuwe kandidaat meteen op de hele open voorraad.
+    try:
+        prev_names = set()
+        meta_exists = META_FILE.exists()
+        if meta_exists:
+            prev_names = set(json.loads(META_FILE.read_text(encoding="utf-8"))
+                             .get("candidate_names", []))
+        if candidates and meta_exists:
+            new_cands = [c for c in candidates if c["name"] not in prev_names]
+            if new_cands:
+                new_rows = {c["row"] for c in new_cands}
+                names = ", ".join(c["name"] for c in new_cands)
+                print(f"\n[rematch] nieuwe kandidaten gedetecteerd: {names}")
+                affected = []
+                for job in state.values():
+                    existing_rows = {m.get("row") for m in (job.get("ai_matches") or [])}
+                    if existing_rows & new_rows:
+                        continue  # nieuwkomer zit er al in
+                    shortlist_rows = {c["row"] for c in prefilter_candidates(job, candidates)}
+                    if shortlist_rows & new_rows:
+                        affected.append(job)
+                affected = affected[:150]  # veiligheidsplafond
+                print(f"[rematch] {len(affected)} bestaande vacatures worden herbeoordeeld")
+                done = 0
+                for job in affected:
+                    html2 = fetch(job["url"])
+                    if not html2:
+                        continue
+                    page_text = BeautifulSoup(html2, "html.parser").get_text(" ", strip=True)
+                    ai_match_job(job, page_text, candidates)
+                    done += 1
+                    time.sleep(0.3)
+                print(f"[rematch] klaar: {done} vacatures herbeoordeeld")
+        if candidates:
+            META_FILE.parent.mkdir(exist_ok=True)
+            META_FILE.write_text(json.dumps(
+                {"candidate_names": [c["name"] for c in candidates]},
+                ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        print(f"[rematch] overgeslagen door fout: {e}")
 
     save_state(state)
     write_outputs(state, new_jobs, now)
