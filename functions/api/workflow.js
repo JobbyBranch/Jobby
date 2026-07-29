@@ -36,10 +36,15 @@ export async function onRequestPost({ request, env }) {
         company: String(body.company || prev.company || "").slice(0, 120),
         title: String(body.title || prev.title || "").slice(0, 160),
         cand: String(body.cand || prev.cand || "").slice(0, 80),
+        note: prev.note || "",
         at,
       };
     } else {
       delete doc.interests[k];
+    }
+  } else if (body.action === "note" && body.key) {
+    if (doc.interests[body.key]) {
+      doc.interests[body.key].note = String(body.note || "").slice(0, 500);
     }
   } else if (body.action === "stage" && body.key && STAGES.includes(body.stage)) {
     if (doc.interests[body.key]) {
