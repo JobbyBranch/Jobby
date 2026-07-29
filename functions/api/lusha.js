@@ -51,11 +51,20 @@ export async function onRequestPost({ request, env }) {
     return json({ contacts: [], via: "alle zoekpogingen" });
   }
 
-  const ranked = found
+  const all = found
     .map((c) => ({ raw: c, title: c.jobTitle || c.job_title || "", id: c.contactId || c.contact_id || c.id }))
-    .filter((c) => c.id)
-    .sort((a, b) => (HM_TITLES.test(b.title) ? 1 : 0) - (HM_TITLES.test(a.title) ? 1 : 0));
-  const picked = ranked.slice(0, 5);
+    .filter((c) => c.id);
+  // quota: max 3 IT-profielen + max 2 HR-profielen; tekorten aangevuld met de rest
+  const IT_RE = /\b(it|ict|cto|cio|iam)\b|engineer|software|develop|infrastructure|technolog|digital|data|architect|devops|cyber|security/i;
+  const HR_RE = /recruit|talent|\bhr\b|human res|people|hiring|personeel/i;
+  const itPool = all.filter((c) => IT_RE.test(c.title));
+  const hrPool = all.filter((c) => !IT_RE.test(c.title) && HR_RE.test(c.title));
+  const rest = all.filter((c) => !itPool.includes(c) && !hrPool.includes(c));
+  const picked = [...itPool.slice(0, 3), ...hrPool.slice(0, 2)];
+  for (const c of [...itPool.slice(3), ...hrPool.slice(2), ...rest]) {
+    if (picked.length >= 5) break;
+    picked.push(c);
+  }
 
   const enrichRes = await fetch("https://api.lusha.com/prospecting/contact/enrich", {
     method: "POST",
@@ -79,7 +88,7 @@ export async function onRequestPost({ request, env }) {
   };
   const contacts = picked.map((p) => {
     const outer = byId[p.id] || {};
-    const d = outer.data || outer;                       // Lusha nests fields under .data
+    const d = outer.data || outer;                       // Lusha nest velden onder .data
     const raw = p.raw || {};
     const emails = d.emailAddresses || d.email_addresses || d.emails || [];
     const phones = d.phoneNumbers || d.phone_numbers || d.phones || [];
