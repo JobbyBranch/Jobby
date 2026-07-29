@@ -1,5 +1,15 @@
 const HM_TITLES = /recruit|talent|hr|human res|people|hiring|it manager|ict|cto|cio|engineering manager|head of (it|engineering|development|software)|team lead/i;
 
+async function lushaSearch(key, filters) {
+  const res = await fetch("https://api.lusha.com/prospecting/contact/search", {
+    method: "POST",
+    headers: { api_key: key, "content-type": "application/json" },
+    body: JSON.stringify({ pages: { page: 0, size: 40 }, filters }),
+  });
+  const data = await res.json().catch(() => ({}));
+  return { ok: res.ok, status: res.status, data };
+}
+
 export async function onRequestPost({ request, env }) {
   const key = env.LUSHA_API_KEY;
   if (!key) {
@@ -8,27 +18,38 @@ export async function onRequestPost({ request, env }) {
   let body;
   try { body = await request.json(); } catch { return json({ error: "invalid json" }, 400); }
   const company = String(body.company || "").trim();
-  if (!company) return json({ error: "geen bedrijf opgegeven" }, 400);
+  const domain = String(body.domain || "").trim().toLowerCase();
+  if (!company && !domain) return json({ error: "geen bedrijf opgegeven" }, 400);
 
-  const cacheKey = "lusha:" + company.toLowerCase();
+  const cacheKey = "lusha:" + (domain || company.toLowerCase());
   const cached = await env.WORKFLOW_KV.get(cacheKey);
-  if (cached) return json({ contacts: JSON.parse(cached), cached: true });
+  if (cached) return json({ ...JSON.parse(cached), cached: true });
 
-  const searchRes = await fetch("https://api.lusha.com/prospecting/contact/search", {
-    method: "POST",
-    headers: { api_key: key, "content-type": "application/json" },
-    body: JSON.stringify({
-      pages: { page: 0, size: 25 },
-      filters: { companies: { include: { names: [company] } } },
-    }),
-  });
-  const searchData = await searchRes.json().catch(() => ({}));
-  if (!searchRes.ok) {
-    return json({ error: lushaError(searchRes.status, searchData) }, 502);
+  // zoekladder: domein (precies) -> naam + België -> naam wereldwijd
+  const attempts = [];
+  if (domain) attempts.push({ via: `domein ${domain}`, filters: { companies: { include: { domains: [domain] } } } });
+  if (company) {
+    attempts.push({ via: `naam + België`, filters: { companies: { include: { names: [company], locations: [{ country: "Belgium" }] } } } });
+    attempts.push({ via: `naam wereldwijd`, filters: { companies: { include: { names: [company] } } } });
   }
-  const found = searchData.data || searchData.contacts || [];
-  const requestId = searchData.requestId || searchData.request_id;
-  if (!found.length) return json({ contacts: [] });
+
+  let found = [], requestId = null, via = "";
+  let lastErr = null;
+  for (const a of attempts) {
+    const r = await lushaSearch(key, a.filters);
+    if (!r.ok) { lastErr = { status: r.status, data: r.data }; continue; }
+    const rows = r.data.data || r.data.contacts || [];
+    if (rows.length) {
+      found = rows;
+      requestId = r.data.requestId || r.data.request_id;
+      via = a.via;
+      break;
+    }
+  }
+  if (!found.length) {
+    if (lastErr) return json({ error: lushaError(lastErr.status, lastErr.data) }, 502);
+    return json({ contacts: [], via: "alle zoekpogingen" });
+  }
 
   const ranked = found
     .map((c) => ({ raw: c, title: c.jobTitle || c.job_title || "", id: c.contactId || c.contact_id || c.id }))
@@ -62,8 +83,9 @@ export async function onRequestPost({ request, env }) {
     };
   });
 
-  await env.WORKFLOW_KV.put(cacheKey, JSON.stringify(contacts), { expirationTtl: 60 * 60 * 24 * 30 });
-  return json({ contacts });
+  const payload = { contacts, via };
+  await env.WORKFLOW_KV.put(cacheKey, JSON.stringify(payload), { expirationTtl: 60 * 60 * 24 * 30 });
+  return json(payload);
 }
 
 function lushaError(status, data) {
