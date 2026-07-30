@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Business data API",
+    "url": "https://www.creditsafe.com/us/en/enterprise/integrations/company-data-api.html",
+    "company": "ALLEMEERSCH BTW-eenheid",
+    "source": "https://careers.creditsafe.com/",
+    "first_seen": "2026-07-30",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 31,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen ervaring met API-integraties in D365 F&O en functionele designs voor system-to-system koppelingen.",
+        "check": "r13",
+        "pitch": "Beste,\n\nWe lazen over uw zoektocht naar een business data API-specialist en vroegen ons af of u samenwerkt met externe consultants.\n\nWe willen u graag voorstellen aan deze kandidaat, een freelance Business & Functional Analyst met 13 jaar ervaring. Bij Febelco werkt deze kandidaat momenteel aan integraties en API-koppelingen tussen Dynamics 365 F&O en externe systemen — precies het type API-gedreven datakoppeling dat relevant is voor platformen zoals Creditsafe Connect. Eerder bij Xerius stuurde deze kandidaat als Solution Manager een volledige microservicecatalogus aan en leidde een chapter van 6 analisten, wat de senioriteit en architecturale blik onderstreept. Ook de ervaring met stakeholdermanagement, functionele en technische designs, en low-code integraties (Outsystems) maakt deze kandidaat veelzijdig inzetbaar.\n\nZou u open staan voor een korte call om te bekijken of dit profiel aansluit bij uw noden?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 65,
+        "reason": "Deze kandidaat heeft als PO/BA API-integraties en CRM-koppelingen opgeleverd voor complexe retailomgevingen met honderden locaties.",
+        "check": "i15"
+      },
+      {
+        "row": 9,
+        "score": 60,
+        "reason": "Deze kandidaat heeft met Salesforce API-integraties en Postman gewerkt en heeft aantoonbare ervaring met CRM-datakoppelingen en functionele analyse.",
+        "check": "k8"
+      }
+    ]
+  },
+  {
+    "title": "CRM Integrations",
+    "url": "https://www.creditsafe.com/us/en/enterprise/integrations/crm-integrations.html",
+    "company": "ALLEMEERSCH BTW-eenheid",
+    "source": "https://careers.creditsafe.com/",
+    "first_seen": "2026-07-30",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 9,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare Salesforce CRM-implementatie- en integratieervaring over meerdere sectoren en projecten.",
+        "check": "k8",
+        "pitch": "Beste,\n\nWe lazen over uw zoektocht naar een CRM-integratieprofiel bij ALLEMEERSCH BTW-eenheid en wilden u graag een sterke kandidaat voorstellen — werkt u ook samen met externe consultants?\n\nDeze kandidaat beschikt over 8 jaar hands-on ervaring met Salesforce CRM, waaronder concrete implementaties van Salesforce Experience Cloud, Field Service en Marketing Cloud. Vanuit recente opdrachten bij o.a. SGS en het Vlaams Energiebedrijf heeft deze kandidaat bewezen CRM-integraties end-to-end te kunnen begeleiden: van requirements tot oplevering. De ervaring met Postman en API-gerelateerde werkstromen sluit bovendien aan bij de technische integratiecomponent die uw vacature vereist.\n\nDeze kandidaat combineert functionele diepgang met technische daadkracht — een profiel dat zowel met business als IT-teams kan schakelen.\n\nGraag plannen we een kort kennismakingsgesprek in om te bekijken of er een match is. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "CreditPoint Software Integration",
+    "url": "https://www.creditsafe.com/us/en/enterprise/integrations/credit-risk-solutions.html",
+    "company": "ALLEMEERSCH BTW-eenheid",
+    "source": "https://careers.creditsafe.com/",
+    "first_seen": "2026-07-30",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat bouwde een volledig SaaS-platform (KMO-Facturatie) en een CRM-oplossing met Java-backend en CI/CD-integratie.",
+        "check": "l7",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor een CreditPoint Software-integratie bij ALLEMEERSCH BTW-eenheid en vroegen ons af of u samenwerkt met externe consultants voor dergelijke trajecten.\n\nWe stellen u graag deze kandidaat voor: een freelance Java Software Engineer met 7 jaar ervaring in het bouwen van SaaS-platformen en integraties. Concreet bouwde deze kandidaat bij NSX een volledig SaaS-platform van nul — inclusief CI/CD-pipeline (Jenkins, Docker, Nexus), backend-architectuur en serverinfrastructuur. Daarna volgde een CRM-implementatie met Angular-frontend en Java-backend. Als co-founder van KMO-Facturatie nam deze kandidaat volledige verantwoordelijkheid voor architectuur, hosting en security.\n\nDeze combinatie van SaaS-ervaring, integratiewerk (API's, CI/CD) en hands-on senioriteit maakt deze kandidaat uitermate geschikt voor een integratietraject rond CreditPoint.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 49,
+        "score": 58,
+        "reason": "Deze kandidaat heeft sterke senioriteit in REST API-architectuur, event sourcing en end-to-end platformverantwoordelijkheid op grote schaal.",
+        "check": "l10"
+      },
+      {
+        "row": 33,
+        "score": 52,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring met microservices, Kafka-integraties en contract-first API's in een enterprise SaaS-context.",
+        "check": "e6"
+      }
+    ]
+  },
+  {
+    "title": "Data Engineer (F/H/X)",
+    "url": "https://www.stepstone.be/jobs--Data-Engineer-F-H-X-Brussel-Nationale-Bank-van-Belgie-NV-Banque-Nationale-de-Belgique-SA--2231382-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-07-30",
+    "stack": [
+      "SQL",
+      "Python",
+      "SAS",
+      "Databricks",
+      "Power BI",
+      "Power Apps"
+    ],
+    "experience": "5-15 yrs",
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen Azure Data Factory, Databricks, SQL Server en Power BI-ervaring in productie-ETL-omgevingen, exact de gevraagde stack.",
+        "check": "b7",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Data Engineer bij de Nationale Bank van België, wou ik u even polsen of u openstaat voor externe kandidaten via consultancy.\n\nWij hebben een profiel dat naadloos aansluit: deze kandidaat werkt al jaren als Azure Data Engineer met dagelijkse hands-on ervaring in Azure Data Factory, Databricks, SQL Server en Power BI — precies de tools die uw team vraagt. Bij Inimco bouwde deze kandidaat schaalbare ETL-pipelines met geautomatiseerde rapportage, migreerde tijdreeksdata naar Azure Data Explorer voor betere queryprestaties, en implementeerde complexe businesslogica in Databricks voor grootschalige verwerking. Vijf Microsoft-certificaten (waaronder Azure Data Engineer en Power BI Data Analyst) onderstrepen de technische breedte. De combinatie van autonome werking, aandacht voor operationele continuïteit en een achtergrond in industriële data sluit perfect aan bij de productiegerichte aanpak die de BNB zoekt.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 71,
+        "score": 79,
+        "reason": "Deze kandidaat heeft als Track Lead diepgaande Databricks-, Azure Data Factory-, dbt- en Python-ervaring met coachingverantwoordelijkheid in cross-industrie dataplatformen.",
+        "check": "w7",
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw openstaande vacature voor Data Engineer bij de Nationale Bank van België — werkt u ook met externe consultants?\n\nDeze kandidaat is een sterke match: met 7 jaar ervaring en een huidige rol als Track Lead bij delaware BeLux heeft deze kandidaat bewezen architectuur- en ontwikkelwerk geleverd op Databricks, Azure Data Factory, dbt en Python — exact de kernstack die u zoekt. De kandidaat combineerde diepgaande extractie- en transformatielogica met het coachen van internationale teams en het vertalen van businessnoden naar technische oplossingen. Databricks Certified Data Engineer Associate en een zeldzame combinatie van .NET-roots met moderne data-engineering geven extra geloofwaardigheid. De ervaring met multi-source dataplatformen sluit aan bij de statistische productieprocessen van uw team.\n\nIk bel u graag kort om dit toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 64,
+        "score": 77,
+        "reason": "Deze kandidaat leidde een internationaal team met Databricks lakehouse, Azure Data Factory, Power BI en ELT-architectuur in een gereguleerde, datakritische omgeving.",
+        "check": "j10",
+        "pitch": "Beste,\n\nU zoekt een Data Engineer bij de Nationale Bank van België — ik wou graag nagaan of externe profielen welkom zijn.\n\nDeze kandidaat is momenteel Data & Analytics Lead bij een internationale logistieke speler in de zorgsector, waar een gefragmenteerd datalandschap werd omgebouwd tot een governed Databricks lakehouse met Azure Data Factory, ELT-architectuur en Power BI. De kandidaat reduceerde source-to-product refreshtijd met 50% en leidde een team van 10 — wat aantoont dat technische diepgang en operationele verantwoordelijkheid hand in hand gaan. De ervaring met datagovernance, productownership en samenwerking met businessexperts sluit direct aan bij de verwachtingen van uw statistisch team. De achtergrond in academisch onderzoek maakt de brug naar methodologisch werk binnen het Europees Stelsel van Centrale Banken extra relevant.\n\nGraag een kort gesprek om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Business Intelligence",
+    "url": "https://www.creditsafe.com/us/en/enterprise/salesforce/business-intelligence-for-salesforce.html",
+    "company": "ALLEMEERSCH BTW-eenheid",
+    "source": "https://careers.creditsafe.com/",
+    "first_seen": "2026-07-30",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 9,
+        "score": 88,
+        "reason": "Deze kandidaat heeft directe Salesforce-expertise (Field Service, Experience Cloud, Marketing Cloud) en bewezen BA-rol in Salesforce-implementaties.",
+        "check": "k8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw zoektocht naar een Business Intelligence-profiel voor de Business Intelligence Plus-applicatie binnen Salesforce. Werkt u hiervoor ook met externe consultants?\n\nIk heb een kandidaat die ik u met overtuiging wil voorstellen. Deze kandidaat beschikt over 8 jaar ervaring als Business & Functional Analyst met een duidelijke Salesforce-specialisatie: Experience Cloud, Marketing Cloud, Field Service en Veeva CRM — exact de omgeving waarin uw BI Plus-app leeft. Bij SGS leidde deze kandidaat een volledige Salesforce Experience Cloud-implementatie van requirements tot oplevering. Bij Rodenstock was de rol Salesforce Field Service specialist, en bij Sobi werd een migratie naar Veeva Vault CRM begeleid.\n\nDeze kandidaat combineert technische Salesforce-kennis met sterke stakeholdermanagement-skills en ervaring in meerdere sectoren. Een ideaal profiel om uw CRM-data-enrichment project te ondersteunen.\n\nGraag vertel ik u meer tijdens een korte call. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 4,
+        "score": 76,
+        "reason": "Deze kandidaat heeft als BI Lead aantoonbare ervaring met Power BI, Microsoft Fabric, data-enrichment en stakeholdermanagement over meerdere markten.",
+        "check": "n6",
+        "pitch": "Beste,\n\nNaar aanleiding van uw nood aan een Business Intelligence-profiel voor de BI Plus-app in Salesforce, neem ik graag contact op. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat werkt als BI Lead en Senior Business Data Analyst en bouwde bij Sidec een volledige Microsoft Fabric + Power BI-oplossing uit, inclusief ETL, sterschemamodellering en departementale dashboards. Bij BMW Group stuurt deze kandidaat als senior BDA stakeholders over 5 markten aan en vertaalt businesslogica naar technische specificaties — precies de brug tussen data en CRM-enrichment die uw BI Plus-project vereist.\n\nMet 6 jaar ervaring in data-analyse, visualisatie en businessvertaling is dit een profiel dat snel waarde toevoegt in een Salesforce data-enrichment context.\n\nKunt u binnenkort even bellen om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 58,
+        "reason": "Deze kandidaat heeft functionele analyseervaring met reporting tools, Power Apps en REST API-projecten, maar geen directe Salesforce-achtergrond.",
+        "check": "c3"
+      }
+    ]
+  },
+  {
+    "title": "Application Engineer",
+    "url": "https://www.stepstone.be/jobs--Application-Engineer-Tessenderlo-Verpoucke--2229397-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-07-30",
+    "stack": [
+      "COMSOL",
+      "Python",
+      "LabVIEW",
+      "Altium Designer"
+    ],
+    "experience": "2+ yrs",
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 42,
+        "reason": "Deze kandidaat heeft automotive achtergrond (Nuance speech recognition, Nasdaq C++) maar geen hardware/PCB/sensor IC-ervaring relevant voor IPS-applicaties.",
+        "check": "w11"
+      },
+      {
+        "row": 0,
+        "score": 28,
+        "reason": "Deze kandidaat is puur software-gericht (Java, PHP, Angular) zonder enige elektronica-, hardware- of sensorervaring vereist voor deze rol.",
+        "check": "l7"
+      },
+      {
+        "row": 27,
+        "score": 18,
+        "reason": "Deze kandidaat is data/streaming engineer zonder relevante elektronica-, PCB- of embedded sensorkennis voor een Application Engineer rol bij Melexis.",
+        "check": "a8"
+      }
+    ]
+  }
+]
