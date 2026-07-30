@@ -14997,3 +14997,57 @@ A.E.R Group;aergroup.com
 A.E.V. AFSLUITINGEN;afsluitingsmateriaal.be
 A.F.B.;afbinternational.com
 A.F.M.;afm.nl
+HG Architectuur;hgarchitectuur.be
+Iconic Wheels;iconicwheels.be
+A-koestiek Events;a-koestiek.be
+CLIMATIS;info@climatis.be
+ABBY TRANSMISSIES;abbytransmissies.be
+ALL DRIVE;alldrive.be
+Attia;peterattiamd.com
+B1 Medical;b1medical.com
+Bouwi;bouwbedrijfflore.be
+Educa for You;educaforyou.com
+Eric Heudens;bedrijvengids.cybo.com
+FS Management;mapquest.com
+HEYDAY SUPPLIES;suitupshop.it
+Kinepraktijk Ruggeveld;manueeltherapeut-info.be
+LAWIJT;lawijt.be
+RIOT;riotplatforms.com
+SCALIS;scalis.ai
+TER MOTTE;hoftermotte.be
+UNVER GROUP;unvergroup.com
+n3rdware;n3rdware.com
+AEG Glaswerken;aegglaswerken.be
+AGUDEZA;de.pons.com
+BYRAM;byramhealthcare.com
+Coquette;coquetteshop.be
+D2 Projects;dot.state.mn.us
+Druk De Meyer;drukdemeyer.be
+FOURFIFTY;livingatfourfifty.com
+Finetouch Pleisterwerken;finetouch.be
+GBS - Green Cleaning & Building Solutions;vat-search.co.uk
+Go Invest;capitalgoinvest.com
+HireUp;hireup.be
+Impax;impaxam.com
+JD Finance and construction;made-in.be
+JTI Solutions;jticon.com
+LINQ WORK;stackoverflow.com
+LTG PROJECTS COMMV;lochristi.100procentlokaal.be
+MADAM PATAT;madam-patat-madam-baget.wheree.com
+MIHAELA UNGUREANU;researchgate.net
+MP-Services;mpservices.app
+MV Comfort & Energy;credisolv.be
+P. Polfliet;tandfonline.com
+Phenix;phenix-group.be
+SENAT CLEANING;starteralert.be
+SLEGERS NOÊL;semanticscholar.org
+SMARTSIT;smartsit.in
+Sans Pardon Consulting;credisolv.be
+Sie-Bike;lease-a-bike.de
+The B-Side;thebsidepod.podbean.com
+TrapCo;trapcoinspections.com
+Vertex Projects;vertexprojects.co
+Voltronics;diysolarforum.com
+YEK Group;yekgroup.com.tr
+ZELMO;zelmoszipin.com
+ZUMO;zumo.tech
