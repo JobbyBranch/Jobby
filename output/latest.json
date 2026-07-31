@@ -1,5 +1,105 @@
 [
   {
+    "title": "IT Automation Engineer Grobbendonk, Belgium",
+    "url": "https://www.bleckmann.com/nl/vacatures/it-automation-engineer",
+    "company": "BLECKMANN BELGIË NV",
+    "source": "https://www.bleckmann.com/nl/vacatures",
+    "first_seen": "2026-07-31",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 8,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring bij PSA Antwerp (havenlogistiek) met Azure-integraties en externe partneronboarding, relevant voor automatiseringsprojecten in warehouse-omgevingen.",
+        "check": "j6",
+        "pitch": "Beste,\n\nBleckmann zoekt een IT Automation Engineer voor hun warehouse-automatiseringsprojecten in Grobbendonk — werkt u ook met externe consultants voor dergelijke rollen?\n\nDeze kandidaat heeft 6 jaar Cloud & DevOps-ervaring en werkt momenteel bij PSA Antwerp, één van Europa's grootste havens, waar hij/zij dagelijks externe partnerintegraties beheert via Azure API Management, Service Bus en Logic Apps — exact het soort ketenintegratie dat Bleckmann nodig heeft tussen automatiseringsleveranciers, warehouse operations en interne IT. Bij APG begeleidde deze kandidaat bovendien een junior DevOps engineer over 3 jaar en leidde hij/zij complexe on-prem-naar-cloud migraties op Kubernetes/AKS.\n\nDe combinatie van logistieke domeinervaing, integratie-expertise en coachingvaardigheden maakt deze kandidaat een sterke match voor de verbindende rol die Bleckmann zoekt.\n\nKan ik u volgende week even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 22,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring als brug tussen business en IT via requirements-analyse, acceptatiecriteria en QA-automatisering in complexe omgevingen.",
+        "check": "n10"
+      },
+      {
+        "row": 40,
+        "score": 55,
+        "reason": "Deze kandidaat heeft bij Nike en bpost aantoonbare supply chain- en logistieke data-ervaring met Kafka-streaming en warehouse/orderpijplijnen, relevant voor de operationele IT-context van Bleckmann.",
+        "check": "b17"
+      }
+    ]
+  },
+  {
+    "title": "[Vacatures] Mediahuis zoekt een Freelance Golang Developer",
+    "url": "https://marketingreport.nl/vacatures-mediahuis-zoekt-een-freelance-golang-developer",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-07-31",
+    "stack": [
+      "Go",
+      "NATS",
+      "Azure",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Bash",
+      "Shell"
+    ],
+    "experience": "5+ yrs",
+    "ai_matches": [
+      {
+        "row": 61,
+        "score": 72,
+        "reason": "Deze kandidaat werkte 5 jaar bij Mediahuis zelf aan .NET-backends en kent de mediacontext, maar Go-ervaring ontbreekt.",
+        "check": "k19",
+        "pitch": "Beste,\n\nU bent op zoek naar een Freelance Golang Developer voor het AI Solutions Platform bij Mediahuis. Werkt u ook samen met externe consultants voor dergelijke rollen?\n\nDeze kandidaat heeft vijf jaar bij Mediahuis gewerkt aan news- en e-paper-apps voor tien merken, inclusief .NET Core backends — uw interne werkomgeving, uw teams en uw technische context zijn dus vertrouwd terrein. Daarna bouwde deze kandidaat bij NMBS een mission-critical integratiebrug met .NET Core 10, Azure Cosmos DB, Kubernetes/Rancher/Helm en event-driven messaging — precies de cloud-native, gedistribueerde architectuurprincipes die centraal staan in uw vacature. Ervaring met CI/CD, CQRS, Clean Architecture en Kubernetes is concreet aantoonbaar.\n\nGo is een gerichte bijstap voor een developer met deze systeemdiepte en mediadomain-kennis — een zeldzame combinatie voor deze specifieke rol.\n\nKan ik u volgende week even bellen om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 63,
+        "score": 62,
+        "reason": "Deze kandidaat bouwde event-driven Java-microservices op Kafka/Kubernetes/Terraform, maar heeft geen aantoonbare Go-ervaring.",
+        "check": "r5"
+      },
+      {
+        "row": 20,
+        "score": 42,
+        "reason": "Deze kandidaat heeft microservices-, Kafka- en Kubernetes-ervaring, maar werkt uitsluitend in .NET/C# en niet in Go.",
+        "check": "n16"
+      }
+    ]
+  },
+  {
+    "title": "(Agile) IT Project Manager",
+    "url": "https://www.stepstone.be/jobs--Agile-IT-Project-Manager-Antwerpen-VANBREDA-RISK-BENEFITS--2198392-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-07-31",
+    "stack": [],
+    "experience": "4+ yrs",
+    "ai_matches": [
+      {
+        "row": 45,
+        "score": 88,
+        "reason": "Deze kandidaat leidde als Agile Delivery Lead een project van 25M+ EUR met scrum master-, PO- en coachingverantwoordelijkheden over 15 directe rapporten.",
+        "check": "p22",
+        "pitch": "Beste,\n\nVanbreda Risk & Benefits is op zoek naar een ervaren Agile IT Project Manager — werkt u ook met externe consultants? Dan wil ik u graag deze kandidaat voorstellen.\n\nDeze kandidaat combineert 22 jaar IT-ervaring met een bewezen track record als Scrum Master, Product Owner én agile coach. Bij Luminus groeide deze kandidaat door van Scrum Master naar lid van het leiderschapsteam met 15 directe rapporten, en stuurde een businesskritisch project van 25M+ EUR aan — inclusief afstemming met externe partijen zoals Elia. Bij de Elia Group leidde deze kandidaat een agile project van 5M+ EUR én verzorgde organisatiebrede agile coaching.\n\nDe combinatie van servant leadership, stuurgroeprapportage, backlogbeheer en stakeholdermanagement sluit nauw aan op wat Vanbreda zoekt. Bovendien is deze kandidaat trilinguaal en breed inzetbaar over sectoren heen.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 35,
+        "score": 78,
+        "reason": "Deze kandidaat beheerde als program manager een complex SaaS-transitieproject in de zorgsector met budgetbewaking, stuurgroeprapportage en cross-team coördinatie.",
+        "check": "n15",
+        "pitch": "Beste,\n\nVanbreda Risk & Benefits zoekt een Agile IT Project Manager — werkt u ook samen met externe consultants? Dan wil ik u graag deze kandidaat voorstellen.\n\nMet 15 jaar ervaring in projectmanagement en een sterk profiel in change management en stakeholdercommunicatie, paste deze kandidaat bij LCM een volledig platform om naar SaaS — met meerdere mutualities als klant, herhaalde go-live-uitdagingen door datakwaliteitsproblemen en een intensieve aftercare-structuur. Stuurgroeprapportage, budgetbewaking en cross-team afstemming (infra, DBA, middleware, klantteams) waren dagelijkse realiteit.\n\nAls huidig Product Owner bij CM toont deze kandidaat ook de PO-ondersteuningsrol die Vanbreda expliciet vraagt. De achtergrond in de zorgsector sluit aan bij Vanbreda's klantenbase in de sociale zekerheid en benefits.\n\nIk stel graag een kort gesprek voor. Wanneer heeft u een momentje?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 32,
+        "score": 62,
+        "reason": "Deze kandidaat werkte als BA en project lead bij NN Insurance en AXA met agile, PRINCE2 en verzekeringsdossiers in leven- en schadeverzekeringen.",
+        "check": "g11"
+      }
+    ]
+  },
+  {
     "title": "Business data API",
     "url": "https://www.creditsafe.com/us/en/enterprise/integrations/company-data-api.html",
     "company": "ALLEMEERSCH BTW-eenheid",
