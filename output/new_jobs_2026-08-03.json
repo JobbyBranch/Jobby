@@ -1,0 +1,136 @@
+[
+  {
+    "title": "systems engineer Eeklo Functie IT",
+    "url": "https://www.vandenbraembussche.be/jobs/systems-engineer",
+    "company": "BETONCENTRALE VAN DEN BRAEMBUSSCHE",
+    "source": "https://www.vandenbraembussche.be/jobs",
+    "first_seen": "2026-08-03",
+    "stack": [
+      "Microsoft",
+      "Azure",
+      "Microsoft 365",
+      "ERP"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 53,
+        "score": 82,
+        "reason": "Deze kandidaat beheert 20 jaar Microsoft-infrastructuur (AD, Azure, VMware, Windows Server) met security-focus, exact de gevraagde kern.",
+        "check": "k20",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor Systems Engineer in Eeklo met interesse. Werkt u ook samen met externe IT-consultants?\n\nWe stellen graag deze kandidaat voor: een senior infrastructure & security engineer met meer dan 20 jaar hands-on ervaring in precies de omgeving die u zoekt. Deze kandidaat beheert dagelijks Microsoft Active Directory, Entra ID, Windows Server en VMware vSphere — de ruggengraat van uw IT-omgeving. Hybride Azure-trajecten, back-up, security hardening (Defender, Sentinel, Qualys) en NIS2-compliance zijn geen theorie maar bewezen praktijk, opgebouwd in veeleisende sectoren zoals automotive (Toyota Motor Europe), farma en defensie.\n\nCybersecurity en infrastructuurbeheer gecombineerd in één profiel is zeldzaam. Deze kandidaat neemt eigenaarschap, documenteert grondig en werkt vlot samen met interne en externe partners — precies wat Van den Braembussche nodig heeft.\n\nMag ik u bellen voor een kort gesprek van 15 minuten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 8,
+        "score": 72,
+        "reason": "Deze kandidaat heeft concrete Azure- en Microsoft 365-projectervaring met netwerking, Entra ID en automatisering via Bicep en PowerShell.",
+        "check": "j6"
+      },
+      {
+        "row": 58,
+        "score": 58,
+        "reason": "Deze kandidaat beheert Linux/on-prem infrastructuur met Ansible-automatisering en Azure, maar mist de centrale Microsoft/Windows Server-focus die de vacature vereist.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "AI Engineer Waregem, Belgium",
+    "url": "https://www.bleckmann.com/nl/vacatures/ai-engineer",
+    "company": "BLECKMANN BELGIË NV",
+    "source": "https://www.bleckmann.com/nl/vacatures",
+    "first_seen": "2026-08-03",
+    "stack": [
+      "AI",
+      "Machine Learning",
+      "GenAI",
+      "Python",
+      "Snowflake",
+      "LLM"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen ervaring met LLM fine-tuning, AI engineering en Python/AWS data pipelines in productieomgevingen.",
+        "check": "w11",
+        "pitch": "Beste,\n\nWe vernemen dat Bleckmann actief inzet op AI-gedreven logistieke oplossingen en vroegen ons af of u samenwerkt met externe consultants voor gespecialiseerde profielen.\n\nWe hebben momenteel een AI Engineer beschikbaar die naadloos aansluit bij uw vacature. Deze kandidaat heeft recente, hands-on ervaring met LLM fine-tuning (Axolotl, Ollama), het bouwen van AWS data lakes (EC2/S3) met timeseries- en geospatiale data, en het implementeren van lokaal gehoste LLM-oplossingen voor NLP in productie. Dat laatste deed deze kandidaat bij een grote publieke organisatie, waarbij technische prototypes werden omgezet naar gedragen oplossingen — precies wat u vraagt.\n\nMet 11 jaar ervaring over AI/ML, softwarearchitectuur en Python-gedreven backend development combineert deze kandidaat technische diepgang met stakeholdercommunicatie. De brug tussen PoC en productieklare AI-oplossing is voor deze kandidaat vertrouwd terrein.\n\nGraag stellen we deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 40,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 17 jaar data-engineering ervaring met Snowflake, Kafka en supply chain pipelines bij Nike en bpost.",
+        "check": "b17",
+        "pitch": "Beste,\n\nBleckmann zoekt een AI Engineer die Snowflake-pipelines bouwt en AI-oplossingen integreert in logistieke workflows — we hebben een sterk profiel dat hierop aansluit.\n\nDeze kandidaat heeft bij Nike Databricks/PySpark supply chain pipelines ontworpen en beheerd, Kafka streaming ingezet voor inventory- en orderfeeds, en een volledige Snowflake-migratie geleid als architect bij Cognizant. De combinatie van Snowflake, Kafka, data quality en supply chain domeinkennis is zeldzaam én direct relevant voor uw context als logistiek marktleider.\n\nMet 17 jaar ervaring in retail supply chain en logistiek (ook bpost) begrijpt deze kandidaat de business challenges achter de data. De sterke DataOps- en observability-mindset zorgt voor productierijpe, betrouwbare oplossingen — geen losse experimenten.\n\nMag ik u bellen voor een korte kennismaking om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 73,
+        "score": 65,
+        "reason": "Deze kandidaat heeft ML-datapipelines, Azure Databricks en een full-stack data platform gebouwd inclusief ML-integratie bij Materialise.",
+        "check": "w20"
+      }
+    ]
+  },
+  {
+    "title": "Nederlands (België)",
+    "url": "https://www.mobius.eu/nl-be/vacatures?hsLang=nl-be",
+    "company": "MOBIUS BUSINESS REDESIGN",
+    "source": "https://www.mobius.eu/en/jobs",
+    "first_seen": "2026-08-03",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "info@mobius.eu"
+    },
+    "ai_matches": [
+      {
+        "row": 44,
+        "score": 22,
+        "reason": "Deze kandidaat is een senior netwerkingenieur zonder enige management consulting, strategie of procesverbeteringsachtergrond.",
+        "check": "k28"
+      }
+    ]
+  },
+  {
+    "title": "Systems & Integration Engineer",
+    "url": "https://www.stepstone.be/jobs--Systems-Integration-Engineer-Liege-Cefaly-US-Inc--2233815-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-03",
+    "stack": [
+      "NetSuite",
+      "Shopify",
+      "WordPress",
+      "Microsoft Entra ID",
+      "Celigo",
+      "AWS",
+      "Salesforce",
+      "JavaScript",
+      "Python"
+    ],
+    "experience": "3+ yrs",
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat beheerde SaaS-platformen end-to-end (CI/CD, Docker, Keycloak, server-setup) en heeft ervaring in EV-charging en privacy-GDPR-tooling.",
+        "check": "l7",
+        "pitch": "Beste,\n\nVoor de rol van Systems & Integration Engineer bij CEFALY wou ik even polsen of u samenwerkt met externe consultants.\n\nDeze kandidaat heeft als co-founder een volledig SaaS-platform opgezet — inclusief architectuur, CI/CD (Jenkins, Docker), hosting en SecOps — en deed hetzelfde bij NSX voor het RESPONSUM-platform. Daarmee toont deze kandidaat aan dat hij systemen end-to-end beheert en ownership neemt, precies wat CEFALY vraagt.\n\nNaast platformbeheer heeft deze kandidaat ervaring met Keycloak (identity/SSO, relevant voor Microsoft Entra ID), Angular-frontends en Python. De achtergrond in privacy/GDPR-tooling sluit mooi aan bij de compliance-vereisten (HIPAA, SOC 2) die CEFALY vermeldt. Bovendien is er praktische ervaring met Linux-serverinrichting en Docker-deployments in productie.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 8,
+        "score": 68,
+        "reason": "Deze kandidaat werkte intensief met Azure API Management, Logic Apps, Entra ID en externe partnerintegraties — sterk verwant aan de iPaaS- en identity-vereisten in deze rol.",
+        "check": "j6"
+      },
+      {
+        "row": 66,
+        "score": 61,
+        "reason": "Deze kandidaat beheerde hybrid cloud-infrastructuur op AWS/Azure en bouwde een webapplicatie met Python en Entra ID-integratie end-to-end.",
+        "check": "t20"
+      }
+    ]
+  }
+]
