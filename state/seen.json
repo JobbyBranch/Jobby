@@ -7268,5 +7268,119 @@
         "check": "t20"
       }
     ]
+  },
+  "https://recruiting.dmgmori.com/Vacancies/1204/Description/1": {
+    "title": "Softwareentwickler (m/w/d) Fullstack für Prozessdigitalisierung und Automatisierung",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1204/Description/1",
+    "company": "DMG MORI BeLux",
+    "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
+    "first_seen": "2026-08-04",
+    "stack": [
+      "Java",
+      "C#",
+      "SQL",
+      "Git",
+      "Azure DevOps",
+      "CI/CD"
+    ],
+    "experience": null,
+    "contact": {
+      "name": "Sarah Edwards",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 25,
+        "score": 82,
+        "reason": "Deze kandidaat bouwde Azure-integraties, modulaire .NET-frameworks en 3D-configurators in een manufacturing context — rechtstreeks relevant voor procesdigitalisering bij DMG MORI.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de vacature Fullstack Softwareentwickler voor Prozessdigitalisierung und Automatisierung bij DMG MORI BeLux. Werkt u samen met externe consultants voor deze positie?\n\nDeze kandidaat heeft bewezen fullstack .NET-ervaring (C#, ASP.NET Core, Azure Functions, Azure Service Bus, CQRS, Entity Framework, SQL) en werkte concreet in een manufacturing-omgeving: twee Blazor-gebaseerde 3D-productconfigurators met real-time feasibility-validatie en BOM-generatie — sterk vergelijkbaar met de technische applikaties die DMG MORI voor machineintegratie zoekt. Daarnaast ontwierp deze kandidaat een modulair Azure-integratieframework voor backend-synchronisaties en heeft hands-on ervaring met CI/CD, Docker en Angular. De combinatie van architectuurdenken, DDD/CQRS en praktische integratiewerk sluit nauw aan bij uw vereisten.\n\nIk zou graag een kort gesprek plannen om te bekijken of er een match is. Bent u volgende week beschikbaar?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 11,
+        "score": 76,
+        "reason": "Deze kandidaat heeft 4 jaar Java/Spring fullstack ervaring met complexe platformontwikkeling, Docker/Kubernetes, CI/CD en SQL — de kern van de gevraagde stack.",
+        "check": "k4",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Fullstack Softwareentwickler bij DMG MORI BeLux — werkt u ook met externe consultants voor dit soort profielen?\n\nDeze kandidaat is een Java/Spring fullstack developer (Spring Boot, Spring Batch, Spring Security, Hibernate, Angular, CQRS, SQL) met sterke ervaring in complexe enterprise-platforms en CI/CD-pipelines (Jenkins, Docker, Kubernetes, OpenShift). Hoewel het domein publieke sector is, gaat het over grootschalige platformontwikkeling met strikte kwaliteitseisen — vergelijkbaar met wat DMG MORI vraagt voor procesdigitalisering. TDD/BDD (JUnit, Cucumber, Testcontainers) en een KU Leuven-achtergrond in Applied Informatics versterken het profiel. CKAD- en Spring Certified Professional-certificaten tonen de technische diepgang aan.\n\nKan ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 6,
+        "score": 68,
+        "reason": "Deze kandidaat heeft solide .NET/C#, Angular, Azure DevOps en SQL-ervaring met meerdere productieapplicaties, al ontbreekt industriële of automatiseringscontext.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://marketingreport.nl/vacatures-springbok-zoekt-een-senior-data-and-martech-engineer": {
+    "title": "[Vacatures] Springbok zoekt een Senior Data & MarTech Engineer",
+    "url": "https://marketingreport.nl/vacatures-springbok-zoekt-een-senior-data-and-martech-engineer",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-04",
+    "stack": [
+      "SQL",
+      "Python",
+      "JavaScript",
+      "Google Cloud Platform",
+      "BigQuery",
+      "GA4",
+      "Tealium",
+      "Hightouch"
+    ],
+    "experience": "Senior level (not explicitly stated in years)",
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 82,
+        "reason": "Deze kandidaat bouwde bij DPG Media real-time Kafka Streams pipelines en een volledig dataplatform met Spark, Airflow en Snowflake op AWS.",
+        "check": "a8",
+        "pitch": "Beste,\n\nSpringbok zoekt een Senior Data & MarTech Engineer met sterke streaming- en data-engineeringvaardigheden — werkt u ook samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat heeft bij DPG Media een volledig event-driven dataplatform gebouwd met Kafka, Spark, Airflow en Snowflake, en legacy batchverwerking vervangen door real-time Kafka Streams applicaties in Scala voor gebruikersprofiel-generatie. Dat sluit naadloos aan op de server-side datastreaming en pipeline-architectuur die Springbok zoekt. De ervaring met stateful stream processors, event-driven identity resolution en AWS EKS via Terraform toont brede cloud-infrastructuurkennis. Eerder bij imec werden Avro data contracts en Azure ETL-werk gedaan, wat de veelzijdigheid onderstreept. Met 8 jaar ervaring, een MSc Computerwetenschappen (VUB) en AWS Solutions Architect certificering is dit een profiel dat technisch direct waarde toevoegt.\n\nMag ik een kort gesprek inplannen om dit concreet toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 75,
+        "score": 68,
+        "reason": "Deze kandidaat werkte voor Rituals via Equalture op BigQuery/Looker met star-schema modeling, data governance en end-to-end dataroadmaps.",
+        "check": "t5"
+      },
+      {
+        "row": 40,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 17 jaar data-engineeringervaring met Kafka streaming, Python, SQL en CI/CD, maar werkt op AWS/Snowflake in plaats van GCP/BigQuery.",
+        "check": "b17"
+      }
+    ]
+  },
+  "https://www.stepstone.be/jobs--Service-Desk-Agent-Brussels-Stefanini-NV--2232481-inline.html": {
+    "title": "Service Desk Agent",
+    "url": "https://www.stepstone.be/jobs--Service-Desk-Agent-Brussels-Stefanini-NV--2232481-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-04",
+    "stack": [],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "recruitmentemea@stefanini.com"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Deze kandidaat heeft L3-support ervaring bij Enovates en brede IT-skills, maar geen service desk of 1st-line support achtergrond.",
+        "check": "l7"
+      },
+      {
+        "row": 56,
+        "score": 42,
+        "reason": "Deze kandidaat heeft 10 jaar IT-support in logistiek en EDI, maar geen expliciete service desk of end-user 1st-line support ervaring.",
+        "check": "b10"
+      },
+      {
+        "row": 48,
+        "score": 32,
+        "reason": "Deze kandidaat is senior frontend developer zonder enige service desk, end-user support of helpdesk ervaring.",
+        "check": "a12"
+      }
+    ]
   }
 }
