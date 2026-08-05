@@ -1,0 +1,92 @@
+[
+  {
+    "title": "SCADA & OT Engineer",
+    "url": "https://www.grootgrotergroots.be/nl-be/jobs/scada-ot-engineer-1/",
+    "company": "Groot Groter Groots",
+    "source": "https://www.grootgrotergroots.be/nl-be/jobs/",
+    "first_seen": "2026-08-05",
+    "stack": [
+      "SCADA",
+      "PLC",
+      "Siemens TIA Portal",
+      "ABB Automation Builder",
+      "Linux",
+      "OPC UA",
+      "Modbus",
+      "Profinet",
+      "MQTT",
+      "Ansible"
+    ],
+    "experience": null,
+    "contact": {
+      "name": "Sophie van Aubel",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 68,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 29 jaar Linux-ervaring, OT-naburige omgevingen (luchthaven, overheid) en sterke Ansible/Docker-automatisering.",
+        "check": "g29"
+      },
+      {
+        "row": 58,
+        "score": 52,
+        "reason": "Deze kandidaat toont sterke Linux/Red Hat- en Ansible-skills met ervaring in industriële SaaS (TrendMiner) en security-diensten.",
+        "check": "a8"
+      },
+      {
+        "row": 74,
+        "score": 42,
+        "reason": "Deze kandidaat heeft een Bachelor Electronics-ICT en ervaring met industriële netwerken, Ansible-automatisering en security-platformen.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Senior Software Developer (m/w/d) Dynamics 365, Dataverse & Power Platform",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1206/Description/1",
+    "company": "DMG MORI BeLux",
+    "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
+    "first_seen": "2026-08-05",
+    "stack": [
+      "Dynamics 365",
+      "Dataverse",
+      "Power Platform",
+      "Java",
+      "Spring Boot",
+      "Power Pages",
+      "Model-Driven Apps",
+      "Power Automate",
+      "Angular",
+      "TypeScript"
+    ],
+    "experience": "mehrjährige Erfahrung",
+    "contact": {
+      "name": "Sarah Bretthauer",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 82,
+        "reason": "Deze kandidaat heeft directe Dynamics 365-ervaring (XRM SDK, integraties) gecombineerd met Azure Service Bus, Blazor en een .NET-architectuurrol bij een overheidsinstelling.",
+        "check": "d8",
+        "pitch": "Beste,\n\nU bent op zoek naar een Senior Software Developer met diepgaande kennis van Microsoft Dynamics 365, Dataverse en de Power Platform-stack. Werkt u ook met externe consultants voor dit soort profielen?\n\nDeze kandidaat heeft aantoonbare, hands-on ervaring met Dynamics 365 (XRM SDK, SOAP/REST-integraties) en bouwde bij Syntra AB volwaardige integratiearchitecturen. Bij RIZIV-INAMI vervult deze kandidaat een back-up Tech Lead-rol: architectuuralignment, PR-reviews en taakcoördinatie — precies het niveau dat DMG MORI Digital zoekt. De combinatie van Azure Service Bus (event-driven integratie bij Colruyt), Blazor/ASP.NET en SQL-kennis sluit sterk aan op uw technische vereisten. De achtergrond in authenticatie/autorisatie en rollenconcepten binnen een complexe overheidscontext is een extra troef voor de globale klantportal.\n\nGraag stel ik deze kandidaat voor in een kort gesprek — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 62,
+        "score": 75,
+        "reason": "Deze kandidaat heeft bewezen OAuth2/Keycloak-securitydiepte, CRM-integratiearchitectuur bij Twikey en technisch leiderschap als trainer/lead bij Fedasil en Fedris.",
+        "check": "c8",
+        "pitch": "Beste,\n\nVoor uw openstaande rol als Senior Software Developer op Dynamics 365, Dataverse en Power Platform — werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat brengt sterke Java/Spring Boot-ervaring mee, gecombineerd met aantoonbare expertise in OAuth2, Keycloak en OIDC — exact de authenticatie- en autorisatieconcepten (Entra ID/Azure AD B2C) die uw vacature vereist. Bij Twikey ontwierp deze kandidaat een CRM-webhookintegratie met debounce-and-batch-logica, wat de API- en integratie-architectuurervaring concreet aantoont. De rol als technisch lead bij Fedasil en als curriculum developer bij Fedris bewijst mentoring- en architectuurcapaciteit. CPSA-F-certificering onderstreept het architectuurdenken. Voor de Dataverse/Power Platform-laag is bijscholing beperkt en realistisch gezien de brede Microsoft-ecosysteemaffiniteit.\n\nZin in een korte kennismaking? Ik plan graag een gesprek in.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 52,
+        "score": 62,
+        "reason": "Deze kandidaat combineert 12 jaar Java/Spring Boot- en Angular/React-expertise met portalervaring, maar heeft geen zichtbare Dynamics 365- of Dataverse-achtergrond.",
+        "check": "j12"
+      }
+    ]
+  }
+]
