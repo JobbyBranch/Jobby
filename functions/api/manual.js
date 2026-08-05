@@ -107,7 +107,7 @@ ${lines.join("\n")}`;
   if (!resp.ok) return json({ error: "AI-matching faalde: " + ((rdata.error || {}).message || resp.status) }, 502);
   const rtext = ((rdata.content || [])[0] || {}).text || "";
   let parsed;
-  try { parsed = JSON.parse(rtext.slice(rtext.indexOf("{"))); } catch { return json({ error: "AI-antwoord onleesbaar — probeer opnieuw" }, 502); }
+  try { parsed = parseFirstJson(rtext); } catch { return json({ error: "AI-antwoord onleesbaar — probeer opnieuw" }, 502); }
 
   const byRow = {}; shortlist.forEach(c => { byRow[c.row] = c; });
   const seen = new Set();
@@ -128,7 +128,21 @@ ${lines.join("\n")}`;
   await env.WORKFLOW_KV.put("manualjobs", JSON.stringify(jobs.slice(0, 100)));
   return json(job);
 }
-
+function parseFirstJson(text) {
+  const start = text.indexOf("{");
+  if (start < 0) throw new Error("no json");
+  let depth = 0, instr = false, esc = false;
+  for (let i = start; i < text.length; i++) {
+    const ch = text[i];
+    if (esc) { esc = false; continue; }
+    if (ch === "\\") { if (instr) esc = true; continue; }
+    if (ch === '"') { instr = !instr; continue; }
+    if (instr) continue;
+    if (ch === "{") depth++;
+    else if (ch === "}") { depth--; if (depth === 0) return JSON.parse(text.slice(start, i + 1)); }
+  }
+  throw new Error("unterminated json");
+}
 function json(obj, status = 200) {
   return new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json", "cache-control": "no-store" } });
 }
