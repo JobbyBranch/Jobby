@@ -1,5 +1,160 @@
 [
   {
+    "title": "Software Engineer Engineering · Ghent · Hybrid",
+    "url": "https://careers.qargo.com/jobs/8176013-software-engineer",
+    "company": "Qargo",
+    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "first_seen": "2026-08-06",
+    "stack": [
+      "React",
+      "GraphQL",
+      "Apollo",
+      "Zustand",
+      "Ant Design",
+      "Linaria"
+    ],
+    "experience": "2+ yrs",
+    "ai_matches": [
+      {
+        "row": 60,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare React/Apollo/GraphQL-ervaring en bouwde meerdere design systems in productie-SaaS-omgevingen.",
+        "check": "b8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Frontend Software Engineer bij Qargo. Werkt u ook samen met externe consultants?\n\nIk heb een sterke kandidaat die naadloos aansluit op uw stack. Deze kandidaat werkt momenteel als senior frontend engineer op een React/Azure/Nx-platform en heeft eerder bij Evoluno gewerkt met Apollo GraphQL — exact de technologie die Qargo centraal stelt. Daarnaast bouwde deze kandidaat bij Borealis meerdere productie-SPAs en een intern design system met React en Next.js, en heeft hands-on ervaring met Zustand-achtig state management en component-based architectuur.\n\nDe combinatie van React, GraphQL (Apollo), TypeScript en design systems, aangevuld met CKAD-certificering en ervaring in SaaS-omgevingen, maakt deze kandidaat direct inzetbaar. Met 8 jaar ervaring en aantoonbaar ownership en architectuurinvloed past dit profiel perfect in een scale-up zoals Qargo.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 78,
+        "reason": "Deze kandidaat combineert React, GraphQL, real-time WebSockets en interactieve kaarten — stuk voor stuk kernvereisten van de Qargo-vacature.",
+        "check": "g11",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Frontend Software Engineer bij Qargo: werkt u ook met externe consultants?\n\nDeze kandidaat heeft 11 jaar frontend-ervaring en werkt momenteel aan high-performance webapplicaties met Angular/TypeScript, real-time WebSockets, GraphQL en interactieve kaarten via OpenLayers — exact het type complexe UI-uitdagingen dat Qargo beschrijft. Daarnaast bouwde deze kandidaat een eigen React/Next.js-product met Node en PostgreSQL, wat de breedte van het profiel aantoont.\n\nDe combinatie van diepgaande frontend-expertise, UX/UI-ownership en ervaring met realtime data en mapping-interfaces maakt deze kandidaat bijzonder relevant voor de drag-and-drop planningsschermen en interactieve kaarten in uw platform.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 38,
+        "score": 68,
+        "reason": "Deze kandidaat leidde als technical lead een enterprise SaaS-platform in React/TypeScript/Node.js met 7.000+ actieve gebruikers en volledige architectuurverantwoordelijkheid.",
+        "check": "a6"
+      }
+    ]
+  },
+  {
+    "title": "Frontend Developer (m/w/d)",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1208/Description/1",
+    "company": "DMG MORI BeLux",
+    "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
+    "first_seen": "2026-08-06",
+    "stack": [
+      "Angular",
+      "Linux",
+      "Docker",
+      "Azure IoT",
+      "Azure DevOps",
+      "CI/CD"
+    ],
+    "experience": "3+ yrs",
+    "contact": {
+      "name": "Marius Thomas",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 7,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 11 jaar Angular/TypeScript-ervaring met Azure DevOps, agile teams en lead UX/UI-verantwoordelijkheid in productieomgevingen.",
+        "check": "g11",
+        "pitch": "Beste,\n\nU bent op zoek naar een Frontend Developer met sterke Angular-achtergrond voor uw CELOS-digitaliseringsplatform. Werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft 11 jaar frontend-ervaring, met Angular en TypeScript als kernstack. Momenteel bouwt deze kandidaat high-performance webapplicaties voor het Nationaal Crisiscentrum — real-time data, WebSockets, complexe UI — in een agile team met Azure en Azure DevOps. Een recente opdracht omvatte de volledige herbouw van een Angular 19-applicatie vanuit Figma-designs inclusief gedeelde componentenbibliotheek.\n\nDe combinatie van diepgaande Angular-kennis, 10+ jaar Agile/Scrum, Azure DevOps-ervaring en sterke UX-feeling maakt deze kandidaat bijzonder geschikt voor uw frontend-rol binnen een microservice-omgeving.\n\nGraag bel ik u kort om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 13,
+        "score": 76,
+        "reason": "Deze kandidaat heeft aantoonbare Angular- en Docker/CI-CD-ervaring in productieomgevingen, inclusief een logistiek platform voor industriële context.",
+        "check": "y5",
+        "pitch": "Beste,\n\nVoor uw Frontend Developer-vacature bij DMG MORI BeLux — gericht op Angular in een microservice- en Industrie 4.0-context — wil ik u graag een relevante kandidaat voorstellen. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft 5 jaar freelance full-stack ervaring met Angular, Docker en CI/CD als vaste pijlers. Bijzonder relevant: voor Staalbeton (Groep Van Roey) bouwde deze kandidaat een logistiek platform over 30+ productiehallen — een industriële omgeving die sterk aansluit bij uw Fertigungsumfeld. De technische stack (.NET, Angular, Electron, Ionic, Docker) en de zelfstandige projectaanpak sluiten goed aan bij uw agile team.\n\nIk vertel u graag meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 25,
+        "score": 72,
+        "reason": "Deze kandidaat heeft Angular-ervaring, Linux-first workflow, Docker en CI/CD, plus directe domeinervaring in manufacturing-gerelateerde projecten.",
+        "check": "r4"
+      }
+    ]
+  },
+  {
+    "title": "Quantitative Analyst - Flex Optimisation",
+    "url": "https://job-boards.eu.greenhouse.io/yuso/jobs/4947532101",
+    "company": "YUSO",
+    "source": "https://yuso.com/nl/vacatures",
+    "first_seen": "2026-08-06",
+    "stack": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Scikit-Learn",
+      "SQL",
+      "MySQL",
+      "Git",
+      "AWS",
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 72,
+        "reason": "Deze kandidaat combineert Python, AWS, ML/LLM en tijdreeksanalyse met financiële marktervaring bij Nasdaq Sydney.",
+        "check": "w11",
+        "pitch": "Beste,\n\nU bent op zoek naar een Quantitative Analyst voor Flex Optimisation bij YUSO. Werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft 11 jaar ervaring en een profiel dat sterk aansluit bij uw vereisten. Bij Foliant werkt deze kandidaat actief met Python, AWS (EC2/S3) en tijdreeksdata — exact de productiestack die YUSO gebruikt. Eerder bij Nasdaq Sydney deed deze kandidaat C++ tijdreeksanalyse in een financiële marktomgeving, wat de kwantitatieve ingesteldheid bewijst. Machine learning, LLM-fine-tuning en statistische modellering zitten diep verankerd in het profiel. De combinatie van data lake architectuur, AWS en algoritmische kennis maakt deze kandidaat direct inzetbaar in uw quant team.\n\nEnergiemarktervaring is minder uitgesproken, maar de wiskundige en technische bagage is uitzonderlijk sterk voor een profiel dat snel bijleert in een nieuw domein.\n\nGraag plan ik een korte call in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 75,
+        "score": 42,
+        "reason": "Deze kandidaat heeft Python, SQL en ML-ervaring maar mist kwantitatieve optimalisatie en energiemarktkennis volledig.",
+        "check": "t5"
+      },
+      {
+        "row": 27,
+        "score": 38,
+        "reason": "Deze kandidaat heeft sterke Python/AWS/dataplatform-skills maar geen kwantitatieve modellering of energiemarktervaring.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "[Vacatures] Abovo Maxlead zoekt een Software Developer",
+    "url": "https://marketingreport.nl/vacatures-abovo-maxlead-zoekt-een-software-developer",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-06",
+    "stack": [
+      "C#",
+      ".NET"
+    ],
+    "experience": "2+ yrs",
+    "ai_matches": [
+      {
+        "row": 6,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 5 jaar hands-on C# en .NET ervaring met Angular, Entity Framework en Azure DevOps in productieomgevingen.",
+        "check": "l5",
+        "pitch": "Beste,\n\nIk zag dat Abovo Maxlead op zoek is naar een Software Developer voor Max LeadManager. Werkt u ook samen met externe consultants? Dan heb ik een sterke kandidaat die ik u graag wil voorstellen.\n\nDeze kandidaat heeft 5 jaar concrete ervaring als .NET Developer met precies de stack die u zoekt: C#, .NET Core, Angular, Entity Framework en Azure DevOps. Bij IQVIA bouwde deze kandidaat meerdere productieapplicaties — waaronder een portalapplicatie in .NET Core 8 + Angular 18 en een universe-applicatie voor ziekenhuizen en apotheken — met eigen authenticatie, geo-integraties en performancemonitoring. Dat zijn precies het soort klantwensen vertalen naar technische oplossingen en het zelfstandig bouwen en testen van functionaliteiten die u beschrijft.\n\nDeze kandidaat werkt nauwkeurig, heeft aantoonbare ervaring met unit testing en werkt goed samen in teamverband. Ik zou graag een kort gesprek plannen om te bekijken of er een goede match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 19,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 8 jaar C# en .NET ervaring met sterke testdiscipline, EF Core en Blazor in complexe productieomgevingen.",
+        "check": "j8",
+        "pitch": "Beste,\n\nAbovo Maxlead zoekt een C# Developer voor de verdere ontwikkeling van Max LeadManager. Werkt u hiervoor ook met externe consultants? Dan wil ik graag een sterke kandidaat introduceren.\n\nDeze kandidaat heeft 8 jaar ervaring in C#, .NET en Entity Framework, met een duidelijk trackrecord in het bouwen, testen en onderhouden van softwareplatformen. Bij Belden werkte deze kandidaat aan een industrieel netwerkmonitoringplatform: nieuwe features implementeren, geautomatiseerde testcoverage uitbreiden en performanceproblemen aanpakken via query-optimalisatie. Bij Capsugel/Lonza hield deze kandidaat 15 jaar oude productieapplicaties draaiende — inclusief Blazor en EF Core — wat aantoont dat deze kandidaat ook legacy-software goed begrijpt en verbetert.\n\nMet een sterke TDD-discipline en ervaring in Scrum past deze kandidaat goed in een team met hoge kwaliteitsfocus zoals het MediaTech-team van Abovo Maxlead. Zullen we een kort kennismakingsgesprek inplannen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 36,
+        "score": 68,
+        "reason": "Deze kandidaat heeft 14 jaar C# en .NET ervaring met REST APIs bouwen, legacy code refactoren en gestructureerde testomgevingen opzetten.",
+        "check": "k14"
+      }
+    ]
+  },
+  {
     "title": "SCADA & OT Engineer",
     "url": "https://www.grootgrotergroots.be/nl-be/jobs/scada-ot-engineer-1/",
     "company": "Groot Groter Groots",
@@ -2248,24 +2403,24 @@
     "ai_matches": [
       {
         "row": 42,
-        "score": 88,
-        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met Azure Service Bus, legacy .NET Framework migratie en tech lead ervaring.",
+        "score": 90,
+        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met Azure Service Bus en actieve tech lead-ervaring bij RIZIV en Colruyt.",
         "check": "d8",
-        "pitch": "Beste,\n\nIk las uw vacature voor een .NET Software Engineer en vroeg me af of u samenwerkt met externe consultants voor dit soort profielen.\n\nIk wil u graag deze kandidaat voorstellen: een Senior .NET Developer met 8 jaar ervaring in exact de technologieën die u zoekt — C#, ASP.NET, Blazor en Azure Service Bus. Bij RIZIV-INAMI werkt deze kandidaat als backup Tech Lead op een volledig Blazor/ASP.NET MVC-platform, inclusief architectuurbeslissingen en PR-reviews. Bij Colruyt Group leidde deze kandidaat een migratie van monolithische applicaties naar microservices via Azure Service Bus — precies het soort moderniseringswerk dat aansluit bij uw focus op gedistribueerde systemen en Azure-integraties.\n\nDe combinatie van technische diepgang, senioriteitssignalen en kennis van REST-services en legacy-migraties maakt dit een profiel dat u meteen zal aanspreken.\n\nGraag bel ik u even om dit concreet toe te lichten.\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook samenwerkt met externe consultants. Ik denk meteen aan een kandidaat uit ons netwerk die uitstekend aansluit.\n\nDeze kandidaat heeft 8 jaar ervaring in exact de gevraagde stack: C#, ASP.NET, Blazor en Azure Service Bus. Bij RIZIV-INAMI werkt deze kandidaat momenteel als senior .NET developer én backup Tech Lead, met PR reviews, taakverdeling en architectuurafstemming. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie via event-driven integratie met Azure Service Bus — precies het soort modernisering dat Pionira nastreeft in de logistieke sector.\n\nDe combinatie van Blazor full-stack, gedistribueerde systemen én technische begeleiding van teams maakt deze kandidaat meteen inzetbaar op architecturaal niveau.\n\nGraag vertel ik jullie meer in een kort gesprek — past er deze week iets?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 61,
-        "score": 85,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring met Blazor, .NET MAUI, Azure en mission-critical gedistribueerde systemen in productie.",
+        "score": 87,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, inclusief .NET MAUI-migratieplanning, Blazor, Azure en mission-critical gedistribueerde systemen.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een .NET Software Engineer wou ik u graag een uitzonderlijk sterk profiel voorstellen — mits u openstaat voor externe consultants.\n\nDeze kandidaat is freelance .NET Developer met 19 jaar ervaring en beschikt over bewezen kennis van Blazor, Azure, CQRS en Clean Architecture. Bijzonder relevant: bij TenForce was deze kandidaat betrokken bij .NET MAUI-migratieplanning voor een legacy Xamarin-app — een expliciet pluspunt in uw vacature. Bij Ypto/NMBS bouwde deze kandidaat een mission-critical integratiebrug met .NET Core, Azure Cosmos DB en Kubernetes. Het Blazor-werk bij Gervi met .NET Aspire en OpenTelemetry toont ook de frontend-diepgang die u zoekt.\n\nDit is een kandidaat met architecturale denkkracht, sterke testdiscipline en brede Azure-kennis die meteen meerwaarde biedt voor Pionira.\n\nMag ik u bellen voor een kort gesprek?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer wil ik graag een sterke kandidaat uit ons netwerk voorstellen — op voorwaarde dat Pionira openstaat voor externe profielen.\n\nDeze kandidaat is freelance .NET-specialist met 19 jaar ervaring en een indrukwekkende recente trackrecord. Bij Ypto/NMBS bouwde deze kandidaat een mission-critical synchronisatiebrug met .NET Core, Azure Cosmos DB en Kubernetes. Bij TenForce was deze kandidaat betrokken bij de migratieplanning van Xamarin naar .NET MAUI — een expliciet pluspunt in jullie vacature. Daarnaast zijn Blazor, Azure-services en Clean Architecture/CQRS vaste onderdelen van de werkwijze.\n\nDe combinatie van schaalbare gedistribueerde systemen, mobile migratie-ervaring en een sterke testdiscipline sluit nauw aan bij wat Pionira zoekt voor zijn logistieke platform.\n\nMag ik jullie bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 20,
-        "score": 78,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, SQL en gedistribueerde architecturen in productie.",
+        "score": 82,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure App Services, Azure Service Bus en distributed systems in productie.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk zag uw vacature voor een .NET Software Engineer en wou u graag een senior profiel voorstellen, als u werkt met externe consultants.\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en werkt momenteel aan een complexe migratie van legacy desktopapplicaties naar een cloud-webapplicatie met .NET 8, Kafka, CQRS, Postgres en AWS/Kubernetes. Voor een langlopend nevenproject op Azure bouwde deze kandidaat een applicatie met Azure App Services, Azure Service Bus en SQL — de exacte Azure-diensten die Pionira zoekt. Met een MCSD-certificering, ervaring als team lead en technische analyse is dit een profiel met duidelijke senioriteitssignalen.\n\nDe combinatie van Blazor, Azure-integraties en distributed systems-architectuur sluit nauw aan bij wat u zoekt voor uw logistieke softwareplatform.\n\nIk plan graag een kort gesprek om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie vacature voor een .NET Software Engineer. Werkt Pionira ook met externe consultants? Dan heb ik een interessant profiel voor jullie.\n\nDeze kandidaat heeft meer dan 16 jaar .NET-ervaring en werkt momenteel aan een volledige rewrite van legacy desktopapplicaties naar een cloud-webplatform met .NET 8, CQRS, Kafka en Kubernetes. Daarnaast beheert deze kandidaat al meer dan tien jaar een Azure-webapplicatie voor een retailklant, met Azure App Services, Azure Service Bus en SQL — de exacte diensten die Pionira vermeldt. De MCSD-certificering en ervaring als tech lead en technisch analist onderstrepen de senioriteitsvereisten.\n\nDe breedte van distributed systems kennis en de bewezen Azure-praktijkervaring maken dit een direct inzetbaar profiel voor jullie logistieke softwareomgeving.\n\nPast er deze week een kort gesprek?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -2732,22 +2887,22 @@
       {
         "row": 73,
         "score": 78,
-        "reason": "Deze kandidaat bouwde grote Python/PySpark/Databricks datapipelines op Azure en ontwierp event-driven microservices-architecturen, met brede ervaring in wetenschappelijke dataverwerking.",
+        "reason": "Deze kandidaat bouwde grote Python/PySpark/Spark-datapipelines en microservices-architecturen op Azure, met AI-assisted development en CTO-eigenaarschap.",
         "check": "w20",
-        "pitch": "Beste,\n\nVITO zoekt een Senior Software Engineer voor hun Earth Observation Services — werkt u hiervoor samen met externe consultants?\n\nWij hebben een kandidaat die naadloos aansluit bij uw noden. Deze kandidaat heeft als CTO en lead platform engineer een volledig ML-dataplatform opgezet, inclusief Python-pipelines, Azure-infrastructuur (ADF, Databricks/Spark, ADLS Gen2), Terraform IaC en event-driven microservices. Bij Materialise ontwierp deze kandidaat van nul een big-data platform op Azure met medallion-architectuur, IoT-ingestie en ML-integratie — vergelijkbaar met uw EO-verwerkingsketens. De combinatie van Python-expertise, cloud-native deployments (Docker, Kubernetes, Azure), CI/CD en architectuurervaring matcht uw vacature sterk. Bovendien heeft deze kandidaat een KU Leuven ingenieursopleiding en 20 jaar ervaring.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op naar aanleiding van de vacature Senior Software Engineer – Earth Observation Services bij VITO. Werkt u ook samen met externe consultants?\n\nDeze kandidaat is een ervaren platform- en data-architect met 20 jaar ervaring in Python, PySpark/Spark, microservices en Azure-infrastructuur (Databricks, ADF, Delta Lake, Terraform). Bij Materialise bouwde deze kandidaat van nul een grootschalig big-data platform op Azure – medallion-architectuur, IoT-ingestie en ML-integratie – vergelijkbaar met de EO-verwerkingsketens bij VITO. Als CTO bij een computer-vision startup bezat deze kandidaat volledige technische eigenaarschap inclusief ML-datapipelines en cloud-infrastructuurontwerp. Ervaring met AI-assisted development, Docker, CI/CD en event-driven microservices op AWS completeren het profiel. De combinatie van architectuurdenken en hands-on implementatie maakt deze kandidaat sterk voor het vertalen van R&D-prototypes naar robuuste productiediensten.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
       },
       {
         "row": 27,
         "score": 75,
-        "reason": "Deze kandidaat heeft bewezen grote Python/Scala/Spark datapipelines te bouwen op Kubernetes/AWS met Terraform en ArgoCD, en werkte bij imec aan wetenschappelijke digitale-twin prototyping.",
+        "reason": "Deze kandidaat heeft bewezen grote-schaal dataverwerkingspipelines (Spark, Kafka, Flink) in Python/Scala te bouwen, met Kubernetes, Terraform en Airflow op AWS.",
         "check": "a8",
-        "pitch": "Beste,\n\nVITO is op zoek naar een Senior Software Engineer voor Earth Observation Services — werkt u daarvoor ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar ervaring in grootschalige dataverwerking: bij DPG Media verving deze kandidaat batch Spark-pipelines door event-driven streaming-architecturen, en bij imec werd gewerkt aan wetenschappelijke prototyping en Azure ETL in Python/Scala. De Terraform-infrastructuur, Kubernetes (AWS EKS + ArgoCD), CI/CD en Python-skills sluiten direct aan bij uw vereisten. De imec-achtergrond toont affiniteit met R&D-naar-productie trajecten, vergelijkbaar met het vertalen van EO-prototypes naar operationele services. MSc Computerwetenschappen (VUB) en AWS Solutions Architect gecertificeerd.\n\nGraag plan ik een kort gesprek in om deze kandidaat concreet voor te stellen.\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Senior Software Engineer – Earth Observation Services bij VITO. Werkt u ook met externe consultants voor deze rol?\n\nDeze kandidaat is een ervaren streaming data engineer (8 jaar) met een sterke achtergrond in grootschalige dataverwerking: Kafka Streams, Apache Spark en Flink voor real-time pipelines, Airflow voor batchorkestratie, en Terraform + Kubernetes (AWS EKS, ArgoCD) voor cloud-native deployments. Bij imec werkte deze kandidaat aan digitale-twin-prototyping en Azure ETL-pipelines – een domein dat nauw aansluit bij het EO-wetenschappelijke werk van VITO. Een MSc Computerwetenschappen (VUB) en een Python-basis in combinatie met bewezen CI/CD-praktijken sluiten goed aan bij de vereisten. Het vertalen van R&D-prototypes naar stabiele productieservices is een rode draad in het parcours.\n\nIk vertel u graag meer tijdens een kort gesprek.\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 50,
-        "score": 62,
-        "reason": "Deze kandidaat heeft diepgaande Kubernetes/GitOps/Python-automatisering en bouwde custom operators en self-service portals, maar mist affiniteit met wetenschappelijke of geospatiale dataverwerking.",
-        "check": "j8"
+        "row": 40,
+        "score": 68,
+        "reason": "Deze kandidaat beheert productie-Databricks/PySpark-pipelines, Kafka-streaming en CI/CD met geautomatiseerd testen, relevant voor grootschalige EO-dataverwerking.",
+        "check": "b17"
       }
     ]
   },
