@@ -56,7 +56,18 @@ function prefilter(text, title, cands, top = 15) {
   return cands.filter((_, i) => i % step === 0).slice(0, top);
 }
 
-export async function onRequestGet({ env }) {
+export async function onRequestGet({ request, env }) {
+  const fileId = new URL(request.url).searchParams.get("file");
+  if (fileId) {
+    const raw = await env.WORKFLOW_KV.get("manualfile:" + fileId);
+    if (!raw) return json({ error: "bestand niet gevonden" }, 404);
+    const f = JSON.parse(raw);
+    const bytes = Uint8Array.from(atob(f.data), (c) => c.charCodeAt(0));
+    return new Response(bytes, { headers: {
+      "content-type": f.type || "application/octet-stream",
+      "content-disposition": `attachment; filename="${(f.name || "vacature").replace(/[^\w\.\- ]/g, "_")}"`,
+    } });
+  }
   return json(await readJobs(env));
 }
 
@@ -65,6 +76,7 @@ export async function onRequestPost({ request, env }) {
   try { body = await request.json(); } catch { return json({ error: "invalid json" }, 400); }
 
   if (body.action === "delete" && body.id) {
+    await env.WORKFLOW_KV.delete("manualfile:" + body.id).catch(() => {});
     const jobs = (await readJobs(env)).filter(j => j.id !== body.id);
     await env.WORKFLOW_KV.put("manualjobs", JSON.stringify(jobs));
     return json(jobs);
@@ -123,6 +135,11 @@ ${lines.join("\n")}`;
 
   const job = { id: "m" + Date.now().toString(36), company, title, text: text.slice(0, 4000), stack,
                 first_seen: new Date().toISOString().slice(0, 10), ai_matches };
+  if (body.fileData && body.fileName && String(body.fileData).length < 11000000) {
+    await env.WORKFLOW_KV.put("manualfile:" + job.id, JSON.stringify({
+      name: String(body.fileName).slice(0, 140), type: String(body.fileType || "").slice(0, 80), data: body.fileData }));
+    job.file = String(body.fileName).slice(0, 140);
+  }
   const jobs = await readJobs(env);
   jobs.unshift(job);
   await env.WORKFLOW_KV.put("manualjobs", JSON.stringify(jobs.slice(0, 100)));
