@@ -812,8 +812,12 @@ def write_outputs(state: dict, new_jobs: list[dict], now: datetime) -> None:
     # latest.json: full current list, newest first — the dashboard reads this
     all_jobs = sorted(state.values(),
                       key=lambda j: j.get("first_seen", ""), reverse=True)
+    lean = [{k: v for k, v in j.items() if k != "snippet"} for j in all_jobs]
     (OUTPUT_DIR / "latest.json").write_text(
-        json.dumps(all_jobs, indent=2, ensure_ascii=False), encoding="utf-8")
+        json.dumps(lean, indent=2, ensure_ascii=False), encoding="utf-8")
+    snippets = {j["url"]: j["snippet"] for j in all_jobs if j.get("snippet")}
+    (OUTPUT_DIR / "snippets.json").write_text(
+        json.dumps(snippets, ensure_ascii=False), encoding="utf-8")
 
 
 def main() -> None:
@@ -868,6 +872,7 @@ def main() -> None:
                 detail = fetch(job["url"]) if job["url"] != url else html
                 page_text = BeautifulSoup(detail or "", "html.parser") \
                     .get_text(" ", strip=True)
+                job["snippet"] = re.sub(r"\s+", " ", page_text)[:1200]
                 with ai_sem:
                     job = enrich_with_claude(job, page_text)
                     job = ai_match_job(job, page_text, candidates)
