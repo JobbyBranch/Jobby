@@ -1,0 +1,107 @@
+[
+  {
+    "title": "R&I Software Engineer",
+    "url": "https://scioteq.recruitee.com/o/ri-software-engineer",
+    "company": "ScioTeq",
+    "source": "https://scioteq.recruitee.com/",
+    "first_seen": "2026-08-07",
+    "snippet": "ScioTeq BV - R&I Software Engineer Skip to content ScioTeq BV Homepage ScioTeq BV Homepage English en English Nederlands français ScioTeq BV Homepage ScioTeq BV Homepage English en English Nederlands français ScioTeq BV Homepage ScioTeq BV Homepage ScioTeq BV Homepage ScioTeq BV Homepage English R&I Software Engineer On-site Kortrijk , Vlaams Gewest , Belgium R&D ScioTeq is world leader in development and manufacturing of high-tech visualization solutions for the world’s most demanding sectors : Avionics , Air Traffic Control and Defense & Security markets. Job details Apply Job description Are you excited by emerging technologies, software innovation, AI, graphics and compuvision? Do you enjoy exploring concepts, building proofs of concept, and turning promising ideas into mature technologies ready for product development? We're looking for an R&I Software Engineer to join our Research & Innovation team. In this role, you'll contribute to multiple innovation projects, helping to investigate, prototype and mature technologies that will shape our next generation of products. Your responsibilities As an R&I Software Engineer, you will contribute to the execution of strategic innovati",
+    "stack": [
+      "C",
+      "Python"
+    ],
+    "experience": "5-10 yrs",
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen ervaring met AI/ML, LLM fine-tuning, Python en embedded C++ (Nuance automotive speech recognition), wat nauw aansluit bij de R&I-rol.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de vacature voor R&I Software Engineer bij ScioTeq. Werkt u ook samen met externe consultants voor moeilijk invulbare profielen?\n\nDeze kandidaat heeft 11 jaar ervaring in software engineering met een sterke focus op AI/ML en C++. Bij Nuance werkte deze kandidaat aan embedded C++ spraakherkenning voor de automotive sector — precies het soort safety-critical, embedded domein dat ScioTeq zoekt. Bij Foliant wordt actief gewerkt aan LLM fine-tuning (Axolotl, Ollama) en AWS data lakes, terwijl bij AWV een lokaal gehoste LLM voor NLP werd geïntroduceerd als software architect. Python en C++ zitten diep verankerd in de carrière, en ook graphics-gerelateerde low-level programmering (timeseries C++ bij Nasdaq, crypto-module in C++) toont technische breedte.\n\nDeze kandidaat is precies het innovatieve, nieuwsgierige profiel dat ScioTeq zoekt voor haar R&I-team. Ik bespreek dit graag even in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 62,
+        "reason": "Deze kandidaat heeft embedded software-ervaring in C en Python (Barco, Enovates) en bouwde complexe technische systemen, maar mist AI/ML en graphics-expertise.",
+        "check": "l7"
+      },
+      {
+        "row": 27,
+        "score": 42,
+        "reason": "Deze kandidaat heeft een sterke data-engineering achtergrond en Sony embedded Linux/C-ervaring, maar profiel is te ver verwijderd van embedded software, graphics en AI voor avionics.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "Medior Python Engineer",
+    "url": "https://job-boards.eu.greenhouse.io/yuso/jobs/4948435101",
+    "company": "YUSO",
+    "source": "https://yuso.com/nl/vacatures",
+    "first_seen": "2026-08-07",
+    "snippet": "Job Application for Medior Python Engineer at Yuso Website Back to jobs Medior Python Engineer Waregem HQ Apply Are you a talented Python developer eager to make a real impact in a fast-paced energy trading environment? Our growing engineering team is searching for a Medior Python Software Engineer to build and optimize the core applications that drive our business. If you're passionate about efficient code, cloud technology, tackling diverse challenges, and owning solutions from idea to deployment, we want to hear from you! What you'll do Develop & optimize : design and build high-performance Python applications for energy trading, focusing on speed and reliability. Performance first : optimize code and data interactions with a keen eye for efficient access patterns and data structures. Asynchronous mastery : implement advanced asynchronous programming using **structured concurrency** to build responsive, efficient systems. Cloud integration : work with our AWS cloud environment, applying Infrastructure as Code principles. End-to-end ownership : work directly with business stakeholders to understand needs, define requirements, and independently drive features from conception to de",
+    "stack": [
+      "python",
+      "aws",
+      "git"
+    ],
+    "experience": "2-5 yrs",
+    "contact": {
+      "name": null,
+      "email": "hr@yuso.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat bouwde SaaS-platformen end-to-end in Python en Java met volledige CI/CD-ownership en directe stakeholderbetrokkenheid.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie vacature voor een Medior Python Engineer bij YUSO. Werken jullie ook met externe consultants?\n\nDeze kandidaat heeft ruime Python-ervaring opgebouwd in professionele contexten, waaronder geautomatiseerde testsystemen bij Barco en volledige SaaS-architectuur bij NSX en SALTECH. Wat deze kandidaat onderscheidt, is de end-to-end ownership: van requirementanalyse met stakeholders tot deployment via CI/CD met Jenkins en Docker — exact wat YUSO zoekt. De kandidaat werkte ook als interim team lead en gaf interne seminars, wat de senioriteit aantoont. Git, PostgreSQL, Linux en Docker zitten stevig in het profiel. AWS-ervaring is beperkt, maar de cloud-mindset is aanwezig via zelfgebouwde hosting en infrastructuurbeheer. Voor een medior rol in een dynamisch energieteam is dit een sterk en coachbaar profiel.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 1,
+        "score": 65,
+        "reason": "Deze kandidaat heeft sterke Python- en AWS-ervaring maar focust op AI/ML en architectuur eerder dan op applicatieontwikkeling in energiecontext.",
+        "check": "w11"
+      },
+      {
+        "row": 73,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede Python- en cloud-ervaring als platform-architect, maar het profiel is te senior en data-georiënteerd voor een medior Python-developer rol.",
+        "check": "w20"
+      }
+    ]
+  },
+  {
+    "title": "Application Owner",
+    "url": "https://www.stepstone.be/jobs--Application-Owner-Wilrijk-Acerta-HR--2232657-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-07",
+    "snippet": "Application Owner - Job at Acerta HR in Wilrijk Find Jobs Find Jobs Application Owner Acerta HR Wilrijk Contract duration unspecified Full Time, Home Office Published: 1 hour ago Be an early applicant Application Owner Acerta HR Bouw mee aan een slimme digitale werkplek Wie zijn wij? Acerta is een toonaangevende HR-dienstengroep in België met meer dan 1.550 collega’s – verdeeld over 26 kantoren in Vlaanderen, Brussel en Wallonië. Met onze kracht van mensen ontzorgen we de starters, zelfstandigen, werkgevers en boekhouders. Wat we belangrijk vinden? Respect voor de diversiteit en eigenheid van mensen, initiatief durven nemen en uitdagingen als één team aanpakken. We zijn fier op wat we samen bereiken. Bij ons ben jij de #GrootsteTroef! Wat doe je precies als ... Application Owner Neem het functionele eigenaarschap op van interne applicaties binnen Starters & Zelfstandigen en zorg ervoor dat collega's kunnen rekenen op stabiele, performante en gebruiksvriendelijke toepassingen. Onderzoek incidenten, analyseer onderliggende oorzaken en werk samen met business, IT en leveranciers aan structurele verbeteringen en optimalisaties. Beheer en prioriteer verbeterinitiatieven, begeleid wijzig",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 22,
+        "score": 88,
+        "reason": "Deze kandidaat werkt momenteel al bij Acerta als freelance QA/Scrum Master en kent de applicaties, processen en stakeholders van binnenuit.",
+        "check": "n10",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor een Application Owner bij Acerta en vroegen ons af of u samenwerkt met externe consultants voor de invulling van dergelijke rollen.\n\nWe hebben een kandidaat die momenteel al actief is binnen Acerta (via Hyperfokus) als freelance QA Engineer en Scrum Master. Deze kandidaat bouwde en onderhoudt de nachtelijke Playwright-automatiseringsbuild, vertaalt requirements naar acceptatiecriteria en leidde een QA-automatiseringsinititatief — meerdere releases zonder kritieke incidenten. Daarnaast heeft deze kandidaat als gecertificeerd CSPO en CSPO bij AvioBook en TrendMiner bewezen functioneel eigenaarschap te kunnen opnemen, backlogs te beheren en stakeholders te aligneren. De combinatie van directe Acerta-kennis, PO-ervaring én technisch inzicht (TypeScript, BPMN, UML) maakt deze kandidaat uitzonderlijk goed geplaatst om de rol van Application Owner onmiddellijk op te nemen.\n\nGraag plan ik een kort gesprek in om dit concreet te bespreken.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 30,
+        "score": 82,
+        "reason": "Deze kandidaat werkte 3 jaar als BA bij Acerta zelf en vertaalde payroll- en regelgevingsdomeinen naar functionele specs voor interne applicaties.",
+        "check": "y9",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Application Owner bij Acerta wilden we u graag een uitzonderlijk relevante kandidaat voorstellen — werkt u ook met externe consultants?\n\nDeze kandidaat heeft van 2022 tot 2025 als Business Analyst rechtstreeks bij Acerta gewerkt aan de opbouw van een payroll-engine, was domeinlead voor meerdere domeinen en fungeerde als schakel tussen business, legal en IT. Nadien deed deze kandidaat gelijkaardige BA-ervaring op bij een grote payroll-implementatie (ASR-declaraties). De combinatie van interne Acerta-kennis, stakeholderbeheer op meerdere niveaus en bewezen applicatiebegeleiding van analyse tot implementatie sluit nauw aan bij wat de rol vraagt. Bovendien sluit het domein — starters en zelfstandigen — rechtstreeks aan bij de Acerta-context die deze kandidaat al kent.\n\nIk stel graag een kort kennismakingsgesprek voor.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 29,
+        "score": 68,
+        "reason": "Deze kandidaat combineerde PO- en BA-rollen in HR/staffing en supply chain met backlogbeheer, procesanalyse en stakeholderbeheer als centrale competenties.",
+        "check": "n15"
+      }
+    ]
+  }
+]
