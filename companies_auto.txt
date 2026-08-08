@@ -15308,3 +15308,5 @@ Shacklebolt;legogames.fandom.com
 Solidus Consulting;solidus-consulting.hr
 Thamani;thamani.net
 WVDA;wvda.applicantstack.com
+NM Consult;nmconsult.be
+SONARR;sonarr.be
