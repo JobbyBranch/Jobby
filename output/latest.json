@@ -1,5 +1,882 @@
 [
   {
+    "title": "Investment Management Data Analyst Full-time",
+    "url": "https://www.riskconcile.com/careers/investment-management-data-analyst/",
+    "company": "RiskConcile",
+    "source": "https://www.riskconcile.com/careers/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "python"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@riskconcile.com"
+    }
+  },
+  {
+    "title": "Junior Product Owner / Project coordinator",
+    "url": "https://www.routeyou.com/jobs/jr-product-owner-coordinator-0526",
+    "company": "RouteYou",
+    "source": "https://www.routeyou.com/en/jobs",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "node",
+      "scrum"
+    ],
+    "contact": {
+      "name": null,
+      "email": "sales@routeyou.com"
+    }
+  },
+  {
+    "title": "SAP Series",
+    "url": "https://www.sonitron.be/careers/SAP series, https:/www.sonitron.be/products/sap-series/, ",
+    "company": "SONITRON",
+    "source": "https://www.sonitron.be/careers/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "sap"
+    ],
+    "contact": {
+      "name": null,
+      "email": "support@sonitron.be"
+    }
+  },
+  {
+    "title": "Architecturale opmetingen van gebouwen",
+    "url": "https://jobs.landmetervaneester.be/nl/diensten/landmeetkunde/architecturale-opmetingen-van-gebouwen",
+    "company": "Landmeterskantoor Van Eester",
+    "source": "https://jobs.landmetervaneester.be/nl/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "javascript"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@landmetervaneester.be"
+    }
+  },
+  {
+    "title": "Netwerk & snelheid",
+    "url": "https://www.yoin.be/nl/gsm-abonnement/netwerk",
+    "company": "Yoin",
+    "source": "https://www.yoin.be/nl",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "5G-netwerk",
+    "url": "https://www.yoin.be/nl/gsm-abonnement/5g",
+    "company": "Yoin",
+    "source": "https://www.yoin.be/nl",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Architect – Teamleader",
+    "url": "https://xarchitecten.be/vacatures/architect-teamleader/",
+    "company": "X ARCHITECTEN",
+    "source": "https://xarchitecten.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "jobs@alfabet.be"
+    }
+  },
+  {
+    "title": "Interieurarchitect met commerciële flair Lees de vacature",
+    "url": "https://www.amahaarden.com/nl/jobs/interieurarchitect-met-commerciële-flair",
+    "company": "A.M.A",
+    "source": "https://www.amahaarden.com/jobs",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@amahaarden.com"
+    }
+  },
+  {
+    "title": "Architect – Tekenaar",
+    "url": "https://xarchitecten.be/vacatures/architect-tekenaar/",
+    "company": "X ARCHITECTEN",
+    "source": "https://xarchitecten.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "jobs@alfabet.be"
+    }
+  },
+  {
+    "title": "Faculteit Ingenieurswetenschappen en Architectuur UGent",
+    "url": "https://www.ugent.be/ea/",
+    "company": "Alumnivereniging van de Ingenieurs afgestudeerd aan de Universiteit Gent",
+    "source": "https://aig.ugent.be",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Architect – Ontwerper",
+    "url": "https://xarchitecten.be/vacatures/architect-ontwerper/",
+    "company": "X ARCHITECTEN",
+    "source": "https://xarchitecten.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "jobs@alfabet.be"
+    }
+  },
+  {
+    "title": "Ben je CFO en wil je aan de slag in ons netwerk en freelance of zelfstandig CFO worden?",
+    "url": "https://www.certifin.be/jobs/cfo-op-zoek-naar-variatie/",
+    "company": "CERTIFIN III",
+    "source": "https://www.certifin.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "spring"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@certifin.be"
+    }
+  },
+  {
+    "title": "Architect – Projectcoördinator",
+    "url": "https://xarchitecten.be/vacatures/architect-projectcoordinator/",
+    "company": "X ARCHITECTEN",
+    "source": "https://xarchitecten.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "jobs@alfabet.be"
+    }
+  },
+  {
+    "title": "Retail Automation: Definition, Benefits, and 5 Examples",
+    "url": "https://us.brinks.com/-/retail-automation",
+    "company": "Brinks Solutions Belgium",
+    "source": "https://us.brinks.com/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "UIA World Congress of Architects – Kopenhagen",
+    "url": "https://dakplus.be/uia-world-congress-of-architects-kopenhagen/",
+    "company": "DAK PLUS",
+    "source": "https://dakplus.be",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "javascript"
+    ]
+  },
+  {
+    "title": "Architecten",
+    "url": "https://dakplus.be/tag/architecten/",
+    "company": "DAK PLUS",
+    "source": "https://dakplus.be",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "javascript"
+    ]
+  },
+  {
+    "title": "Jobs | Accountancy Dataverantwoordelijke / Data-analist factuurautomatisatie Roeselare",
+    "url": "https://www.titeca.be/nl/vacature/dataverantwoordelijke-data-analist-factuurautomatisatie/",
+    "company": "FLEETECA",
+    "source": "https://www.titeca.be/nl/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "power bi"
+    ],
+    "contact": {
+      "name": null,
+      "email": "joke.suetens@titeca.be"
+    }
+  },
+  {
+    "title": "Project Manager Security Solutions m/v/x",
+    "url": "https://www.hearsee.be/vacatures/project-manager-security-solutions-mvx",
+    "company": "HearSee",
+    "source": "https://www.hearsee.be/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "christine.govaert@hearsee.be"
+    }
+  },
+  {
+    "title": "Videoanalist",
+    "url": "https://www.jongsintgillis.be/club/vacatures/videoanalist/",
+    "company": "Sportclub Jong Sint-Gillis",
+    "source": "https://www.jongsintgillis.be/club/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "spring"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@jongsintgillis.be"
+    }
+  },
+  {
+    "title": "Zelf groeien tot organisatie architect.",
+    "url": "https://www.wildezwanen.be/agenda-item/261001-leertraject-oa/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "welkom@wildezwanen.be"
+    }
+  },
+  {
+    "title": "SAP Treasury Senior Manager (w/m/d) Treasury Advisory Group · Frankfurt am Main, Germany · Hybrid",
+    "url": "https://careers.zandersgroup.com/jobs/7115837-sap-treasury-senior-manager-w-m-d",
+    "company": "ZANDERS",
+    "source": "https://careers.zandersgroup.com/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Organisatie Architecten",
+    "url": "https://www.wildezwanen.be/wie-zijn-we/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "welkom@wildezwanen.be"
+    }
+  },
+  {
+    "title": "Stadsarchitect",
+    "url": "https://www.architectenjobs.be/vacature/stadsarchitect/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "karolien.gabriel@oudenaarde.be"
+    }
+  },
+  {
+    "title": "[Vacancy] DVJ Insights has a position for Data Platform & AI Engineer",
+    "url": "https://marketingreport.nl/vacancy-dvj-insights-has-a-position-for-data-platform-and-ai-engineer",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "python",
+      "sql",
+      "power bi"
+    ]
+  },
+  {
+    "title": "Select all job openings that are (also) aimed at Ukrainian architects, designers and drafts(wo)man.",
+    "url": "https://architectenweb.nl/vacatures/?special=1",
+    "company": "3D Architectuur",
+    "source": "https://architectenweb.nl/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "SAP Treasury Manager (w/m/d) Treasury Advisory Group · Frankfurt am Main, Germany · Hybrid",
+    "url": "https://careers.zandersgroup.com/jobs/7115812-sap-treasury-manager-w-m-d",
+    "company": "ZANDERS",
+    "source": "https://careers.zandersgroup.com/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Security service",
+    "url": "https://www.stepstone.be/jobs/security-service",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Wat is een Organisatie Architect?",
+    "url": "https://www.wildezwanen.be/diensten/interne-organisatie-architect/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "[Vacancy] DEPT has a position for Lead CRM Strategist",
+    "url": "https://marketingreport.nl/vacancy-dept-has-a-position-for-lead-crm-strategist",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "architect uitvoering",
+    "url": "https://www.architectenjobs.be/vacature/architect-uitvoering-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Machine automatisering",
+    "url": "https://www.ac-solutions.be/nl/toepassingen/machine-automatisering",
+    "company": "A&C",
+    "source": "https://www.ac-solutions.be/nl",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "sales@ac-solutions.be"
+    }
+  },
+  {
+    "title": "QA Medewerker Incopack N.V. Dilsen-Stokkem Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/qa-medewerker-req2583",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "industriële automatisering",
+    "url": "https://www.ace.eu/nl-nl/industriele-automatisering",
+    "company": "A.C.E. Belgium",
+    "source": "https://www.ace.eu/nl-nl",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "javascript"
+    ],
+    "contact": {
+      "name": null,
+      "email": "bram.slabbers@ace.eu"
+    }
+  },
+  {
+    "title": "Business Analyst Belgium AED Rent",
+    "url": "https://www.aedgroup.com/jobs/business-analyst-2/",
+    "company": "A.E.D",
+    "source": "https://www.aedgroup.com/jobs/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "power bi"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@aedgroup.com"
+    }
+  },
+  {
+    "title": "SAP Treasury Senior Consultant (w/m/d) Treasury Advisory Group · Frankfurt am Main, Germany · Hybrid",
+    "url": "https://careers.zandersgroup.com/jobs/7115783-sap-treasury-senior-consultant-w-m-d",
+    "company": "ZANDERS",
+    "source": "https://careers.zandersgroup.com/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "sap"
+    ]
+  },
+  {
+    "title": "Security service",
+    "url": "https://www.stepstone.be/jobs?action=facet_selected%3bskills%3b685299&fsk=685299",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Word een Organisatie Architect.",
+    "url": "https://www.wildezwanen.be/diensten/leerling-tot-meester/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "[Vacatures] De Nieuwe Zaak (DNZ) zoekt een Technisch Web Analist",
+    "url": "https://marketingreport.nl/vacatures-de-nieuwe-zaak-dnz-zoekt-een-technisch-web-analist",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "sql",
+      "power bi"
+    ]
+  },
+  {
+    "title": "2-talig projectarchitect NL/FR voor Antwerps architectenbureau voor Brusselse projecten",
+    "url": "https://www.architectenjobs.be/vacature/2-talig-projectarchitect-nl-fr-voor-antwerps-architectenbureau-voor-brusselse-projecten/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Proces automatisering",
+    "url": "https://www.ac-solutions.be/nl/toepassingen/proces-automatisering",
+    "company": "A&C",
+    "source": "https://www.ac-solutions.be/nl",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "sales@ac-solutions.be"
+    }
+  },
+  {
+    "title": "Rockfon - automatisering volledig inpakproces",
+    "url": "https://www.ace.eu/nl-nl/rockfon-automatisering-volledig-inpakproces",
+    "company": "A.C.E. Belgium",
+    "source": "https://www.ace.eu/nl-nl",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "javascript"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@ace.eu"
+    }
+  },
+  {
+    "title": "QA Officer A-ware Dairy & Cream B.V. Coevorden Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/qa-officer-req2570",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "thomas.bos@royal-aware.com"
+    }
+  },
+  {
+    "title": "Vacature IT Engineer",
+    "url": "https://www.gdcnetworks.eu/vacature-it-engineer/",
+    "company": "Glados Computer Science Laboratories",
+    "source": "https://www.gdcnetworks.eu/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "spring",
+      "linux"
+    ],
+    "contact": {
+      "name": null,
+      "email": "jobs@gdcnetworks.eu"
+    }
+  },
+  {
+    "title": "Word lid van onze Organisatie Architecten community.",
+    "url": "https://www.wildezwanen.be/agenda-item/251210-zwermkracht/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "els@wildezwanen.be"
+    }
+  },
+  {
+    "title": "(ir.) architect stagiair",
+    "url": "https://www.architectenjobs.be/vacature/ir-architect-stagiair-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@ilsechristiaansen.be"
+    }
+  },
+  {
+    "title": "Junior Product Ontwikkelaar A-ware Shared Services B.V. Coevorden Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/junior-product-ontwikkelaar-req2417",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "dorus.wolters@royal-aware.com"
+    }
+  },
+  {
+    "title": "Richten en inrichten van organisatienetwerken",
+    "url": "https://www.wildezwanen.be/diensten/richten-en-inrichten-van-organisatienetwerken/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "welkom@wildezwanen.be"
+    }
+  },
+  {
+    "title": "Assistent Architect",
+    "url": "https://www.architectenjobs.be/vacature/assistent-architect-4/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "vaca@vaneeckhout.be"
+    }
+  },
+  {
+    "title": "Corporate QA Officer Product innovatie A-ware Shared Services B.V. Almere Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/corporate-qa-officer-product-innovatie-req2415",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "recruitment@royal-aware.com"
+    }
+  },
+  {
+    "title": "Versterken van interne organisatie architect expertise",
+    "url": "https://www.wildezwanen.be/diensten/versterken-van-interne-organisatie-architect-expertise/",
+    "company": "Wilde Zwanen",
+    "source": "https://www.wildezwanen.be/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Architect / Ir. Architect",
+    "url": "https://www.architectenjobs.be/vacature/architect-ir-architect-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "vaca@vaneeckhout.be"
+    }
+  },
+  {
+    "title": "QA Specialist A-ware Mozzarella & Cream B.V. Heerenveen Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/qa-specialist-req2397",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "recruitment@royal-aware.com"
+    }
+  },
+  {
+    "title": "Liniaal Architecten zoekt assistent-architect / (Ir) - architect",
+    "url": "https://www.architectenjobs.be/vacature/liniaal-architecten-zoekt-assistent-architect-ir-architect/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "contact@liniaalarchitecten.be"
+    }
+  },
+  {
+    "title": "Supply Network Planner A-ware Cheese B.V. Almere Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/supply-network-planner-req2349",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "power bi"
+    ],
+    "contact": {
+      "name": null,
+      "email": "recruitment@royal-aware.com"
+    }
+  },
+  {
+    "title": "Gezocht: Projectarchitect met passie voor wonen en uitvoering",
+    "url": "https://www.architectenjobs.be/vacature/gezocht-projectarchitect-met-passie-voor-wonen-en-uitvoering-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "ls@awpburo.be"
+    }
+  },
+  {
+    "title": "QA Manager divisie Borrelgemak Bouter Cheese B.V. Almere Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/qa-manager-divisie-borrelgemak-req2046",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "dorus.wolters@royal-aware.com"
+    }
+  },
+  {
+    "title": "MADE architects zoekt een ervaren (ir.) architect",
+    "url": "https://www.architectenjobs.be/vacature/made-architects-zoekt-een-ervaren-ir-architect/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@madearchitects.be"
+    }
+  },
+  {
+    "title": "QA Manager Operations Bouter Cheese B.V. Almere Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/qa-manager-operations-req2034",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "dorus.wolters@royal-aware.com"
+    }
+  },
+  {
+    "title": "Project-Architect / Stagiair",
+    "url": "https://www.architectenjobs.be/vacature/project-architect-stagiair/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Netwerk Engineer A-ware Shared Services B.V. Houten Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/netwerk-engineer-req2007",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "rest"
+    ],
+    "contact": {
+      "name": null,
+      "email": "recruitment@royal-aware.com"
+    }
+  },
+  {
+    "title": "(Stagiair)Architect",
+    "url": "https://www.architectenjobs.be/vacature/stagiairarchitect/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "ann.vermoesen@osk-ar.be"
+    }
+  },
+  {
+    "title": "System Engineer A-ware Shared Services B.V. Houten Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/system-engineer-req1756",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "recruitment@royal-aware.com"
+    }
+  },
+  {
+    "title": "Ons team zoekt een Project Architect met passie",
+    "url": "https://www.architectenjobs.be/vacature/ons-team-zoekt-een-project-architect-met-passie-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "geert.devolder@devolderarchitecten.be"
+    }
+  },
+  {
+    "title": "Team Lead System Engineering A-ware Shared Services B.V. Houten Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/team-lead-system-engineering-req1586",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "rest"
+    ],
+    "contact": {
+      "name": null,
+      "email": "recruitment@royal-aware.com"
+    }
+  },
+  {
+    "title": "(Ingenieur-)architect",
+    "url": "https://www.architectenjobs.be/vacature/ingenieur-architect/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@derveauxarchitecten.be"
+    }
+  },
+  {
+    "title": "Productontwikkelaar (Rijst)desserts & Slagroom Eurodesserts NV Beringen (BE) Vaste medewerker",
+    "url": "https://werkenbijaware.com/vacatures/productontwikkelaar-rijstdesserts-slagroom-req2525",
+    "company": "A-ware Dairy Products Belgium",
+    "source": "https://werkenbijaware.com/vacatures",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Projectarchitect met ervaring",
+    "url": "https://www.architectenjobs.be/vacature/projectarchitect-met-ervaring-4/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [
+      "rest"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@clvr.be"
+    }
+  },
+  {
+    "title": "architect / interieur architect / technisch tekenaar (zefstandig of bediende)",
+    "url": "https://www.architectenjobs.be/vacature/architect-interieur-architect-technisch-tekenaar-zefstandig-of-bediende/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "hannah@hdarchitectuur.be"
+    }
+  },
+  {
+    "title": "(ir.) Architect(e) UITVOERING bij V2-Architecten – Roeselare",
+    "url": "https://www.architectenjobs.be/vacature/ir-architecte-uitvoering-bij-v2-architecten-roeselare-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "architectuur@v2-a.be"
+    }
+  },
+  {
+    "title": "(stagiair) architect(e) gezocht!",
+    "url": "https://www.architectenjobs.be/vacature/stagiair-architecte-gezocht/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "ARCHITECT / ARCHITECT-ASSISTENT / INTERIEURARCHITECT (MIN. 5 JAAR ERVARING)",
+    "url": "https://www.architectenjobs.be/vacature/architect-architect-assistent-interieurarchitect-min-5-jaar-ervaring/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@umamistudio.be"
+    }
+  },
+  {
+    "title": "architect gezocht",
+    "url": "https://www.architectenjobs.be/vacature/architect-gezocht-5/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@we-s.be"
+    }
+  },
+  {
+    "title": "vkv architecten zoekt projectarchitect",
+    "url": "https://www.architectenjobs.be/vacature/vkv-architecten-zoekt-projectarchitect/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "Stagiair architect gezocht",
+    "url": "https://www.architectenjobs.be/vacature/stagiair-architect-gezocht-2/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "(ir.) Architect met ervaring",
+    "url": "https://www.architectenjobs.be/vacature/ir-architect-met-ervaring/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": []
+  },
+  {
+    "title": "(ir.) Architect(e) STAGIAIR bij V2-Architecten – Roeselare",
+    "url": "https://www.architectenjobs.be/vacature/ir-architecte-stagiair-bij-v2-architecten-roeselare/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "architectuur@v2-a.be"
+    }
+  },
+  {
+    "title": "fijn zoekt (ir) architect(e) met ervaring!",
+    "url": "https://www.architectenjobs.be/vacature/fijn-zoekt-ir-architecte-met-ervaring/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "info@fijnatelier.be"
+    }
+  },
+  {
+    "title": "Interieurarchitect",
+    "url": "https://www.architectenjobs.be/vacature/interieurarchitect-4/",
+    "company": "(Full) Scale Architecten",
+    "source": "https://www.architectenjobs.be/vacatures/",
+    "first_seen": "2026-08-10",
+    "stack": [],
+    "contact": {
+      "name": null,
+      "email": "frank@hkvm.be"
+    }
+  },
+  {
     "title": "R&I Software Engineer",
     "url": "https://scioteq.recruitee.com/o/ri-software-engineer",
     "company": "ScioTeq",
