@@ -112,6 +112,10 @@ NON_IT_KEYWORDS = [
     "piping", "verification engineer", "cnc", "nc-programmeur",
     "nc - programmeur", "verspaner", "draaier-frezer",
     "systems integration engineer aerospace", "avionic", "embedded hardware",
+    "interieur", "interior", "tuinarchitect", "landschapsarchitect",
+    "bouwkundig", "stedenbouw",
+    "video analist", "video analyst", "videoanalist", "video editor",
+    "voedingstechno", "food safety", "labo analist", "lab analyst",
 ]
 
 TECH_TERMS = [
@@ -373,7 +377,7 @@ def looks_like_it_job(title: str) -> bool:
 _classify_cache = {}
 
 
-def classify_with_claude(title: str) -> bool | None:
+def classify_with_claude(title: str, company: str = "") -> bool | None:
     """Optional second opinion: is this title an IT job? None = unavailable.
 
     Only used when ANTHROPIC_API_KEY is set. Cached per title.
@@ -381,8 +385,9 @@ def classify_with_claude(title: str) -> bool | None:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         return None
-    if title in _classify_cache:
-        return _classify_cache[title]
+    ck = f"{company}|{title}"
+    if ck in _classify_cache:
+        return _classify_cache[ck]
     try:
         r = requests.post(
             "https://api.anthropic.com/v1/messages",
@@ -408,7 +413,9 @@ def classify_with_claude(title: str) -> bool | None:
                         "PLC/machine/robot automation without software development are "
                         "NOT IT. If the title clearly states a work location outside "
                         "Belgium (e.g. a Dutch, German or French city), answer no. "
-                        "Job title (Dutch or English): "
+                        "Judge in the context of the company: a 'QA Engineer' at a "
+                        "food/pharma/manufacturing company is quality control, NOT IT. "
+                        f"Company: '{company}'. Job title (Dutch or English): "
                         f"'{title}'. Answer with exactly one word: yes or no."
                     ),
                 }],
@@ -418,13 +425,13 @@ def classify_with_claude(title: str) -> bool | None:
         r.raise_for_status()
         answer = r.json()["content"][0]["text"].strip().lower()
         result = answer.startswith("y")
-        _classify_cache[title] = result
+        _classify_cache[ck] = result
         return result
     except Exception:
         return None  # fall back to keyword decision
 
 
-def extract_job_links(html: str, base_url: str) -> list[dict]:
+def extract_job_links(html: str, base_url: str, company: str = "") -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     jobs, seen_here = [], set()
     for a in soup.find_all("a", href=True):
@@ -445,7 +452,7 @@ def extract_job_links(html: str, base_url: str) -> list[dict]:
         if _match_any(title, NON_IT_KEYWORDS):
             continue
         keyword_says_it = _match_any(title, IT_KEYWORDS)
-        ai_says_it = classify_with_claude(title)
+        ai_says_it = classify_with_claude(title, company)
         is_it = ai_says_it if ai_says_it is not None else keyword_says_it
         if not is_it:
             continue
@@ -836,7 +843,39 @@ def main() -> None:
         del state[u]
     if hubs:
         print(f"[cleanup] purged {len(hubs)} listing-hub entries from state")
+        junk = [u for u, j in state.items() if _match_any(j.get("title", ""), NON_IT_KEYWORDS)]
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        suspects = [(u, j) for u, j in state.items()
+                    if not j.get("ai_matches") and not j.get("clf")][:120]
+        removed = 0
+        for u, j in suspects:
+            ok = classify_with_claude(j.get("title", ""), j.get("company", ""))
+            if ok is False:
+                del state[u]
+                removed += 1
+            else:
+                j["clf"] = 1
+        if suspects:
+            print(f"[cleanup] AI-hercontrole: {len(suspects)} verdachte titels, {removed} verwijderd")  
+    for u in junk:
+        del state[u]
+    if junk:
+        print(f"[cleanup] purged {len(junk)} non-IT entries from state")
     candidates = load_candidates()
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            anthropic_call({"model": "claude-haiku-4-5-20251001", "max_tokens": 1,
+                            "messages": [{"role": "user", "content": "ok"}]}, timeout=20)
+        except Exception as e:
+            msg = f"JobRadar: scan afgebroken — Anthropic onbereikbaar of credits op ({e})"
+            print("!! " + msg)
+            webhook = os.environ.get("SLACK_WEBHOOK_URL")
+            if webhook:
+                try:
+                    requests.post(webhook, json={"text": ":rotating_light: " + msg}, timeout=15)
+                except requests.RequestException:
+                    pass
+            sys.exit(1)
     new_jobs = []
 
     workers = int(os.environ.get("SCAN_WORKERS", "8"))
