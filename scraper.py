@@ -843,7 +843,11 @@ def main() -> None:
         del state[u]
     if hubs:
         print(f"[cleanup] purged {len(hubs)} listing-hub entries from state")
-        junk = [u for u, j in state.items() if _match_any(j.get("title", ""), NON_IT_KEYWORDS)]
+    junk = [u for u, j in state.items() if _match_any(j.get("title", ""), NON_IT_KEYWORDS)]
+    for u in junk:
+        del state[u]
+    if junk:
+        print(f"[cleanup] purged {len(junk)} non-IT entries from state")
     if os.environ.get("ANTHROPIC_API_KEY"):
         suspects = [(u, j) for u, j in state.items()
                     if not j.get("ai_matches") and not j.get("clf")][:120]
@@ -856,11 +860,7 @@ def main() -> None:
             else:
                 j["clf"] = 1
         if suspects:
-            print(f"[cleanup] AI-hercontrole: {len(suspects)} verdachte titels, {removed} verwijderd")  
-    for u in junk:
-        del state[u]
-    if junk:
-        print(f"[cleanup] purged {len(junk)} non-IT entries from state")
+            print(f"[cleanup] AI-hercontrole: {len(suspects)} verdachte titels, {removed} verwijderd")
     candidates = load_candidates()
     if os.environ.get("ANTHROPIC_API_KEY"):
         try:
