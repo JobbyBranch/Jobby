@@ -63,25 +63,25 @@
     "experience": "7+ yrs",
     "ai_matches": [
       {
-        "row": 42,
-        "score": 88,
-        "reason": "Deze kandidaat combineert 8 jaar .NET-ervaring met Blazor, ASP.NET, Azure Service Bus en legacy-naar-microservices migratie bij Colruyt.",
-        "check": "d8",
-        "pitch": "Beste,\n\nWe vernamen dat Pionira op zoek is naar een ervaren .NET Software Engineer. Werkt u hiervoor ook met externe consultants? Dan hebben wij een uitstekend profiel voor u.\n\nDeze kandidaat beschikt over 8 jaar hands-on .NET-ervaring en sluit naadloos aan op uw vereisten: Blazor en ASP.NET zijn dagelijkse tools in de huidige rol bij RIZIV-INAMI, waar deze kandidaat ook back-up Tech Lead is (architecture alignment, PR reviews). Bij Colruyt Group leidde deze kandidaat een migratie van een monoliet naar microservices met Azure Service Bus — exact de gedistribueerde Azure-architectuur die Pionira zoekt. Daarnaast is er aantoonbare ervaring met REST-services, SQL en .NET Framework-onderhoud.\n\nDeze kandidaat combineert sterke technische diepgang met coachende vaardigheden en een brede domeinervaring in publieke sector en retail. Een profiel dat klaar is om meteen impact te maken.\n\nGraag plannen we een korte kennismakingsgesprek in. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
-      },
-      {
-        "row": 61,
-        "score": 85,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, aantoonbare .NET MAUI-migratiekennis en Blazor/Azure-werk in recentste projecten.",
+        "row": 59,
+        "score": 91,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring met .NET MAUI-migratie (Xamarin→MAUI bij TenForce), Blazor, Azure en mission-critical distributed backends.",
         "check": "k19",
-        "pitch": "Beste,\n\nPionira zoekt een Senior .NET Software Engineer met diepgaande Azure- en Blazor-kennis. Werkt u daarvoor ook met externe specialisten? Dan willen we u graag een uitzonderlijk profiel voorstellen.\n\nDeze kandidaat is een doorgewinterde .NET-freelancer met 19 jaar ervaring. Recent werkte deze kandidaat aan een mission-critical integratiebrug voor NMBS met .NET Core, Azure Cosmos DB en Kubernetes — een bewijs van ervaring met gedistribueerde, schaalbare systemen. Voor Gervi bouwde deze kandidaat een Blazor-verkoopsportaal met .NET Aspire en OpenTelemetry. Bijzonder relevant voor Pionira: bij TenForce was deze kandidaat betrokken bij een .NET MAUI-migratieplan voor een legacy Xamarin-app — exact het nice-to-have uit uw vacature. Clean Architecture, CQRS en TDD zijn vaste werkwijzen.\n\nEen uitzonderlijk compleet profiel dat uw logistieke softwareplatform meteen kan versterken.\n\nGraag overlopen we dit in een korte call. Wanneer past het u?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira. Werkt u ook samen met externe consultants voor gespecialiseerde profielen?\n\nIk wil u graag een freelance .NET-expert voorstellen met maar liefst 19 jaar ervaring. Deze kandidaat werkte recent aan een mission-critical synchronisatiebridge voor NMBS/Infrabel in .NET Core, met Azure Cosmos DB, Kubernetes en enterprise messaging — vergelijkbaar met de gedistribueerde en schaalbare architectuur die Pionira nastreeft. Daarnaast leidde deze kandidaat een .NET MAUI-migratietraject vanuit legacy Xamarin, net het pluspunt dat uw vacature expliciet vermeldt. Blazor-ervaring (Gervi-project) en een sterke CQRS/Clean Architecture-discipline completeren het beeld. De combinatie van Azure-services, migratie-expertise en productie-bewezen distributed systems maakt dit een uitzonderlijk profiel voor uw logistieke softwareoplossingen.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 20,
-        "score": 78,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en gedistribueerde systemen in productieomgevingen.",
+        "row": 40,
+        "score": 87,
+        "reason": "Deze kandidaat combineert ASP.NET MVC, Blazor, Azure Service Bus en legacy-.NET-migratie met een backup Tech Lead-rol bij RIZIV.",
+        "check": "d8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor Software Engineer .NET bij Pionira neem ik graag contact op. Werkt u naast uw eigen team ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer en backup Tech Lead, waarbij ASP.NET MVC en Blazor dagelijkse tools zijn — exact de stack die Pionira vraagt. Bij Colruyt Group leidde deze kandidaat een migratie van een monoliet naar microservices via Azure Service Bus, wat perfect aansluit bij uw gedistribueerde systeemvereisten. Aanvullend zijn er REST/SOAP-integraties, SQL-expertise en architectuurbegeleiding (PR reviews, taakcoördinatie). De combinatie van full-stack .NET, Azure Service Bus-ervaring en mentoring maakt deze kandidaat onmiddellijk inzetbaar in uw logistieke omgeving.\n\nBent u beschikbaar voor een kort gesprek deze of volgende week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 19,
+        "score": 84,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring, Azure App Services + Service Bus bij een langlopend klantproject, en bewezen distributed systems-architectuur.",
         "check": "n16",
-        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een .NET Software Engineer bij Pionira nemen we graag contact op. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en werkte o.a. aan een Azure-webapplicatie (App Services, Service Bus, SQL) voor een retailklant — technologieën die centraal staan in uw stack. Momenteel herschrijft deze kandidaat drie legacy desktopapplicaties naar een cloud-webplatform met .NET 8, Kafka, CQRS en Kubernetes, wat aantoont dat legacy-migratie en moderne cloudarchitectuur geen uitdaging zijn. Blazor, ASP.NET en Azure zijn aantoonbaar aanwezig in de projecthistoriek. Daarnaast heeft deze kandidaat ervaring als team lead en technisch analist.\n\nEen senior profiel met bewezen affiniteit voor schaalbare, gedistribueerde .NET-oplossingen — klaar om bij te dragen aan de technische strategie van Pionira.\n\nZou een korte kennismakingscall mogelijk zijn?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor een .NET Software Engineer bij Pionira. Staat u open voor externe consultants bij dit profiel?\n\nDeze kandidaat telt 16 jaar .NET-ervaring en werkt aan complexe cloud-migraties: van legacy desktopapplicaties naar een volledige cloudwebapplicatie met .NET 8, CQRS, Kafka en Kubernetes. Relevant voor Pionira is het langlopende Azure-project (App Services, Service Bus, SQL) — de exact gevraagde Azure-diensten. Distributed systems (RabbitMQ, gRPC, microservices) en team lead/technische analyse-ervaring versterken het senioriteitsprofiel. Blazor en ASP.NET zijn ook aanwezig. Een enkele beperking is dat Azure AD en .NET MAUI minder prominent naar voren komen, maar de breedte en diepte van het profiel zijn sterk.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -112,22 +112,23 @@
     "experience": null,
     "ai_matches": [
       {
-        "row": 49,
-        "score": 62,
-        "reason": "Deze kandidaat leidde SaaS-platforms en ISO 27001-trajecten als CTO, relevant voor Cartamundi's digitale en operationele schaaluitdagingen.",
-        "check": "d12"
+        "row": 27,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen ervaring met Azure ETL-pipelines, Power BI-dashboards en manufacturing analytics, aansluitend bij de Data & Simulation Analyst rol.",
+        "check": "b7",
+        "pitch": "Beste,\n\nWerkt u voor de Data & Simulation Analyst-vacature bij Cartamundi ook met externe consultants? Graag stel ik u een sterk profiel voor.\n\nDeze kandidaat heeft 7 jaar ervaring als Azure Data Engineer bij Inimco, waar schaalbare ETL-pipelines werden gebouwd met Azure Data Factory en SQL Server, inclusief geautomatiseerde dagelijkse rapportering. Power BI-dashboards op SSAS-modellen, migratie van tijdreeksdata naar Azure Data Explorer en Grafana-telemetriedashboards maken deel uit van het bewezen trackrecord. Complexe businesslogica werd verplaatst naar Databricks voor grootschalige dataverwerking — precies het soort data & simulatiewerk dat relevant is voor een productieomgeving zoals die van Cartamundi.\n\nDeze kandidaat heeft 5 Microsoft-certificaten (Azure Data Engineer, Data Scientist, Power BI Data Analyst, Azure Administrator) en een Master Industrieel Ingenieur van KU Leuven.\n\nZin in een korte call om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 42,
-        "score": 38,
-        "reason": "Deze kandidaat heeft 17 jaar data-engineering ervaring bij Nike en bpost, maar het profiel sluit niet aan bij een specifieke Cartamundi-vacature.",
-        "check": "b17"
+        "row": 9,
+        "score": 58,
+        "reason": "Deze kandidaat heeft 10 jaar PM-ervaring met PRINCE2 en Scrum, inclusief grote IT-implementatieprojecten bij overheid en industrie.",
+        "check": "p10"
       },
       {
-        "row": 56,
-        "score": 36,
-        "reason": "Deze kandidaat is een cloud- en .NET-architect met brede architectuurervaring, maar zonder duidelijke match op een openstaande Cartamundi-rol.",
-        "check": "m15"
+        "row": 54,
+        "score": 55,
+        "reason": "Deze kandidaat heeft 20 jaar logistieke ervaring waarvan 10 jaar in logistiek IT, relevant voor plannings- en supply chain rollen bij Cartamundi.",
+        "check": "b10"
       }
     ]
   },
@@ -148,10 +149,23 @@
     "experience": "3+ yrs",
     "ai_matches": [
       {
-        "row": 69,
-        "score": 42,
-        "reason": "Deze kandidaat heeft SAP S/4HANA en ECC-migratie-ervaring, maar als PM, niet als functioneel IT-analist met LIMS of SD/EHS.",
+        "row": 82,
+        "score": 78,
+        "reason": "Deze kandidaat heeft bewezen SAP SD-ervaring bij BekaertDeslee en S/4HANA-implementatie bij Accenture in de chemiesector.",
+        "check": "a9",
+        "pitch": "Beste,\n\nVia onze netwerken zagen we uw vacature voor een IT Analist SAP - LIMS bij Indaver. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWe hebben een sterke kandidaat beschikbaar die naadloos aansluit op uw noden. Deze kandidaat heeft als senior functional analyst bij BekaertDeslee diepgaande ervaring opgebouwd met SAP SD, inclusief wereldwijde uitrollen en Azure-middleware-integraties — exact de SAP SD- en integratiekennis die u zoekt. Daarnaast leidde deze kandidaat bij Accenture een S/4HANA greenfield-implementatie bij ADM, een chemisch-industrieel bedrijf dat qua sector sterk vergelijkbaar is met Indaver. De combinatie van functionele analyse, stakeholdercommunicatie en SAP-configuratie maakt deze kandidaat tot een directe meerwaarde voor uw SAP ECC-naar-S/4HANA-migratie én het functioneel beheer van de presales flows.\n\nGraag bespreken we dit profiel in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 64,
+        "score": 58,
+        "reason": "Deze kandidaat beheert SAP S/4HANA-interfacelevering en leidde een SAP ECC-naar-S/4HANA-transformatieprogramma bij een chemisch bedrijf.",
         "check": "d26"
+      },
+      {
+        "row": 87,
+        "score": 36,
+        "reason": "Deze kandidaat heeft brede ERP- en programmamanagementervaring, maar geen concrete SAP SD-, EHS- of LIMS-achtergrond aantoonbaar.",
+        "check": "m15"
       }
     ]
   },
@@ -241,16 +255,22 @@
     "experience": "3+ yrs",
     "ai_matches": [
       {
-        "row": 69,
+        "row": 64,
         "score": 72,
-        "reason": "Deze kandidaat heeft hands-on SAP S/4HANA-ervaring via implementaties bij Colruyt en Oleon, inclusief interface delivery en ECC-migratie.",
+        "reason": "Deze kandidaat leidde SAP S/4HANA-trajecten bij Oleon en Colruyt, met bewezen ervaring in interface-delivery en ERP-transformatie.",
         "check": "d26",
-        "pitch": "Beste,\n\nWe lazen de vacature voor SAP Specialist bij Indaver en vroegen ons af of jullie ook samenwerken met externe consultants voor specifieke profielen.\n\nWe willen graag deze kandidaat voorstellen: een ervaren IT-professional met meer dan 26 jaar ervaring en een sterke focus op SAP-programma's. Bij Colruyt Group is deze kandidaat momenteel actief als build manager voor SAP S/4HANA interface delivery én als delivery PM voor SAP Digital Manufacturing. Daarvoor leidde deze kandidaat bij Oleon het volledige ECC-to-S/4HANA transformatieprogramma, inclusief governance en projectcoördinatie — een context die sterk lijkt op de post-migratie uitdagingen waarmee Indaver nu te maken heeft.\n\nDe brede SAP-kennis, gecombineerd met data migration- en applicatie-integratieervaring en sectoren zoals chemie en retail, maken deze kandidaat tot een stevige sparringpartner voor business en IT.\n\nMogen we hierover een korte call inplannen?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor SAP Specialist bij Indaver vroeg ik me af of jullie openstaan voor externe consultants. Ik heb een sterke kandidaat die ik graag even onder de aandacht breng.\n\nDeze kandidaat heeft ruime hands-on ervaring met SAP S/4HANA-trajecten: bij Oleon was deze kandidaat dedicated PM in een ECC-naar-S/4HANA-transformatieprogramma, en bij Colruyt Group is deze kandidaat momenteel actief als build manager voor SAP S/4HANA interface delivery. Dat zijn exact de omgevingen die aansluiten bij de post-migratie-uitdagingen die Indaver nu beschrijft. Daarnaast heeft deze kandidaat technische roots in data migratie en application integration, wat de brug naar SD, MM en FI-integraties vergemakkelijkt. De combinatie van functionele kennis, stakeholdermanagement en projectervaring in een internationale context maakt deze kandidaat een sterke sparringpartner voor de business.\n\nGraag stel ik deze kandidaat voor in een kort gesprek — zou deze week of volgende week passen?\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 57,
-        "score": 28,
-        "reason": "Deze kandidaat heeft geen SAP-ervaring; profiel is BI/data-gericht en sluit niet aan op de gevraagde SD/TM/MM-functionele SAP-rol.",
+        "row": 87,
+        "score": 42,
+        "reason": "Deze kandidaat heeft brede ERP-programma-ervaring maar hoofdzakelijk in D365/AI, met slechts marginale SAP-betrokkenheid.",
+        "check": "m15"
+      },
+      {
+        "row": 53,
+        "score": 22,
+        "reason": "Deze kandidaat is sterk in BI en data, maar heeft geen aantoonbare SAP-functionele ervaring in SD, TM of gerelateerde modules.",
         "check": "s6"
       }
     ]
@@ -8085,6 +8105,173 @@
         "row": 0,
         "score": 62,
         "reason": "Deze kandidaat heeft als co-founder een SaaS-product van nul gebouwd en bewees technisch ownership in Java-backend- en fullstack-rollen.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://jobs.aertssen.be/vacatures/detail/?id=2601&title=ai-engineer-stabroek": {
+    "title": "AI Engineer Stabroek",
+    "url": "https://jobs.aertssen.be/vacatures/detail/?id=2601&title=ai-engineer-stabroek",
+    "company": "Aertssen",
+    "source": "https://jobs.aertssen.be/vacatures/",
+    "first_seen": "2026-08-11",
+    "snippet": "AI Engineer | Stabroek - Jobs bij Aertssen: Join the A-Team AI Engineer | Stabroek | Jobs bij Aertssen - Jobs bij Aertssen: Join the A-Team Main navigation Jobs bij Aertssen Toggle mobile navigation Homepage The A-Team Waarom Aertssen Vacatures Stages Contact Corporate NL Nederlands Français English Werken bij Aertssen AI Engineer | Stabroek Al sinds de jaren 60 is Aertssen Group dé referentie voor bouw- en infrastructuurprojecten, complexe hijswerken, uitzonderlijke transportservices en wereldwijde logistieke dienstverlening voor mijn- en (land)bouwmachines. Als internationale speler met talrijke vestigingen in België, het Midden-Oosten en de Verenigde Staten, verliest dit familiebedrijf zijn hart voor mensen geen seconde uit het oog. Bouwen aan de allermooiste projecten met ongelimiteerde passie voor mensen en machines: daarvoor geven we bij Aertssen elke dag opnieuw het beste van onszelf. Duurzaamheid staat bij ons centraal: zo investeren we in een modern en energiezuinig wagenpark, zetten we in op hernieuwbare energie op onze sites, en stimuleren we circulair bouwen door maximaal in te zetten op recyclage van materialen. Aertssen Group, dat is People, Power and Passion, to Buil",
+    "stack": [
+      "Python",
+      "Microsoft Fabric",
+      "Azure AI Services",
+      "Copilot Studio",
+      "Microsoft AI Foundry",
+      "SQL",
+      "Azure Functions",
+      "APIs",
+      "SDKs",
+      "Power Platform"
+    ],
+    "experience": null,
+    "contact": {
+      "name": "Caroline Melis",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 88,
+        "reason": "Deze kandidaat heeft concrete hands-on ervaring met LLM fine-tuning, RAG, AI-agents en AWS data lakes, plus bewezen ML- en softwarearchitectuurwerk.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor AI Engineer in Stabroek. Werkt u hiervoor ook samen met externe consultants?\n\nDeze kandidaat heeft 11 jaar ervaring en werkt momenteel als AI Engineer met directe focus op LLM fine-tuning (Axolotl, Ollama), Claude Code en agentic workflows — precies wat Aertssen zoekt voor het Operational AI-domein. Eerder bij AWV droeg deze kandidaat de adoptie van lokaal gehoste LLM's voor NLP, wat getuigt van pragmatisch inzicht in wanneer generatieve AI wel of niet de juiste keuze is. De achtergrond in financiële transactieverwerking (Kafka, Solr) en timeseries-analyse sluit naadloos aan bij analytische AI-toepassingen. Python, SQL, ML-technieken en API-integraties zijn allemaal aantoonbaar aanwezig in de projecthistoriek.\n\nKort samengevat: een brede, bewezen AI-engineer met zeldzame combinatie van LLM-engineering én klassieke software-architectuur.\n\nMag ik u voorstellen voor een kort kennismakingsgesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 53,
+        "score": 76,
+        "reason": "Deze kandidaat bouwde een Microsoft Fabric-oplossing en een ChatGPT-API PoC, met BI-leadervaring in logistiek — een domein dat sterk aansluit bij Aertssen.",
+        "check": "s6",
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw openstaande vacature voor AI Engineer. Werkt u hiervoor ook samen met externe profielen?\n\nDeze kandidaat combineert hands-on Microsoft Fabric-implementatie (COLEAD-project) met een zelfgebouwde ChatGPT-API PoC voor geautomatiseerde Power BI-documentatie — twee technologieën die centraal staan in uw Analytical AI-roadmap. De huidige rol bij Gosselin Group, een logistiek bedrijf vergelijkbaar met Aertssen's activiteiten, toont domeinkennis in operationele en financiële rapportering. Ervaring met Azure DevOps, Python, Databricks en data governance versterkt de brug tussen BI en AI. De stakeholdercommunicatie in vijf talen is een extra troef voor een rol die business en technologie verbindt.\n\nDeze kandidaat is geen pure AI-engineer, maar heeft de juiste mix van Fabric-kennis en AI-readiness om snel waarde te leveren.\n\nZin in een korte call om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 75,
+        "score": 62,
+        "reason": "Deze kandidaat heeft Python, Databricks, Azure en ML-ervaring, inclusief een early deep learning-validatieproject, maar mist directe LLM- en agentic AI-ervaring.",
+        "check": "j6"
+      }
+    ]
+  },
+  "https://www.stepstone.be/jobs--Enterprise-Architect-Brussel-Nationale-Loterij--2235507-inline.html": {
+    "title": "Enterprise Architect",
+    "url": "https://www.stepstone.be/jobs--Enterprise-Architect-Brussel-Nationale-Loterij--2235507-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-11",
+    "snippet": "Enterprise Architect - Job at Nationale Loterij in Brussel Find Jobs Find Jobs Enterprise Architect Nationale Loterij Brussel Contract duration unspecified Full Time Published: 1 hour ago Be an early applicant Enterprise Architect Nationale Loterij Als Enterprise Architect bij de Nationale Loterij bouw jij mee aan de digitale ruggengraat van onze organisatie. Al meer dan 90 jaar zorgt de Nationale Loterij voor veilig en verantwoord speelplezier voor alle meerderjarige Belgen. Dankzij het vertrouwen van al haar spelers boekte de Nationale Loterij in 2025 een omzet van 1,666 miljard euro. Meer dan 1 miljard daarvan ging naar winnaars. Daarnaast zorgen de vele kleine inzetten van alle spelers ervoor dat de Nationale Loterij 385 miljoen euro kan laten terugvloeien naar de Belgische samenleving. Talrijke waardevolle projecten en verenigingen krijgen op die manier de steun die ze nodig hebben om het verschil te maken. De Nationale Loterij engageert zich om een inclusieve en diverse werkomgeving te creëren en verwelkomt kandidaten ongeacht leeftijd, genderidentiteit, afkomst, beperking, religie of seksuele oriëntatie waarin talent centraal staat. Samen werken we rond vier bedrijfswaarden:",
+    "stack": [
+      "Azure",
+      "AWS",
+      "Google Cloud",
+      "REST API",
+      "SOAP API",
+      "Azure Integration Services",
+      "TOGAF",
+      "ArchiMate",
+      "Zachman",
+      "BPMN"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 52,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen enterprise cloud-architectuurervaring met Azure, SAP-integratie, DDD, security (NIS2/zero-trust) en stakeholderbegeleiding bij MAN Trucks.",
+        "check": "m15",
+        "pitch": "Beste,\n\nWe lazen met interesse de vacature voor Enterprise Architect bij de Nationale Loterij. Werkt u hiervoor ook samen met externe consultants?\n\nWe hebben een sterke kandidaat die onmiddellijk waarde kan toevoegen. Deze kandidaat combineert 15 jaar .NET- en Azure-architectuurervaring met concrete hands-on realisaties: bij MAN Trucks Belgium ontwierp en bouwde deze kandidaat een volledige cloudarchitectuur met Azure Container Apps, Service Bus, Entra ID en Bicep (IaC), en integreerde SAP-voertuigdata met een lokaal CRM — een patroon dat sterk aansluit bij de ERP/CRM-integraties die Nationale Loterij vraagt. Daarnaast is deze kandidaat vertrouwd met Azure Integration Services, DDD, event-driven architectuur, cloud security en NIS2/zero-trust. Als Strategy Board member bij Kenze leidde deze kandidaat ook pre-sales en coachte consultants — precies de brugfunctie tussen technologie en business die u zoekt. We zetten graag een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 76,
+        "reason": "Deze kandidaat heeft end-to-end architectuurervaring op Azure met medallion data-architectuur, ADF, Databricks, microservices en CTO-niveau technisch leiderschap.",
+        "check": "w20",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Enterprise Architect bij de Nationale Loterij — werkt u ook met externe consultants voor strategische rollen?\n\nDeze kandidaat heeft 20 jaar ervaring en bouwde als platform- en integratiearchitect bij Materialise van nul een volledig Azure big-data platform: medallion-architectuur, Azure Data Factory, ADLS Gen2, Databricks/Spark en Terraform IaC. Dat sluit rechtstreeks aan bij uw vereisten rond data-architectuur, data lakes, ETL en datawarehousing. Als CTO bij Secury360 droeg deze kandidaat de volledige technische stack inclusief Azure-infrastructuurontwerp en business Power BI — bewijs van de vertaalslag tussen technologie en business die Nationale Loterij vraagt. Event-driven microservices op AWS (Materialise CO-AM SaaS) en sterke achtergrond in CI/CD en cloud security completeren het profiel. Een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 41,
+        "score": 68,
+        "reason": "Deze kandidaat heeft diepgaande data-architectuurervaring (lakehouses, warehouses, ETL) over financiële diensten en verzekeringen, aangevuld met Azure, Databricks en Snowflake.",
+        "check": "p13"
+      }
+    ]
+  },
+  "https://www.aedgroup.com/jobs/ict-support-engineer/": {
+    "title": "ICT Support Engineer Belgium AED Rent",
+    "url": "https://www.aedgroup.com/jobs/ict-support-engineer/",
+    "company": "A.E.D",
+    "source": "https://www.aedgroup.com/jobs/",
+    "first_seen": "2026-08-11",
+    "snippet": "ICT Support Engineer - AED group General Terms & Conditions Contact New Customer Request Home About History Meet the team Ecology AED group Rent Products How to order Display calculator Own brands Sales New sales Second Hand sales Store Own brands Services Lease Repair Cases Agenda Stories New Arrivals Promos Jobs Catalogue Downloads Home About History Ecology Meet the team AED group Agenda Stories New Arrivals Promos Jobs Catalogue Downloads Contact Contact ICT Support Engineer Home » ICT Support Engineer Willebroek , Belgium AED Rent Fulltime AED group is one of Europe’s leading providers of professional AV solutions, supporting the event industry with rental, sales, leasing, and service solutions for over 40 years. Apply now To strengthen our IT team at AED HQ, we are looking for an ICT Support Engineer who will provide hands-on support across our international organisation and help ensure a reliable, secure and user-friendly digital working environment. The role reports to the ICT Manager. Purpose of the role: The ICT Support Engineer is responsible for providing day-to-day support to end users within AED group’s international environment, with a strong focus on modern cloud pl",
+    "stack": [
+      "Windows 11",
+      "Microsoft 365",
+      "Teams",
+      "Outlook",
+      "SharePoint",
+      "Microsoft Entra ID",
+      "Microsoft Intune",
+      "Citrix Virtual Desktops",
+      "OneDrive",
+      "Power Platform"
+    ],
+    "experience": null,
+    "contact": {
+      "name": null,
+      "email": "info@aedgroup.com"
+    },
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare Intune-ervaring en sterke Windows/netwerk-supportachtergrond met documentatie- en teamleadervaring.",
+        "check": "k28"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat heeft bewezen Entra ID- en Azure/M365-platformervaring inclusief Bicep, pipelines en junior coaching.",
+        "check": "j6"
+      },
+      {
+        "row": 33,
+        "score": 35,
+        "reason": "Deze kandidaat heeft datacenter-netwerkervaring maar geen M365, Intune of end-user support achtergrond die de vacature vereist.",
+        "check": "l8"
+      }
+    ]
+  },
+  "https://careers.salvus-health.com/en-GB/people/3004851-bekim-frangu": {
+    "title": "Bekim Frangu Software Engineer",
+    "url": "https://careers.salvus-health.com/en-GB/people/3004851-bekim-frangu",
+    "company": "Salvus Health",
+    "source": "https://careers.salvus-health.com/",
+    "first_seen": "2026-08-11",
+    "snippet": "Bekim Frangu - Software Engineer - Salvus Health This website uses cookies to ensure you get the best experience. Salvus Health and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics and marketing purposes. See our Cookie Policy to read more about the cookies we set. You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page. Accept all cookies Decline all non-necessary cookies Cookie preferences Select which cookies you accept On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly. If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, which is always available at the bottom of the site. To learn more about what the different types of cookies do, how your data is used when they",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 32,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring met healthcare platforms bij Johnson & Johnson, inclusief BPMN-driven care workflows en microservices.",
+        "check": "e6",
+        "pitch": "Beste,\n\nIk las de vacature voor Software Engineer bij Salvus Health en vroeg me af of jullie samenwerken met externe consultants voor technisch talent.\n\nIk wil graag deze kandidaat voorstellen: een Java Software Engineer met 6 jaar ervaring, waarvan recent bij Johnson & Johnson. Daar bouwde deze kandidaat een patiëntenplatform met BPMN-gestuurde care workflows (Camunda), microservices via Axon CQRS/event sourcing en Kafka — precies het soort complexe, zorggerichte backend-engineering dat bij Salvus Health van pas komt. Daarnaast leidde deze kandidaat mee een migratie van 25 microservices naar Java 21 en Spring Boot 3 en draaide productie-on-call rotaties.\n\nMet een combinatie van healthcare-domeinkennis, sterke testdiscipline (JUnit/Mockito/AssertJ) en ervaring in een kleine, resultaatgerichte omgeving sluit dit profiel nauw aan bij wat Salvus Health zoekt.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 58,
+        "score": 75,
+        "reason": "Deze kandidaat heeft directe health tech-ervaring via Evoluno (B2B mental-health platform) en React/Node fullstack skills.",
+        "check": "b8",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Software Engineer bij Salvus Health wou ik u een sterk fullstack profiel voorstellen — heeft Salvus Health ervaring met externe consultants?\n\nDeze kandidaat heeft 8 jaar fullstack-ervaring en werkte recent op een B2B mental-health platform (Evoluno) met React Native, Node.js en Apollo — een context die sterk aansluit bij Salvus Health's digitale gezondheidsmissie. Aanvullend bouwde deze kandidaat bij Securex een MyHR-platform (React, Azure, Nx monorepo) en beheert momenteel eigen Kubernetes-clusters. De combinatie van health tech-domeinkennis, CKAD-certificering en bewezen design system-expertise maakt dit een kandidaat die snel waarde toevoegt in een kleine engineering-omgeving.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 62,
+        "reason": "Deze kandidaat bouwde als co-founder een volledig SaaS-product en leidde Java backend-teams, maar mist health tech-domeinervaring.",
         "check": "l7"
       }
     ]
