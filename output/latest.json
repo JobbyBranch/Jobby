@@ -1,5 +1,301 @@
 [
   {
+    "title": "Business Analyst Engineering · Ghent · Hybrid",
+    "url": "https://careers.qargo.com/jobs/7969132-business-analyst",
+    "company": "Qargo",
+    "source": "https://careers.qargo.com/jobs?split_view=false&query=&country=Belgium",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 29,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen ERP/supply chain analyse-ervaring inclusief e-delivery compliance, logistiek en stakeholderbeheer in complexe omgevingen.",
+        "check": "n15",
+        "pitch": "Beste,\n\nWe merkten dat Qargo op zoek is naar een Business Analyst met affiniteit voor transport en logistiek. Werkt u ook samen met externe consultants?\n\nWij hebben een kandidaat die precies in dit profiel past. Deze kandidaat heeft ruime ervaring als Business/Functional Analyst en Product Owner in supply chain en logistiek, waaronder decoupling van manufacturing applicaties van ERP-systemen, inventory management en e-delivery compliance voor meerdere landen. De combinatie van functionele analyse, story breakdown en directe samenwerking met technische teams sluit perfect aan bij wat Qargo zoekt.\n\nDaarnaast heeft deze kandidaat ervaring met stakeholderbeheer, procesanalyse en het vertalen van businessbehoeften naar concrete systeemconfiguraties — exact de kernverantwoordelijkheden in uw vacature.\n\nMag ik een kort gesprek inplannen om deze kandidaat concreet voor te stellen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 68,
+        "reason": "Deze kandidaat heeft sterke BA-ervaring met BPMN, UAT, REST API-projecten en Power Apps-automatisering in diverse sectoren.",
+        "check": "c3"
+      },
+      {
+        "row": 23,
+        "score": 58,
+        "reason": "Deze kandidaat toont relevante BA-ervaring met SQL, BPMN, e-invoicing en fintech-domeinen die aansluiten bij de Qargo-context.",
+        "check": "f3"
+      }
+    ]
+  },
+  {
+    "title": "Leiter (m/w/d) Softwareentwicklung LASERTEC",
+    "url": "https://recruiting.dmgmori.com/Vacancies/1196/Description/1",
+    "company": "DMG MORI BeLux",
+    "source": "https://recruiting.dmgmori.com/Jobs/All?lang=eng",
+    "first_seen": "2026-08-11",
+    "stack": [
+      "C#",
+      ".NET",
+      "Azure DevOps",
+      "CI/CD"
+    ],
+    "experience": "mehrjährig",
+    "contact": {
+      "name": "Sarah Edwards",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 54,
+        "score": 82,
+        "reason": "Deze kandidaat leidde als cloud solution architect een volledig team, definieerde architectuurprincipes en coachte developers in DDD en moderne .NET-stacks.",
+        "check": "m15",
+        "pitch": "Beste,\n\nWe vernamen dat DMG MORI op zoek is naar een Leiter Softwareentwicklung voor de LASERTEC-divisie — werkt u ook met externe consultants voor dergelijke sleutelposities?\n\nWij hebben een kandidaat die we graag aan u voorstellen. Deze kandidaat combineert 15 jaar .NET/C#-ervaring met een bewezen leiderschapstrack: als Strategy Board-lid bij Kenze nam hij verantwoordelijkheid voor pre-sales, recruitment én coaching van consultants. Bij MAN Trucks Belgium ontwierp hij de cloudarchitectuur van het MANSIS-serviceplatform (.NET, Azure Container Apps, Service Bus, Bicep, CI/CD) en introduceerde hij DDD en Vertical Slice Architecture als teamstandaard — exact het soort architectuurleiderschap en process ownership dat DMG MORI vraagt.\n\nAzure DevOps, CI/CD en moderne software-architecturen zijn geen theoretische kennis maar dagelijkse praktijk. Agile werkmethodes, stakeholdermanagement en releases sturen: allemaal aantoonbaar aanwezig.\n\nMag ik een kort gesprek inplannen om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 15,
+        "score": 76,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring, leidt als team lead actief developers en beheerst de volledige moderne C#/.NET- en Azure DevOps-toolchain in productieomgevingen.",
+        "check": "i26",
+        "pitch": "Beste,\n\nVoor de rol van Leiter Softwareentwicklung LASERTEC bij DMG MORI hebben wij een uitzonderlijk profiel beschikbaar dat we u graag voorstellen — werkt u hiervoor met externe consultants?\n\nDeze kandidaat is actief als team lead met 26 jaar hands-on .NET-ervaring, van .NET Framework tot .NET 10 in productie. Hij begeleidt actief juniors en interns, is clean architecture-advocate en bezoekt regelmatig conferenties zoals DDD Europe en GOTO — wat aantoont dat hij ook de softwarestrategie en -cultuur van een team kan vormgeven. C#, ASP.NET Core, Azure DevOps en CI/CD zijn zijn dagelijkse gereedschap.\n\nHoewel zijn achtergrond breder enterprise is dan machine-software, zijn de leiderschapssignalen, de architectuurdiepte en de volledige .NET-stack een sterke match voor wat DMG MORI zoekt.\n\nMag ik een korte call inplannen om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 71,
+        "score": 68,
+        "reason": "Deze kandidaat groeide door tot Track Lead van 12 personen met resource- en projectplanning, en heeft concrete C#/.NET- en Azure DevOps-ervaring vanuit zijn ontwikkelaarsachtergrond.",
+        "check": "w7"
+      }
+    ]
+  },
+  {
+    "title": "remove_red_eye",
+    "url": "https://www.vpaccountants.be/onze-diensten/fiscaal-advies",
+    "company": "VP ACCOUNTANTS & BELASTINGCONSULENTEN",
+    "source": "https://www.vpaccountants.be",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 32,
+        "score": 42,
+        "reason": "Deze kandidaat heeft brede BA/PM-ervaring in verzekeringen en data governance, maar geen accountancy- of fiscale achtergrond.",
+        "check": "g11"
+      },
+      {
+        "row": 24,
+        "score": 30,
+        "reason": "Deze kandidaat heeft sterke PO/BA-ervaring in retail, maar geen aansluiting bij fiscaliteit, boekhouding of accountancy.",
+        "check": "i15"
+      },
+      {
+        "row": 72,
+        "score": 22,
+        "reason": "Deze kandidaat is sterk in banking/insurance PO-rollen, maar mist elk raakvlak met fiscaal of boekhoudkundig domein.",
+        "check": "g7"
+      }
+    ]
+  },
+  {
+    "title": "Medior / Senior Software Developer",
+    "url": "https://www.stepstone.be/jobs--Medior-Senior-Software-Developer-SINT-NIKLAAS-Yina-Solutions-Bv--2225095-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-11",
+    "stack": [
+      ".NET",
+      "C#",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "React",
+      "TypeScript",
+      "Vite",
+      "TanStack Query",
+      "TanStack Table",
+      "Angular"
+    ],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 15,
+        "score": 97,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring met exact de gevraagde stack: ASP.NET Core, EF Core, React met TanStack Query, Angular en PostgreSQL.",
+        "check": "i26",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een Medior/Senior Software Developer en vroeg me af of jullie samenwerken met externe consultants. Ik denk dat ik een uitzonderlijk sterke match heb.\n\nDeze kandidaat werkt al meer dan 25 jaar in .NET en heeft hands-on ervaring met exact jullie tech-stack: ASP.NET Core, EF Core, SQL Server én PostgreSQL (via MartenDB), React met TanStack Query, én Angular tot versie 19. Dat is zelden zo volledig gealigneerd.\n\nWat deze kandidaat onderscheidt: clean architecture-principes, sterke kwaliteitsdiscipline (TestContainers, Selenium), team lead-ervaring met mentoring van juniors, en actieve betrokkenheid bij DDD Europe en GOTO-conferenties. Expliciet boven impliciet — dat is precies de filosofie die jullie beschrijven.\n\nIk zou dit graag even toelichten in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 20,
+        "score": 88,
+        "reason": "Deze kandidaat heeft recente productie-ervaring met .NET 8, PostgreSQL, AWS, Kubernetes en EF Core in een complexe cloud-rewrite.",
+        "check": "n16",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een Senior Software Developer vroeg ik me af of jullie openstaan voor externe profielen. Ik heb een kandidaat die sterk aansluit bij jullie stack én aanpak.\n\nDeze kandidaat werkt momenteel aan een grootschalige rewrite van legacy desktop-applicaties naar een cloud-native webapplicatie op .NET 8, PostgreSQL, AWS en Kubernetes — precies de infrastructuur die jullie hanteren. Daarnaast bewezen in distributed systems (CQRS, Kafka, Redis), Angular én backend SQL-werk, met 16 jaar .NET-ervaring.\n\nDe langetermijnvisie die jullie zoeken — architectuur, datakwaliteit, niet enkel de feature van vandaag — past bij iemand die als team lead en technisch analist heeft gewerkt en microservices-migraties heeft geleid.\n\nGraag vertel ik meer in een kort gesprek. Wanneer heeft u even tijd?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 25,
+        "score": 79,
+        "reason": "Deze kandidaat heeft met ASP.NET Core, EF Core, Angular, React en SQL aantoonbare full-stack .NET-ervaring in productiekritische, security-gevoelige omgevingen.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk zag jullie vacature voor een Medior/Senior .NET Developer en dacht meteen aan een profiel in mijn netwerk dat erg goed aansluit.\n\nDeze kandidaat heeft hands-on ervaring met ASP.NET Core, Entity Framework Core, SQL, Angular én React — en werkt zowel aan backend-architectuur als frontend. Bij BrainSolutions ontwikkelde deze kandidaat een modulair integratieframework voor gevoelige data met focus op veiligheid en auditability — het soort productiekritische software waar jullie over spreken.\n\nDe CQRS/MediatR/DDD-aanpak en Linux-first workflow tonen een kandidaat die nadenkt over de lange termijn, niet enkel over de feature van vandaag. Ook het interne kennisdelen (React, LLMs) past bij een hecht team dat ownership neemt.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Eron Salihu Software Engineer",
+    "url": "https://careers.salvus-health.com/en-GB/people/4250403-eron-salihu",
+    "company": "Salvus Health",
+    "source": "https://careers.salvus-health.com/",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 60,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring in health tech (Evoluno B2B mental-health platform) met fullstack React/Node/Kubernetes.",
+        "check": "b8",
+        "pitch": "Beste,\n\nIk las de vacature van Salvus Health voor een Software Engineer en vroeg me af of jullie samenwerken met externe consultants om talent aan te trekken.\n\nIk wil jullie graag voorstellen aan een fullstack Software Engineer met 8 jaar ervaring, die recent actief was in de health tech-sector. Bij Evoluno werkte deze kandidaat aan een B2B mental-health platform met React Native, Node.js, Apollo GraphQL en Kubernetes — technologieën die naadloos aansluiten bij een digitale gezondheidsomgeving zoals Salvus Health. Aansluitend versterkt deze kandidaat het MyHR-team bij Securex op een React/Azure-stack in een senior frontendrol. Met ook ervaring bij mediabedrijven zoals Mediahuis en Borealis toont deze kandidaat brede platformervaring en technische volwassenheid. CKAD-gecertificeerd, design-system specialist en sterk in Nx monorepo-architectuur.\n\nGraag vertel ik u meer in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 33,
+        "score": 68,
+        "reason": "Deze kandidaat heeft directe healthcare-platformervaring (J&J patiënttraject) met Java/microservices en event-driven architectuur.",
+        "check": "e6"
+      },
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede Java/SaaS-achtergrond maar geen aantoonbare ervaring in de digitale gezondheidssector.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Ensar Spahiu Software Engineer",
+    "url": "https://careers.salvus-health.com/en-GB/people/3004849-ensar-spahiu",
+    "company": "Salvus Health",
+    "source": "https://careers.salvus-health.com/",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 33,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare Java-ervaring in healthcare (Johnson & Johnson patiëntenplatform) met microservices, Kafka en CQRS.",
+        "check": "e6",
+        "pitch": "Beste,\n\nIk nam uw vacature voor Software Engineer bij Salvus Health door en vroeg me af of u ook samenwerkt met externe consultants.\n\nIk heb een uitstekende kandidaat in portefeuille die ik u graag voorstel. Deze kandidaat heeft 6 jaar Java-ervaring en werkte recentelijk als freelance Software Engineer bij Johnson & Johnson aan een patiëntenplatform — exact het healthcaredomein waarin Salvus Health actief is. Daar bouwde deze kandidaat BPMN-gedreven zorgworkflows met Camunda, microservices met Axon CQRS/event sourcing en Kafka, en leidde mee een grote migratie naar Java 21 en Spring Boot 3.\n\nDaarnaast is deze kandidaat sterk in testediscipline (JUnit, Mockito, AssertJ) en clean code — kwaliteiten die in een groeifase als die van Salvus Health het verschil maken.\n\nZou u open staan voor een kort kennismakingsgesprek deze of volgende week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 75,
+        "reason": "Deze kandidaat heeft directe healthtech-ervaring (Evoluno mentaal gezondheidsplatform) met React, Node.js, Kubernetes en Azure.",
+        "check": "b8",
+        "pitch": "Beste,\n\nIk zag uw open positie als Software Engineer bij Salvus Health en wilde u graag een sterke fullstack-kandidaat voorstellen — mits u openstaat voor externe consultants.\n\nDeze kandidaat heeft 8 jaar fullstack-ervaring en werkte recentelijk op een B2B mentaalgezondheidplatform (Evoluno) met React Native, Node.js, Apollo GraphQL en Kubernetes — een context die sterk lijkt op wat Salvus Health bouwt. Aanvullend versterkt deze kandidaat momenteel het MyHR-team bij Securex op Azure, en heeft eerder bij Ixor ook Java Spring en Python-gebaseerde klantportalen opgeleverd.\n\nMet CKAD-certificering, ervaring in design systems en vier talen is deze kandidaat zowel technisch diepgaand als communicatief sterk in een klein hecht team.\n\nMag ik u een kort gesprek voorstellen om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 68,
+        "reason": "Deze kandidaat bouwde als co-founder een volledig SaaS-platform (PHP, Docker, Java) en leidde end-to-end CI/CD en architectuur bij NSX.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Altin Morina Software Engineer",
+    "url": "https://careers.salvus-health.com/en-GB/people/4250417-altin-morina",
+    "company": "Salvus Health",
+    "source": "https://careers.salvus-health.com/",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 60,
+        "score": 78,
+        "reason": "Deze kandidaat heeft aantoonbare fullstack ervaring in health tech (Evoluno B2B mental-health platform) met React, Node.js en Kubernetes.",
+        "check": "b8",
+        "pitch": "Beste,\n\nIk zag de open positie van Software Engineer bij Salvus Health en vroeg me af of jullie ook samenwerken met externe consultants om jullie team te versterken.\n\nIk stel u graag deze kandidaat voor, een fullstack Software Engineer met 8 jaar ervaring en een duidelijk trackrecord in health tech. Bij Evoluno werkte deze kandidaat als fullstack engineer op een B2B mental-health platform — met React Native, Node.js, Apollo GraphQL en Kubernetes — een context die sterk aansluit bij het werk van Salvus Health.\n\nDarnaast bewees deze kandidaat bij Securex (MyHR-platform) en Borealis technische leiderschapsvaardigheden: eigen Kubernetes-clusters opzetten, design systems bouwen en monorepo-architectuur (Nx, Azure) beheren. CKAD-gecertificeerd, viertalig en gewend aan snelle, impactgerichte delivery in kleine productteams.\n\nGraag plan ik een kort gesprek in om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 33,
+        "score": 72,
+        "reason": "Deze kandidaat heeft directe ervaring met healthcare platforms (Johnson & Johnson patiënttrajecten) en solide Java microservices-expertise.",
+        "check": "e6",
+        "pitch": "Beste,\n\nIk zag jullie zoektocht naar een Software Engineer bij Salvus Health en wou even polsen of jullie openstaan voor externe profielen.\n\nDeze kandidaat is een Java Software Engineer met 6 jaar ervaring, waarvan een relevante recente periode bij Johnson & Johnson op een BPMN-gedreven patiënttrajectplatform — exact het soort healthcare-context dat Salvus Health aanspreekt. Technisch onderlegd in microservices, Kafka, CQRS/event sourcing en Spring Boot, met hands-on ownership van productie-incidenten en een migratie van 25 microservices.\n\nDeze kandidaat combineert technische diepgang met teamgerichte werkwijze en testdiscipline — eigenschappen die in een jong, groeiend healthtech-team zoals Salvus Health het verschil maken.\n\nZin in een kort gesprek om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "Deze kandidaat toont sterke Java SaaS-achtergrond en tech ownership, maar mist healthtech-domeinervaring die Salvus Health waarschijnlijk prefereert.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Vjondi Osmanaj Software Engineer",
+    "url": "https://careers.salvus-health.com/en-GB/people/3004848-vjondi-osmanaj",
+    "company": "Salvus Health",
+    "source": "https://careers.salvus-health.com/",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 60,
+        "score": 78,
+        "reason": "Deze kandidaat heeft aantoonbare fullstack ervaring in health tech (Evoluno B2B mental health) en HR tech met React, Node.js en cloud.",
+        "check": "b8",
+        "pitch": "Beste,\n\nWe zagen de vacature voor Software Engineer bij Salvus Health en vroegen ons af of jullie samenwerken met externe consultants voor deze rol.\n\nWe willen graag deze kandidaat voorstellen: een fullstack software engineer met 8 jaar ervaring en een concreet trackrecord in health tech. Bij Evoluno werkte deze kandidaat als fullstack engineer op een B2B mentale gezondheidsplatform — exact hetzelfde domein als Salvus Health. De gebruikte stack omvatte React Native, Node.js, Apollo/GraphQL en Kubernetes, aangevuld met Azure en AWS-ervaring bij respectievelijk Securex en Borealis.\n\nDeze kandidaat is gewend aan snelgroeiende, productiegerichte omgevingen, heeft een eigen design system gebouwd en is CKAD-gecertificeerd. Dat is precies het profiel dat past bij een scale-up zoals Salvus Health.\n\nGraag plannen we een kort gesprek om deze kandidaat verder toe te lichten. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 33,
+        "score": 72,
+        "reason": "Deze kandidaat heeft directe healthcare-platformervaring bij Johnson & Johnson met Java microservices en Kafka in een productiegerichte setting.",
+        "check": "e6",
+        "pitch": "Beste,\n\nNaar aanleiding van de openstaande positie voor Software Engineer bij Salvus Health wilden we even contact opnemen — werken jullie ook met externe profielen via consultancy?\n\nDeze kandidaat is een gedreven Java software engineer met 6 jaar ervaring, waarvan recent bij Johnson & Johnson op een healthcare-platform. Daar bouwde deze kandidaat BPMN-gedreven zorgworkflows, leidde een migratie van 25 microservices naar Java 21 en Spring Boot 3, en werkte met Kafka voor event-driven communicatie. Het is een sterk profiel met bewezen ervaring in healthcare-software — precies het domein van Salvus Health.\n\nDaarnaast toont het trackrecord bij DPG Media aan dat deze kandidaat schaalbare systemen aankan onder hoge belasting. Een evenwichtige, teamgerichte engineer met testdiscipline en een scherp domeinbewustzijn.\n\nZin in een korte call om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "Deze kandidaat toont sterke SaaS-architectuurervaring en Java-backend skills maar mist aantoonbare ervaring in digitale gezondheid.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Fisnik Hazrolli Software Engineer",
+    "url": "https://careers.salvus-health.com/en-GB/people/4250411-fisnik-hazrolli",
+    "company": "Salvus Health",
+    "source": "https://careers.salvus-health.com/",
+    "first_seen": "2026-08-11",
+    "stack": [],
+    "experience": null,
+    "ai_matches": [
+      {
+        "row": 33,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring met healthcare platforms bij Johnson & Johnson, inclusief patiëntworkflows en microservices.",
+        "check": "e6",
+        "pitch": "Beste,\n\nIk nam uw vacature voor Software Engineer bij Salvus Health door en vroeg me af: werkt u ook samen met externe consultants om uw engineeringteam te versterken?\n\nIk wil u graag deze kandidaat voorstellen. Bij Johnson & Johnson werkte deze kandidaat als freelance Software Engineer aan een patiëntpathway-platform met BPMN-gedreven zorgworkflows via Camunda — exact het soort healthcare-domeinkennis dat Salvus Health zoekt. Technisch is het profiel sterk: Java (migratie van Java 11 naar 21), Spring Boot, Kafka, CQRS/event sourcing met Axon, en contract-first API-design. Daarnaast is er relevante mediastackervaring bij DPG Media, wat de veelzijdigheid aantoont.\n\nDeze kandidaat combineert technische diepgang met een sterke testdiscipline (JUnit, Mockito, AssertJ) en heeft production first-responder rotaties gedraaid — iemand die ownership neemt.\n\nZou u openstaan voor een korte call om te bekijken of dit profiel aansluit bij uw noden?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 75,
+        "reason": "Deze kandidaat heeft directe ervaring op een B2B mental-health platform (Evoluno) met een fullstack React/Node/Kubernetes-stack.",
+        "check": "b8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande positie bij Salvus Health contacteer ik u graag — werkt u eventueel met externe consultants?\n\nDeze kandidaat heeft als fullstack engineer meegebouwd aan Evoluno, een B2B mental-health platform — inhoudelijk nauw verwant aan wat Salvus Health doet. De gebruikte technologieën sluiten sterk aan: React Native/Expo, Node.js, Apollo GraphQL, Kubernetes en Azure. Ook bij Securex (MyHR-platform) en Borealis bewees deze kandidaat senioriteit: eigen Kubernetes-clusters beheren, design systems bouwen en platforms op tijd opleveren.\n\nMet 8 jaar ervaring, een CKAD-certificering en een brede fullstack achtergrond (Next.js, NestJS, PostgreSQL, MongoDB) is dit een kandidaat die snel waarde toevoegt in een klein, ambitieus healthtech-team.\n\nMag ik u bellen voor een kort gesprek om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 62,
+        "reason": "Deze kandidaat heeft als co-founder een SaaS-product van nul gebouwd en bewees technisch ownership in Java-backend- en fullstack-rollen.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
     "title": "Investment Management Data Analyst Full-time",
     "url": "https://www.riskconcile.com/careers/investment-management-data-analyst/",
     "company": "RiskConcile",
@@ -11,262 +307,8 @@
     "contact": {
       "name": null,
       "email": "info@riskconcile.com"
-    }
-  },
-  {
-    "title": "Junior Product Owner / Project coordinator",
-    "url": "https://www.routeyou.com/jobs/jr-product-owner-coordinator-0526",
-    "company": "RouteYou",
-    "source": "https://www.routeyou.com/en/jobs",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "node",
-      "scrum"
-    ],
-    "contact": {
-      "name": null,
-      "email": "sales@routeyou.com"
-    }
-  },
-  {
-    "title": "SAP Series",
-    "url": "https://www.sonitron.be/careers/SAP series, https:/www.sonitron.be/products/sap-series/, ",
-    "company": "SONITRON",
-    "source": "https://www.sonitron.be/careers/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "sap"
-    ],
-    "contact": {
-      "name": null,
-      "email": "support@sonitron.be"
-    }
-  },
-  {
-    "title": "Architecturale opmetingen van gebouwen",
-    "url": "https://jobs.landmetervaneester.be/nl/diensten/landmeetkunde/architecturale-opmetingen-van-gebouwen",
-    "company": "Landmeterskantoor Van Eester",
-    "source": "https://jobs.landmetervaneester.be/nl/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "javascript"
-    ],
-    "contact": {
-      "name": null,
-      "email": "info@landmetervaneester.be"
-    }
-  },
-  {
-    "title": "Netwerk & snelheid",
-    "url": "https://www.yoin.be/nl/gsm-abonnement/netwerk",
-    "company": "Yoin",
-    "source": "https://www.yoin.be/nl",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "5G-netwerk",
-    "url": "https://www.yoin.be/nl/gsm-abonnement/5g",
-    "company": "Yoin",
-    "source": "https://www.yoin.be/nl",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Architect – Teamleader",
-    "url": "https://xarchitecten.be/vacatures/architect-teamleader/",
-    "company": "X ARCHITECTEN",
-    "source": "https://xarchitecten.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "jobs@alfabet.be"
-    }
-  },
-  {
-    "title": "Interieurarchitect met commerciële flair Lees de vacature",
-    "url": "https://www.amahaarden.com/nl/jobs/interieurarchitect-met-commerciële-flair",
-    "company": "A.M.A",
-    "source": "https://www.amahaarden.com/jobs",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@amahaarden.com"
-    }
-  },
-  {
-    "title": "Architect – Tekenaar",
-    "url": "https://xarchitecten.be/vacatures/architect-tekenaar/",
-    "company": "X ARCHITECTEN",
-    "source": "https://xarchitecten.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "jobs@alfabet.be"
-    }
-  },
-  {
-    "title": "Faculteit Ingenieurswetenschappen en Architectuur UGent",
-    "url": "https://www.ugent.be/ea/",
-    "company": "Alumnivereniging van de Ingenieurs afgestudeerd aan de Universiteit Gent",
-    "source": "https://aig.ugent.be",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Architect – Ontwerper",
-    "url": "https://xarchitecten.be/vacatures/architect-ontwerper/",
-    "company": "X ARCHITECTEN",
-    "source": "https://xarchitecten.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "jobs@alfabet.be"
-    }
-  },
-  {
-    "title": "Ben je CFO en wil je aan de slag in ons netwerk en freelance of zelfstandig CFO worden?",
-    "url": "https://www.certifin.be/jobs/cfo-op-zoek-naar-variatie/",
-    "company": "CERTIFIN III",
-    "source": "https://www.certifin.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "spring"
-    ],
-    "contact": {
-      "name": null,
-      "email": "info@certifin.be"
-    }
-  },
-  {
-    "title": "Architect – Projectcoördinator",
-    "url": "https://xarchitecten.be/vacatures/architect-projectcoordinator/",
-    "company": "X ARCHITECTEN",
-    "source": "https://xarchitecten.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "jobs@alfabet.be"
-    }
-  },
-  {
-    "title": "Retail Automation: Definition, Benefits, and 5 Examples",
-    "url": "https://us.brinks.com/-/retail-automation",
-    "company": "Brinks Solutions Belgium",
-    "source": "https://us.brinks.com/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "UIA World Congress of Architects – Kopenhagen",
-    "url": "https://dakplus.be/uia-world-congress-of-architects-kopenhagen/",
-    "company": "DAK PLUS",
-    "source": "https://dakplus.be",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "javascript"
-    ]
-  },
-  {
-    "title": "Architecten",
-    "url": "https://dakplus.be/tag/architecten/",
-    "company": "DAK PLUS",
-    "source": "https://dakplus.be",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "javascript"
-    ]
-  },
-  {
-    "title": "Jobs | Accountancy Dataverantwoordelijke / Data-analist factuurautomatisatie Roeselare",
-    "url": "https://www.titeca.be/nl/vacature/dataverantwoordelijke-data-analist-factuurautomatisatie/",
-    "company": "FLEETECA",
-    "source": "https://www.titeca.be/nl/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "power bi"
-    ],
-    "contact": {
-      "name": null,
-      "email": "joke.suetens@titeca.be"
-    }
-  },
-  {
-    "title": "Project Manager Security Solutions m/v/x",
-    "url": "https://www.hearsee.be/vacatures/project-manager-security-solutions-mvx",
-    "company": "HearSee",
-    "source": "https://www.hearsee.be/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "christine.govaert@hearsee.be"
-    }
-  },
-  {
-    "title": "Videoanalist",
-    "url": "https://www.jongsintgillis.be/club/vacatures/videoanalist/",
-    "company": "Sportclub Jong Sint-Gillis",
-    "source": "https://www.jongsintgillis.be/club/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "spring"
-    ],
-    "contact": {
-      "name": null,
-      "email": "info@jongsintgillis.be"
-    }
-  },
-  {
-    "title": "Zelf groeien tot organisatie architect.",
-    "url": "https://www.wildezwanen.be/agenda-item/261001-leertraject-oa/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "welkom@wildezwanen.be"
-    }
-  },
-  {
-    "title": "SAP Treasury Senior Manager (w/m/d) Treasury Advisory Group · Frankfurt am Main, Germany · Hybrid",
-    "url": "https://careers.zandersgroup.com/jobs/7115837-sap-treasury-senior-manager-w-m-d",
-    "company": "ZANDERS",
-    "source": "https://careers.zandersgroup.com/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "sap"
-    ]
-  },
-  {
-    "title": "Organisatie Architecten",
-    "url": "https://www.wildezwanen.be/wie-zijn-we/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "welkom@wildezwanen.be"
-    }
-  },
-  {
-    "title": "Stadsarchitect",
-    "url": "https://www.architectenjobs.be/vacature/stadsarchitect/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "karolien.gabriel@oudenaarde.be"
-    }
+    },
+    "clf": 1
   },
   {
     "title": "[Vacancy] DVJ Insights has a position for Data Platform & AI Engineer",
@@ -278,188 +320,8 @@
       "python",
       "sql",
       "power bi"
-    ]
-  },
-  {
-    "title": "Select all job openings that are (also) aimed at Ukrainian architects, designers and drafts(wo)man.",
-    "url": "https://architectenweb.nl/vacatures/?special=1",
-    "company": "3D Architectuur",
-    "source": "https://architectenweb.nl/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "SAP Treasury Manager (w/m/d) Treasury Advisory Group · Frankfurt am Main, Germany · Hybrid",
-    "url": "https://careers.zandersgroup.com/jobs/7115812-sap-treasury-manager-w-m-d",
-    "company": "ZANDERS",
-    "source": "https://careers.zandersgroup.com/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "sap"
-    ]
-  },
-  {
-    "title": "Security service",
-    "url": "https://www.stepstone.be/jobs/security-service",
-    "company": "t Soetekint - de Levensboom",
-    "source": "https://www.stepstone.be/jobs",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Wat is een Organisatie Architect?",
-    "url": "https://www.wildezwanen.be/diensten/interne-organisatie-architect/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "[Vacancy] DEPT has a position for Lead CRM Strategist",
-    "url": "https://marketingreport.nl/vacancy-dept-has-a-position-for-lead-crm-strategist",
-    "company": "30 dagen zonder klagen",
-    "source": "https://marketingreport.nl/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "architect uitvoering",
-    "url": "https://www.architectenjobs.be/vacature/architect-uitvoering-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Machine automatisering",
-    "url": "https://www.ac-solutions.be/nl/toepassingen/machine-automatisering",
-    "company": "A&C",
-    "source": "https://www.ac-solutions.be/nl",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "sales@ac-solutions.be"
-    }
-  },
-  {
-    "title": "QA Medewerker Incopack N.V. Dilsen-Stokkem Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/qa-medewerker-req2583",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "industriële automatisering",
-    "url": "https://www.ace.eu/nl-nl/industriele-automatisering",
-    "company": "A.C.E. Belgium",
-    "source": "https://www.ace.eu/nl-nl",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "javascript"
     ],
-    "contact": {
-      "name": null,
-      "email": "bram.slabbers@ace.eu"
-    }
-  },
-  {
-    "title": "Business Analyst Belgium AED Rent",
-    "url": "https://www.aedgroup.com/jobs/business-analyst-2/",
-    "company": "A.E.D",
-    "source": "https://www.aedgroup.com/jobs/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "power bi"
-    ],
-    "contact": {
-      "name": null,
-      "email": "info@aedgroup.com"
-    }
-  },
-  {
-    "title": "SAP Treasury Senior Consultant (w/m/d) Treasury Advisory Group · Frankfurt am Main, Germany · Hybrid",
-    "url": "https://careers.zandersgroup.com/jobs/7115783-sap-treasury-senior-consultant-w-m-d",
-    "company": "ZANDERS",
-    "source": "https://careers.zandersgroup.com/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "sap"
-    ]
-  },
-  {
-    "title": "Security service",
-    "url": "https://www.stepstone.be/jobs?action=facet_selected%3bskills%3b685299&fsk=685299",
-    "company": "t Soetekint - de Levensboom",
-    "source": "https://www.stepstone.be/jobs",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Word een Organisatie Architect.",
-    "url": "https://www.wildezwanen.be/diensten/leerling-tot-meester/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "[Vacatures] De Nieuwe Zaak (DNZ) zoekt een Technisch Web Analist",
-    "url": "https://marketingreport.nl/vacatures-de-nieuwe-zaak-dnz-zoekt-een-technisch-web-analist",
-    "company": "30 dagen zonder klagen",
-    "source": "https://marketingreport.nl/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "sql",
-      "power bi"
-    ]
-  },
-  {
-    "title": "2-talig projectarchitect NL/FR voor Antwerps architectenbureau voor Brusselse projecten",
-    "url": "https://www.architectenjobs.be/vacature/2-talig-projectarchitect-nl-fr-voor-antwerps-architectenbureau-voor-brusselse-projecten/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Proces automatisering",
-    "url": "https://www.ac-solutions.be/nl/toepassingen/proces-automatisering",
-    "company": "A&C",
-    "source": "https://www.ac-solutions.be/nl",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "sales@ac-solutions.be"
-    }
-  },
-  {
-    "title": "Rockfon - automatisering volledig inpakproces",
-    "url": "https://www.ace.eu/nl-nl/rockfon-automatisering-volledig-inpakproces",
-    "company": "A.C.E. Belgium",
-    "source": "https://www.ace.eu/nl-nl",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "javascript"
-    ],
-    "contact": {
-      "name": null,
-      "email": "info@ace.eu"
-    }
-  },
-  {
-    "title": "QA Officer A-ware Dairy & Cream B.V. Coevorden Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/qa-officer-req2570",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "thomas.bos@royal-aware.com"
-    }
+    "clf": 1
   },
   {
     "title": "Vacature IT Engineer",
@@ -474,407 +336,8 @@
     "contact": {
       "name": null,
       "email": "jobs@gdcnetworks.eu"
-    }
-  },
-  {
-    "title": "Word lid van onze Organisatie Architecten community.",
-    "url": "https://www.wildezwanen.be/agenda-item/251210-zwermkracht/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "els@wildezwanen.be"
-    }
-  },
-  {
-    "title": "(ir.) architect stagiair",
-    "url": "https://www.architectenjobs.be/vacature/ir-architect-stagiair-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@ilsechristiaansen.be"
-    }
-  },
-  {
-    "title": "Junior Product Ontwikkelaar A-ware Shared Services B.V. Coevorden Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/junior-product-ontwikkelaar-req2417",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "dorus.wolters@royal-aware.com"
-    }
-  },
-  {
-    "title": "Richten en inrichten van organisatienetwerken",
-    "url": "https://www.wildezwanen.be/diensten/richten-en-inrichten-van-organisatienetwerken/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "welkom@wildezwanen.be"
-    }
-  },
-  {
-    "title": "Assistent Architect",
-    "url": "https://www.architectenjobs.be/vacature/assistent-architect-4/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "vaca@vaneeckhout.be"
-    }
-  },
-  {
-    "title": "Corporate QA Officer Product innovatie A-ware Shared Services B.V. Almere Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/corporate-qa-officer-product-innovatie-req2415",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "recruitment@royal-aware.com"
-    }
-  },
-  {
-    "title": "Versterken van interne organisatie architect expertise",
-    "url": "https://www.wildezwanen.be/diensten/versterken-van-interne-organisatie-architect-expertise/",
-    "company": "Wilde Zwanen",
-    "source": "https://www.wildezwanen.be/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Architect / Ir. Architect",
-    "url": "https://www.architectenjobs.be/vacature/architect-ir-architect-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "vaca@vaneeckhout.be"
-    }
-  },
-  {
-    "title": "QA Specialist A-ware Mozzarella & Cream B.V. Heerenveen Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/qa-specialist-req2397",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "recruitment@royal-aware.com"
-    }
-  },
-  {
-    "title": "Liniaal Architecten zoekt assistent-architect / (Ir) - architect",
-    "url": "https://www.architectenjobs.be/vacature/liniaal-architecten-zoekt-assistent-architect-ir-architect/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "contact@liniaalarchitecten.be"
-    }
-  },
-  {
-    "title": "Supply Network Planner A-ware Cheese B.V. Almere Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/supply-network-planner-req2349",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "power bi"
-    ],
-    "contact": {
-      "name": null,
-      "email": "recruitment@royal-aware.com"
-    }
-  },
-  {
-    "title": "Gezocht: Projectarchitect met passie voor wonen en uitvoering",
-    "url": "https://www.architectenjobs.be/vacature/gezocht-projectarchitect-met-passie-voor-wonen-en-uitvoering-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "ls@awpburo.be"
-    }
-  },
-  {
-    "title": "QA Manager divisie Borrelgemak Bouter Cheese B.V. Almere Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/qa-manager-divisie-borrelgemak-req2046",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "dorus.wolters@royal-aware.com"
-    }
-  },
-  {
-    "title": "MADE architects zoekt een ervaren (ir.) architect",
-    "url": "https://www.architectenjobs.be/vacature/made-architects-zoekt-een-ervaren-ir-architect/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@madearchitects.be"
-    }
-  },
-  {
-    "title": "QA Manager Operations Bouter Cheese B.V. Almere Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/qa-manager-operations-req2034",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "dorus.wolters@royal-aware.com"
-    }
-  },
-  {
-    "title": "Project-Architect / Stagiair",
-    "url": "https://www.architectenjobs.be/vacature/project-architect-stagiair/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Netwerk Engineer A-ware Shared Services B.V. Houten Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/netwerk-engineer-req2007",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "rest"
-    ],
-    "contact": {
-      "name": null,
-      "email": "recruitment@royal-aware.com"
-    }
-  },
-  {
-    "title": "(Stagiair)Architect",
-    "url": "https://www.architectenjobs.be/vacature/stagiairarchitect/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "ann.vermoesen@osk-ar.be"
-    }
-  },
-  {
-    "title": "System Engineer A-ware Shared Services B.V. Houten Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/system-engineer-req1756",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "recruitment@royal-aware.com"
-    }
-  },
-  {
-    "title": "Ons team zoekt een Project Architect met passie",
-    "url": "https://www.architectenjobs.be/vacature/ons-team-zoekt-een-project-architect-met-passie-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "geert.devolder@devolderarchitecten.be"
-    }
-  },
-  {
-    "title": "Team Lead System Engineering A-ware Shared Services B.V. Houten Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/team-lead-system-engineering-req1586",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "rest"
-    ],
-    "contact": {
-      "name": null,
-      "email": "recruitment@royal-aware.com"
-    }
-  },
-  {
-    "title": "(Ingenieur-)architect",
-    "url": "https://www.architectenjobs.be/vacature/ingenieur-architect/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@derveauxarchitecten.be"
-    }
-  },
-  {
-    "title": "Productontwikkelaar (Rijst)desserts & Slagroom Eurodesserts NV Beringen (BE) Vaste medewerker",
-    "url": "https://werkenbijaware.com/vacatures/productontwikkelaar-rijstdesserts-slagroom-req2525",
-    "company": "A-ware Dairy Products Belgium",
-    "source": "https://werkenbijaware.com/vacatures",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Projectarchitect met ervaring",
-    "url": "https://www.architectenjobs.be/vacature/projectarchitect-met-ervaring-4/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [
-      "rest"
-    ],
-    "contact": {
-      "name": null,
-      "email": "info@clvr.be"
-    }
-  },
-  {
-    "title": "architect / interieur architect / technisch tekenaar (zefstandig of bediende)",
-    "url": "https://www.architectenjobs.be/vacature/architect-interieur-architect-technisch-tekenaar-zefstandig-of-bediende/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "hannah@hdarchitectuur.be"
-    }
-  },
-  {
-    "title": "(ir.) Architect(e) UITVOERING bij V2-Architecten – Roeselare",
-    "url": "https://www.architectenjobs.be/vacature/ir-architecte-uitvoering-bij-v2-architecten-roeselare-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "architectuur@v2-a.be"
-    }
-  },
-  {
-    "title": "(stagiair) architect(e) gezocht!",
-    "url": "https://www.architectenjobs.be/vacature/stagiair-architecte-gezocht/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "ARCHITECT / ARCHITECT-ASSISTENT / INTERIEURARCHITECT (MIN. 5 JAAR ERVARING)",
-    "url": "https://www.architectenjobs.be/vacature/architect-architect-assistent-interieurarchitect-min-5-jaar-ervaring/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@umamistudio.be"
-    }
-  },
-  {
-    "title": "architect gezocht",
-    "url": "https://www.architectenjobs.be/vacature/architect-gezocht-5/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@we-s.be"
-    }
-  },
-  {
-    "title": "vkv architecten zoekt projectarchitect",
-    "url": "https://www.architectenjobs.be/vacature/vkv-architecten-zoekt-projectarchitect/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "Stagiair architect gezocht",
-    "url": "https://www.architectenjobs.be/vacature/stagiair-architect-gezocht-2/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "(ir.) Architect met ervaring",
-    "url": "https://www.architectenjobs.be/vacature/ir-architect-met-ervaring/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": []
-  },
-  {
-    "title": "(ir.) Architect(e) STAGIAIR bij V2-Architecten – Roeselare",
-    "url": "https://www.architectenjobs.be/vacature/ir-architecte-stagiair-bij-v2-architecten-roeselare/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "architectuur@v2-a.be"
-    }
-  },
-  {
-    "title": "fijn zoekt (ir) architect(e) met ervaring!",
-    "url": "https://www.architectenjobs.be/vacature/fijn-zoekt-ir-architecte-met-ervaring/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "info@fijnatelier.be"
-    }
-  },
-  {
-    "title": "Interieurarchitect",
-    "url": "https://www.architectenjobs.be/vacature/interieurarchitect-4/",
-    "company": "(Full) Scale Architecten",
-    "source": "https://www.architectenjobs.be/vacatures/",
-    "first_seen": "2026-08-10",
-    "stack": [],
-    "contact": {
-      "name": null,
-      "email": "frank@hkvm.be"
-    }
+    },
+    "clf": 1
   },
   {
     "title": "R&I Software Engineer",
@@ -3382,24 +2845,24 @@
     "ai_matches": [
       {
         "row": 42,
-        "score": 91,
-        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met bewezen Azure Service Bus-ervaring en tech-lead ownership bij RIZIV en Colruyt.",
+        "score": 88,
+        "reason": "Deze kandidaat combineert 8 jaar .NET-ervaring met Blazor, ASP.NET, Azure Service Bus en legacy-naar-microservices migratie bij Colruyt.",
         "check": "d8",
-        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook samenwerkt met externe consultants. Ik stel graag een kandidaat voor die op vrijwel elk punt aansluit bij jullie zoekprofiel.\n\nDeze kandidaat werkt al 8 jaar als senior .NET-ontwikkelaar en heeft concreet bewezen ervaring met precies de stack die Pionira vraagt: C#, ASP.NET, Blazor en Azure Service Bus. Bij Colruyt Group leidde deze kandidaat een legacy-.NET Framework-migratie naar microservices met event-driven integratie via Azure Service Bus — precies het type modernisering dat jullie als pluspunt vermelden. Bij RIZIV-INAMI functioneert deze kandidaat als backup Tech Lead: architectuurafspraken, PR-reviews en taakcoördinatie in een cross-functioneel team.\n\nDat technisch leiderschap, gecombineerd met een sterke achtergrond in gedistribueerde systemen en Azure-integraties, maakt deze kandidaat een uitstekende match voor een groeiend scale-up zoals Pionira.\n\nKan ik u hierover kort bellen deze week?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nWe vernamen dat Pionira op zoek is naar een ervaren .NET Software Engineer. Werkt u hiervoor ook met externe consultants? Dan hebben wij een uitstekend profiel voor u.\n\nDeze kandidaat beschikt over 8 jaar hands-on .NET-ervaring en sluit naadloos aan op uw vereisten: Blazor en ASP.NET zijn dagelijkse tools in de huidige rol bij RIZIV-INAMI, waar deze kandidaat ook back-up Tech Lead is (architecture alignment, PR reviews). Bij Colruyt Group leidde deze kandidaat een migratie van een monoliet naar microservices met Azure Service Bus — exact de gedistribueerde Azure-architectuur die Pionira zoekt. Daarnaast is er aantoonbare ervaring met REST-services, SQL en .NET Framework-onderhoud.\n\nDeze kandidaat combineert sterke technische diepgang met coachende vaardigheden en een brede domeinervaring in publieke sector en retail. Een profiel dat klaar is om meteen impact te maken.\n\nGraag plannen we een korte kennismakingsgesprek in. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 61,
-        "score": 88,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, bewezen .NET MAUI/Xamarin-migratie en Azure-integraties inclusief Blazor en CQRS.",
+        "score": 85,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, aantoonbare .NET MAUI-migratiekennis en Blazor/Azure-werk in recentste projecten.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer bij Pionira neem ik contact op — werkt Pionira ook met externe consultants?\n\nDeze kandidaat is freelance .NET-specialist met 19 jaar ervaring en combineert precies de vaardigheden die jullie zoeken. De Blazor- en Azure-expertise is productioneel bewezen: bij Gervi bouwde deze kandidaat een end-to-end verkoopportal met Blazor en .NET Aspire. Nog relevanter: bij TenForce begeleidde deze kandidaat de migratieplannnig van een Xamarin Forms-app naar .NET MAUI — het specifieke pluspunt dat jullie vacature vermeldt. Daarbovenop leverde deze kandidaat bij NMBS/Ypto missiekritieke Azure-integraties op Kubernetes-niveau.\n\nDisciplines als TDD, CQRS en Clean Architecture ronden een profiel af dat zowel technisch diepgang als leveringszekerheid biedt — waardevol in een logistieke softwareomgeving zoals Pionira.\n\nKan ik u deze week even bellen?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nPionira zoekt een Senior .NET Software Engineer met diepgaande Azure- en Blazor-kennis. Werkt u daarvoor ook met externe specialisten? Dan willen we u graag een uitzonderlijk profiel voorstellen.\n\nDeze kandidaat is een doorgewinterde .NET-freelancer met 19 jaar ervaring. Recent werkte deze kandidaat aan een mission-critical integratiebrug voor NMBS met .NET Core, Azure Cosmos DB en Kubernetes — een bewijs van ervaring met gedistribueerde, schaalbare systemen. Voor Gervi bouwde deze kandidaat een Blazor-verkoopsportaal met .NET Aspire en OpenTelemetry. Bijzonder relevant voor Pionira: bij TenForce was deze kandidaat betrokken bij een .NET MAUI-migratieplan voor een legacy Xamarin-app — exact het nice-to-have uit uw vacature. Clean Architecture, CQRS en TDD zijn vaste werkwijzen.\n\nEen uitzonderlijk compleet profiel dat uw logistieke softwareplatform meteen kan versterken.\n\nGraag overlopen we dit in een korte call. Wanneer past het u?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 20,
-        "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Azure Service Bus, Blazor en gedistribueerde architectuur in productie-omgevingen.",
+        "score": 78,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en gedistribueerde systemen in productieomgevingen.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk zag jullie vacature voor een .NET Software Engineer bij Pionira en vroeg me af of jullie openstaan voor externe consultants. Graag stel ik een sterk profiel voor.\n\nDeze kandidaat werkt al meer dan 16 jaar met .NET en heeft aantoonbare ervaring met de technologieën die Pionira centraal stelt: Blazor, ASP.NET, Azure App Services en Azure Service Bus — dit laatste actief ingezet in een langlopend cloudproject op Azure. In een recent traject deed deze kandidaat bovendien ervaring op met Kafka/Debezium, CQRS, Kubernetes en AWS, wat de breedte van gedistribueerde systeemkennis onderstreept. Als tech lead en technisch analist is er ook bewezen ervaring met teambegeleiding en architectuurbeslissingen.\n\nDat niveau van senioriteit en hands-on cloud-architectuurervaring sluit nauw aan bij wat Pionira zoekt voor het mee bouwen aan schaalbare logistieke softwareoplossingen.\n\nKan ik u kort spreken deze week?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een .NET Software Engineer bij Pionira nemen we graag contact op. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en werkte o.a. aan een Azure-webapplicatie (App Services, Service Bus, SQL) voor een retailklant — technologieën die centraal staan in uw stack. Momenteel herschrijft deze kandidaat drie legacy desktopapplicaties naar een cloud-webplatform met .NET 8, Kafka, CQRS en Kubernetes, wat aantoont dat legacy-migratie en moderne cloudarchitectuur geen uitdaging zijn. Blazor, ASP.NET en Azure zijn aantoonbaar aanwezig in de projecthistoriek. Daarnaast heeft deze kandidaat ervaring als team lead en technisch analist.\n\nEen senior profiel met bewezen affiniteit voor schaalbare, gedistribueerde .NET-oplossingen — klaar om bij te dragen aan de technische strategie van Pionira.\n\nZou een korte kennismakingscall mogelijk zijn?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -3866,21 +3329,21 @@
       {
         "row": 73,
         "score": 78,
-        "reason": "Deze kandidaat bouwde grote Python/PySpark/Databricks-datapipelines en microservices-architecturen, met sterke affiniteit voor wetenschappelijke en geospatiale dataverwerking.",
+        "reason": "Deze kandidaat bouwde grootschalige Python/PySpark/Databricks datapijplijnen en microservices-architecturen, met bewezen ervaring in wetenschappelijke en ML-gedreven dataverwerking.",
         "check": "w20",
-        "pitch": "Beste,\n\nVITO zoekt een Senior Software Engineer voor Earth Observation Services in Mol — werkt u daarvoor ook met externe consultants?\n\nDeze kandidaat heeft 20 jaar ervaring in platform- en data-engineering en past sterk op uw profiel. Bij Materialise ontwierp en bouwde deze kandidaat from scratch een big-data platform op Azure met Databricks/Spark, medallion-architectuur, ADF, IoT-ingestion en ML-integratie — exact de large-scale data processing die VITO vereist. Als CTO bij een computer-vision startup had deze kandidaat volledige ownership van ML-trainingspipelines en cloud-infrastructuur (Azure, Docker, Terraform, CI/CD). Microservices op AWS, event-driven architecturen en IaC via Terraform en Bicep zijn aangetoond in productie. Python is de rode draad doorheen de volledige carrière.\n\nDeze kandidaat werkt beschikbaar via een BV, 3–4 dagen per week, en combineert senioriteitssignalen (architectuur, mentoring, eigenaarschap) met een sterke technische diepgang.\n\nGraag even bellen om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nVITO zoekt een Senior Software Engineer voor hun Earth Observation Services — werkt u ook met externe consultants voor dergelijke profielen?\n\nDeze kandidaat combineert 20 jaar ervaring in platform- en data-engineering met een sterke Python- en PySpark-achtergrond, precies wat VITO vraagt voor grootschalige dataverwerking. Als CTO bij een computer-vision startup ontwierp deze kandidaat end-to-end ML-datapijplijnen en Azure-infrastructuur (Databricks, Delta Lake, ADF, Terraform, Docker). Bij Materialise bouwde deze kandidaat van nul een big-data platform op Azure met medallion-architectuur, Spark en IoT-integratie — vergelijkbaar met de EO-verwerkingsketens bij VITO. Microservices, event-driven architecturen en CI/CD zijn bewezen aanwezig. De achtergrond in wetenschappelijke en industriële dataplatformen maakt deze kandidaat bijzonder relevant voor een omgeving waar R&D-prototypes naar productie-grade services worden vertaald.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 27,
         "score": 72,
-        "reason": "Deze kandidaat heeft bewezen ervaring met Python, Spark, Kafka, Kubernetes en cloud-native architecturen voor grootschalige dataverwerking bij imec en DPG Media.",
+        "reason": "Deze kandidaat heeft bewezen ervaring met grootschalige dataverwerking via Spark, Kafka en Flink, inclusief Python en Kubernetes in een wetenschappelijke onderzoekscontext bij imec.",
         "check": "a8"
       },
       {
-        "row": 40,
-        "score": 68,
-        "reason": "Deze kandidaat beheert productie-Spark/PySpark-pipelines bij Nike en heeft sterke DataOps-, CI/CD- en Kafka-ervaring voor grootschalige data, maar mist geospatiale achtergrond.",
-        "check": "b17"
+        "row": 50,
+        "score": 58,
+        "reason": "Deze kandidaat heeft sterke Python- en Kubernetes-expertise met bewezen DevOps-ownership, maar mist concrete ervaring met wetenschappelijke of geospatiale dataverwerking.",
+        "check": "j8"
       }
     ]
   },
