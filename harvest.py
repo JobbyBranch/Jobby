@@ -4,16 +4,32 @@ JobRadar company harvester — the "Company Discovery" box.
 
 Pipeline:
   1. Download the monthly KBO/CBE open-data dump (all Belgian companies)
-  2. Filter: active legal entities, Flemish postcode, relevant NACE activity
-     (staffing agencies NACE 78* and IT consultancies NACE 6202* excluded)
-  3. Find each company's website:
+  2. Filter: active legal entities, Flemish postcode, relevant NACE activity.
+     The NACE filter is VERSION-AWARE: since March 2025 the KBO carries
+     NACE-BEL 2025 codes next to (or instead of) the 2008 ones, and the
+     numbering differs (IT consultancy: 6202 -> 6220, garages: 45 -> 95).
+     Hard exclusions (either code version triggers them):
+       staffing 78*, IT consultancy, holdings, real estate, agriculture,
+       garages/car trade, pharmacies, horeca, hairdressers & other
+       personal services, households.
+  3. CENSUS ("de telling"): before any Serper credit is spent, log how many
+     candidates remain, split by website / legal form / priority sector —
+     so the Serper purchase decision rests on numbers, not assumptions.
+     Set COUNT_ONLY=1 to stop right after the census (nothing written,
+     nothing spent).
+  4. Find each company's website:
        a. KBO contact data (WEB records) — free, authoritative
-       b. Serper.dev search fallback — for companies without registered site
-  4. Write companies_auto.txt (Name;domain) for discover.py to verify
+       b. Serper.dev search fallback — ONLY for companies worth a credit
+          (legal form NV/SE/BV/CV, or a priority-sector VZW/other)
+  5. Write companies_auto.txt (Name;domain) for discover.py to verify
      career pages, and harvest_state.json so re-runs never repeat work.
 
+Processing order: registered website first, then legal-form tier
+(NV/SE > BV/CV > VZW > rest), then priority sector — biggest fish first.
+
 Env (GitHub secrets): KBO_LOGIN, KBO_PASSWORD, SERPER_API_KEY
-Optional env: MAX_NEW_COMPANIES (default 800), MAX_SERPER (default 500)
+Optional env: MAX_NEW_COMPANIES (default 800), MAX_SERPER (default 500),
+              COUNT_ONLY (set to 1 for a census-only dry run)
 """
 
 import csv
@@ -36,6 +52,7 @@ KBO_BASE = "https://kbopub.economie.fgov.be/kbo-open-data"
 
 MAX_NEW = int(os.environ.get("MAX_NEW_COMPANIES", "800"))
 MAX_SERPER = int(os.environ.get("MAX_SERPER", "500"))
+COUNT_ONLY = os.environ.get("COUNT_ONLY", "").strip() in ("1", "true", "yes")
 
 # Flemish postcodes: Vlaams-Brabant, Antwerpen, Limburg, West-Vl, Oost-Vl
 def is_flemish(zipcode: str) -> bool:
@@ -45,17 +62,28 @@ def is_flemish(zipcode: str) -> bool:
         return False
     return (1500 <= z <= 1999) or (2000 <= z <= 3999) or (8000 <= z <= 9999)
 
-# NACE main-activity prefixes we exclude entirely
-NACE_EXCLUDE_PREFIX = (
+
+# ---------------------------------------------------------------------------
+# NACE filters — one set per code version present in the dump.
+# activity.csv rows carry a NaceVersion column ("2003" / "2008" / "2025");
+# an entity is hard-excluded as soon as ANY of its MAIN activities matches
+# the exclude list of that row's version.
+# ---------------------------------------------------------------------------
+
+# --- NACE-BEL 2008 ---------------------------------------------------------
+NACE_EXCLUDE_2008 = (
     "78",     # employment/staffing agencies — the hard requirement
     "6202",   # IT consultancy — competitors posting for clients
     "6420",   # holdings (empty shells)
     "68",     # real estate (mostly patrimonium vehicles)
     "01", "02", "03",  # agriculture/forestry/fishing micro-companies
+    "45",     # car trade & garages           (junk seen in batch 1)
+    "4773",   # pharmacies                    (junk seen in batch 1)
+    "55", "56",        # horeca               (junk seen in batch 1)
+    "96",     # hairdressers, beauty, laundry (junk seen in batch 1)
     "9700", "9810", "9820", "9900",  # households
 )
-# NACE prefixes that get priority (likely to have real IT departments)
-NACE_PRIORITY_PREFIX = (
+NACE_PRIORITY_2008 = (
     "10", "11", "20", "21", "22", "23", "24", "25", "26", "27", "28",
     "29", "30",                    # manufacturing & industry
     "35", "36", "37", "38",        # energy, water, waste
@@ -67,6 +95,48 @@ NACE_PRIORITY_PREFIX = (
     "71", "72",                    # engineering offices & R&D
     "84", "85", "86",              # public admin, education, healthcare
 )
+
+# --- NACE-BEL 2025 (Rev 2.1) -----------------------------------------------
+# Renumbering that matters here:
+#   62.02 IT consultancy      -> 62.20
+#   45    garages/car repair  -> repair moved to division 95, trade into 46/47
+#   division 45 no longer exists; households are plain divisions 97/98/99
+NACE_EXCLUDE_2025 = (
+    "78",     # staffing — unchanged division
+    "6220",   # IT consultancy (was 6202)
+    "6420",   # holdings — unchanged
+    "68",     # real estate — unchanged
+    "01", "02", "03",  # agriculture — unchanged
+    "4773",   # pharmacies (product-based retail keeps the class)
+    "55", "56",        # horeca — unchanged
+    "95",     # repair incl. garages (motor-vehicle repair moved here)
+    "96",     # personal services — unchanged division
+    "97", "98", "99",  # households & extraterritorial
+)
+NACE_PRIORITY_2025 = (
+    "10", "11", "20", "21", "22", "23", "24", "25", "26", "27", "28",
+    "29", "30",
+    "35", "36", "37", "38",
+    "46", "47",
+    "49", "50", "51", "52", "53",
+    "58", "62", "631",   # "62" is safe: 6220 entities are already discarded
+    "60", "61",
+    "64", "65", "66",
+    "71", "72",
+    "84", "85", "86",
+)
+
+NACE_SETS = {
+    "2008": (NACE_EXCLUDE_2008, NACE_PRIORITY_2008),
+    "2025": (NACE_EXCLUDE_2025, NACE_PRIORITY_2025),
+    # "2003" rows are ignored: Rev 1.1 numbering is incompatible (staffing
+    # was 74.5 back then) and every active entity also carries 2008/2025 rows.
+}
+
+# Legal-form tiers (bigger form = bigger company, statistically).
+# Built from code.csv descriptions so we never depend on memorised codes.
+FORM_TIER_NAMES = {3: "NV/SE", 2: "BV/CV", 1: "VZW", 0: "overig"}
+SERPER_MIN_TIER = 2   # spend a credit on tier>=2, or on priority-sector below
 
 SEARCH_BLACKLIST = {
     "facebook.com", "linkedin.com", "instagram.com", "youtube.com",
@@ -209,42 +279,83 @@ def stream_csv(zf: zipfile.ZipFile, name: str):
         yield from csv.DictReader(io.TextIOWrapper(f, encoding="utf-8-sig"))
 
 
+def load_form_tiers(zf: zipfile.ZipFile, have: set) -> dict:
+    """
+    Map JuridicalForm code -> tier, by matching the Dutch descriptions in
+    code.csv (robust against the numeric codes shifting between dumps).
+      3 = NV / Europese vennootschap (SE)   — the big-company forms
+      2 = BV/BVBA / coöperatieve vennootschap
+      1 = VZW (hospitals, schools — big employers hide here)
+      0 = everything else (VOF, CommV, maatschap, …)
+    """
+    tiers = {}
+    if "code.csv" not in have:
+        log("[kbo] WARNING: code.csv missing from dump — legal-form sorting disabled")
+        return tiers
+    for row in stream_csv(zf, "code.csv"):
+        if row.get("Category") != "JuridicalForm" or row.get("Language") != "NL":
+            continue
+        d = row.get("Description", "").lower()
+        code = row.get("Code", "")
+        if "naamloze vennootschap" in d or "europese vennootschap" in d:
+            tiers[code] = 3
+        elif "besloten vennootschap" in d or "coöperatieve vennootschap" in d \
+                or "cooperatieve vennootschap" in d:
+            tiers[code] = 2
+        elif "vereniging zonder winstoogmerk" in d:
+            tiers[code] = 1
+    log(f"[kbo] legal-form tiers mapped for {len(tiers)} form codes "
+        f"(NV/SE: {sum(1 for t in tiers.values() if t == 3)}, "
+        f"BV/CV: {sum(1 for t in tiers.values() if t == 2)}, "
+        f"VZW: {sum(1 for t in tiers.values() if t == 1)})")
+    return tiers
+
+
 def build_candidates(zip_path: Path) -> list[dict]:
     zf = zipfile.ZipFile(zip_path)
     have = {i.filename for i in zf.infolist()}
     log(f"[kbo] archive contains: {sorted(have)}")
 
-    log("[kbo] pass 1/5: active legal entities…")
-    ent_ok = set()
+    form_tiers = load_form_tiers(zf, have)
+
+    log("[kbo] pass 1/5: active legal entities (+ legal form)…")
+    ent_form = {}   # EnterpriseNumber -> tier
     for row in stream_csv(zf, "enterprise.csv"):
         if row.get("Status") == "AC" and row.get("TypeOfEnterprise") == "2":
-            ent_ok.add(row["EnterpriseNumber"])
-    log(f"        {len(ent_ok):,}")
+            ent_form[row["EnterpriseNumber"]] = form_tiers.get(row.get("JuridicalForm", ""), 0)
+    log(f"        {len(ent_form):,}")
 
     log("[kbo] pass 2/5: Flemish addresses…")
     flemish = set()
     for row in stream_csv(zf, "address.csv"):
-        if row.get("TypeOfAddress") == "REGO" and row["EntityNumber"] in ent_ok \
+        if row.get("TypeOfAddress") == "REGO" and row["EntityNumber"] in ent_form \
                 and is_flemish(row.get("Zipcode", "")):
             flemish.add(row["EntityNumber"])
     log(f"        {len(flemish):,}")
 
-    log("[kbo] pass 3/5: NACE filter…")
+    log("[kbo] pass 3/5: NACE filter (version-aware: 2008 + 2025)…")
     keep, priority = set(), set()
+    ver_seen = {}
     for row in stream_csv(zf, "activity.csv"):
         n = row["EntityNumber"]
         if n not in flemish or row.get("Classification") != "MAIN":
             continue
+        sets = NACE_SETS.get(row.get("NaceVersion", ""))
+        if sets is None:          # 2003 rows etc. — numbering incompatible
+            continue
+        exclude, prio_set = sets
+        ver_seen[row["NaceVersion"]] = ver_seen.get(row["NaceVersion"], 0) + 1
         code = row.get("NaceCode", "")
-        if any(code.startswith(p) for p in NACE_EXCLUDE_PREFIX):
+        if any(code.startswith(p) for p in exclude):
             keep.discard(n)
             priority.discard(n)
-            flemish.discard(n)  # hard exclusion
+            flemish.discard(n)    # hard exclusion — either version triggers it
             continue
         keep.add(n)
-        if any(code.startswith(p) for p in NACE_PRIORITY_PREFIX):
+        if any(code.startswith(p) for p in prio_set):
             priority.add(n)
-    log(f"        kept {len(keep):,} (priority {len(priority):,})")
+    log(f"        kept {len(keep):,} (priority {len(priority):,}); "
+        f"MAIN rows seen per NACE version: {ver_seen}")
 
     log("[kbo] pass 4/5: names…")
     names = {}
@@ -272,10 +383,40 @@ def build_candidates(zip_path: Path) -> list[dict]:
         if not nm or len(nm) < 3:
             continue
         out.append({"nr": n, "name": nm, "web": webs.get(n, ""),
-                    "prio": 1 if n in priority else 0})
-    # order: registered-website + priority sector first
-    out.sort(key=lambda c: (-(bool(c["web"])), -c["prio"], c["name"]))
+                    "dom": clean_domain(webs.get(n, "")),
+                    "prio": 1 if n in priority else 0,
+                    "form": ent_form.get(n, 0)})
+    # order: registered website first, then legal-form tier, then sector
+    out.sort(key=lambda c: (-(bool(c["dom"])), -c["form"], -c["prio"], c["name"]))
     return out
+
+
+def census(cands: list[dict], serper_budget: int):
+    """De telling — printed BEFORE a single Serper credit is spent."""
+    def by_form(lst):
+        return " | ".join(f"{FORM_TIER_NAMES[t]}: {sum(1 for c in lst if c['form'] == t):,}"
+                          for t in (3, 2, 1, 0))
+
+    with_web = [c for c in cands if c["dom"]]
+    no_web = [c for c in cands if not c["dom"]]
+    serper_worthy = [c for c in no_web if c["form"] >= SERPER_MIN_TIER or c["prio"]]
+
+    log("")
+    log("[telling] ══════ censusrapport — vóór enige Serper-uitgave ══════")
+    log(f"[telling] kandidaten nog te verwerken:        {len(cands):,}")
+    log(f"[telling]   rechtsvorm:                       {by_form(cands)}")
+    log(f"[telling]   prioriteitssector:                {sum(1 for c in cands if c['prio']):,}")
+    log(f"[telling] met geregistreerde website (GRATIS): {len(with_web):,}")
+    log(f"[telling]   rechtsvorm:                       {by_form(with_web)}")
+    log(f"[telling] zonder website:                     {len(no_web):,}")
+    log(f"[telling]   Serper-waardig (NV/BV/CV of prioriteitssector): {len(serper_worthy):,}")
+    log(f"[telling]   niet Serper-waardig (wordt overgeslagen):       {len(no_web) - len(serper_worthy):,}")
+    log(f"[telling] → Serper-credits nodig om ALLE waardige te doen:  {len(serper_worthy):,}")
+    log(f"[telling] → gratis voorraad dekt nog {len(with_web) // max(MAX_NEW, 1)} runs van {MAX_NEW}"
+        if with_web else "[telling] → geen gratis voorraad meer — vanaf nu is elke resolutie een Serper-credit")
+    log(f"[telling] huidige run: max {MAX_NEW} bedrijven, Serper-budget {serper_budget}")
+    log("[telling] ═══════════════════════════════════════════════════════")
+    log("")
 
 
 def clean_domain(url: str) -> str | None:
@@ -322,23 +463,34 @@ def main():
     log(f"[harvest] {len(cands):,} candidates not yet processed")
 
     serper_key = os.environ.get("SERPER_API_KEY", "")
-    serper_used = 0
+    census(cands, MAX_SERPER if serper_key else 0)
+
+    if COUNT_ONLY:
+        log("[harvest] COUNT_ONLY gezet — stop na de telling. "
+            "Niets weggeschreven, geen credit uitgegeven.")
+        return
+
+    serper_used = serper_skipped = 0
     batch, lines = 0, []
     for c in cands:
         if batch >= MAX_NEW:
             break
-        dom = clean_domain(c["web"])
+        dom = c["dom"]
         if not dom and serper_key and serper_used < MAX_SERPER:
-            dom = serper_lookup(c["name"], serper_key)
-            serper_used += 1
-            time.sleep(0.25)
+            if c["form"] >= SERPER_MIN_TIER or c["prio"]:
+                dom = serper_lookup(c["name"], serper_key)
+                serper_used += 1
+                time.sleep(0.25)
+            else:
+                serper_skipped += 1   # not worth a credit — mark done, move on
         done.add(c["nr"])
         if dom:
             safe_name = c["name"].replace(";", ",")
             lines.append(f"{safe_name};{dom}")
             batch += 1
             if batch % 50 == 0:
-                log(f"[harvest] {batch} companies resolved (serper used: {serper_used})")
+                log(f"[harvest] {batch} companies resolved "
+                    f"(serper used: {serper_used}, skipped as not-worth-it: {serper_skipped})")
 
     existing = OUT_FILE.read_text().splitlines() if OUT_FILE.exists() else []
     seen_domains = {l.split(";")[-1] for l in existing if ";" in l}
@@ -350,7 +502,8 @@ def main():
     state["done"] = sorted(done)
     STATE_FILE.write_text(json.dumps(state))
     log(f"[harvest] wrote {len(added)} new companies to {OUT_FILE.name} "
-        f"(serper lookups: {serper_used}); total in file: {len(existing) + len(added)}")
+        f"(serper lookups: {serper_used}, skipped as not-worth-it: {serper_skipped}); "
+        f"total in file: {len(existing) + len(added)}")
     log("[harvest] next step: run the source discovery workflow to verify career pages")
 
 
