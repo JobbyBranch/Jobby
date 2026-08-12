@@ -30,4 +30,7 @@ jobs:
           git config user.email "bot@jobradar"
           git add discovered_sources.yaml discovery_report.txt
           git diff --cached --quiet || git commit -m "source discovery"
+          git diff --cached --quiet || git commit -m "company harvest"
+          git pull --rebase origin main
+          git push
           git push
