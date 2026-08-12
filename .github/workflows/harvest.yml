@@ -42,4 +42,5 @@ jobs:
           git config user.email "bot@jobradar"
           git add companies_auto.txt harvest_state.json
           git diff --cached --quiet || git commit -m "company harvest"
+          git pull --rebase origin main
           git push
