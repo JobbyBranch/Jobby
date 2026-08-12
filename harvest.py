@@ -453,13 +453,133 @@ def serper_lookup(name: str, key: str) -> str | None:
         return None
 
 
+STATE_VERSION = 2
+
+def repair_state(state: dict, all_cands: list[dict]) -> dict:
+    """
+    One-time migration from state v1.
+
+    The old code marked every processed company as 'done' — even when the
+    Serper budget was already exhausted, so no resolution was ever attempted.
+    Those companies were buried without a chance. Rescue rule: a number stays
+    'done' only if its name actually made it into companies_auto.txt (i.e. it
+    was genuinely resolved); everything else goes back into the queue.
+    Old junk entries (now hard-excluded by the NACE filter) simply drop out.
+    """
+    if state.get("version", 1) >= STATE_VERSION:
+        return state
+    resolved_names = set()
+    if OUT_FILE.exists():
+        for line in OUT_FILE.read_text().splitlines():
+            if ";" in line:
+                resolved_names.add(line.rsplit(";", 1)[0])
+    old_done = set(state.get("done", []))
+    new_done = {c["nr"] for c in all_cands
+                if c["nr"] in old_done and c["name"].replace(";", ",") in resolved_names}
+    log(f"[state] migratie v1→v2: {len(old_done) - len(new_done):,} eerder als 'done' "
+        f"gemarkeerde bedrijven zonder resolutie terug in de wachtrij "
+        f"({len(new_done):,} blijven definitief done)")
+    return {"version": STATE_VERSION, "done": sorted(new_done)}
+
+
+STATE_VERSION = 2
+
+def repair_state(state: dict, all_cands: list[dict]) -> dict:
+    """
+    One-time migration from state v1.
+
+    The old code marked every processed company as 'done' — even when the
+    Serper budget was already exhausted, so no resolution was ever attempted.
+    Those companies were buried without a chance. Rescue rule: a number stays
+    'done' only if its name actually made it into companies_auto.txt (i.e. it
+    was genuinely resolved); everything else goes back into the queue.
+    Old junk entries (now hard-excluded by the NACE filter) simply drop out.
+    """
+    if state.get("version", 1) >= STATE_VERSION:
+        return state
+    resolved_names = set()
+    if OUT_FILE.exists():
+        for line in OUT_FILE.read_text().splitlines():
+            if ";" in line:
+                resolved_names.add(line.rsplit(";", 1)[0])
+    old_done = set(state.get("done", []))
+    new_done = {c["nr"] for c in all_cands
+                if c["nr"] in old_done and c["name"].replace(";", ",") in resolved_names}
+    log(f"[state] migratie v1→v2: {len(old_done) - len(new_done):,} eerder als 'done' "
+        f"gemarkeerde bedrijven zonder resolutie terug in de wachtrij "
+        f"({len(new_done):,} blijven definitief done)")
+    return {"version": STATE_VERSION, "done": sorted(new_done)}
+
+
+STATE_VERSION = 2
+
+def repair_state(state: dict, all_cands: list[dict]) -> dict:
+    """
+    One-time migration from state v1.
+
+    The old code marked every processed company as 'done' — even when the
+    Serper budget was already exhausted, so no resolution was ever attempted.
+    Those companies were buried without a chance. Rescue rule: a number stays
+    'done' only if its name actually made it into companies_auto.txt (i.e. it
+    was genuinely resolved); everything else goes back into the queue.
+    Old junk entries (now hard-excluded by the NACE filter) simply drop out.
+    """
+    if state.get("version", 1) >= STATE_VERSION:
+        return state
+    resolved_names = set()
+    if OUT_FILE.exists():
+        for line in OUT_FILE.read_text().splitlines():
+            if ";" in line:
+                resolved_names.add(line.rsplit(";", 1)[0])
+    old_done = set(state.get("done", []))
+    new_done = {c["nr"] for c in all_cands
+                if c["nr"] in old_done and c["name"].replace(";", ",") in resolved_names}
+    log(f"[state] migratie v1→v2: {len(old_done) - len(new_done):,} eerder als 'done' "
+        f"gemarkeerde bedrijven zonder resolutie terug in de wachtrij "
+        f"({len(new_done):,} blijven definitief done)")
+    return {"version": STATE_VERSION, "done": sorted(new_done)}
+
+
+STATE_VERSION = 2
+
+def repair_state(state: dict, all_cands: list[dict]) -> dict:
+    """
+    One-time migration from state v1.
+
+    The old code marked every processed company as 'done' — even when the
+    Serper budget was already exhausted, so no resolution was ever attempted.
+    Those companies were buried without a chance. Rescue rule: a number stays
+    'done' only if its name actually made it into companies_auto.txt (i.e. it
+    was genuinely resolved); everything else goes back into the queue.
+    Old junk entries (now hard-excluded by the NACE filter) simply drop out.
+    """
+    if state.get("version", 1) >= STATE_VERSION:
+        return state
+    resolved_names = set()
+    if OUT_FILE.exists():
+        for line in OUT_FILE.read_text().splitlines():
+            if ";" in line:
+                resolved_names.add(line.rsplit(";", 1)[0])
+    old_done = set(state.get("done", []))
+    new_done = {c["nr"] for c in all_cands
+                if c["nr"] in old_done and c["name"].replace(";", ",") in resolved_names}
+    log(f"[state] migratie v1→v2: {len(old_done) - len(new_done):,} eerder als 'done' "
+        f"gemarkeerde bedrijven zonder resolutie terug in de wachtrij "
+        f"({len(new_done):,} blijven definitief done)")
+    return {"version": STATE_VERSION, "done": sorted(new_done)}
+
+
 def main():
-    state = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {"done": []}
-    done = set(state["done"])
+    state = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else \
+        {"version": STATE_VERSION, "done": []}
 
     ses = kbo_session()
     zip_path = download_latest_full(ses)
-    cands = [c for c in build_candidates(zip_path) if c["nr"] not in done]
+    all_cands = build_candidates(zip_path)
+
+    state = repair_state(state, all_cands)
+    done = set(state["done"])
+    cands = [c for c in all_cands if c["nr"] not in done]
     log(f"[harvest] {len(cands):,} candidates not yet processed")
 
     serper_key = os.environ.get("SERPER_API_KEY", "")
@@ -470,27 +590,41 @@ def main():
             "Niets weggeschreven, geen credit uitgegeven.")
         return
 
-    serper_used = serper_skipped = 0
+    serper_used = serper_skipped = serper_failed = 0
     batch, lines = 0, []
     for c in cands:
         if batch >= MAX_NEW:
             break
         dom = c["dom"]
-        if not dom and serper_key and serper_used < MAX_SERPER:
-            if c["form"] >= SERPER_MIN_TIER or c["prio"]:
-                dom = serper_lookup(c["name"], serper_key)
-                serper_used += 1
-                time.sleep(0.25)
-            else:
-                serper_skipped += 1   # not worth a credit — mark done, move on
-        done.add(c["nr"])
         if dom:
-            safe_name = c["name"].replace(";", ",")
-            lines.append(f"{safe_name};{dom}")
-            batch += 1
-            if batch % 50 == 0:
-                log(f"[harvest] {batch} companies resolved "
-                    f"(serper used: {serper_used}, skipped as not-worth-it: {serper_skipped})")
+            done.add(c["nr"])           # free resolution via registered website
+        else:
+            if not (c["form"] >= SERPER_MIN_TIER or c["prio"]):
+                serper_skipped += 1
+                done.add(c["nr"])       # deliberately never worth a credit
+                continue
+            if not serper_key or serper_used >= MAX_SERPER:
+                # Budget exhausted. Candidates are sorted website-first, so
+                # everything after this point also needs Serper. STOP — and
+                # crucially: do NOT mark them done. They stay queued for the
+                # next run instead of being buried without an attempt.
+                log(f"[harvest] Serper-budget op ({serper_used}/{MAX_SERPER}) — "
+                    f"rest van de wachtrij blijft staan voor de volgende run")
+                break
+            dom = serper_lookup(c["name"], serper_key)
+            serper_used += 1
+            time.sleep(0.25)
+            done.add(c["nr"])           # attempted: found, or genuinely not findable
+            if not dom:
+                serper_failed += 1
+                continue
+        safe_name = c["name"].replace(";", ",")
+        lines.append(f"{safe_name};{dom}")
+        batch += 1
+        if batch % 50 == 0:
+            log(f"[harvest] {batch} companies resolved "
+                f"(serper: {serper_used} used, {serper_failed} no-hit, "
+                f"{serper_skipped} skipped as not-worth-it)")
 
     existing = OUT_FILE.read_text().splitlines() if OUT_FILE.exists() else []
     seen_domains = {l.split(";")[-1] for l in existing if ";" in l}
@@ -502,7 +636,8 @@ def main():
     state["done"] = sorted(done)
     STATE_FILE.write_text(json.dumps(state))
     log(f"[harvest] wrote {len(added)} new companies to {OUT_FILE.name} "
-        f"(serper lookups: {serper_used}, skipped as not-worth-it: {serper_skipped}); "
+        f"(serper: {serper_used} used, {serper_failed} no-hit, "
+        f"{serper_skipped} skipped as not-worth-it); "
         f"total in file: {len(existing) + len(added)}")
     log("[harvest] next step: run the source discovery workflow to verify career pages")
 
