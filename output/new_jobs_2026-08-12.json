@@ -1,0 +1,48 @@
+[
+  {
+    "title": "[Vacatures] Endeavour zoekt een Full-stack Developer",
+    "url": "https://marketingreport.nl/vacatures-endeavour-zoekt-een-full-stack-developer",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-12",
+    "snippet": "Marketing Report | [Vacatures] Endeavour zoekt een Full-stack Developer ☰ Menu Nieuws Interviews Columns Agenda Podcast TV WWWIDCI Partners The List Vacatures Contact Zoek [Vacatures] Endeavour zoekt een Full-stack Developer Nieuws 11-08-2026 | 11:59:00 Door: Redactie Endeavour is per direct op zoek naar Full-stack Developer - Fulltime • Haarlem Endeavour is per direct op zoek naar: Full-stack Developer - Fulltime • Haarlem Introductie Bij Endeavour werken we met verschillende teams van gedreven specialisten aan innovatieve digitale oplossingen. Als developer krijg je de kans om te werken aan uitdagende projecten waarin jouw expertise echt het verschil maakt. We geloven in een hands-on aanpak, slimme technologie en een inspirerende werkomgeving waar je jouw kennis continu kunt uitbreiden. Met de snelle opkomst van AI bouwen we slimme, toekomstbestendige applicaties. Ben jij klaar om de brug te slaan tussen krachtige back-ends, dynamische front-ends en intelligente AI-koppelingen? Wat ga je doen? Wij zijn op zoek naar een veelzijdige Full-stack Developer die ons team komt versterken. Jij bent verantwoordelijk voor het van A tot Z ontwikkelen en onderhouden van complexe webapplicatie",
+    "stack": [
+      "PHP",
+      "Laravel",
+      "Symfony",
+      "TypeScript",
+      "Python",
+      "Angular",
+      "React",
+      "SQL",
+      "GraphQL",
+      "REST API"
+    ],
+    "experience": "4+ yrs",
+    "contact": {
+      "name": null,
+      "email": "careers@endeavour.nl"
+    },
+    "ai_matches": [
+      {
+        "row": 83,
+        "score": 78,
+        "reason": "Deze kandidaat bouwt actief AI-integraties (Claude, multi-agent) en heeft bewezen Angular/TypeScript/Python/GraphQL-expertise in productieomgevingen.",
+        "check": "m7",
+        "pitch": "Beste,\n\nWe lazen jullie vacature voor een Full-stack Developer bij Endeavour en vroegen ons af of jullie ook werken met externe consultants. We denken een uitstekende match te hebben.\n\nDeze kandidaat heeft 7 jaar full-stack ervaring met Angular, TypeScript, Python en GraphQL — exact de stack die Endeavour zoekt. Wat deze kandidaat echt onderscheidt: hij pionierde multi-agent AI-delivery met Claude in een productieomgeving bij een internationaal geospatial platform, en bouwde als founder een live AI-SaaS met FastAPI en LLM-koppelingen. CI/CD en Docker-containerisatie zijn bewezen in recente projecten.\n\nDe enige gap is dat PHP niet de primaire taal is, maar de back-end Python-ervaring (FastAPI) en de breedte van de stack maken dit zeer overbrugbaar voor iemand op dit niveau.\n\nMag ik een kort belletje inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 74,
+        "reason": "Deze kandidaat heeft diepgaande PHP/Laravel-expertise en bewezen full-stack ervaring met TypeScript, Node.js en GraphQL in enterprise-omgevingen.",
+        "check": "a12"
+      },
+      {
+        "row": 50,
+        "score": 62,
+        "reason": "Deze kandidaat werkt momenteel actief met PHP/Symfony en heeft bewezen Angular- en React-ervaring vanuit een langdurig senior traject bij Telenet.",
+        "check": "j12"
+      }
+    ]
+  }
+]

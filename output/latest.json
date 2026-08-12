@@ -1,5 +1,50 @@
 [
   {
+    "title": "[Vacatures] Endeavour zoekt een Full-stack Developer",
+    "url": "https://marketingreport.nl/vacatures-endeavour-zoekt-een-full-stack-developer",
+    "company": "30 dagen zonder klagen",
+    "source": "https://marketingreport.nl/vacatures",
+    "first_seen": "2026-08-12",
+    "stack": [
+      "PHP",
+      "Laravel",
+      "Symfony",
+      "TypeScript",
+      "Python",
+      "Angular",
+      "React",
+      "SQL",
+      "GraphQL",
+      "REST API"
+    ],
+    "experience": "4+ yrs",
+    "contact": {
+      "name": null,
+      "email": "careers@endeavour.nl"
+    },
+    "ai_matches": [
+      {
+        "row": 83,
+        "score": 78,
+        "reason": "Deze kandidaat bouwt actief AI-integraties (Claude, multi-agent) en heeft bewezen Angular/TypeScript/Python/GraphQL-expertise in productieomgevingen.",
+        "check": "m7",
+        "pitch": "Beste,\n\nWe lazen jullie vacature voor een Full-stack Developer bij Endeavour en vroegen ons af of jullie ook werken met externe consultants. We denken een uitstekende match te hebben.\n\nDeze kandidaat heeft 7 jaar full-stack ervaring met Angular, TypeScript, Python en GraphQL — exact de stack die Endeavour zoekt. Wat deze kandidaat echt onderscheidt: hij pionierde multi-agent AI-delivery met Claude in een productieomgeving bij een internationaal geospatial platform, en bouwde als founder een live AI-SaaS met FastAPI en LLM-koppelingen. CI/CD en Docker-containerisatie zijn bewezen in recente projecten.\n\nDe enige gap is dat PHP niet de primaire taal is, maar de back-end Python-ervaring (FastAPI) en de breedte van de stack maken dit zeer overbrugbaar voor iemand op dit niveau.\n\nMag ik een kort belletje inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 74,
+        "reason": "Deze kandidaat heeft diepgaande PHP/Laravel-expertise en bewezen full-stack ervaring met TypeScript, Node.js en GraphQL in enterprise-omgevingen.",
+        "check": "a12"
+      },
+      {
+        "row": 50,
+        "score": 62,
+        "reason": "Deze kandidaat werkt momenteel actief met PHP/Symfony en heeft bewezen Angular- en React-ervaring vanuit een langdurig senior traject bij Telenet.",
+        "check": "j12"
+      }
+    ]
+  },
+  {
     "title": "Business Analyst Engineering · Ghent · Hybrid",
     "url": "https://careers.qargo.com/jobs/7969132-business-analyst",
     "company": "Qargo",
@@ -3007,25 +3052,25 @@
     "experience": "7+ yrs",
     "ai_matches": [
       {
-        "row": 59,
-        "score": 91,
-        "reason": "Deze kandidaat heeft aantoonbare ervaring met .NET MAUI-migratie (Xamarin→MAUI bij TenForce), Blazor, Azure en mission-critical distributed backends.",
-        "check": "k19",
-        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira. Werkt u ook samen met externe consultants voor gespecialiseerde profielen?\n\nIk wil u graag een freelance .NET-expert voorstellen met maar liefst 19 jaar ervaring. Deze kandidaat werkte recent aan een mission-critical synchronisatiebridge voor NMBS/Infrabel in .NET Core, met Azure Cosmos DB, Kubernetes en enterprise messaging — vergelijkbaar met de gedistribueerde en schaalbare architectuur die Pionira nastreeft. Daarnaast leidde deze kandidaat een .NET MAUI-migratietraject vanuit legacy Xamarin, net het pluspunt dat uw vacature expliciet vermeldt. Blazor-ervaring (Gervi-project) en een sterke CQRS/Clean Architecture-discipline completeren het beeld. De combinatie van Azure-services, migratie-expertise en productie-bewezen distributed systems maakt dit een uitzonderlijk profiel voor uw logistieke softwareoplossingen.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+        "row": 40,
+        "score": 88,
+        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met Azure Service Bus, legacy-naar-microservices migratie bij Colruyt en Tech Lead-ervaring bij RIZIV.",
+        "check": "d8",
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat heeft 8 jaar hands-on ervaring met exact de stack die Pionira zoekt: C#, ASP.NET, Blazor en Azure Service Bus. Bij Colruyt Group leidde deze kandidaat een migratie van monolithische applicaties naar microservices via event-driven architectuur met Azure Service Bus — precies het type gedistribueerde systeemervaring dat u vraagt. Bij RIZIV-INAMI fungeert deze kandidaat als backup Tech Lead, met verantwoordelijkheid voor PR-reviews, taakverdeling en architectuurafstemming.\n\nDaarnaast heeft deze kandidaat ervaring met legacy .NET Framework-onderhoud én REST/SOAP-integraties, wat aansluit bij het migratie- en onderhoudsaspect in uw vacature.\n\nGraag licht ik dit profiel toe in een kort gesprek. Bent u beschikbaar deze week?\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 40,
-        "score": 87,
-        "reason": "Deze kandidaat combineert ASP.NET MVC, Blazor, Azure Service Bus en legacy-.NET-migratie met een backup Tech Lead-rol bij RIZIV.",
-        "check": "d8",
-        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor Software Engineer .NET bij Pionira neem ik graag contact op. Werkt u naast uw eigen team ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer en backup Tech Lead, waarbij ASP.NET MVC en Blazor dagelijkse tools zijn — exact de stack die Pionira vraagt. Bij Colruyt Group leidde deze kandidaat een migratie van een monoliet naar microservices via Azure Service Bus, wat perfect aansluit bij uw gedistribueerde systeemvereisten. Aanvullend zijn er REST/SOAP-integraties, SQL-expertise en architectuurbegeleiding (PR reviews, taakcoördinatie). De combinatie van full-stack .NET, Azure Service Bus-ervaring en mentoring maakt deze kandidaat onmiddellijk inzetbaar in uw logistieke omgeving.\n\nBent u beschikbaar voor een kort gesprek deze of volgende week?\n\nMet vriendelijke groeten,"
+        "row": 59,
+        "score": 85,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, inclusief .NET MAUI-migratieplanning, Blazor, Azure en mission-critical distributed systems voor NMBS.",
+        "check": "k19",
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor Software Engineer .NET bij Pionira wil ik u graag een uitzonderlijk profiel voorstellen. Werkt u ook samen met externe consultants?\n\nDeze kandidaat is freelance .NET-specialist met 19 jaar ervaring en heeft recent bij TenForce een .NET MAUI-migratie van een legacy Xamarin Forms-applicatie begeleid — exact een van uw vermelde pluspunten. Bij Ypto/NMBS werd een mission-critical synchronisatiebrug gebouwd op .NET Core met Azure Cosmos DB en Kubernetes, wat de beheersing van gedistribueerde systemen en Azure-services aantoont. Blazor werd ingezet bij Gervi voor een end-to-end salesportal met .NET Aspire.\n\nClean Architecture, CQRS, TDD en MediatR zijn vaste praktijken voor deze kandidaat. De combinatie van schaalbare cloud-systemen en mobiele migratie-ervaring maakt dit een bijzonder complete match voor Pionira.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 19,
-        "score": 84,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring, Azure App Services + Service Bus bij een langlopend klantproject, en bewezen distributed systems-architectuur.",
+        "score": 80,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en distributed systems, inclusief een lopend cloud-rewrite-project.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor een .NET Software Engineer bij Pionira. Staat u open voor externe consultants bij dit profiel?\n\nDeze kandidaat telt 16 jaar .NET-ervaring en werkt aan complexe cloud-migraties: van legacy desktopapplicaties naar een volledige cloudwebapplicatie met .NET 8, CQRS, Kafka en Kubernetes. Relevant voor Pionira is het langlopende Azure-project (App Services, Service Bus, SQL) — de exact gevraagde Azure-diensten. Distributed systems (RabbitMQ, gRPC, microservices) en team lead/technische analyse-ervaring versterken het senioriteitsprofiel. Blazor en ASP.NET zijn ook aanwezig. Een enkele beperking is dat Azure AD en .NET MAUI minder prominent naar voren komen, maar de breedte en diepte van het profiel zijn sterk.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Software Engineer .NET bij Pionira. Werkt u regelmatig samen met externe consultants voor technische profielen?\n\nDeze kandidaat heeft meer dan 16 jaar ervaring in het .NET-ecosysteem en werkt momenteel aan een volledige cloud-rewrite in .NET 8 met CQRS, Kafka, AWS en Kubernetes. Voor een langlopend zijproject op Azure worden App Services, Service Bus en SQL ingezet — diensten die centraal staan in uw vacature. Blazor, ASP.NET en Entity Framework behoren tot de vaste toolkit, aangevuld met team lead- en technische analysecapaciteiten.\n\nDe ervaring met gedistribueerde systemen, legacy-modernisering en Azure-integraties sluit sterk aan bij de verantwoordelijkheden die Pionira beschrijft voor haar logistieke softwareoplossingen.\n\nIk stel graag een kort kennismakingsgesprek voor. Wanneer komt het u uit?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -3056,23 +3101,24 @@
     "experience": null,
     "ai_matches": [
       {
-        "row": 27,
+        "row": 54,
         "score": 72,
-        "reason": "Deze kandidaat heeft bewezen ervaring met Azure ETL-pipelines, Power BI-dashboards en manufacturing analytics, aansluitend bij de Data & Simulation Analyst rol.",
+        "reason": "Tien jaar logistieke IT-ervaring met EDI, WMS, TMS en supply chain-analyse sluit aan bij open logistiek- en planningsrollen bij Cartamundi.",
+        "check": "b10",
+        "pitch": "Beste,\n\nZoekt u momenteel externe consultants voor uw openstaande posities in logistiek en supply chain bij Cartamundi in Turnhout? Wij hebben een kandidaat die naadloos aansluit bij uw behoeften.\n\nDeze kandidaat combineert tien jaar operationele logistiek met tien jaar logistieke IT — een zeldzame combinatie. Concreet heeft deze kandidaat ervaring met EDI-integraties (EDIFACT, XML, JSON APIs met carriers en terminals), WMS-beheer in een automotive omgeving, en functionele analyse op Salesforce FMS voor meer dan 100 gebruikers. Procesautomatisering via UiPath en operationeel dashboarding zijn eveneens bewezen vaardigheden. Voor Cartamundi's complexe supply chain — van grondstofplanning tot productie en globale distributie — biedt dit profiel direct inzetbare kennis van plannings- en logistieke systemen.\n\nMag ik u bellen voor een korte kennismaking om te bespreken of deze kandidaat aansluit bij uw noden?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 27,
+        "score": 70,
+        "reason": "Azure data-engineer met aantoonbare ervaring in manufacturing analytics, ETL-pipelines en Power BI past bij de rol Data & Simulation Analyst.",
         "check": "b7",
-        "pitch": "Beste,\n\nWerkt u voor de Data & Simulation Analyst-vacature bij Cartamundi ook met externe consultants? Graag stel ik u een sterk profiel voor.\n\nDeze kandidaat heeft 7 jaar ervaring als Azure Data Engineer bij Inimco, waar schaalbare ETL-pipelines werden gebouwd met Azure Data Factory en SQL Server, inclusief geautomatiseerde dagelijkse rapportering. Power BI-dashboards op SSAS-modellen, migratie van tijdreeksdata naar Azure Data Explorer en Grafana-telemetriedashboards maken deel uit van het bewezen trackrecord. Complexe businesslogica werd verplaatst naar Databricks voor grootschalige dataverwerking — precies het soort data & simulatiewerk dat relevant is voor een productieomgeving zoals die van Cartamundi.\n\nDeze kandidaat heeft 5 Microsoft-certificaten (Azure Data Engineer, Data Scientist, Power BI Data Analyst, Azure Administrator) en een Master Industrieel Ingenieur van KU Leuven.\n\nZin in een korte call om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nVoor de rol van Data & Simulation Analyst bij Cartamundi in Turnhout hebben wij een sterk profiel beschikbaar dat wij graag aan u voorstellen.\n\nDeze kandidaat is een gecertificeerd Azure Data Engineer (vijf Microsoft-certificaten) met ruime ervaring in scalable ETL-pipelines via Azure Data Factory, Databricks voor grootvolume-verwerking, en geavanceerde rapportage via Power BI op SSAS-modellen. De achtergrond in IoT-telemetrie en manufacturing analytics — inclusief migratie van tijdreeksdata naar Azure Data Explorer en Grafana-dashboards — sluit direct aan bij de data- en simulatiebehoeften van een productieomgeving zoals Cartamundi. De Master Industrieel Ingenieur van KU Leuven versterkt de technisch-analytische geloofwaardigheid.\n\nIk zou graag een korte call inplannen om te bespreken of dit profiel interessant is voor uw team.\n\nMet vriendelijke groeten,"
       },
       {
         "row": 9,
-        "score": 58,
-        "reason": "Deze kandidaat heeft 10 jaar PM-ervaring met PRINCE2 en Scrum, inclusief grote IT-implementatieprojecten bij overheid en industrie.",
+        "score": 42,
+        "reason": "Sterke projectmanagement-achtergrond (PRINCE2, Scrum), maar domeinervaring ligt volledig in healthcare IT, ver van Cartamundi's manufacturing-context.",
         "check": "p10"
-      },
-      {
-        "row": 54,
-        "score": 55,
-        "reason": "Deze kandidaat heeft 20 jaar logistieke ervaring waarvan 10 jaar in logistiek IT, relevant voor plannings- en supply chain rollen bij Cartamundi.",
-        "check": "b10"
       }
     ]
   },
