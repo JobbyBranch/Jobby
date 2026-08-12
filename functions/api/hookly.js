@@ -38,7 +38,7 @@ Als er weinig te vinden is: wees eerlijk en geef de beste professionele invalsho
     headers: { "x-api-key": env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
     body: JSON.stringify({
       model: "claude-sonnet-4-6", max_tokens: 2500, system,
-      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 8 }],
+      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 10 }],
       messages: [{ role: "user", content: `Onderzoek: ${name}, werkzaam bij ${company}.${linkedin ? ` LinkedIn (referentie): ${linkedin}.` : ""} Maak het Hookly-dossier.` }],
     }),
   });
