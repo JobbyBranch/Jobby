@@ -36,7 +36,45 @@ if (body.action === "match") {
 (2-3 zinnen: hoe sales deze kandidaat bij deze manager introduceert via de raakvlakken)
 ## Icebreakers
 (2-3 genummerde zinnen die de match persoonlijk maken)`;
-    const
+    if (body.action === "match") {
+    const candName = String(body.candName || "").trim().slice(0, 80);
+    if (!candName) return json({ error: "kies een kandidaat" }, 400);
+    const mkey = "hooklymatch:" + (name + "|" + company + "|" + candName).toLowerCase();
+    if (!body.force) {
+      const c = await env.WORKFLOW_KV.get(mkey);
+      if (c) return json({ ...JSON.parse(c), cached: true });
+    }
+    const draw = await env.WORKFLOW_KV.get("hookly:" + (name + "|" + company).toLowerCase());
+    if (!draw) return json({ error: "doe eerst het Hookly-onderzoek van de manager" }, 400);
+    const dossier = JSON.parse(draw).dossier;
+    let cand = null;
+    try {
+      const csv = await (await fetch(env.CANDIDATES_CSV_URL)).text();
+      const line = csv.split("\n").find((l) => l.toLowerCase().includes(candName.toLowerCase()));
+      cand = line ? line.slice(0, 3500) : null;
+    } catch {}
+    if (!cand) return json({ error: "kandidaat niet gevonden in de database" }, 400);
+    const msys = `Je bent Hookly Match. Je krijgt (A) het researchdossier van een hiring manager en (B) de professionele samenvatting van een kandidaat van IT-consultancy Branch. Zoek naar GEMEENSCHAPPELIJKE GROND: zelfde werkgevers of sectoren, overlappende technologie, zelfde regio of opleiding, gedeelde interesses of activiteiten. Zoek desnoods kort op het web naar publieke sporen van de kandidaat. Wees eerlijk: benoem alleen echte raakvlakken, verzin niets. Structuur exact:
+## Gemeenschappelijke grond
+(bullets, sterkste eerst, met bron: dossier/CV/web)
+## Introductiehoek
+(2-3 zinnen: hoe sales deze kandidaat bij deze manager introduceert via de raakvlakken)
+## Icebreakers
+(2-3 genummerde zinnen die de match persoonlijk maken)`;
+    const mresp = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "x-api-key": env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
+      body: JSON.stringify({ model: "claude-sonnet-4-6", max_tokens: 1500, system: msys,
+        tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 4 }],
+        messages: [{ role: "user", content: `MANAGER-DOSSIER (${name}, ${company}):\n${dossier.slice(0, 5000)}\n\nKANDIDAAT (${candName}):\n${cand}` }] }),
+    });
+    const mdata = await mresp.json().catch(() => ({}));
+    if (!mresp.ok) return json({ error: "AI-fout: " + ((mdata.error || {}).message || mresp.status) }, 502);
+    const mdossier = (mdata.content || []).filter((b) => b.type === "text").map((b) => b.text).join("\n").trim();
+    const mpayload = { name, company, candName, dossier: mdossier, at: new Date().toISOString() };
+    await env.WORKFLOW_KV.put(mkey, JSON.stringify(mpayload), { expirationTtl: 60 * 60 * 24 * 30 });
+    return json(mpayload);
+  }
   const key = "hookly:" + (name + "|" + company).toLowerCase();
   if (!body.force) {
     const cached = await env.WORKFLOW_KV.get(key);
