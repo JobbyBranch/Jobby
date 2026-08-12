@@ -5,7 +5,7 @@ on:
     inputs:
       max_new:
         description: "Max new companies to resolve this run"
-        default: "800"
+        default: "3500"
       max_serper:
         description: "Max Serper searches to spend this run"
         default: "500"
