@@ -11,32 +11,8 @@ export async function onRequestPost({ request, env }) {
   const company = String(body.company || "").trim().slice(0, 80);
   const linkedin = String(body.linkedin || "").trim().slice(0, 200);
   if (!name || !company) return json({ error: "naam en bedrijf zijn verplicht" }, 400);
-if (body.action === "match") {
-    const candName = String(body.candName || "").trim().slice(0, 80);
-    if (!candName) return json({ error: "kies een kandidaat" }, 400);
-    const mkey = "hooklymatch:" + (name + "|" + company + "|" + candName).toLowerCase();
-    if (!body.force) {
-      const c = await env.WORKFLOW_KV.get(mkey);
-      if (c) return json({ ...JSON.parse(c), cached: true });
-    }
-    const draw = await env.WORKFLOW_KV.get("hookly:" + (name + "|" + company).toLowerCase());
-    if (!draw) return json({ error: "doe eerst het Hookly-onderzoek van de manager" }, 400);
-    const dossier = JSON.parse(draw).dossier;
-    let cand = null;
-    try {
-      const csv = await (await fetch(env.CANDIDATES_CSV_URL)).text();
-      const line = csv.split("\n").find((l) => l.toLowerCase().includes(candName.toLowerCase()));
-      cand = line ? line.slice(0, 3500) : null;
-    } catch {}
-    if (!cand) return json({ error: "kandidaat niet gevonden in de database" }, 400);
-    const msys = `Je bent Hookly Match. Je krijgt (A) het researchdossier van een hiring manager en (B) de professionele samenvatting van een kandidaat van IT-consultancy Branch. Zoek naar GEMEENSCHAPPELIJKE GROND: zelfde werkgevers of sectoren, overlappende technologie, zelfde regio of opleiding, gedeelde interesses of activiteiten. Zoek desnoods kort op het web naar publieke sporen van de kandidaat. Wees eerlijk: benoem alleen echte raakvlakken, verzin niets. Structuur exact:
-## Gemeenschappelijke grond
-(bullets, sterkste eerst, met bron: dossier/CV/web)
-## Introductiehoek
-(2-3 zinnen: hoe sales deze kandidaat bij deze manager introduceert via de raakvlakken)
-## Icebreakers
-(2-3 genummerde zinnen die de match persoonlijk maken)`;
-    if (body.action === "match") {
+
+  if (body.action === "match") {
     const candName = String(body.candName || "").trim().slice(0, 80);
     if (!candName) return json({ error: "kies een kandidaat" }, 400);
     const mkey = "hooklymatch:" + (name + "|" + company + "|" + candName).toLowerCase();
@@ -75,6 +51,7 @@ if (body.action === "match") {
     await env.WORKFLOW_KV.put(mkey, JSON.stringify(mpayload), { expirationTtl: 60 * 60 * 24 * 30 });
     return json(mpayload);
   }
+
   const key = "hookly:" + (name + "|" + company).toLowerCase();
   if (!body.force) {
     const cached = await env.WORKFLOW_KV.get(key);
@@ -90,6 +67,8 @@ Structuur exact:
 (2-4 zinnen: rol, achtergrond, opvallends)
 ## Persoonlijke interesses & raakvlakken
 (bullets met concrete vondsten, elk met korte bronvermelding)
+## Social media
+(gevonden publieke profielen met URL en wat er zichtbaar is)
 ## Gespreksopeners
 (3-5 genummerde, direct bruikbare openingszinnen in het Nederlands, van sterk-persoonlijk naar veilig-professioneel)
 ## Bronnen
