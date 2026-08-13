@@ -510,7 +510,11 @@ def enrich_with_claude(job: dict, page_text: str) -> dict:
                     "null when the page names nobody). Reply ONLY with JSON: "
                     '{"stack": ["java", ...], "experience": "5+ yrs" or null, '
                     '"contact_name": "Hilde Peeters" or null, '
-                    '"contact_email": "hilde@bedrijf.be" or null}'
+                    '"contact_email": "hilde@bedrijf.be" or null, '
+                    '"in_belgium": true/false/null}. For in_belgium: true when the '
+                    "job is located in Belgium or remote-from-Belgium; false when "
+                    "the location is clearly another country (US, France, Germany, "
+                    "India...); null when unclear."
                     f"{email_hint}\n\n"
                     f"Title: {job['title']}\n\nPage text:\n{page_text[:6000]}"
                 ),
