@@ -524,6 +524,7 @@ def enrich_with_claude(job: dict, page_text: str) -> dict:
         data = parse_first_json(text)
         job["stack"] = (data.get("stack") or [])[:10]
         job["experience"] = data.get("experience")
+        job["in_belgium"] = data.get("in_belgium")
         cname = data.get("contact_name")
         cmail = (data.get("contact_email") or "").lower() or None
         if cmail and cmail not in emails:
