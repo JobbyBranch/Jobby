@@ -920,6 +920,9 @@ def main() -> None:
                 with ai_sem:
                     job = enrich_with_claude(job, page_text)
                     job = ai_match_job(job, page_text, candidates)
+                    if job.get("in_belgium") is False:
+                    lines.append(f"  - skipped (buiten België): {job['title']}")
+                    continue
                 with state_lock:
                     if job["url"] in state:      # re-check after slow AI step
                         continue
