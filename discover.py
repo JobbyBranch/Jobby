@@ -163,7 +163,7 @@ def fetch_root(base: str):
     for url in (f"https://{base}", f"https://www.{base}", f"http://{base}"):
         try:
             r = session().get(url, timeout=TIMEOUT, allow_redirects=True)
-        except requests.RequestException:
+        except Exception:
             continue
         if r.status_code < 400:
             if _reg(urlparse(r.url).netloc) in REJECT_HOSTS:
@@ -220,7 +220,7 @@ def probe(url: str, base: str, trusted: bool = False):
             return None
         if len(JOBISH.findall(r.text[:200000])) >= 2:
             return r.url
-    except requests.RequestException:
+    except Exception:
         pass
     return None
 
