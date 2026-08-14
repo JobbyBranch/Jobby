@@ -449,7 +449,7 @@ def serper_lookup(name: str, key: str) -> str | None:
             if base[:6] in flat or flat[:6] in base or len(set(base) & set(flat)) >= min(5, len(flat)):
                 return dom
         return None
-    except requests.RequestException:
+    except Exception:
         return None
 
 
