@@ -1,5 +1,183 @@
 [
   {
+    "title": "Data Engineer",
+    "url": "https://storaenso.wd502.myworkdayjobs.com/nl-NL/Stora_Enso_site_opportunities/job/Ostrava/Data-Engineer_JR112450",
+    "company": "STORA ENSO LANGERBRUGGE",
+    "source": "https://storaenso.wd502.myworkdayjobs.com/Stora_Enso_site_opportunities",
+    "first_seen": "2026-08-14",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 88,
+        "reason": "Deze kandidaat heeft 7 jaar Azure data engineering in IoT/manufacturing bij Inimco, met ADF, Databricks, ADX en Grafana voor telemetriedata.",
+        "check": "b7",
+        "pitch": "Beste,\n\nWerkt u ook samen met externe consultants voor uw Data Engineer-positie bij Stora Enso Langerbrugge? Ik stel graag een sterke kandidaat voor die naadloos aansluit op uw industriële context.\n\nDeze kandidaat heeft 7 jaar ervaring als Azure Data Engineer bij Inimco, volledig in een IoT- en productieomgeving — het domein dat rechtstreeks aansluit bij Stora Enso. Concreet bouwde deze kandidaat schaalbare ETL-pipelines met Azure Data Factory en SQL Server, migreerde tijdreeksdata naar Azure Data Explorer voor optimale queryprestaties, en zette Grafana-telemetriedashboards op voor operationele monitoring. Voor zware dataverwerkingstaken werd businesslogica naar Databricks verplaatst. Bovenop dit alles beschikt deze kandidaat over vijf Microsoft-certificaten, waaronder Azure Data Engineer Associate en Azure Administrator.\n\nDe combinatie van productie-analytics, IoT-data en een volledig Azure-ecosysteem maakt dit een uitzonderlijk sterke match voor uw vacature.\n\nKan ik u volgende week even bellen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 85,
+        "reason": "Deze kandidaat bouwde een volledig Azure big-data platform bij Materialise (maakbedrijf) met ADF, Databricks, IoT-ingestie en medallion-architectuur.",
+        "check": "w20",
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande Data Engineer-positie bij Stora Enso Langerbrugge wilde ik u graag een uitzonderlijk profiel voorstellen — werkt u ook met externe consultants?\n\nDeze kandidaat heeft 20 jaar ervaring en ontwierp van nul een volledig Azure-dataplatform bij Materialise, een Belgisch maakbedrijf — met medallion-architectuur, Azure Data Factory, ADLS Gen2, Databricks/Spark, IoT-data-ingestie en Terraform IaC. Die industriële achtergrond in productie en engineering sluit rechtstreeks aan bij de omgeving van Stora Enso. Daarna fungeerde deze kandidaat als platform- en integratiearchitect voor een SaaS-product en meest recentelijk als CTO bij een technologiestartup, met volledige verantwoordelijkheid over dataplatform en Azure-infrastructuur.\n\nDe combinatie van hands-on Azure/Databricks-expertise, IoT-data-ervaring en een bewezen staat van dienst in maakbedrijven maakt dit een bijzonder relevante kandidaat voor uw context.\n\nGraag plan ik een kort gesprek in — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 76,
+        "reason": "Deze kandidaat leidde als Track Lead een Azure/Databricks/dbt-dataplatform bij delaware voor meerdere industriële klanten.",
+        "check": "w7",
+        "pitch": "Beste,\n\nWerkt u bij Stora Enso Langerbrugge ook samen met externe consultants voor uw Data Engineer-vacature? Ik zou u graag een sterk profiel voorstellen.\n\nDeze kandidaat heeft 7 jaar ervaring, waarvan de laatste jaren als Lead Data Engineer en Track Lead bij delaware BeLux — een consultancybedrijf met een brede industriële klantenportefeuille. In die rol werkte deze kandidaat architecturaal aan een multi-source dataplatform met Azure Data Factory, Databricks en dbt, en coachte een internationaal team van 12 mensen. De diepgaande kennis van dbt-transformaties, PySpark en CI/CD via Azure DevOps zorgt voor een solide technische basis die direct inzetbaar is.\n\nBovendien beschikt deze kandidaat over de Databricks Certified Data Engineer Associate-certificering en werd genomineerd als Databricks Champion — een zeldzaam kwaliteitslabel.\n\nKan ik u volgende week even bellen om de match verder te bespreken?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Support Engineer IT Provider",
+    "url": "https://www.tieltr.be/vacatures/support-engineer",
+    "company": "TIELTR",
+    "source": "https://www.tieltr.be/vacatures",
+    "first_seen": "2026-08-14",
+    "stack": [
+      "Azure",
+      "Microsoft Entra ID",
+      "Microsoft 365",
+      "Private Cloud"
+    ],
+    "experience": "2+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 28 jaar IT-ervaring inclusief hands-on support, monitoring, klantinterventies en teamleadervaring bij een managed IT-omgeving.",
+        "check": "k28",
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op omtrent uw openstaande vacature voor Support Engineer bij IT Provider. Werkt u samen met externe consultants voor dit type profiel?\n\nDeze kandidaat heeft 28 jaar brede IT-infrastructuurervaring, waaronder een actieve rol als network support engineer bij SplendIT (on-site bij De Watergroep) met monitoring, interventies op LAN/WAN/WiFi en documentatiebeheer over ~280 sites. Die combinatie van kantoorwerk én klantinterventies sluit naadloos aan bij uw missie. Daarnaast heeft deze kandidaat aantoonbare ervaring met Windows-infrastructuur, Intune/SCCM en telefonieplatformen zoals Teams en VOIP — relevante technologieën voor een 1st/2nd line support-omgeving. De team-lead achtergrond garandeert ook de proactieve, verbeteringsgerichte mindset die u zoekt.\n\nIk stel graag een korte kennismaking voor om te bespreken of dit profiel aansluit bij uw verwachtingen.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 51,
+        "score": 68,
+        "reason": "Deze kandidaat heeft diepgaande Entra ID- en hybride Azure-identiteitsexpertise, maar profiel is eerder security-architect dan 1st/2nd line support.",
+        "check": "k20"
+      },
+      {
+        "row": 7,
+        "score": 55,
+        "reason": "Deze kandidaat heeft aantoonbare Entra ID- en Azure-kennis, maar werkt op DevOps/cloud-architect niveau en heeft geen support- of klantfacing achtergrond.",
+        "check": "j6"
+      }
+    ]
+  },
+  {
+    "title": "Ambitieuze IT-Specialist (senior)",
+    "url": "https://www.itexperts.be/jobs/ambitieuze-it-specialist-senior/",
+    "company": "EDISONS",
+    "source": "https://www.itexperts.be/jobs/",
+    "first_seen": "2026-08-14",
+    "stack": [
+      "Azure",
+      "on-premise infrastructure"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Tommy Bruggeman",
+      "email": "tommy.bruggeman@itexperts.be"
+    },
+    "ai_matches": [
+      {
+        "row": 7,
+        "score": 82,
+        "reason": "Deze kandidaat heeft concrete Azure-migratie-ervaring (on-prem naar AKS/cloud), inclusief Bicep, Entra ID en junior coaching bij APG en PSA.",
+        "check": "j6",
+        "pitch": "Beste,\n\nWe merkten dat EDISONS op zoek is naar een senior IT-specialist met focus op on-premise-naar-Azure-migraties en groei naar projectleiderschap. Werkt u ook samen met externe consultants?\n\nWij hebben een uitstekende kandidaat die precies dit profiel invult. Deze kandidaat heeft bij APG een volledig cloud-native migratietraject op Azure begeleid (AKS, ArgoCD, Bicep, Container Apps) en deed hetzelfde bij PSA Antwerp met Azure Web Apps, API Management, Service Bus en private networking via Bicep en Azure DevOps. Bovendien coachte deze kandidaat drie jaar lang een junior DevOps-engineer — een duidelijk signaal van leiderschapspotentieel.\n\nMet certificeringen AZ-104 en AZ-400 en 6 jaar hands-on Azure-ervaring sluit dit profiel nauw aan bij wat EDISONS zoekt: iemand die technisch sterk staat én klaar is om te groeien naar projectleider.\n\nZouden we hierover kort kunnen bellen? Met vriendelijke groeten,"
+      },
+      {
+        "row": 51,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 20 jaar Microsoft-infrastructuurervaring inclusief hybride Azure/Entra ID, Windows Server-migraties en VMware — sterke on-premise basis met Azure-kennis.",
+        "check": "k20"
+      },
+      {
+        "row": 63,
+        "score": 68,
+        "reason": "Deze kandidaat combineert Azure-services (Functions, Service Bus, Bicep, Entra ID) met teamleadschap en technische analyse, maar profiel is eerder .NET-backend dan infrastructuurmigratie.",
+        "check": "n11"
+      }
+    ]
+  },
+  {
+    "title": "Bekwame IT-Specialist (medior)",
+    "url": "https://www.itexperts.be/jobs/bekwame-it-specialist-medior/",
+    "company": "EDISONS",
+    "source": "https://www.itexperts.be/jobs/",
+    "first_seen": "2026-08-14",
+    "stack": [
+      "Azure"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Tommy Bruggeman",
+      "email": "tommy.bruggeman@itexperts.be"
+    },
+    "ai_matches": [
+      {
+        "row": 7,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen Azure-migratie-ervaring (on-prem naar AKS/Azure) bij meerdere klanten, inclusief junior coaching.",
+        "check": "j6",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Bekwame IT-Specialist (medior). Werkt u ook met externe consultants?\n\nDeze kandidaat heeft 6 jaar ervaring en is gecertificeerd op AZ-104, AZ-400 en AZ-900 — exact de Azure-focus die u zoekt. Bij APG leidde deze kandidaat het verplaatsen van on-premise software naar een volledig Kubernetes-native omgeving op Azure (AKS, ArgoCD, Bicep), wat naadloos aansluit bij uw migratietrajecten. Bij PSA Antwerp werkt deze kandidaat momenteel in een Azure-cloudteam met Web Apps, API Management, Service Bus en private networking — hands-on en breed inzetbaar. Bovendien coachte deze kandidaat een junior DevOps-engineer, wat de communicatieve en begeleidende vaardigheden bevestigt die u zoekt.\n\nEen sterk medior-profiel met bewezen on-prem-naar-cloud-migratie-ervaring en groeipad naar projectverantwoordelijkheid.\n\nGraag vertel ik u meer in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 12,
+        "score": 62,
+        "reason": "Deze kandidaat migreerde klantomgevingen naar Azure (Functions, Container Apps) en bouwde cloudoplossingen voor Vlaamse KMO's.",
+        "check": "y5"
+      },
+      {
+        "row": 27,
+        "score": 38,
+        "reason": "Deze kandidaat heeft Azure-certificaten en -ervaring, maar het profiel is data-engineering gericht, niet op infrastructuurmigratie.",
+        "check": "b7"
+      }
+    ]
+  },
+  {
+    "title": "ICT-medewerker",
+    "url": "https://www.pleegzorg.be/vacatures/ict-medewerker-3",
+    "company": "Pleegzorg Provincie Antwerpen",
+    "source": "https://www.pleegzorg.be/vacatures",
+    "first_seen": "2026-08-14",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Dasja Janssens",
+      "email": "dasja.janssens@pleegzorgvbb.be"
+    },
+    "ai_matches": [
+      {
+        "row": 72,
+        "score": 62,
+        "reason": "Deze kandidaat heeft een helpdesk-achtergrond bij Smals en brede technische ondersteuningservaring in publieke sector en agile omgevingen.",
+        "check": "k12"
+      },
+      {
+        "row": 63,
+        "score": 48,
+        "reason": "Deze kandidaat werkt momenteel bij KidsLife in de social-sector en heeft ervaring met gebruikersbeheer, API-integraties en technische ondersteuning van collega's.",
+        "check": "n11"
+      },
+      {
+        "row": 9,
+        "score": 38,
+        "reason": "Deze kandidaat heeft een sterke brug tussen eindgebruikers en IT-systemen in zorg-gerelateerde organisaties, inclusief opleiding en stakeholdercommunicatie.",
+        "check": "p10"
+      }
+    ]
+  },
+  {
     "title": "V&V Software Engineer",
     "url": "https://scioteq.recruitee.com/o/vv-software-engineer",
     "company": "ScioTeq",
@@ -4757,24 +4935,24 @@
     "ai_matches": [
       {
         "row": 40,
-        "score": 91,
-        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met Azure Service Bus en legacy-.NET-migratie bij Colruyt, exact passend op de vacature.",
+        "score": 88,
+        "reason": "Deze kandidaat combineert exacte Blazor, ASP.NET, Azure Service Bus en legacy-migratie-ervaring met een backup Tech Lead-rol en 8 jaar .NET.",
         "check": "d8",
-        "pitch": "Beste,\n\nWerkt u ook samen met externe consultants voor gespecialiseerde .NET-profielen? Naar aanleiding van uw vacature voor Software Engineer .NET bij Pionira wil ik u graag een uitzonderlijk sterk profiel voorstellen.\n\nDeze kandidaat beschikt over 8 jaar .NET-ervaring met een exacte stack-match: C#, ASP.NET, Blazor en Azure Service Bus — technologieën die centraal staan in uw vacature. Bij Colruyt Group leidde deze kandidaat een legacy-to-microservices-migratie met event-driven integratie via Azure Service Bus, wat naadloos aansluit bij uw focus op gedistribueerde systemen. Bij RIZIV-INAMI werkt deze kandidaat als senior .NET developer én backup Tech Lead, met PR-reviews en architectuurafstemming — een bewijs van de technische begeleiding die Pionira zoekt.\n\nBovendien heeft deze kandidaat aantoonbare ervaring met REST-services, SQL en .NET Framework-onderhoud, inclusief kennis van Dynamics 365 en SOAP/REST-integraties als pluspunt.\n\nMag ik u bellen voor een kort gesprek om dit profiel toe te lichten?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira. Werkt u ook samen met externe consultants voor dit type profielen?\n\nIk heb een sterke kandidaat die naadloos aansluit op uw vereisten. Deze kandidaat heeft 8 jaar ervaring met C#, ASP.NET en Blazor — exact de stack die Pionira zoekt. Bij RIZIV-INAMI werkt deze kandidaat als senior .NET developer met Blazor full-stack én fungeert als backup Tech Lead voor architectuurbeslissingen en PR-reviews. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie met event-driven integratie via Azure Service Bus — precies wat u vraagt rond gedistribueerde systemen en Azure-services. Daarnaast is er aantoonbare ervaring met REST-integraties en SQL.\n\nDit is een profiel dat technische diepgang combineert met teambegeleiding en kennisdeling — een perfecte match voor de rol die u beschrijft.\n\nMag ik u bellen voor een kort gesprek van 15 minuten?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 59,
-        "score": 88,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring met Blazor, .NET MAUI-migratie, Azure en mission-critical gedistribueerde systemen bij NMBS/Infrabel.",
+        "score": 85,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, aantoonbare Blazor-, Azure-, .NET MAUI- en CQRS-projecten in productie inclusief mission-critical systemen.",
         "check": "k19",
-        "pitch": "Beste,\n\nWerkt u samen met externe consultants voor uw .NET-ontwikkelingsprojecten? Uw vacature bij Pionira trok onze aandacht, en wij hebben een freelance .NET-profiel met een indrukwekkend trackrecord dat perfect aansluit.\n\nDeze kandidaat heeft 19 jaar .NET-ervaring en werkte recent aan een mission-critical integratiebrug tussen Infrabel en NMBS op .NET Core, Azure Cosmos DB en Kubernetes — een bewijs van architectureel denkvermogen in complexe, gedistribueerde omgevingen. Concreet relevant voor Pionira: aantoonbare ervaring met Blazor, .NET MAUI-migratieplanning (legacy Xamarin naar MAUI), Azure services en een sterke TDD/Clean Architecture-discipline.\n\nDeze kandidaat is ook vertrouwd met CQRS, MediatR en .NET Aspire-orkestratie, en heeft bewezen kennis te delen als freelancer in meerdere gelijktijdige opdrachten — precies de technische begeleiding die u zoekt.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira wil ik u graag een uitzonderlijk profiel voorstellen. Werkt u open voor externe consultants?\n\nDeze kandidaat heeft 19 jaar freelance .NET-ervaring en is actief met de volledige stack die Pionira vereist: Blazor, .NET Core, Azure (Cosmos DB, messaging), CQRS en Clean Architecture. Bij Ypto/NMBS ontwikkelde deze kandidaat een mission-critical synchronisatiebrug met Kubernetes en enterprise messaging — een sterk signaal voor schaalbare, betrouwbare oplossingen. Bij TenForce was deze kandidaat betrokken bij .NET MAUI-migratieplanning vanuit Xamarin, wat perfect aansluit op uw nice-to-have. De Blazor + .NET Aspire-ervaring bij Gervi toont volledige beheersing van de moderne .NET-webstack.\n\nEen zeldzaam profiel met breedte én diepte, dat onmiddellijk inzetbaar is in uw logistieke softwarecontext.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 19,
         "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en gedistribueerde systemen inclusief cloud-migratie van legacy-applicaties.",
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, gedistribueerde architecturen en technisch teamleiderschap in productieomgevingen.",
         "check": "n16",
-        "pitch": "Beste,\n\nWerkt u ook met externe consultants voor uw .NET-vacatures? Voor uw openstaande positie als Software Engineer .NET bij Pionira wil ik u graag een senior profiel met 16 jaar .NET-ervaring voorstellen.\n\nDeze kandidaat werkt momenteel aan de rewrite van legacy desktopapplicaties naar een cloud-webapplicatie op .NET 8, met Azure App Services, Azure Service Bus en SQL — een scenario dat sterk lijkt op de uitdagingen binnen Pionira's logistieke softwareoplossingen. Daarnaast heeft deze kandidaat bewezen ervaring met ASP.NET, Blazor, CQRS, gedistribueerde systemen (RabbitMQ, Kafka, gRPC) en meerdere Azure-diensten.\n\nAls team lead en technisch analist toont deze kandidaat ook de begeleidingsrol die Pionira vraagt. De combinatie van brede Azure-kennis en migratie-ervaring maakt dit een bijzonder relevante kandidatuur.\n\nKan ik u bellen voor een kort gesprek hierover?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw openstaande vacature voor een Software Engineer .NET bij Pionira. Staat u open voor externe consultants voor deze rol?\n\nDeze kandidaat heeft meer dan 16 jaar .NET-ervaring en werkt actief met C#, ASP.NET, Blazor en Azure — inclusief Azure App Services en Azure Service Bus, die centraal staan in uw vacature. Voor een langetermijnklant (Runners Lab) beheert deze kandidaat al jaren een webapplicatie volledig op Azure, inclusief Service Bus en SQL. Het lopende project bij Zeron toont sterk gedistribueerd systeemdenken: CQRS, Kafka, Postgres, Kubernetes en een side-by-side legacy-migratiestrategie. Daarnaast heeft deze kandidaat team lead- en technische analyseervaring, wat aansluit op uw verwachting rond technische begeleiding en bijdrage aan de technische strategie.\n\nEen mature, breed inzetbaar profiel dat direct waarde toevoegt binnen uw team.\n\nMag ik u even bellen voor meer info?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -4805,24 +4983,22 @@
     "experience": null,
     "ai_matches": [
       {
+        "row": 81,
+        "score": 62,
+        "reason": "Deze kandidaat heeft brede ervaring in FMCG/retail IT-projecten bij Colruyt en Accenture, inclusief PIM, SAP en agile delivery.",
+        "check": "a9"
+      },
+      {
         "row": 54,
-        "score": 78,
-        "reason": "Deze kandidaat combineert 10 jaar logistics IT met EDI-integraties, ERP-ervaring en supply chain domeinkennis relevant voor Cartamundis planning- en logistiekrollen.",
-        "check": "b10",
-        "pitch": "Beste,\n\nWerkt u ook samen met externe consultants voor uw openstaande posities in supply chain en logistiek IT in Turnhout? We hebben een kandidaat die naadloos aansluit op rollen zoals Subcontracting Planner, Teamlead Material Planning of Medewerker Interne Logistiek.\n\nDeze kandidaat combineert 20 jaar logistieke ervaring — waarvan 10 jaar operationeel en 10 jaar in logistieke IT — met concrete expertise in ERP-integraties, EDI (EDIFACT, XML, JSON APIs), WMS en functionele analyse. Bij Remant Transport Architects werkte deze kandidaat met Salesforce FMS voor 100+ gebruikers en automatiseerde volledige shipmentprocessen via UiPath. De domeindepth in 3PL/4PL, freight forwarding en warehousing sluit sterk aan bij Cartamundis internationale productie- en distributieomgeving.\n\nWe stellen graag een kort gesprek voor om te bekijken of dit profiel relevant is voor uw team.\n\nMet vriendelijke groeten,"
+        "score": 38,
+        "reason": "Deze kandidaat heeft diepe logistiek-IT-ervaring met EDI, WMS en supply chain, maar geen directe link met manufacturing of kaartproductie.",
+        "check": "b10"
       },
       {
-        "row": 27,
-        "score": 75,
-        "reason": "Deze kandidaat heeft bewezen Azure data engineering- en Power BI-ervaring in een manufacturing analytics-context, relevant voor de Data & Simulation Analyst-rol.",
-        "check": "b7",
-        "pitch": "Beste,\n\nWerkt u samen met externe consultants voor uw Data & Simulation Analyst-positie bij Cartamundi? We hebben een sterk profiel dat uitstekend aansluit.\n\nDeze kandidaat is gecertificeerd Azure Data Engineer met 7 jaar hands-on ervaring bij Inimco, waar schaalbare ETL-pipelines (Azure Data Factory, Databricks), Power BI-dashboards en Azure Data Explorer-migraties werden gebouwd in een IoT- en manufacturing analytics-omgeving. De achtergrond in industriële telemetrie en productiedata sluit rechtstreeks aan bij Cartamundis nood aan data-gedreven simulatie en rapportering. Met 5 Microsoft-certificeringen (waaronder Azure Data Engineer en Power BI Data Analyst) en een Master Industrieel Ingenieur van KU Leuven is dit een technisch solide en zelfstandig profiel.\n\nMag ik een kort telefoontje inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
-      },
-      {
-        "row": 9,
-        "score": 58,
-        "reason": "Deze kandidaat heeft brede PM-ervaring met Scrum, PRINCE2 en stakeholdermanagement, maar de achtergrond ligt exclusief in healthcare IT zonder industriële of manufacturing context.",
-        "check": "p10"
+        "row": 45,
+        "score": 35,
+        "reason": "Deze kandidaat heeft brede CTO-ervaring in SaaS en ISO 27001, maar weinig aansluiting bij de productie- of operationele context van Cartamundi.",
+        "check": "d12"
       }
     ]
   },
