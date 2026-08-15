@@ -64,24 +64,24 @@
     "ai_matches": [
       {
         "row": 40,
-        "score": 88,
-        "reason": "Deze kandidaat combineert exacte Blazor, ASP.NET, Azure Service Bus en legacy-migratie-ervaring met een backup Tech Lead-rol en 8 jaar .NET.",
+        "score": 89,
+        "reason": "Deze kandidaat combineert Blazor, ASP.NET, Azure Service Bus en legacy-.NET-migratie met 8 jaar ervaring en Tech Lead-verantwoordelijkheid.",
         "check": "d8",
-        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira. Werkt u ook samen met externe consultants voor dit type profielen?\n\nIk heb een sterke kandidaat die naadloos aansluit op uw vereisten. Deze kandidaat heeft 8 jaar ervaring met C#, ASP.NET en Blazor — exact de stack die Pionira zoekt. Bij RIZIV-INAMI werkt deze kandidaat als senior .NET developer met Blazor full-stack én fungeert als backup Tech Lead voor architectuurbeslissingen en PR-reviews. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie met event-driven integratie via Azure Service Bus — precies wat u vraagt rond gedistribueerde systemen en Azure-services. Daarnaast is er aantoonbare ervaring met REST-integraties en SQL.\n\nDit is een profiel dat technische diepgang combineert met teambegeleiding en kennisdeling — een perfecte match voor de rol die u beschrijft.\n\nMag ik u bellen voor een kort gesprek van 15 minuten?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een .NET Software Engineer. Werkt u ook samen met externe consultants? Dan heb ik een profiel dat ik u graag voorleg.\n\nDeze kandidaat heeft 8 jaar ervaring en werkt momenteel als senior .NET developer bij een grote publieke organisatie, waar hij dagelijks bouwtmet ASP.NET MVC en Blazor — twee technologieën centraal in uw vacature. Bij Colruyt Group leidde hij een migratie van monolithische applicaties naar microservices via Azure Service Bus, exact de gedistribueerde Azure-architectuur die Pionira zoekt. Daarnaast trad hij op als backup Tech Lead: PR reviews, taakverdeling en afstemming met solution architects. De combinatie van C#, REST, Azure Service Bus en hands-on legacy-migratie-ervaring maakt dit profiel bijzonder sterk voor uw logistieke softwareomgeving.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 59,
-        "score": 85,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, aantoonbare Blazor-, Azure-, .NET MAUI- en CQRS-projecten in productie inclusief mission-critical systemen.",
+        "score": 86,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring met Blazor, .NET MAUI, Azure en mission-critical gedistribueerde systemen in productie.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira wil ik u graag een uitzonderlijk profiel voorstellen. Werkt u open voor externe consultants?\n\nDeze kandidaat heeft 19 jaar freelance .NET-ervaring en is actief met de volledige stack die Pionira vereist: Blazor, .NET Core, Azure (Cosmos DB, messaging), CQRS en Clean Architecture. Bij Ypto/NMBS ontwikkelde deze kandidaat een mission-critical synchronisatiebrug met Kubernetes en enterprise messaging — een sterk signaal voor schaalbare, betrouwbare oplossingen. Bij TenForce was deze kandidaat betrokken bij .NET MAUI-migratieplanning vanuit Xamarin, wat perfect aansluit op uw nice-to-have. De Blazor + .NET Aspire-ervaring bij Gervi toont volledige beheersing van de moderne .NET-webstack.\n\nEen zeldzaam profiel met breedte én diepte, dat onmiddellijk inzetbaar is in uw logistieke softwarecontext.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor .NET Software Engineer bij Pionira wil ik u graag een uitzonderlijk profiel voorstellen. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat is freelance .NET-developer met 19 jaar ervaring en een indrukwekkend trackrecord. Bij Ypto/NMBS bouwde hij een mission-critical koppeling tussen Infrabel en NMBS met .NET Core, Azure Cosmos DB en Kubernetes — schaalbare, betrouwbare systemen in de zwaarste productie-omgevingen. Bij TenForce was hij betrokken bij .NET MAUI-migratieplanning vanuit Xamarin, een expliciete pluspunt in uw vacature. Zijn recente Blazor-project met .NET Aspire en OpenTelemetry sluit direct aan bij uw front- en backendbehoeften. CQRS, Clean Architecture en TDD zijn zijn vaste werkwijze.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
       },
       {
         "row": 19,
         "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, gedistribueerde architecturen en technisch teamleiderschap in productieomgevingen.",
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en gedistribueerde cloud-architectuur in productie.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk contacteer u in verband met uw openstaande vacature voor een Software Engineer .NET bij Pionira. Staat u open voor externe consultants voor deze rol?\n\nDeze kandidaat heeft meer dan 16 jaar .NET-ervaring en werkt actief met C#, ASP.NET, Blazor en Azure — inclusief Azure App Services en Azure Service Bus, die centraal staan in uw vacature. Voor een langetermijnklant (Runners Lab) beheert deze kandidaat al jaren een webapplicatie volledig op Azure, inclusief Service Bus en SQL. Het lopende project bij Zeron toont sterk gedistribueerd systeemdenken: CQRS, Kafka, Postgres, Kubernetes en een side-by-side legacy-migratiestrategie. Daarnaast heeft deze kandidaat team lead- en technische analyseervaring, wat aansluit op uw verwachting rond technische begeleiding en bijdrage aan de technische strategie.\n\nEen mature, breed inzetbaar profiel dat direct waarde toevoegt binnen uw team.\n\nMag ik u even bellen voor meer info?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor Software Engineer .NET bij Pionira. Staat u open voor externe consultants?\n\nDeze kandidaat werkt al meer dan 16 jaar in .NET en heeft een bijzonder relevant profiel. Voor een langlopend nevenproject bouwde hij een web-applicatie op Azure App Services met Azure Service Bus en SQL — de exacte Azure-stack die Pionira inzet. Zijn huidig project omvat de rewrite van legacy desktopapplicaties naar een cloud-webapplicatie met .NET 8, CQRS, Kafka, Postgres en AWS/Kubernetes, wat zijn kennis van gedistribueerde en schaalbare systemen aantoont. Hij heeft ook team lead- en technische analyse-ervaring, wat aansluit bij de verwachte technische begeleiding in uw team. MCSD-gecertificeerd en vertrouwd met Blazor en ASP.NET.\n\nZin in een kort kennismakingsgesprek?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -10254,6 +10254,503 @@
         "score": 38,
         "reason": "Deze kandidaat heeft een sterke brug tussen eindgebruikers en IT-systemen in zorg-gerelateerde organisaties, inclusief opleiding en stakeholdercommunicatie.",
         "check": "p10"
+      }
+    ]
+  },
+  "https://jobsking.com/nl-nl/beroepen/datawetenschapper": {
+    "title": "Datawetenschapper € 50.000 – € 95.000",
+    "url": "https://jobsking.com/nl-nl/beroepen/datawetenschapper",
+    "company": "WEBDUDE",
+    "source": "https://jobsking.com/nl-nl",
+    "first_seen": "2026-08-15",
+    "snippet": "Beroep Datawetenschapper Home Motivatiebrief CV maken Blog 🇳🇱 Nederland · Nederlands Start gratis Laden…",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 7 jaar Azure data engineering ervaring met Databricks, Power BI en 5 Microsoft datacertificaten inclusief Data Scientist.",
+        "check": "b7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de openstaande functie van Datawetenschapper bij WEBDUDE. Werkt u ook samen met externe consultants om uw team te versterken?\n\nIk wil u graag een sterk profiel voorstellen dat naadloos aansluit bij uw vereisten. Deze kandidaat heeft 7 jaar hands-on ervaring als data engineer bij Inimco, waar hij schaalbare ETL-pipelines bouwde met Azure Data Factory, complexe business logic migreerde naar Databricks en tijdreeksdata verwerkte via Azure Data Explorer. Daarbovenop bezit deze kandidaat vijf Microsoft-certificeringen, waaronder Azure Data Scientist en Enterprise Data Analyst — een zeldzame combinatie van engineering én wetenschappelijke expertise.\n\nMet een Master Industrieel Ingenieur van KU Leuven en bewezen ervaring in IoT-telemetrie en productieanalytics brengt deze kandidaat direct meerwaarde voor WEBDUDE.\n\nGraag plan ik een kort gesprek in om dit profiel verder toe te lichten. Bent u volgende week beschikbaar?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "Deze kandidaat toont brede technische seniority met Python, PostgreSQL en SaaS-architectuur, maar data science is geen kernfocus in de geschiedenis.",
+        "check": "l7"
+      },
+      {
+        "row": 36,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke full-stack en leiderschapservaring, maar mist concrete data science of analytics expertise in de geschiedenis.",
+        "check": "a6"
+      }
+    ]
+  },
+  "https://myfuture.wagnertech.lu/fr/Beruf-Automatisation-du-b�timent-Chef-de-projet-r�gulation-et-automatisation-IA-35-0": {
+    "title": "Chef de projet régulation et automatisation - IA",
+    "url": "https://myfuture.wagnertech.lu/fr/Beruf-Automatisation-du-b�timent-Chef-de-projet-r�gulation-et-automatisation-IA-35-0",
+    "company": "Wagner Building Systems SA",
+    "source": "https://myfuture.wagnertech.lu/fr/",
+    "first_seen": "2026-08-15",
+    "snippet": "WAGNERTECH - MyFuture Pas de poste approprié ? Envoyez maintenant votre candidature spontanée ! Accueil Toutes les offres d'emploi Stage Apprentissage Études en alternance Professionnel qualifié Domaines professionnels Entreprise Candidature spontanée Contact Mentions légales Protection des données Électricien Apprentissage Électricien-monteur Technicien courant faible - WES Technicien courant faible - maintenance Technicien énergies renouvelables - Smart building Technicien courant faible - incendie - CTTL Technicien courant faible - protection intrusion Collaborateur polyvalent - Moyenne tension Énergie Monteur - Moyenne tension Énergie Monteur HVACS Installateur HVACS Apprentissage Installateur HVACS Monteur | Sprinklers BornesIncendie Technicien frigoriste | Froid & Climatisation Technicien de maintenance Installateur service après-vente HVACS Technicien service après-vente et de maintenance HVACS Apprentissage Technicien - Facility Management Technicien service interne - service sav-clients Dessinateur-projeteur FORMATION - Dessinateur-projeteur Dessinateur technique - systèmes de sécurité Automatisation du bâtiment Intégrateur système KNX Technicien - MCR technique du bâtimen",
+    "stack": [],
+    "experience": "plusieurs années",
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 52,
+        "reason": "Deze kandidaat heeft IoT/telemetrie-data-engineering ervaring met Azure en AI/ML-certificaten, maar geen building automation of projectmanagement achtergrond.",
+        "check": "b7"
+      },
+      {
+        "row": 45,
+        "score": 38,
+        "reason": "Deze kandidaat heeft CTO-ervaring met AI-workflows en SaaS, maar geen enkele achtergrond in gebouwautomatisering, HVAC of regulatietechniek.",
+        "check": "d12"
+      },
+      {
+        "row": 0,
+        "score": 31,
+        "reason": "Deze kandidaat heeft embedded Java voor EV-laders en gedistribueerde load balancing, maar geen ervaring in gebouwautomatisering of energiebeheer.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://jobsking.com/nl-nl/beroepen/helpdeskmedewerker": {
+    "title": "Helpdeskmedewerker € 26.000 – € 38.000",
+    "url": "https://jobsking.com/nl-nl/beroepen/helpdeskmedewerker",
+    "company": "WEBDUDE",
+    "source": "https://jobsking.com/nl-nl",
+    "first_seen": "2026-08-15",
+    "snippet": "Helpdeskmedewerker worden? Salaris, taken & opleidingen Home Motivatiebrief CV maken Blog 🇳🇱 Nederland · Nederlands Start gratis Laden…",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 72,
+        "score": 52,
+        "reason": "Deze kandidaat heeft helpdeskervaring bij Smals en technische supportervaring bij Verizon-Terremark, maar profiel is overwegend senior developer/lead.",
+        "check": "k12"
+      },
+      {
+        "row": 9,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede IT-ervaring en gebruikersondersteuning in healthcare, maar is sterk gericht op projectmanagement en niet op eerstelijns helpdesk.",
+        "check": "p10"
+      },
+      {
+        "row": 54,
+        "score": 32,
+        "reason": "Deze kandidaat heeft operationele en functionele IT-ervaring maar geen aantoonbare helpdeskachtergrond of end-user support.",
+        "check": "b10"
+      }
+    ]
+  },
+  "https://jobsking.com/nl-nl/beroepen/it-consultant": {
+    "title": "IT-consultant € 45.000 – € 90.000",
+    "url": "https://jobsking.com/nl-nl/beroepen/it-consultant",
+    "company": "WEBDUDE",
+    "source": "https://jobsking.com/nl-nl",
+    "first_seen": "2026-08-15",
+    "snippet": "IT-consultant worden? Taken, salaris, opleiding & vacatures Home Motivatiebrief CV maken Blog 🇳🇱 Nederland · Nederlands Start gratis Laden…",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 78,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 13 jaar ETL/BI-ervaring bij grote Belgische banken, relevant voor een brede IT-consultancyrol.",
+        "check": "j13"
+      },
+      {
+        "row": 83,
+        "score": 48,
+        "reason": "Deze kandidaat brengt 20 jaar UX/service design-ervaring mee, breed inzetbaar maar minder technisch gericht voor klassieke IT-consultancy.",
+        "check": "d20"
+      }
+    ]
+  },
+  "https://aginco.be/en/jobs/3senior-software-developer": {
+    "title": "Software Developer",
+    "url": "https://aginco.be/en/jobs/3senior-software-developer",
+    "company": "AGILE INCUBATION COMPANY",
+    "source": "https://aginco.be/en/jobs/",
+    "first_seen": "2026-08-15",
+    "snippet": "Aginco | Senior Software Developer Home About Rae Jobs Meet the team Contact CASES & NEWS Language De Eng Fr Nl Junior/Medior/Senior Software Developer Fulltime, Freelance your challenge From requirement to effective solution We realize that just about everyone wants \"solutions\" these days. We ask, above all, that you have the creativity to help further develop our RAE-based software. With your knowledge and experience on one side and our developments on the other, we are sure to form the best team to anticipate our customers' requests. Can you translate functional requirements into efficient, high-performance solutions? Welcome to our team! a day in the life of a software developer You start the day with the technical analysis of new development. You find out if the RAE building blocks meet the criteria of the functional analyst and therefore our customers’. You write down your concerns because the code you’ll write affects the whole application. Before you can integrate your work into the existing code, you find out what consequences your approach will have on the platform. From your point of view, you write application-specific code. At the end of the day, you discuss your techn",
+    "stack": [
+      ".NET",
+      "C#",
+      "SQL",
+      "SharePoint",
+      "CRM/Dynamics"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@aginco.be"
+    },
+    "ai_matches": [
+      {
+        "row": 40,
+        "score": 88,
+        "reason": "Deze kandidaat combineert bewezen .NET/Blazor full-stack ervaring met Dynamics 365 (XRM SDK) en Tech Lead-verantwoordelijkheden, exact wat de vacature vraagt.",
+        "check": "d8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Senior Software Developer bij Aginco. Werkt u ook samen met externe consultants?\n\nIk heb een kandidaat beschikbaar die uitstekend aansluit bij uw noden. Deze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer bij RIZIV-INAMI, waar hij ASP.NET MVC en Blazor combineert met backend-architectuur én als backup Tech Lead optreedt — inclusief PR reviews en afstemming met solution architects. Dat ownership en architecturaal inzicht sluiten perfect aan bij uw RAE-platform.\n\nBijzonder relevant: deze kandidaat heeft concrete Dynamics 365-ervaring opgebouwd via de XRM SDK bij Syntra AB, inclusief SOAP/REST-integraties. Dat is exact het nice-to-have dat Aginco vermeldt. SQL, C# en .NET zijn dagelijkse praktijk over meerdere projecten en sectoren heen.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 80,
+        "reason": "Deze kandidaat heeft 8 jaar Angular + .NET/C# met Entity Framework en SQL, bewezen in meerdere consultancyprojecten inclusief complexe bedrijfsprocessen.",
+        "check": "e8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Software Developer bij Aginco wil ik u graag voorstellen aan een sterke kandidaat uit ons netwerk. Werkt u ook met externe profielen?\n\nDeze kandidaat heeft 8 jaar ervaring als Angular & .NET developer en werd ingezet bij uiteenlopende klanten via Realdolmen en Greenstack, waaronder PwC en Solidaris. De technische kern — C#, .NET, Entity Framework, SQL, Angular — sluit naadloos aan bij uw vereisten. Bovendien werkt deze kandidaat momenteel aan een cloud-based patiëntendossier bij Wit-Gele Kruis, wat aantoont dat complexe functionele vereisten vertalen naar robuuste applicaties geen probleem is.\n\nDe kwaliteitsfocus (CQRS, DDD, Cypress, NUnit, Nx) en ervaring met bedrijfsprocessen in de zorgsector maken dit een kandidaat die snel zelfstandig kan bijdragen aan uw RAE-platform.\n\nZin in een korte call om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 5,
+        "score": 72,
+        "reason": "Deze kandidaat heeft hands-on .NET Core, C# en SQL ervaring in zakelijke applicaties bij IQVIA, met bewezen delivery van meerdere portaal- en integratieprojecten.",
+        "check": "l5"
+      }
+    ]
+  },
+  "https://www.freshpublishers.com/vacature/52/Fullstack-Developer": {
+    "title": "Fullstack Developer",
+    "url": "https://www.freshpublishers.com/vacature/52/Fullstack-Developer",
+    "company": "ADW Fresh Trade",
+    "source": "https://www.freshpublishers.com/p/2/Vacatures",
+    "first_seen": "2026-08-15",
+    "snippet": "Fresh Publishers | Werken bij Fresh Publishers Facebook Instagram Twitter LinkedIn Youtube Home Vacatures Contact Vacatures Fullstack Developer Jouw nieuwe baan Fresh Publishers is een familiebedrijf dat zich richt op de nieuwsvoorziening in de internationale AGF-handel, tuinbouw, interieurbranche en de biologische sector. Dagelijks versturen we nieuwsbrieven per mail in zeven talen naar meer dan 450.000 abonnees. Hier ga je werken Vanuit ons moderne kantoor in het Zeeuwse Tholen voorzien we de wereld van nieuws, voornamelijk over groente en fruit. Dat doen we met een jong, enthousiast en internationaal team. Je verricht je werkzaamheden vanuit ons kantoor in Tholen, met de auto 30 minuten van Antwerpen, en 45 minuten van Breda en Rotterdam. Dit ga je doen Als Medior full stack developer bouw je software voor servers (backend) en voor browsers (front-end). We zoeken iemand die het hele pakket kan programmeren. Je bent verantwoordelijk voor de ontwikkeling, het onderhoud en de optimalisatie van de digitale platformen. Je bent zowel op de frontend als backend actief en schakelt moeiteloos tussen gestructureerd werken en ad-hoc probleemoplossing. Om je een idee te geven van waar we me",
+    "stack": [
+      "C#",
+      ".NET 10",
+      "REST API",
+      "Entity Framework Core",
+      "Angular",
+      "Material",
+      "Azure DevOps",
+      "CI/CD",
+      "Azure Cloud",
+      "CloudFlare"
+    ],
+    "experience": "Medior level (several years in comparable role)",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@freshpublishers.com"
+    },
+    "ai_matches": [
+      {
+        "row": 5,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare productie-ervaring met exact de gevraagde stack: .NET Core, Angular, Entity Framework en Azure DevOps.",
+        "check": "l5",
+        "pitch": "Beste,\n\nWe zagen uw vacature voor een Fullstack Developer en vroegen ons af of u samenwerkt met externe consultants voor zulke profielen.\n\nWe hebben een sterke kandidaat beschikbaar die momenteel actief is als .NET consultant en dagelijks werkt met exact uw stack: C# .NET Core 8, Angular 18, Entity Framework en Azure DevOps met CI/CD pipelines. In zijn huidige rol bouwde hij productiewaardige portaalapplicaties en tooling voor complexe bedrijfsprocessen — van ontwerp tot implementatie, zowel frontend als backend. Hij is gewend aan pragmatische oplossingen in zakelijke contexten en werkt zelfstandig.\n\nDeze kandidaat beheerst alle onderdelen die u vraagt: REST API's, Angular-frontend, EF Core en gestructureerde DevOps-workflows. Hij is beschikbaar en gemotiveerd voor een rol in een dynamisch, internationaal gericht bedrijf zoals Fresh Publishers.\n\nMag ik u bellen voor een kort gesprek om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 8 jaar hands-on Angular en .NET ervaring met Entity Framework, Azure en CI/CD in meerdere productieprojecten.",
+        "check": "e8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Fullstack Developer bij Fresh Publishers wilden we u een sterk profiel voorstellen — werkt u ook met externe consultants?\n\nDeze kandidaat is een freelance Angular & .NET specialist met 8 jaar ervaring en een bewezen track record in exact uw stack: Angular, C# .NET, Entity Framework, Azure en CI/CD. Hij werkte aan cloud-gebaseerde webapplicaties voor uiteenlopende sectoren en is quality-minded: hij brengt geautomatiseerde tests, CQRS en DDD-principes mee. Zijn recentste project bij Wit-Gele Kruis draait rond gebruiksvriendelijkheid en performantie — precies de UX-affiniteit die u zoekt.\n\nHij schakelt vlot tussen frontend en backend en beheert projecten van ontwerp tot oplevering zelfstandig. Hij volgt actief AI-ontwikkelingen via Copilot en Claude.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 76,
+        "reason": "Deze kandidaat bouwde Angular-frontends en .NET-backends met Azure, CI/CD en Entity Framework in meerdere zelfstandige projecten.",
+        "check": "r4",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor een Fullstack Developer en wilden u een interessant profiel niet onthouden — werkt Fresh Publishers met externe ontwikkelaars?\n\nDeze freelance Full Stack .NET Developer heeft 4 jaar bewezen ervaring met C#, ASP.NET Core, Entity Framework, Angular en Azure CI/CD-pipelines. Hij ontwierp modulaire backend-frameworks, bouwde Angular-frontends voor complexe workflows en heeft ruime ervaring met end-to-end ownership — van architectuur tot implementatie. Hij is vertrouwd met local LLMs en AI-tools, wat aansluit bij uw focus op technologische innovatie en AI-trends.\n\nHoewel zijn achtergrond iets meer backend-zwaar is, heeft hij aantoonbare fullstack-projecten opgeleverd voor uiteenlopende sectoren. Hij kan snel ingroeien in uw platformen en digitale nieuwsomgeving.\n\nKan ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://www.allia.be/jobs/rpg-ile-analyst-developer/": {
+    "title": "IT RPG/ILE Analyst/Developer Roeselare",
+    "url": "https://www.allia.be/jobs/rpg-ile-analyst-developer/",
+    "company": "ALLIA INSURANCE BROKERS",
+    "source": "https://www.allia.be/werken-bij-allia/",
+    "first_seen": "2026-08-15",
+    "snippet": "RPG/ILE Analyst/Developer - AlliA Business Personal & Home AlliA Update Over AlliA Internationaal Netwerk Werken bij AlliA E-Platform nl fr en back to top Sectoren Afval & Recycling Bouw Diensten Energie Financiële instellingen Interim & Schoonmaak Logistiek & Transport Maritiem Media & Entertainment Non-profit Productie Retail Technologie Vastgoed Voeding Zelfstandigen Oplossingen Aansprakelijkheid Arbeidsongevallen Patrimonium Wagenpark Werknemersvoordelen Pensioenopbouw & Overlijden Cyber & Fraude Milieu Borgstellingen Rechtsbijstand Kredietverzekeringen Medische kosten & Hospitalisatie Gewaarborgd inkomen & Invaliditeit Transactionele risico’s Beleggingen Contact Schadeaangifte Business Business Personal & Home Sectoren Afval & Recycling Bouw Diensten Energie Financiële instellingen Interim & Schoonmaak Logistiek & Transport Maritiem Media & Entertainment Non-profit Productie Retail Technologie Vastgoed Voeding Zelfstandigen Oplossingen Aansprakelijkheid Arbeidsongevallen Patrimonium Wagenpark Werknemersvoordelen Pensioenopbouw & Overlijden Cyber & Fraude Milieu Borgstellingen Rechtsbijstand Kredietverzekeringen Medische kosten & Hospitalisatie Gewaarborgd inkomen & Invaliditei",
+    "stack": [
+      "RPG/ILE",
+      "DB2",
+      "SQL",
+      "IBM i",
+      "AS/400"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 80,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 16+ jaar IBM DataStage/DB2-ervaring inclusief directe AS/400-naar-SAP-integraties, maar geen RPG/ILE-ontwikkeling.",
+        "check": "k17"
+      },
+      {
+        "row": 79,
+        "score": 22,
+        "reason": "Deze kandidaat is een functioneel analist met SAFe/BPMN-focus, zonder enige IBM i of RPG/ILE-ervaring.",
+        "check": "l7"
+      },
+      {
+        "row": 78,
+        "score": 28,
+        "reason": "Deze kandidaat is een data engineer met Informatica/Oracle/DB2-achtergrond, maar heeft geen RPG/ILE of IBM i platformervaring.",
+        "check": "j13"
+      }
+    ]
+  },
+  "https://careers.agsolutiongroup.com/jobs/7737902-senior-mes-engineer-solutions-architect": {
+    "title": "Senior MES Engineer / Solutions Architect",
+    "url": "https://careers.agsolutiongroup.com/jobs/7737902-senior-mes-engineer-solutions-architect",
+    "company": "AG SOLUTION",
+    "source": "https://careers.agsolutiongroup.com/",
+    "first_seen": "2026-08-15",
+    "snippet": "Senior MES Engineer / Solutions Architect - AG SOLUTION This website uses cookies to ensure you get the best experience. AG SOLUTION and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes. See our Cookie Policy to read more about the cookies we set. You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page. Accept all cookies Decline all non-necessary cookies Cookie preferences Select which cookies you accept On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly. If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, which is always available at the bottom of the site. To learn more about what the different types of cookies do, how your data is used when they are set ",
+    "stack": [
+      "Siemens Opcenter",
+      "TrakSYS",
+      "Rockwell FactoryTalk",
+      "AVEVA MES",
+      "Werum PAS-X",
+      "Apriso",
+      "Critical Manufacturing",
+      "Tulip",
+      "OPC UA",
+      "MQTT"
+    ],
+    "experience": "8+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 90,
+        "score": 42,
+        "reason": "Deze kandidaat heeft brede data/AI-architectuurervaring bij J&J en Nike, maar geen aantoonbare MES/MOM- of industriële automatiseringsachtergrond.",
+        "check": "n14"
+      },
+      {
+        "row": 70,
+        "score": 38,
+        "reason": "Deze kandidaat heeft IoT-ingestie en platform-architectuur bij Materialise (3D-print/manufacturing), maar geen directe MES-platformervaring of ISA-95-kennis.",
+        "check": "w20"
+      },
+      {
+        "row": 35,
+        "score": 32,
+        "reason": "Deze kandidaat heeft MQTT/IIoT-exposure en een IoT-postgraduaat, maar mist MES-platformkennis, ISA-95 en industriële implementatie-ervaring volledig.",
+        "check": "k14"
+      }
+    ]
+  },
+  "https://www.allia.be/jobs/client-advisor-employee-benefits-3/": {
+    "title": "IT IT Support Engineer Roeselare",
+    "url": "https://www.allia.be/jobs/client-advisor-employee-benefits-3/",
+    "company": "ALLIA INSURANCE BROKERS",
+    "source": "https://www.allia.be/werken-bij-allia/",
+    "first_seen": "2026-08-15",
+    "snippet": "IT Support Engineer - AlliA Business Personal & Home AlliA Update Over AlliA Internationaal Netwerk Werken bij AlliA E-Platform nl fr en back to top Sectoren Afval & Recycling Bouw Diensten Energie Financiële instellingen Interim & Schoonmaak Logistiek & Transport Maritiem Media & Entertainment Non-profit Productie Retail Technologie Vastgoed Voeding Zelfstandigen Oplossingen Aansprakelijkheid Arbeidsongevallen Patrimonium Wagenpark Werknemersvoordelen Pensioenopbouw & Overlijden Cyber & Fraude Milieu Borgstellingen Rechtsbijstand Kredietverzekeringen Medische kosten & Hospitalisatie Gewaarborgd inkomen & Invaliditeit Transactionele risico’s Beleggingen Contact Schadeaangifte Business Business Personal & Home Sectoren Afval & Recycling Bouw Diensten Energie Financiële instellingen Interim & Schoonmaak Logistiek & Transport Maritiem Media & Entertainment Non-profit Productie Retail Technologie Vastgoed Voeding Zelfstandigen Oplossingen Aansprakelijkheid Arbeidsongevallen Patrimonium Wagenpark Werknemersvoordelen Pensioenopbouw & Overlijden Cyber & Fraude Milieu Borgstellingen Rechtsbijstand Kredietverzekeringen Medische kosten & Hospitalisatie Gewaarborgd inkomen & Invaliditeit Tran",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 62,
+        "reason": "Deze kandidaat heeft brede IT-supportervaring met hardware, netwerken en ticketopvolging bij grote organisaties.",
+        "check": "k28"
+      },
+      {
+        "row": 33,
+        "score": 38,
+        "reason": "Deze kandidaat heeft datacenter- en netwerkervaring maar weinig aansluiting bij helpdesk- of 1e-lijnsondersteuning.",
+        "check": "l8"
+      },
+      {
+        "row": 7,
+        "score": 32,
+        "reason": "Deze kandidaat heeft cloud- en DevOps-expertise maar geen relevante IT-supportachtergrond voor een 1e-lijnsrol.",
+        "check": "j6"
+      }
+    ]
+  },
+  "https://www.aiodp.ai/2026/06/26/sovereign-ai-coding-assistant-for-internal-development/": {
+    "title": "Sovereign AI Coding Assistant for Internal Development",
+    "url": "https://www.aiodp.ai/2026/06/26/sovereign-ai-coding-assistant-for-internal-development/",
+    "company": "ALGENO",
+    "source": "https://www.aiodp.ai",
+    "first_seen": "2026-08-15",
+    "snippet": "Sovereign AI Coding Assistant for Internal Development - AIoD Close Solutions Offer AI solutions Gain visibility, connect with qualified demand and grow across Europe. Trust & Compliance Access trusted tools and resources to support responsible and compliant AI adoption. Find AI solutions Find products, services and providers that match your needs. Sovereign AI Services Business Navigator Marketplace Use Cases AIoD For Research Sign in Close Solutions Offer AI solutions Gain visibility, connect with qualified demand and grow across Europe. Trust & Compliance Access trusted tools and resources to support responsible and compliant AI adoption Find AI solutions Find products, services and providers that match your needs. Sovereign AI Services Business Navigator Marketplace Use Cases AIoD For Research Home / Use Cases / Sovereign AI Coding Assistant for Internal Development Sovereign AI Coding Assistant for Internal Development Product Name Flinky Product Details https://marketplace.aiodp.ai/train/flinky Give Developers AI Support Without Exposing Your Source Code Flinky by LuxProvide enables a sovereign AI coding assistant for internal development teams, allowing developers to use AI ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 15,
+        "score": 22,
+        "reason": "Deze kandidaat is een mobile-specialist zonder enige AI/LLM-, sovereign-infra- of model-serving-ervaring relevant voor deze vacature.",
+        "check": "t14"
+      },
+      {
+        "row": 80,
+        "score": 18,
+        "reason": "Deze kandidaat is een ETL/DataStage-expert; geen overlap met AI coding assistants, LLM-serving of sovereign AI-infrastructuur.",
+        "check": "k17"
+      }
+    ]
+  },
+  "https://www.arcadiz.com/en/jobs/technical-service-desk-engineer": {
+    "title": "Technical Service Desk Engineer",
+    "url": "https://www.arcadiz.com/en/jobs/technical-service-desk-engineer",
+    "company": "ARCADIZ TELECOM",
+    "source": "https://www.arcadiz.com/en/jobs",
+    "first_seen": "2026-08-15",
+    "snippet": "Technical Service Desk Engineer | Arcadiz About Arcadiz Data center connectivity map Contact us Jobs MyArcadiz en EN NL FR Show navigation Solutions & services What we do Sectors References Partners News & blog Agenda About Arcadiz Data center connectivity map Contact us Jobs MyArcadiz Home Jobs Technical Service Desk Engineer Technical Service Desk Engineer Not all fields are filled in correctly. Arcadiz is looking for a Technical Service Desk Engineer. The Technical Service Desk Engineer will play an integral part in the support service Arcadiz delivers to our customers in the BeNeLux with main focus on xWDM, Carrier Ethernet, MPLS-TP, IP transit. Responsibilities Act as central contact for our customer base Respond actively to incoming enquiries, incidents and RMA’s within an agreed time limit Provide first line troubleshooting Channel and escalate any unresolved issues to next level stakeholders Proactively own the technical progression of standard incidents Responsible for communication with the customer Profile Higher education (professional Bachelor) or equal by experience Service Desk experience Customer service experience Technical troubleshooting experience Thirst for tec",
+    "stack": [
+      "xWDM",
+      "Carrier Ethernet",
+      "MPLS-TP",
+      "IP transit"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 20,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare telecomervaring bij Telenet en sterke customer-facing analyst- en communicatievaardigheden in meerdere sectoren.",
+        "check": "b10",
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op naar aanleiding van uw vacature voor Technical Service Desk Engineer. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft 10 jaar ervaring in technisch-functionele rollen met een sterke focus op klantencontact, communicatie en troubleshooting. Bijzonder relevant is de achtergrond bij Telenet, waar legacy-migraties werden geanalyseerd via reverse-engineering en UML — een omgeving die sterk aanleunt bij de netwerkinfrastructuurwereld van Arcadiz. Daarnaast heeft deze kandidaat bewezen trilinguaal te kunnen werken in complexe stakeholderomgevingen (banking, telecom, aviation).\n\nDe combinatie van technische diepgang, gestructureerde rapportage (UML, BPMN) en klantgerichte aanpak sluit nauw aan bij wat Arcadiz zoekt voor first-line support op xWDM-, Carrier Ethernet- en MPLS-TP-omgevingen. De openheid voor on-the-job learning is aantoonbaar vanuit eerdere domeinwissels.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "Deze kandidaat heeft L3-support ervaring en technische troubleshooting in netwerk-gerelateerde protocollen zoals OCPP, plus sterke documentatie- en communicatievaardigheden.",
+        "check": "l7"
+      },
+      {
+        "row": 7,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede netwerkinfrastructuurervaring via Azure-integraties en partner-connectiviteit, maar mist directe telecom- of service desk achtergrond.",
+        "check": "j6"
+      }
+    ]
+  },
+  "https://astrasweets-career.talent-soft.com/vacature/vacature-it-support-engineer_287.aspx": {
+    "title": "IT Support Engineer",
+    "url": "https://astrasweets-career.talent-soft.com/vacature/vacature-it-support-engineer_287.aspx",
+    "company": "ASTRA SWEETS",
+    "source": "https://astrasweets-career.talent-soft.com/accueil.aspx?LCID=1043&utm_campaign=benl-vacaturespagina-apr-2023&utm_medium=website&utm_source=astrasweets",
+    "first_seen": "2026-08-15",
+    "snippet": "Astra Sweets - IT Support Engineer Carrièresite Astra Sweets: al onze vacatures Volg ons Homepagina Open sollicitatie versturen Mijn alert U bent hier : Homepagina › Vacatures › Vacaturegegevens Mijn selectie: 0 vacatures Carrièresite Astra Sweets: al onze vacatures Volg ons Menu Carrièresite Astra Sweets Homepagina Open sollicitatie versturen Mijn alert Zoekmachine voor vacatures Astra Sweets Zoektermen (bv.: account manager) Functie Dienstverband Selecteer Tijdelijke aanwerving (1) Vaste aanwerving (14) Locatie Bekijk alle vacatures Stream RSS en andere streams IT Support Engineer Vacaturegegevens Algemene informatie Referentie 2026-287 Functiebeschrijving Functie IT Support Engineer Dienstverband Vaste aanwerving Jobinhoud Als Support Engineer draai je mee op onze interne IT-afdeling. Je biedt zelfstandig ondersteuning in het dagelijks beheer van de ICT-infrastructuur en dit aan alle eindgebruikers. Dit houdt in dat je het interne aanspreekpunt bent voor alle IT-gerelateerde vragen en problemen. Hiervoor sta je in contact met eindgebruikers om prioriteiten te bepalen en zoek je steeds naar de meest geschikte oplossing. Je werkt vanuit het ITIL principe waardoor je terugkerende i",
+    "stack": [
+      "rest"
+    ],
+    "ai_matches": [
+      {
+        "row": 33,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 8 jaar infrastructuurervaring met netwerk, systemen en enige overlap met Windows-omgevingen en servicebeheer.",
+        "check": "l8"
+      },
+      {
+        "row": 42,
+        "score": 55,
+        "reason": "Deze kandidaat heeft brede infrastructuurervaring inclusief Intune en Windows-migraties, maar focust sterk op netwerkengineering boven end-user support.",
+        "check": "k28"
+      },
+      {
+        "row": 7,
+        "score": 42,
+        "reason": "Deze kandidaat heeft Entra ID en Intune-ervaring via Azure-projecten, maar profiel is Cloud/DevOps-gericht en niet op IT-helpdesk of eindgebruikersondersteuning.",
+        "check": "j6"
+      }
+    ]
+  },
+  "https://www.atsgroep.be/jobs/cyber-security-analyst/": {
+    "title": "IT Engineer – Cybersecurity",
+    "url": "https://www.atsgroep.be/jobs/cyber-security-analyst/",
+    "company": "ATS Antwerp",
+    "source": "https://www.atsgroep.be/jobs/",
+    "first_seen": "2026-08-15",
+    "snippet": "IT Engineer - Cybersecurity - ATS Groep Skip to content Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Menu Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Menu Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Menu Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Pr",
+    "stack": [
+      "Microsoft 365",
+      "Entra ID",
+      "EDR/XDR",
+      "firewalls",
+      "zero trust",
+      "least privilege"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@atsgroep.be"
+    },
+    "ai_matches": [
+      {
+        "row": 51,
+        "score": 88,
+        "reason": "Deze kandidaat heeft hands-on ervaring met Entra ID, Defender, Sentinel, Qualys, NIS2 en ISO 27001 in enterprise-omgevingen zoals Toyota.",
+        "check": "k20",
+        "pitch": "Beste,\n\nWe lazen uw vacature voor een IT Engineer Cybersecurity bij ATS en vroegen ons af of u ook samenwerkt met externe consultants voor dit type profiel.\n\nWe hebben een sterke kandidaat beschikbaar met meer dan 20 jaar ervaring in infrastructure & security engineering. Deze kandidaat is momenteel actief als security engineer bij een grote automotive speler en leidt daar de NIS2/CyFun-compliance en remediatie voor een pan-Europese Active Directory-omgeving — exact wat ATS zoekt.\n\nQua technische fit: bewezen ervaring met Entra ID, Microsoft Defender, Sentinel SIEM, Qualys VMDR, identity & access management (PAM, ADFS, zero trust), endpoint-hardening en incidentopvolging. Daarbovenop: ISO 27001/27005-kennis en ervaring in gereguleerde omgevingen (GxP, SOX).\n\nDeze kandidaat combineert de hands-on IT-infrastructuurachtergrond met diepgaande cybersecurity-expertise die uw CISO direct kan ondersteunen bij NIS2-implementatie en dagelijkse security operations.\n\nMag ik u bellen voor een kort gesprek om te bekijken of dit een match kan zijn?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 33,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 8 jaar netwerk- en systeemervaring met firewalls (Check Point, Palo Alto), DNS/IPAM en datacenterbeveiliging bij KBC.",
+        "check": "l8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor IT Engineer Cybersecurity wilden we u graag een sterk netwerkprofiel voorstellen — indien u openstaat voor externe consultancy.\n\nDeze kandidaat heeft 8 jaar hands-on ervaring als network/system engineer in een grootschalige bankingomgeving. De expertise omvat firewallbeheer (Check Point én Palo Alto), DMZ-architectuur, netwerksegmentatie, subnetting, VLANs en monitoring via Kibana — allemaal vaardigheden die uw vacature expliciet vraagt.\n\nBovendien heeft deze kandidaat aantoonbaar architectuurstudies en feasibility-analyses geleid, junior collega's gecoacht en complexe infrastructuurprojecten zelfstandig uitgevoerd. De overstap naar een cybersecurityfocus is logisch gegeven de netwerkbeveiligingsachtergrond.\n\nGraag meer toelichting in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 1,
+        "score": 38,
+        "reason": "Deze kandidaat heeft een beperkte pentesting-achtergrond (2017-2018) maar werkt nu voornamelijk als AI/ML-engineer zonder recente securityfocus.",
+        "check": "w11"
+      }
+    ]
+  },
+  "https://www.atsgroep.be/jobs/software-engineer-plc-scada/": {
+    "title": "Software Engineer Automation",
+    "url": "https://www.atsgroep.be/jobs/software-engineer-plc-scada/",
+    "company": "ATS Antwerp",
+    "source": "https://www.atsgroep.be/jobs/",
+    "first_seen": "2026-08-15",
+    "snippet": "Software Engineer Automation - ATS Groep Skip to content Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Menu Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Menu Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Menu Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen P",
+    "stack": [
+      "PLC",
+      "HMI",
+      "SCADA"
+    ],
+    "experience": "3-5 yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@atsgroep.be"
+    },
+    "ai_matches": [
+      {
+        "row": 21,
+        "score": 38,
+        "reason": "Deze kandidaat heeft QA- en PO-ervaring in industriële analytics, maar geen PLC-, HMI- of SCADA-programmatie.",
+        "check": "n10"
+      },
+      {
+        "row": 7,
+        "score": 22,
+        "reason": "Deze kandidaat is Cloud/DevOps-specialist zonder enige PLC-, HMI- of SCADA-ervaring relevant voor industriële automatisering.",
+        "check": "j6"
+      },
+      {
+        "row": 77,
+        "score": 18,
+        "reason": "Deze kandidaat werkt met Go/.NET/PHP voor parkeer- en beveiligingstoepassingen, zonder raakvlak met industriële automatisering of PLC/SCADA.",
+        "check": "k5"
       }
     ]
   }
