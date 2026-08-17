@@ -63,25 +63,25 @@
     "experience": "7+ yrs",
     "ai_matches": [
       {
-        "row": 40,
-        "score": 89,
-        "reason": "Deze kandidaat combineert Blazor, ASP.NET, Azure Service Bus en legacy-.NET-migratie met 8 jaar ervaring en Tech Lead-verantwoordelijkheid.",
-        "check": "d8",
-        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een .NET Software Engineer. Werkt u ook samen met externe consultants? Dan heb ik een profiel dat ik u graag voorleg.\n\nDeze kandidaat heeft 8 jaar ervaring en werkt momenteel als senior .NET developer bij een grote publieke organisatie, waar hij dagelijks bouwtmet ASP.NET MVC en Blazor — twee technologieën centraal in uw vacature. Bij Colruyt Group leidde hij een migratie van monolithische applicaties naar microservices via Azure Service Bus, exact de gedistribueerde Azure-architectuur die Pionira zoekt. Daarnaast trad hij op als backup Tech Lead: PR reviews, taakverdeling en afstemming met solution architects. De combinatie van C#, REST, Azure Service Bus en hands-on legacy-migratie-ervaring maakt dit profiel bijzonder sterk voor uw logistieke softwareomgeving.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+        "row": 59,
+        "score": 91,
+        "reason": "Deze kandidaat heeft aantoonbare .NET MAUI-migratie-ervaring, Blazor, Azure en mission-critical distributed systems in productie.",
+        "check": "k19",
+        "pitch": "Beste,\n\nWe merkten dat Pionira op zoek is naar een ervaren .NET Software Engineer — werkt u ook met externe consultants?\n\nWe hebben een freelance .NET-specialist met 19 jaar ervaring die naadloos aansluit op uw vacature. Deze kandidaat heeft bewezen Blazor-toepassingen gebouwd (luxury retail salesportal met .NET Aspire), Azure-services geïntegreerd (Cosmos DB, messaging via IBM MQ en RabbitMQ), en heeft recent .NET MAUI-migratie begeleid voor een Xamarin Forms-applicatie — exact het pluspunt dat u vermeldt. Bij Ypto/NMBS bouwde deze kandidaat een mission-critical synchronisatiebrug op .NET Core met Kubernetes/Helm en een version-agnostische API-laag: het soort schaalbare, betrouwbare architectuur dat Pionira vereist. CQRS, Clean Architecture en TDD zijn vaste werkwijzen.\n\nMag ik u volgende week even bellen om dit concreet te bespreken?\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 59,
-        "score": 86,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring met Blazor, .NET MAUI, Azure en mission-critical gedistribueerde systemen in productie.",
-        "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor .NET Software Engineer bij Pionira wil ik u graag een uitzonderlijk profiel voorstellen. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat is freelance .NET-developer met 19 jaar ervaring en een indrukwekkend trackrecord. Bij Ypto/NMBS bouwde hij een mission-critical koppeling tussen Infrabel en NMBS met .NET Core, Azure Cosmos DB en Kubernetes — schaalbare, betrouwbare systemen in de zwaarste productie-omgevingen. Bij TenForce was hij betrokken bij .NET MAUI-migratieplanning vanuit Xamarin, een expliciete pluspunt in uw vacature. Zijn recente Blazor-project met .NET Aspire en OpenTelemetry sluit direct aan bij uw front- en backendbehoeften. CQRS, Clean Architecture en TDD zijn zijn vaste werkwijze.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+        "row": 40,
+        "score": 87,
+        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor-ervaring met Azure Service Bus en aantoonbare tech-lead verantwoordelijkheden.",
+        "check": "d8",
+        "pitch": "Beste,\n\nPionira zoekt een Senior .NET Software Engineer — bent u open voor externe profielen?\n\nDeze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer én backup Tech Lead bij RIZIV-INAMI, met full-stack ASP.NET MVC + Blazor, PR-reviews en architectuurafstemming. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie met event-driven integratie via Azure Service Bus — precies de Azure-services en moderniseringsaanpak die Pionira vraagt. De combinatie van Blazor, ASP.NET, REST en Azure Service Bus is concreet aantoonbaar in productieomgevingen. Kennisdeling en technische begeleiding van teams zijn ook vaste onderdelen van het huidige takenpakket, wat aansluit bij uw verwachting rond teamcoaching.\n\nKan ik u kort bellen om dit profiel toe te lichten?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 19,
-        "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en gedistribueerde cloud-architectuur in productie.",
+        "score": 84,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en distributed systems in productie.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor Software Engineer .NET bij Pionira. Staat u open voor externe consultants?\n\nDeze kandidaat werkt al meer dan 16 jaar in .NET en heeft een bijzonder relevant profiel. Voor een langlopend nevenproject bouwde hij een web-applicatie op Azure App Services met Azure Service Bus en SQL — de exacte Azure-stack die Pionira inzet. Zijn huidig project omvat de rewrite van legacy desktopapplicaties naar een cloud-webapplicatie met .NET 8, CQRS, Kafka, Postgres en AWS/Kubernetes, wat zijn kennis van gedistribueerde en schaalbare systemen aantoont. Hij heeft ook team lead- en technische analyse-ervaring, wat aansluit bij de verwachte technische begeleiding in uw team. MCSD-gecertificeerd en vertrouwd met Blazor en ASP.NET.\n\nZin in een kort kennismakingsgesprek?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Software Engineer .NET bij Pionira — werkt u ook met externe .NET-profielen?\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en bouwt momenteel een cloudmigratie van legacy desktopapplicaties naar .NET 8 met CQRS, Kafka, Postgres en AWS/Kubernetes. Naast dit profiel beheert deze kandidaat al meer dan 10 jaar een Azure-applicatie (App Services, Service Bus, SQL) voor een retailklant — direct relevant voor de Azure-stack die Pionira gebruikt. Blazor en ASP.NET Core zijn vertrouwd terrein; team lead- en technische analyseervaring maken van deze kandidaat ook een kennis­overdrachter binnen uw team. MCSD-gecertificeerd en vertrouwd met distributed systems (RabbitMQ, gRPC, Akka.NET).\n\nZin in een kort gesprek volgende week?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -10751,6 +10751,1080 @@
         "score": 18,
         "reason": "Deze kandidaat werkt met Go/.NET/PHP voor parkeer- en beveiligingstoepassingen, zonder raakvlak met industriële automatisering of PLC/SCADA.",
         "check": "k5"
+      }
+    ]
+  },
+  "https://www.stepstone.be/jobs--IT-Product-Owner-e-Commerce-Platform-Brussels-Eurofins-Belgium-NV--2177635-inline.html": {
+    "title": "IT Product Owner e-Commerce Platform",
+    "url": "https://www.stepstone.be/jobs--IT-Product-Owner-e-Commerce-Platform-Brussels-Eurofins-Belgium-NV--2177635-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-17",
+    "snippet": "IT Product Owner e-Commerce Platform - Job at Eurofins Belgium NV in Brussels Find Jobs Find Jobs IT Product Owner e-Commerce Platform Eurofins Belgium NV Brussels Contract duration unspecified Full Time Published: 4 hours ago IT Product Owner e-Commerce Platform Eurofins Belgium NV Introduction Eurofins Scientific is an international life sciences company, providing a unique range of analytical testing services to clients across multiple industries, to make life and our environment safer, healthier and more sustainable. From the food you eat, to the water you drink, to the medicines you rely on, Eurofins laboratories work with the biggest companies in the world to ensure the products they supply are safe, their ingredients are authentic, and labelling is accurate. Eurofins is dedicated to delivering testing services that contribute to the health and safety of society and the planet, and to its corporate responsibility to protect the environment and ensure diversity, equity, and inclusion across the entire network of Eurofins companies. Your tasks Job Description The IT Product Owner will own the definition, delivery, and continuous improvement of our new custom developed e-commerc",
+    "stack": [],
+    "experience": "8+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 82,
+        "reason": "Deze kandidaat combineert bewezen Product Owner-ervaring in supply chain, ERP-ontkoppeling en internationale compliance met backlog- en stakeholdermanagement.",
+        "check": "n15",
+        "pitch": "Beste,\n\nVia onze samenwerking met Eurofins Belgium NV zagen wij uw vacature voor IT Product Owner e-Commerce Platform. Werkt u ook met externe consultants voor dergelijke strategische rollen?\n\nWij hebben een kandidaat die wij graag aan u voorstellen. Deze kandidaat heeft 15 jaar ervaring als Business/Functional Analyst en Product Owner, met een sterke focus op supply chain, ERP en internationale compliance. Bij Ravago is deze kandidaat momenteel verantwoordelijk voor het ontkoppelen van een ERP-applicatie, kwaliteitsinspectie in WMS, inventory/logistics en e-delivery compliance voor meerdere landen — een profiel dat nauw aansluit bij uw LIMS/ERP/supply chain-integratie-uitdagingen. Eerder leidde deze kandidaat als PO een vendor management systeem voor grote klanten zoals Vlaamse Overheid, Fluvius en DHL. Backlog ownership, story breakdown en stakeholdermanagement over meerdere landen zijn aangetoonde sterktes.\n\nWij stellen graag een korte kennismaking voor. Zou u volgende week een moment hebben voor een gesprek van 20 minuten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 44,
+        "score": 76,
+        "reason": "Deze kandidaat heeft 10 jaar PO/PM-ervaring met e-commerce merchant platforms, roadmap ownership en het opschalen van productteams in een B2B2C-context.",
+        "check": "m10",
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor IT Product Owner e-Commerce Platform bij Eurofins Belgium NV contacteren wij u graag. Werkt u samen met externe consultancypartners voor strategische IT-rollen?\n\nDeze kandidaat heeft meer dan 10 jaar aantoonbare ervaring als Product Owner en Product Lead, onder meer op platforms die tot 1 miljoen gebruikers en 7.500+ betalende merchants bedienden — een directe parallel met uw globaal e-commerce initiatief. Bij LIFEPOWR beheerde deze kandidaat meerdere product roadmaps tegelijk, introduceerde QA/release gates en Kanban-ritmes, en schaalde het productteam significant op. De legacy-databasemigratie zonder downtime toont technische diepgang die aansluit bij uw ERP/LIMS-integratie-uitdagingen. Stakeholdermanagement over multidisciplinaire teams en het bewaken van scope en prioriteiten zijn aangetoonde sterktes.\n\nMag ik u bellen voor een korte kennismaking deze of volgende week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 23,
+        "score": 68,
+        "reason": "Deze kandidaat beheert als PO retailsystemen over 200+ winkels met ERP-integraties, promotie-engines en leverancierssamenwerking in een complexe supply chain-omgeving.",
+        "check": "i15"
+      }
+    ]
+  },
+  "https://www.atsgroep.be/jobs/ups-support-engineer/": {
+    "title": "Junior UPS Support Engineer",
+    "url": "https://www.atsgroep.be/jobs/ups-support-engineer/",
+    "company": "ATS Antwerp",
+    "source": "https://www.atsgroep.be/jobs/",
+    "first_seen": "2026-08-17",
+    "snippet": "Junior UPS Support Engineer - ATS Groep Skip to content Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Menu Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Menu Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Projecten Bedrijven Over ons Bedrijven Onze roots SHEQ Erkenningen Duurzaam ondernemen Duurzaamheidsverslag 2025 Samenwerking met onderwijs ATS Run Nieuws Evenementen Jobs Contact NL FR EN Menu Expertises Elektro & Automatisering Mechatronica Slimme energieoplossingen & HVAC Distributie Doelgroepen Industrie Infrastructuur Gebouwen Pr",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@atsgroep.be"
+    },
+    "ai_matches": [
+      {
+        "row": 33,
+        "score": 52,
+        "reason": "Deze kandidaat heeft 8 jaar ervaring met elektrotechnische infrastructuur en datacenternetwerken, met hands-on troubleshooting en klantcontact.",
+        "check": "l8"
+      },
+      {
+        "row": 42,
+        "score": 30,
+        "reason": "Deze kandidaat heeft brede IT-netwerkervaring maar geen aantoonbare affiniteit met elektriciteit, UPS-systemen of vermogenelektronica.",
+        "check": "k28"
+      },
+      {
+        "row": 27,
+        "score": 22,
+        "reason": "Deze kandidaat heeft IoT- en telemetrieervaring maar geen technische achtergrond in elektriciteit of UPS-onderhoud.",
+        "check": "b7"
+      }
+    ]
+  },
+  "https://www.atlascopcogroup.com/en/careers/life-at-atlas-copco-group/work-areas/software-engineer": {
+    "title": "Software engineer​ing",
+    "url": "https://www.atlascopcogroup.com/en/careers/life-at-atlas-copco-group/work-areas/software-engineer",
+    "company": "Atlas Copco Belgium",
+    "source": "https://www.atlascopcogroup.com/en/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Software engineer​ing Skip to main content About us Sustainability Careers Media Investors Innovation Locations SV-EN Language English Svenska Menu About us Vision, mission and purpose Strategy and business model Group targets Brands Business areas Organization Atlas Copco Group in Sweden Student opportunities in Sweden Female Tech Engineer IGEday Graduate Kickstart Program My Dream Now Dr Erik Johnsson’s Scholarship Fund Meet our colleagues Deborah Mehreteab Peter Sprigg Sofie Gårdestam Sebastian Moreno History A changing world The Group’s history Compressor Technique’s history Vacuum Technique’s history Industrial Technique’s history Power Technique’s history A global footprint Committed owners Our company spirit Building the Group Passionate people Water for All The Gold Club Our awards Peter Wallenberg Award Giulio Mazzalupi Award John Munck Award Environmental Award Safety and Health Award Water for All Award Water for All Anniversary project in Peru Bringing clean water to the highlands in Yushu Award-winning project in Rwanda Back to our roots Water for All turns 40 Water changes lives Contact Fact sheet Sustainability Environment Climate Circularity Biodiversity Environment",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 91,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 12 jaar Java/Kotlin-ervaring met microservices, Azure, Kubernetes en Angular in complexe productieomgevingen bij BMW en DPG Media.",
+        "check": "a12",
+        "pitch": "Beste,\n\nWe lazen dat Atlas Copco Belgium op zoek is naar een Software Engineer. Werkt u ook samen met externe consultants? Dan hebben wij een sterk profiel dat wij u graag voorstellen.\n\nDeze kandidaat heeft 12 jaar ervaring als Software Engineer met Java en Kotlin, aangevuld met Spring Boot, GraphQL, Angular, microservices en een volledige DevOps-toolchain (Kubernetes, Terraform, Azure, CI/CD). Bij BMW bouwde deze kandidaat event-driven microservices en GraphQL API's voor een fleet-management platform, beheerde Azure-infrastructuur via Terraform en migreerde CI/CD-pipelines — allemaal in een complexe, internationale productieomgeving. Bij DPG Media werden dagelijks microservices voor Streamz en VTM GO uitgerold. Tech lead-ervaring bij Uitgeverij Van In toont ownership en seniority aan.\n\nDeze kandidaat is vertrouwd met agile teams, werkt end-to-end van architectuur tot productie, en heeft bewezen te kunnen samenwerken met business en technische stakeholders. Exact het profiel dat Atlas Copco zoekt.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 7 jaar Java-ervaring met volledige CI/CD, Docker, agile en concrete SaaS-architectuurverantwoordelijkheid bij meerdere opdrachtgevers.",
+        "check": "l7",
+        "pitch": "Beste,\n\nAtlas Copco Belgium is op zoek naar een Software Engineer die meewerkt aan de volledige applicatielevenscyclus. Werkt u hierbij ook samen met externe profielen? Dan stellen wij graag een bewezen kandidaat voor.\n\nDeze kandidaat heeft 7 jaar brede software-engineeringervaring met Java, Python, Angular, Docker, Jenkins en Linux. Bij NSX werd een volledig SaaS-platform gebouwd inclusief CI/CD-pipeline, server-setup en later een CRM met Angular frontend — vergelijkbaar met de end-to-end rol die Atlas Copco beschrijft. Bij Enovates werd embedded Java ingezet voor EV-laders met gedistribueerde algoritmes en OCPP 2.01-protocollen. Als co-founder van een KMO-SaaS-product neemt deze kandidaat ook architectuur- en SecOps-verantwoordelijkheid op.\n\nDe combinatie van agile werkwijze, hands-on full-stack achtergrond en teamlead-ervaring maakt dit een veelzijdig en zelfstandig profiel dat snel waarde toevoegt.\n\nKunt u even tijd vinden voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 32,
+        "score": 72,
+        "reason": "Deze kandidaat bouwde end-to-end microservices met Java, Kafka en CQRS bij Johnson & Johnson en DPG Media in productieomgevingen op schaal.",
+        "check": "e6"
+      }
+    ]
+  },
+  "https://corporate.tomandco.com/vacancies/it-business-analyst-6a719168432df7b7c9275648-fr/": {
+    "title": "IT Business Analyst Belgium Groot-Bijgaarden",
+    "url": "https://corporate.tomandco.com/vacancies/it-business-analyst-6a719168432df7b7c9275648-fr/",
+    "company": "BARQ EUROPE",
+    "source": "https://corporate.tomandco.com/jobs/",
+    "first_seen": "2026-08-17",
+    "snippet": "it-business-analyst-6a719168432df7b7c9275648-fr - Corporate TomAndCo Aller au contenu Happy pets Happy people Happy world Nederlands (België) Nederlands (België) Trouver un job Devenez franchisé Historique Board Press releases Vers le webshop Aniserco S.A. Noordkustlaan 16A, B3 - 1702 Groot-Bijgaarden © 2026 Corporate TomAndCo Cookies Policy Privacy Policy Terms and conditions B2B 2026 Sitemap IT Business Analyst As an IT Business Analyst your role is to understand the needs of Tom&Co, apply your expertise to existing (or yet to be developed) processes, propose and/or verify the validity of new solutions with the aim of improving internal processes and the adoption of applications. Responsabilities - You obtain a good understanding of our company & business and analyze business processes and workflows with the objective of finding out how they can be improved or automated. - You serve as the intermediate between process owners in the business, application specialists and IT technical teams. - You deliver a documented way of working and take care of updates. - You will be highly involved in the change management part of our Cegid POS project. - You are a key person in process optimi",
+    "stack": [
+      "POS",
+      "ERP",
+      "CDP",
+      "PIM",
+      "eCommerce"
+    ],
+    "experience": "several years",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 23,
+        "score": 92,
+        "reason": "Deze kandidaat beheert actief POS-systemen, Dynamics CRM en retailprocessen over 200 winkels als PO/BA.",
+        "check": "i15",
+        "pitch": "Beste,\n\nWe lezen dat Tom&Co op zoek is naar een IT Business Analyst met sterke retailervaring, onder meer rond POS en ERP. Werkt u hiervoor ook met externe consultants?\n\nWij willen u graag deze kandidaat voorstellen, die momenteel als Product Owner/BA retailsystemen beheert voor een keten van 200 winkels (POS, automatische weegschalen, assortimentsbeheer, promotie-engine, Dynamics CRM-POS-integratie). De match met uw Cegid POS-project is opvallend concreet: deze kandidaat leidt dagelijks een dev-team in agile mode, stuurt leveranciers aan (Toshiba, Digi) en bouwt Power BI-rapportage. De combinatie van front- en backoffice retail, procesoptimalisatie en stakeholdermanagement sluit naadloos aan op wat u zoekt. De ervaring in food retail is direct overdraagbaar naar de pet-retailcontext van Tom&Co.\n\nGraag stel ik deze kandidaat voor in een kort gesprek — 15 minuten zijn voldoende om te oordelen.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 28,
+        "score": 71,
+        "reason": "Deze kandidaat heeft brede ERP- en supply-chain-BA-ervaring, inclusief procesoptimalisatie en story breakdown, maar mist directe retaildomeinkennis.",
+        "check": "n15"
+      },
+      {
+        "row": 30,
+        "score": 68,
+        "reason": "Deze kandidaat heeft sterke ERP-implementatie-ervaring (D365 F&O) en brede FA-achtergrond, maar geen aantoonbare retailsectorkennis.",
+        "check": "r13"
+      }
+    ]
+  },
+  "https://jobs.bestmix.com/jobs/7687221-senior-devops-engineer": {
+    "title": "Senior DevOps Engineer",
+    "url": "https://jobs.bestmix.com/jobs/7687221-senior-devops-engineer",
+    "company": "BESTMIX SOFTWARE",
+    "source": "https://jobs.bestmix.com/",
+    "first_seen": "2026-08-17",
+    "snippet": "Senior DevOps Engineer - BESTMIX Software This website uses cookies to ensure you get the best experience. BESTMIX Software and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes. See our Cookie Policy to read more about the cookies we set. You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page. Accept all cookies Decline all non-necessary cookies Cookie preferences Select which cookies you accept On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly. If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, which is always available at the bottom of the site. To learn more about what the different types of cookies do, how your data is used when they are set etc, see ",
+    "stack": [
+      "Azure",
+      "Terraform",
+      "Bicep",
+      "Docker",
+      "Kubernetes",
+      "PowerShell",
+      "Bash",
+      "YAML",
+      "SQL"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 7,
+        "score": 84,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on ervaring met Azure, AKS, Bicep, ArgoCD, CI/CD-pipelines en heeft een junior DevOps engineer gecoacht.",
+        "check": "j6",
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op naar aanleiding van uw vacature voor een Senior DevOps Engineer. Werkt u hierbij ook samen met externe consultants?\n\nIk stel graag een sterke kandidaat voor die naadloos aansluit op uw technische vereisten. Deze kandidaat heeft 6 jaar relevante ervaring en werkt momenteel in een Azure cloud-team waar hij applicatie-onboarding, Bicep-modules, Azure DevOps-pipelines en private networking beheert — exact de stack die BESTMIX Software zoekt. Bij APG leidde deze kandidaat de migratie van on-prem software naar Kubernetes-native op Azure (AKS, ArgoCD, Bicep), en coachte hij een junior DevOps engineer gedurende drie jaar — een duidelijk signaal van de senioriteit en leiderschapscapaciteit die u zoekt. Certificeringen AZ-104 en AZ-400 ondersteunen de technische diepgang verder.\n\nIk zie graag of we een kort gesprek kunnen inplannen om dit concreet te bespreken.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 75,
+        "score": 82,
+        "reason": "Deze kandidaat combineert diepgaande Azure/Bicep/AKS-ervaring met tenant-consolidatie, CI/CD-migratie en het trainen van sysadmins in een senior DevOps-rol.",
+        "check": "j25",
+        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor een Senior DevOps Engineer neem ik graag contact op. Werkt u ook met externe consultants voor dergelijke profielen?\n\nDeze kandidaat beschikt over 25 jaar ervaring en heeft recent bij Partena Professional twee Azure-tenants geconsolideerd, AKS naar Container Apps gemigreerd, Bicep-modulecode geschreven en een GitHub Actions CI/CD-migratie uitgevoerd — allemaal technologieën die centraal staan in uw vacature. Daarvoor beheerde deze kandidaat bij StepStone 1.500 servers en coördineerde een volledige datacenter-naar-cloud-migratie inclusief Terraform, Kubernetes en observability-platformen (Grafana, Elasticsearch). Sysadmins trainen in Bicep toont bovendien de coachende rol die u zoekt. De breedte én diepte van deze profielfit is uitzonderlijk.\n\nKort bellen om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 56,
+        "score": 68,
+        "reason": "Deze kandidaat heeft solide ervaring met Terraform, Kubernetes, Ansible en Azure-infrastructuur in DevOps-context over meerdere sectoren heen.",
+        "check": "a8"
+      }
+    ]
+  },
+  "https://www.blue-mountain.nl/werken-bij-blue-mountain/bi-consultant/": {
+    "title": "BI Consultant",
+    "url": "https://www.blue-mountain.nl/werken-bij-blue-mountain/bi-consultant/",
+    "company": "BLUE MOUNTAIN",
+    "source": "https://www.blue-mountain.nl/werken-bij-blue-mountain/",
+    "first_seen": "2026-08-17",
+    "snippet": "BI Consultant - Blue-Mountain Blue-Mountain Menu Home Oplossingen Oplossingen Dashboards Data lake(house) Active Intelligence Per markt Dashboards voor het onderwijs Dashboards voor woningcorporaties Dashboards voor de zorg Diensten Data gedreven werken Detachering Opleidingen en clinics Over ons Contact & support Werken bij Blue-Mountain Solliciteren Open sollicitatie BI Consultant Sales consultant Data engineer Consultant datagedreven werken Bibliotheek Contact BI Consultant Standplaats: Breda Dienstverband: Fulltime / Parttime Opleidingsniveau: HBO/WO Minimale werkervaring: 3 jaar Ben jij klaar voor de volgende stap in je BI-carrière? Bij Blue-Mountain krijg je de kans om je technische skills te combineren met strategisch advies. Werk aan impactvolle projecten, ontwikkel jezelf continu en maak deel uit van een team dat samen het verschil maakt. We zoeken een BI Consultant die de schakel is tussen data en besluitvorming. Jij vertaalt klantvragen naar slimme BI-oplossingen en zorgt voor implementaties die écht werken. Je werkt samen met collega-consultants, projectleiders en strategisch adviseurs om klanten te helpen hun doelen te bereiken. Wat ga je doen als BI Consultant? Als BI",
+    "stack": [
+      "Fabric",
+      "Databricks",
+      "Synapse",
+      "ETL",
+      "Python",
+      "Microsoft Azure"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": null,
+    "contact": {
+      "name": "Bram",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 53,
+        "score": 82,
+        "reason": "Deze kandidaat combineert Power BI, Microsoft Fabric, Databricks en Python met bewezen klantgerichte BI-consultancyrol bij meerdere sectoren.",
+        "check": "s6",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw openstaande vacature voor BI Consultant bij Blue-Mountain. Werkt u ook samen met externe consultants?\n\nIk heb een kandidaat in portefeuille die uitstekend aansluit op uw profiel. Deze kandidaat werkt als zelfstandig BI-consultant en heeft aantoonbare ervaring met precies de technologieën die u zoekt: Microsoft Fabric, Databricks, Power BI, Python en Azure DevOps. Bij Atlas Copco leverde deze kandidaat Power BI-oplossingen voor marketing- en duurzaamheidsrapportages; bij Gosselin Group nam deze kandidaat de volledige BI-projectleiding op zich inclusief data governance en stakeholderafstemming. De combinatie van technische diepgang, adviesvaardigheid en financiële domeinkennis maakt deze kandidaat een sterke gesprekspartner op klantlocatie.\n\nZou u openstaan voor een korte kennismaking? Ik vertel u graag meer.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 80,
+        "reason": "Deze kandidaat heeft als Track Lead bij delaware diepgaande Databricks-, dbt-, Azure Data Factory- en Power BI-ervaring gecombineerd met coaching en architectuurverantwoordelijkheid.",
+        "check": "w7",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor BI Consultant bij Blue-Mountain neem ik graag contact op. Staat u open voor samenwerking met externe consultants?\n\nDeze kandidaat is een zeldzaam profiel: technisch sterk in Databricks, dbt, Azure Data Factory en Power BI, én bewezen in het begeleiden van teams en het bewaken van architecturale kwaliteit. Bij delaware BeLux groeide deze kandidaat door van data engineer tot Track Lead van 12 mensen, met directe verantwoordelijkheid voor multi-source dataplatformen en klantprojecten over meerdere sectoren. De Databricks-certificering en -championsnominatie bevestigen de technische diepgang. Adviesvaardigheden, kwaliteitsbewaking en proactiviteit zijn in de praktijk aangetoond, precies wat Blue-Mountain zoekt.\n\nMag ik u bellen voor een korte afstemming?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 62,
+        "score": 77,
+        "reason": "Deze kandidaat leidde een internationaal data-team met Databricks lakehouse, Power BI en Azure, inclusief aantoonbare kostenreductie en kwaliteitsverbetering.",
+        "check": "j10",
+        "pitch": "Beste,\n\nIk schrijf u naar aanleiding van uw openstaande vacature voor BI Consultant bij Blue-Mountain. Werkt u ook met externe specialisten?\n\nDeze kandidaat combineert sterke technische bagage in Databricks, Azure, Power BI en Python met het vermogen om als volwaardig gesprekspartner op directieniveau te opereren. Als Data & Analytics Lead stuurde deze kandidaat een internationaal team van 10 aan en transformeerde een gefragmenteerd datalandschap naar een governede Databricks-lakehouse die analytics, ML/AI en een commercieel BI SaaS-product aandrijft. Concrete resultaten: 50% snellere source-to-product refresh en 60% lagere Power BI-latentie via star schema-optimalisatie. De combinatie van platformdenken, data governance en dashboarding maakt deze kandidaat direct inzetbaar voor de BI-projecten van Blue-Mountain.\n\nIk plan graag een kort gesprek in. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://bedrijvenvereniging-zulte-kruisem.be/jobs/developer": {
+    "title": "DEVELOPER",
+    "url": "https://bedrijvenvereniging-zulte-kruisem.be/jobs/developer",
+    "company": "BFS Europe NV",
+    "source": "https://bedrijvenvereniging-zulte-kruisem.be/jobs",
+    "first_seen": "2026-08-17",
+    "snippet": "DEVELOPER - Bedrijvenzone Zulte-Kruisem Home Nieuws Bedrijven Jobs Bestuur Partners Contact Zulte-Kruisem BEDRIJVENVERENIGING DEVELOPER 2018-09-12 22:52:57 busys is een jong bedrijf dat actief is in toegangscontrole, communicatie systemen en diverse maatwerk projecten. Wij bieden technische oplossingen voor de vragen van vandaag met oog voor de uitdagingen van de toekomst. Om ons bedrijf te versterken zijn wij op zoek naar een developer. Als mens: - Ben je kritisch, ook voor jezelf en eigen werk - Kan je functioneren zowel in team als individueel - Ben je leergiering - Durf je een uitdaging aan - Durf je jouw eigen creatieve inbreng geven Als developer: - Ben je vertrouwd met programmeren voor het web - Heb je vlotte kennis van SQL en databases - Heb je feeling voor alles wat met IOT en technologie te maken heeft Je werkt voornamelijk met ASP.NET MVC en C# Daarnaast heb je interesse om aan te slag te gaan met Python, Linux, C++, Javascript, Android en/of iOS development. De job: Je werkt mee aan diverse projecten zowel in maatwerk als producten die in-house worden ontwikkeld. Daarnaast sta je mee in voor de nazorg van de productie omgevingen. Wij bieden: Een transparante werkomgevi",
+    "stack": [
+      "ASP.NET MVC",
+      "C#",
+      "SQL",
+      "Python",
+      "Linux",
+      "C++",
+      "Javascript",
+      "Android",
+      "iOS"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@ibusys.com"
+    },
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare ASP.NET Core/C#-ervaring én een project rond fysieke toegangscontrole met beveiliging, exact het domein van de vacature.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de openstaande Developer-positie bij BFS Europe (busys). Werkt u ook met externe consultants?\n\nIk wil u graag een freelance Full Stack .NET Developer voorstellen met 4 jaar ervaring in precies de gevraagde stack: ASP.NET Core, C#, SQL, Angular, Docker en Linux. Wat deze kandidaat bijzonder relevant maakt: bij BrainSolutions werkte deze kandidaat aan een langlopend project rond fysieke toegangscontrole — het kerndomein van busys — met focus op beveiliging en auditability. Daarnaast bouwde deze kandidaat een Azure-integratieframework waarmee niet-technische medewerkers backend-syncs kunnen beheren, wat aantoont dat eenvoud en nazorg van productieomgevingen in het DNA zitten. Python, Linux en CQRS/DDD zijn dagelijkse praktijk. Ook de interesse in IoT en embedded systemen sluit aan.\n\nGraag plan ik een kort gesprek in om deze kandidaat concreet voor te stellen.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 5,
+        "score": 75,
+        "reason": "Deze kandidaat werkt dagelijks met ASP.NET Core en C# en heeft solide SQL- en JavaScript-kennis opgebouwd in productiegerichte zakelijke applicaties.",
+        "check": "l5",
+        "pitch": "Beste,\n\nIk neem contact op omtrent de Developer-vacature bij BFS Europe (busys). Werkt u samen met externe consultants voor technische versterking?\n\nDeze kandidaat is een hands-on .NET-developer met 5 jaar ervaring in ASP.NET Core, C#, SQL en JavaScript/TypeScript — exact de kernstack die u vraagt. Bij IQVIA bouwde deze kandidaat meerdere productiegerichte applicaties, waaronder tools met gebruikersauthenticatie en trackingtoepassingen, vergelijkbaar met de maatwerk- en productprojecten bij busys. Entity Framework en Azure DevOps zijn vaste werkomgeving. De interesse in IoT en brede technologie past bij het profiel dat busys zoekt: iemand die meegaat in diverse projecten én nazorg van productieomgevingen opneemt.\n\nIk stel graag een kort kennismakingsgesprek voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 68,
+        "reason": "Deze kandidaat heeft bewezen IoT-ervaring (EV-laders, OCPP-protocol) en brede Python/Linux/C#-kennis die aansluit bij de gevraagde technologische breedte.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://jobs.bestmix.com/jobs/7687183-junior-devops-engineer": {
+    "title": "Junior DevOps Engineer",
+    "url": "https://jobs.bestmix.com/jobs/7687183-junior-devops-engineer",
+    "company": "BESTMIX SOFTWARE",
+    "source": "https://jobs.bestmix.com/",
+    "first_seen": "2026-08-17",
+    "snippet": "Junior DevOps Engineer - BESTMIX Software This website uses cookies to ensure you get the best experience. BESTMIX Software and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes. See our Cookie Policy to read more about the cookies we set. You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page. Accept all cookies Decline all non-necessary cookies Cookie preferences Select which cookies you accept On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly. If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, which is always available at the bottom of the site. To learn more about what the different types of cookies do, how your data is used when they are set etc, see ",
+    "stack": [
+      "Azure",
+      "Terraform",
+      "Bicep",
+      "CI/CD",
+      "Docker",
+      "Kubernetes",
+      "Azure Stack",
+      "PowerShell",
+      "Bash",
+      "YAML"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 7,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on ervaring met Azure, AKS, Bicep, CI/CD-pipelines, Docker en Kubernetes — precies de gevraagde stack.",
+        "check": "j6",
+        "pitch": "Beste,\n\nIk neem contact met u op naar aanleiding van uw vacature voor Junior DevOps Engineer bij BESTMIX Software. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat heeft 6 jaar concrete ervaring met exact de technologieën die u zoekt: Azure (AZ-104, AZ-400 gecertificeerd), Bicep, Kubernetes/AKS, Docker, CI/CD via Azure DevOps, PowerShell en Bash. Bij PSA Antwerp werkt deze kandidaat momenteel aan Azure-omgevingen met Web Apps, API Management en Log Analytics — sterk vergelijkbaar met uw SaaS-infrastructuur. Bij APG begeleidde deze kandidaat bovendien een junior DevOps engineer, wat teamspirit en communicatie bewijst.\n\nHoewel het profiel net iets seniorer is dan uw junior-omschrijving, past de hands-on aanpak en de breedte van de stack perfect bij wat BESTMIX zoekt in een groeiende DevOps-omgeving.\n\nGraag stel ik deze kandidaat voor in een kort gesprek — even bellen deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 56,
+        "score": 71,
+        "reason": "Deze kandidaat heeft bewezen IaC-ervaring met Terraform en Ansible, Kubernetes/OpenShift en CI/CD-pipelines in zowel Azure als on-prem omgevingen.",
+        "check": "a8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Junior DevOps Engineer bij BESTMIX Software contacteer ik u graag — werkt u ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar ervaring met infrastructure-as-code (Terraform), Kubernetes, Docker, CI/CD en Azure, opgebouwd bij o.a. TrendMiner (SaaS-omgeving, sterk vergelijkbaar met de BESTMIX-context) en Orange Cyberdefense. De Ansible-automatisering en Linux-expertise sluiten aan op de scripting- en automatiseringsvereisten in uw vacature. Security best practices zijn eveneens aanwezig via de Orange Cyberdefense-opdracht.\n\nHet profiel is iets meer on-prem/Linux-georiënteerd dan puur Azure, maar de basiscompetenties voor cloud, IaC en automatisering zijn solide aanwezig en snel uitbreidbaar naar uw Azure Stack-omgeving.\n\nMag ik u bellen voor een kort overleg over dit profiel?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 12,
+        "score": 58,
+        "reason": "Deze kandidaat toont hands-on Azure-, Docker-, CI/CD- en PowerShell-ervaring via freelanceprojecten met Container Apps en Azure Functions.",
+        "check": "y5"
+      }
+    ]
+  },
+  "https://www.haerens.com/nl/careers/vacatures/business-application-manager-data-intelligence-en-power-bi": {
+    "title": "Business Application Manager Data Intelligence & Power BI IT",
+    "url": "https://www.haerens.com/nl/careers/vacatures/business-application-manager-data-intelligence-en-power-bi",
+    "company": "CHARLES HAERENS",
+    "source": "https://www.haerens.com/nl/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Business Application Manager Data Intelligence & Power BI - Haerens Haerens Experts in technical glass Onze Groep Ons Team Ons verhaal nl fr en Toepassingen Producten Diensten Careers Contact Menu Home Careers Vacatures Business Application Manager Data Intelligence & Power BI Vacature: Business Application Manager Data Intelligence & Power BI Gent - IT WE ARE HIRING De Haerens Group is een snelgroeiend familiebedrijf, actief in hoogtechnologische brand- en veiligheidsdeuren, internationale museuminrichtingen en hoogtechnologisch glas onder de merken Eribel, Meyvaert, Vitrotec en Haerens. Onze groep telt meer dan 250 medewerkers, verspreid over 2 productievestigingen in België en verschillende internationale vestigingen. Ter versterking van onze organisatie zijn wij op zoek naar een: Business Application Manager Data Intelligence & Power BI Dit is echt iets voor mij Als Business Application Manager – Data Intelligence & Power BI ben je verantwoordelijk voor het beheren en verder ontwikkelen van het Data & Analytics-platform van onze groep. Je vormt de brug tussen de business, IT en externe partners en zorgt ervoor dat data betrouwbaar, consistent, toegankelijk en bruikbaar is voor ",
+    "stack": [
+      "Power BI",
+      "Azure Data Factory",
+      "Azure Databricks",
+      "Azure Storage Accounts",
+      "Microsoft SQL",
+      "ETL/ELT"
+    ],
+    "experience": "3-5 yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@haerensgroup.com"
+    },
+    "ai_matches": [
+      {
+        "row": 62,
+        "score": 88,
+        "reason": "Deze kandidaat leidde een internationaal data-team en bouwde een governed Databricks-lakehouse met ADF, Power BI-sterrenmodellen en datagovernance — exact het profiel gevraagd.",
+        "check": "j10",
+        "pitch": "Beste,\n\nWij lazen de vacature voor een Business Application Manager Data Intelligence & Power BI bij de Haerens Group met veel interesse. Werkt u ook samen met externe consultants voor de invulling van dergelijke rollen?\n\nWij stellen u graag deze kandidaat voor: een Data & Analytics Lead met 10 jaar ervaring die momenteel een internationaal team van 10 mensen aanstuurt. Deze kandidaat transformeerde een gefragmenteerd datalandschap naar een governed Databricks-lakehouse, bouwde ELT-architecturen in Azure Data Factory, reduceerde Power BI-latentie met 60% via sterrenmodellen en droeg verantwoordelijkheid voor datagovernance en KPI-rapportering op C-suite-niveau. Ervaring met ESG-, HR- en P&L-rapportering sluit nauw aan bij de groepsrapporteringsnoden van Haerens. De combinatie van technische diepgang én stakeholdermanagement op directieniveau maakt deze kandidaat bijzonder sterk voor deze brug-rol tussen business en IT.\n\nGraag plan ik een korte call in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 27,
+        "score": 82,
+        "reason": "Deze kandidaat bouwt bij Inimco Azure Data Factory-pipelines, Power BI-dashboards op SSAS en Databricks-workflows — exact de Microsoft-stack die Haerens vraagt.",
+        "check": "b7",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Business Application Manager Data Intelligence & Power BI wilden wij u graag een sterk profiel voorstellen. Maakt u gebruik van externe consultants voor kritieke IT-rollen?\n\nDeze kandidaat is een gecertificeerd Azure Data Engineer (5 Microsoft-certificaten) met 7 jaar ervaring in het bouwen van schaalbare ETL-pipelines via Azure Data Factory, Databricks voor complexe businesslogica, Power BI-dashboards op SSAS-modellen en migraties naar Azure Data Explorer. De technische stack sluit naadloos aan op wat Haerens vraagt: ADF, Databricks, Azure Storage en SQL Server. Ervaring in manufacturing analytics is bovendien relevant voor Haerens' productieomgeving. Met een masterdiploma Industrieel Ingenieur en bewezen ownership over end-to-end data-oplossingen is deze kandidaat klaar om uw Data Warehouse en BI-omgeving verder te ontwikkelen.\n\nZin in een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 53,
+        "score": 76,
+        "reason": "Deze kandidaat combineerde Power BI-ontwikkeling, datagovernance en stakeholdermanagement bij Atlas Copco en Gosselin, met extra Microsoft Fabric- en Databricks-ervaring.",
+        "check": "s6",
+        "pitch": "Beste,\n\nWij zagen uw vacature voor een Business Application Manager Data Intelligence & Power BI en denken een uitstekende match te hebben. Werkt u samen met externe partners voor de invulling van specialistische IT-functies?\n\nDeze kandidaat is een finance-geletterde BI-lead met 6 jaar ervaring als zelfstandig consultant. Bij Atlas Copco stond deze kandidaat in voor Power BI-rapportering rond marketing en sustainability via Databricks en Azure DevOps. Bij Gosselin Group leidt deze kandidaat BI-projecten met focus op datagovernance en stakeholderalignment — precies de brug tussen business en IT die Haerens zoekt. Daarnaast werd een Microsoft Fabric deze kandidaatet Intelligence-systeem uitgebouwd en een Python+AI PoC voor automatische Power BI-documentatie. De meertaligheid (vijf talen) is een troef voor Haerens' internationale vestigingen.\n\nIk stel graag een korte call voor om dit te bespreken.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://www.chili-publish.com/solution/job-role/developers-and-integrators/": {
+    "title": "Developers & Integrators",
+    "url": "https://www.chili-publish.com/solution/job-role/developers-and-integrators/",
+    "company": "CHILI PUBLISH",
+    "source": "https://www.chili-publish.com/solution/job-role/chief-marketing-officer/",
+    "first_seen": "2026-08-17",
+    "snippet": "Developers & Integrators | CHILI GraFx Platform Solutions Learn Pricing Request a demo Login Platform Impact Multichannel Graphics Production Integrated Data Operations Brand Enablement At Scale API-First Development & Metrics Free Trial Platform Create, Automate, & Publish Connector Framework In just 10 minutes, see how CHILI GraFx powers global campaigns, local adaptation, and automated asset production with AI-driven design and smart templates. Watch now Solutions Brand execution Shopper Marketing Brand Management Web-to-Print Automation Data-driven graphics Visual Content Automation Variable Data Printing (Batch output) Direct Mail Automation Ad Builder BY business type Agencies Brands Retailers Independent Software Vendors (ISVs) Direct Mail Service Provider by job role Chief Marketing Officer (CMO) Director of Creative Ops Head of Studio Marketing Operations Director Developers & Integrators Learn RESOURCES Youtube channel Get certified Platform documentation GitHub INSPIRATION What's new? Recorded demo Webinars Customer stories Blog Papers See GraFx Experience in action! State of Platform: Multichannel Retail Promo Production from Product Data Read Brandwidth 2026 256 grocer",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 82,
+        "reason": "Deze kandidaat bouwde enterprise SaaS-platformen met Node.js/TypeScript, microservices en API-integraties voor 7.000+ actieve gebruikers.",
+        "check": "a6",
+        "pitch": "Beste,\n\nWij lazen met interesse de vacature voor Developers & Integrators bij CHILI PUBLISH en vroegen ons af of jullie ook samenwerken met externe consultants voor dit type profielen.\n\nWij hebben een senior full-stack engineer / technical lead in portefeuille die uitstekend aansluit bij wat CHILI GraFx vraagt. Deze kandidaat heeft end-to-end ownership genomen van een enterprise SaaS-platform met meer dan 7.000 actieve gebruikers, waarbij Node.js, TypeScript, React, PostgreSQL en MongoDB centraal stonden. Microservices, serverless architectuur en CI/CD-automatisering zijn geen theorie maar dagelijkse praktijk. Daarnaast leidde deze kandidaat teams tot 12 ontwikkelaars en was tegelijk het directe aanspreekpunt voor klanten en stakeholders — precies de combinatie die integratietrajecten op een platform zoals GraFx vereisen.\n\nDe achtergrond in API-gedreven, schaalbare platformen en het vermogen om snel te leveren onder druk maken van deze kandidaat een sterke troef voor jullie developer- en integratorcommunity.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 63,
+        "score": 72,
+        "reason": "Deze kandidaat bouwde integratie-API's en CI/CD-pipelines in .NET met Azure Services, OAuth2 en externe partnerconnecties.",
+        "check": "n11",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor Developers & Integrators bij CHILI PUBLISH wilden wij een sterk profiel uit ons netwerk onder de aandacht brengen — werken jullie ook met externe consultants?\n\nDeze kandidaat is een freelance senior .NET developer en team lead met 11 jaar ervaring in het bouwen van integratie-API's, Azure-gebaseerde backends en CI/CD-pipelines via GitHub. Bij de huidige opdrachtgever bewaakt deze kandidaat de technische kwaliteit van externe partners en ontwikkelt integratie-API's met .NET 8, Azure Functions, Service Bus en OAuth2/OIDC — stuk voor stuk relevante bouwstenen voor het CHILI GraFx Connector Framework en de API-first aanpak van het platform. Ervaring met MediatR, SignalR en Azure App Services toont breedte in enterprise integratiescenario's.\n\nGraag plannen wij een kort gesprek in om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 45,
+        "score": 55,
+        "reason": "Deze kandidaat heeft SaaS-platformervaring met ISO 27001, Azure, CI/CD en Angular, maar opereert primair op CTO-niveau.",
+        "check": "d12"
+      }
+    ]
+  },
+  "https://climapulse.com/nl/vacature-senior-backend-developer": {
+    "title": "Senior Backend Developer",
+    "url": "https://climapulse.com/nl/vacature-senior-backend-developer",
+    "company": "CLIMAPULSE",
+    "source": "https://climapulse.com/nl/jobs",
+    "first_seen": "2026-08-17",
+    "snippet": "Vacature Senior Backend developer | Climapulse Climapulse logo HVAC-professional Gebouwbeheerder Klanten Over ons Nieuws Jobs 4 Contact Search Zoeken Aanmelden Boek demo NL NL FR EN Senior Backend Developer voor groeiend platform Climapulse is dé toonaangevende SaaS-oplossing voor installateurs en facility managers die HVAC-installaties beheren. Van werkbonnen en onderhoud tot compliance en milieuwetgeving: ons platform maakt complexe processen eenvoudig, en helpt bedrijven slimmer, veiliger en duurzamer werken. Met duizenden gebruikers in de BeNeLux willen we onze groeiambities nu kracht bijzetten. Om deze ambities te kunnen realiseren zijn we nu op zoek naar we een Backend Developer die met zijn/haar ervaring, en een passie voor schone code, onze backend naar het volgende niveau tilt richting schaalbare architecturen en slimme oplossingen. Bij Climapulse bouw je geen losse projecten, maar werk je structureel aan een product met lange termijnvisie. Geen bench, geen onzekerheid, maar stabiliteit, focus en de kans om je echt vast te bijten in complexe technische uitdagingen. Wat ga je doen? Als Backend Developer ben je een sleutelfiguur in de technische kern van Climapulse. Je werkt",
+    "stack": [
+      "postgresql"
+    ],
+    "contact": {
+      "name": null,
+      "email": "info@climapulse.com"
+    },
+    "ai_matches": [
+      {
+        "row": 60,
+        "score": 78,
+        "reason": "Deze kandidaat heeft bewezen SaaS-backendervaring met PostgreSQL, CQRS en DDD, inclusief technisch leiderschap en security-diepgang.",
+        "check": "c8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie zoektocht naar een Senior Backend Developer bij Climapulse. Werken jullie ook samen met externe consultants voor deze rol?\n\nDeze kandidaat is een ervaren Senior Java Backend Developer met 8 jaar aantoonbare ervaring in SaaS-omgevingen. Momenteel actief bij Twikey, een fintech SaaS-platform, waar deze kandidaat complexe backend-uitdagingen aanpakt: gedistribueerde locking via PostgreSQL, XSD-gevalideerde SEPA-integraties en schaalbare webhook-architectuur. Exact het type werk dat Climapulse zoekt.\n\nDaarnaast beschikt deze kandidaat over een sterke achtergrond in PostgreSQL, DDD, CQRS en geautomatiseerd testen — allemaal expliciet gevraagd in jullie vacature. Als CPSA-F gecertificeerd architect denkt deze kandidaat actief mee over schaalbare architecturen en kwaliteit. Mentoring en kennisdeling zijn eveneens bewezen sterktes.\n\nIk plan graag een kort gesprek in om de fit verder toe te lichten. Wanneer schikt het?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 35,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 14 jaar .NET-backendervaring met bewezen re-architecturing naar schaalbare setups, PostgreSQL en gestructureerd testen.",
+        "check": "k14",
+        "pitch": "Beste,\n\nIk neem contact op in het kader van jullie vacature voor een Senior Backend Developer bij Climapulse. Werken jullie ook samen met externe consultants?\n\nDeze kandidaat is een Senior Backend Developer met 14 jaar C#/.NET-ervaring en een sterk trackrecord in het omzetten van legacy-systemen naar schaalbare, testbare architecturen — momenteel bij EDPnet na de Citymesh-overname. Concreet: REST API-ontwikkeling, opzetten van een gestructureerde testomgeving en refactoring naar onderhoudbare codebases, gekoppeld aan PostgreSQL en Kafka. Dit sluit nauw aan bij wat Climapulse zoekt.\n\nHoewel de primaire taal .NET is in plaats van Python, is de backenddiepgang, kwaliteitsfocus en ervaring met schaalbare platforms overtuigend aanwezig. Gecombineerd met een PSM II-certificering is dit een kandidaat die ook procesmatig sterk bijdraagt aan een groeiend team.\n\nIk leg graag de match verder toe in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 36,
+        "score": 62,
+        "reason": "Deze kandidaat leidde een enterprise SaaS-platform met 7.000+ gebruikers, met focus op Node.js, PostgreSQL, microservices en testkwaliteit.",
+        "check": "a6"
+      }
+    ]
+  },
+  "https://www.cloudware.be/jobs/solution-developer-9": {
+    "title": "Solution Developer 1 open vacatures -- Transfo Zwevegem -- Business Solutions Permanent",
+    "url": "https://www.cloudware.be/jobs/solution-developer-9",
+    "company": "CLOUDWARE",
+    "source": "https://www.cloudware.be/jobs",
+    "first_seen": "2026-08-17",
+    "snippet": "Solution Developer | Cloudware Overslaan naar inhoud 0 Afrekenen Aanmelden Digital Solutions Business Solutions Odoo Microsoft dooLex Team Wie zijn we Vacatures Helpdesk Odoo Tutorials Helpdesk Events Contact Helpdesk 0 Digital Solutions Business Solutions Odoo Microsoft dooLex Team Wie zijn we Vacatures Helpdesk Odoo Tutorials Helpdesk Events Contact Aanmelden Helpdesk Alle vacatures Solution Developer -- Transfo Zwevegem -- Solliciteer nu! Cloudware groeit, en onze klanten groeien met ons mee. Daarom zijn we op zoek naar een Solution Developer die niet stilstaat. Iemand die graag bouwt, graag leert en graag begrijpt waarom hij of zij iets bouwt — niet alleen hoe. Je bent technisch sterk, hebt affiniteit met .NET en/of Python en staat open voor een omgeving waarin je die twee werelden actief combineert. Of je nu werkt aan maatwerk integraties, bedrijfsapplicaties of ERP-oplossingen — jij ziet elke nieuwe technologie als een kans om verder te groeien. Klantrelatie Persoonlijke ontwikkeling Autonomie Technische expertise We zijn niet op zoek naar iemand die al alles gezien heeft. We zoeken iemand met de juiste instelling en een goede technische basis om op verder te bouwen. Wie we z",
+    "stack": [
+      ".NET",
+      "C#",
+      "ASP.NET",
+      "Web API",
+      "Python",
+      "React",
+      "Azure",
+      "Odoo",
+      "Git"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 92,
+        "reason": "Deze kandidaat werkte eerder direct bij Cloudware en bouwde Blazor-configurators, integraties en een Azure-framework — een perfecte match.",
+        "check": "r4",
+        "pitch": "Beste,\n\nWe hoorden dat Cloudware groeit en zijn benieuwd of jullie samenwerken met externe consultants voor jullie Solution Developer-positie in Zwevegem.\n\nWe hebben een kandidaat die we met vertrouwen willen voorstellen — en die jullie waarschijnlijk al kennen: deze kandidaat werkte van 2022 tot 2024 rechtstreeks bij Cloudware, waar hij twee Blazor 3D-productconfigurators bouwde met Unity WebGL-rendering, inclusief BOM-generatie en feasibility-validatie, én een orderportal re-architectureerde. Nadien bouwde hij bij BrainSolutions een modulair Azure-integratieframework (CQRS, Azure Functions, Service Bus) en leidde hij interne groei op React, Electron en local LLMs.\n\nDe combinatie van .NET/Blazor, Python-affiniteit, ERP-integratie-denken en hands-on Cloudware-ervaring maakt deze kandidaat uitzonderlijk relevant voor deze rol.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 12,
+        "score": 78,
+        "reason": "Deze kandidaat combineert .NET, Python en Azure in KMO-integraties en logistieke platformen — sterk aansluitend bij de gevraagde mix.",
+        "check": "y5",
+        "pitch": "Beste,\n\nWe volgen de groei van Cloudware met interesse en vragen ons af of jullie openstaan voor externe consultants voor jullie Solution Developer-vacature in Zwevegem.\n\nDeze kandidaat is een freelance full-stack developer met vijf jaar praktijkervaring in exact de combinatie die jullie zoeken: .NET voor een logistiek platform over 30+ productiehallen (Angular, Electron, Ionic), én Python met Azure Functions en Container Apps voor de cloudmigratie van 5.000+ klantendossiers bij een accountantskantoor. Daar komen Power BI-dashboards en CI/CD-pipelines bovenop.\n\nDe brede sectorervaring — bouw & logistiek, accountancy, zorg, KMO-software — en de huidige studie Business Analysis tonen exact de analytische en bedrijfsgerichte instelling die Cloudware omschrijft. Affiniteit met ERP-logica en systeemintegraties zit duidelijk in het DNA van deze kandidaat.\n\nZin in een kort kennismakingsgesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 18,
+        "score": 68,
+        "reason": "Deze kandidaat toont acht jaar solide .NET/C#-ervaring in industriële ERP-contexten, maar mist Python en Odoo-affiniteit.",
+        "check": "j8"
+      }
+    ]
+  },
+  "https://www.cegeka.com/en/be/jobs/expertises/data-ai": {
+    "title": "Data & AI",
+    "url": "https://www.cegeka.com/en/be/jobs/expertises/data-ai",
+    "company": "CEGEKA GROEP",
+    "source": "https://www.cegeka.com/en/be/jobs/about-cegeka",
+    "first_seen": "2026-08-17",
+    "snippet": "Data & AI About Cegeka Our Stories Areas of Expertise Architecture Cloud Technology Consultancy & Professional Services Data & AI DevOps Digital Employee Xperience Engineering & Service Desk Functional & Business Analysis Microsoft Dynamics 365 Regulatory Compliance Sales, Management & Support Security Service Management Solutions Software Development Quality Engineering Work as Young Professional Professional Freelancer Contact Selecteer jouw locatie Austria DE Belgium NL • EN Colombia ES Denmark DA Germany DE Greece EN India EN Italy IT The Netherlands NL Romania EN Sweden EN United Kingdom EN See all jobs About Cegeka Our Stories Areas of Expertise Architecture Cloud Technology Consultancy & Professional Services Data & AI DevOps Digital Employee Xperience Engineering & Service Desk Functional & Business Analysis Microsoft Dynamics 365 Regulatory Compliance Sales, Management & Support Security Service Management Solutions Software Development Quality Engineering Work as Young Professional Professional Freelancer Contact See all jobs en-be Data & AI See all jobs in Data & AI titel solliciteer The driving force behind digital transformation Data is at the core of digital transform",
+    "stack": [
+      "Azure",
+      "Microsoft Fabric",
+      "Databricks"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 68,
+        "score": 88,
+        "reason": "Deze kandidaat is Track Lead bij delaware BeLux met bewezen Databricks, dbt, ADF en Azure expertise en coachingervaring in internationale data-teams.",
+        "check": "w7",
+        "pitch": "Beste,\n\nWe zagen uw vacature bij Cegeka Data & AI en vroegen ons af of u samenwerkt met externe consultants.\n\nDeze kandidaat werkt momenteel als Track Lead bij delaware BeLux, een directe sectorgenoot van Cegeka, waar hij een team van 12 mensen aanstuurt op multi-source dataplatformen met Databricks, Azure Data Factory, dbt en Power BI — exact uw kernstack. Hij combineert architecturale verantwoordelijkheid met hands-on data engineering en coaching van internationale teams. Zijn Databricks Champion-nominatie en KU Leuven MBI-achtergrond maken hem direct inzetbaar op complexe klanttrajecten.\n\nGraag lichten we dit profiel toe in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 62,
+        "score": 85,
+        "reason": "Deze kandidaat leidde een internationaal data-team van 10 en bouwde een governed Databricks lakehouse met Azure, Power BI en data governance op schaal.",
+        "check": "j10",
+        "pitch": "Beste,\n\nNaar aanleiding van uw Data & AI-vacature bij Cegeka wilden we u graag een sterk profiel voorstellen — werkt u ook met externe consultants?\n\nDeze kandidaat is momenteel Data & Analytics Lead bij Yusen Logistics Healthcare, waar hij een internationaal team van 10 aanstuurt en een volledig governed Databricks lakehouse heeft gebouwd dat analytics, ML/AI en een commercieel BI SaaS-product aandrijft. Hij combineert data engineering (ADF, Azure, ELT, star schemas), data governance en product ownership — inclusief ESG- en P&L-rapportering. Concrete resultaten: 50% reductie in refresh-tijd en 60% minder Power BI-latentie.\n\nZin in een korte call om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 27,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 7 jaar Azure data engineering ervaring bij één werkgever met ADF, Databricks, Microsoft Fabric en Power BI in een productieomgeving.",
+        "check": "b7",
+        "pitch": "Beste,\n\nWe merkten uw groeiende Data & AI-afdeling bij Cegeka op en vragen ons af of u openstaat voor externe consultants.\n\nDeze kandidaat werkt al 7 jaar als Azure Data Engineer met een diepgaande kennis van Azure Data Factory, Databricks, Microsoft Fabric, Power BI en Azure Data Explorer — stuk voor stuk technologieën centraal in uw praktijk. Hij bouwde schaalbare ETL-pipelines, migreerde tijdreeksdata naar ADX en verplaatste complexe businesslogica naar Databricks. Vijf Microsoft-certificeringen, waaronder Azure Data Engineer en Data Scientist, ondersteunen zijn technische diepgang.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://www.haerens.com/nl/careers/vacatures/business-application-manager": {
+    "title": "Business Application Manager Information Services / IT",
+    "url": "https://www.haerens.com/nl/careers/vacatures/business-application-manager",
+    "company": "CHARLES HAERENS",
+    "source": "https://www.haerens.com/nl/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Business Application Manager - Haerens Haerens Experts in technical glass Onze Groep Ons Team Ons verhaal nl fr en Toepassingen Producten Diensten Careers Contact Menu Home Careers Vacatures Business Application Manager Vacature: Business Application Manager Gent - Information Services / IT WE ARE HIRING The Haerens group is a fast-growing family business, active in high-tech fire and security doors, international museum installations and high-tech glass under the brands Eribel, Meyvaert, Vitrotec and GMC Haerens. Our team consists of more than 450 dedicated employees, 3 production sites in Belgium and multiple hubs/production sites abroad (UK; France, Romania, Spain, Poland). Within our group, we are looking for a Business Application Manager Dit is echt iets voor mij Responsibilities Application Lifecycle Management: Design, configure, maintain, and upgrade our business software applications in the fields of CRM, ERP and Business Reporting (cloud based). Act as a key stakeholder in our business software upgrade projects: Legacy CRM applications to Dynamics 365 Sales Legacy ERP applications to Dynamics 365 Business Central Legacy Business Reporting applications to Microsoft Azure ",
+    "stack": [
+      "Microsoft Dynamics 365 Sales",
+      "Microsoft Dynamics 365 Business Central",
+      "Microsoft Power BI",
+      "Microsoft Power Apps",
+      "Microsoft Power Automate",
+      "Microsoft Azure",
+      "Microsoft SQL Server"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Sarah Delarue",
+      "email": "jobs@haerensgroup.com"
+    },
+    "ai_matches": [
+      {
+        "row": 23,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen ervaring met Dynamics 365 CRM, Power BI en applicatiebeheer in een industriële retailomgeving met meerdere sites.",
+        "check": "i15",
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op naar aanleiding van uw vacature voor een Business Application Manager. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWij hebben een kandidaat die uitstekend aansluit bij uw zoektocht. Deze kandidaat heeft ruim 15 jaar ervaring en beheert momenteel bedrijfskritische applicaties in een omgeving met meer dan 200 verkooppunten — waaronder Dynamics CRM-integraties, Power BI-rapportage en Azure-gebaseerde ontwikkeling. De aansluiting met uw migratietrajecten naar Dynamics 365 Sales en Power BI is dan ook concreet en onderbouwd.\n\nAls Product Owner/BA stuurt deze kandidaat een volledig .NET/Azure-devteam aan in agile modus, beheert leveranciersrelaties (o.a. Toshiba, Digi) en documenteert kernprocessen — precies wat Haerens vraagt. De combinatie van technische diepgang en stakeholdermanagement maakt dit profiel bijzonder sterk.\n\nGraag vertel ik u meer in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 28,
+        "score": 75,
+        "reason": "Deze kandidaat heeft hands-on ERP- en supply chain-applicatiebeheer in een internationale productieplek met meerdere landen.",
+        "check": "n15",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Business Application Manager bij Haerens neem ik graag contact op. Werkt u ook met externe consultants voor dit type profiel?\n\nDeze kandidaat heeft 15 jaar ervaring als Business/Functional Analyst en Product Owner, met een sterke focus op ERP en supply chain in industriële productieomgevingen. Bij Ravago is deze kandidaat momenteel verantwoordelijk voor het loskoppelen van productieapplicaties van het ERP-systeem en de implementatie van e-delivery compliance in meerdere landen (Roemenië, Peru, Mexico) — een context die sterk vergelijkbaar is met de internationale Haerens-sites.\n\nDaarnaast heeft deze kandidaat brede BPM-ervaring, beheer van backlogs en procesanalyse — kerncompetenties die aansluiten bij uw governance- en documentatievereisten. De combinatie van ERP-kennis en internationale scope maakt dit een solide kandidaat voor uw rol.\n\nKort overleggen? Ik hoor graag van u.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 8,
+        "score": 65,
+        "reason": "Deze kandidaat heeft sterke CRM-functionele analyse en implementatie-ervaring, maar primair in Salesforce in plaats van Dynamics 365.",
+        "check": "k8"
+      }
+    ]
+  },
+  "https://www.b-flow.be/careers/integration-architect/": {
+    "title": "Integration Analyst/Architect",
+    "url": "https://www.b-flow.be/careers/integration-architect/",
+    "company": "B-Flow",
+    "source": "https://www.b-flow.be/jobs/",
+    "first_seen": "2026-08-17",
+    "snippet": "Integration Analyst/Architect - B-Flow Services Boomi Our Story Contact Jobs Service Center Integration Analyst/Architect In a connected business world, we are on the lookout for new colleagues to assist us in delivering connected flows and integrations for our customers. Building upon the business knowledge of our customers, you will translate their business/functional requirements into actual Boomi building blocks and processes to link their applications and business flows together. You will assist them in designing a future proof integration architecture, ready to support all types of integration patterns. Why Us? Cutting-Edge Technology: Be at the forefront of technology, working with the latest tools and platforms, especially Boomi iPaas. Collaborative Environment: Join a young and dynamic team where your ideas are valued, and collaboration is key. Personal Growth: We believe in your potential. Enjoy a work environment that fosters personal development and provides clear career paths. Responsibilities: Bridge the Gap: Act as the crucial link between business and IT, translating diverse requirements into practical Boomi building blocks. Innovative Solutions: Challenge requireme",
+    "stack": [
+      "Boomi",
+      "SOAP",
+      "REST",
+      "XML",
+      "JSON",
+      "SQL",
+      "Microservices",
+      "EDI",
+      "API Management",
+      "Azure"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@b-flow.be"
+    },
+    "ai_matches": [
+      {
+        "row": 54,
+        "score": 79,
+        "reason": "Deze kandidaat heeft 10 jaar hands-on EDI/API-integratiewerk in logistiek, met EDIFACT, XML, JSON en SAP-koppelingen als dagelijkse praktijk.",
+        "check": "b10",
+        "pitch": "Beste,\n\nU bent op zoek naar een Integration Analyst/Architect met sterke kennis van integratieppatronen en bij voorkeur ervaring in financiële en logistieke processen — werkt u ook met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft 10 jaar ervaring als functioneel analist in logistieke IT, met dagelijkse hands-on werking rond EDI-integraties (EDIFACT, custom XML, JSON APIs, SAP ZORDERS), REST-koppelingen met carriers, terminals en douane, en end-to-end analyse van complexe supply chain flows. De combinatie van diepgaande domeinkennis in 3PL/4PL en technische integratievaardigheden maakt dit profiel uitzonderlijk: precies de brug tussen business en IT die B-Flow zoekt. Eerder automatiseerde deze kandidaat met succes 200 shipments/maand via process automation en bouwde operationele dashboards en alerting uit.\n\nDe fit met integration patterns (synchronous/asynchronous, ETL, EDI, batch) en de logistieke proceservaring zijn concrete pluspunten voor uw klanten.\n\nGraag licht ik dit profiel toe in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 72,
+        "reason": "Deze kandidaat ontwierp event-driven microservices en integratiearchitecturen op zowel Azure als AWS, met ADF, Databricks en IaC als bewezen stack.",
+        "check": "w20"
+      },
+      {
+        "row": 40,
+        "score": 58,
+        "reason": "Deze kandidaat heeft aantoonbare SOAP/REST-integratieervaring en werkte aan event-driven integratie via Azure Service Bus in een microservices-migratie.",
+        "check": "d8"
+      }
+    ]
+  },
+  "https://climapulse.com/nl/vacature-senior-frontend-developer": {
+    "title": "Senior Frontend Developer",
+    "url": "https://climapulse.com/nl/vacature-senior-frontend-developer",
+    "company": "CLIMAPULSE",
+    "source": "https://climapulse.com/nl/jobs",
+    "first_seen": "2026-08-17",
+    "snippet": "Vacature Senior Frontend Developer | Climapulse Climapulse logo HVAC-professional Gebouwbeheerder Klanten Over ons Nieuws Jobs 4 Contact Search Zoeken Aanmelden Boek demo NL NL FR EN Vacature Senior Frontend Developer Climapulse is dé toonaangevende SaaS-oplossing voor installateurs en facility managers die HVAC-installaties beheren. Van werkbonnen en onderhoud tot compliance en milieuwetgeving: ons platform maakt complexe processen eenvoudig, en helpt bedrijven slimmer, veiliger en duurzamer werken. Met duizenden gebruikers in de BeNeLux willen we onze groeiambities nu kracht bijzetten. Om ons product verder uit te bouwen, zoeken we een Senior Frontend Developer die met zijn/haar ervaring, oog voor detail en gevoel voor gebruikservaring onze frontend naar het volgende niveau tilt. Krijg jij energie van het herontwerpen en moderniseren van een volwassen platform? Vind je het een mooie uitdaging om complexe processen te vertalen naar intuïtieve interfaces? Dan zou dit zomaar jouw volgende stap kunnen zijn. Bij Climapulse bouw je geen lossen projecten, maar werk je structureel aan een product met lange termijnvisie. Geen bench, geen onzekerheid, maar stabiliteit, focus en de kans om ",
+    "stack": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Svelte",
+      "Vue",
+      "Web Components",
+      "Figma",
+      "Storybook",
+      "Three.JS"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@climapulse.com"
+    },
+    "ai_matches": [
+      {
+        "row": 82,
+        "score": 81,
+        "reason": "Deze kandidaat heeft aantoonbare WebGL/3D-ervaring, Angular/React ownership én freelance SaaS-founding, wat sterk aansluit bij de frontend-architectuurrrol.",
+        "check": "m7",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een Senior Frontend Developer bij Climapulse en vroeg me af of jullie samenwerken met externe consultants voor dit type profiel.\n\nIk wil jullie graag voorstellen aan deze kandidaat, een senior full-stack developer met 7 jaar ervaring die sterk aansluit bij wat jullie zoeken. Bij KBC Bolero bouwde deze kandidaat een Angular/NgRx-platform voor 100k+ gebruikers en realiseerde een laadtijdverbetering van 30% — een concreet bewijs van performantie en schaalbaarheid. Bij Hexagon/Octave pionierde deze kandidaat met WebGL 2D/3D-mapping en realtime datastreaming, precies de geavanceerde UI-interacties die jullie als bonuspunten vermelden.\n\nDaarnaast heeft deze kandidaat als founder een eigen Next.js/FastAPI SaaS gebouwd, wat aantoont dat productdenken en technische verantwoordelijkheid hand in hand gaan — precies de mindset die Climapulse zoekt.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 78,
+        "reason": "Deze kandidaat bouwde mee aan het Vlaanderen design system en heeft 12 jaar Vue/Nuxt-expertise op enterprise-schaal.",
+        "check": "a12",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een Senior Frontend Developer bij Climapulse wil ik vragen of jullie openstaan voor externe consultants.\n\nDeze kandidaat heeft 12 jaar frontend-ervaring met Vue en Nuxt op expertniveau (5/5) en werkte mee aan het officiële Vlaanderen design system — inclusief design tokens, consistente component-API's en herbruikbare patronen. Dat is exact wat jullie vragen rond design system ownership. Daarbovenop bewees deze kandidaat zich bij grote namen zoals Mediahuis, Toyota, Takeda en Jessa Ziekenhuis, steeds in complexe, productierijpe omgevingen.\n\nAls founder van Simplestack ontwierp en beheerde deze kandidaat bovendien een volledig cloud-platform — een bewijs van technisch leiderschap en architectuurdenken dat verder gaat dan pure frontend.\n\nDe combinatie van Vue/Nuxt-diepgang, design system ervaring en bewezen senioriteit maakt dit een profiel dat jullie zoektocht kan afsluiten.\n\nKan ik een korte call inplannen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 16,
+        "score": 75,
+        "reason": "Deze kandidaat combineert 16 jaar frontend-ervaring met Storybook, Figma en sterke UX-skills over meerdere frameworks.",
+        "check": "t16",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een Senior Frontend Developer bij Climapulse en wil graag polsen of jullie samenwerken met externe consultants.\n\nDeze kandidaat heeft 16 jaar frontend-ervaring en beheerst precies de tools die jullie vacature centraal stelt: Figma (inclusief design-to-code workflows), Storybook en een brede kennis van component-gebaseerde frameworks waaronder Vue en Angular. Als senior consultant bij Adappter werkte deze kandidaat structureel aan complexe web- en mobiele platformen met sterke UX-verantwoordelijkheid.\n\nHet recentste project — een offline-first Progressive Web App voor scheepvaartbemanning — toont het vermogen om robuuste, productierijpe frontend-architecturen te bouwen in veeleisende omstandigheden. Die technische diepgang gecombineerd met een sterk UX-gevoel sluit nauw aan bij de rol die Climapulse beschrijft.\n\nMag ik een kort gesprek voorstellen om dit concreter te bespreken?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://www.cegeka.com/en/be/jobs/areas-of-expertise/devops": {
+    "title": "DevOps",
+    "url": "https://www.cegeka.com/en/be/jobs/areas-of-expertise/devops",
+    "company": "CEGEKA GROEP",
+    "source": "https://www.cegeka.com/en/be/jobs/about-cegeka",
+    "first_seen": "2026-08-17",
+    "snippet": "DevOps About Cegeka Our Stories Areas of Expertise Architecture Cloud Technology Consultancy & Professional Services Data & AI DevOps Digital Employee Xperience Engineering & Service Desk Functional & Business Analysis Microsoft Dynamics 365 Regulatory Compliance Sales, Management & Support Security Service Management Solutions Software Development Quality Engineering Work as Young Professional Professional Freelancer Contact Selecteer jouw locatie Austria DE Belgium NL • EN Colombia ES Denmark DA Germany DE Greece EN India EN Italy IT The Netherlands NL Romania EN Sweden EN United Kingdom EN See all jobs About Cegeka Our Stories Areas of Expertise Architecture Cloud Technology Consultancy & Professional Services Data & AI DevOps Digital Employee Xperience Engineering & Service Desk Functional & Business Analysis Microsoft Dynamics 365 Regulatory Compliance Sales, Management & Support Security Service Management Solutions Software Development Quality Engineering Work as Young Professional Professional Freelancer Contact See all jobs DevOps View jobs As a DevOps engineer you bring development and IT operations closer together. While helping automate our infrastructure and those of o",
+    "stack": [
+      "RedHat",
+      "OKD",
+      "Continuous Integration",
+      "Continuous Delivery"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 92,
+        "reason": "Deze kandidaat heeft diepgaande OpenShift/Kubernetes-ervaring bij Proximus en Telenet, inclusief ArgoCD GitOps en aantoonbare architectuurverantwoordelijkheid.",
+        "check": "j8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de openstaande DevOps-positie bij Cegeka. Werkt u ook samen met externe consultants om uw team te versterken?\n\nIk stel u graag een senior profiel voor met 8 jaar ervaring in precies de technologieën die Cegeka centraal stelt. Deze kandidaat werkte als OpenShift-engineer bij Proximus, waar HA-clusters voor 100+ enterprise-teams werden beheerd en ArgoCD GitOps werd geïntroduceerd — de deploymentfrequentie steeg met 300%. Aansluitend architectureerde deze kandidaat bij Telenet een self-service Kubernetes-platform voor 5G CNF-onboarding, met een reductie van 60% in provisioningtijd. De combinatie van Kubernetes, OpenShift, ArgoCD, Ansible, CI/CD en Linux sluit naadloos aan op het profiel dat Cegeka zoekt. Bovendien is er bewezen eigenaarschap op architectuurniveau en ervaring met grootschalige, kritische infrastructuur.\n\nIk zou dit graag toelichten in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 56,
+        "score": 84,
+        "reason": "Deze kandidaat combineert Red Hat OpenShift, Ansible, Kubernetes en Terraform met bewezen on-prem en hybrid-cloud delivery voor overheid en enterprise klanten.",
+        "check": "a8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de DevOps-vacature bij Cegeka. Werkt u ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar hands-on ervaring met exact de technologieën die Cegeka inzet: Red Hat/OpenShift, Kubernetes, Docker, Ansible, Terraform en CI/CD-pipelines. Bij FOD Justitie werd on-prem RHEL-beheer gecombineerd met OpenShift-deployments en Terraform IaC. Bij Piros werden OpenShift-installaties en day-2 operaties verzorgd voor zowel overheids- als enterprise-klanten — een domein dat sterk aansluit bij Cegeka's klantenportfolio. Daarnaast omvatte het werk bij TrendMiner hybride datacenter- en Azure-infrastructuur met Kubernetes-orkestratie. De RHCSA-certificering bevestigt de technische diepgang op Red Hat-gebied, een platform dat Cegeka expliciet vermeldt.\n\nGraag vertel ik u meer in een korte call. Wanneer heeft u even tijd?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 65,
+        "score": 72,
+        "reason": "Deze kandidaat toont 29 jaar Linux/Red Hat-diepgang met Ansible-automatisering en Docker, maar containerplatform-ervaring is beperkter dan gevraagd.",
+        "check": "g29"
+      }
+    ]
+  },
+  "https://www.b-flow.be/careers/integration-developer-specialist/": {
+    "title": "Integration Developer",
+    "url": "https://www.b-flow.be/careers/integration-developer-specialist/",
+    "company": "B-Flow",
+    "source": "https://www.b-flow.be/jobs/",
+    "first_seen": "2026-08-17",
+    "snippet": "Integration Developer/Specialist - B-Flow Services Boomi Our Story Contact Jobs Service Center Integration Developer/Specialist In a connected business world, we are always on the look for new colleagues to assist us in delivering those connected flows and integrations for our customers. Building upon the business knowledge of our customers, you will translate their business/functional requirements into actual Boomi building blocks and processes to link their applications and business flows together. Responsibilities Bridge the gap between business and IT Translate business and functional requirements into integration flows and technical solutions Challenge both the requirements and any solutions available for them Implement the business/IT Flows into Boomi Processes Implement Boomi Processes and the customer environment in such a way that maintenance and support is manageable and feasible Stay aware of new possibilities and technologies Skills & knowledge required Following knowledge is nice to have/required Webservices SQL Language API Knowlegde on different applications Experience in Integration Development is a nice to have Experience with Dell Boomi Development is a nice to ha",
+    "stack": [
+      "Boomi",
+      "SQL",
+      "Webservices",
+      "API"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@b-flow.be"
+    },
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 78,
+        "reason": "Deze kandidaat bouwde een modulair Azure-integratieframework en heeft aantoonbare ervaring met backend-syncs, RPA/UIPath en Power Platform.",
+        "check": "r4",
+        "pitch": "Beste,\n\nU bent op zoek naar een Integration Developer met kennis van Boomi en integratieflows. Werkt u hiervoor ook samen met externe consultants?\n\nDeze kandidaat heeft 4 jaar freelance-ervaring als Full Stack .NET-ontwikkelaar en ontwikkelde recentelijk bij BrainSolutions een modulair Azure-integratieframework waarmee niet-technische medewerkers backend-syncs kunnen configureren en monitoren — een aanpak die nauw aansluit bij wat B-Flow voor klanten realiseert. Daarnaast heeft deze kandidaat ervaring met UIPath/RPA, Power Platform en Azure Service Bus, en werkte aan langlopende, veiligheidsritische projecten met hoge eisen rond auditability. De combinatie van technische diepgang (.NET Core, CQRS, API-design) en een pragmatische blik op business-IT-vertaling maakt deze kandidaat sterk inzetbaar in een Boomi-omgeving.\n\nMag ik een kort gesprek inplannen om dit concreter toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 5,
+        "score": 72,
+        "reason": "Deze kandidaat heeft directe Dell Boomi- en Mulesoft-exposure naast sterke SQL, API en webservices-vaardigheden in een zakelijke context.",
+        "check": "l5",
+        "pitch": "Beste,\n\nU bent op zoek naar een Integration Developer bij B-Flow met kennis van Boomi en aanverwante integratietechnologieën. Werkt u hiervoor samen met externe profielen?\n\nDeze kandidaat is een hands-on .NET/Angular-consultant met 5 jaar ervaring, momenteel actief bij IQVIA in de farmasector. Naast een sterke basis in SQL, webservices en API-integratie heeft deze kandidaat aantoonbare exposure aan zowel Dell Boomi als MuleSoft — precies de integratieplatformen die B-Flow centraal stelt. Gebouwde applicaties omvatten koppelingen met externe systemen (TTP-integratie, per-user authenticatie, pricing-tools), wat de vertaalslag van business naar technische integratieflows aantoont. Vlot in het Nederlands en Engels.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 40,
+        "score": 58,
+        "reason": "Deze kandidaat bouwde event-driven integraties via Azure Service Bus en SOAP/REST-koppelingen bij zowel Colruyt als Syntra.",
+        "check": "d8"
+      }
+    ]
+  },
+  "https://www.christeyns.com/be-nl/job/data-scientist/": {
+    "title": "Junior Data Scientist",
+    "url": "https://www.christeyns.com/be-nl/job/data-scientist/",
+    "company": "CHRISTEYNS",
+    "source": "https://www.christeyns.com/jobs/",
+    "first_seen": "2026-08-17",
+    "snippet": "Junior Data Scientist | Christeyns Over Ons Contact Search Top Searches Professionele Textielverzorging Professionele Reiniging Jobs Quick Links Contact Nieuws Over Ons Search be-nl be-nl Industrieën Professionele Textielverzorging Industriële Wasserijen On-premise wasserijen Droogkuis en natreiniging Voedingsindustrie en Food Retail Zuivel Vlees- en visindustrie Drankenindustrie en brouwerijen Bakkerij & Banketbakkerij Bewerkte voedingsmiddelen, fruit & groenten Food retail Professionele Reiniging Restaurant en Catering Hotel & Wellness Gebouwen, scholen & faciliteiten Verzorgingstehuizen en Zorgsector Automotive Schoonmaakbedrijven Maritieme sector Medische Zorg & Life Sciences Medische Zorg Life Sciences Bekijk alle branches > Top artikels Wordt Christeyns De Wijste Gentenaar 2026? Publicatie Duurzaamheidsrapport 2025 Oplossingen Doeltreffende en Veilige Producten Water besparen Energie besparen Eenvoudig monitoren Totaalconcepten Het juiste materiaal Opleiding en Training Professioneel advies Bekijk alle oplossingen > Top artikels Wordt Christeyns De Wijste Gentenaar 2026? Publicatie Duurzaamheidsrapport 2025 Over Ons Nieuws Blog Contact Jobs We Care Zoeken Populaire zoekopdrac",
+    "stack": [
+      "SQL",
+      "Power BI",
+      "Python",
+      "Databricks",
+      "Microsoft Azure",
+      "Grafana"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@christeyns.com"
+    },
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 72,
+        "reason": "Deze kandidaat heeft directe hands-on ervaring met Power BI, Databricks, Azure, SQL én Grafana — exact de toolstack van de vacature.",
+        "check": "b7",
+        "pitch": "Beste,\n\nU bent op zoek naar een Junior Data Scientist die dashboards bouwt in Power BI en Grafana, werkt met Databricks en Azure, en data omzet in bruikbare inzichten. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft bij Inimco ruim 7 jaar ervaring opgebouwd als Azure data engineer, met dagelijkse praktijk in precies de tools die Christeyns vraagt: Power BI, Databricks, Azure Data Factory, Grafana en SQL Server. De combinatie van Grafana-telemetriedashboards en Power BI-rapportering op SSAS-modellen sluit nauw aan bij uw duurzaamheids- en operationele rapporteringsnoden. Vijf Microsoft-certificaten — waaronder Azure Data Scientist en Power BI Data Analyst — tonen de breedte van het profiel. De achtergrond in industriële IoT en manufacturing analytics past uitstekend bij de B2B-industriële context van Christeyns.\n\nGraag vertel ik u in een kort gesprek meer over deze kandidaat. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 12,
+        "score": 58,
+        "reason": "Deze kandidaat heeft praktische ervaring met Python, Power BI-dashboards en Azure in KMO-omgevingen, passend voor een startersfunctie.",
+        "check": "y5"
+      },
+      {
+        "row": 10,
+        "score": 31,
+        "reason": "Deze kandidaat is full-stack Java-ontwikkelaar zonder aantoonbare data science- of BI-ervaring relevant voor de vacature.",
+        "check": "k4"
+      }
+    ]
+  },
+  "https://www.cegeka.com/en/be/jobs/areas-of-expertise/software-development": {
+    "title": "Software Development",
+    "url": "https://www.cegeka.com/en/be/jobs/areas-of-expertise/software-development",
+    "company": "CEGEKA GROEP",
+    "source": "https://www.cegeka.com/en/be/jobs/about-cegeka",
+    "first_seen": "2026-08-17",
+    "snippet": "Software Development About Cegeka Our Stories Areas of Expertise Architecture Cloud Technology Consultancy & Professional Services Data & AI DevOps Digital Employee Xperience Engineering & Service Desk Functional & Business Analysis Microsoft Dynamics 365 Regulatory Compliance Sales, Management & Support Security Service Management Solutions Software Development Quality Engineering Work as Young Professional Professional Freelancer Contact Selecteer jouw locatie Austria DE Belgium NL • EN Colombia ES Denmark DA Germany DE Greece EN India EN Italy IT The Netherlands NL Romania EN Sweden EN United Kingdom EN See all jobs About Cegeka Our Stories Areas of Expertise Architecture Cloud Technology Consultancy & Professional Services Data & AI DevOps Digital Employee Xperience Engineering & Service Desk Functional & Business Analysis Microsoft Dynamics 365 Regulatory Compliance Sales, Management & Support Security Service Management Solutions Software Development Quality Engineering Work as Young Professional Professional Freelancer Contact See all jobs Software Development View jobs Customization. This describes working in Software & Analysis at Cegeka. We offer our customers a variety o",
+    "stack": [
+      "java",
+      ".net",
+      "outsystems",
+      "python",
+      "php",
+      "drupal"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 10,
+        "score": 88,
+        "reason": "Deze kandidaat levert al jaren Java/Spring-fullstack op Vlaamse overheidsprojecten (BelRAI, GEZ/VSB) — exact het domein en de stack van Cegeka Social Impact.",
+        "check": "k4",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de Software Development-vacatures bij Cegeka, in het bijzonder binnen de Social Impact-divisie. Werkt u ook met externe consultants?\n\nDeze kandidaat is momenteel actief als fullstack Java-consultant op Vlaamse overheidsopdrachten — met name BelRAI Vlaanderen en het Gespecialiseerde Zorg-platform voor de Vlaamse Sociale Bescherming. Dat is exact het domein (sociale zekerheid, overheid) en de technische stack (Java/Spring Boot, Hibernate, Angular, Docker/Kubernetes/OpenShift, CQRS, TDD/BDD) die Cegeka centraal stelt in haar Applications-divisie.\n\nMet een KU Leuven Master Toegepaste Informatica, CKAD-certificering én Spring Certified Professional combineert deze kandidaat bewezen architecturale discipline met hands-on delivery in productie. De overstap naar Cegeka is inhoudelijk dan ook minimaal — de projecten, sector en cultuur sluiten naadloos aan.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 50,
+        "score": 80,
+        "reason": "Deze kandidaat heeft 8 jaar Java/Spring Boot-ervaring bij Telenet plus fullstack Angular/PHP, wat direct aansluit op Cegeka's Java- en .NET-praktijken.",
+        "check": "j12",
+        "pitch": "Beste,\n\nNaar aanleiding van de Software Development-openstaande posities bij Cegeka vraag ik me af of u ook samenwerkt met externe profielen.\n\nDeze kandidaat brengt 12 jaar solide Java-ervaring mee, waarvan 8 jaar bij Telenet op complexe backend-systemen: een provisioning-service, een diagnostics-service voor operatoren en een Media Decisioning Engine — stuk voor stuk grootschalige, kritieke platformen. De stack (Java 8→17, Spring Boot, Hibernate, JUnit/Mockito, Angular, React, AWS) dekt de kern van wat Cegeka's Applications-divisie dagelijks inzet.\n\nDaarnaast heeft deze kandidaat recentelijk fullstack-ervaring opgebouwd in PHP/Symfony én Angular voor sociale huisvestingsmaatschappijen, wat aansluit op Cegeka's Social Impact-focus. Een stabiel, leveringsgericht senior profiel met breedte in telecom, energie en verzekeringen.\n\nIk stel graag een kort kennismakingsgesprek voor.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 76,
+        "reason": "Deze kandidaat bouwde een volledige Java/Angular SaaS-oplossing met CI/CD, architectuur en interim teamlead-ervaring — breed inzetbaar binnen Cegeka's applicatiepraktijk.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk contacteer u in het kader van de Software Development-vacatures bij Cegeka. Werkt u ook met freelance consultants?\n\nDeze kandidaat heeft 7 jaar hands-on ervaring in Java-backendontwikkeling, gecombineerd met Angular, Docker, Jenkins CI/CD en PostgreSQL — een stack die nauw aansluit bij Cegeka's technologiepalet. Bij NSX bouwde deze kandidaat een volledige SaaS privacy-tool (RESPONSUM) inclusief architectuur, CI/CD-opzet en serverinrichting, en nam tijdelijk de teamlead-rol op. Daarnaast is er bewezen ervaring in Python, PHP en embedded Java (OCPP 2.01 voor EV-laadpalen).\n\nDe combinatie van technische breedte, eigenaarschap over volledige deliverables en interne kennisdeling (seminars over Keycloak en Docker) past goed bij Cegeka's Agile en continuous-learning-cultuur.\n\nGraag plan ik een kort gesprek in om de mogelijkheden te bespreken.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://cortina-group.com/career/senior-full-stack-java-developer": {
+    "title": "Senior Full Stack Java Developer ICT Oudenaarde, Belgium",
+    "url": "https://cortina-group.com/career/senior-full-stack-java-developer",
+    "company": "CORTINA",
+    "source": "https://cortina-group.com/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Senior Full Stack Java Developer | Cortina Company About Cortina Our sustainability strategy Shoes Or No Shoes? Careers Contact Brands Safety Jogger works SJ lifestyle Safety Jogger adventure gevavi Patrick Licensing Character licensing Brand licensing Private Label Cortina Private Label Vertical development Expertises Research and development Sample room Quality assurance Supply chain center Sales Logistics Marketing ICT Careers Contact us Senior Full Stack Java Developer English All vacancies Cortina is an international family business with decades of experience in the fashion and footwear industry. With a strong focus on private label and licensed footwear â as well as our own brands like Patrick, Safety Jogger and SJ â weâre constantly moving forward. Literally and figuratively. We are currently launching a major transformation project to replace our legacy AS400 ERP system with a modern Java-based platform. To support this initiative, we are looking for a passionate and experienced Full Stack Java Developer to join our dynamic team at CounterFort, our internal ICT department. Youâll be part of a collaborative, agile team working in a fast-paced environment where local ",
+    "stack": [
+      "Java",
+      "Spring",
+      "Hibernate",
+      "Angular",
+      "React",
+      "Vue.js",
+      "Gradle",
+      "Git",
+      "Jenkins",
+      "Docker"
+    ],
+    "experience": "Several years",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@cortina-group.com"
+    },
+    "ai_matches": [
+      {
+        "row": 50,
+        "score": 84,
+        "reason": "Deze kandidaat heeft 8 jaar Java/Spring Boot bij Telenet en toont full-stack delivery met Angular en React in productieomgevingen.",
+        "check": "j12",
+        "pitch": "Beste,\n\nVoor de rol van Senior Full Stack Java Developer bij Cortina/CounterFort wil ik u graag een sterke kandidaat voorstellen — werkt u ook met externe consultants?\n\nDeze kandidaat heeft meer dan 12 jaar ervaring in Java-development, waarvan 8 jaar bij Telenet met Java 8 tot 17 en Spring Boot in productiegerichte systemen: een provisioning service, een diagnostics-platform en een Media Decisioning Engine. Daarmee sluit het profiel naadloos aan op wat Cortina vraagt voor de ERP-vervanging. Aanvullend bewezen ervaring met Angular (Barge Traffic UI, Aster portal) en React (OPS Hub), net als Jenkins, Hibernate en AWS-tools (S3, Lambda, DynamoDB).\n\nDit is een stabiel, leveringsgericht senior profiel met brede full-stack dekking in exact de gevraagde stack. Graag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 55,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 11 jaar Java/Spring/Hibernate-ervaring inclusief Angular, Jenkins en Maven in complexe integratieprojecten.",
+        "check": "r11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Senior Full Stack Java Developer bij CounterFort — werkt u samen met externe IT-consultants?\n\nDeze kandidaat combineert 11 jaar Java-ervaring met een sterke achtergrond in Spring, Hibernate, Angular en Maven — exact de technologieën die u zoekt. Bij Liantis IT werkte deze kandidaat aan applicatie-architectuur voor integraties met overheidsinstanties en externe partners, wat vergelijkbaar is met de ERP-transformatie die Cortina nu ondergaat. Eerder bij Cipal Schaubroeck actief in payroll-domein (Java + Angular), bij Volvo Car Gent in productie-IT en bij de Vlaamse overheid als solutions architect — dat toont breedte én diepgang. DDD, TDD en Jenkins sluiten aan op de CI/CD-verwachtingen in uw vacature.\n\nEen korte call om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 10,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen full-stack ervaring met Java/Spring Boot, Hibernate, Angular en Docker in productieomgevingen van de Vlaamse overheid.",
+        "check": "k4"
+      }
+    ]
+  },
+  "https://www.deme-group.com/jobs/intern-full-stack-developer-mid-term-capacity-pipeline-management-tool": {
+    "title": "Intern Full Stack Developer (Mid Term Capacity & Pipeline Management Tool)",
+    "url": "https://www.deme-group.com/jobs/intern-full-stack-developer-mid-term-capacity-pipeline-management-tool",
+    "company": "Combined Marine Terminal Operations Worldwide",
+    "source": "https://www.deme-group.com/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Intern Full Stack Developer (Mid Term Capacity & Pipeline Management Tool) | DEME Group Skip to main content Search DEME DEME About What we do Our technology Safety Sustainability Investors Careers News Contact Search Home Find your perfect job Your DEME account Intern Full Stack Developer (Mid Term Capacity & Pipeline Management Tool) Job publication date 06 Aug 2026 Scroll down Summary As an Intern Full Stack Developer (Mid Term Capacity & Pipeline Management Tool), you will develop a tool that visualizes team capacity, planned projects, deadlines, and workload and this for a mid-term timeline. The goal is to support realistic planning and detect scale up or down of the team in the next 3 months. DEME General Internship & Student Belgium Apply now Your responsibilities Your profile Our offer Gather requirements and translate them into user stories Design the data model and API layer in .NET. Build dashboards and visual components in React. Implement workflows for pipeline and workload management. Deploy the solution to RedHat OpenShift Document the solution and hand it over to the team Analytical mindset — You can translate planning and workload challenges into clear technical re",
+    "stack": [
+      ".NET",
+      "C#",
+      "React",
+      "SQL",
+      "RedHat OpenShift"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare productie-ervaring met C#/.NET, React en SQL, exact de gevraagde stack voor deze stageopdracht.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de stage Full Stack Developer (Mid Term Capacity & Pipeline Management Tool) bij DEME. Werkt u ook met externe consultants of stagiairs via een bureau?\n\nDeze kandidaat heeft in productieomgevingen bewezen te kunnen werken met de exacte stack die u vraagt: C#/.NET (ASP.NET Core), React en SQL. Bij BrainSolutions bouwde deze kandidaat een modulair Azure-integratieframework met een Angular-frontend, waarbij niet-technische gebruikers backend-processen konden beheren — een sterke parallel met het bouwen van een capacity dashboard voor planners. React-kennis is aangetoond via interne kennisdeling en actief gebruik.\n\nDeze kandidaat combineert een gestructureerde werkwijze (CQRS, DDD, documentatie) met hands-on full-stack eigenaarschap. De analytische instelling en zelfstandigheid sluiten nauw aan bij wat u vraagt.\n\nGraag plan ik een kort gesprek in om de fit te bespreken.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 5,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 5 jaar praktijkervaring met .NET Core, Angular en SQL in zakelijke toepassingen, inclusief een production-tracking tool.",
+        "check": "l5",
+        "pitch": "Beste,\n\nIk contacteer u in verband met de stageopdracht Full Stack Developer (Mid Term Capacity & Pipeline Management Tool) bij DEME. Werkt u ook samen met externe partners voor development-capaciteit?\n\nDeze kandidaat heeft 5 jaar hands-on ervaring met .NET Core (inclusief versie 8), Angular en SQL — de kernstack van uw stageopdracht. Bij IQVIA ontwikkelde deze kandidaat onder meer een production-tracking tool (DMT) en een labo-pricing tool met gebruikersbeheer, wat sterk aansluit bij het bouwen van een capaciteits- en pipeline-managementtool. De werkwijze is pragmatisch en businessgericht, met aandacht voor correcte datamodellering en Azure DevOps.\n\nDeze kandidaat is gewend aan zelfstandig werken binnen een professionele omgeving en levert concrete resultaten op zonder uitgebreide begeleiding — precies wat een stagiair bij DEME nodig heeft.\n\nMag ik u bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 10,
+        "score": 58,
+        "reason": "Deze kandidaat heeft aantoonbare OpenShift- en Angular-ervaring, maar de primaire stack is Java/Spring in plaats van gevraagd .NET/React.",
+        "check": "k4"
+      }
+    ]
+  },
+  "https://jobs.colruytgroup.com/nl/vakgebieden/it-digital": {
+    "title": "IT & data",
+    "url": "https://jobs.colruytgroup.com/nl/vakgebieden/it-digital",
+    "company": "Colruyt Group",
+    "source": "https://jobs.colruytgroup.com/nl",
+    "first_seen": "2026-08-17",
+    "snippet": "Werken in IT & data bij Colruyt Group | Werken bij Colruyt Group Interne vacatures Contact Colruyt Group Bewaarde vacatures FR Logo/Colruyt Group/Logo CG Full Vacatures Vacatures Winkel Logistiek & productie Centrale diensten IT & digital Techniek & engineering Student & starter Vakgebieden Vakgebieden Winkel Centrale diensten IT & digital Techniek & engineering Student & starter Productie Logistiek Over ons Over ons Over Colruyt Group Verhalen van collega's Blog & nieuws Events Werken bij Colruyt Group Anders werken Onze vakgebieden IT & digital Werken in IT & Data bij Colruyt Group Bij Colruyt Group werken zo’n 2.000 IT’ers in België en India elke dag aan nieuwe technologieën en digitale innovaties . Van blockchain en artificiële intelligentie tot virtual reality, robotisering en het Internet of Things. Door een echte datagestuurde organisatie te worden, kunnen we processen verbeteren, écht leren wat onze klanten willen en hen een betere ervaring geven. Of je nu aan de slag gaat als projectmanager , software engineer , data engineer , business analist , data analist of een andere functie … Je merkt elke dag dat je impact hebt bij Colruyt Group. Werken in IT bij Colruyt Group: Ste",
+    "stack": [
+      "Java",
+      "SQL",
+      "Python",
+      "Mainframe",
+      "Linux",
+      "GIT",
+      "Agile",
+      "Prince 2",
+      "PMBok"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 90,
+        "score": 88,
+        "reason": "Deze kandidaat combineert 14 jaar data-platformervaring met Nike (retail/supply chain, Laakdal) en J&J op Databricks, Snowflake, Kafka, Python en SQL — exact de Colruyt-stack.",
+        "check": "n14",
+        "pitch": "Beste,\n\nColruyt Group zoekt sterke IT- en dataprofielen — werkt u ook met externe consultants om die capaciteit in te vullen?\n\nDeze kandidaat heeft 14 jaar bewezen data-architectuurervaring en werkte recentelijk als Principal Software Engineer bij Nike in Laakdal — retail supply chain, exact het domein van Colruyt Group. Daarvoor leidde deze kandidaat 11 jaar bij Johnson & Johnson een enterprise data platform op Snowflake, DBT, Kafka, Airflow, Spark en AWS/Terraform, inclusief CI/CD-governance en data-kwaliteitsstandaarden. Bij Nike ondersteunde deze kandidaat de modernisering naar een unified Databricks Lakehouse met community building en technische enablement — precies het soort impactvolle, crossteam-rol die Colruyt Group zoekt. Python, SQL, Agile: allemaal aanwezig. Bovendien beschikt deze kandidaat over aantoonbare data-governance-expertise en agentic AI-kennis, wat aansluit bij Colruyts AI-ambities.\n\nKan ik u 15 minuten bellen om dit profiel toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 38,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 17 jaar data-engineering ervaring met Databricks, PySpark, Kafka en Snowflake in retailsupply-chain bij Nike — sterk aansluitend op Colruyts domein en stack.",
+        "check": "b17",
+        "pitch": "Beste,\n\nColruyt Group zoekt ervaren data-engineers — werkt u ook met externe consultants?\n\nDeze kandidaat heeft 17 jaar data-engineering-ervaring en is momenteel actief bij Nike, waar Databricks/PySpark-pipelines voor supply-chain en commerciële data worden ontworpen en beheerd — een context die sterk vergelijkbaar is met die van Colruyt Group. Kafka-streaming voor inventory- en orderfeeds, CI/CD met geautomatiseerd testen, Splunk-monitoring en SLA-opvolging zijn dagelijkse realiteit. Eerder leidde deze kandidaat als architect bij Cognizant een Snowflake-migratie met data-governance en lineage-controles. Python, SQL en DataOps-observability zijn sterk aanwezig. De combinatie van retaildomeinkennis, mentoring-ervaring en productie-incident-aanpak maakt dit profiel direct inzetbaar in een multidisciplinair Colruyt-team.\n\nZin in een korte call om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 62,
+        "score": 76,
+        "reason": "Deze kandidaat leidt een internationaal data-team met Databricks, Azure, Power BI en Python, en toont bewezen ownership over data-governance en platform-architectuur.",
+        "check": "j10",
+        "pitch": "Beste,\n\nColruyt Group zoekt data-profielen met echte ownership — werkt u ook met externe consultants?\n\nDeze kandidaat heeft 10 jaar data-ervaring en leidt momenteel een internationaal team van 10 bij Yusen Logistics Healthcare, waar een volledig Databricks-lakehouse werd uitgebouwd voor analytics, ML/AI en een commercieel BI SaaS-product. Concrete resultaten: 50% snellere data-refresh en 60% lagere Power BI-latentie via star schemas, plus significante Azure/Databricks-kostenreductie. Eerder bij Walden Digital werd een Bronze/Silver/Gold ELT-architectuur gebouwd op Azure Data Factory en Databricks. Python, SQL, data-governance en Azure zijn allemaal sterk aanwezig. De combinatie van tech lead, product owner en people manager in één profiel sluit nauw aan bij de multidisciplinaire teamaanpak van Colruyt Group.\n\nKan ik u kort bellen om dit profiel voor te stellen?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/pages/software-engineering": {
+    "title": "Software Engineering",
+    "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/pages/software-engineering",
+    "company": "DELL",
+    "source": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Software Engineering",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 91,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 12 jaar Java/Kotlin-ervaring met microservices, cloud (Azure/AWS), Kubernetes en CI/CD bij bedrijven zoals BMW en DPG Media.",
+        "check": "a12",
+        "pitch": "Beste,\n\nU bent op zoek naar een sterke Software Engineer — werkt u ook met externe consultants voor deze rol? Dan stel ik graag een profiel voor dat ik in gedachten had bij uw vacature.\n\nDeze kandidaat heeft 12 jaar ervaring als Software Engineer met een solide basis in Java en Kotlin, aangevuld met Spring Boot, microservices, Kubernetes, Terraform en CI/CD — precies de technologieën die relevant zijn voor een omgeving zoals Dell. Bij BMW werkte deze kandidaat aan een fleet-management portal met event-driven architectuur (Azure Service Bus), GraphQL APIs en een AI-agent op basis van RAG. Bij DPG Media bouwde deze kandidaat authenticatie- en betalingssystemen voor Streamz en VTM GO op AWS met dagelijkse CI/CD-deployments. Eerder bij Uitgeverij Van In nam deze kandidaat de rol van tech lead op zich.\n\nDeze combinatie van bewezen ownership, cloud-expertise en brede stack maakt dit een profiel dat snel waarde toevoegt. Mogen we hier een korte call over inplannen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 32,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 6 jaar Java-ervaring met microservices, Kafka, CQRS/event sourcing en cloud bij Johnson & Johnson en DPG Media.",
+        "check": "e6",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Software Engineering wil ik u graag een sterk profiel voorstellen — werkt u daarvoor open voor externe consultants?\n\nDeze kandidaat heeft 6 jaar gerichte Java-ervaring met Spring Boot, Kafka, CQRS/event sourcing (Axon), PostgreSQL en cloud (AWS/GCP), aangevuld met Terraform en Jenkins voor infrastructuur en CI/CD. Bij Johnson & Johnson leidde deze kandidaat mee de migratie van 25 microservices en 30 gedeelde libraries van Java 11 naar 21 en van Spring Boot 2 naar 3 — een traject dat schaal, discipline en technische diepgang vereist. Bij DPG Media werkte deze kandidaat aan hoge-volume publishing-platformen voor bekende mediamerken. De kandidaat is sterk in testdiscipline (JUnit, Mockito) en leesbare, onderhoudbare code. Een solide profiel voor een technisch veeleisende omgeving als Dell. Zouden we dit kort kunnen bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 70,
+        "reason": "Deze kandidaat combineert 7 jaar Java-ervaring met volledige CI/CD-setup, Docker, Linux en SaaS-architectuur als co-founder en interim teamlead.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/pages/technical-support": {
+    "title": "Tech Support",
+    "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/pages/technical-support",
+    "company": "DELL",
+    "source": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers",
+    "first_seen": "2026-08-17",
+    "snippet": "Technical Support",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 62,
+        "reason": "Deze kandidaat heeft brede technische support- en netwerkervaring met concrete hands-on interventies bij grote infrastructuurprojecten.",
+        "check": "k28"
+      }
+    ]
+  },
+  "https://www.discorp.be/nl_NL/page/209/vacature-av-en-ict-engineer/": {
+    "title": "AV & ICT Engineer",
+    "url": "https://www.discorp.be/nl_NL/page/209/vacature-av-en-ict-engineer/",
+    "company": "DISCORP",
+    "source": "https://www.discorp.be/nl_NL/page/157/jobs/",
+    "first_seen": "2026-08-17",
+    "snippet": "Vacature AV en ICT Engineer - Discorp Uw partner in ICT Hardware & Services Nieuws Vacatures Contact NL Engels (EN) Frans (FR) Nederlands (NL) Inloggen Assortiment Hardware Systemen Desktopcomputers & Werkstations Desktopcomputers Barebone Systemen Thin Clients Verkooppunt Computers Kiosken Notebooks en Accessoires Notebooks Mobiele Werkstations Netbooks Thin Client-Notebooks Notebook-Docking Stations Notebook Draagtassen Notebook Batterijen Stroomadapters/Opladers voor Notebook Toebehoren voor notebook & tablet Tablets en eBook readers Tablets en Handhelds Servers Towerservers Rackservers x86 Servers Traffic Balancers & Optimizers Clustersystemen Kassa-apparatuur POS-Monitoren POS-Ontvangstprinters Geldlades Papierrollen voor kassabonnen Schermen & Projectoren Monitoren Digital signage-borden Monitoraccessoires Computermonitoren Schermen met groot formaat LCD/LED-schermen met groot formaat Projectoren LCD-Projectoren Projectorschermen Projectoraccessoires Projectorbevestigingen Projectielampen DLP-Projectoren Printers & Scanners Printers Inkjet- printers Kleurenlaserprinters Monochrome Laserprinters Fotoprinters Thermische Printers Matrixprinters Multifunctionele Printers 3D-print",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "sales@discorp.be"
+    },
+    "ai_matches": [
+      {
+        "row": 33,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 8 jaar hands-on netwerk- en systeemervaring met Cisco, Checkpoint, Palo Alto, F5 en Infoblox, relevant voor AV/ICT-infrastructuurrollen.",
+        "check": "l8",
+        "pitch": "Beste,\n\nIk las uw vacature voor een AV & ICT Engineer bij DISCORP en vroeg me af of u ook samenwerkt met externe consultants voor deze positie.\n\nDeze kandidaat heeft 8 jaar diepgaande ervaring als Network/System Engineer, waaronder een langdurig traject bij KBC Group waar hij datacenterinfrastructuur beheerde: Cisco-netwerken, Checkpoint- en Palo Alto-firewalls, F5 load balancing, DNS/DHCP-beheer via Infoblox en monitoring met Kibana. Dit sluit nauw aan bij de ICT-hardware en netwerkcomponent van uw vacature.\n\nWat deze kandidaat onderscheidt, is zijn combinatie van technische diepgang én coaching-vaardigheden — hij mentorde collega's en leidde onboarding-trajecten. Als DISCORP zich richt op ICT hardware & services, brengt deze kandidaat zowel de infrastructuurkennis als de klantgerichte aanpak mee.\n\nMag ik u bellen voor een kort gesprek van 15 minuten om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 36,
+        "score": 55,
+        "reason": "Deze kandidaat heeft brede full-stack en technisch leiderschapservaring, maar mist specifieke AV-technologie- of hardware-gerelateerde achtergrond.",
+        "check": "a6"
+      },
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Deze kandidaat heeft relevante hardware-gerelateerde ervaring via Barco (projectors) en brede ICT-kennis, maar profiel is primair softwareontwikkeling.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://jobs.ploegsteert.com/careers/job/64086": {
+    "title": "DATA ENGINEER (MS FABRIC) Contract van onbepaalde duur Comines-Warneton, België",
+    "url": "https://jobs.ploegsteert.com/careers/job/64086",
+    "company": "DOUTERLOIGNE BETON",
+    "source": "https://jobs.ploegsteert.com/careers/searchjobs?scrollTo=jobs-zone",
+    "first_seen": "2026-08-17",
+    "snippet": "Ploegsteert Group â Jobs",
+    "stack": [
+      "MS Fabric"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 88,
+        "reason": "Deze kandidaat heeft directe, bewezen Microsoft Fabric-ervaring en 5 Microsoft-certificeringen inclusief Azure Data Engineer, met relevante achtergrond in ADF, Databricks en Power BI.",
+        "check": "b7",
+        "pitch": "Beste,\n\nWerkt u samen met externe IT-consultants voor uw datateam? Naar aanleiding van uw vacature voor een Data Engineer met Microsoft Fabric-expertise bij Douterloigne Beton wil ik u graag een uitzonderlijk profiel voorstellen.\n\nDeze kandidaat heeft 7 jaar hands-on Azure data engineering ervaring bij Inimco, met bewezen werk in Microsoft Fabric, Azure Data Factory, Databricks en Power BI — exact de technologieën die u zoekt. De combinatie van scalable ETL-pipelines, SSAS-modellen en Databricks voor grote datavolumes sluit nauw aan bij de noden van een industriële omgeving zoals de uwe. Bovendien beschikt deze kandidaat over maar liefst 5 Microsoft-certificeringen, waaronder Azure Data Engineer Associate en Enterprise Data Analyst, wat een sterk signaal is van technische diepgang.\n\nGraag stel ik voor om kort te bellen om te bekijken of er een match is. Wanneer past het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 78,
+        "reason": "Deze kandidaat bouwde een volledig Azure data platform met medallion-architectuur, ADF, Databricks en Terraform — sterk aansluitend bij de gevraagde MS Fabric-stack.",
+        "check": "w20",
+        "pitch": "Beste,\n\nWerkt u samen met externe IT-profielen voor uw datateam? Naar aanleiding van uw vacature bij Douterloigne Beton wil ik u graag een senior data platform architect voorstellen met meer dan 20 jaar relevante ervaring.\n\nDeze kandidaat ontwierp en bouwde from scratch een volledig Azure data platform bij Materialise — medallion-architectuur, Azure Data Factory, ADLS Gen2, Databricks/Spark, IoT-ingestie en Terraform IaC. Aanvullend droeg deze kandidaat bij als CTO bij een tech-startup waar ook Power BI-rapportering en DWH-ontwerp centraal stonden. De achtergrond in 3D-printing en manufacturing is bovendien een directe link met de industrie van Douterloigne Beton.\n\nIk bespreek graag in een kort gesprek hoe deze kandidaat uw datateam kan versterken. Wanneer heeft u een moment?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 75,
+        "reason": "Deze kandidaat heeft diepgaande Databricks, dbt en Azure Data Factory ervaring en leidde een data-platform architectuurrol bij een grote consultancy met bewezen MS-stack.",
+        "check": "w7",
+        "pitch": "Beste,\n\nWerkt u samen met externe consultants voor uw datateam? Voor uw vacature als Data Engineer bij Douterloigne Beton heb ik een sterk profiel dat ik u graag wil voorstellen.\n\nDeze kandidaat werkt momenteel als Track Lead bij delaware BeLux, waar hij/zij een multi-source data platform architectureel leidt met Databricks, dbt, Azure Data Factory en PySpark — allemaal technologieën die nauw aansluiten bij Microsoft Fabric. Als Databricks Certified Data Engineer Associate én Champion-nominatie combineert deze kandidaat technische diepgang met leiderschapservaring over 12 mensen en internationale teams. De achtergrond in ETL-ontwerp, SQL-optimalisatie en CI/CD maakt deze kandidaat direct inzetbaar in een productiegerichte dataomgeving.\n\nMag ik u bellen voor een korte kennismaking om de fit te bespreken?\n\nMet vriendelijke groeten,"
       }
     ]
   }
