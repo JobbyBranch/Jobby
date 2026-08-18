@@ -1,5 +1,735 @@
 [
   {
+    "title": "C++ developer (M/F)",
+    "url": "https://www.davidson.group/nos-offres/developpeur-c-h-f",
+    "company": "DAVIDSON BELGIUM",
+    "source": "https://www.davidson.group/nos-offres",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "C++",
+      "Git",
+      "Maven",
+      "Jenkins",
+      "Ansible",
+      "Puppet"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen Java-ervaring met multithreading (EV-laadbalancering), CI/CD (Jenkins, Docker) en TDD-praktijken in productieomgevingen.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een C++ developer bij Davidson Belgium. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft 7 jaar ervaring als software engineer met een sterk profiel in systeemnabije ontwikkeling. Bij Enovates werkte deze kandidaat aan embedded Java voor EV-laders, met een gedistribueerd load-balancing algoritme en implementatie van het OCPP 2.01-protocol — dit vereist exact het soort algoritmische complexiteit en multi-threading-inzicht dat Davidson zoekt. Bij NSX werd een volledige CI/CD-pipeline opgezet met Jenkins en Docker, en werden interne technische seminars gegeven — een duidelijk signaal van eigenaarschap en kennisdeling.\n\nDeze kandidaat beheerst Git, Jenkins en TDD in de praktijk, en heeft aantoonbare ervaring met low-level systeemarchitectuur. Een boeiend profiel voor een technisch uitdagende C++-missie.\n\nGraag stel ik deze kandidaat voor in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 56,
+        "score": 58,
+        "reason": "Deze kandidaat heeft diepgaande Ansible- en CI/CD-ervaring, maar mist concrete C++-ontwikkelervaring die de vacature centraal stelt.",
+        "check": "a8"
+      },
+      {
+        "row": 65,
+        "score": 42,
+        "reason": "Deze kandidaat heeft Ansible- en Puppet-ervaring relevant voor geautomatiseerd testen, maar heeft geen C++ of applicatieontwikkelingsachtergrond.",
+        "check": "g29"
+      }
+    ]
+  },
+  {
+    "title": "OT Applications & Data Engineer – Industrial IT / AVEVA PI & Alarm Management",
+    "url": "https://careers.agsolutiongroup.com/jobs/7944532-ot-applications-data-engineer-industrial-it-aveva-pi-alarm-management",
+    "company": "AG SOLUTION",
+    "source": "https://careers.agsolutiongroup.com/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "AVEVA PI",
+      "OPC UA",
+      "OPC A&E",
+      "DCS",
+      "PLC",
+      "SCADA",
+      "Honeywell Alarm Management"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 62,
+        "reason": "Deze kandidaat heeft IoT/telemetrie-data-engineering op Azure gedaan met Grafana-dashboards en time-series migratie, aangrenzend aan OT-datastromen.",
+        "check": "b7"
+      },
+      {
+        "row": 70,
+        "score": 52,
+        "reason": "Deze kandidaat bouwde een IoT-ingestiepipeline op Azure met Databricks en werkte als platform-architect in manufacturing bij Materialise.",
+        "check": "w20"
+      },
+      {
+        "row": 38,
+        "score": 38,
+        "reason": "Deze kandidaat heeft Kafka-streaming en supply-chain-pipelines bij Nike gebouwd, maar geen OT/SCADA, AVEVA PI of alarmmanagement-ervaring.",
+        "check": "b17"
+      }
+    ]
+  },
+  {
+    "title": "Senior Developer Full Stack (a) 80-100%",
+    "url": "https://jobs.axonlab.com/Senior-Developer-Full-Stack-a-80-100-de-j410.html",
+    "company": "AXON LAB",
+    "source": "https://jobs.axonlab.com/de",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "java",
+      "angular"
+    ],
+    "ai_matches": [
+      {
+        "row": 50,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 12 jaar Java/Spring Boot én Angular-ervaring, inclusief healthcare-domein (sociale huisvesting) en telecom.",
+        "check": "j12",
+        "pitch": "Beste,\n\nVoor uw vacature van Senior Developer Full Stack bij Axon Lab vroeg ik me af of u samenwerkt met externe consultants. Ik heb een profiel dat naadloos aansluit.\n\nDeze kandidaat brengt 12 jaar solide Java-ervaring mee, met Spring Boot van versie 8 tot 17, Hibernate en Angular — exact de stack die Axon Lab zoekt. Bij Telenet leidde deze kandidaat jarenlang complexe backend-diensten (provisioning, diagnostics, rule engines) én bouwde frontend-componenten in Angular en React. Het huidige project in de sociale huisvestingssector toont bovendien affiniteit met het healthcare- en maatschappelijke domein dat Axon Lab kenmerkt.\n\nDe combinatie van diepgaande Java-kennis, Angular-frontend en bewezen eigenaarschap over kritieke systemen maakt van deze kandidaat een sterke senior kandidaat voor uw team.\n\nZou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 8 jaar Java/Spring Boot backend met technisch leiderschap én healthcare-achtergrond bij Inetum/Realdolmen.",
+        "check": "c8",
+        "pitch": "Beste,\n\nWanneer ik uw vacature voor Senior Developer Full Stack lees, denk ik meteen aan een profiel dat wij in portefeuille hebben — graag check ik of u werkt met externe consultants.\n\nDeze kandidaat heeft 8 jaar Java/Spring Boot/Hibernate-ervaring, aangevuld met Angular en Docker/Kubernetes. Wat deze kandidaat onderscheidt: een bewezen trackrecord als technisch lead bij Belgische overheids- en gezondheidszorgprojecten (Fedasil, Fedris) — een domein dat sterk lijkt op Axon Labs healthcare-focus. Bij Twikey toonde deze kandidaat de eigenverantwoordelijkheid en architecturale scherpte die u zoekt: volledige redesign van kritieke integraties en ISO-gevalideerde SEPA-implementaties.\n\nMentoring, CPSA-certificering en DDD/CQRS-kennis versterken het senioriteitsprofiel verder.\n\nZin om deze kandidaat kort te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 10,
+        "score": 72,
+        "reason": "Deze kandidaat combineert Java/Spring Boot, Angular en TDD in productie op zorgplatformen voor de Vlaamse overheid.",
+        "check": "k4"
+      }
+    ]
+  },
+  {
+    "title": "Integratie Developer",
+    "url": "https://dotsandarrows.eu/careers/integratie-developer/",
+    "company": "Dots & Arrows",
+    "source": "https://dotsandarrows.eu/careers/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "MuleSoft",
+      "n8n",
+      "Agentforce",
+      "REST",
+      "SOAP",
+      "GraphQL",
+      "XML",
+      "JSON",
+      "CSV",
+      "Postman"
+    ],
+    "experience": "Medior level",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 5,
+        "score": 78,
+        "reason": "Deze kandidaat heeft aantoonbare MuleSoft-ervaring én werkt dagelijks met REST/XML/JSON-integraties in een zakelijke context.",
+        "check": "l5",
+        "pitch": "Beste,\n\nWe zijn op de hoogte van de openstaande vacature voor een Integratie Developer bij Dots & Arrows. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWe hebben een sterke medior kandidaat die naadloos aansluit op uw noden. Deze kandidaat heeft concrete hands-on ervaring met MuleSoft én Dell Boomi, en werkt dagelijks met REST-integraties, XML en JSON in productieomgevingen bij IQVIA — een internationale speler in pharma & life sciences. Azure DevOps voor CI/CD-pipelines is eveneens vertrouwd terrein. De brede .NET- en Angular-achtergrond maakt communicatie met development-teams eenvoudig, terwijl de integratiefocus perfect aansluit bij uw implementatie- en co-deliverydiensten.\n\nGezien uw samenwerking met klanten als SAP- en Salesforce-gebruikers is deze kandidaat snel inzetbaar op typische projectscenario's binnen uw portfolio.\n\nGraag plan ik een kort kennismakingsgesprek in om de match verder te bespreken.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 59,
+        "score": 62,
+        "reason": "Deze kandidaat realiseerde een mission-critical integratiebrug tussen Infrabel en NMBS met enterprise messaging en versie-agnostische API-lagen.",
+        "check": "k19"
+      },
+      {
+        "row": 40,
+        "score": 42,
+        "reason": "Deze kandidaat heeft SOAP/REST-integratie-ervaring via Dynamics 365 en Azure Service Bus, maar mist ervaring met integratieplatformen zoals MuleSoft of low-code tooling.",
+        "check": "d8"
+      }
+    ]
+  },
+  {
+    "title": "Telecom & IT Technician m/v/x",
+    "url": "https://jobs.elektromic.be/vacatures/telecom-it-technician-mvx-elektromic-geel-elektromic-herentals",
+    "company": "ELEKTROMIC",
+    "source": "https://jobs.elektromic.be/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "Windows",
+      "Android",
+      "MacOS",
+      "Linux"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "vacatures@elektromic.be"
+    },
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 38,
+        "reason": "Deze kandidaat heeft telecom-achtergrond bij Telenet/Proximus maar puur cloud/platform-engineering, geen hardware-reparatie of klantadvies voor consumentenelektronica.",
+        "check": "j8"
+      },
+      {
+        "row": 0,
+        "score": 22,
+        "reason": "Deze kandidaat is een Java/SaaS-softwareontwikkelaar zonder enige ervaring in hardware-onderhoud of reparatie van telecom- en IT-toestellen.",
+        "check": "l7"
+      },
+      {
+        "row": 7,
+        "score": 18,
+        "reason": "Deze kandidaat werkt uitsluitend in cloud- en DevOps-engineering op Azure en heeft geen link met hardware-reparatie of consumentenelektronica.",
+        "check": "j6"
+      }
+    ]
+  },
+  {
+    "title": "ICT Project & Teamlead (M/V/X)",
+    "url": "https://www.easykit.be/vacatures/ict-project-teamlead-m-v-x/",
+    "company": "EASYKIT OOST",
+    "source": "https://www.easykit.be/jobs/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "Microsoft 365",
+      "PowerBI",
+      "Active Directory",
+      "Exchange",
+      "Azure",
+      "PowerShell",
+      "Python",
+      "Business Central"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 85,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 24 jaar IT-infrastructuurervaring met projectleiding, teamaansturing en hands-on technische uitvoering in KMO- en overheidscontexten.",
+        "check": "k24",
+        "pitch": "Beste,\n\nVia deze weg contacteer ik u naar aanleiding van uw vacature voor een ICT Project & Teamlead. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat beschikt over 24 jaar brede IT-ervaring, gecombineerd met sterke projectmanagement- en leiderschapsvaardigheden — exact de mix die Easykit zoekt. Als freelance infrastructuur-projectlead begeleidde deze kandidaat uiteenlopende digitaliseringsprojecten bij onder meer een advocatenkantoor (security hardening, mailmigratie), gemeenten en politiezones (datacenterrelocaties, disaster recovery) en Argenta (server- en werkplekmigraties). De combinatie van hands-on uitvoering én strategische aansturing van externe service providers sluit nauw aan bij uw verwachtingen. Ervaring met Active Directory, cloudmigraties (AWS, Azure), netwerken en security hardening zijn aantoonbaar aanwezig. Daarnaast is deze kandidaat gecertificeerd ISO 27001 en ITIL, wat de bewaking van IT-beleid en procedures versterkt.\n\nGraag plan ik een kort gesprek in om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 86,
+        "score": 75,
+        "reason": "Deze kandidaat heeft bewezen ervaring met ERP (Business Central/D365), digitalisatieprojecten en teamleiding in een KMO- en scale-up-context.",
+        "check": "m15",
+        "pitch": "Beste,\n\nIk neem contact met u op naar aanleiding van uw vacature voor een ICT Project & Teamlead bij Easykit. Werkt u voor dergelijke rollen ook met externe consultants?\n\nDeze kandidaat heeft 15 jaar ervaring in IT-programmamanagement en producteigenaarschap, met een uitgesproken focus op Microsoft-ecosystemen — waaronder Business Central, Power Platform en Azure. Bij 9altitudes leidde deze kandidaat internationale AI- en digitale transformatieprogramma's op Business Central en D365, wat rechtstreeks aansluit bij uw ERP-beheer en digitaliseringsambities (CRM, calculatietools, webshop). De KMO-context is vertrouwd: bij Stroohm (KMO van het Jaar) vervulde deze kandidaat de rol van IT EMEA SaaS-manager. Sterktes als strategisch inzicht, budgetbeheer, stakeholdermanagement en teamcoaching zijn concreet aantoonbaar. De kennis van Power BI is een extra troef voor uw rapporteringsbehoeften.\n\nGraag stel ik voor om kort samen te bellen over de mogelijkheden.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 12,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare KMO-IT-ervaring met automatisatie, Power BI, Azure en scripting, maar mist expliciete teamaansturing.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "IT Support medewerker - regio Antwerpen",
+    "url": "https://artesgroup.be/vacatures/393025",
+    "company": "Artes Prefab",
+    "source": "https://artesgroup.be/werken-bij/vacatures",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "Microsoft 365",
+      "Endpoint Manager",
+      "Intune",
+      "Security",
+      "Identity",
+      "Sharepoint",
+      "Aruba Central"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 78,
+        "reason": "Deze kandidaat heeft aantoonbare Aruba-ervaring (HPE Aruba EdgeConnect SD-WAN) en brede Microsoft/netwerk-supportervaring over honderden sites.",
+        "check": "k28",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor IT Support medewerker in de regio Antwerpen — werkt u ook met externe consultants voor dergelijke profielen?\n\nIk heb een sterke kandidaat beschikbaar met ruime ervaring in precies de technologieën die u zoekt. Deze kandidaat heeft recentelijk als network support engineer gewerkt bij een grote nutsmaatschappij, waar hij dagelijks instond voor monitoring en interventies over LAN/WAN/security en WiFi. Wat deze kandidaat extra relevant maakt: hij leidde een SD-WAN rollout op basis van HPE Aruba EdgeConnect — hetzelfde Aruba-platform dat u vermeldt — over zo'n 280 productiesites. Daarnaast heeft hij ervaring met Intune, SCCM, VoIP en uitgebreide netwerk-documentatie.\n\nMet zijn hands-on mentaliteit, communicatieve stijl en documentatiegedreven aanpak sluit dit profiel nauw aan bij wat deze kandidaates Group zoekt.\n\nGraag vertel ik u meer in een kort telefonisch gesprek — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 51,
+        "score": 62,
+        "reason": "Deze kandidaat heeft diepgaande Microsoft-infrastructuurervaring inclusief Intune/SCCM, Entra ID en security, maar profiel is architect-niveau eerder dan operationele IT support.",
+        "check": "k20"
+      },
+      {
+        "row": 45,
+        "score": 36,
+        "reason": "Deze kandidaat heeft ISO 27001 en Microsoft 365-achtergrond, maar het CTO/strategisch profiel sluit niet aan bij een hands-on IT support rol.",
+        "check": "d12"
+      }
+    ]
+  },
+  {
+    "title": "Data and analytics",
+    "url": "https://www.ericsson.com/en/careers/data-and-analytics",
+    "company": "ERICSSON",
+    "source": "https://www.ericsson.com/en/careers",
+    "first_seen": "2026-08-18",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "contact": {
+      "name": null,
+      "email": "hr.direct.americas@ericsson.com"
+    },
+    "ai_matches": [
+      {
+        "row": 90,
+        "score": 82,
+        "reason": "Deze kandidaat combineert 14 jaar data platform engineering met bewezen Databricks Lakehouse, Kafka, dbt en AI/ML-ervaring bij Nike en J&J.",
+        "check": "n14",
+        "pitch": "Beste,\n\nEricsson is actief op zoek naar data & analytics talent — werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat brengt 14 jaar diepgaande ervaring mee in data platform engineering, met een uitzonderlijk sterk profiel: als Principal Software Engineer bij Nike (Supply Chain & Planning) leidde deze kandidaat de modernisering naar een unified Databricks Lakehouse — exact de stack die Ericsson hanteert. Bij Johnson & Johnson (11 jaar) was deze kandidaat platform engineering lead op Snowflake, dbt, Airflow, Kafka en AWS/Terraform, met eigenaarschap over architectuur, roadmap en datakwaliteit in een complexe EMEA-omgeving.\n\nWat deze kandidaat onderscheidt: bewezen vermogen om technische standaarden te zetten, teams te enablen én agentic AI-oplossingen te leveren. Telecom staat expliciet vermeld als domein in het profiel.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 38,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 17 jaar ervaring met Databricks, Kafka, Snowflake en CI/CD, inclusief architect-rol bij Cognizant en productiewerk bij Nike.",
+        "check": "b17",
+        "pitch": "Beste,\n\nWe begrijpen dat Ericsson op zoek is naar sterk data & analytics talent — werkt u hierbij ook met externe consultants?\n\nDeze kandidaat beschikt over 17 jaar ervaring in data engineering, met een bijzonder relevant profiel: als data-architect bij Cognizant leidde deze kandidaat een Snowflake-migratie met volwaardige data governance en lineage-controles. Bij Nike ontwerpt en beheert deze kandidaat momenteel Databricks/PySpark-pipelines voor supply chain en commerciële data, inclusief Kafka-streaming, CI/CD, observability via Splunk en mentoring op datakwaliteit.\n\nDe combinatie van architecturale seniority, operationele scherpte en DataOps-mentaliteit maakt dit een profiel dat direct waarde kan leveren in een complexe, schaalbare omgeving zoals Ericsson.\n\nKan ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 75,
+        "reason": "Deze kandidaat bouwde een volledig Azure Databricks-platform from scratch bij Materialise en droeg bij aan telecominfrastructuur via zijn domeinervaring.",
+        "check": "w20",
+        "pitch": "Beste,\n\nEricsson zoekt data & analytics expertise — staat u open voor externe consultants die direct inzetbaar zijn?\n\nDeze kandidaat heeft 20 jaar brede technische ervaring, waarvan een sterk relevant traject bij Materialise: van scratch een medallion data platform gebouwd op Azure (ADF, ADLS Gen2, Databricks/Spark, IoT-ingestie, ML-integratie, Terraform IaC) — een architectuur die naadloos aansluit bij de platformambities van Ericsson. Als platform & integratie architect voor een SaaS-product werden event-driven microservices op AWS beheerd, en als CTO bij een startup werd de volledige technische stack inclusief data warehouse en Power BI eigenhandig opgezet.\n\nTelecom staat expliciet vermeld als ervaringsdomein. Deze kandidaat is beschikbaar als freelancer en combineert hands-on engineering met architecturaal eigenaarschap.\n\nGraag plan ik een kort gesprek in.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Software Engineer C++ (Rotselaar)",
+    "url": "https://www.engilico.com/careers-software-engineer-c/",
+    "company": "Engilico Engineering Solutions",
+    "source": "https://www.engilico.com/careers/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "C++",
+      "LabView",
+      "C#",
+      "MQTT",
+      "OPC-CA",
+      "SQLite",
+      "Node.js"
+    ],
+    "experience": "3-5 yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "careers@engilico.com"
+    },
+    "ai_matches": [
+      {
+        "row": 35,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare C#/.NET-ervaring, MQTT/Kafka-exposure én industriële IoT-opleiding bij KU Leuven, relevant voor een Industry 4.0 meetplatform.",
+        "check": "k14",
+        "pitch": "Beste,\n\nIk las uw vacature voor een C++ Software Engineer bij Engilico in Rotselaar met interesse. Werkt u ook met externe consultants voor deze positie?\n\nDeze kandidaat heeft 14 jaar ervaring in industriële en embedded software, met een sterke achtergrond in C#/.NET, WPF/WinForms desktop applicaties en messaging-protocollen zoals MQTT en Kafka — exact de technologieën die uw Industry 4.0-platform vereist. Bovendien volgde deze kandidaat een postgraduaat Industrial IoT aan KU Leuven, wat naadloos aansluit bij uw sensorintegraties en dataverwerkingsbehoeften. Bij EDPnet leidde deze kandidaat een re-architectuur van legacy software naar een schaalbare enterprise-opstelling, inclusief REST API-ontwikkeling en gestructureerd testbeheer — vergelijkbaar met uw next-generation meetplatform.\n\nIk zou graag even bellen om te bespreken of dit profiel past binnen uw team. Bent u volgende week beschikbaar voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 1,
+        "score": 78,
+        "reason": "Deze kandidaat heeft concrete C++-ervaring bij Nasdaq en Nuance in timeseries-analyse en spraakherkenning, aangevuld met brede embedded en data-expertise.",
+        "check": "w11",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een C++ Software Engineer bij Engilico wil ik u graag een sterk profiel voorstellen. Werkt u open voor externe consultants?\n\nDeze kandidaat heeft 11 jaar ervaring, waaronder concrete C++-projecten bij Nasdaq Sydney (timeseries-analyse) en Nuance (C++ spraakherkenning automotive) — domeinen die qua precisie en performance vergelijkbaar zijn met uw meetinspectiesystemen. Aanvullend bouwde deze kandidaat AWS data lakes met timeseries- en geospatiale data, wat aansluit bij uw dataverwerkings- en visualisatievereisten. De combinatie van embedded systeemkennis, data-engineering en brede taalbeheersing (Python, Node.js, Go) maakt dit een veelzijdig profiel voor uw Industry 4.0-platform.\n\nMag ik u volgende week even bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 77,
+        "score": 58,
+        "reason": "Deze kandidaat heeft C# en backend microservices-ervaring inclusief IoT-raakvlakken, maar mist concrete C++-ervaring voor industriële meetsystemen.",
+        "check": "k5"
+      }
+    ]
+  },
+  {
+    "title": "AI-Empowered .NET Developer",
+    "url": "https://www.euri.com/jobs/ai-empowered-net-developer",
+    "company": "Euricom",
+    "source": "https://www.euri.com/werken-bij-euricom",
+    "first_seen": "2026-08-18",
+    "stack": [
+      ".NET",
+      "C#",
+      "Angular",
+      "React",
+      "Vue",
+      "Blazor"
+    ],
+    "experience": "2-5 yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Mayte",
+      "email": "careers@euri.com"
+    },
+    "ai_matches": [
+      {
+        "row": 14,
+        "score": 88,
+        "reason": "Deze kandidaat combineert 26 jaar .NET/C#, Angular én React met actieve AI-exploratie (MCP, RAG, LLMs) en sterke mentorrol.",
+        "check": "i26",
+        "pitch": "Beste,\n\nIk neem contact met u op naar aanleiding van uw vacature voor een AI-Empowered .NET Developer bij Euricom. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft 26 jaar hands-on .NET-ervaring — van .NET Framework tot .NET 10 — gecombineerd met Angular (versie 2 t/m 19) en React. Precies de stack waar Euricom op inzet. Wat deze kandidaat écht onderscheidt, is de actieve betrokkenheid bij AI: MCP, RAG, lokale LLMs en dagelijks gebruik van Claude en GitHub Copilot. Dat is exact de mindset die uw AI-Empowered Bootcamp vereist.\n\nBovendien is deze kandidaat een bewezen mentor die juniors en stagiairs begeleidt, en een vaste bezoeker van conferenties zoals DDD Europe en GOTO — een signaal van blijven-leren-cultuur dat naadloos aansluit bij de Euricom-waarden.\n\nMag ik u bellen voor een kort gesprek om dit concreter te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 79,
+        "reason": "Deze kandidaat heeft 8 jaar Angular/.NET-ervaring met aantoonbare AI-werkflows (Copilot, Claude) en CQRS/DDD-achtergrond.",
+        "check": "e8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een AI-Empowered .NET Developer bij Euricom contacteer ik u graag — werkt u ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar bewezen ervaring in precies de combinatie die Euricom zoekt: .NET/C# op de backend én Angular (met NgRx, Nx, module federation) op de frontend. De consultancyachtergrond via projecten bij Realdolmen (o.a. PwC, CEN CENELEC) en recent werk bij Wit-Gele Kruis en Solidaris toont brede inzetbaarheid in enterprise-omgevingen.\n\nBelangrijk voor uw bootcamp: deze kandidaat werkt al actief met AI-ondersteunde workflows via GitHub Copilot en Claude, en hanteert CQRS/event sourcing en DDD — een stevige basis om snel door te groeien naar AI-empowered development.\n\nKwaliteitsgedreven, testobsessief en klaar voor de volgende stap. Heeft u even tijd voor een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 76,
+        "reason": "Deze kandidaat bouwde Blazor-applicaties, leidt intern leertrajecten over React en lokale LLMs, met 4 jaar full-stack .NET-ervaring.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor een AI-Empowered .NET Developer bij Euricom. Werkt u regelmatig met externe IT-consultants?\n\nDeze kandidaat heeft in 4 jaar een indrukwekkende full-stack .NET-carrière uitgebouwd: C#, ASP.NET Core, Azure Functions, Blazor én Angular/React. Bij BrainSolutions architectureerde deze kandidaat een modulair Azure-integratieframework en werkt aan beveiligde systemen voor juridische omgevingen — een blijk van serieuze ownership.\n\nWat bijzonder relevant is voor uw bootcamp: deze kandidaat leidt intern leertrajecten over React, Electron én lokale LLMs, en heeft hands-on ervaring met RPA en Power Platform. De nieuwsgierigheid naar AI is dus geen buzzword, maar aantoonbaar gedrag.\n\nCombineer dat met Blazor 3D-configurators gebouwd met Unity WebGL en een Linux-first DevOps-aanpak, en u heeft een profiel dat klaar is om AI-pionier te worden.\n\nZin in een kort gesprek?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Junior IT Analyst – Data & AI",
+    "url": "https://floreac.com/nl/vacatures/vacatures-junior-it-analyst-data-ai/",
+    "company": "FLOREAC",
+    "source": "https://floreac.com/nl/vacatures/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "Excel",
+      "Power BI",
+      "SQL",
+      "Python",
+      "CRM",
+      "ERP",
+      "AI"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "personeelsdienst@floreac.com"
+    },
+    "ai_matches": [
+      {
+        "row": 79,
+        "score": 72,
+        "reason": "Deze kandidaat combineert functionele analyse, SQL, Power BI en agentic AI-ervaring met sterke affiniteit voor data- en bedrijfsprocessen.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk nam uw vacature voor Junior IT Analyst – Data & AI bij Floréac door en vroeg me af of u ook samenwerkt met externe consultants voor deze rol.\n\nDeze kandidaat is een Senior Functional Analyst met bewezen ervaring in data-analyticsplatformen, SQL-gebaseerde functionele specs, Power BI en — heel relevant — agentic AI (inclusief Anthropic Claude-certificaten 2026). Bij KBC werkte deze kandidaat op een AWS-gebaseerd data-analyticsplatform voor cross-systeem-integraties; bij Acerta op ETL-integraties en webapplicaties voor complexe bedrijfsprocessen. Dit sluit nauw aan bij wat Floréac zoekt: iemand die de brug vormt tussen business, data en technologie, en mee kan denken over CRM-, ERP- en AI-toepassingen.\n\nDe combinatie van functionele analyse, BPMN-proceskennis, SQL en praktische AI-interesse maakt deze kandidaat direct inzetbaar in uw digitaliseringsprojecten.\n\nKan ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 8,
+        "score": 58,
+        "reason": "Deze kandidaat heeft concrete CRM-ervaring (Salesforce) en functionele analyse, relevant voor de applicatie- en integratietaken bij Floréac.",
+        "check": "k8"
+      },
+      {
+        "row": 10,
+        "score": 36,
+        "reason": "Deze kandidaat is een full-stack Java-ontwikkelaar zonder aantoonbare data-, BI- of AI-focus die de vacature vereist.",
+        "check": "k4"
+      }
+    ]
+  },
+  {
+    "title": "Full Stack .NET Developer met 360°-expertise",
+    "url": "https://www.euri.com/jobs/dotnet-developer",
+    "company": "Euricom",
+    "source": "https://www.euri.com/werken-bij-euricom",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "C#",
+      ".NET",
+      "Angular",
+      "React",
+      "Vue",
+      "Blazor",
+      "MS SQL",
+      "Entity Framework",
+      "xUnit",
+      "REST API"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Mayte",
+      "email": "careers@euri.com"
+    },
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 88,
+        "reason": "Deze kandidaat combineert C#/.NET, CQRS/DDD, Azure, Blazor, Angular én React met 4 jaar aantoonbare full-stack projectervaring.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie vacature voor een Full Stack .NET Developer bij Euricom. Werken jullie ook met externe consultants?\n\nIk heb een sterke kandidaat die naadloos aansluit op wat Euricom zoekt. Deze kandidaat werkt dagelijks met C#, .NET, Azure, Entity Framework en SQL — en brengt dat samen met concrete frontend-ervaring in Angular, Blazor én React. CQRS, DDD en MediatR zijn geen theorie maar dagelijkse praktijk.\n\nBij BrainSolutions architectureerde deze kandidaat eigenhandig een modulair Azure-integratieframework voor gevoelige juridische processen — inclusief security en auditabiliteit. Eerder bij Cloudware werden twee Blazor 3D-configuratoren met real-time validatie en Unity WebGL opgeleverd. Clean code, CI/CD, Linux-first en interne kennisdeling ronden het profiel af.\n\nMag ik een kort gesprek inplannen om te bekijken of dit een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 8 jaar .NET + Angular consultancy-ervaring met CQRS, DDD, Azure en bewezen kwaliteitsdiscipline via Cypress, Jest en NUnit.",
+        "check": "e8",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een Full Stack .NET Developer bij Euricom contacteer ik jullie graag. Werken jullie open voor externe profielen?\n\nDeze kandidaat is een kwaliteitsgedreven .NET + Angular consultant met 8 jaar ervaring in multiproject-omgevingen — van PwC en Solidaris tot Wit-Gele Kruis. De combinatie van Angular (NgRx, Nx, module federation), .NET backend (CQRS, event sourcing, DDD) en een sterke testcultuur (Jest, Cypress, NUnit) sluit perfect aan op het Euricom-profiel.\n\nDaarnaast werkt deze kandidaat actief met Azure, Docker en AI-assisted workflows (Copilot, Claude) — en draagt TDD en clean architecture hoog in het vaandel. Dat 'ja, als'-mentaliteit en de brede consultancy-achtergrond maken van deze kandidaat een echte Euricommer in de dop.\n\nZin om dit even te bespreken in een kort belletje?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 14,
+        "score": 79,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring als team lead met Angular t/m versie 19, React, CQRS, DDD en een actief mentor- en architectuurprofiel.",
+        "check": "i26",
+        "pitch": "Beste,\n\nIk neem contact op omdat jullie op zoek zijn naar een Full Stack .NET Developer bij Euricom. Zijn jullie ook open voor samenwerking met externe consultants?\n\nDeze kandidaat is een doorgewinterde .NET-professional met team lead-ervaring, een indrukwekkend technisch parcours van .NET Framework tot .NET 10, en frontend-expertise in Angular (t/m versie 19 met NgRx) én React. EF Core, Dapper, Docker, clean architecture en uitgebreide testpraktijk (MSTest, TestContainers, Selenium) zijn allemaal aantoonbaar in productieomgevingen.\n\nDarnaast is deze kandidaat een actieve mentor voor juniors en interns, een vaste conferentiebezoeker (DDD Europe, GOTO) en volgt AI-trends nauwgezet op — precies de 'blijven-leren-cultuur' die Euricom nastreeft.\n\nGraag plan ik een kort gesprek in om de mogelijkheden te verkennen.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Frontend Developer met open blik",
+    "url": "https://www.euri.com/jobs/frontend-developer",
+    "company": "Euricom",
+    "source": "https://www.euri.com/werken-bij-euricom",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "React",
+      "Vue.js",
+      "Angular",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Sass",
+      "Less",
+      "Tailwind"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Mayte",
+      "email": "careers@euri.com"
+    },
+    "ai_matches": [
+      {
+        "row": 82,
+        "score": 88,
+        "reason": "Deze kandidaat heeft bewezen React, Angular/NgRx, Next.js, TypeScript, Node.js en GraphQL in productie te leveren bij grote klanten zoals KBC Bolero.",
+        "check": "m7",
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw vacature voor een Frontend Developer bij Euricom. Werkt u samen met externe consultants om snel de juiste profielen te vinden?\n\nDeze kandidaat is een senior full-stack developer met 7 jaar ervaring in exact de stack die Euricom zoekt: React, Angular/NgRx, Next.js, TypeScript en Node.js — allemaal bewezen in productieomgevingen. Bij KBC Bolero moderniseerde deze kandidaat een tradingplatform voor 100k+ gebruikers (Angular/NgRx/Nx, laadtijd -30%). Als mobile team lead bij ACA Group leidde deze kandidaat een team van 6 developers. Daarnaast bouwde deze kandidaat een eigen AI-SaaS (Next.js, FastAPI) én pionierde multi-agent AI-delivery — wat perfect aansluit bij Euricom's focus op AI en kwaliteit. GraphQL, Docker, unit testing en E2E-testing (Playwright) zitten ook in het pakket.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 73,
+        "score": 84,
+        "reason": "Deze kandidaat combineert React, Angular, Next.js, TypeScript en Node.js met bewezen teamlead-ervaring bij onder andere Zimmo en CM.",
+        "check": "n9",
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor een Frontend Developer bij Euricom. Werkt u ook met externe consultants?\n\nDeze kandidaat is een freelance full-stack developer met 9 jaar ervaring in React, Angular (incl. signals/NX), Next.js en TypeScript — precies de stack die u zoekt. Bij Landsbond CM leidt deze kandidaat momenteel een AngularJS-naar-React-migratie. Bij Wit-Gele Kruis bouwde deze kandidaat een Angular 18 UI-library met NX monorepo. Als technical lead bij Clovio stuurde deze kandidaat een team van 5 developers aan op 20+ Next.js-projecten. Ervaring met Node.js middlewares, NgRx, PostgreSQL en Capacitor voor mobiele apps maakt dit een echte full-stack frontend developer met brede blik — wat Euricom expliciet zoekt.\n\nKan ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 6,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 11 jaar frontend-ervaring met Angular, React, Next.js, TypeScript, Tailwind en GraphQL in productiecritische omgevingen.",
+        "check": "g11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw zoektocht naar een Frontend Developer bij Euricom. Werkt u met externe consultants voor uw klantprojecten?\n\nDeze kandidaat heeft 11 jaar ervaring in frontend development met een sterke focus op Angular, TypeScript, React/Next.js, Tailwind en GraphQL — technologieën die centraal staan in uw vacature. Bij het Nationaal Crisiscentrum bouwde deze kandidaat high-performance webapplicaties met real-time WebSockets en interactieve mapping. Daarnaast is er hands-on Node.js-ervaring via een eigen AI-app (Claude API, Capacitor). Met 10+ jaar Agile/Scrum en UX/UI-expertise in Figma combineert deze kandidaat technische diepgang met design sense — een troef voor Euricom's klantgerichte aanpak.\n\nKan ik u kort bellen om deze kandidaat voor te stellen?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Vacature | Senior Java Developer (m/v/x)",
+    "url": "https://www.regiedergebouwen.be/nl/jobs/vacature-senior-java-developer-mvx",
+    "company": "Forensisch Psychiatrische Centra",
+    "source": "https://www.regiedergebouwen.be/nl/jobs",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "java"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "infodesk@regiedergebouwen.be"
+    },
+    "ai_matches": [
+      {
+        "row": 17,
+        "score": 91,
+        "reason": "Deze kandidaat leidt als technical lead Java-teams bij FOD Financiën met coaching, architectuur en Spring Boot op OpenShift — exact wat de vacature vraagt.",
+        "check": "t21",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Senior Java Developer. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nIk stel u graag deze kandidaat voor: een Technical Lead Java met meer dan 20 jaar ervaring in het Java-ecosysteem, actief in de publieke sector. Momenteel leidt deze kandidaat een team bij FOD Financiën — coaching van juniors, architectuurkeuzes in een microservices-omgeving met Spring Boot, Spring Batch en OpenShift. Eerder leidde deze kandidaat een greenfield Angular + Spring Boot project bij Aquafin en een e-portaal voor justitie bij DXC.\n\nDe combinatie van bewezen teamleiderschap, hands-on Java-expertise en ervaring binnen federale overheidsdiensten maakt deze kandidaat bijzonder relevant voor een omgeving zoals de Forensisch Psychiatrische Centra / Regie der Gebouwen.\n\nMag ik u volgende week even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 50,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 8 jaar Java/Spring Boot bij Telenet met aantoonbare senioriteit en stuurde ook kleinere deelprojecten aan.",
+        "check": "j12",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Senior Java Developer neem ik graag contact op. Werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft 12 jaar ervaring als Java-ontwikkelaar, waarvan 8 jaar bij Telenet met Java 8 tot 17 en Spring Boot in productieomgevingen op schaal: provisioning services, een ad campaign rule engine en consolidatie-UI's in React. Daarnaast een sterke testcultuur met JUnit en Mockito, en relevante ervaring met AWS (S3, Lambda, DynamoDB).\n\nDe combinatie van technische diepgang, stabiele seniorprojecten en brede full-stack achtergrond (Angular, React) maakt deze kandidaat geschikt om zowel te leveren als collega's te begeleiden — precies wat uw vacature vraagt.\n\nZou u volgende week een kort gesprek inplannen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 80,
+        "reason": "Deze kandidaat was technical lead bij Fedasil en trainer bij Fedris, met sterke Java/Spring Boot-achtergrond en aantoonbare mentoring in de publieke sector.",
+        "check": "c8",
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw vacature voor een Senior Java Developer. Werkt u ook samen met externe profielen?\n\nDeze kandidaat heeft 8 jaar ervaring als freelance Java backend developer, met een bijzonder relevante achtergrond: technical lead bij Fedasil en curriculum developer/trainer bij Fedris — twee federale overheidsinstellingen. De stack omvat Java, Spring Boot, Hibernate, PostgreSQL, Keycloak/OAuth2 en Docker/Kubernetes, aangevuld met DDD, CQRS en een CPSA-F architectuurcertificering.\n\nHet coachen en opleiden van ontwikkelaars zit ingebakken in het profiel, wat perfect aansluit bij de vereiste om een team aan te sturen. De combinatie van publieke sector-ervaring en technische diepgang maakt dit een sterk profiel voor uw context.\n\nMag ik u binnenkort even bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Webadmin",
+    "url": "https://admin.www.uantwerpen.be/contentManagement/page-layout/52926?tab=3",
+    "company": "FRISOFER",
+    "source": "https://jobs.uantwerpen.be/",
+    "first_seen": "2026-08-18",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 72,
+        "score": 79,
+        "reason": "Deze kandidaat heeft 12 jaar Drupal/PHP-ervaring als freelance technical lead en webdeveloper, inclusief CMS-beheer en agencywerk.",
+        "check": "k12",
+        "pitch": "Beste,\n\nWij zagen de openstaande Webadmin-vacature bij FRISOFER en vroegen ons af of u samenwerkt met externe consultants voor dergelijke profielen.\n\nWij stellen graag een freelance Drupal- en PHP-specialist voor met maar liefst 12 jaar relevante ervaring. Deze kandidaat combineert technische diepgang in Drupal, PHP, JavaScript, HTML/CSS en MySQL met bewezen projectleiderschap als technical lead en projectmanager — precies de mix die een webadmin rol bij een bedrijf als FRISOFER vraagt.\n\nVia PHPro (7 jaar agencywerk) en Hardies Consulting heeft deze kandidaat talrijke uiteenlopende webprojecten beheerd en opgeleverd, zowel voor private als publieke klanten (o.a. Smals). Als gecertificeerd Drupal Developer, Front-end Specialist én Zend Certified PHP Engineer brengt deze kandidaat zowel de technische als organisatorische competenties mee om uw webomgeving professioneel te beheren en verder te ontwikkelen.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 62,
+        "reason": "Deze kandidaat beheerde zelfstandig Linux-servers, PHP-stack en CI/CD-pipelines als co-founder van een SaaS-platform.",
+        "check": "l7"
+      },
+      {
+        "row": 36,
+        "score": 48,
+        "reason": "Deze kandidaat heeft brede full-stack webervaring (Node.js, React, Angular, CI/CD) maar is eerder een senior engineer/tech lead dan een webadmin-profiel.",
+        "check": "a6"
+      }
+    ]
+  },
+  {
+    "title": "Software Developer C# / C++",
+    "url": "https://careers.fleetgo.com/job/software-developer/",
+    "company": "FleetGO Zonnegem",
+    "source": "https://careers.fleetgo.com/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "C#",
+      "C++",
+      "Windows-Kernel",
+      "Assembler",
+      "SQL",
+      "MS SQL",
+      "STL"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "contact": {
+      "name": null,
+      "email": "bewerbung@fleetgo.de"
+    },
+    "ai_matches": [
+      {
+        "row": 18,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare C#/.NET-ervaring in industriële omgevingen met WPF, WCF, query-optimalisatie en testautomatisering — sterk aansluitend bij de vereisten.",
+        "check": "j8",
+        "pitch": "Beste,\n\nVia onze samenwerking met gespecialiseerde .NET-profielen kwamen wij uw vacature voor Software Developer C#/C++ bij FleetGO tegen. Werkt u ook met externe consultants?\n\nWij hebben een Senior .NET Developer (8 jaar ervaring) die naadloos aansluit bij uw noden. Bij Belden werkte deze kandidaat aan TXCare, een industrieel netwerkmonitoringplatform — vergelijkbaar met de complexe, langlopende producten die FleetGO beheert. Concreet: C#, WPF/MVVM, WCF-services, query-optimalisatie voor performantie, en uitgebreide geautomatiseerde testdekking. Bij Smulders leidt deze kandidaat ERP-ontwikkeling in een team van 12, wat ownership en samenwerking aantoont. Ook ervaring met legacy-onderhoud in productieomgevingen (Capsugel/Lonza), wat perfect matcht met uw vraag naar onderhoud van een complex product.\n\nKort gesprek inplannen? Ik vertel u graag meer.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 40,
+        "score": 76,
+        "reason": "Deze kandidaat combineert 8 jaar C#/.NET-ervaring met een zeldzame infra-achtergrond (WinPE, Windows-tools) en bewezen technisch leiderschap bij RIZIV en Colruyt.",
+        "check": "d8",
+        "pitch": "Beste,\n\nVia uw vacature voor Software Developer C#/C++ bij FleetGO namen wij contact op. Maakt u gebruik van externe IT-consultants?\n\nDeze kandidaat beschikt over 8 jaar C#/.NET-ervaring en een unieke dubbele achtergrond als developer én infrastructuurspecialist — bij Intel bouwde deze kandidaat WinPE-tools voor geautomatiseerde hardware-scanning op Windows-niveau, wat direct aansluit bij uw vereisten rond Windows-Kernel en unmanaged code. Bij Colruyt leidde deze kandidaat een migratie van monolithische systemen naar microservices via Azure Service Bus. Bij RIZIV-INAMI fungeert deze kandidaat als backup Tech Lead met verantwoordelijkheid voor PR-reviews en architectuurafstemming — een duidelijk ownership-signaal. SQL-ervaring (ASP.NET + legacy .NET Framework) en teamwork in complexe omgevingen completeren het profiel.\n\nZin in een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 5,
+        "score": 62,
+        "reason": "Deze kandidaat heeft hands-on C# en SQL-ervaring met unit testing, maar mist C++ en low-level/Windows-Kernel-achtergrond die centraal staan in deze vacature.",
+        "check": "l5"
+      }
+    ]
+  },
+  {
+    "title": "First Line Helpdesk Medewerker",
+    "url": "https://careers.fleetgo.com/job/first-line-helpdesk-medewerker/",
+    "company": "FleetGO Zonnegem",
+    "source": "https://careers.fleetgo.com/",
+    "first_seen": "2026-08-18",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Wouter Fonteyn",
+      "email": "w.fonteyn@fleetgo.com"
+    },
+    "ai_matches": [
+      {
+        "row": 72,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 4 jaar helpdeskervaringh bij Smals en brede klantgerichte IT-achtergrond als technical lead en Scrum Master.",
+        "check": "k12"
+      },
+      {
+        "row": 54,
+        "score": 48,
+        "reason": "Deze kandidaat heeft diepe logistieke IT-kennis (TMS, EDI, transport) die aansluit bij FleetGO's domein, maar is te senior voor first line helpdesk.",
+        "check": "b10"
+      },
+      {
+        "row": 9,
+        "score": 38,
+        "reason": "Deze kandidaat heeft klantgerichte IT-ervaring en stakeholdercommunicatie, maar profiel is te specialistisch en senioor voor een first line helpdesk rol.",
+        "check": "p10"
+      }
+    ]
+  },
+  {
+    "title": "Senior Full Stack .NET Developer",
+    "url": "https://careers.fleetgo.com/job/senior-full-stack-net-developer/",
+    "company": "FleetGO Zonnegem",
+    "source": "https://careers.fleetgo.com/",
+    "first_seen": "2026-08-18",
+    "stack": [
+      "C#",
+      ".NET",
+      "REST API",
+      "Microservices",
+      "SQL Server",
+      "ORM",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Wouter Fonteyn",
+      "email": "w.fonteyn@fleetgo.com"
+    },
+    "ai_matches": [
+      {
+        "row": 14,
+        "score": 92,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring, is team lead, en beheerst de volledige stack inclusief React, TypeScript, SQL Server en microservices.",
+        "check": "i26",
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op naar aanleiding van uw vacature voor een Senior Full Stack .NET Developer bij FleetGO. Werkt u hiervoor ook samen met externe consultants?\n\nWij hebben een uitzonderlijk sterke kandidaat beschikbaar die naadloos aansluit op uw profiel. Deze kandidaat heeft 26 jaar .NET-ervaring — van .NET Framework tot .NET 10 en ASP.NET Core — en werkt dagelijks met C#, Entity Framework Core, REST API's en microservices. Op frontend-vlak heeft hij bewezen ervaring met zowel React (TanStack Query, Tailwind) als Angular, TypeScript en moderne CI/CD-praktijken op Azure.\n\nAls team lead begeleidt deze kandidaat actief junioren en interns, neemt hij ownership over architecturale keuzes en deelt hij kennis op conferenties zoals DDD Europe en GOTO. Dat is precies het senioriteitsprofiel dat FleetGO zoekt.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 19,
+        "score": 79,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met microservices, CQRS, Docker, Azure en team lead-ervaring in complexe legacy-moderniseringsprojecten.",
+        "check": "n16",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Senior Full Stack .NET Developer bij FleetGO. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en toont precies de technische maturiteit die u zoekt. Momenteel leidt hij de migratie van legacy desktopapplicaties naar een moderne cloudoplossing op .NET 8 met GraphQL, CQRS, PostgreSQL, Docker, Kubernetes en AWS — een traject dat sterk vergelijkbaar is met het schaalbaar en onderhoudbaar maken van bedrijfskritische software zoals FleetGO dat doet.\n\nDaarnaast heeft deze kandidaat aantoonbare ervaring met REST API's, SQL Server, Azure (App Services, Service Bus) en distributed systems (RabbitMQ, Akka.NET). Hij heeft ook technische analyses en teamlead-taken opgenomen, wat aansluit bij uw verwachting rond ownership en architectuurbijdragen.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 63,
+        "score": 76,
+        "reason": "Deze kandidaat is freelance team lead met bewezen ervaring in .NET 8, Azure, microservices, EF Core en technische begeleiding van externe partners.",
+        "check": "n11",
+        "pitch": "Beste,\n\nVia deze weg contacteer ik u in verband met uw openstaande vacature voor een Senior Full Stack .NET Developer bij FleetGO. Staat u open voor samenwerking met externe consultants?\n\nDeze kandidaat is een freelance .NET team lead met 11 jaar ervaring en een sterk trackrecord in technische ownership en architectuur. In zijn huidige opdracht werkt hij met .NET 8, EF Core, MediatR, Azure Functions, Azure Service Bus en SQL Server — technologieën die rechtstreeks aansluiten op uw stack. Hij bewaakt de codekwaliteit van externe partners, voert technische analyses uit en coacht teamleden, wat perfect aansluit bij uw verwachtingen rond senioriteit en kennisdeling.\n\nEerdere ervaring bij House of HR en meerdere SaaS-projecten toont zijn breedte in integratiewerk en API-ontwikkeling binnen Agile omgevingen.\n\nGraag plan ik een kort gesprek in om dit concreet te maken.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
     "title": "IT Product Owner e-Commerce Platform",
     "url": "https://www.stepstone.be/jobs--IT-Product-Owner-e-Commerce-Platform-Brussels-Eurofins-Belgium-NV--2177635-inline.html",
     "company": "t Soetekint - de Levensboom",
@@ -6464,25 +7194,25 @@
     "experience": "7+ yrs",
     "ai_matches": [
       {
-        "row": 59,
-        "score": 91,
-        "reason": "Deze kandidaat heeft aantoonbare .NET MAUI-migratie-ervaring, Blazor, Azure en mission-critical distributed systems in productie.",
-        "check": "k19",
-        "pitch": "Beste,\n\nWe merkten dat Pionira op zoek is naar een ervaren .NET Software Engineer — werkt u ook met externe consultants?\n\nWe hebben een freelance .NET-specialist met 19 jaar ervaring die naadloos aansluit op uw vacature. Deze kandidaat heeft bewezen Blazor-toepassingen gebouwd (luxury retail salesportal met .NET Aspire), Azure-services geïntegreerd (Cosmos DB, messaging via IBM MQ en RabbitMQ), en heeft recent .NET MAUI-migratie begeleid voor een Xamarin Forms-applicatie — exact het pluspunt dat u vermeldt. Bij Ypto/NMBS bouwde deze kandidaat een mission-critical synchronisatiebrug op .NET Core met Kubernetes/Helm en een version-agnostische API-laag: het soort schaalbare, betrouwbare architectuur dat Pionira vereist. CQRS, Clean Architecture en TDD zijn vaste werkwijzen.\n\nMag ik u volgende week even bellen om dit concreet te bespreken?\n\nMet vriendelijke groeten,"
+        "row": 40,
+        "score": 88,
+        "reason": "Deze kandidaat combineert C#, ASP.NET, Blazor en Azure Service Bus met bewezen Tech Lead-rol en legacy .NET Framework-migratie-ervaring.",
+        "check": "d8",
+        "pitch": "Beste,\n\nIk nam uw vacature voor een .NET Software Engineer bij Pionira door en vroeg me af of u ook samenwerkt met externe consultants. Ik denk dat ik een uitstekende match heb.\n\nDeze kandidaat heeft 8 jaar ervaring met exact de stack die Pionira vraagt: C#, ASP.NET, Blazor en Azure Service Bus. Bij RIZIV-INAMI werkt deze kandidaat vandaag als senior .NET developer met een back-up Tech Lead-rol — inclusief architectuurafstemming, PR-reviews en taakverdeling. Bij Colruyt Group leidde deze kandidaat een legacy-to-microservices-migratie via event-driven integratie met Azure Service Bus, wat perfect aansluit bij uw gedistribueerde systeemvereisten. Blazor-ontwikkeling in productie, REST-integraties en kennis van het volledige .NET-ecosysteem maken dit profiel bijzonder sterk. De combinatie van technische diepgang én leiderschapservaring is zeldzaam op de markt.\n\nGraag stel ik dit profiel voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
       },
       {
-        "row": 40,
-        "score": 87,
-        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor-ervaring met Azure Service Bus en aantoonbare tech-lead verantwoordelijkheden.",
-        "check": "d8",
-        "pitch": "Beste,\n\nPionira zoekt een Senior .NET Software Engineer — bent u open voor externe profielen?\n\nDeze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer én backup Tech Lead bij RIZIV-INAMI, met full-stack ASP.NET MVC + Blazor, PR-reviews en architectuurafstemming. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie met event-driven integratie via Azure Service Bus — precies de Azure-services en moderniseringsaanpak die Pionira vraagt. De combinatie van Blazor, ASP.NET, REST en Azure Service Bus is concreet aantoonbaar in productieomgevingen. Kennisdeling en technische begeleiding van teams zijn ook vaste onderdelen van het huidige takenpakket, wat aansluit bij uw verwachting rond teamcoaching.\n\nKan ik u kort bellen om dit profiel toe te lichten?\n\nMet vriendelijke groeten,"
+        "row": 59,
+        "score": 85,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring met Blazor, .NET MAUI-migratie, Azure en mission-critical gedistribueerde systemen.",
+        "check": "k19",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een .NET Software Engineer contacteer ik u graag — werkt u ook met externe consultants?\n\nDeze kandidaat is een doorgewinterde freelance .NET-expert met 19 jaar ervaring en een indrukwekkende staat van dienst. Blazor, Azure, CQRS en gedistribueerde systemen zijn dagelijkse kost. Bijzonder relevant: bij TenForce werkte deze kandidaat aan .NET MAUI-migratieplanning voor legacy Xamarin-apps — een uitdrukkelijk pluspunt in uw vacature. Bij Ypto/NMBS bouwde deze kandidaat mission-critical integratiebridges met .NET Core, Azure Cosmos DB en Kubernetes. De Blazor-ervaring bij Gervi met .NET Aspire en OpenTelemetry toont brede Azure-kennis. TDD-discipline en Clean Architecture zorgen voor onderhoudbare code op lange termijn — precies wat Pionira zoekt in een groeiende logistieke softwareomgeving.\n\nZin in een korte kennismaking? Ik plan graag een gesprek in.\n\nMet vriendelijke groeten,"
       },
       {
         "row": 19,
-        "score": 84,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en distributed systems in productie.",
+        "score": 82,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en gedistribueerde cloud-architectuur in productie.",
         "check": "n16",
-        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Software Engineer .NET bij Pionira — werkt u ook met externe .NET-profielen?\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en bouwt momenteel een cloudmigratie van legacy desktopapplicaties naar .NET 8 met CQRS, Kafka, Postgres en AWS/Kubernetes. Naast dit profiel beheert deze kandidaat al meer dan 10 jaar een Azure-applicatie (App Services, Service Bus, SQL) voor een retailklant — direct relevant voor de Azure-stack die Pionira gebruikt. Blazor en ASP.NET Core zijn vertrouwd terrein; team lead- en technische analyseervaring maken van deze kandidaat ook een kennis­overdrachter binnen uw team. MCSD-gecertificeerd en vertrouwd met distributed systems (RabbitMQ, gRPC, Akka.NET).\n\nZin in een kort gesprek volgende week?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een .NET Software Engineer bij Pionira. Werkt u ook met externe consultants? Dan heb ik een sterk profiel voor u.\n\nDeze kandidaat heeft meer dan 16 jaar .NET-ervaring en werkt vandaag aan een volledige cloud-rewrite met .NET 8, AWS, Kubernetes en Kafka — een bewijs van gedegen kennis van gedistribueerde systemen. Wat de match met Pionira extra concreet maakt: via een langdurig nevenproject (Runners Lab, since 2014) beheert deze kandidaat een Azure-omgeving met App Services, Service Bus en SQL — exact de Azure-services die u vermeldt. Blazor, ASP.NET en team lead-ervaring completeren het plaatje. MCSD-certificering en kennis van CQRS, RabbitMQ en gRPC tonen technische breedte die verder reikt dan de functievereisten.\n\nIk vertel u graag meer in een kort gesprek. Wanneer heeft u 15 minuten?\n\nMet vriendelijke groeten,"
       }
     ]
   },
