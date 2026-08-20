@@ -64,24 +64,24 @@
     "ai_matches": [
       {
         "row": 40,
-        "score": 91,
-        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met hands-on Azure Service Bus en legacy-.NET-Framework-migratie naar microservices bij Colruyt.",
+        "score": 88,
+        "reason": "Deze kandidaat combineert ASP.NET, Blazor, Azure Service Bus en legacy-.NET-migratie met bewezen tech-lead-verantwoordelijkheid bij RIZIV en Colruyt.",
         "check": "d8",
-        "pitch": "Beste,\n\nIk nam uw vacature voor een .NET Software Engineer door en vroeg me af of u ook samenwerkt met externe consultants voor deze positie.\n\nIk wil u graag deze kandidaat voorstellen: een Senior .NET Developer met 8 jaar ervaring in exact de stack die Pionira vraagt — C#, ASP.NET, Blazor en Azure Service Bus. Bij Colruyt Group leidde deze kandidaat een legacy-to-microservices-modernisering met event-driven integratie via Azure Service Bus, en bij RIZIV-INAMI werkt hij dagelijks als backup Tech Lead met Blazor full-stack en architectuurafstemming. De combinatie van Blazor-ontwikkeling, distributed systems via Azure Service Bus én mentoring sluit naadloos aan bij uw verwachtingen rond technische begeleiding.\n\nGezien de logistieke focus van Pionira en de behoefte aan een senior profiel dat ook technische strategie mee vorm geeft, denk ik dat dit een zeer sterke match is.\n\nZou u even tijd hebben voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook samenwerkt met externe consultants voor deze rol.\n\nIk heb een sterke kandidaat die uitstekend aansluit op wat jullie zoeken. Deze kandidaat heeft 8 jaar ervaring met C#, ASP.NET en Blazor, en werkt momenteel als senior .NET developer — inclusief back-up Tech Lead met verantwoordelijkheid voor PR-reviews en architectuurafstemming. Bij Colruyt Group leidde deze kandidaat een migratie van monolithische applicaties naar microservices met Azure Service Bus, exact de gedistribueerde aanpak die Pionira vereist. Kennis van REST-services, legacy .NET Framework-onderhoud en Azure-integraties zit stevig verankerd in de werkhistoriek. Daarbovenop geeft deze kandidaat technische begeleiding aan collega's, wat perfect past bij jullie teamgerichte cultuur.\n\nIk zie een sterke match met jullie logistieke softwareomgeving. Mogen we even bellen om dit te bespreken?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 59,
-        "score": 88,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring inclusief .NET MAUI-migratie, Blazor, Azure en mission-critical distributed systems bij NMBS/Infrabel.",
+        "score": 85,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, bewezen Blazor- en .NET MAUI-migratie-expertise, én Azure-integraties in missiekritische productieomgevingen.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een .NET Software Engineer bij Pionira wou ik u graag een uitzonderlijk profiel voorstellen — alvast als u openstaat voor samenwerking met externe consultants.\n\nDeze kandidaat is freelance .NET-expert met 19 jaar ervaring en heeft recent exact de technologieën ingezet die u zoekt: Blazor (.NET Aspire, OpenTelemetry), Azure (Cosmos DB, App Services), CQRS/MediatR én — als bijzonder pluspunt — .NET MAUI-migratiewerk voor een legacy Xamarin-app bij TenForce. Dat laatste is precies het 'nice-to-have' uit uw vacature. Bij NMBS/Infrabel bouwde deze kandidaat mission-critical gedistribueerde systemen met enterprise messaging en Kubernetes, wat aansluit bij Pionira's Azure Service Bus en schaalbaarheidsambities.\n\nEen senior profiel met brede domeinervaring en sterke discipline in testing en clean architecture — een garantie voor kwaliteit in uw groeiend team.\n\nKan ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer vroeg ik me af of Pionira openstaat voor externe consultants.\n\nDeze kandidaat is freelance .NET-specialist met maar liefst 19 jaar ervaring in C#, Blazor, Azure en gedistribueerde systemen. Wat deze kandidaat bijzonder relevant maakt voor Pionira: een concrete .NET MAUI-migratieopdracht voor een legacy Xamarin Forms-applicatie bij TenForce, én een volledige Blazor + .NET Aspire sales portal met OpenTelemetry. Voor NMBS/Ypto bouwde deze kandidaat een missiekritische synchronisatiebrug met Azure Cosmos DB en Kubernetes — het soort schaalbare, betrouwbare architectuur die jullie zoeken. CQRS, Clean Architecture en TDD zijn vaste werkprincipes. De combinatie van mobiele migratie-expertise én cloud-native backend sluit nauw aan bij jullie stack en logistieke context.\n\nZin om dit even te bespreken via een korte call?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 19,
-        "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, gedistribueerde systemen en technische leiderschapsrol in complexe migratieprojecten.",
+        "score": 80,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, gedistribueerde systemen en bewezen cloud-migraties van legacy desktop naar web.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk zag uw vacature voor een .NET Software Engineer bij Pionira en wilde u graag een senior profiel voorstellen, mocht u openstaan voor externe samenwerking.\n\nDeze kandidaat werkt al meer dan 15 jaar met .NET en heeft recente, concrete ervaring met precies de technologieën die u vraagt: Blazor, Azure App Services en Azure Service Bus (via een lopend project met surveyapplicatie op Azure), evenals distributed systems met Kafka, RabbitMQ en CQRS. Momenteel leidt deze kandidaat de migratie van drie legacy desktoptoepassingen naar één cloud-webapplicatie in .NET 8 — een ervaring die rechtstreeks aansluit bij Pionira's focus op modernisering en schaalbaarheid. De combinatie van technische analyse, team lead-ervaring en brede Azure-kennis maakt dit een profiel dat onmiddellijk waarde toevoegt.\n\nGraag stel ik deze kandidaat voor in een kort gesprek — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie openstaande vacature voor een .NET Software Engineer — werkt Pionira ook met externe consultants?\n\nDeze kandidaat brengt 16 jaar .NET-ervaring mee, inclusief concrete hands-on kennis van C#, Blazor, ASP.NET en Azure (App Services, Service Bus, SQL). Momenteel werkt deze kandidaat aan de rewrite van legacy desktop-applicaties naar één moderne cloudwebapplicatie met .NET 8, CQRS, Kafka en Kubernetes — een traject dat sterk lijkt op het soort complexe migraties en gedistribueerde uitdagingen die ook bij Pionira spelen. Daarnaast loopt er een langdurig Azure-project met Azure Service Bus en SQL, wat jullie directe technologievereisten afvinkt. Met MCSD-certificering, team lead-ervaring en technische analyse in de bagage is dit een profiel dat ook inhoudelijke begeleiding aan een team kan bieden.\n\nKan ik jullie deze kandidaat kort toelichten via een gesprekje?\n\nMet vriendelijke groeten,"
       }
     ]
   },
@@ -14448,6 +14448,583 @@
         "score": 62,
         "reason": "Deze kandidaat brengt brede .NET- en Elasticsearch-kennis mee, inclusief Docker en microservices, maar mist directe OpenShift- en Java-praktijkervaring.",
         "check": "i26"
+      }
+    ]
+  },
+  "https://architectenweb.nl/vacatures/vacature.aspx?id=28788": {
+    "title": "SAP Technisch Architect",
+    "url": "https://architectenweb.nl/vacatures/vacature.aspx?id=28788",
+    "company": "3D Architectuur",
+    "source": "https://architectenweb.nl/vacatures/",
+    "first_seen": "2026-08-20",
+    "snippet": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties | SAP Technisch Architect - architectenweb.nl Projecten Producten Bedrijven Vacatures Agenda Awards Podcasts more_horiz Videos Magazine Favorieten Profiel Uitloggen Nieuw Populair Toon alles Architectenweb magazine #14 Architectenweb magazine #13 Publieke gebouwen Architectenweb magazine #12 Kantoren Architectenweb magazine #11 Scholen Architectenweb magazine #10 Zorg Architectenweb magazine #14 Architectenweb magazine #10 Zorg Architectenweb magazine #12 Kantoren Architectenweb magazine #13 Publieke gebouwen Architectenweb magazine #6 Transformatie en Renovatie Om direct naar je favorieten te kunnen gaan is het nodig om eerst in te loggen. Nieuw Architectenweb Awards 2026 Architectenweb Awards 2025 Architectenweb Awards 2024 Architectenweb Awards 2023 Architectenweb Awards 2022 Architectenweb Awards 2021 Architectenweb Awards 2020 Architectenweb Awards 2019 Architectenweb Awards 2018 Om direct naar je favorieten te kunnen gaan is het nodig om eerst in te loggen. Nieuw Populair Favorieten Toon alles Samenwerken op kantoor Symposium Ontwerpen van autovrije buurten Symposium Prijsuitreiking Architectenweb Awards 2025 Impressie ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 64,
+        "score": 62,
+        "reason": "Deze kandidaat leidde SAP S4/HANA-trajecten bij Colruyt en Oleon met technische wortels in data-migratie en applicatie-integratie.",
+        "check": "d26"
+      },
+      {
+        "row": 86,
+        "score": 38,
+        "reason": "Deze kandidaat heeft SAP-projectervaring maar focust op programmamanagement en D365, niet op SAP technische architectuur.",
+        "check": "m15"
+      },
+      {
+        "row": 52,
+        "score": 32,
+        "reason": "Deze kandidaat is sterk in cloud-native .NET-architectuur maar heeft geen aantoonbare SAP-technische architectuurervaring.",
+        "check": "m15"
+      }
+    ]
+  },
+  "https://www.hugeDomains.com/domain_search.cfm?domain_name= developer": {
+    "title": "Developer",
+    "url": "https://www.hugeDomains.com/domain_search.cfm?domain_name= developer",
+    "company": "BRECODE",
+    "source": "https://www.hugedomains.com/",
+    "first_seen": "2026-08-20",
+    "snippet": "Domain Name Search | HugeDomains Skip to main content Search +1-303-893-0552 Home FAQs About us Contact us My account My favorites Shopping cart We found 2,726 domains for developer Advanced search Sort by : Relevance Sort by: Done Relevance Domain: A - Z Domain: Z - A Price: Low to High Price: High to Low Length: Short to Long Length: Long to Short Advanced search: Position: Find anywhere Starts with Ends with Price: to Length: to Hilighter: On Off Search 30-day money back guarantee Learn more QDeveloper.com $1,895.00 Buy now W3Developers.com $3,695.00 Buy now ZDeveloper.com $3,995.00 Buy now DDevelopers.com $1,695.00 Buy now Developers1.com $895.00 Buy now EDeveloper.co.uk $2,495.00 Buy now DeveloperO.com $1,795.00 Buy now W3Developer.com $1,595.00 Buy now WDeveloper.com $2,995.00 Buy now DevelopersI.com $1,495.00 Buy now Developer1.com $3,895.00 Buy now G3Developer.com $995.00 Buy now GDevelopers.com $3,895.00 Buy now SDevelopers.com $1,995.00 Buy now ZDevelopers.com $1,395.00 Buy now AnalyticsDeveloper.com $6,395.00 Buy now AntDevelopers.com $595.00 Buy now BecomeADeveloper.com $8,795.00 Buy now BrainDevelopers.com $1,395.00 Buy now CarbonDeveloper.com $1,895.00 Buy now Connect",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 14,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring met de volledige moderne stack: ASP.NET Core, Angular, Docker en NServiceBus in productie.",
+        "check": "i26",
+        "pitch": "Beste,\n\nWe lazen dat BRECODE op zoek is naar een Developer en wilden even polsen of jullie samenwerken met externe consultants.\n\nWij stellen graag deze kandidaat voor: een .NET-veteraan met 26 jaar hands-on ervaring, van .NET Framework tot .NET 10. De technische breedte is indrukwekkend — ASP.NET Core, Entity Framework Core, Angular (2 t/m 19 met NgRx), React, Docker, Elasticsearch en NServiceBus zitten allemaal in de recente productiegeschiedenis. Daarnaast heeft deze kandidaat teamlead-ervaring, begeleidt deze kandidaat juniors en interns, en is actief betrokken bij clean architecture en DDD (o.a. aanwezig op DDD Europe en GOTO). Ook de interesse in AI (RAG, MCP, lokale LLMs) maakt deze kandidaat toekomstgericht. Dit is een profiel dat zowel technisch als organisatorisch direct waarde toevoegt. Mogen we een korte call inplannen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 19,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met sterke cloud-architectuurkennis: Kafka, CQRS, Kubernetes en GraphQL in productie.",
+        "check": "n16",
+        "pitch": "Beste,\n\nNaar aanleiding van de openstaande Developer-positie bij BRECODE wilden we even contact opnemen — werken jullie ook met externe consultants?\n\nDeze kandidaat brengt 16 jaar .NET-expertise mee, met een recent sterk architectuurproject: een volledige rewrite van legacy desktopapplicaties naar een cloudwebapplicatie op .NET 8, met GraphQL, Kafka/Debezium (CDC), CQRS, PostgreSQL, Redis, Terraform, AWS en Kubernetes. Dat is geen theorie — dit loopt momenteel in productie. Daarnaast heeft deze kandidaat jarenlange ervaring als team lead en technisch analist, en een langlopend Azure-project (App Services, Service Bus, SQL) dat de breedte van de cloud-expertise bevestigt. MCSD-gecertificeerd en vertrouwd met gedistribueerde systemen (RabbitMQ, Akka.NET, gRPC). Een senior profiel dat architectuur en uitvoering combineert. Graag plan ik een kort gesprek in!\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 72,
+        "reason": "Deze kandidaat heeft ondanks 4 jaar ervaring aantoonbare architectuurverantwoordelijkheid gedragen in Azure-integraties en veilige productiesystemen met CQRS en DDD.",
+        "check": "r4"
+      }
+    ]
+  },
+  "https://www.hugeDomains.com/domain_search.cfm?domain_name= software": {
+    "title": "Software",
+    "url": "https://www.hugeDomains.com/domain_search.cfm?domain_name= software",
+    "company": "BRECODE",
+    "source": "https://www.hugedomains.com/",
+    "first_seen": "2026-08-20",
+    "snippet": "Domain Name Search | HugeDomains Skip to main content Search +1-303-893-0552 Home FAQs About us Contact us My account My favorites Shopping cart We found 2,160 domains for software Advanced search Sort by : Relevance Sort by: Done Relevance Domain: A - Z Domain: Z - A Price: Low to High Price: High to Low Length: Short to Long Length: Long to Short Advanced search: Position: Find anywhere Starts with Ends with Price: to Length: to Hilighter: On Off Search 30-day money back guarantee Learn more Software6.com $4,195.00 Buy now Softwares7.com $4,695.00 Buy now 5Software.com $4,695.00 Buy now 6Software.com $2,695.00 Buy now SoftwareB2B.com $4,195.00 Buy now H4Software.com $695.00 Buy now D2Software.com $3,195.00 Buy now E2Software.com $2,895.00 Buy now MSoftwares.com $695.00 Buy now I3Software.com $3,595.00 Buy now Softwareing.com $3,095.00 Buy now SoftwareK.com $2,395.00 Buy now F1Software.com $3,295.00 Buy now C5Software.com $3,395.00 Buy now Softwareness.com $12,395.00 Buy now 4Software.com $5,895.00 Buy now I9Software.com $4,495.00 Buy now R2Software.com $3,695.00 Buy now SoftwaresB.com $3,195.00 Buy now 11Software.com $5,495.00 Buy now 3DesignSoftware.com $495.00 Buy now AdrSoftwa",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 10,
+        "reason": "Geen vacature-inhoud beschikbaar; geen zinvolle match mogelijk op basis van deze kandidaat.",
+        "check": "l7"
+      },
+      {
+        "row": 32,
+        "score": 10,
+        "reason": "Geen vacature-inhoud beschikbaar; geen zinvolle match mogelijk op basis van deze kandidaat.",
+        "check": "e6"
+      },
+      {
+        "row": 47,
+        "score": 10,
+        "reason": "Geen vacature-inhoud beschikbaar; geen zinvolle match mogelijk op basis van deze kandidaat.",
+        "check": "l10"
+      }
+    ]
+  },
+  "https://careers.agsolutiongroup.com/jobs/7819270-ot-security-architect-consultant": {
+    "title": "OT Security Architect / Consultant",
+    "url": "https://careers.agsolutiongroup.com/jobs/7819270-ot-security-architect-consultant",
+    "company": "AG SOLUTION",
+    "source": "https://careers.agsolutiongroup.com/",
+    "first_seen": "2026-08-20",
+    "snippet": "OT Security Architect / Consultant - AG SOLUTION This website uses cookies to ensure you get the best experience. AG SOLUTION and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes. See our Cookie Policy to read more about the cookies we set. You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page. Accept all cookies Decline all non-necessary cookies Cookie preferences Select which cookies you accept On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly. If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, which is always available at the bottom of the site. To learn more about what the different types of cookies do, how your data is used when they are set etc, se",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 89,
+        "score": 82,
+        "reason": "Deze kandidaat leidde OT-migraties bij Engie en herstellde netwerken na cyberaanvallen, met Fortinet/Palo Alto en aantoonbare OT-ervaring.",
+        "check": "n15",
+        "pitch": "Beste,\n\nMag ik u even storen met een profiel dat naadloos aansluit op uw openstaande rol als OT Security Architect / Consultant? Werkt AG SOLUTION ook met externe consultants?\n\nDeze kandidaat combineert 15 jaar enterprise netwerkbeveiliging met concrete OT-terreinervaring. Bij Silta ICT (Ferranti) leidde deze kandidaat on-site OT-migraties voor Engie in vijf Europese landen (BE/NL/FR/IT/ES/DE), inclusief EAP-TLS Wi-Fi met FortiAuthenticator en Cisco ISE — typisch de soort hybride IT/OT-omgevingen die uw klanten kennen. Bij Vincotte trad deze kandidaat op als architect na een cryptolocker-aanval: volledige SD-WAN redesign (Fortinet ADVPN/OSPF), FortiAnalyzer monitoring en herstel van operationele continuïteit. Bij Securitas leidde deze kandidaat een volledige netwerkrebuild na een zware cyberaanval met Palo Alto en FortiGate — exact de security posture assessments en remediatie roadmaps die uw rol vraagt.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 51,
+        "score": 72,
+        "reason": "Deze kandidaat toont diepgaande IT/OT-identity- en hardeningervaring (AD, NIS2, Qualys, Defender) in automotive en overheid, relevant voor hybride OT-omgevingen.",
+        "check": "k20"
+      },
+      {
+        "row": 71,
+        "score": 58,
+        "reason": "Deze kandidaat beheert datacenter security-platformen (Palo Alto, Check Point, Cisco ISE) en netwerkautomatisering, maar mist expliciete OT- of industriële ervaring.",
+        "check": "l8"
+      }
+    ]
+  },
+  "https://www.inthepocket.com/greenhouse-jobs/8141417---ai-engineer": {
+    "title": "AI Engineer",
+    "url": "https://www.inthepocket.com/greenhouse-jobs/8141417---ai-engineer",
+    "company": "ITP Agency",
+    "source": "https://www.inthepocket.com/careers",
+    "first_seen": "2026-08-20",
+    "snippet": "Join us - AI Engineer In The Pocket Company Logo Services AI Strategy and Transformation Turn AI ambitions into impact across the organisation. Product & Platform development Build products that delight customers and deliver results. Expertise building Level up your teams through hands-on sessions or embedded experts. Industries Insights AI playbooks Events Case studies Blog articles White papers Press Case Fewer protocol errors, faster cancer research News We launched a new platform for the BE Immigration Office. Event Afterwork: are you ready for agents? Careers About us submit RFP/RFI Contact us Submit RFP/RFI Contact AI Strategy and Transformation Product and Platform development Embedded expertise Case Studies AI playbooks Events Blog Whitepapers Press Careers About Us Industries Submit RFP/RFI Contact Us AI Engineer About us We're an independent European digital product studio with a strong track record of delivering market-defining strategies and products for enterprises and governments. With about 200 talented people across three countries, premium AI capabilities and a diverse portfolio of international clients, we define, design and ship high-quality digital products, str",
+    "stack": [
+      "LLM",
+      "agents",
+      "multimodal retrieval systems",
+      "embeddings",
+      "vector databases",
+      "MCP",
+      "agentskills",
+      "A2A"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on ervaring met LLM fine-tuning, Claude Code, AWS data lakes en security audits, aangevuld met software architect achtergrond.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw vacature voor AI Engineer bij In The Pocket. Werkt u samen met externe consultants om uw team te versterken?\n\nDeze kandidaat heeft ruim 11 jaar ervaring en combineert diepgaande LLM-expertise (fine-tuning via Axolotl, Ollama, Claude Code) met stevige software engineering fundamenten in Python, Node.js, TypeScript en AWS. Bij zijn huidige rol bij Foliant bouwt hij actief AI-oplossingen op basis van foundation models — exact wat uw vacature vraagt. Eerder als software architect bij AWV leidde hij de adoptie van lokaal gehoste LLMs voor NLP-toepassingen in een overheidscontext. Zijn achtergrond als pentester garandeert bovendien een security-first mindset, inclusief kennis van OWASP en LLM-specifieke risico's. Ook CI/CD, infrastructuur en gestructureerd werken in gereguleerde omgevingen zitten goed verankerd in zijn parcours.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 36,
+        "score": 58,
+        "reason": "Deze kandidaat heeft bewezen end-to-end ownership en tech lead ervaring op enterprise schaal, maar heeft geen aantoonbare LLM- of AI-engineeringervaring.",
+        "check": "a6"
+      },
+      {
+        "row": 0,
+        "score": 36,
+        "reason": "Deze kandidaat heeft brede SaaS- en CI/CD-ervaring maar geen aantoonbare AI- of LLM-gerelateerde projectervaring die relevant is voor deze rol.",
+        "check": "l7"
+      }
+    ]
+  },
+  "https://www.inthepocket.com/greenhouse-jobs/2185113---solution-architect": {
+    "title": "Solution Architect",
+    "url": "https://www.inthepocket.com/greenhouse-jobs/2185113---solution-architect",
+    "company": "ITP Agency",
+    "source": "https://www.inthepocket.com/careers",
+    "first_seen": "2026-08-20",
+    "snippet": "Join us - Solution Architect In The Pocket Company Logo Services AI Strategy and Transformation Turn AI ambitions into impact across the organisation. Product & Platform development Build products that delight customers and deliver results. Expertise building Level up your teams through hands-on sessions or embedded experts. Industries Insights AI playbooks Events Case studies Blog articles White papers Press Case Fewer protocol errors, faster cancer research News We launched a new platform for the BE Immigration Office. Event Afterwork: are you ready for agents? Careers About us submit RFP/RFI Contact us Submit RFP/RFI Contact AI Strategy and Transformation Product and Platform development Embedded expertise Case Studies AI playbooks Events Blog Whitepapers Press Careers About Us Industries Submit RFP/RFI Contact Us Solution Architect About us We're an independent European digital product studio with a strong track record of delivering market-defining strategies and products for enterprises and governments. With about 200 talented people across three countries, premium AI capabilities and a diverse portfolio of international clients, we define, design and ship high-quality digital",
+    "stack": [
+      "microservices",
+      "event-driven",
+      "RAG",
+      "Agentic patterns",
+      "GenAI"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 52,
+        "score": 88,
+        "reason": "Deze kandidaat combineert DDD, event-driven architectuur, Azure cloud-native delivery en bewezen pre-sales ervaring als solution architect.",
+        "check": "m15",
+        "pitch": "Beste,\n\nU bent op zoek naar een Solution Architect bij In The Pocket — werkt u ook met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft meer dan 15 jaar ervaring als cloud solution architect en sluit naadloos aan op uw vacature. Bij Kenze combineerde deze kandidaat pre-sales, consultant coaching en strategische besluitvorming — exact wat ITP vraagt. Bij MAN Trucks Belgium leidde deze kandidaat de volledige cloud-architectuur van een nieuw serviceplatform: .NET Aspire, Azure Container Apps, Service Bus, Bicep, Entra ID — met DDD en Vertical Slice Architecture als fundament.\n\nDaarnaast faciliteert deze kandidaat Event Storming workshops, coacht developers actief en heeft aantoonbare kennis van AI-adoptie (Semantic Kernel) en cloud security (NIS2, zero-trust). Architectuurmodellering, trade-off communicatie naar stakeholders en hands-on validatie via POCs: het zit allemaal in het DNA.\n\nKort gesprek om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 91,
+        "score": 78,
+        "reason": "Deze kandidaat heeft RAG-implementatie, event-driven microservices op Azure en bewezen tech-lead ervaring in meerdere sectoren.",
+        "check": "a12",
+        "pitch": "Beste,\n\nVoor de rol van Solution Architect bij In The Pocket wil ik graag een sterk profiel onder uw aandacht brengen — werkt u samen met externe consultants?\n\nDeze kandidaat heeft 12 jaar ervaring in de Java/Kotlin-stack en heeft recent bij BMW een RAG-gebaseerde AI-agent geïmplementeerd binnen een event-driven microservices-architectuur op Azure (Service Bus, Container Apps, Terraform). CI/CD-migraties, GraphQL-integraties en stakeholdercommunicatie in meerdere talen zijn dagelijkse praktijk.\n\nBij DPG Media en Uitgeverij Van In nam deze kandidaat tech-leadrollen op met volledige ownership over architectuur en delivery. De combinatie van aantoonbare AI-implementatie, cloud-native Azure-ervaring en brede sectorkennis (automotive, media, edtech) maakt dit een profiel dat zich snel thuis voelt in ITP's multidisciplinaire context.\n\nZin in een korte call?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 17,
+        "score": 66,
+        "reason": "Deze kandidaat leidt architectuur en coaching in complexe overheidsprojecten met DDD en microservices, maar AI-ervaring ontbreekt.",
+        "check": "t21"
+      }
+    ]
+  },
+  "https://jobs.lebonit.be/senior-digital-workplace-engineer": {
+    "title": "Senior Digital Workplace Engineer",
+    "url": "https://jobs.lebonit.be/senior-digital-workplace-engineer",
+    "company": "LEBON IT SERVICES",
+    "source": "https://jobs.lebonit.be/",
+    "first_seen": "2026-08-20",
+    "snippet": "Senior Digital Workplace Engineer - Lebon.IT Jobs Senior Digital… Senior Digital Workplace Engineer Solliciteer nu Met een team van 50 collega’s bouwt Lebon.IT elke dag aan sterke IT-omgevingen voor klanten, met expertise in Infra & Networking, Security en Digital Work . Voor ons groeiende Digital Workplace Team zoeken we een Senior Digital Workplace Engineer : iemand die technische diepgang combineert met klantinzicht, initiatief neemt en actief bijdraagt aan de verdere uitbouw van onze Microsoft 365-werking. Heb jij de ervaring en maturiteit om klanten te begeleiden in hun digitale transformatie, complexe M365-oplossingen uit te werken én tegelijk een jong team te versterken? Dan is dit een mooie opportuniteit. Als Senior M365 Engineer speel je een sleutelrol in analyse, ontwerp en implementatie van oplossingen binnen Microsoft 365. Je werkt nauw samen met klanten en collega’s, neemt waar nodig de lead en draagt bij aan de verdere groei en professionalisering van het team. Jouw takenpakket Solliciteer nu Je denkt actief mee met klanten over hoe hun bedrijfsprocessen efficiënter kunnen worden met digitale tools; Je vertaalt klantennoden naar functionele en technische oplossingen b",
+    "stack": [
+      "Microsoft 365",
+      "SharePoint",
+      "Teams",
+      "OneDrive",
+      "Exchange Online",
+      "Power Platform",
+      "Office 365",
+      "Entra ID",
+      "Intune",
+      "AI"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Domien",
+      "email": "jobs@lebonit.be"
+    },
+    "ai_matches": [
+      {
+        "row": 86,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen ervaring met Power Platform, M365-transformatietrajecten en AI-implementaties bij grote Belgische klanten.",
+        "check": "m15",
+        "pitch": "Beste,\n\nVoor de vacature van Senior Digital Workplace Engineer bij Lebon.IT wil ik u graag vragen of u samenwerkt met externe consultants — want ik heb een profiel dat bijzonder goed aansluit.\n\nDeze kandidaat beschikt over 15 jaar ervaring in digitale transformatie, met concrete hands-on kennis van het Microsoft-ecosysteem: Power Platform, Azure, Dynamics 365 en AI-implementaties. Bij 9altitudes leidde deze kandidaat internationale AI- en digitaliseringsprojecten, bij Stroohm werd AI-gestuurde optimalisatie uitgerold in samenwerking met Vlaamse overheid en Elia. De brug tussen klantennoden en technische M365-oplossingen is precies wat deze kandidaat dagelijks doet — gecombineerd met sterke communicatie op C-level en bewezen change management.\n\nKennis van Power Platform en AI/Copilot-toepassingen, gecombineerd met een procesmatige aanpak en klantgerichtheid, maakt dit een sterk profiel voor uw Digital Workplace Team.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 42,
+        "score": 48,
+        "reason": "Deze kandidaat heeft relevante Intune/SCCM-kennis en sterke infra-achtergrond, maar mist diepgaande M365/SharePoint/Power Platform-ervaring.",
+        "check": "k28"
+      },
+      {
+        "row": 51,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke Entra ID en Microsoft-infrastructuurervaring, maar focust op security engineering in plaats van Digital Workplace of M365-productiviteitsoplossingen.",
+        "check": "k20"
+      }
+    ]
+  },
+  "https://career.lcl.be/en/critical-infrastructure-noc-manager/": {
+    "title": "Critical Infrastructure NOC Manager",
+    "url": "https://career.lcl.be/en/critical-infrastructure-noc-manager/",
+    "company": "LCL",
+    "source": "https://career.lcl.be/en/",
+    "first_seen": "2026-08-20",
+    "snippet": "Critical Infrastructure NOC Manager - career.lcl.be Skip to content Stories Events About us Apply EN NL FR X Menu Close Stories Events About us Apply EN NL FR Critical Infrastructure NOC Manager Home > Vacancies Post published: 19 June 2026 LCL has many years of experience and unparalleled expertise in the data center industry . With locations in Diegem, Aalst, Antwerp, Huizingen, and Gembloux, we serve customers across a wide range of sectors. To meet evolving market demands, we have expanded our portfolio in recent years to include connectivity and cloud solutions . Alongside our technical expertise and reputation as a trusted partner, our focus on co-creation and sustainability remains a key driver of our success. That’s where the future lies. As you can see, we listen to our customers and build long-term relationships with them. To support LCL’s continued growth and further professionalize our Network Operations Center (NOC), we are looking for a Critical Infrastructure NOC Manager who will help build a high-performing and future-oriented NOC organization. What does a Critical Infrastructure NOC Manager do at LCL? As a Critical Infrastructure NOC Manager, you will contribute to",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@lcl.be"
+    },
+    "ai_matches": [
+      {
+        "row": 85,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare datacenterervaring (relocaties, DR-datacenter) en technische achtergrond in kritische infrastructuur bij o.a. politie en haven.",
+        "check": "k24",
+        "pitch": "Beste,\n\nRecent zagen we uw vacature voor een Critical Infrastructure NOC Manager bij LCL. Werkt u ook samen met externe consultants voor deze zoektocht?\n\nWe denken aan een kandidaat met 24 jaar ervaring in kritische infrastructuur en datacenters. Deze kandidaat leidde datacenterrelocaties voor meerdere politiezones en bouwde een disaster-recovery-datacenter voor de politiecloud — inclusief fiber, Wi-Fi en 5G. Bij de Port of Antwerp stond deze kandidaat in voor 5G-camerabewaking, wat aantoont dat operationele continuïteit en monitoring in kritische omgevingen vertrouwd terrein zijn.\n\nDe technische kennis van netwerkinfrastructuur, security-integratie en procesbeheer (ITIL, ISO 27001, ISO 22301) sluit nauw aan bij wat LCL zoekt. Teamleiderschap en stakeholdermanagement over meerdere sites zijn aangetoond in complexe overheids- en havenomgevingen.\n\nGraag stellen we deze kandidaat voor in een kort gesprek. Wanneer past het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 87,
+        "score": 62,
+        "reason": "Deze kandidaat heeft datacenterconsolidatie-ervaring (GDF Suez, 200 servers) en leidde cross-site infrastructuurprojecten in telecom en banking, maar mist directe NOC- of 24/7-operationele managementervaring.",
+        "check": "t20"
+      },
+      {
+        "row": 3,
+        "score": 52,
+        "reason": "Deze kandidaat heeft infrastructuur-PM- en PMO-ervaring inclusief ISO 27001 en ITIL, maar geen aantoonbare NOC-, BMS/DCIM- of kritische infrastructuurachtergrond.",
+        "check": "g20"
+      }
+    ]
+  },
+  "https://lineatrovata.com/jobs/allround-software-developer-2": {
+    "title": "IT Allround software developer Bekijken",
+    "url": "https://lineatrovata.com/jobs/allround-software-developer-2",
+    "company": "LINEA TROVATA SUNTEC",
+    "source": "https://lineatrovata.com/jobs",
+    "first_seen": "2026-08-20",
+    "snippet": "Allround software developer | Linea Trovata Suntec Suntec Warmtetechniek 2BWatt Oplossingen Energiemanagement Met slim energiemanagement bespaar je zonder grote investeringen. Door je bestaande installaties automatisch te sturen, verlaag je kosten, beperk je pieken en haal je meer uit je energie. Lees verder Zonnepanelen Zonnepanelen blijven een slimme investering voor iedereen die elektriciteit verbruikt. Deze groene energie vormt de basis voor stabiele energiekosten. Lees verder Batterijen Verlaag uw energiekosten met slimme batterijopslag. Peakshaving, zelfconsumptie en onbalansoptimalisatie voor bedrijven, landbouw en bij u thuis. Lees verder Laadpalen Met laadpalen ben je klaar voor de mobiliteit van de toekomst. Van eigen laadpalen om aan de laagste kost te kunnen laden tot laadpalen uitbaten. Lees verder Energiediensten Onze energiediensten geven je helder inzicht in je verbruik en kosten. Met gericht advies, ontwerp en opvolging helpen we je de juiste keuzes te maken en je energiefactuur structureel te verlagen. Lees verder Onderhoud & monitoring Haal meer uit je zonnepanelen met professioneel onderhoud en monitoring. Je installatie blijft veilig, efficiÃ«nt en in topcondit",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@lineatrovata.com"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 91,
+        "reason": "Deze kandidaat heeft directe EV-charging ervaring (OCPP 2.01), bouwde volledige SaaS-platformen en werkte als functioneel analist — exact het allround profiel gevraagd.",
+        "check": "l7",
+        "pitch": "Beste,\n\nLinea Trovata Suntec zoekt een allround software developer voor hun hernieuwbare-energieplatform — werkt u ook samen met externe consultants?\n\nWij hebben een kandidaat die naadloos aansluit. Deze kandidaat werkte recent aan embedded Java voor EV-laadpalen, inclusief implementatie van het OCPP 2.01-protocol en distributed load balancing — precies het domein van Suntec. Daarnaast bouwde deze kandidaat als co-founder een volledig SaaS-platform (PHP, Docker, Linux) inclusief architectuur, security en hosting, en fungeerde als functioneel analist bij NSX waar hij requirements vertaalde naar concrete softwareoplossingen met Angular, Jenkins en Docker. De breedte is indrukwekkend: web, embedded, CI/CD, API-integraties, Git — alles wat uw vacature vraagt.\n\nMag ik een kort gesprek voorstellen om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 12,
+        "score": 79,
+        "reason": "Deze kandidaat bouwde als freelancer diverse allround platformen (.NET, Angular, Python, Azure, Flutter, Ionic) voor Vlaamse KMO's, inclusief IoT-achtige logistiek- en automatiseringsprojecten.",
+        "check": "y5",
+        "pitch": "Beste,\n\nVoor de allround developer rol bij Linea Trovata Suntec wil ik graag een sterke freelance kandidaat voorstellen — werkt u open voor externe profielen?\n\nDeze kandidaat is actief als freelance full-stack developer voor Vlaamse KMO's en brengt precies de breedte mee die uw vacature vraagt: .NET, Angular, Python, Azure Functions en mobiele ontwikkeling (Flutter, Ionic). Voor Staalbeton (Groep Van Roey) bouwde deze kandidaat een logistiek platform verspreid over 30+ productiehal­len met desktop-, tablet- en driverinterfaces. Voor ACS Accountants werden 5.000+ klantdossiers gemigreerd naar de cloud via Azure Functions en Container Apps, met Python-automatisering en Power BI. Dat is hands-on, eigenaarsgericht en allround — exact wat een dynamisch energiebedrijf als Suntec nodig heeft.\n\nZin in een korte call deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 10,
+        "score": 68,
+        "reason": "Deze kandidaat heeft een sterke Java/Angular/Docker full-stack achtergrond met TDD-discipline, maar mist domein-relevantie in energie of embedded systemen.",
+        "check": "k4"
+      }
+    ]
+  },
+  "https://lineatrovata.com/jobs/software-engineer-energy-management-systems": {
+    "title": "IT Software Engineer - Energy Management Systems Bekijken",
+    "url": "https://lineatrovata.com/jobs/software-engineer-energy-management-systems",
+    "company": "LINEA TROVATA SUNTEC",
+    "source": "https://lineatrovata.com/jobs",
+    "first_seen": "2026-08-20",
+    "snippet": "Software Engineer - Energy Management Systems | Linea Trovata Suntec Suntec Warmtetechniek 2BWatt Oplossingen Energiemanagement Met slim energiemanagement bespaar je zonder grote investeringen. Door je bestaande installaties automatisch te sturen, verlaag je kosten, beperk je pieken en haal je meer uit je energie. Lees verder Zonnepanelen Zonnepanelen blijven een slimme investering voor iedereen die elektriciteit verbruikt. Deze groene energie vormt de basis voor stabiele energiekosten. Lees verder Batterijen Verlaag uw energiekosten met slimme batterijopslag. Peakshaving, zelfconsumptie en onbalansoptimalisatie voor bedrijven, landbouw en bij u thuis. Lees verder Laadpalen Met laadpalen ben je klaar voor de mobiliteit van de toekomst. Van eigen laadpalen om aan de laagste kost te kunnen laden tot laadpalen uitbaten. Lees verder Energiediensten Onze energiediensten geven je helder inzicht in je verbruik en kosten. Met gericht advies, ontwerp en opvolging helpen we je de juiste keuzes te maken en je energiefactuur structureel te verlagen. Lees verder Onderhoud & monitoring Haal meer uit je zonnepanelen met professioneel onderhoud en monitoring. Je installatie blijft veilig, efficiÃ«",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@lineatrovata.com"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 82,
+        "reason": "Deze kandidaat heeft directe ervaring met embedded Java voor EV-laadpalen, load-balancing algoritmen en OCPP-protocol — exact het EMS-domein van de vacature.",
+        "check": "l7",
+        "pitch": "Beste,\n\nWe lazen de vacature voor Software Engineer Energy Management Systems bij Linea Trovata Suntec met veel interesse. Werkt u ook samen met externe consultants voor deze rol?\n\nWe hebben een kandidaat die naadloos aansluit: deze kandidaat werkte recentelijk aan embedded Java-ontwikkeling voor EV-laadpalen, inclusief een gedistribueerd load-balancing algoritme en implementatie van het OCPP 2.01-protocol — technologieën en domeinen die direct aansluiten bij uw omvormers, laadpalen en EMS-integraties. Ervaring met Docker, Linux, CI/CD (Jenkins) en volledige architectuurverantwoordelijkheid in een SaaS-context toont brede technische rijpheid. Bovendien heeft deze kandidaat aantoonbare kennis van netwerken, embedded systemen en cloudcommunicatie, precies de domeinen die u zoekt. De combinatie van e-mobility-expertise en hands-on EMS-gerelateerde ontwikkeling maakt dit profiel bijzonder sterk voor uw team.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 77,
+        "score": 62,
+        "reason": "Deze kandidaat heeft sterke backend-ervaring met microservices, ETL en Go, maar mist directe embedded of energy-domein kennis.",
+        "check": "k5"
+      },
+      {
+        "row": 47,
+        "score": 38,
+        "reason": "Deze kandidaat is een sterke senior engineer, maar werkt in gaming/consumer tech zonder enige embedded, energy of EMS-raakvlakken.",
+        "check": "l10"
+      }
+    ]
+  },
+  "https://mabo-automation.com/jobs/ai-engineer/": {
+    "title": "AI Engineer",
+    "url": "https://mabo-automation.com/jobs/ai-engineer/",
+    "company": "MABO ENGINEERING & AUTOMATION",
+    "source": "https://mabo-automation.com/jobs/",
+    "first_seen": "2026-08-20",
+    "snippet": "AI Engineer - Mabo Automation Door naar de inhoud [email protected] Home Over ons AGV types Stapelaar Counterbalence Reachtruck VNA Zijlader Dubbel Diep Transporter AMR Service Nieuws Jobs FAQ Contact Home Over ons AGV types Stapelaar Counterbalence Reachtruck VNA Zijlader Dubbel Diep Transporter AMR Service Nieuws Jobs FAQ Contact Info aanvragen Home • Vacatures AI Engineer Lier (BE) Ben jij gebeten door artificiële intelligentie, robotics en technologische innovatie? Bij Mabo Automation werk je mee aan slimme oplossingen voor automatisch geleide voertuigen en breng je AI rechtstreeks in de praktijk binnen een hoogtechnologische productieomgeving. Voor onze vestiging in Lier zoeken we een AI Engineer die wil meebouwen aan de toekomst van automatisatie, navigatie en intelligente voertuigsystemen. Wat ga je doen : • Je werkt aan sensorfusie met onder andere lidar, camera en radar voor real-time besluitvorming. • Je ontwikkelt en traint AI-algoritmen voor navigatie, obstakeldetectie en routeoptimalisatie. • Je analyseert data van voertuigen om prestaties te verbeteren en storingen te voorspellen via predictive maintenance. • Je werkt samen met mechanical engineers en software develop",
+    "stack": [
+      "Python",
+      "C++"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen AI/ML-ervaring met Python, LLM fine-tuning, C++ en geospatiale/timeseries data in productieomgevingen.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor AI Engineer in Lier — werkt u samen met externe consultants voor dit soort profielen?\n\nIk heb een kandidaat die nauw aansluit bij wat Mabo zoekt. Deze kandidaat combineert diepgaande AI/ML-expertise (LLM fine-tuning, machine learning, Python) met een stevige C++-achtergrond — onder meer bij Nuance voor speech recognition in automotive systemen en bij Nasdaq voor C++ timeseries-analyse. De combinatie van embedded/real-time ervaring en AI-engineering is precies wat u zoekt voor navigatie en obstakeldetectie op AGV's.\n\nBij AWV werkte deze kandidaat aan infrastructuur-apps met geospatiale en tijdreeksdata, inclusief de introductie van lokaal gehoste LLM-modellen — een profiel dat 'edge-AI' en analytisch denken op systeemniveau combineert. Met 11 jaar ervaring is dit een zelfstandige engineer met aantoonbare ownership.\n\nKan ik u bellen voor een kort gesprek om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 72,
+        "reason": "Deze kandidaat leidde als CTO een computer-vision startup met ML-pipelines en bouwde industriële dataplatformen bij een 3D-printingfabrikant.",
+        "check": "w20",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor AI Engineer in Lier — werkt u samen met externe consultants?\n\nDeze kandidaat heeft als CTO van een computer-vision startup de volledige technische stack beheerd, inclusief ML-trainingsdatapipelines (FiftyOne, MongoDB) en Azure-infrastructuur — sterk relevant voor uw computer vision en edge-AI vereisten. Bij Materialise ontwikkelde deze kandidaat jarenlang grote dataplatformen en IoT-integraties in een hoogtechnologische productieomgeving, wat nauw aansluit bij de industrie-context van Mabo. Python, PySpark en Azure zijn bewezen sterktes. De overstap naar navigatie- en sensordata is kort, gegeven de architectuurervaring in productie-gebonden ML-systemen.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 26,
+        "score": 56,
+        "reason": "Deze kandidaat combineert embedded Linux/C++ (Sony) met digital-twin-prototyping bij imec, relevant voor robotics en sensordata.",
+        "check": "a8"
+      }
+    ]
+  },
+  "https://www.mapa.be/vacatures/system_engineer/": {
+    "title": "System Engineer",
+    "url": "https://www.mapa.be/vacatures/system_engineer/",
+    "company": "MAPA",
+    "source": "https://www.mapa.be/jobs/",
+    "first_seen": "2026-08-20",
+    "snippet": "System Engineer | MAPA BV +32 (51) 58 36 49 info@mapa.be Barnestraat 1F, 8680 Koekelare Home Aanbod Over ons Jobs Contact Get Support System Engineer 24 november 2025 WEBINAR 15 OKTOBER Als System Engineer installeer, configureer en onderhoud je IT-infrastructuur bij KMO’s in West- en Oost-Vlaanderen . Je krijgt een sleutelrol in het installeren, configureren en onderhouden van de IT-infrastructuur van onze klanten. Je werkt mee aan projecten, optimaliseert omgevingen en biedt ondersteuning waar nodig. Wat is jouw rol als System Engineer bij Mapa? Na een inwerkperiode van enkele maanden word je betrokken bij klantenprojecten. Je bent verantwoordelijk voor het installeren, configureren en onderhouden van de complete IT-infrastructuur van onze klanten in West- en Oost-Vlaanderen. Je werkt samen met klanten en collega’s aan continue optimalisatie van hun omgevingen. Je biedt on-site ondersteuning aan eindgebruikers . Af en toe assisteer je op de helpdesk om klanten op afstand te helpen. Wat is jouw profiel? Je beschikt over een bachelor- of masterdiploma . Je hebt een passie voor IT-infrastructuur en bent bedreven in Microsoft Server, virtualisatie, networking, Microsoft 365, monitori",
+    "stack": [
+      "Microsoft Server",
+      "virtualization",
+      "networking",
+      "Microsoft 365",
+      "monitoring",
+      "security"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@b-inside.be"
+    },
+    "ai_matches": [
+      {
+        "row": 51,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 20 jaar Microsoft-infrastructuurervaring met Windows Server, Active Directory, VMware en Azure — kerncompetenties voor deze rol.",
+        "check": "k20",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de openstaande vacature voor System Engineer bij MAPA. Werkt u ook samen met externe consultants voor deze zoektocht?\n\nIk wil u graag een ervaren infrastructuurprofessional voorstellen met meer dan 20 jaar hands-on ervaring in Microsoft Server-omgevingen, Active Directory, VMware vSphere en hybride Azure/Entra ID — technologieën die centraal staan in uw vacature. Deze kandidaat heeft doorheen zijn carrière complexe Windows Server-migraties (2008→2022) en VMware-trajecten geleid bij enterprise-klanten in de automotive, publieke en farmasector, en heeft aantoonbare ervaring met security hardening en monitoring.\n\nDe breedte van zijn infrastructuurkennis — van virtualisatie en identity tot netwerk en security — maakt hem bijzonder geschikt voor een veelzijdige System Engineer-rol bij KMO-klanten zoals MAPA die bedient.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer past het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 33,
+        "score": 65,
+        "reason": "Deze kandidaat heeft 8 jaar ervaring als network/system engineer met VMware, firewalls, DNS/DHCP en monitoring — relevant voor de infrastructuurtaken bij MAPA.",
+        "check": "l8"
+      },
+      {
+        "row": 42,
+        "score": 58,
+        "reason": "Deze kandidaat heeft 28 jaar infrastructuurervaring met LAN/WAN, firewall, WiFi en projectleiding van netwerk-rollouts bij KMO's en overheidssites.",
+        "check": "k28"
+      }
+    ]
+  },
+  "https://www.mattheeuws.com/nl/vacature/it-support-netwerkbeheerder/": {
+    "title": "IT Support & Netwerkbeheerder",
+    "url": "https://www.mattheeuws.com/nl/vacature/it-support-netwerkbeheerder/",
+    "company": "MATTHEEUWS ERIC TRANSPORT",
+    "source": "https://www.mattheeuws.com/nl/vacatures/",
+    "first_seen": "2026-08-20",
+    "snippet": "IT Support & Netwerkbeheerder - Mattheeuws info@mattheeuws.com +32 58 31 17 79 My Transport Nieuws Transport Kipper Silo Kipper Silo onderlosser Fuel Transport Huifwagen Container Over ons Ons team Certificaten Fotogallerij Locaties Geschiedenis Verkoopsvoorwaarden Vacatures Contact info@mattheeuws.com +32 58 31 17 79 My Transport Home Vacatures IT Support & Netwerkbeheerder Ben jij technisch sterk en haal je energie uit het beheren van IT-infrastructuur? Dan ben jij misschien de collega die we zoeken. Jouw rol Als IT Support & Netwerkbeheerder ben je verantwoordelijk voor het beheer, onderhoud en de optimalisatie van onze IT-omgeving. Je zorgt ervoor dat onze systemen veilig, stabiel en performant blijven. Wat ga je doen? Je beheert onze servers, netwerken en IT-infrastructuur. Je configureert en onderhoudt systemen en netwerkapparatuur. Je lost technische storingen op. Je ondersteunt collega’s bij complexe IT-vraagstukken. Je werkt mee aan IT-projecten en de verdere digitalisering van het bedrijf. Je bewaakt de veiligheid van onze IT-omgeving. Jouw profiel Je hebt ervaring met systeem- en netwerkbeheer. Je hebt kennis van Windows Server, Microsoft 365 en Active Directory. Je werk",
+    "stack": [
+      "Windows Server",
+      "Microsoft 365",
+      "Active Directory"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Mathieu Vander Paelt",
+      "email": "jobs@mattheeuws.com"
+    },
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 78,
+        "reason": "Deze kandidaat beheert LAN/WAN/WiFi/firewall én leidde een SD-WAN-uitrol over 280 sites, met brede netwerk- en supportervaring.",
+        "check": "k28",
+        "pitch": "Beste,\n\nIk nam kennis van uw vacature voor een IT Support & Netwerkbeheerder en vroeg me af of u ook met externe consultants werkt om deze positie in te vullen.\n\nIk wil u graag een sterke kandidaat voorstellen. Deze kandidaat heeft bijna 30 jaar IT-ervaring, waarvan recentelijk als network support engineer bij een grote Belgische nutsmaatschappij. Concreet: monitoring en interventies op LAN/WAN/WiFi/security, project lead van een volledige SD-WAN-uitrol (HPE Aruba EdgeConnect) over circa 280 productiesites, en dagelijks ondersteuning van collega's bij complexe netwerkproblemen — exact wat uw vacature vraagt.\n\nDaarnaast heeft deze kandidaat een solide achtergrond in Windows-migraties, netwerkinrichting bij zowel private als publieke organisaties, en sterke documentatievaardigheden. Een stabiel, hands-on profiel dat zelfstandig kan werken én initiatief neemt.\n\nIk stel graag een korte kennismaking voor. Wanneer past het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 51,
+        "score": 65,
+        "reason": "Deze kandidaat heeft 20 jaar hands-on ervaring met Windows Server, Active Directory en Microsoft 365 in complexe enterprise-omgevingen.",
+        "check": "k20"
+      },
+      {
+        "row": 85,
+        "score": 55,
+        "reason": "Deze kandidaat heeft brede infrastructuurervaring inclusief Active Directory en Office 365-migraties, maar focust sterk op projectmanagement en is een freelance PM-profiel.",
+        "check": "k24"
+      }
+    ]
+  },
+  "https://mabo-automation.com/jobs/senior-full-stack-software-engineer/": {
+    "title": "Senior Full Stack Software Engineer",
+    "url": "https://mabo-automation.com/jobs/senior-full-stack-software-engineer/",
+    "company": "MABO ENGINEERING & AUTOMATION",
+    "source": "https://mabo-automation.com/jobs/",
+    "first_seen": "2026-08-20",
+    "snippet": "Senior Full Stack Software Engineer - Mabo Automation Door naar de inhoud [email protected] Home Over ons AGV types Stapelaar Counterbalence Reachtruck VNA Zijlader Dubbel Diep Transporter AMR Service Nieuws Jobs FAQ Contact Home Over ons AGV types Stapelaar Counterbalence Reachtruck VNA Zijlader Dubbel Diep Transporter AMR Service Nieuws Jobs FAQ Contact Info aanvragen Home • Vacatures Senior Full Stack Software Engineer Lier (BE) Bouw mee aan de brains achter onze autonome voertuigen. Bij Mabo Engineering & Automation ontwikkelen we de technologie die logistiek slimmer en autonomer maakt. Onze AGV Fleet Manager is het kloppende hart van onze automatische voertuigen, een platform dat meerdere AGV’s (Automated Guided Vehicles) aanstuurt, coördineert en optimaliseert binnen complexe magazijnomgevingen. Om dit platform verder te laten groeien, zoeken we een Senior Full Stack Software Engineer met een passie voor innovatieve technologie, teamwork en hoogwaardige code. Wat ga je doen : In een team van software engineers werk je aan de volgende generatie van ons AGV Fleet Manager-platform. Je combineert softwareontwikkeling, architectuurkeuzes en DevOps-verantwoordelijkheden om een perf",
+    "stack": [
+      "Vue.js",
+      "TypeScript",
+      "C#",
+      ".NET",
+      "Entity Framework",
+      "SQL",
+      "Docker",
+      "REST APIs"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 84,
+        "reason": "Deze kandidaat heeft 8 jaar bewezen C#/.NET + Angular/TypeScript ervaring met CQRS, DDD, Docker en Azure in productieomgevingen.",
+        "check": "e8",
+        "pitch": "Beste,\n\nMabo Engineering & Automation is op zoek naar een Senior Full Stack Software Engineer voor hun AGV Fleet Manager-platform — werkt u daarvoor samen met externe consultants?\n\nDeze kandidaat heeft 8 jaar hands-on ervaring in exact de gevraagde stack: C# .NET, Angular/TypeScript, Entity Framework, SQL, Docker en CQRS/event sourcing op de backend. Bij Wit-Gele Kruis werkt deze kandidaat momenteel aan een cloud-gebaseerde applicatie met nadruk op performantie en geautomatiseerde flows — een directe parallel met de uitdagingen bij Mabo. Eerder bij CERM en Solidaris leverde deze kandidaat .NET + Angular consultancy op productieniveau, met sterke aandacht voor kwaliteit (Jest, Cypress, NUnit) en DDD/TDD.\n\nDe kennis van CQRS, event sourcing en module federation, gecombineerd met een kwaliteitsgerichte aanpak, maakt deze kandidaat bijzonder geschikt voor een seniorrrol met architectuurverantwoordelijkheid.\n\nKan ik u kort bellen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 14,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring als team lead met Docker, EF Core, CQRS, event-driven design en een sterke mentorrol.",
+        "check": "i26",
+        "pitch": "Beste,\n\nMabo Engineering & Automation zoekt een Senior Full Stack Software Engineer voor hun AGV Fleet Manager — werkt u hiervoor samen met externe consultants?\n\nDeze kandidaat brengt meer dan 25 jaar .NET-expertise mee, van ASP.NET Core en EF Core tot Docker, NServiceBus en event-driven architecturen — precies de combinatie die Mabo vraagt. Als team lead begeleidt deze kandidaat actief juniors en interns, geeft code reviews en verdedigt clean architecture-principes, wat aansluit bij de gevraagde mentorrol. De frontend-bagage in Angular en React met TypeScript vult het full-stack profiel volledig in.\n\nConferentiebezoeken zoals DDD Europe en GOTO tonen een kandidaat die architectuurpatronen als CQRS en DDD niet alleen toepast maar ook actief bijhoudt. De Vue.js-ervaring ontbreekt expliciet, maar de breedte en diepte van het profiel maken dit een zeer sterk dossier.\n\nBeschikbaar voor een kort gesprek om dit concreet te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 78,
+        "reason": "Deze kandidaat ontwierp modulaire Azure-integratiearchitectuur met CQRS, Docker, CI/CD en Angular in slechts 4 jaar freelance ervaring.",
+        "check": "r4",
+        "pitch": "Beste,\n\nMabo Engineering & Automation is op zoek naar een Senior Full Stack Software Engineer voor hun cloud-gebaseerd AGV-platform — werkt u daarvoor samen met externe consultants?\n\nDeze kandidaat heeft in 4 jaar freelance werk bewezen complexe architectuurvraagstukken zelfstandig aan te kunnen: bij BrainSolutions ontwierp deze kandidaat een modulair Azure-integratieframework met .NET, Azure Functions, Azure Service Bus, Docker en CI/CD — en leidde daarbij intern de kennisdeling rond React en moderne tooling. De CQRS/MediatR/DDD-aanpak en Linux-first workflow sluiten nauw aan bij de technische verwachtingen van Mabo. Eerder bij Cloudware leverde deze kandidaat 3D-configurators met real-time validatie op basis van .NET en Angular.\n\nHoewel de totale ervaring iets korter is dan gevraagd, toont de projecthistorie het ownership en de architectuurrijpheid van een senior profiel.\n\nZin om dit even kort te bespreken?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  "https://www.mattheeuws.com/nl/vacature/it-medewerker-support/": {
+    "title": "IT-medewerker Support",
+    "url": "https://www.mattheeuws.com/nl/vacature/it-medewerker-support/",
+    "company": "MATTHEEUWS ERIC TRANSPORT",
+    "source": "https://www.mattheeuws.com/nl/vacatures/",
+    "first_seen": "2026-08-20",
+    "snippet": "IT-medewerker Support - Mattheeuws info@mattheeuws.com +32 58 31 17 79 My Transport Nieuws Transport Kipper Silo Kipper Silo onderlosser Fuel Transport Huifwagen Container Over ons Ons team Certificaten Fotogallerij Locaties Geschiedenis Verkoopsvoorwaarden Vacatures Contact info@mattheeuws.com +32 58 31 17 79 My Transport Home Vacatures IT-medewerker Support Ben jij gebeten door IT en help je collega’s graag verder bij technische vragen? Dan zijn wij op zoek naar jou. Jouw rol Als IT-medewerker Support ben je het eerste aanspreekpunt voor IT-gerelateerde vragen binnen Mattheeuws Transport. Je zorgt ervoor dat collega’s vlot kunnen werken en ondersteunt hen bij hardware, software en dagelijkse IT-uitdagingen. Wat ga je doen? Behandelen van IT-supportvragen van collega’s. Installeren en configureren van pc’s, laptops, smartphones en printers. Ondersteunen bij Microsoft 365 en andere bedrijfsapplicaties. Aanmaken en beheren van gebruikersaccounts. Registreren en opvolgen van supporttickets. Samenwerken met externe IT-partners waar nodig. Jouw profiel Je hebt een passie voor IT. Je werkt nauwkeurig en oplossingsgericht. Je bent communicatief en klantvriendelijk. Je hebt een basiskenni",
+    "stack": [
+      "Windows",
+      "Microsoft 365"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Mathieu Vander Paelt",
+      "email": "jobs@mattheeuws.com"
+    },
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede IT-infrastructuurervaring maar focust sterk op netwerk- en enterprise-engineering, ver boven het gevraagde 1ste-lijns supportniveau.",
+        "check": "k28"
+      }
+    ]
+  },
+  "https://www.mattheeuws.com/nl/vacature/ict-support-medewerker/": {
+    "title": "ICT Support Medewerker",
+    "url": "https://www.mattheeuws.com/nl/vacature/ict-support-medewerker/",
+    "company": "MATTHEEUWS ERIC TRANSPORT",
+    "source": "https://www.mattheeuws.com/nl/vacatures/",
+    "first_seen": "2026-08-20",
+    "snippet": "ICT Support Medewerker - Mattheeuws info@mattheeuws.com +32 58 31 17 79 My Transport Nieuws Transport Kipper Silo Kipper Silo onderlosser Fuel Transport Huifwagen Container Over ons Ons team Certificaten Fotogallerij Locaties Geschiedenis Verkoopsvoorwaarden Vacatures Contact info@mattheeuws.com +32 58 31 17 79 My Transport Home Vacatures ICT Support Medewerker Heb je een passie voor IT en help je graag collega’s verder bij technische vragen en problemen? Dan ben jij misschien de ICT-supportmedewerker die wij zoeken. Jouw rol Je bent het eerste aanspreekpunt voor IT-gerelateerde vragen binnen onze organisatie. Je zorgt ervoor dat gebruikers snel en efficiënt geholpen worden en ondersteunt mee het dagelijkse beheer van onze IT-omgeving.Wat ga je doen? Ondersteunen van gebruikers bij hardware- en softwareproblemen Installeren en configureren van pc’s, laptops en randapparatuur Beheer van gebruikersaccounts en toegangsrechten Registreren en opvolgen van supportaanvragen Oplossen van netwerk- en connectiviteitsproblemen Ondersteunen bij IT-projecten en implementaties Documenteren van procedures en oplossingen Jouw profiel Je hebt een opleiding in IT of relevante ervaring Je hebt kennis",
+    "stack": [
+      "Windows",
+      "Microsoft 365"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Mathieu Vander Paelt",
+      "email": "jobs@mattheeuws.com"
+    },
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede IT-infrastructuurervaring maar focust op netwerken op enterprise-niveau, ver boven de gevraagde 1e-lijn supportrol.",
+        "check": "k28"
       }
     ]
   }
