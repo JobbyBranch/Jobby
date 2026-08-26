@@ -1,0 +1,1607 @@
+[
+  {
+    "title": "IT PMO (M/F)",
+    "url": "https://www.davidson.group/nos-offres/pmo-h-f",
+    "company": "DAVIDSON BELGIUM",
+    "source": "https://www.davidson.group/nos-offres",
+    "first_seen": "2026-08-26",
+    "snippet": "IT PMO (M/F) – Davidson Submit a project Join us Subsidiaries Vacancy available: Luxembourg Lyon Toulouse Sophia Antipolis Île-de-France I discover the subsidiaries Subsidiaries Davidson Luxembourg Davidson Lyon Davidson Midi-Pyrénées Davidson PACA Davidson Paris I discover the profile of recruiters sevane.sarian@davidson.fr Joffray Bruggeman Jenna Savio Alexis CAHEN Ibrahima Faye aleyna.zorlu@davidson.fr Joining Davidson not only means joining a group of 3,000 consultants in 6 countries and 2 continents, but also joining a company that has been voted a Great Place To Work France and Europe by its employees for no less than 4 years , as well as one of the largest B Corps in France, named Best in the World in the “employees” category in 2022! (“B Corps” form a community of companies that have decided not to be the best in the world but the best FOR the world). Because our development is based on strong principles: Deep respect for all our stakeholders: consultants, customers and suppliers. Because if work “can’t buy you happiness”, it can however cause unhappiness. Therefore, we are committed to listening and acting honestly. Equal opportunities in the processing of our applications",
+    "stack": [
+      "Java",
+      ".Net",
+      "Go"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "contact": {
+      "name": null,
+      "email": "sevane.sarian@davidson.fr"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Interim team lead, functioneel analist en interne seminarissen tonen enige PMO-aanverwante ervaring, maar geen echte PMO- of changemanagementachtergrond.",
+        "check": "l7"
+      },
+      {
+        "row": 16,
+        "score": 33,
+        "reason": "Technisch lead met juniorcoaching en architectuurverantwoordelijkheid, maar profiel is volledig technisch zonder PMO- of ITIL-ervaring.",
+        "check": "t21"
+      },
+      {
+        "row": 13,
+        "score": 30,
+        "reason": "Sterke mentorervaring en teamleadrol over 26 jaar, maar geen aantoonbare PMO-, change management- of ITIL-achtergrond.",
+        "check": "i26"
+      }
+    ]
+  },
+  {
+    "title": "Webdeveloper",
+    "url": "https://aalst.be/vacatures/webdeveloper",
+    "company": "Autonoom Gemeentebedrijf SportAG",
+    "source": "https://aalst.be/vacatures",
+    "first_seen": "2026-08-26",
+    "snippet": "Webdeveloper | Stad Aalst Overslaan en naar de inhoud gaan Stad Aalst Aalst vergeet je nooit Main navigation Dienstverlening Adressen & openingsuren Zoeken Afspraak maken Zoeken Menu Menu Menu Close menu Nuttige links Dienstverlening Adressen & openingsuren Evenementen Nieuws Vacatures Digitaal loket Maak een afspraak Maak een melding Thema's Burgerzaken en documenten Akten en attesten Eensluidend verklaarde kopie Geboorte, adoptie en erkenning Toon meer Cultuur, sport en vrije tijd Buurten en verenigingen Cultuur Evenementen en activiteiten Toon meer Mobiliteit, parkeren en openbare werken Mobiliteit Openbare werken en wegenwerken Parkeren en parkeerzones Toon meer Wonen en (ver)bouwen Aansluiting nutsvoorzieningen Bouwen, verbouwen en renoveren Huren en verhuren Toon meer Jobs en ondernemen Ondernemen Vacatures en werken voor Aalst Werken in regio Aalst Samenleven, welzijn en gezondheid Integratie en inburgering Openbare toiletten Samenleven Toon meer Geld, hulp en advies Digitaal Energie Geld Toon meer Leren en opvoeden Kinderopvang Onderwijs Opvoeden Preventie en veiligheid Automatische Externe Defibrilator (AED) Brandweer Buurtinformatie netwerken (BIN) Toon meer Groen, afval ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@aalst.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare full-stack webervaring (PHP, Angular, Docker) én SaaS-architectuur als co-founder van een eigen webapplicatie.",
+        "check": "l7",
+        "pitch": "Beste,\n\nVoor de vacature van Webdeveloper bij SportAG / Stad Aalst vroeg ik me af of u samenwerkt met externe consultants. Ik stel u graag een profiel voor dat ik denk dat u zal aanspreken.\n\nDeze kandidaat heeft 7 jaar hands-on webontwikkelingservaring, waaronder het volledig zelfstandig bouwen van een SaaS-webapplicatie (PHP, Docker, Linux) van architectuur tot hosting en security. Daarnaast ontwikkelde deze kandidaat een Angular-frontend voor een CRM-applicatie, beheerde CI/CD-pipelines met Jenkins en Docker, en nam interim teamleadverantwoordelijkheid op. De combinatie van probleemoplossend werken, kennisdeling via interne seminars en end-to-end projectuitvoering sluit nauw aan bij wat Stad Aalst zoekt in haar Team Data en Ontwikkeling.\n\nIk zou dit profiel graag kort toelichten in een telefoongesprek — zou u deze week een momentje hebben?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 9,
+        "score": 68,
+        "reason": "Deze kandidaat werkt als full-stack consultant op Vlaamse overheidstrajecten met Angular, Java/Spring en Docker, exact de publieke-sector context van Stad Aalst.",
+        "check": "k4"
+      },
+      {
+        "row": 18,
+        "score": 38,
+        "reason": "Deze kandidaat is een ervaren .NET backend senior, maar heeft geen aansluiting bij de publieke sector en het profiel is zwaarder dan gevraagd voor een bachelorsfunctie.",
+        "check": "n16"
+      }
+    ]
+  },
+  {
+    "title": "Antwerpen, Bornem Junior IT – System Engineer Ontdek meer",
+    "url": "https://claytonsteam.com/nl-BE/jobs/detail/399763",
+    "company": "Clayton of Belgium",
+    "source": "https://claytonsteam.com/nl-BE/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Junior IT – System Engineer Over Clayton FAQ Nieuws Jobs 9 Documenten Nederlands Duits Engels Spaans Frans Producten Onze Producten Ons productgamma omvat verzadigde stoomgeneratoren van 100kW tot 13MW, warmteterugwinningsketels en oververhitte stoomketels. Ontdek al onze producten Stoomgeneratoren Stoomgeneratoren Tot 20.000 kg/u Oververhitte Stoom Tot 425 °C Hogedruk Stoom Tot 200 bar Clayton Steam Master (CSM) Tot 2.000 kg/u Elektrische stoomgenerator Vanaf 50 kg/u Afvoergasketels Motoren Turbines Ovens Complete stoomoplossingen Container Stoominstallaties Skid Stoomoplossingen Kant-en-klare Stoomoplossingen Industrieën Onze Industrieën Ontdek al onze industrieën Industries Dierenvoeding Dranken Brouwerijen Chemische industrie Distilleerderijen Voedingsindustrie Scheepvaart & Offshore Olie & Gas Papierindustrie Farmaceutische industrie Energiecentrales Textielindustrie Gezondheidszorg & ziekenhuizen Service Onze Services Ontdek al onze Services Services Onderhoudsovereenkomsten Waterbehandeling Inbedrijfstelling Reserveonderdelen Training Retrofits WAP Wateranalysepakket Connectie vanop afstand Stoomverhuur Succesverhalen Contact Savings Calculator Products Producten Stoomgenera",
+    "stack": [
+      "Microsoft 365",
+      "Entra ID",
+      "Azure AD",
+      "Exchange Online",
+      "Microsoft Defender",
+      "SharePoint",
+      "OneDrive",
+      "Windows",
+      "Microsoft Intune",
+      "Dynamics 365"
+    ],
+    "experience": "2+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 82,
+        "reason": "Deze kandidaat heeft directe hands-on ervaring met D365 F&O-implementatie én M365-integraties, exact wat de vacature vraagt.",
+        "check": "r13",
+        "pitch": "Beste,\n\nU bent op zoek naar een Junior IT – System Engineer met kennis van Microsoft 365 en Dynamics 365 F&O. Werkt u ook samen met externe consultants voor specifieke profielen?\n\nDeze kandidaat is momenteel actief als functioneel analist op een D365 F&O-implementatie bij Febelco, waarbij migraties en API-integraties tussen D365 en externe systemen centraal staan. Dat sluit naadloos aan bij uw vraag naar iemand die kan meedraaien in SharePoint- en D365-projecten én gebruikersdocumentatie opstelt.\n\nDarnaast heeft deze kandidaat een sterk trackrecord in stakeholdercommunicatie, het opstellen van functionele en technische designs, en het begeleiden van teams — kwaliteiten die u expliciet zoekt voor training en gebruikersondersteuning.\n\nMet 13 jaar brede IT-ervaring in sectoren als pharma, HR en e-learning brengt deze kandidaat meteen toegevoegde waarde voor Clayton of Belgium.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 48,
+        "score": 71,
+        "reason": "Deze kandidaat heeft uitgebreide M365-expertise (Entra ID, Defender, Exchange) maar is duidelijk senior boven het junior profiel.",
+        "check": "k20"
+      },
+      {
+        "row": 31,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke netwerkachtergrond maar geen aantoonbare M365-, Entra ID- of Dynamics 365-ervaring die de vacature vereist.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Integration Manager Address Lokeren, Belgium",
+    "url": "https://www.movu-robotics.com/en/our-latest-jobs/integration-manager-0",
+    "company": "MOVU",
+    "source": "https://www.movu-robotics.com/en/our-latest-jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Join the Movu team as Integration Manager Skip to main content Search Service News & Insights Events 3D showroom Partners Hub Contact Jobs Main navigation Warehouse Solutions Solutions Movu atlas Movu software R&D roadmap Movu ifollow Movu escala Movu eligo Applications Applications Picking Staging Dense Storage Cold Chain Logistics Insights & Tools 3D showroom Success Stories See all Why Coldo chose Movu atlas to power one of the world's highest automated deep-freeze warehouses Why RAJA Group chose to modernize its logistics Movu provides KDL with automation that is better, bigger and easier. Why Movu Why Movu Easier Automation Plug & Play Modularity Space Optimisation Quick Installation Energy Efficiency Human-machine collaboration stow Group affiliation Service & Support Support Our Customer Care On-Site Assembly Engineering Maintenance Services Inspection Services Spare Parts Assistance Submit a support request 24/07 Support Line FAQ Our Company Learn About Movu Movu Team About stow Group Innovation & Development Events Our Policies Sustainability People & Compliance Connect Contact Us Global Locations Newsletter Jobs Our Latest Jobs News & media information News & Insights New",
+    "stack": [],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 59,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen ervaring in SAP-integraties, applicatie-integratie en functionele analyse bij Colruyt, Oleon en Belfius.",
+        "check": "d26",
+        "pitch": "Beste,\n\nMovu Robotics is op zoek naar een Integration Manager met ervaring in IT-integraties, functionele analyse en logistieke softwaretrajecten — werkt u samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat beschikt over 26 jaar ervaring in applicatie-integratie en datamigratie, met recente opdrachten die perfect aansluiten bij uw vacature. Bij Colruyt Group werkt deze kandidaat momenteel als build manager voor SAP S4/HANA-interfacedelivery én als delivery PM voor SAP Digital Manufacturing — rechtstreeks relevant voor de productie- en logistiekautomatisering die Movu levert. Bij Oleon leidde deze kandidaat een volledig ERP-transformatieprogramma inclusief governance en functionele analyse. De technische roots in applicatie-integratie, gecombineerd met sterke klantgerichte communicatie en Prince2/ITIL-certificering, maken dit een kandidaat die van sales handover tot go-live de volledige projectcyclus beheerst.\n\nZou u open staan voor een kort gesprek om deze kandidaat concreet voor te stellen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 27 jaar ervaring inclusief ERP-rollouts, logistiek (DHL) en functionele business-IT-programma's.",
+        "check": "f27",
+        "pitch": "Beste,\n\nMovu Robotics zoekt een Integration Manager die klantworkshops leidt, functionele specificaties schrijft en IT-softwaretrajecten van A tot Z beheert — werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat brengt 27 jaar brede project- en programma-ervaring mee, opgebouwd van developer/analist tot business program manager. Relevant voor uw vacature: bewezen ERP-rollouts gecombineerd met business process management, ervaring bij DHL (logistieke domeinkennis), en een sterke track record in functionele analyse en legacy-migraties. Deze kandidaat beheerde gemengde business+IT-teams van 25+ FTE en rapporteerde aan CEO- en CIO-niveau, wat aansluit bij de coördinerende rol tussen klanten, WMS/MES-leveranciers en interne teams die Movu vraagt. Prince2, Scrum en SAFe gecertificeerd.\n\nGraag stel ik voor om even te bellen over de concrete fit met uw vacature.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 61,
+        "score": 70,
+        "reason": "Deze kandidaat heeft supply-chain PMO-ervaring met ERP-integraties, processtandaardisatie en datagovernance in logistiek gedreven organisaties.",
+        "check": "b20"
+      }
+    ]
+  },
+  {
+    "title": "ERP Application Owner BE",
+    "url": "https://careers.omp.com/jobs/belgium/erp-application-owner--4894687101",
+    "company": "OM PARTNERS",
+    "source": "https://careers.omp.com/",
+    "first_seen": "2026-08-26",
+    "snippet": "ERP Application Owner at OMP We see you are located in China. Do you want to switch to our Chinese website? Go to Chinese website smart with heart smart with heart Life at OMP Life at OMP What we do What drives us Your future with us Meet our talent Meet our talent Tech and Product Consulting Business Operations Early talent Our activities Our activities Blog News Testimonials Events Get in touch Get in touch Contact us Our locations FAQ Search for jobs logged in as jobs erp application owner https://careers.omp.com ERP Application Owner Belgium - Internal Services department We’re a game changer that optimizes supply chains of the world’s leading companies with our very own smart software and services. Do you want to own and shape the future of a global ERP platform? Do you enjoy combining business process ownership with system expertise? And are you ready to join a place where smart solutions meet human collaboration? Then you might be the ERP Application Owner we’re looking for. Apply now Our offer We offer you more than just a job. Our culture and benefits inspire you to become the best version of yourself. Continuous learning : Access customized training, coaching programs, an",
+    "stack": [
+      "MS Dynamics 365 F&O",
+      "Power BI",
+      "Navan",
+      "Fabrics"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 79,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on ervaring met Dynamics 365 F&O-implementaties en internationale ERP-programma's als product owner en senior projectmanager.",
+        "check": "m15",
+        "pitch": "Beste,\n\nWij lazen met interesse uw vacature voor een ERP Application Owner en vroegen ons af of OMP samenwerkt met externe consultants voor dergelijke profielen.\n\nWij hebben een uitzonderlijk sterke kandidaat beschikbaar die naadloos aansluit bij wat u zoekt. Deze kandidaat heeft bij 9altitudes internationale AI- en digitale transformatieprogramma's geleid op exact het platform dat u gebruikt: Microsoft Dynamics 365 F&O. Daarnaast was deze kandidaat bij Mateco/TVH international product owner van een centraal D365-programma inclusief integrratieplatform, met advisering op C-level — een sterk signaal van ownership en strategische betrokkenheid.\n\nMet 15 jaar ervaring, PSPO II, PRINCE2 Practitioner en ITIL 4-certificeringen, en bewezen Power BI- en Power Platform-expertise, voldoet deze kandidaat aan zowel de technische als de business-side van uw rol. De combinatie van roadmap ownership, stakeholdermanagement en hands-on D365-kennis maakt dit een directe match.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 5,
+        "score": 76,
+        "reason": "Deze kandidaat is actief als interne PO Finance IT bij TUI en beheert het volledige finance-IT-landschap, wat sterk aansluit bij de finance-proceskennis die OMP vraagt.",
+        "check": "l5",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een ERP Application Owner wilden wij u graag een kandidaat voorstellen die wij momenteel begeleiden — mocht u openstaan voor externe consultants.\n\nDeze kandidaat is momenteel Product Owner Finance IT bij TUI en is verantwoordelijk voor het volledige BeNe finance-IT-landschap, inclusief backlogbeheer, geautomatiseerde refunds en autorisatiedesign op componentniveau. Dit zijn precies de vaardigheden die u zoekt: business process ownership gecombineerd met een hands-on, analytische aanpak.\n\nHoewel directe Dynamics 365 F&O-ervaring nog verder kan groeien, toont de achtergrond in finance-operaties, SQL, agile delivery en stakeholdermanagement een profiel dat snel inzetbaar is in uw omgeving. PSPO I gecertificeerd, en tech-geletterd genoeg om vlot samen te werken met dev-teams.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 21,
+        "score": 62,
+        "reason": "Deze kandidaat combineert Dynamics 365-kennis met Power BI en product ownership, maar mist aantoonbare F&O- en financiële proceservaring in een SaaS-omgeving.",
+        "check": "i15"
+      }
+    ]
+  },
+  {
+    "title": "Datamanager",
+    "url": "https://www.randstad.be:443/werknemers/jobs/s-it/s2-it-managers/r-datamanager/",
+    "company": "RANDSTAD HR SOLUTIONS",
+    "source": "https://www.randstad.be:443/werknemers/jobs/",
+    "first_seen": "2026-08-26",
+    "snippet": "Datamanager Jobs & vacatures | Randstad kantoren NL FR EN randstad een job zoeken alle jobs flexijob studentenjob studiegerelateerde job tijdelijke jobs tijdelijke jobs optie vast vast contract jobs per stad Aalst Antwerpen Brugge Brussel Genk Gent Hasselt Mechelen populaire bedrijven BD Circle K Distrilog H.Essers Kuehne+nagel Plopsa Soudal Volvo Cars profiel aanmaken werknemers mijn carrière beroepen carrièretips opleidingen sollicitatietips terug aan het werk waarom kiezen voor randstad operational construct contact center horeca industry logistics retail technics transport professional engineering finance en accounting healthcare HR life sciences office en admin sales en marketing studenten alle studentenjobs studierelevante job digital werkgevers onze oplossingen inhouse interim management online tools opleidingen overheid payrolling personeel aanwerven vaste aanwerving operational construct contact center horeca industry logistics retail technics transport professional engineering finance en accounting healthcare HR life sciences office en admin support sales en marketing digital enterprise career development employability MSP outplacement RPO talent advisory aan de slag aanv",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 17 jaar data-engineering ervaring met aantoonbare focus op datakwaliteit, governance en dataplatformen bij grote bedrijven.",
+        "check": "b17",
+        "pitch": "Beste,\n\nVia deze weg wil ik peilen of Randstad HR Solutions samenwerkt met externe consultants voor uw openstaande positie als Datamanager.\n\nIk stel u graag deze kandidaat voor: een data-professional met 17 jaar ervaring in databeheer, datakwaliteit en data governance. Bij Nike ontwerpt en beheert deze kandidaat momenteel Databricks/PySpark-pipelines met ingebouwde validatie en monitoring, en pakt production-incidenten proactief aan via Kafka streaming en Splunk. Bij Cognizant leidde deze kandidaat als architect een volledige Snowflake-migratie inclusief data governance frameworks en self-service analytics — precies het type datamanagement dat een organisatie zoals Randstad structureel sterker maakt.\n\nDe combinatie van technische diepgang (CI/CD, automatisch testen, runbooks) én stakeholderfacing governance-aanpak maakt deze kandidaat bijzonder geschikt om data als bedrijfsasset te beheren.\n\nGraag vertel ik u meer in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 72,
+        "score": 76,
+        "reason": "Deze kandidaat combineert databeheer en functionele analyse met ervaring in HR/payroll-domein (Acerta) en data-analytics (KBC DQI-team).",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Datamanager, en wil graag nagaan of Randstad HR Solutions openstaat voor externe profielen.\n\nDeze kandidaat werkt momenteel bij KBC in een DQI-team (Data Quality & Integration) op een AWS-gebaseerd analytics platform voor groepsrapportering, inclusief cross-systeem integratieanalyse en functionele specs met SQL-logica. Daarvoor was deze kandidaat senior functioneel analist bij Acerta — actief in het HR- en payroll-domein, met ETL-integraties, BPMN-procesmodellering en teamcoördinatie. Die combinatie van datakwaliteit, HR-domeinkennis en analytische vaardigheden (Power BI, SAP Analytics Cloud) sluit nauw aan bij wat een Datamanager bij Randstad nodig heeft.\n\nDeze kandidaat is gecertificeerd (PSPO, SAFe) en gewend te werken op het snijvlak van business en IT.\n\nZin in een kort gesprek om de match te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 27,
+        "score": 58,
+        "reason": "Deze kandidaat heeft diepgaande HR- en payroll-domeinkennis als BA bij Acerta, relevant voor datakwaliteit in een HR-context.",
+        "check": "y9"
+      }
+    ]
+  },
+  {
+    "title": "IT Busi­ness Analyst IT, Change & Innovation Antwerpen",
+    "url": "https://www.vanbreda.be/nl/werken-bij-vanbreda/onze-vacatures-archief/it-business-analyst",
+    "company": "VANBREDA CREDINCO",
+    "source": "https://www.vanbreda.be/nl/werken-bij-vanbreda/onze-vacatures",
+    "first_seen": "2026-08-26",
+    "snippet": "Vanbreda | IT Business Analyst Inzichten Oplossingen Over ons Werken bij Vanbreda Zoeken Ik ben klant Contact NL English Français Terug naar het overzicht IT Business Analyst Antwerpen Solliciteer Vanbreda Risk & Benefits is de grootste Belgische verzekeringsmakelaar en risicoconsultant met meer dan 780 medewerkers en een duidelijke groeistrategie. Om onze groeiambities waar te maken zijn wij voortdurend op zoek naar nieuw talent en streven we ook naar een werkomgeving waar onze medewerkers gelukkig en vooral volledig zichzelf kunnen zijn. Onze IT afdeling is in volle groei en heeft een belangrijke rol in de innovatie, groei én in de successen van onze organisatie. Omwille van deze cruciale rol investeert Vanbreda Risk & Benefits sterk in IT en in de verdere groei van het team. Ben jij een gedreven IT Business Analyst die graag een strategische schakel vormt tussen business en IT? Hou jij ervan om complexe businessbehoeften te vertalen naar weldoordachte IT-oplossingen? Dan zijn wij op zoek naar jou! Hoe ziet jouw takenpakket eruit? Als IT Business Analyst speel je een sleutelrol in het vertalen van complexe businessbehoeften naar slimme IT-oplossingen. Je analyseert processen, adv",
+    "stack": [
+      ".NET",
+      "Microsoft"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@vanbreda.be"
+    },
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 82,
+        "reason": "Deze kandidaat leidde 6 functionele analisten bij Xerius (mutualities/health insurance), beheerst BPMN, stakeholdermanagement en agile — sterk profiel voor verzekeringssector.",
+        "check": "r13",
+        "pitch": "Beste,\n\nVanbreda Risk & Benefits is op zoek naar een IT Business Analyst die business en IT verbindt binnen een verzekeringsomgeving — werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWij hebben een freelance Business & Functional Analyst met 13 jaar ervaring die wij graag voorstellen. Deze kandidaat werkte als Solution Manager bij Xerius, waar hij/zij chapter lead was van 6 functionele analisten en de richting bepaalde voor alle business development projecten — ownership en stakeholdermanagement op architectuurniveau. Relevanter nog: bij CM was deze kandidaat actief als Scrum Master én functioneel analist voor een multi-channel selfservice platform, wat nauw aansluit bij de verzekeringssector. De combinatie van agile werkmethodes, BPMN, ERP-integraties (D365) en API-projecten sluit perfect aan op wat Vanbreda zoekt. Ervaring in mutualities en health insurance maakt de sector-match concreet.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 86,
+        "score": 78,
+        "reason": "Deze kandidaat combineerde functionele analyse met scrum master bij Partena Professional, inclusief BPMN, Azure DevOps, .NET-affiniteit en stakeholdermanagement op projectniveau.",
+        "check": "y5",
+        "pitch": "Beste,\n\nVanbreda Risk & Benefits zoekt een IT Business Analyst met projectleidingscapaciteiten en ervaring in de Microsoft/.NET-stack — werkt u hiervoor samen met externe consultants?\n\nWij stellen graag een Business Analyst/Scrum Master voor met 5 jaar hands-on ervaring. Deze kandidaat analyseerde bij Partena Professional een volledige migratie van Belgische baremawetgeving naar een nieuwe payroll-engine (BPMN, SQL, stakeholder Q&A) en hertekende daarna het centraal klantenportaal inclusief API-integraties, backlog in Azure DevOps en user stories per rol — van A tot Z. Gecombineerd met scrum master verantwoordelijkheid (events, impediments, scopebewaking) toont dit reëel projecteigenaarschap. De .NET-affiniteit en vloeiende taalvaardigheid NL/EN sluiten aan op de vereisten. Als Competence Center Lead coacht deze kandidaat momenteel andere analisten.\n\nZin in een kort gesprek om dit profiel te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 67,
+        "reason": "Deze kandidaat werkt momenteel als Business Analyst bij Baloise (verzekeringssector) met BPMN, UAT en Power Apps — directe sectorervaring maar beperkte senioriteit.",
+        "check": "c3"
+      }
+    ]
+  },
+  {
+    "title": "AntiCheatExpert",
+    "url": "https://anticheatexpert.updatestar.com",
+    "company": "VIEKA",
+    "source": "https://jobs.updatestar.com/",
+    "first_seen": "2026-08-26",
+    "snippet": "AntiCheatExpert - Download Our Products Most Popular Downloads Latest Updates Latest News ☰ Our Products Most Popular Downloads Latest Updates Latest News All free downloads. Original files only. Virus checked and safe. Home Games & Entertainment AntiCheatExpert AntiCheatExpert 28.6.2606.970 AntiCheatExpert ❘ Commercial ❘ Windows Latest Version 28.6.2606.970 Report a Problem Review Technical Buy Edit AntiCheatExpert Offers Industry-Leading Multi-Platform Game Security Solutions Human-built. AI-enhanced. David Fischer 08/26/2026 AntiCheatExpert provides comprehensive, multi-layered anti-cheat and security services tailored for mobile and PC games, backed by nearly 20 years of experience. 2026 Editor's Rating Overview of AntiCheatExpert AntiCheatExpert (ACE) is a game security platform that provides a suite of services aimed at preventing cheating, fraud, and client tampering across mobile and PC titles. The company positions itself as a long-established provider with more than two decades of technology accumulation, offering integrated capabilities that span anti-cheat, client hardening, content moderation, in-game economic risk management, and vulnerability discovery. Anti-Cheat an",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 28,
+        "reason": "Deze kandidaat heeft SecOps- en SaaS-architectuurervaring maar geen achtergrond in game security of anti-cheatoplossingen.",
+        "check": "l7"
+      },
+      {
+        "row": 45,
+        "score": 22,
+        "reason": "Deze kandidaat heeft sterke platform- en beveiligingstechnische vaardigheden maar geen ervaring in game security of anti-cheatdomeinen.",
+        "check": "j8"
+      },
+      {
+        "row": 18,
+        "score": 18,
+        "reason": "Deze kandidaat heeft brede backend- en distributedsystemservaring maar geen raakvlak met game security of anti-cheatoplossingen.",
+        "check": "n16"
+      }
+    ]
+  },
+  {
+    "title": "Full Stack PHP engineer Ghent office",
+    "url": "https://bakeronline.be/be-en/jobs/full-stack-php-engineer",
+    "company": "BAKERONLINE",
+    "source": "https://bakeronline.be/be-en/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Full Stack PHP engineer - Bakeronline Log in Register 0 Log in Register 0 0 Full Stack PHP engineer Location Adolf Baeyensstraat 53, 9040 Gent (Belgium) About you You’re a generalist with a passion for software development, who is eager to learn the latest changes in the field and doesn’t hesitate to discover new things via your own projects. You like to write code that is reusable, readable, tested and easily maintained. You set high standards because duplicate code makes you cry. Code review allows you to teach and be taught by your colleagues on a daily basis. In a nutshell: PHP feels like your second language Experience with Vue.js (must have, if not: apply for the position of Senior PHP engineer) Experience with HTML and CSS Experience with JavaScript Experience with NPM or Yarn Experience with Webpack, Rollup, or other bundlers Experience with REST APIs and OAuth Your responsibilities Design, estimate, and code new features Maintain and extend our web applications Maintain and extend our REST API Architect new applications and expand existing ones Participate in software design discussions Participate in project management meetings Ensure all code that goes to production is o",
+    "stack": [
+      "PHP",
+      "Vue.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NPM",
+      "Yarn",
+      "Webpack",
+      "Rollup",
+      "REST APIs"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@bakeronline.com"
+    },
+    "ai_matches": [
+      {
+        "row": 44,
+        "score": 91,
+        "reason": "Deze kandidaat heeft bewezen PHP (Laravel/Symfony), Vue.js, REST APIs, Elasticsearch en Docker-ervaring in high-scale productieomgevingen met mentorship en architectuurverantwoordelijkheid.",
+        "check": "l10",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw openstaande vacature voor een Full Stack PHP Engineer in Gent. Werkt u samen met externe consultants voor dit soort profielen?\n\nIk heb een kandidaat die bijzonder goed aansluit bij wat Bakeronline zoekt. Deze kandidaat combineert diepgaande PHP-expertise (Laravel én Symfony) met Vue.js, REST API-design, Elasticsearch, Redis en Docker — exact de stack die u beschrijft. Bij SteelSeries draagt deze kandidaat vandaag de volledige verantwoordelijkheid voor globaal gebruikte REST APIs met miljoenen maandelijkse actieve gebruikers, inclusief architectuurbeslissingen en mentoring van engineers. Eerder leidde deze kandidaat bij 3D Aim Trainer een migratie van monoliet naar schaalbare architectuur, inclusief technische due diligence bij een overname. Unit testing, code review en ownership zitten ingebakken in de werkwijze.\n\nDit is precies het profiel dat past bij een groeiende scale-up als Bakeronline. Zou u open staan voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 43,
+        "score": 85,
+        "reason": "Deze kandidaat heeft expert-niveau Vue/Nuxt gecombineerd met PHP/Laravel, Node.js en e-commerce-ervaring bij PHPro en meerdere grote Vlaamse platforms.",
+        "check": "a12",
+        "pitch": "Beste,\n\nIk contacteer u in verband met uw vacature voor een Full Stack PHP Engineer bij Bakeronline in Gent. Werkt u ook met externe consultants voor uw development team?\n\nDeze kandidaat heeft 12 jaar full-stack ervaring en scoort expert-niveau op Vue/Nuxt — een must-have in uw vacature. PHP en Laravel zijn ook sterk vertegenwoordigd, net als Node.js, TypeScript, PostgreSQL en Docker. Recentelijk werkte deze kandidaat bij PHPro in een e-commerce team aan grote webshops en B2B-portals, en bouwde daarnaast eigenhandig een volledig cloud platform (Simplestack) met Vue/Nuxt en Laravel. De breedte aan sectoren — e-commerce, media, publieke sector — toont de generalist die u zoekt. Code quality, architectuur en ownership zijn duidelijk aanwezig in de historiek.\n\nIk vertel u graag meer over dit profiel in een kort gesprek. Wanneer komt het u uit?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 65,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 12 jaar PHP/JavaScript full-stack en technical lead ervaring, maar Vue.js ontbreekt expliciet in het profiel.",
+        "check": "k12"
+      }
+    ]
+  },
+  {
+    "title": "Senior PHP engineer Ghent office",
+    "url": "https://bakeronline.be/be-en/jobs/senior-php-engineer",
+    "company": "BAKERONLINE",
+    "source": "https://bakeronline.be/be-en/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Senior PHP engineer - Bakeronline Log in Register 0 Log in Register 0 0 Senior PHP engineer Location Adolf Baeyensstraat 53, 9040 Gent (Belgium) About you You’re a generalist with a passion for software development, who is eager to learn the latest changes in the field and doesn’t hesitate to discover new things via your own projects. You like to write code that is reusable, readable, tested and easily maintained. You set high standards. Duplicate code makes you cry. You don’t have a problem receiving feedback on your code and are looking forward to work in a team. In a nutshell: PHP feels like your second language You can work with HTML and CSS You have experience working with JavaScript You can use MySQL and write advanced queries Your responsibilities Design, estimate, and code new features Maintain and extend our REST API Architect new applications and expand existing ones Participate in software design discussions Participate in project management meetings Ensure all code that goes to production is of top quality Identify and fix gaps in system reliability Continuously improve the software infrastructure … Bonus points (not required) HTTP protocol PoS software development Open",
+    "stack": [
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MySQL",
+      "REST API",
+      "Vue.js",
+      "Node.js",
+      "Docker",
+      "Elasticsearch"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@bakeronline.com"
+    },
+    "ai_matches": [
+      {
+        "row": 44,
+        "score": 91,
+        "reason": "Deze kandidaat heeft bewezen eigenaarschap over grootschalige REST APIs in PHP (Laravel/Symfony) met Vue, Node.js, Elasticsearch en Docker.",
+        "check": "l10",
+        "pitch": "Beste,\n\nWerkt u ook samen met externe consultants voor uw development-team? Naar aanleiding van uw vacature voor een Senior PHP Engineer bij Bakeronline wil ik graag een uitzonderlijk sterke kandidaat voorstellen.\n\nDeze kandidaat heeft ruim 10 jaar ervaring met exact de stack die u zoekt: PHP (Laravel én Symfony), Vue.js, Node.js, MySQL, Elasticsearch en Docker. Bij SteelSeries is deze kandidaat eigenaar van globaal gebruikte REST APIs met miljoenen maandelijkse gebruikers — inclusief architecturale beslissingen, event-sourced BI en retensieverbetering van ~20%. Eerder leidde deze kandidaat bij 3D Aim Trainer een migratie van monoliet naar schaalbare architectuur voor meer dan 200 miljoen records.\n\nDit is het profiel van iemand die zowel code schrijft als architectuur uittekent en junior collega's begeleidt — precies wat Bakeronline zoekt in een scale-up omgeving.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 43,
+        "score": 78,
+        "reason": "Deze kandidaat combineert expert-niveau Vue/Nuxt met Laravel/Node.js en bewezen e-commerce ervaring bij PHPro.",
+        "check": "a12",
+        "pitch": "Beste,\n\nBent u open voor samenwerking met externe consultants? Voor uw vacature als Senior PHP Engineer bij Bakeronline heb ik een kandidaat die sterk aansluit bij uw technologiestack en domein.\n\nDeze kandidaat werkt op expert-niveau met Vue/Nuxt, Laravel en Node.js, en heeft recent bij PHPro grote e-commerce webshops en B2B-portalen gebouwd — een domein dat nauw aansluit bij wat Bakeronline doet voor bakkerijen wereldwijd. Daarnaast bouwde deze kandidaat als founder een volledig cloud-platform met microservices-architectuur in Vue/Nuxt en Laravel, wat de gevraagde breedte als generalist bewijst.\n\nMet 12 jaar frontend-ervaring bij bedrijven als Mediahuis, Just Eat Takeaway en ACA Group, gecombineerd met sterke PHP-backend-skills, is dit een kandidaat die onmiddellijk waarde toevoegt in uw schaalende team.\n\nGraag bel ik u kort om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 65,
+        "score": 62,
+        "reason": "Deze kandidaat is Zend Certified PHP Engineer met 12 jaar PHP en MySQL-ervaring, maar mist moderne frameworks zoals Laravel en Vue.js.",
+        "check": "k12"
+      }
+    ]
+  },
+  {
+    "title": "Senior front-end engineer (Vue) Ghent office",
+    "url": "https://bakeronline.be/be-en/jobs/senior-frontend-engineer-vue",
+    "company": "BAKERONLINE",
+    "source": "https://bakeronline.be/be-en/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Senior front-end engineer (Vue) - Bakeronline Log in Register 0 Log in Register 0 0 Senior front-end engineer (Vue) Location Adolf Baeyensstraat 53, 9040 Gent (Belgium) About you You like to build web applications that have great user experience. You are a perfectionist. You are eager to learn the latest changes in the field and doesn’t hesitate to discover new things via your own projects. You write code that is reusable, readable, tested, and easily maintained. You set high standards. Duplicate code makes you cry. You don’t have a problem receiving feedback on your code and are looking forward to work in a team. In a nutshell: Minimum 3 years of experience in web development JavaScript expert You have a lot of experience with HTML and CSS Experience with Vue.js Experience with NPM or Yarn Experience with Webpack, Rollup, or other bundlers REST API's and OAuth experience Your responsibilities Separate our back end code from our front end by rebuilding our existing web applications as SPA Maintain and extend our web applications Work on a variety of projects: consumer facing applications, business facing applications, internal applications... Using our REST API to communicate with ",
+    "stack": [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "NPM",
+      "Yarn",
+      "Webpack",
+      "Rollup",
+      "REST API",
+      "OAuth"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@bakeronline.com"
+    },
+    "ai_matches": [
+      {
+        "row": 43,
+        "score": 92,
+        "reason": "Deze kandidaat heeft Vue/Nuxt op expertniveau én bewezen Laravel/PHP-ervaring, exact de stack die BakerOnline zoekt voor SPA-migratie.",
+        "check": "a12",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie vacature voor een Senior Front-end Engineer (Vue) in Gent. Werken jullie ook met externe consultants?\n\nIk stel graag deze kandidaat voor: een senior frontend developer met 12 jaar ervaring en Vue/Nuxt op expertniveau (5/5). Exact wat jullie zoeken voor de migratie van bestaande webapplicaties naar SPA's. Bijzonder relevant: deze kandidaat heeft uitgebreide ervaring met Laravel én begrijpt PHP-templating — ideaal om de BakerOnline Blade-templates naar Vue te converteren. Daarnaast aantoonbare REST API- en TypeScript-kennis, en een trackrecord bij grote namen als Mediahuis, Just Eat Takeaway en ACA Group. Ook schaalbaarheid en cloud-native architectuur zitten in het profiel, wat aansluit bij jullie internationale groeiambities.\n\nKorte kennismakingscall inplannen? Ik ben overtuigd dat dit profiel uitstekend aansluit bij jullie team.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 44,
+        "score": 82,
+        "reason": "Deze kandidaat combineert Vue, Laravel, REST API's op schaal met aantoonbaar mentorschap en technische eigenaarschap bij een groeiend techbedrijf.",
+        "check": "l10",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie zoektocht naar een Senior Front-end Engineer (Vue) bij BakerOnline, wil ik graag een sterk profiel onder jullie aandacht brengen. Werken jullie open voor externe consultants?\n\nDeze kandidaat heeft bewezen Vue-ervaring gecombineerd met diepgaande Laravel-kennis — een perfecte match voor de SPA-migratie die jullie beogen. Daarbovenop: jarenlange ervaring met REST API's op grote schaal, TypeScript, Node.js en Go. Bij SteelSeries heeft deze kandidaat ownership genomen over wereldwijd gebruikte platformen met miljoenen actieve gebruikers, engineers gecoacht en complexe architectuurkeuzes geleid — precies de senioriteit die jullie beschrijven. De combinatie van frontend én backend begrip maakt codereviews en technische discussies met het team meteen waardevol.\n\nZin in een korte call om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 15,
+        "score": 76,
+        "reason": "Deze kandidaat heeft concrete Vue-projectervaring als senior frontend consultant, aangevuld met sterke UX/Figma-skills die BakerOnline als bonus vermeldt.",
+        "check": "t16",
+        "pitch": "Beste,\n\nIk contacteer jullie in verband met de openstaande vacature voor Senior Front-end Engineer (Vue) in Gent. Staan jullie open voor samenwerking met externe consultants?\n\nDeze kandidaat is een senior frontend consultant met 16 jaar ervaring, onder andere met Vue, TypeScript, JavaScript en Node.js — en heeft bij Adappter aantoonbare projectervaring opgebouwd in Vue over web, desktop en mobiel. Bovendien scoort dit profiel extra punten op jullie bonuslijst: sterke UX-bagage, Figma-expertise én ervaring met Progressive Web Apps. De brede sectorervaring — van maritiem tot enterprise web — toont aan dat deze kandidaat snel inzetbaar is in uiteenlopende projectcontexten, zoals jullie consumer-, business- en interne applicaties.\n\nGraag plan ik een kort gesprek in om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "IT Integration Manager",
+    "url": "https://careers.circet-benelux.eu/o/it-integration-manager",
+    "company": "CIRCET BELGIUM",
+    "source": "https://careers.circet-benelux.eu/open-vacatures-belgie",
+    "first_seen": "2026-08-26",
+    "snippet": "Circet Benelux - vacaturetitel Overslaan naar content Circet Benelux Homepagina Nederlands nl Nederlands français English Home Vacatures België Vacatures Nederland Over Circet Benelux Circet Academy Duurzaam team Bedrijfswebsite Circet Benelux Homepagina Nederlands nl Nederlands français English Home Vacatures België Vacatures Nederland Over Circet Benelux Circet Academy Duurzaam team Bedrijfswebsite Circet Benelux Homepagina Home Vacatures België Vacatures Nederland Over Circet Benelux Circet Academy Duurzaam team Bedrijfswebsite Circet Benelux Homepagina IT Integration Manager Hybride Kontich , Antwerpen , België • Heverlee , Vlaams-Brabant , België • +1 meer IT Vacature details Solliciteren Functieomschrijving Zorg jij als IT Manager voor naadloze integraties? Als IT Manager Integratie sta jij aan het roer van de integratielaag die onze bedrijfsapplicaties met elkaar en met de systemen van onze klanten verbindt. Je bouwt en bewaakt de architectuur die deze koppelingen mogelijk maakt - via REST API's, gestandaardiseerde build- en deployprocessen, en met aandacht voor beveiliging (encryptie e.d.). Je bent geen enterprise architect die op strategisch niveau blauwdrukken tekent, maa",
+    "stack": [
+      "REST API",
+      "API tools",
+      "integration platforms"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 59,
+        "score": 72,
+        "reason": "Deze kandidaat heeft hands-on ervaring met SAP S4/HANA interface-delivery en application-integration als build manager bij Colruyt Group.",
+        "check": "d26",
+        "pitch": "Beste,\n\nWe vernamen dat Circet Belgium op zoek is naar een IT Integration Manager en vroegen ons af of u samenwerkt met externe consultants voor dit type profiel.\n\nWe hebben een zeer interessante kandidaat beschikbaar met 26 jaar ervaring, waarvan een duidelijke focus op application integration en systeemkoppelingen. Als build manager bij Colruyt Group beheert deze kandidaat momenteel de SAP S4/HANA interface-delivery — rechtstreeks vergelijkbaar met de integratielaag die Circet beoogt. Eerder bij Belfius leidde deze kandidaat een data-migratie- en integratieproject binnen een FinTech-transformatieprogramma, en bij Mediahuis stond deze kandidaat als IT team lead aan het hoofd van cross-functionele engineering teams. De combinatie van technische roots in application integration, ervaring met governance en delivery management, en sectorkennis in retail en telecom sluit nauw aan bij uw context.\n\nGraag plan ik een kort gesprek om deze kandidaat concreet voor te stellen.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 78,
+        "score": 58,
+        "reason": "Deze kandidaat heeft brede infra-PM ervaring inclusief 5G-projecten bij Port of Antwerp en security-integratie, maar mist expliciete API/integratieplatform-achtergrond.",
+        "check": "k24"
+      },
+      {
+        "row": 80,
+        "score": 45,
+        "reason": "Deze kandidaat heeft sterke infrastructuur- en cloudmigratieachtergrond maar geen aantoonbare ervaring met enterprise integratiearchitectuur of REST API-koppelingen.",
+        "check": "t20"
+      }
+    ]
+  },
+  {
+    "title": "UX/UI Designer + front-end (Vue) Ghent office",
+    "url": "https://bakeronline.be/be-en/jobs/ux-ui-designer-frontend",
+    "company": "BAKERONLINE",
+    "source": "https://bakeronline.be/be-en/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "UX/UI Designer + front-end (Vue) - Bakeronline Log in Register 0 Log in Register 0 0 UX/UI Designer + front-end (Vue) Location Adolf Baeyensstraat 53, 9040 Gent (Belgium) About you You are a creative soul with a passion for UX/UI Design who can also implement the designs in the front-end of a web application. In a nutshell: Creative soul with passion for UX/UI Design Experience with Figma and/or Sketch and/or Adobe XD, … Experience with Vue.js Experience with JavaScript (bonus points: TypeScript) Experience with HTML and CSS Experience with NPM or Yarn Experience with Webpack Your responsibilities Be responsible for UX/UI design worldwide Be responsible for other design activities (e.g.: promo material) Assist in the implementation of your designs on front-end side Using our REST API to communicate with the backend … Hiring process After each step, we'll inform you when you'll receive feedback and if you can proceed to the next step. If you have any questions before the interview, we are happy to answer them. First selection based on resume, cover letter and/or portfolio. First interview: get to know each other. Second interview: technical interview with one of our senior team memb",
+    "stack": [
+      "Vue.js",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "NPM",
+      "Yarn",
+      "Webpack",
+      "Figma",
+      "Sketch"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@bakeronline.com"
+    },
+    "ai_matches": [
+      {
+        "row": 43,
+        "score": 88,
+        "reason": "Deze kandidaat heeft Vue/Nuxt op expertniveau (5/5) en bouwde grote e-commerce platformen voor o.a. Just Eat Takeaway en PHPro.",
+        "check": "a12",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van jullie openstaande vacature voor een UX/UI Designer + front-end (Vue) in Gent. Werken jullie ook met externe consultants?\n\nIk stel graag een kandidaat voor die naadloos aansluit op wat Bakeronline zoekt. Deze kandidaat heeft Vue en Nuxt.js op expertniveau (5/5), gecombineerd met TypeScript, JavaScript, Laravel/Node.js en GraphQL — exact de stack die jullie gebruiken. Met 12 jaar frontendervaringen bij scale-ups en enterprise-klanten zoals Just Eat Takeaway, Mediahuis en ACA Group heeft deze kandidaat bewezen grote webplatformen te kunnen bouwen én beheren. De e-commerce achtergrond bij PHPro (grote webshops + B2B portals) sluit bovendien perfect aan bij Bakeronlines missie als digitale partner voor bakkers wereldwijd.\n\nKort samengevat: een technisch sterke frontender met aantoonbare ervaring in e-commerce en scale-up omgevingen, klaar om meteen impact te maken.\n\nGraag vertel ik meer in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 15,
+        "score": 78,
+        "reason": "Deze kandidaat combineert Vue, Figma en sterke UX-vaardigheden als senior frontend consultant met ruime agency-ervaring.",
+        "check": "t16",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor UX/UI Designer + front-end (Vue) in Gent wil ik vragen of jullie samenwerken met externe consultants.\n\nDeze kandidaat is een senior frontend consultant met 16 jaar ervaring en een unieke combinatie van Vue.js, TypeScript, JavaScript én sterke UX/wireframing-skills in Figma — precies wat Bakeronline vraagt. Vanuit Adappter en Craftzing (digitaal agency) heeft deze kandidaat ontwerp én implementatie end-to-end verzorgd, inclusief REST API-integraties. De brede cross-platform ervaring (web, desktop, mobile) en bewezen ownership in complexe projecten maken van deze kandidaat een kandidaat die meteen mee kan draaien in een hands-on scale-up cultuur.\n\nDeze kandidaat zou graag zijn profiel toelichten in een kort gesprek. Kunnen we dat inplannen?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 81,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 5 jaar UX/UI-ervaring met Figma en Sketch, maar mist Vue.js-kennis voor de front-end implementatierol.",
+        "check": "v5"
+      }
+    ]
+  },
+  {
+    "title": "IT & Configurator Specialist IT",
+    "url": "https://www.deurduwers.be/nl/jobs/it-configurator-specialist",
+    "company": "DE COENE - PRODUCTS",
+    "source": "https://www.deurduwers.be/nl/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Word IT & Configurator Specialist bij De Coene Deurduwers Teamspirit Jobs Contact Deurduwers Teamspirit Jobs Contact De Coene De Coene Products Deurduwers Teamspirit Jobs Contact Deurduwers Teamspirit Jobs Contact IT & Configurator Specialist Krijg jij energie van slimme systemen, doordachte productlogica en IT-oplossingen die écht het verschil maken? Wil jij meebouwen aan de digitale processen achter onze deuren? Dan ben jij misschien wel de IT & Configurator Specialist die we zoeken! De functie Je beheert en ontwikkelt onze deurenconfigurator (Experlogix) en zorgt ervoor dat productregels, varianten en stuklijsten steeds correct zijn opgebouwd. Je onderhoudt en optimaliseert de koppelingen tussen onze configurator, Microsoft Dynamics 365 en de productie. Je beheert de productdata en artikels in het ERP-systeem en waakt over een correcte gegevensstroom tussen de verschillende systemen. Je ondersteunt technische integraties en werkt mee aan de verdere digitalisering en optimalisatie van onze bedrijfsprocessen. Je bent het eerste aanspreekpunt voor interne IT-vragen en zorgt voor een vlotte ondersteuning van je collega's. Je werkt nauw samen met productie, verkoop, aankoop en extern",
+    "stack": [
+      "C#",
+      "Microsoft Dynamics 365",
+      "Experlogix",
+      "Windows",
+      "Cloud"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Griet",
+      "email": "hr@decoeneproducts.be"
+    },
+    "ai_matches": [
+      {
+        "row": 22,
+        "score": 82,
+        "reason": "Deze kandidaat bouwde twee Blazor 3D-productconfiguratoren met BOM-generatie en herarchitectureerde een orderportaal in een productiecontext.",
+        "check": "r4",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor IT & Configurator Specialist. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat heeft in een eerdere opdracht bij Cloudware twee volledige 3D-productconfiguratoren gebouwd in Blazor, inclusief real-time validatielogica, stuklijstgeneratie (BOM) en tekenninggeneratie — exact het type configuratorwerk dat u zoekt voor uw Experlogix-omgeving. De koppeling tussen configuratielogica en productieprocessen is dus geen nieuw terrein.\n\nDaarnaast heeft deze kandidaat een Azure-integratieframework opgezet waarbij niet-technische medewerkers backend-synchronisaties kunnen configureren — een sterke parallel met uw wens om systemen te koppelen tussen configurator, Dynamics 365 en productie. C#, .NET, CQRS, SQL en Docker zijn dagelijkse tools.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 17,
+        "score": 72,
+        "reason": "Deze kandidaat ontwikkelde ERP-systemen in C# en .NET voor een industriële productieomgeving en heeft sterke integratie- en testervaring.",
+        "check": "j8"
+      },
+      {
+        "row": 13,
+        "score": 65,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring inclusief teamlead, Angular en brede enterprise-integratieprojecten in meerdere industriële domeinen.",
+        "check": "i26"
+      }
+    ]
+  },
+  {
+    "title": "IT Multimedia Technieker Events",
+    "url": "https://jobs.upgrade-estate.be/nl/multimedia-technieker-events",
+    "company": "DEBLAERE HOUTBOUW",
+    "source": "https://upgrade-estate.be/nl/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Upgrade Estate | Multimedia Host Upoffiz Het lijkt erop dat je onze cookies nog niet hebt geaccepteerd. Klik hier om de cookies te aanvaarden en deze inhoud te bekijken. terug naar bedrijfswebsite Nederlands English Français Terug naar vacature overzicht Multimedia Host Upoffiz Gent Upgrade Estate realiseert en beheert connecterende huisvesting voor studenten, young professionals en groei KMO’s. Huisvesting is voor ons een manier om onze ultieme ‘why’ te realiseren: sociale impact en maatschappelijke meerwaarde creëren. Bij ons is vastgoed het decor, de ruimte waar mensen connecteren en studeren, leven en een netwerk uitbouwen voor het leven. We realiseren onze missie via onze drie merken: Upkot, Upliving en Upoffiz . Voel je jezelf aangetrokken tot onze vacature en geloof je dat jouw talenten matchen? Deel je motivatie en we nodigen jou uit voor een koffie en een babbel! https://upgrade-estate.be solliciteren Wat kan jouw bijdrage zijn aan de realisatie van onze missie? Tijdens events bij Upoffiz en in The Plectrum ben jij de rots in de branding: jij zorgt dat alles soepel verloopt, van technische voorbereiding, regie tot praktische hulp tijdens het event zelf. Je bent de go-to pe",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 51,
+        "score": 18,
+        "reason": "Deze kandidaat heeft uitsluitend logistieke IT-ervaring (WMS, TMS, EDI) zonder enige link met AV-techniek, events of multimediabeheer.",
+        "check": "b10"
+      }
+    ]
+  },
+  {
+    "title": "(Cloud) Solution Architect (all genders)",
+    "url": "https://www.cronos.de/jobs/Cloud-Solution-Architect-all-genders-de-j308.html",
+    "company": "Cronos Jobs",
+    "source": "https://www.cronos.de/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Stellenangebot (Cloud) Solution Architect (all genders) bei cronos Unternehmensberatung GmbH Stellenportal [email protected] +49 251 39966-0 Login Angemeldet bleiben Passwort Vergessen? Noch keinen Login? Jetzt registrieren! DE EN DE PL Menu Leistungen Produkte Karriere Jobs Karriere bei cronos cronos Aktuelles Kontakt Über uns Unser Leitbild Kunden & Partner Kunden Partner cronologe werden Jobs cronos > Jobs (Cloud) Solution Architect (all genders) IT mit Leidenschaft und Leidenschaft für IT Du suchst nach einer Möglichkeit, deine Begeisterung für Technologie in einem inspirierenden Umfeld einzubringen? Werde (Cloud) Solution Architect (all genders) bei cronos! Bei uns kannst du Verantwortung übernehmen und gemeinsam mit uns wachsen, in einem Umfeld voller Vielfalt, Innovation und Wertschätzung. Wer wir sind Gestalte die digitale Zukunft – werde Teil der cronos Gruppe! Die cronos Gruppe ist seit über 30 Jahren ein führender IT-Dienstleister und Berater für digitale Innovationen. Mit unserer Leidenschaft für IT, Expertise in vielfältigen Branchen und einem klaren Fokus auf Qualität unterstützen wir unsere Kunden bei der digitalen Transformation. Unsere Unternehmensgruppe umfasst Sp",
+    "stack": [
+      "Azure",
+      "Bicep",
+      "ARM",
+      "Terraform",
+      "AKS",
+      "Kubernetes",
+      "Python",
+      "Golang",
+      "C#",
+      "Java"
+    ],
+    "experience": "15+ yrs",
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 49,
+        "score": 88,
+        "reason": "Deze kandidaat combineert 15 jaar Azure-architectuur met DDD, Bicep, IaC, security en coachingervaring — exact de gevraagde rol.",
+        "check": "m15",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een (Cloud) Solution Architect. Werkt u ook met externe consultants? Dan heb ik een sterke kandidaat voor u.\n\nDeze kandidaat heeft exact 15 jaar ervaring en is momenteel actief als Cloud Solution Architect bij MAN Trucks Belgium, waar hij de cloudarchitectuur voor een SAP-geïntegreerd serviceplatform heeft ontworpen en gebouwd — met .NET Aspire, Azure Container Apps, Service Bus, Bicep en Entra ID. Dat raakt direct aan uw focus op Azure Landing Zones, IaC (Bicep/Terraform), identity en security.\n\nDarnaast introduceerde hij Domain Driven Design en Vertical Slice Architecture in het team, leidt hij Event Storming-workshops en coacht hij developers — precies de fachliche Anleitung en coaching die u vraagt. Ook AI-adoptie (Semantic Kernel, Copilot) en NIS2/zero-trust awareness zijn aanwezig.\n\nC#, TypeScript, CI/CD, DDD, microservices en cloudgovernance: de match is sterk en concreet.\n\nMag ik u bellen voor een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 25 jaar brede Azure/AWS-ervaring met AKS, Bicep, Terraform, observability en aantoonbaar technisch leiderschap inclusief sysadmin-coaching.",
+        "check": "j25",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een (Cloud) Solution Architect wil ik u een ervaren freelance cloudprofessional voorstellen — heeft u ook ruimte voor externe specialisten?\n\nDeze kandidaat beschikt over 25 jaar IT-ervaring en werkte recentelijk als Azure Cloud Engineer bij Partena Professional, waar hij twee Azure-tenants consolideerde, AKS naar Container Apps migreerde, Bicep-modulecodebases opzette en twee AI-projecten (Azure Foundry, Cosmos DB) opleverde. Hij trainde ook sysadmins in Bicep — een duidelijk signaal van technisch leiderschap en kennisoverdracht.\n\nDe breedte is indrukwekkend: Terraform, Kubernetes, Kafka, Grafana/Prometheus, CI/CD (GitHub Actions), ADF-pipelines en observability via OpenTelemetry — stuk voor stuk elementen die u in de vacature noemt.\n\nEen sterke, pragmatische architect met bewezen hands-on delivery in complexe Azure-omgevingen.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 87,
+        "score": 72,
+        "reason": "Deze kandidaat beheerde bij BASF enterprise AKS-platforms voor 3.000+ developers met Terraform, Kyverno, Datadog en zero-downtime governance — sterk infrastructuurprofiel voor de rol.",
+        "check": "s10"
+      }
+    ]
+  },
+  {
+    "title": "IT AI Developer",
+    "url": "https://jobs.upgrade-estate.be/nl/ai-developer",
+    "company": "DEBLAERE HOUTBOUW",
+    "source": "https://upgrade-estate.be/nl/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Upgrade Estate | AI Developer Het lijkt erop dat je onze cookies nog niet hebt geaccepteerd. Klik hier om de cookies te aanvaarden en deze inhoud te bekijken. terug naar bedrijfswebsite Nederlands English Français Terug naar vacature overzicht AI Developer Gent Upgrade Estate realiseert en beheert connecterende huisvesting voor studenten, young professionals en groei KMO’s. Huisvesting is voor ons een manier om onze ultieme ‘why’ te realiseren: sociale impact en maatschappelijke meerwaarde creëren. Bij ons is vastgoed het decor, de ruimte waar mensen connecteren en studeren, leven en een netwerk uitbouwen voor het leven. We realiseren onze missie via onze drie merken: Upkot, Upliving en Upoffiz . Voel je jezelf aangetrokken tot onze vacature en geloof je dat jouw talenten matchen? Deel je motivatie en we nodigen jou uit voor een koffie en een babbel! https://upgrade-estate.be solliciteren Wat kan jouw bijdrage zijn aan de realisatie van onze missie? Je bouwt mee aan ons softwarelandschap met AI als hefboom — maatwerk in plaats van licentie-uitbreiding. Je realiseert datagedreven features en slimme integraties die ons onderscheiden. Je prototypet en automatiseert met AI-tooling en d",
+    "stack": [
+      "python",
+      "ai"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 88,
+        "reason": "Deze kandidaat heeft concrete LLM fine-tuning, Python AI-engineering en security-achtergrond die perfect aansluiten op de vacature.",
+        "check": "w11",
+        "pitch": "Beste,\n\nVia deze weg wil ik u informeren over een uitzonderlijk profiel dat perfect aansluit bij uw zoektocht naar een AI Developer — werkt u ook samen met externe consultants?\n\nDeze kandidaat combineert 11 jaar brede software-ervaring met een scherpe focus op AI-engineering: LLM fine-tuning (Axolotl, Ollama), AWS data lakes met tijdreeks- en geospatiale data, en dagelijks gebruik van Claude Code in productieomgevingen. Bij AWV dreef deze kandidaat de adoptie van lokaal gehoste LLM-modellen voor NLP — exact de 'digitale soevereiniteit' die Upgrade Estate nastreeft. Python, Node.js en security (voormalig pentester) zitten diep verankerd in de carrière. De brug tussen Development en Data Management, inclusief privacy by design, is voor deze kandidaat geen theorie maar bewezen praktijk.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 75,
+        "score": 76,
+        "reason": "Deze kandidaat pionierde multi-agent AI-delivery met Claude Code en bouwde een eigen AI-SaaS, met sterke Python/FastAPI en Node.js-achtergrond.",
+        "check": "m7",
+        "pitch": "Beste,\n\nU bent op zoek naar een AI Developer die mee het softwarelandschap uitbouwt met AI als hefboom — werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft als freelancer bij Hexagon/Octave multi-agent AI-delivery met Claude Code gepionierd binnen een productief engineeringteam — een zeldzame combinatie van hands-on AI-tooling en full-stack senioriteit. Daarbovenop lanceerde deze kandidaat Tradavia, een live AI-SaaS gebouwd op Next.js, FastAPI en Supabase, wat ondernemerschap en end-to-end ownership aantoont. Python, Node.js, TypeScript en Docker zijn dagelijkse gereedschappen. De ervaring met realtime datastreaming en CI/CD sluit naadloos aan op de data pipeline-verantwoordelijkheid in uw vacature.\n\nGraag plan ik een kort kennismakingsgesprek in.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat heeft hands-on Claude AI API-integratie in een eigen app gerealiseerd en werkt dagelijks met Python, Node en realtime datastreaming.",
+        "check": "g11"
+      }
+    ]
+  },
+  {
+    "title": "UX/UI Designer UX Full-time Brussels, Belgium Arrow Right",
+    "url": "https://www.eolisgroup.com/careers/uxui-designer",
+    "company": "EOLIS",
+    "source": "https://www.eolisgroup.com/careers",
+    "first_seen": "2026-08-26",
+    "snippet": "We're looking for UX/UI Designer About us Services Experts on demand Hybrid in-house teams Organisational design Our work Our people Careers x Contact us Home Careers UX/UI Designer UX/UI Designer Apply now Arrow Right Location Brussels, Belgium Contract Full-time Occupation Employee & Freelance We are looking to hire UX Designers to join our clients’ teams in finance, retail, telco, and other industries in the Brussels area. We're accepting junior, medior, as well as senior candidates. Candidates working on a freelance basis are eligible as well. As a staffing and consulting partner, it's our mission to match your skills and career aspirations with the right client and project. Additionally, we'll help you prepare for the client interview to help you land the job. What are your key responsibilities? Being in charge of UX research and UX design of digital user flows and interfaces. Increasing customer satisfaction, user-friendliness and accessibility of digital services. Working in close collaboration with IT, marketing, retail, sales and product management. Exploring market trends and evolutions related to mental models and best practices. Creating and exploring different design c",
+    "stack": [
+      "Axure",
+      "Invision",
+      "Sketch",
+      "Photoshop"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 81,
+        "score": 91,
+        "reason": "Deze kandidaat heeft 4 jaar UX/UI-ervaring bij Delen Private Bank en werkt nu in fintech/regtech, exact het finance-domein dat EOLIS zoekt.",
+        "check": "v5",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor UX/UI Designer. Werkt u ook samen met externe consultants of staffingpartners voor dergelijke profielen?\n\nIk heb een kandidaat die ik u graag wil voorstellen. Deze kandidaat heeft 5 jaar gerichte UX/UI-ervaring en past naadloos op uw vacature: 4 jaar als UX/UI Designer bij Delen Private Bank, waar digitale toegankelijkheid en gebruiksvriendelijkheid van klantgerichte interfaces centraal stonden — precies het finance-domein dat u noemt. Momenteel werkt deze kandidaat als UX/UI Designer op een SaaS-platform voor AI-governance in de fintech/regtech-sector.\n\nQua tooling zijn wireframing, prototyping, Sketch en Figma dagelijkse praktijk. De achtergrond in Grafische & Digitale Media en het professioneel diploma UX Design (UX Design Institute) tonen een stevig theoretisch fundament. Moedertaalspreker Nederlands, vlot Engels.\n\nIk zou graag even bellen om te bekijken of er een match is. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 76,
+        "reason": "Deze kandidaat combineert 11 jaar frontend-ervaring met bewezen lead UX/UI-werk en dagelijkse Figma-inzet in een agile overheidscontext.",
+        "check": "g11",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor UX/UI Designer wilde ik u kort een interessant profiel voorstellen. Werkt u daarvoor ook met externe consultancypartners?\n\nDeze kandidaat heeft 11 jaar ervaring met een duidelijke UX/UI-component: lead UX/UI-verantwoordelijkheid op complexe webapplicaties, Figma als dagelijks werkinstrument en meer dan 10 jaar Agile/Scrum. Momenteel werkt deze kandidaat aan high-performance crisisbeheerapplicaties voor de overheid, waarbij gebruiksvriendelijkheid en interactieve interfaces een cruciale rol spelen. Daarnaast bouwde deze kandidaat zelfstandig een AI-app van concept tot prototype, inclusief UX-flow en cross-platform design.\n\nDe combinatie van technische diepgang én UX-sensibiliteit maakt deze kandidaat bijzonder sterk in cross-functionele teams met IT, product en marketing — exact wat u vraagt. Moedertaalspreker Nederlands, vlot Engels.\n\nBelt u mij even, dan vertel ik u meer?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 66,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede frontend-ervaring maar geen aantoonbare UX-onderzoeks- of prototypingpraktijk zoals de vacature vereist.",
+        "check": "n9"
+      }
+    ]
+  },
+  {
+    "title": "Senior Consultant Business Software Lier , België",
+    "url": "http://www.eureco.be/jobs/senior-consultant-business-software-5",
+    "company": "EURECO",
+    "source": "http://www.eureco.be/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Senior Consultant Business Software | Eureco Over ons Kenniscentrum Succesverhalen Jobs Contacteer Ons Aanmelden Home Oplossingen Sectoren Diensten Odoo Partner Maak Afspraak Home Oplossingen Sectoren Diensten Odoo Partner Maak Afspraak Over ons Kenniscentrum Succesverhalen Jobs Aanmelden Contacteer Ons Alle vacatures Solliciteer nu! Senior Consultant Business Software Lier , België Als senior consultant Business software ben je verantwoordelijk voor de analyse, installatie en configuratie van onze bedrijfs-software bij onze klanten. Je werkt nauw samen met onze accountmanagers en vertaalt de opgemaakt sales analyse naar een functionele analyse op basis van de vraag en behoeften van de klant. Tijdens de implementatie bepaal jij als projectmanager en kapitein van het schip de koers : je stuurt nieuwe projecten de goede richting uit en optimaliseert bestaande projecten. Je bent het aanspreekpunt van onze klanten, begeleidt hen bij elke stap van het project en traint de gebruikers. Je ondersteunt en valideert de software ontwikkeling die je technische collega's onder jouw supervisie uitvoeren. Je denkt out-of-the-box en bent creatief in het formuleren en uitwerken van adviezen en oplo",
+    "stack": [
+      "Odoo"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@eureco.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 82,
+        "reason": "Deze kandidaat bouwde zelf een KMO-facturatie SaaS én een CRM-platform en deed functionele analyse voor bedrijfssoftware bij KMO's.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Senior Consultant Business Software. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft een unieke combinatie van technische én functionele expertise die perfect aansluit bij wat Eureco zoekt. Als co-founder van KMO-Facturatie, een eigen SaaS-oplossing voor kmo's, kent deze kandidaat de bedrijfsprocessen van KMO's van binnenuit. Bij NSX deed deze kandidaat functionele analyse én bouwde een volledig CRM-platform, inclusief klantbegeleiding en gebruikerstraining — exact wat uw klanten verwachten. Daarnaast heeft deze kandidaat ervaring met volledige implementatietrajecten, CI/CD-opzet en teamleiding. De interesse in bedrijfssoftware en procesoptimalisatie is niet alleen theoretisch: deze kandidaat heeft het bewezen in de praktijk.\n\nIk stel graag een korte call voor om te bespreken of dit profiel aansluit bij uw noden.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 67,
+        "score": 76,
+        "reason": "Deze kandidaat leidde software-implementatietrajecten (SaaS/PaaS) bij KMO's, ziekenhuizen en universiteiten als senior PM en businessanalist.",
+        "check": "a10",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Senior Consultant Business Software wil ik u graag een sterk profiel voorstellen. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat combineert tien jaar ervaring als senior project manager en business analyst in software-implementaties. Bij ACA Group leidt deze kandidaat momenteel digitale portalen voor KMO's en universiteiten — end-to-end, van analyse tot oplevering. Eerder werden bij Velsera/UgenTec wereldwijde SaaS- en on-premise implementaties beheerd, inclusief gebruikersbegeleiding en procesoptimalisatie. De combinatie van functionele analyse, projectmanagement én het trainen en begeleiden van eindgebruikers sluit nauw aan bij uw verwachtingen. Stakeholdermanagement op alle niveaus — van operationeel tot directie — is een bewezen sterkte.\n\nGraag bespreek ik in een korte call hoe dit profiel waarde kan toevoegen voor Eureco.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 23,
+        "score": 52,
+        "reason": "Deze kandidaat heeft procesoptimalisatie en data-advies in de praktijk gebracht, maar mist directe bedrijfssoftware-implementatie-ervaring.",
+        "check": "b8"
+      }
+    ]
+  },
+  {
+    "title": "Junior Consultant Business Software Lier , België",
+    "url": "http://www.eureco.be/jobs/junior-consultant-business-software-2",
+    "company": "EURECO",
+    "source": "http://www.eureco.be/jobs",
+    "first_seen": "2026-08-26",
+    "snippet": "Junior Consultant Business Software | Eureco Over ons Kenniscentrum Succesverhalen Jobs Contacteer Ons Aanmelden Home Oplossingen Sectoren Diensten Odoo Partner Maak Afspraak Home Oplossingen Sectoren Diensten Odoo Partner Maak Afspraak Over ons Kenniscentrum Succesverhalen Jobs Aanmelden Contacteer Ons Alle vacatures Solliciteer nu! Junior Consultant Business Software Lier , België Als Junior consultant business software ben je het eerste aanspreekpunt van onze klanten voor eerstelijns support vragen over onze bedrijfssoftware Odoo. Indien mogelijk zorg je zelf voor het antwoord op de vraag en/of oplossing van het probleem. Indien dit niet mogelijk is speel je de vraag door aan één van onze senior consultants. Verder verleen je ook ondersteuning aan onze senior consultants bij software projecten en afhankelijk van je ervaring train je mee onze klanten in het gebruik van Odoo. Commerciële opportuniteiten geef je door aan het sales team. Klantrelatie Persoonlijke evolutie Autonomie Administratief werk Technische expertise Verantwoordelijkheden Leid de volledige verkoopcyclus. Bereik maandelijkse verkoop doelstellingen Kwalificeer de behoeften van de klant Onderhandel en contracteer.",
+    "stack": [
+      "Odoo"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@eureco.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat bouwde zelf een KMO-facturatie SaaS én deed L3-support training, wat nauw aansluit bij de Odoo-consultantrol.",
+        "check": "l7",
+        "pitch": "Beste,\n\nU bent op zoek naar een Junior Consultant Business Software rond Odoo. Werkt u daarbij ook met externe consultants? Dan heb ik een interessant profiel voor u.\n\nDeze kandidaat is mede-oprichter van een KMO-facturatie SaaS-platform (PHP, Docker, Linux) en heeft dus hands-on ervaring met de bedrijfsprocessen van kleine en middelgrote ondernemingen — exact de doelgroep van Eureco. Daarnaast verzorgde deze kandidaat L3-supporttraining bij Enovates en deed functionele analyse voor een CRM-systeem met Angular, wat de klantgerichte supportrol ondersteunt. De combinatie van technische breedte (Java, PHP, Python, CI/CD) en directe KMO-softwareervaring maakt dit een kandidaat die snel zelfstandig eerstelijns Odoo-vragen kan afhandelen én senior consultants kan ondersteunen bij implementaties.\n\nIk stel graag een korte call voor om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 58,
+        "reason": "Deze kandidaat heeft sterke business-analyse skills en klantcontact, maar mist Odoo- en ERP-implementatie-ervaring voor deze rol.",
+        "check": "c3"
+      },
+      {
+        "row": 26,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede ERP- en procesanalyse-ervaring in supply chain en HR, maar geen aantoonbare Odoo-kennis of KMO-supportervaring.",
+        "check": "n15"
+      }
+    ]
+  },
+  {
+    "title": "AI Natural Language Processing (group)",
+    "url": "https://www.centrumvoorafstandsonderwijs.be/vacancy/course/ai-natural-language-processing/8183",
+    "company": "COURSE",
+    "source": "https://www.centrumvoorafstandsonderwijs.be/vacatures-docenten",
+    "first_seen": "2026-08-26",
+    "snippet": "Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Job opening group course Teacher AI Natural Language Processing Share your knowledge with hundreds of students and help them achieve their career goals Ben jij gepassioneerd over taaltechnologie en AI, en wil jij jouw expertise inzetten in een inspirerende groep professionals? Wij zoeken een docent Natural Language Processing voor onze fysieke groepsles. Jij enthousiasmeert deelnemers met jouw praktijkverhalen en motiveert hen om nieuwe vaardigheden in NLP te ontwikkelen. Met jouw creatieve aanpak en heldere uitleg creëer jij een leeromgeving waar iedereen groeit. Werk samen met onze organisatie en draag bij aan de toekomst van taalverwerking en artificiële intelligentie. Jij stimuleert deelnemers om hun talenten in te zetten, terwijl jij je eigen didactische kwaliteiten blijft aanscherpen. Grijp deze kans om jouw passie voor onderwijs en AI te laten schitteren in een levendige leeromgeving! Apply now Course info Job description Ontwerpen en verzorgen van groepslessen rond Natural Language Processing, met de focus op praktijkv",
+    "stack": [
+      "Natural Language Processing",
+      "Machine Learning",
+      "Deep Learning",
+      "AI"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "vacatures@centrumvoorafstandsonderwijs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on ervaring met LLM fine-tuning, NLP-toepassingen en AI-engineering in productieomgevingen.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw openstaande positie voor docent AI Natural Language Processing. Werkt u hiervoor samen met externe consultants?\n\nDeze kandidaat heeft meer dan 11 jaar ervaring in AI en software-engineering, met concrete hands-on expertise in LLM fine-tuning (Axolotl, Ollama), NLP-implementaties en machine learning — precies de topics die centraal staan in uw cursus. Bij AWV leidde deze kandidaat de adoptie van een lokaal gehoste LLM voor NLP-toepassingen binnen een overheidscontext, en bij Nuance werkte hij aan speech recognition — taalverwerking in de breedste zin. Van tekstanalyse tot deep learning en taalmodellen: deze kandidaat heeft het zelf gebouwd en toegepast in diverse sectoren zoals fintech, overheid en automotive. Die rijke praktijkervaring maakt hem bij uitstek geschikt om studenten te inspireren met echte cases.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 12,
+        "reason": "Deze kandidaat heeft een netwerk- en infrastructuurprofiel zonder enige aantoonbare AI- of NLP-ervaring.",
+        "check": "k28"
+      }
+    ]
+  },
+  {
+    "title": "AI Natural Language Processing (virtual)",
+    "url": "https://www.centrumvoorafstandsonderwijs.be/vacancy/course/ai-natural-language-processing/8200",
+    "company": "COURSE",
+    "source": "https://www.centrumvoorafstandsonderwijs.be/vacatures-docenten",
+    "first_seen": "2026-08-26",
+    "snippet": "Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Job opening virtual Teacher AI Natural Language Processing Share your knowledge with hundreds of students and help them achieve their career goals Ben jij klaar om jouw kennis over taalverwerking te delen in een interactieve online setting? Wij zoeken een docent Natural Language Processing die virtuele groepslessen tot leven brengt. Jij houdt van lesgeven en gebruikt jouw enthousiasme om deelnemers te inspireren tot succesvolle AI-projecten. Ervaar de energie van samen leren op afstand en bouw mee aan een toekomstgerichte community. In deze rol stimuleer jij deelnemers om taaltechnologie te verkennen, te onderzoeken en praktisch in te zetten. Ontdek hoe jouw passie voor AI tot bloei komt in onze virtuele omgeving, vol ruimte voor experiment en kennisdeling. Dit is jouw kans om impact te maken! Apply now Course info Job description Begeleiden van online groepssessies, waarin deelnemers NLP-technieken voor tekstverwerking en -analyse onderzoeken. Ontwikkelen van interactief cursusmateriaal dat deelnemers motiveert om creatief me",
+    "stack": [
+      "NLP",
+      "Machine Learning",
+      "Deep Learning",
+      "Python",
+      "Chatbots",
+      "Language Models"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "vacatures@centrumvoorafstandsonderwijs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare NLP/LLM-ervaring (fine-tuning, lokale LLM voor NLP bij AWV) en brede AI-achtergrond over 11 jaar.",
+        "check": "w11",
+        "pitch": "Beste,\n\nU bent op zoek naar een docent AI Natural Language Processing voor uw virtuele cursus — werkt u hiervoor ook samen met externe consultants?\n\nWij hebben een sterke kandidaat beschikbaar met 11 jaar ervaring in AI en softwareontwikkeling. Deze kandidaat heeft bij AWV de adoptie van een lokaal gehoste LLM voor NLP-toepassingen geleid, en werkt momenteel dagelijks met LLM fine-tuning via Axolotl en Ollama bij Foliant. Onderwerpen als taalmodellen, tekstanalyse, machine learning en deep learning in NLP behoren tot zijn concrete praktijkervaring — precies de modules die u wilt onderwijzen.\n\nDaarnaast heeft deze kandidaat ervaring in kennisoverdracht (architectuurrol bij AWV, interne kennisdeling) en een brede technische achtergrond die studenten verrijkt met realistische use-cases uit publieke infrastructuur, fintech en AI.\n\nMag ik u even bellen voor een kort gesprek om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 50,
+        "score": 68,
+        "reason": "Deze kandidaat bouwde een ChatGPT-API PoC en werkt met AI-tooling in businesscontext, maar mist diepgaande NLP/ML-technische achtergrond.",
+        "check": "s6"
+      },
+      {
+        "row": 36,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede data-engineering ervaring maar geen aantoonbare NLP-, LLM- of taaltechnologie-expertise.",
+        "check": "b17"
+      }
+    ]
+  },
+  {
+    "title": "AI Prompt Engineering (group)",
+    "url": "https://www.centrumvoorafstandsonderwijs.be/vacancy/course/ai-prompt-engineering/8184",
+    "company": "COURSE",
+    "source": "https://www.centrumvoorafstandsonderwijs.be/vacatures-docenten",
+    "first_seen": "2026-08-26",
+    "snippet": "Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Job opening group course Teacher AI Prompt Engineering Share your knowledge with hundreds of students and help them achieve their career goals Ben jij een bevlogen AI-professional met een passie voor Prompt Engineering ? Wij zoeken een docent die onze fysieke groepsles tot een inspirerende leeromgeving maakt. Jij deelt jouw inzichten rond het ontwerpen van effectieve prompts, zodat deelnemers AI-modellen strategisch inzetten. Door jouw creatieve voorbeelden en enthousiasme raakt iedereen gemotiveerd om stappen te zetten richting succes. Neem de leiding en verrijk de toekomst van AI-toepassingen. Inspireer een groep ambitieuze deelnemers, terwijl jij jouw eigen skills als docent verder ontwikkelt. Pak deze kans en word het gezicht van Prompt Engineering in onze organisatie! Apply now Course info Job description Voorbereiden en verzorgen van groepslessen over promptcreatie voor diverse AI-modellen. Ondersteunen van deelnemers bij het formuleren van prompts die zorgen voor optimale AI-output. Opstellen van praktijkopdrachten, waa",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "vacatures@centrumvoorafstandsonderwijs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 72,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare AI-praktijkervaring (Anthropic Claude-certificaten, agentic AI, n8n) én een sterke didactische achtergrond via teamcoördinatie en functionele training.",
+        "check": "l7"
+      },
+      {
+        "row": 36,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede data-engineering expertise maar geen aantoonbare AI prompt engineering of lesgeef-ervaring relevant voor deze vacature.",
+        "check": "b17"
+      },
+      {
+        "row": 81,
+        "score": 32,
+        "reason": "Deze kandidaat werkt aan een AI-governance SaaS-platform maar heeft geen prompt engineering of lesgeef-ervaring aangetoond in de carrièrehistorie.",
+        "check": "v5"
+      }
+    ]
+  },
+  {
+    "title": "IT (1)",
+    "url": "https://lovehomefabrics.com/jobs?f%5B0%5D=area%3A2&f%5B1%5D=location%3A17",
+    "company": "Global Textile Alliance Belgium",
+    "source": "https://lovehomefabrics.com/jobs?f%5B0%5D=location%3A17",
+    "first_seen": "2026-08-26",
+    "snippet": "Careers in Textiles & Design | Love Home Fabrics Skip to main content English Love Home Fabrics Mobile menu expand icon Menu Close Home Love Home Fabrics Our brands Events Blog Jobs Policies Home Love Home Fabrics About us Act for Home Textiles STeP by OEKO-TEX Our brands Events Blog Jobs Policies Facebook Facebook Instagram Instagram English Jobs Breadcrumb Home Jobs Are you looking for a job in the textile industry? Do you want to be part of an international company that's continuously creating and innovating? Have you always wanted to be a part of a team that loves to invest in your qualities? Three times yes? You might be the colleague we're looking for. Didn't find your dream job below? Ring our bell! Send an email to christian.marginet@lovehomefabrics.com and let us know how you'd be a great addition to one of our teams. Location (-) Site Wielsbeke (BE) Facet Job Property One Business areas (-) IT (1) Or search Search Reset Showing 1-1 of 1 jobs System Engineer System Engineer - Ben jij een IT-generalist die complexe puzzels feilloos vertaalt naar eenvoudige oplossingen? Dan verwelkomen we je graag om mee te bouwen aan Location Site Wielsbeke (BE) Business areas IT View job F",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Christian Marginet",
+      "email": "christian.marginet@lovehomefabrics.com"
+    },
+    "ai_matches": [
+      {
+        "row": 45,
+        "score": 72,
+        "reason": "Deze kandidaat beheert Kubernetes, Terraform, Ansible en Linux-infrastructuur op telco-schaal met aantoonbare automatisering en monitoring.",
+        "check": "j8",
+        "pitch": "Beste,\n\nU zoekt een System Engineer die als IT-generalist complexe uitdagingen omzet in heldere oplossingen — werkt u daarvoor ook met externe consultants?\n\nDeze kandidaat heeft 8 jaar bewezen infrastructuurervaring: van OpenShift-clusters bij een nationale telecomoperator tot zelfgebouwde Kubernetes-operators en geautomatiseerde provisioning-platformen. De praktische kennis omvat Linux, Terraform, Ansible, CI/CD, Prometheus en Grafana — precies de generalistentoolset die een System Engineer in een productieomgeving nodig heeft. Dankzij jarenlange ervaring in kritieke infrastructuur (waaronder noodoproepdiensten) weet deze kandidaat wat beschikbaarheid en structuur betekenen. De overstap van telecom naar een internationale omgeving zoals Love Home Fabrics is klein: infrastructuur draagt altijd productie.\n\nIk vertel u graag meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "Deze kandidaat bouwde als co-founder volledige SaaS-hosting op Linux/Docker en nam de server- en SecOps-verantwoordelijkheid op zich.",
+        "check": "l7"
+      },
+      {
+        "row": 9,
+        "score": 35,
+        "reason": "Deze kandidaat heeft praktische ervaring met Docker, Kubernetes en OpenShift als ontwikkelaar, maar focust primair op Java-development.",
+        "check": "k4"
+      }
+    ]
+  },
+  {
+    "title": "DevOps Cloud Engineer",
+    "url": "https://www.gumption.eu/vacancies/devops-cloud-engineer",
+    "company": "GUMPTION",
+    "source": "https://www.gumption.eu/vacancies",
+    "first_seen": "2026-08-26",
+    "snippet": "DevOps Cloud Engineer | Gumption Offerings News & Cases Gumption Companies Careers About Get in touch Brand & customer experience Business process optimisation & automation Smart ICT infrastructure Data-driven organisation AdaptX Bmatix Brightest Cloudsisters Geosparc HuRis Plugnotes Purple Panda Rank 1 SQAI Suite Studio Emma TheValueChain valueXstream EN NL Home Vacancies Devops cloud engineer DevOps Cloud Engineer @ Cloudsisters Share this job Go to: Apply here Job description As a Cloud DevOps Engineer, you’ll take on a dual role: actively contributing to the development of a platform for automated managed services, while continuing to support and deliver those services to our clients. Your responsibilities will include: Masterminding rock-solid Cloud DevOps CI/CD pipelines to turbocharge our deployment lifecycle. Enhancing Cloud services and fine-tuning our container services and orchestration for maximum impact. Driving efficiency through automation in deployment, monitoring, and scaling within both AWS and Azure. Setting up and managing environments for clients, with a strong focus on performance, reliability, and security. Troubleshooting technical issues to ensure optimal s",
+    "stack": [
+      "Python",
+      "Jenkins",
+      "GitLab CI/CD",
+      "Azure DevOps",
+      "AWS CodeBuild",
+      "AWS CodeDeploy",
+      "AWS CodePipeline",
+      "Azure AKS",
+      "Amazon EKS",
+      "Terraform"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 68,
+        "score": 92,
+        "reason": "Deze kandidaat combineert 25 jaar hands-on AKS, Terraform, CI/CD, AWS-migratie en Python in bewezen productieomgevingen.",
+        "check": "j25",
+        "pitch": "Beste,\n\nWe zagen de vacature voor een DevOps Cloud Engineer bij Cloudsisters en wilden meteen vragen of jullie openstaan voor externe consultants.\n\nWe hebben een uitzonderlijk sterke kandidaat beschikbaar die naadloos aansluit op het profiel. Deze kandidaat heeft recentelijk bij Partena Professional een volledige Azure-tenant-consolidatie uitgevoerd met AKS, Container Apps, API Management en GitHub Actions-pipelines, en IaC volledig in Bicep/Terraform uitgerold. Daarvoor leidde deze kandidaat bij StepStone een volledige datacenter-naar-AWS-migratie, beheerde 1500 servers, en bouwde een observability-platform met Grafana, Prometheus en Elasticsearch. CI/CD via Jenkins, GitLab en Azure DevOps, Kubernetes, Ansible en Python scripting: alle kernvereisten uit jullie vacature zijn concreet bewezen over 25 jaar.\n\nGezien de diepgang in zowel AWS als Azure, gecombineerd met sterke klantgerichte communicatieskills, denk ik dat een kennismaking zeker de moeite waard is.\n\nZin in een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 82,
+        "score": 78,
+        "reason": "Deze kandidaat beheert productie-AKS op Azure én AWS met GitLab CI, Terraform/OpenTofu en sterke DevSecOps-achtergrond.",
+        "check": "r6",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een DevOps Cloud Engineer bij Cloudsisters wou ik peilen of jullie samenwerken met externe profielen.\n\nDeze kandidaat werkt momenteel als freelance DevSecOps & Cloud Engineer en runt een multi-environment Azure/AWS + AKS-estate, beheerd via OpenTofu IaC met strikte IAM- en netwerkgrenzen. GitLab CI-pipelines zijn gehardend met SAST/SCA, en de kandidaat heeft eerdere Azure-stacks volledig from scratch opgezet met Bicep en Key Vault. Terraform, Python, containers en CI/CD zijn dagelijkse tools. De combinatie van cloud engineering en security biedt Cloudsisters extra meerwaarde bij het uitrollen van compliant managed services.\n\nMet een MSc CS (KU Leuven, security minor) en ervaring in healthcare, renewables en logistics is dit een veelzijdig profiel dat snel waarde toevoegt.\n\nGraag plannen we een kort gesprek in — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 53,
+        "score": 62,
+        "reason": "Deze kandidaat heeft hands-on Kubernetes, Terraform, Ansible en Azure in meerdere DevOps-engagementen bewezen.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "IT System Engineer",
+    "url": "https://www.hanssens.io/nl/werken-bij-hanssens/it-system-engineer",
+    "company": "HANSSENS TELECOM",
+    "source": "https://www.hanssens.io/nl/werken-bij-hanssens",
+    "first_seen": "2026-08-26",
+    "snippet": "IT System Engineer | Hanssens Overslaan en naar de inhoud gaan Secondary menu 24/7 helpdesk Inspiration center Werken bij Hanssens Events Kennis en support Expertises E-books Blogs Support Veelgestelde vragen Contacteer ons nl Main navigation Oplossingen Oplossingen Contact center oplossingen Contact center oplossingen Contact center oplossingen Smart routing Omnichannel klantcommunicatie Onthaal en callflows Contact center dashboards Wachtrijreductie Consultancy Analyse en advies voor betere communicatiekeuzes User adoption Begeleiding naar snelle adoptie en efficiënt gebruik Data & conversational AI Data & conversational AI Voice agents AI Chatbots AI transcriptie Gespreksanalyse Conversatie-inzichten Rapportering & dashboards Consultancy Analyse en advies voor betere communicatiekeuzes User adoption Begeleiding naar snelle adoptie en efficiënt gebruik Telefonie-oplossingen Telefonie-oplossingen Cloud telefonie Hybride telefonie On-premise telefonie DECT telefonie Voice-over Wi-Fi telefonie Alarmdistributie & persoonsalarmering Consultancy Analyse en advies voor betere communicatiekeuzes User adoption Begeleiding naar snelle adoptie en efficiënt gebruik Integraties & development ",
+    "stack": [
+      "MS Teams",
+      "AI",
+      "IoT"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Alexie Pieters",
+      "email": "alexie.pieters@hanssens.io"
+    },
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 28 jaar infrastructuurervaring met VoIP, Teams, Cisco Call Manager en SD-WAN-projecten bij grote klanten.",
+        "check": "k28",
+        "pitch": "Beste,\n\nWe merkten dat Hanssens Telecom op zoek is naar een IT System Engineer met focus op unified communications en telefonie-integraties. Werkt u ook met externe consultants?\n\nWe stellen graag deze kandidaat voor: een doorgewinterde netwerk- en systeemengineer met 28 jaar ervaring, momenteel actief bij een grote nutsmaatschappij. Wat deze kandidaat bijzonder maakt voor uw vacature: aantoonbare hands-on ervaring met VoIP, Microsoft Teams (bellen), Cisco Call Manager en SD-WAN-uitrol over ~280 productiesites. Dat sluit nauw aan bij uw MS Teams Calling- en Unified Communications-projecten.\n\nBovendien heeft deze kandidaat bewezen projectleadership: zelfstandig trekken van een volledige SD-WAN-migratie, leveranciersbeheer (Telenet, Proximus) en klantcommunicatie — precies de rollen die u beschrijft in uw functieomschrijving.\n\nKort telefoontje om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 31,
+        "score": 58,
+        "reason": "Deze kandidaat heeft 8 jaar ervaring als netwerk/systeemengineer met sterke infrastructuur- en communicatievaardigheden in een enterprise omgeving.",
+        "check": "l8"
+      },
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede software-engineeringervaring maar weinig aansluiting bij telecom, unified communications of MS Teams Calling.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "AI Prompt Engineering (virtual)",
+    "url": "https://www.centrumvoorafstandsonderwijs.be/vacancy/course/ai-prompt-engineering/8199",
+    "company": "COURSE",
+    "source": "https://www.centrumvoorafstandsonderwijs.be/vacatures-docenten",
+    "first_seen": "2026-08-26",
+    "snippet": "Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Job opening virtual Teacher AI Prompt Engineering Share your knowledge with hundreds of students and help them achieve their career goals Ben jij klaar om jouw passie voor Prompt Engineering te delen in een interactieve online omgeving? Wij bieden een virtuele groepsles waar jij deelnemers begeleidt bij het vormgeven van AI-prompts. Jouw energie en ervaring zorgen voor een inspirerende sfeer waarin professionals samenwerken en elkaars ideeën verrijken. In deze rol moedig jij deelnemers aan om hun creativiteit en probleemoplossend vermogen te verdiepen. Samen verkennen jullie de toekomst van AI, met prompts die tastbare resultaten opleveren. Zet jouw expertise in en laat de wereld zien hoe innovatief Prompt Engineering is! Apply now Course info Job description Coördineren van virtuele werkvormen, zodat deelnemers prompts formuleren en direct feedback ontvangen. Creëren van lesmateriaal dat de impact van promptengineering in diverse AI-modellen belicht. Introduceer praktijkcases waarmee deelnemers AI-oplossingen bouwen, gebaseer",
+    "stack": [
+      "AI",
+      "Prompt Engineering"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "contact": {
+      "name": null,
+      "email": "vacatures@centrumvoorafstandsonderwijs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 62,
+        "reason": "Deze kandidaat heeft diepgaande LLM-ervaring (fine-tuning, Ollama, Claude) en droeg AI-adoptie aan bij AWV, maar geen aantoonbare didactische of trainerservaring.",
+        "check": "w11"
+      }
+    ]
+  },
+  {
+    "title": "System Engineer (Medior/Senior)",
+    "url": "https://www.gumption.eu/vacancies/system-engineer-medior-senior",
+    "company": "GUMPTION",
+    "source": "https://www.gumption.eu/vacancies",
+    "first_seen": "2026-08-26",
+    "snippet": "System Engineer (Medior/Senior) | Gumption Offerings News & Cases Gumption Companies Careers About Get in touch Brand & customer experience Business process optimisation & automation Smart ICT infrastructure Data-driven organisation AdaptX Bmatix Brightest Cloudsisters Geosparc HuRis Plugnotes Purple Panda Rank 1 SQAI Suite Studio Emma TheValueChain valueXstream EN NL Home Vacancies System engineer medior senior System Engineer (Medior/Senior) @ Rank 1 Share this job Go to: Apply here Job description Jouw uitdagingen: Als Infrastructure Engineer ben je een sleutelfiguur in het ontwerpen, uitbouwen en onderhouden van moderne systeem- en infrastructuuromgevingen bij onze klanten. Je analyseert infrastructuurvraagstukken en vertaalt deze naar doordachte ontwerpen en concrete implementaties, steeds afgestemd op de visie en strategie van de organisatie; Je staat in voor de installatie, configuratie en optimalisatie van systeem- en infrastructuuroplossingen zoals servers, storage, virtualisatie, high availability, back-up en cloudomgevingen; Je denkt proactief mee met klanten, geeft technisch advies en ondersteunt bij het uitwerken van oplossingen, documentatie, procedures en offertes; J",
+    "stack": [
+      "Windows Server",
+      "Linux",
+      "Virtualization",
+      "Storage",
+      "Backup",
+      "SAN/NAS",
+      "Active Directory",
+      "Microsoft Azure",
+      "AWS",
+      "Microsoft Entra ID"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "recruitment@rank1.be"
+    },
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 20 jaar Microsoft-infrastructuurervaring met Windows Server, Active Directory, Entra ID, Azure en PowerShell in enterprise-omgevingen.",
+        "check": "k20",
+        "pitch": "Beste,\n\nIk las met interesse de vacature voor System Engineer (Medior/Senior) bij Rank 1 en wilde u vragen of u samenwerkt met externe consultancypartners voor de invulling ervan.\n\nDeze kandidaat heeft meer dan 20 jaar hands-on ervaring met exact de technologieën die Rank 1 zoekt: Windows Server (2008–2022), Active Directory, Microsoft Entra ID, Azure, VMware vSphere en PowerShell. Momenteel actief bij Toyota Motor Europe als security engineer, met ownership over Europe-brede AD-migraties, hybride Entra ID-implementaties en vulnerability management via Defender en Qualys.\n\nDaarnaast heeft deze kandidaat bewezen ervaring in gereguleerde sectoren zoals automotive, farma en overheid — omgevingen die hoge eisen stellen aan stabiliteit, veiligheid en documentatie, net zoals klantprojecten bij Rank 1 dat doen. Patch management, IAM en endpoint security zijn concrete dagelijkse praktijk.\n\nGraag stel ik deze kandidaat voor in een kort gesprekje. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 78,
+        "reason": "Deze kandidaat combineert 25 jaar systeembeheer met Azure, Terraform, Linux, Kubernetes en on-prem-naar-cloud-migraties bij grote Belgische bedrijven.",
+        "check": "j25",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor System Engineer bij Rank 1 neem ik graag contact op — werkt u samen met externe consultancypartners voor dergelijke profielen?\n\nDeze kandidaat heeft 25 jaar brede infrastructuurervaring en werkt momenteel freelance als Azure Cloud Engineer bij Partena Professional, waar on-prem-naar-cloud-migraties (inclusief ExpressRoute, AKS, API Management en Azure DevOps) centraal staan — een perfecte match met wat Rank 1 zoekt. Daarvoor beheerde deze kandidaat bij StepStone meer dan 1.500 Windows- en Linux-servers, leidde een volledige datacentermigratie naar AWS en draaide VMware-naar-Nutanix-migraties.\n\nWindows Server, Linux, Azure, Terraform, Ansible, Kubernetes, monitoring (Grafana/Prometheus) en scripting: het volledige technische profiel uit uw vacature is aanwezig, onderbouwd door concrete projectervaring.\n\nZou u open staan voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 67,
+        "reason": "Deze kandidaat heeft brede Linux- en DevOps-ervaring met Ansible, VMware, AWS/Azure en monitoring in grote Belgische omgevingen zoals Brussels Airport en KBC.",
+        "check": "g29"
+      }
+    ]
+  },
+  {
+    "title": "System Engineer",
+    "url": "https://lovehomefabrics.com/jobs/system-engineer",
+    "company": "Global Textile Alliance Belgium",
+    "source": "https://lovehomefabrics.com/jobs?f%5B0%5D=location%3A17",
+    "first_seen": "2026-08-26",
+    "snippet": "System Engineer | Love Home Fabrics Skip to main content English Love Home Fabrics Mobile menu expand icon Menu Close Home Love Home Fabrics Our brands Events Blog Jobs Policies Home Love Home Fabrics About us Act for Home Textiles STeP by OEKO-TEX Our brands Events Blog Jobs Policies Facebook Facebook Instagram Instagram English System Engineer Location Site Wielsbeke (BE) Business areas IT Apply for this job System Engineer Ben jij een IT-generalist die complexe puzzels feilloos vertaalt naar eenvoudige oplossingen? Dan verwelkomen we je graag om mee te bouwen aan de digitale ruggengraat van onze internationale groep. Jouw Impact! Als System Engineer word jij het zenuwcentrum voor onze IT-infrastructuur over diverse sites (o.a. Oostrozebeke, Zeebrugge, Gent, Lokeren, Meer en Rotterdam). Je werkt deels voor de overkoepelende groep en deels specifiek voor onze gespecialiseerde afdelingen in waterzuivering en tank cleaning. Na een intensief onboardingtraject waarin we je alle kneepjes van het vak leren, word jij hét aanspreekpunt voor IT-vraagstukken binnen de Benelux. Concreet, komt dit neer op: Beheren & Optimaliseren: Je installeert, configureert en onderhoudt hardware, netwerken",
+    "stack": [
+      "M365",
+      "Microsoft Entra ID",
+      "Active Directory",
+      "DNS",
+      "DHCP",
+      "VMware",
+      "Citrix",
+      "Aruba",
+      "Fortigate",
+      "SSL VPN"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@lovehomefabrics.com"
+    },
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 82,
+        "reason": "Deze kandidaat leidde een SD-WAN-uitrol over 280 sites met Aruba en heeft ruime VOIP- en monitoring-ervaring, exact wat de vacature vraagt.",
+        "check": "k28",
+        "pitch": "Beste,\n\nU bent op zoek naar een System Engineer voor uw IT-infrastructuur verspreid over meerdere Belgische en Nederlandse sites. Werkt u ook samen met externe consultants?\n\nWij stellen u graag deze kandidaat voor: een senior infrastructuurprofiel met 28 jaar ervaring en een bijzonder sterke match op uw vereisten. Bij De Watergroep leidde deze kandidaat de volledige SD-WAN-uitrol (HPE Aruba EdgeConnect) over circa 280 productiesites — precies de schaal en complexiteit die Love Home Fabrics vraagt. Aruba-netwerken, monitoring, VOIP (Teams, Cisco Call Manager), Intune en SCCM staan allemaal sterk in het profiel. Daarnaast is er brede ervaring met LAN/WAN, firewall, WiFi en leveranciersbeheer (Telenet, Proximus).\n\nDeze kandidaat is documentatiegericht, stressbestendig en gewend aan multi-site omgevingen in de utiliteits- en overheidssector — een profiel dat snel inzetbaar is in uw Benelux-context.\n\nMag ik u even bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 90,
+        "score": 76,
+        "reason": "Deze kandidaat heeft diepgaande Fortigate- en Aruba-ervaring en leidde volledige netwerkherdesigns over meerdere sites, inclusief SD-WAN en VPN.",
+        "check": "n15",
+        "pitch": "Beste,\n\nVoor uw openstaande positie van System Engineer in Wielsbeke wil ik u graag een sterk freelance netwerkprofiel voorstellen. Werkt u ook samen met externe consultanten?\n\nDeze kandidaat beschikt over 15 jaar ervaring in netwerk- en security-engineering met een uitgesproken focus op precies de tools die u vermeldt: FortiGate, Aruba (Wi-Fi en switching), Citrix en SSL VPN. Bij Vincotte leidde deze kandidaat een volledig netwerkherdesign over 5 Nederlandse sites na een cryptolocker-incident — inclusief SD-WAN, Fortinet ADVPN/OSPF en centrale monitoring via FortiAnalyzer. Bij Securitas volgde een vergelijkbaar traject na een cyberaanval, met Palo Alto, FortiGate en Meraki.\n\nDeze kandidaat is gewend aan complexe multi-site omgevingen, werkt zelfstandig en levert snel resultaat onder druk — een troef voor uw onboarding en lopende projecten zoals VOIP-uitrol en domeinmigraties.\n\nZin in een kort gesprek om dit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 31,
+        "score": 68,
+        "reason": "Deze kandidaat heeft sterke VMware- en DNS/DHCP-architectuurervaring bij KBC en mentorde collega's, maar mist Fortigate en M365-ervaring.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Data-Analist (virtual)",
+    "url": "https://www.centrumvoorafstandsonderwijs.be/vacancy/course/data-analist/8627",
+    "company": "COURSE",
+    "source": "https://www.centrumvoorafstandsonderwijs.be/vacatures-docenten",
+    "first_seen": "2026-08-26",
+    "snippet": "Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Job opening virtual Teacher Data-Analist Share your knowledge with hundreds of students and help them achieve their career goals Apply now Course info Job description You will teach this to your students Thanks to you your students become Course info Profile What do we offer you? Work experience Language skills Contract Location Employer Apply now What does it mean to teach a virtual course? Are you excited to get started already? Would you like to start right away? You can! Below you will find the periods for which we can already call you on. Data-Analist 8 lessons €639 Campus: Online eCampus (Zoom) First lesson: 17/11/2026 Last lesson: 05/01/2027 Hours: 18:30 – 21:30 1 - 1 of 1 Our application procedure Ben jij één brok talent, goesting en motivatie? En wil je samen met je nieuwe collega's onze school nog beter maken? Stuur dan snel je cv en motivatiebrief naar vacatures@centrumvoorafstandsonderwijs.be . Valt jouw motivatie bij ons in de smaak? Dan nodigen we je al snel uit voor een kennismaking. Is er op dat gesprek een kli",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "vacatures@centrumvoorafstandsonderwijs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 4,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring in data-analyse, Power BI, SQL en stakeholdermanagement in complexe BI-omgevingen.",
+        "check": "n6",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een docent Data-Analist. Werkt u daarvoor ook samen met externe consultants?\n\nDeze kandidaat combineert 6 jaar hands-on ervaring in data-analyse, Power BI, SQL en data visualisatie met sterke communicatieve vaardigheden richting uiteenlopende stakeholders. Als BI Lead en Senior Business Data Analyst heeft deze kandidaat complexe analytische concepten vertaald naar concrete deliverables voor klanten in automotive en manufacturing — precies het soort praktijkervaring dat studenten inspireert. Met projecten bij BMW Group en Atlas Copco beschikt deze kandidaat over een breed en actueel portfolio dat perfect aansluit bij een cursus Data-Analist. De combinatie van technische diepgang en stakeholdermanagement maakt deze kandidaat ook een overtuigende docent voor volwassenenonderwijs.\n\nGraag vertel ik u meer in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 50,
+        "score": 78,
+        "reason": "Deze kandidaat combineert Power BI, SQL, Python en data governance met bewezen klantgerichte BI-projectervaring in meerdere sectoren.",
+        "check": "s6",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een virtuele docent Data-Analist wou ik even peilen of u openstaat voor externe profielen.\n\nDeze kandidaat heeft als zelfstandig BI-consultant 6 jaar ervaring opgebouwd met Power BI, SQL, Python en Microsoft Fabric bij klanten zoals Atlas Copco, Gosselin Group en Lineage Logistics. De combinatie van technische expertise en projectleiderschap — inclusief data governance en AI-toepassingen — zorgt voor een rijke praktijkbasis die studenten direct naar de arbeidsmarkt voorbereidt. Meertaligheid (vijf talen) en ervaring met uiteenlopende sectoren versterken het profiel als inspirerende docent in een online leeromgeving. De vertrouwdheid met Databricks, Azure DevOps en zelfs ChatGPT-API-integraties toont dat deze kandidaat ook de nieuwste trends in het vakgebied beheerst.\n\nKan ik u volgende week even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 62,
+        "score": 68,
+        "reason": "Deze kandidaat heeft 7 jaar ervaring met Databricks, Power BI en Azure en leidde een team van 12 engineers, wat coachingskwaliteiten aantoont.",
+        "check": "w7"
+      }
+    ]
+  },
+  {
+    "title": "Modern Workplace Engineer",
+    "url": "https://www.gumption.eu/vacancies/modern-workplace-engineer",
+    "company": "GUMPTION",
+    "source": "https://www.gumption.eu/vacancies",
+    "first_seen": "2026-08-26",
+    "snippet": "Modern Workplace Engineer | Gumption Offerings News & Cases Gumption Companies Careers About Get in touch Brand & customer experience Business process optimisation & automation Smart ICT infrastructure Data-driven organisation AdaptX Bmatix Brightest Cloudsisters Geosparc HuRis Plugnotes Purple Panda Rank 1 SQAI Suite Studio Emma TheValueChain valueXstream EN NL Home Vacancies Modern workplace engineer Modern Workplace Engineer @ Rank 1 Share this job Go to: Apply here Job description Het Rank1 Professional Services team staat in voor de dagelijkse ICT-ontzorging van een 40-tal KMO’s in uiteenlopende sectoren. Dat gaat verder dan klassiek beheer: we denken mee met de klant, bouwen toekomstgerichte oplossingen uit en zorgen ervoor dat hun IT-omgeving veilig, stabiel en performant blijft. Het consultancy team bestaat uit sterke IT-professionals die long-term projecten doen bij onze klanten . Als Modern Workplace Engineer werk je mee aan de bedenking, opzet en implementatie van de digitale werkplek en samenwerkingsplatformen bij onze klanten. Je hebt een goede kennis van en ervaring met Azure, Microsoft 365, SharePoint Online, Teams en CoPilot, Viva , zowel op vlak van topologie, depl",
+    "stack": [
+      "Azure",
+      "Microsoft 365",
+      "SharePoint Online",
+      "Teams",
+      "Copilot",
+      "Viva",
+      "Microsoft Entra ID",
+      "Microsoft Intune",
+      "Autopilot",
+      "Windows 10/11"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 20 jaar Microsoft-infrastructuurervaring met Entra ID, Defender, PowerShell en hybride Azure-omgevingen in enterprise-context.",
+        "check": "k20",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Modern Workplace Engineer bij Rank 1. Werkt u ook met externe consultants voor deze rol?\n\nDeze kandidaat heeft meer dan 20 jaar Microsoft-infrastructuurervaring en heeft bewezen expertise in precies de technologieën die u zoekt: Microsoft Entra ID (hybride Azure AD), Defender Suite (Endpoint, Identity), PowerShell-automatisatie en Zero Trust-principes. Bij Toyota Motor Europe leidt deze kandidaat vandaag Active Directory-beveiligingsprogramma's op Europese schaal, inclusief Conditional Access en identity hardening.\n\nDaarnaast heeft deze kandidaat brede sectorervaring — automotive, overheid, farma en defensie — wat perfect aansluit bij de diverse KMO-klanten van Rank 1. De combinatie van diepgaande security-kennis en hands-on infrastructuurbeheer (Windows Server, VMware, SCCM) maakt deze kandidaat tot een sterke allround Modern Workplace-professional.\n\nMag ik u even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 58,
+        "reason": "Deze kandidaat heeft Azure-tenant­beheer, ADF, Bicep en training van sysadmins uitgevoerd, maar mist concrete M365/Modern Workplace-ervaring.",
+        "check": "j25"
+      },
+      {
+        "row": 87,
+        "score": 38,
+        "reason": "Deze kandidaat is sterk in Kubernetes en DevOps-platforms, maar heeft geen aantoonbare Microsoft 365, Intune of Modern Workplace-ervaring.",
+        "check": "s10"
+      }
+    ]
+  },
+  {
+    "title": "Informatica BSO (virtual)",
+    "url": "https://www.centrumvoorafstandsonderwijs.be/vacancy/course/informatica-bso/8232",
+    "company": "COURSE",
+    "source": "https://www.centrumvoorafstandsonderwijs.be/vacatures-docenten",
+    "first_seen": "2026-08-26",
+    "snippet": "Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Cursusaanbod Proefles Voordelen Hoe werkt het? Over ons Contact NL Inschrijven Job opening virtual Teacher Informatica BSO Share your knowledge with hundreds of students and help them achieve their career goals Apply now Course info Job description You will teach this to your students Thanks to you your students become Course info Profile What do we offer you? Work experience Language skills Contract Location Employer Apply now What does it mean to teach a virtual course? Are you excited to get started already? Would you like to start right away? You can! Below you will find the periods for which we can already call you on. Informatica BSO 5 lessons €349 Campus: Online eCampus (Zoom) First lesson: 01/11/2026 Last lesson: 05/11/2026 Hours: 10:00 – 13:00 1 - 1 of 1 Also available in Homestudy Our application procedure Ben jij één brok talent, goesting en motivatie? En wil je samen met je nieuwe collega's onze school nog beter maken? Stuur dan snel je cv en motivatiebrief naar vacatures@centrumvoorafstandsonderwijs.be . Valt jouw motivatie bij ons in de smaak? Dan nodigen we je al snel uit voor een kennisma",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "vacatures@centrumvoorafstandsonderwijs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede software-engineering ervaring maar geen aantoonbare didactische of lesgevende achtergrond voor BSO-informatica.",
+        "check": "l7"
+      },
+      {
+        "row": 9,
+        "score": 45,
+        "reason": "Deze kandidaat heeft solide Java/full-stack ervaring maar geen zichtbare ervaring met lesgeven of opleiden op BSO-niveau.",
+        "check": "k4"
+      },
+      {
+        "row": 18,
+        "score": 38,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ontwikkeling maar geen didactische achtergrond of ervaring met BSO-onderwijs of volwasseneneducatie.",
+        "check": "n16"
+      }
+    ]
+  },
+  {
+    "title": "SAP Business Intelligence consultant",
+    "url": "https://www.gumption.eu/vacancies/sap-business-intelligence-consultant",
+    "company": "GUMPTION",
+    "source": "https://www.gumption.eu/vacancies",
+    "first_seen": "2026-08-26",
+    "snippet": "SAP Business Intelligence consultant | Gumption Offerings News & Cases Gumption Companies Careers About Get in touch Brand & customer experience Business process optimisation & automation Smart ICT infrastructure Data-driven organisation AdaptX Bmatix Brightest Cloudsisters Geosparc HuRis Plugnotes Purple Panda Rank 1 SQAI Suite Studio Emma TheValueChain valueXstream EN NL Home Vacancies Sap business intelligence consultant SAP Business Intelligence consultant @ Bmatix Share this job Go to: Apply here Job description Bmatix maakt deel uit van de Gumption Group en is een gespecialiseerde speler in business intelligence, data engineering en information management. Met 80+ consultants in België en Luxemburg helpen wij organisaties om hun data om te zetten in inzichten die écht het verschil maken. Wij geloven dat BI meer is dan technologie alleen. Door inzicht te krijgen in doelstellingen en processen van onze klanten, bouwen we oplossingen die betere beslissingen mogelijk maken en duurzame groei ondersteunen. Onze sterkte ligt in SAP en Microsoft BI-oplossingen, maar wat ons écht onderscheidt is onze aanpak: we werken als partner, duiken diep in de business-processen, begrijpen de uit",
+    "stack": [
+      "SAP Analytics Cloud",
+      "SAP Business Data Cloud",
+      "SAP BW",
+      "Business Objects",
+      "Web Intelligence",
+      "Data Services",
+      "CDS views",
+      "Power BI",
+      "Databricks"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 72,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare SAP Analytics Cloud-ervaring via Deloitte S/4HANA-trajecten en BW/4HANA, exact de gevraagde SAP BI-stack.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de vacature voor SAP Business Intelligence consultant bij Bmatix. Werkt u ook met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft bij Deloitte rechtstreeks gewerkt op SAP data & analytics-trajecten binnen S/4HANA-transformaties, met hands-on ervaring in BW/4HANA en SAP Analytics Cloud — precies de technologieën die Bmatix centraal stelt. Daarnaast beschikt deze kandidaat over sterke functionele analysevaardigheden (BPMN, UML, SAFe) en bewezen vermogen om business- en IT-noden te vertalen naar concrete oplossingen, onder meer bij KBC en Acerta. De combinatie van SAP BI-achtergrond, data analytics-ervaring op AWS-platformen en recente AI-certificaten maakt dit een veelzijdig en toekomstgericht profiel.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 71,
+        "score": 71,
+        "reason": "Deze kandidaat heeft 13 jaar ETL/BI-ervaring inclusief Business Objects, Data Vault en datawarehouse-architectuur bij grote Belgische spelers.",
+        "check": "j13"
+      },
+      {
+        "row": 25,
+        "score": 62,
+        "reason": "Deze kandidaat combineert 7 jaar Azure data engineering met Power BI, SSAS, Databricks en vijf Microsoft-certificeringen, relevant voor de Microsoft-pijler van Bmatix.",
+        "check": "b7"
+      }
+    ]
+  },
+  {
+    "title": "Embedded Software Tester",
+    "url": "https://www.gumption.eu/vacancies/embedded-software-tester",
+    "company": "GUMPTION",
+    "source": "https://www.gumption.eu/vacancies",
+    "first_seen": "2026-08-26",
+    "snippet": "Embedded Software Tester | Gumption Offerings News & Cases Gumption Companies Careers About Get in touch Brand & customer experience Business process optimisation & automation Smart ICT infrastructure Data-driven organisation AdaptX Bmatix Brightest Cloudsisters Geosparc HuRis Plugnotes Purple Panda Rank 1 SQAI Suite Studio Emma TheValueChain valueXstream EN NL Home Vacancies Embedded software tester Embedded Software Tester @ Brightest Share this job Go to: Apply here Job description What to expect Design and develop test plans, test cases, and test scripts for embedded software and systems Perform root cause analysis, document test results and report bugs Execute test plans, test cases, and test scripts, and report results Identify, report, and track defects Work with software developers to troubleshoot and resolve defects Communicate with project stakeholders to ensure that testing objectives are met Keep up-to-date with new testing tools and technologies Assist with performance- & security testing Test automation and scripting Your background A quality-focused personality with strong documentation skills Strong communication skills and ability to work in a team environment The ",
+    "stack": [
+      "PLC"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Liesbeth Vander Elst",
+      "email": "liesbeth.vanderelst@brightest.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 72,
+        "reason": "Deze kandidaat bouwde een geautomatiseerd testsysteem voor Barco (Python/C/Linux) én werkte aan embedded Java voor EV-laders met OCPP-protocol.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de openstaande vacature voor Embedded Software Tester bij Brightest. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft concrete ervaring die nauw aansluit bij wat u zoekt. Bij Barco bouwde deze kandidaat een geautomatiseerd testsysteem voor bioscoopprojectoren (Python, C, Linux) — inclusief testscripts, debugging en rapportage op embedded targets. Recentelijk werkte deze kandidaat aan embedded Java voor EV-laders bij Enovates, met focus op protocol-implementatie (OCPP 2.01) en L3-support, wat getuigt van diepgaand begrip van embedded systemen en troubleshooting.\n\nDaarnaast heeft deze kandidaat ervaring met CI/CD, Linux-omgevingen en scripting — allemaal relevant voor testautomatisering in een embedded context. De combinatie van hands-on embedded werk én testervaring maakt dit een sterk profiel voor Brightest.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 70,
+        "score": 58,
+        "reason": "Deze kandidaat toont aantoonbare testdiscipline op embedded-nabije systemen en zorgde voor hoge testdekking in productieomgevingen met zwaar dagverkeer.",
+        "check": "k5"
+      },
+      {
+        "row": 88,
+        "score": 32,
+        "reason": "Deze kandidaat is een Java/Kotlin backend tech lead zonder aantoonbare embedded of hardware-gerelateerde testervaring.",
+        "check": "a14"
+      }
+    ]
+  },
+  {
+    "title": "Datarecovery",
+    "url": "http://Datarecovery.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "Datarecovery Home Contact Admin Link plaatsen Adverteren Datarecovery Contact Naam * Email * Onderwerp Bericht Message is being sent. Please wait... verzenden Tips Link plaatsen Over Datarecovery Deze startpagina gaat over datarecovery . Je vind hier links die je meer informatie geven over het onderwerp datarecovery. Link plaatsen Link plaatsen Datarecovery Deze rubriek gaat over Datarecovery. In deze rubriek vind je links die meer informatie geven over Datarecovery. Attingodatarecovery.nl Bsaonline.nl Copyrightvrijeplaatjes.nl Dalopcservice.nl Datarecoverynederland.nl E-quipment.eu Getdataback.nl Ictdatarecovery.nl Nl.easeus.com Ontrack.com Pckennis.net Recover-it.biz Stellar.nl Steuro.nl Syntomax.com Data Recovery Antwerpen Link plaatsen Jouw link hier? Link plaatsen Jouw link hier? Link plaatsen Informatie datarecovery Informatie over Informatie datarecovery. Diversen links over Informatie datarecovery om te vinden wat je zoekt. Bolwerk.net Datarecovery-blog.nl Kldiscovery.com Leidscherijn.net Pinterest.ie Repair4all.nl Vanlaarhovenict.nl Link plaatsen Datarecovery tips Links die gaan over Datarecovery tips. Vind meer links over Datarecovery tips en vind wat je zoekt. Link plaat",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 12,
+        "reason": "Deze kandidaat heeft data-engineering achtergrond, maar de vacature beschrijft geen echte functie of vereisten.",
+        "check": "b17"
+      },
+      {
+        "row": 45,
+        "score": 8,
+        "reason": "Deze kandidaat heeft platform- en infrastructuurervaring, maar er is geen concrete vacature om op te matchen.",
+        "check": "j8"
+      },
+      {
+        "row": 18,
+        "score": 7,
+        "reason": "Deze kandidaat heeft backend-ontwikkelervaring, maar de vacature is een linkdirectory zonder functieprofiel.",
+        "check": "n16"
+      }
+    ]
+  },
+  {
+    "title": "Freelance-ict",
+    "url": "http://Freelance-ict.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "Freelance-ict Home Contact Admin Link plaatsen Adverteren Freelance-ict Contact Naam * Email * Onderwerp Bericht Message is being sent. Please wait... verzenden Tips thornstein Alleictopdrachten.nl Ictstartup.nl Linkitgroup.nl Nextictsolutions.nl Link plaatsen Over Freelance-ict Deze startpagina gaat over freelance-ict . Je vind hier links die je meer informatie geven over het onderwerp freelance-ict. Link plaatsen Link plaatsen Citrix Overzichtelijk alle links over Citrix. Via de links vind je meer info over Citrix. 4-freelancers.nl Capwell.nl Careers.centric.eu Flexibility.nl Freelance-ict.winkel.net Freelance.nl Glassdoor.nl It-contracts.nl Nationalevacaturebank.nl Nl.jooble.org Nl.linkedin.com Link plaatsen Database Informatie over Database. Diversen links over Database om te vinden wat je zoekt. Af-za.facebook.com Freelance-jobs.tumblr.com Freelancer.com Headfirst.nl Isense.nl Nl.qwe.wiki Opdrachten.nl Slideshare.net Upwork.com Link plaatsen Jouw link hier? Link plaatsen Jouw link hier? Link plaatsen CMS Links die gaan over CMS. Vind meer links over CMS en vind wat je zoekt. Aassim.nl Ictjob.be In.pinterest.com Indeed.nl Linguee.com Peopleatwork.nl Pinterest.fr Simplyhired.nl ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 53,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke Linux/DevOps-ervaring maar geen match met de vereiste freelance-ICT-categorieën zoals Citrix, ColdFusion, CMS of database-development.",
+        "check": "a8"
+      },
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede full-stack Java/PHP-ervaring maar geen aansluiting bij de specifieke niche-technologieën (Citrix, ColdFusion, CMS) die de vacature benoemt.",
+        "check": "l7"
+      },
+      {
+        "row": 11,
+        "score": 35,
+        "reason": "Deze kandidaat werkte als freelance full-stack developer voor Vlaamse KMO's maar mist elke concrete link met Citrix, ColdFusion of CMS zoals gevraagd.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "Ictprogrammeur",
+    "url": "http://Ictprogrammeur.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "Ictprogrammeur Home Contact Admin Link plaatsen Adverteren Ictprogrammeur Contact Naam * Email * Onderwerp Bericht Message is being sent. Please wait... verzenden Tips DRaaS Link plaatsen Over Ictprogrammeur Deze startpagina gaat over ictprogrammeur . Je vind hier links die je meer informatie geven over het onderwerp ictprogrammeur. Link plaatsen Link plaatsen Ictprogrammeur Deze rubriek gaat over Ictprogrammeur. In deze rubriek vind je links die meer informatie geven over Ictprogrammeur. Aatop-ict.nl Bekijkjetoekomstnu.nl Code14.nl Getcertifiedict.com Ict-starter.nl Ictergezocht.nl Icttrainingen.nl Indeed.nl Mijnzzp.nl Monsterboard.nl Nationalevacaturebank.nl Onlinemarketingvacatures.... Uitzendbureau.nl Wincacademy.nl Link plaatsen Jouw link hier? Link plaatsen Jouw link hier? Link plaatsen Informatie ictprogrammeur Links die gaan over Informatie ictprogrammeur. Vind meer links over Informatie ictprogrammeur en vind wat je zoekt. Link plaatsen Ictprogrammeur tips Informatie over Ictprogrammeur tips. Diversen links over Ictprogrammeur tips om te vinden wat je zoekt. Link plaatsen Jouw link hier? Link plaatsen Gerelateerd ictprogrammeur.10sec.nl ictprogrammeur.123startpagina.be ict",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat heeft brede programmeerervaring in Java, PHP, Python en C# met bewezen SaaS-architectuur en full-stack projecten.",
+        "check": "l7"
+      },
+      {
+        "row": 9,
+        "score": 45,
+        "reason": "Deze kandidaat toont concrete full-stack Java-ontwikkeling op overheidsprojecten met Spring, Angular en moderne DevOps-tools.",
+        "check": "k4"
+      },
+      {
+        "row": 18,
+        "score": 40,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ontwikkeling met cloud-architectuur, distributed systems en teamleadervaring.",
+        "check": "n16"
+      }
+    ]
+  },
+  {
+    "title": "Itprogrammeur",
+    "url": "http://Itprogrammeur.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "Itprogrammeur Home Contact Admin Link plaatsen Adverteren Itprogrammeur Contact Naam * Email * Onderwerp Bericht Message is being sent. Please wait... verzenden Tips Link plaatsen Over Itprogrammeur Deze startpagina gaat over itprogrammeur . Je vind hier links die je meer informatie geven over het onderwerp itprogrammeur. Link plaatsen Link plaatsen Itprogrammeur Deze rubriek gaat over Itprogrammeur. In deze rubriek vind je links die meer informatie geven over Itprogrammeur. Be.indeed.com Detachering.co Glassdoor.nl Indeed.nl Itprogrammeur.winkel.net Simplyhired.nl Techniekwerkt.nl Werkzoeken.nl Link plaatsen Jouw link hier? Link plaatsen Jouw link hier? Link plaatsen Informatie itprogrammeur Links die gaan over Informatie itprogrammeur. Vind meer links over Informatie itprogrammeur en vind wat je zoekt. Link plaatsen Itprogrammeur tips Overzichtelijk alle links over Itprogrammeur tips. Via de links vind je meer info over Itprogrammeur tips. Deventer.work Glassdoor.com Haarlemmermeerlijnen.nl Itprogrammeur.linktoevoeg... Nl.linkedin.com Startagenda.nl Tips-ondernemen.nl Vacatures-nijmegen.nl Vandewaterprojecten.nl Weerstationsusteren.nl Link plaatsen Jouw link hier? Link plaatsen G",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 7 jaar concrete programmeervervaring in Java, PHP, Python en C# met volledige SaaS-architectuurverantwoordelijkheid.",
+        "check": "l7",
+        "pitch": "Beste,\n\nWe zagen jullie vacature voor een IT-programmeur en wilden even polsen of jullie openstaan voor externe consultants.\n\nDeze kandidaat beschikt over 7 jaar hands-on programmeerervaring in meerdere talen en stacks: Java (backend, OCPP-protocol, gedistribueerde algoritmen), PHP (volledige SaaS-bouw inclusief hosting en SecOps), Python en C#. Wat deze kandidaat onderscheidt, is de breedte van concrete realisaties: een volledig gebouwde en gehoste SaaS-facturatieoplossing als co-founder, een privacy-platform met CI/CD-pipeline, en embedded software voor EV-laders. Daarnaast interim teamlead in 2024, wat senioriteitssignalen geeft ver boven het gemiddelde. De combinatie van architectuurverantwoordelijkheid, technische diepgang en brede programmeerervaring maakt deze kandidaat snel inzetbaar op uiteenlopende IT-programmeertaken.\n\nGraag bellen we even kort om te bekijken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 18,
+        "score": 58,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-programmeerervaring met teamlead- en architectuurrol in cloud-native webapplicaties.",
+        "check": "n16",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een IT-programmeur wilden we vragen of jullie samenwerken met externe consultants.\n\nDeze kandidaat heeft 16 jaar ervaring als .NET-developer met diepgaande kennis van C#, ASP.NET, Blazor en Angular, aangevuld met cloud-technologieën (Azure, AWS) en moderne architectuurpatronen (CQRS, microservices, GraphQL). Concreet leidde deze kandidaat de herschrijving van drie legacy desktopapplicaties naar één cloud-webapplicatie, inclusief technische analyse en teamleiding. Daarnaast een langlopend nevenproject in Azure dat getuigt van zelfstandigheid en brede technische verantwoordelijkheid. De combinatie van senioriteit, bewezen deliveries en architectuurervaring maakt deze kandidaat een sterke keuze voor complexere programmeeropdrachten.\n\nKort bellen om af te toetsen of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 9,
+        "score": 52,
+        "reason": "Deze kandidaat heeft 4 jaar Java full-stack ervaring op grote overheidsprojecten met bewezen Spring/Angular/Kubernetes-stack.",
+        "check": "k4"
+      }
+    ]
+  },
+  {
+    "title": "Microsoft-cloud-experts",
+    "url": "http://Microsoft-cloud-experts.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "Microsoft-cloud-experts Home Contact Admin Link plaatsen Adverteren Microsoft-cloud-experts Contact Naam * Email * Onderwerp Bericht Message is being sent. Please wait... verzenden Tips Link plaatsen Over Microsoft-cloud-experts Deze startpagina gaat over microsoft-cloud-experts . Je vind hier links die je meer informatie geven over het onderwerp microsoft-cloud-experts. Link plaatsen Link plaatsen Microsoft cloud experts Informatie over Microsoft cloud experts. Diversen links over Microsoft cloud experts om te vinden wat je zoekt. Altios.nl Biprofessional.nl Calltheone.com Context.reverso.net Dutchitchannel.nl Hlrnet.com Indeed.nl Intercept.nl Microsoft-cloud-experts.l... Nl.linkedin.com Officegrip.nl Peeme.nl Softwareone.com Vdx.nl Link plaatsen Jouw link hier? Link plaatsen Jouw link hier? Link plaatsen Informatie microsoft cloud experts Overzichtelijk alle links over Informatie microsoft cloud experts. Via de links vind je meer info over Informatie microsoft cloud experts. Link plaatsen Microsoft cloud experts tips Overzichtelijk alle links over Microsoft cloud experts tips. Via de links vind je meer info over Microsoft cloud experts tips. Adoc.tips Blog.secretary.nl Chc-mercur",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 68,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on Azure-ervaring met Bicep, AKS, Container Apps, AI-projecten en tenant-consolidatie bij Partena Professional.",
+        "check": "j25",
+        "pitch": "Beste,\n\nWerkt u ook samen met externe consultants voor uw Microsoft-cloudtrajecten? Naar aanleiding van uw zoektocht naar Microsoft-cloudexperts wil ik u graag een sterke kandidaat voorstellen.\n\nDeze kandidaat beschikt over 25 jaar IT-ervaring en was recentelijk freelance Azure Cloud Engineer bij Partena Professional, waar twee Azure-tenants werden geconsolideerd, AKS-workloads naar Container Apps gemigreerd en twee AI-projecten opgezet met Azure AI Foundry, Cosmos DB en Key Vault. Daarnaast werden Bicep-modules ontwikkeld, GitHub Actions-pipelines ingericht en ADF-pipelines gebouwd vanuit on-prem DB2/MySQL/PostgreSQL naar Microsoft Fabric via ExpressRoute. Bij StepStone leidde deze kandidaat eerder een volledige datacentermigratienaar AWS met Terraform en Kubernetes.\n\nDe combinatie van Azure-architectuur, IaC (Bicep/Terraform) en AI-implementatie maakt deze kandidaat direct inzetbaar voor complexe Microsoft-cloudopdrachten.\n\nBent u beschikbaar voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 49,
+        "score": 79,
+        "reason": "Deze kandidaat ontwierp en bouwde Azure-cloudarchitectuur met Bicep, Container Apps, Service Bus en Entra ID voor MAN Trucks Belgium.",
+        "check": "m15",
+        "pitch": "Beste,\n\nZoekt u Microsoft-cloudexperts en werkt u daarbij ook met externe consultants? Dan wil ik u graag een relevante kandidaat voorstellen.\n\nDeze kandidaat is een .NET & Azure Cloud Architect met 15 jaar ervaring, waaronder een lopende opdracht bij MAN Trucks Belgium waar de cloudarchitectuur voor een SAP-geïntegreerd serviceplatform werd ontworpen en gebouwd — met Azure Container Apps, Service Bus, Bicep, Entra ID en PostgreSQL/Azure SQL. Eerder werkte deze kandidaat als cloud solution architect bij een gerenommeerde Belgische IT-consultancy, met focus op IaC, cloud security, DDD en het coachen van ontwikkelaars. Kennis van NIS2 en zero-trust completeert het profiel.\n\nVoor klanten die Microsoft-cloudexpertise zoeken met architectuurvisie én hands-on uitvoering is dit een sterk profiel.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 82,
+        "score": 72,
+        "reason": "Deze kandidaat migreerde Azure-infrastructuur naar OpenTofu IaC, beheert AKS en bouwde DevSecOps-pipelines voor productieomgevingen.",
+        "check": "r6"
+      }
+    ]
+  },
+  {
+    "title": "Outsourcing-it",
+    "url": "http://Outsourcing-it.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 78,
+        "reason": "Deze kandidaat combineert 7 jaar Java-full-stack met SaaS-architectuur, CI/CD en interim teamlead-ervaring — breed inzetbaar in outsourcing.",
+        "check": "l7",
+        "pitch": "Beste,\n\nWij zijn een Belgisch IT-consultancybureau en zagen uw vacature bij Outsourcing-it in Barneveld. Werkt u ook met externe consultants? Dan hebben wij een sterke kandidaat voor u.\n\nDeze kandidaat heeft 7 jaar ervaring als freelance software engineer met een brede Java-stack: Spring, Hibernate, Docker, Jenkins en CI/CD-pipelines die hij volledig zelf heeft opgezet. Bij NSX bouwde hij een volledig SaaS-platform inclusief serverinfrastructuur en nam hij tijdelijk de rol van teamlead op zich. Als medeoprichter van een eigen SaaS-product (PHP, Docker, Linux) toont hij architectuurervaring en ondernemingszin.\n\nDaarnaast heeft hij gewerkt in domeinen zoals e-mobility (OCPP 2.01, EV-laders), GDPR-tooling en KMO-software — wat zijn brede inzetbaarheid in een outsourcingomgeving onderstreept.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 9,
+        "score": 74,
+        "reason": "Deze kandidaat heeft 4 jaar Java/Spring-full-stack consultancy-ervaring met CKAD-certificering en bewezen oplevering op complexe overheidsplatformen.",
+        "check": "k4"
+      },
+      {
+        "row": 45,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 8 jaar senior platform- en DevOps-ervaring met Kubernetes, Terraform en GitOps in kritieke telco-infrastructuur — sterk profiel voor outsourcing.",
+        "check": "j8"
+      }
+    ]
+  },
+  {
+    "title": "Software",
+    "url": "http://Software.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 14 jaar Java/Kotlin-ervaring met microservices, cloud en tech lead-rol bij o.a. BMW en DPG Media.",
+        "check": "a14",
+        "pitch": "Beste,\n\nU zoekt een ervaren software engineer — werkt u ook met externe consultants? Ik stel u graag deze kandidaat voor.\n\nMet 14 jaar ervaring in Java en Kotlin heeft deze kandidaat bewezen ownership genomen als tech lead bij meerdere organisaties. Bij BMW (Breda) bouwde deze kandidaat event-driven microservices, GraphQL APIs en Azure-integraties — inclusief Terraform, Kubernetes en CI/CD-migraties. Bij DPG Media leverde deze kandidaat Spring Boot/Kotlin-microservices voor Streamz en VTM GO, inclusief betalingsintegraties en dagelijkse deployments.\n\nAls tech lead bij Uitgeverij VAN IN leidde deze kandidaat een volledig scrumteam, ontwikkelde reactive REST APIs met Spring WebFlux en werkte met AWS en Kubernetes. Dat combineert technische diepgang met teamverantwoordelijkheid.\n\nKort samengevat: een polyvalente senior engineer met bewezen cloud-architectuur, Agile seniority en internationale ervaring — klaar om snel waarde te leveren.\n\nMag ik u kort bellen om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 78,
+        "reason": "Deze kandidaat combineert 7 jaar Java-achtergrond met SaaS-architectuur, CI/CD en een co-founder-track record in software delivery.",
+        "check": "l7",
+        "pitch": "Beste,\n\nU zoekt een software engineer — werkt u ook met externe profielen? Ik heb een kandidaat die ik u graag voorstell.\n\nDeze kandidaat heeft 7 jaar brede software-ervaring in Java, Python, PHP en Angular, aangevuld met sterke DevOps-praktijken (Jenkins, Docker, Linux). Bij NSX bouwde deze kandidaat een volledig SaaS-platform inclusief CI/CD-pipeline en server-setup, nam interim team lead-verantwoordelijkheid op in 2024 en gaf interne seminars over Keycloak en Docker.\n\nAls co-founder van een KMO-facturatieplatform (PHP, Docker, Linux) draagt deze kandidaat end-to-end architectuur-, security- en hostingverantwoordelijkheid — een duidelijk signaal van ownership buiten louter uitvoering.\n\nRecentelijk implementeerde deze kandidaat OCPP 2.01 voor EV-laadpalen bij Enovates, wat technische breedte in embedded Java aantoont.\n\nZou u tijd hebben voor een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 30,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 6 jaar Java/Spring Boot-ervaring met microservices, Kafka en CQRS bij Johnson & Johnson en DPG Media.",
+        "check": "e6",
+        "pitch": "Beste,\n\nU zoekt een software engineer — staat u open voor externe consultants? Ik stel u graag deze kandidaat voor.\n\nMet 6 jaar Java-ervaring, gespecialiseerd in Spring Boot, Kafka, CQRS en event sourcing, heeft deze kandidaat bij Johnson & Johnson meegebouwd aan een grootschalig microservices-platform voor patiëntworkflows. Deze kandidaat leidde mee de migratie van 25 microservices en 30 gedeelde libraries van Java 11 naar 21 en Spring Boot 2 naar 3 — een complexe, risicovolle operatie die met succes werd afgerond.\n\nBij DPG Media leverde deze kandidaat hoogvolume content publishing voor bekende titels als HLN en De Morgen. Daarnaast is er sterke testdiscipline (JUnit, Mockito, AssertJ) en frontend-capaciteit in Vue/Nuxt.\n\nEen gedreven, team-georiënteerde engineer met bewezen productie-ervaring in moderne Java-architecturen.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Software-testing",
+    "url": "http://Software-testing.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 35,
+        "score": 72,
+        "reason": "Deze kandidaat combineert concrete QA/testing-ervaring met release management en scrum master-rollen in een scale-up omgeving.",
+        "check": "j20",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature rond software-testing in Barneveld. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat heeft een sterk en gevarieerd profiel op het snijvlak van QA, testing en projectcoördinatie. Bij LifePowr groeide deze kandidaat organisch door van analist/tester naar release- en QA-coördinator — een rol met directe stakeholdercommunicatie en eindverantwoordelijkheid voor kwaliteit. Daarvoor leverde deze kandidaat als consultant bij Qframe/Cronos meerdere rollen: developer, scrum master, team lead en analist, wat zorgt voor brede context bij het testen van software.\n\nMet een achtergrond als industrieel ingenieur en ex-developer begrijpt deze kandidaat wat er achter de code zit — een echte troef bij het opstellen van testscenario's en het communiceren van bevindingen naar development teams.\n\nIk stel graag een kort gesprek voor om te bekijken of er een match is. Met vriendelijke groeten,"
+      },
+      {
+        "row": 19,
+        "score": 58,
+        "reason": "Deze kandidaat heeft testing- en analysevervaring als Scrum Master en testcoördinator bij Katoen Natie en diverse FA-rollen.",
+        "check": "b10"
+      },
+      {
+        "row": 70,
+        "score": 40,
+        "reason": "Deze kandidaat toont expliciete focus op testdekking en unhappy-path-testing, maar heeft een primair backend-ontwikkelprofiel.",
+        "check": "k5"
+      }
+    ]
+  },
+  {
+    "title": "Streaming-server",
+    "url": "http://Streaming-server.cafebelga.be/",
+    "company": "Barneveld",
+    "source": "https://www.cafebelga.be/",
+    "first_seen": "2026-08-26",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 82,
+        "reason": "Deze kandidaat heeft ruime Kafka Streams, Flink en Spark streaming-ervaring bij DPG Media, direct relevant voor een streaming-serverrol.",
+        "check": "a8",
+        "pitch": "Beste,\n\nWij lazen uw vacature voor een Streaming Engineer en vragen ons af of u samenwerkt met externe consultants.\n\nDeze kandidaat heeft 8 jaar ervaring met precies de gevraagde stack: Kafka, Kafka Streams, Flink en Spark, ingezet bij DPG Media voor real-time user-profile generatie en event-driven architecturen. Daarnaast heeft deze kandidaat aantoonbare ervaring met Scala, AWS EKS, Terraform en Airflow in een productieomgeving.\n\nDe achtergrond in media & streaming platforms maakt deze kandidaat bijzonder snel inzetbaar. Graag plannen we een kort gesprek om de mogelijkheden te bespreken.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  }
+]
