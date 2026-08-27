@@ -1,0 +1,504 @@
+[
+  {
+    "title": "Junior Architect (32–40 uur per week)",
+    "url": "https://architectenweb.nl/vacatures/vacature.aspx?id=28818",
+    "company": "3D Architectuur",
+    "source": "https://architectenweb.nl/vacatures/",
+    "first_seen": "2026-08-27",
+    "snippet": "DOMI Architecture | Junior Architect (32–40 uur per week) - architectenweb.nl Projecten Producten Bedrijven Vacatures Agenda Awards Podcasts more_horiz Videos Magazine Favorieten Profiel Uitloggen Nieuw Populair Toon alles Architectenweb magazine #14 Architectenweb magazine #13 Publieke gebouwen Architectenweb magazine #12 Kantoren Architectenweb magazine #11 Scholen Architectenweb magazine #10 Zorg Architectenweb magazine #14 Architectenweb magazine #10 Zorg Architectenweb magazine #12 Kantoren Architectenweb magazine #13 Publieke gebouwen Architectenweb magazine #6 Transformatie en Renovatie Om direct naar je favorieten te kunnen gaan is het nodig om eerst in te loggen. Nieuw Architectenweb Awards 2026 Architectenweb Awards 2025 Architectenweb Awards 2024 Architectenweb Awards 2023 Architectenweb Awards 2022 Architectenweb Awards 2021 Architectenweb Awards 2020 Architectenweb Awards 2019 Architectenweb Awards 2018 Om direct naar je favorieten te kunnen gaan is het nodig om eerst in te loggen. Nieuw Populair Favorieten Toon alles Samenwerken op kantoor Symposium Ontwerpen van autovrije buurten Symposium Prijsuitreiking Architectenweb Awards 2025 Impressie van een feestelijke avond",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "contact": {
+      "name": null,
+      "email": "info@domi-architecture.nl"
+    },
+    "ai_matches": [
+      {
+        "row": 49,
+        "score": 12,
+        "reason": "Deze kandidaat is .NET/Azure cloud architect zonder enige achtergrond in bouwkundige architectuur of ruimtelijk ontwerp.",
+        "check": "m15"
+      },
+      {
+        "row": 89,
+        "score": 8,
+        "reason": "Deze kandidaat is data- en AI-architect met geen aantoonbare ervaring in architectuur of de bouwsector.",
+        "check": "n14"
+      },
+      {
+        "row": 90,
+        "score": 6,
+        "reason": "Deze kandidaat is netwerkbeveiligingsexpert zonder enige raakvlakken met bouwkundige architectuur of ruimtelijk ontwerp.",
+        "check": "n15"
+      }
+    ]
+  },
+  {
+    "title": "Business Analyst Microsoft 365",
+    "url": "https://www.stepstone.be/jobs--Business-Analyst-Microsoft-365-WOMMELGEM-Hubo-Belgie-NV--2234666-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-08-27",
+    "snippet": "Business Analyst Microsoft 365 - Job at Hubo België NV in WOMMELGEM Find Jobs Find Jobs Business Analyst Microsoft 365 Hubo België NV WOMMELGEM Published: 52 minutes ago Be an early applicant Business Analyst Microsoft 365 Hubo België NV Introductie Hubo is de grootste speler op de Belgische DIY markt. Met meer dan 160 winkels verspreid over heel het land en 2600 enthousiaste medewerkers, is Hubo een begrip geworden in de doe-het-zelf sector. Naast de reguliere verkoop via onze winkels, verkopen we ook via e-commerce. In het Support Center te Wommelgem werken 250 medewerkers met veel plezier en passie aan de toekomst van Hubo. Met jouw kennis van Microsoft 365, SharePoint en het Power Platform help je onze digitale werkplek verder te verbeteren. Je vormt de brug tussen business en IT, brengt processen duidelijk in kaart en zorgt ervoor dat oplossingen aansluiten bij de noden van onze organisatie. Wat ga je doen? Je analyseert businessprocessen en behoeften en vertaalt deze naar duidelijke functional requirements en user stories. Je werkt nauw samen met diverse teams om hun noden te begrijpen en te vertalen naar concrete digitale oplossingen. Je begeleidt workshops en refinement ses",
+    "stack": [
+      "Microsoft 365",
+      "SharePoint",
+      "Power Platform"
+    ],
+    "experience": "several years",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 21,
+        "score": 82,
+        "reason": "Deze kandidaat beheert retail-systemen voor 200 winkels als PO/BA, met Dynamics 365, Power BI en agile teamleiding.",
+        "check": "i15",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de vacature voor Business Analyst Microsoft 365 bij Hubo. Werkt u ook samen met externe consultants voor dergelijke rollen?\n\nDeze kandidaat is momenteel actief als Product Owner/Business Analyst in een retailomgeving met meer dan 200 winkels. De parallellen met Hubo zijn opvallend: beheer van business-kritische winkelsystemen, vertaling van businessbehoeften naar user stories en agile epics, én hands-on ervaring met Power BI en Dynamics 365. Als SPOC naar leveranciers en leider van een .NET/Azure dev-team heeft deze kandidaat bewezen bruggen te bouwen tussen business en IT — exact wat Hubo zoekt. De retailcontext, de schaal (200 verkooppunten, 4.000+ artikelen in een assortimentscalender) en de ownership-mentaliteit maken dit profiel bijzonder sterk. Graag licht ik dit verder toe in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 75,
+        "reason": "Deze kandidaat heeft hands-on Power Apps-ervaring bij Baloise en bewezen BA-werk met BPMN, workshops en UAT.",
+        "check": "c3",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor Business Analyst Microsoft 365 bij Hubo wil ik graag een sterk profiel onder uw aandacht brengen. Werkt u ook samen met externe consultants?\n\nDeze kandidaat is vandaag actief als Business Analyst bij een grote verzekeringsgroep, waar Power Apps-automatisering en requirements voor interne tooling centraal staan — technologieën die perfect aansluiten bij jullie Power Platform-omgeving. Eerder bij de Vlaamse overheid leidde deze kandidaat workshops, stelde functionele requirements op, faciliteerde UAT en werkte met BPMN as-is/to-be procesmapping: precies de methodieken die Hubo zoekt. De combinatie van Microsoft-stack kennis, stakeholdermanagement en gestructureerde documentatie maakt dit een aantrekkelijk profiel. Ik vertel u graag meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 4,
+        "score": 62,
+        "reason": "Deze kandidaat realiseerde een end-to-end Microsoft Fabric en Power BI-integratie met ETL en dashboards voor meerdere departementen.",
+        "check": "n6"
+      }
+    ]
+  },
+  {
+    "title": "Solutions Engineer (Recent Graduate)",
+    "url": "https://jobs.keysight.com/external/jobs/53912?lang=en-us",
+    "company": "EASICS",
+    "source": "https://jobs.keysight.com/external/jobs",
+    "first_seen": "2026-08-27",
+    "snippet": "Solutions Engineer (Recent Graduate) in Multiple Locations | Keysight Technologies, Inc. Skip to Main Content Careers Search Jobs Why Keysight Our Culture Our Benefits Employer Awards Locations Americas United States Brazil Canada Mexico EMEA Austria Belgium Denmark Finland France Germany Israel Italy Romania Spain Sweden Switzerland The Netherlands United Kingdom APAC Malaysia Australia India Japan Korea Singapore Vietnam Greater China China Hong Kong, China Taiwan, China Students & Graduates Login Global Applicants U.S. Applicants Keysight Employees Manage Job Alerts Know Your Rights: Workplace Discrimination is Illegal . View all US Notices . Follow @KeysightCareers © Keysight Technologies 2000–2026 Privacy Terms Feedback Contact Keysight Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 42,
+        "reason": "Deze kandidaat heeft Java/embedded en SaaS-ervaring maar geen aantoonbare hardware-nabije of RF/test-measurement achtergrond voor Keysight.",
+        "check": "l7"
+      },
+      {
+        "row": 1,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede software- en AI-ervaring maar geen aansluiting bij test-measurement, EDA of hardware-engineering zoals Keysight vereist.",
+        "check": "w11"
+      },
+      {
+        "row": 24,
+        "score": 32,
+        "reason": "Deze kandidaat is sterk in data-engineering maar mist elke link met hardware, test-equipment of solutions-engineering voor een recent afgestudeerde vacature.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "Software Engineer – Eggplant Fusion Engine",
+    "url": "https://jobs.keysight.com/external/jobs/54027?lang=en-us",
+    "company": "EASICS",
+    "source": "https://jobs.keysight.com/external/jobs",
+    "first_seen": "2026-08-27",
+    "snippet": "Software Engineer – Eggplant Fusion Engine in Brussels, Belgium | Keysight Technologies, Inc. Skip to Main Content Careers Search Jobs Why Keysight Our Culture Our Benefits Employer Awards Locations Americas United States Brazil Canada Mexico EMEA Austria Belgium Denmark Finland France Germany Israel Italy Romania Spain Sweden Switzerland The Netherlands United Kingdom APAC Malaysia Australia India Japan Korea Singapore Vietnam Greater China China Hong Kong, China Taiwan, China Students & Graduates Login Global Applicants U.S. Applicants Keysight Employees Manage Job Alerts Know Your Rights: Workplace Discrimination is Illegal . View all US Notices . Follow @KeysightCareers © Keysight Technologies 2000–2026 Privacy Terms Feedback Contact Keysight Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 62,
+        "reason": "Deze kandidaat heeft 14 jaar Java/Kotlin-ervaring met microservices, event-driven architectuur en cloud bij o.a. BMW en DPG Media.",
+        "check": "a14",
+        "pitch": "Beste,\n\nWij lazen met interesse de vacature voor Software Engineer – Eggplant Fusion Engine bij Easics/Keysight. Werkt u ook samen met externe consultants voor dergelijke rollen?\n\nWij stellen u graag deze kandidaat voor: een senior software engineer met 14 jaar ervaring in Java en Kotlin, event-driven microservices, Spring Boot en cloud-infrastructuur (Azure, AWS, Terraform, Kubernetes). Bij BMW ontwikkelde deze kandidaat een RAG-gebaseerde AI-agent en beheerde event-driven microservices met GraphQL APIs. Bij DPG Media bouwde deze kandidaat streaming-platformen met dagelijkse CI/CD en Kotlin. Als tech lead bij Uitgeverij VAN IN leidde deze kandidaat een volledig team en architecteerde reactieve REST APIs.\n\nDeze brede technische diepgang en bewezen leiderschapservaring maken van deze kandidaat een sterke troef voor een complexe engineering-omgeving zoals die van Easics.\n\nGraag plannen wij een kort gesprek om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 48,
+        "reason": "Deze kandidaat heeft brede Java- en Python-ervaring inclusief embedded systemen en geautomatiseerd testen bij Barco.",
+        "check": "l7"
+      },
+      {
+        "row": 30,
+        "score": 45,
+        "reason": "Deze kandidaat heeft sterke Java-microservices-ervaring met Spring Boot, Kafka en CQRS bij Johnson & Johnson en DPG Media.",
+        "check": "e6"
+      }
+    ]
+  },
+  {
+    "title": "Software Engineer – Eggplant Fusion Engine",
+    "url": "https://jobs.keysight.com/external/jobs/54025?lang=en-us",
+    "company": "EASICS",
+    "source": "https://jobs.keysight.com/external/jobs",
+    "first_seen": "2026-08-27",
+    "snippet": "Software Engineer – Eggplant Fusion Engine in Brussels, Belgium | Keysight Technologies, Inc. Skip to Main Content Careers Search Jobs Why Keysight Our Culture Our Benefits Employer Awards Locations Americas United States Brazil Canada Mexico EMEA Austria Belgium Denmark Finland France Germany Israel Italy Romania Spain Sweden Switzerland The Netherlands United Kingdom APAC Malaysia Australia India Japan Korea Singapore Vietnam Greater China China Hong Kong, China Taiwan, China Students & Graduates Login Global Applicants U.S. Applicants Keysight Employees Manage Job Alerts Know Your Rights: Workplace Discrimination is Illegal . View all US Notices . Follow @KeysightCareers © Keysight Technologies 2000–2026 Privacy Terms Feedback Contact Keysight Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 52,
+        "reason": "Deze kandidaat heeft 14 jaar Java/Kotlin-ervaring met microservices, cloud en tech-lead-rollen, maar geen zichtbare Eggplant-achtergrond.",
+        "check": "a14"
+      },
+      {
+        "row": 0,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede Java/Python-achtergrond inclusief embedded en testautomatisering bij Barco, maar geen Eggplant Fusion-ervaring.",
+        "check": "l7"
+      },
+      {
+        "row": 30,
+        "score": 30,
+        "reason": "Deze kandidaat heeft solide Java-microservices-ervaring maar toont geen raakvlak met Eggplant, testautomatisering of Keysight-tooling.",
+        "check": "e6"
+      }
+    ]
+  },
+  {
+    "title": "JS full stack developer and lead developer (AngularJS and/or ReactJS) (M/F)",
+    "url": "https://www.davidson.group/nos-offres/developpeur-et-lead-dev-fullstack-js-angularjs-et-ou-reactjs-h-f",
+    "company": "DAVIDSON BELGIUM",
+    "source": "https://www.davidson.group/nos-offres",
+    "first_seen": "2026-08-27",
+    "snippet": "JS full stack developer and lead developer (AngularJS and/or ReactJS) (M/F) – Davidson Submit a project Join us Subsidiaries Vacancy available: Île-de-France Dijon Strasbourg nantes Toulouse Metz Lille I discover the subsidiaries Subsidiaries Davidson Paris Davidson Est Davidson Ouest Davidson Midi-Pyrénées Davidson SI Nord I discover the profile of recruiters Pierre Besson Emilie Khednah Maxime Fras Antoine COLIAC Camille Dagbert Céline El-fil Joining Davidson not only means joining a group of 3,000 consultants in 6 countries and 2 continents, but also joining a company that has been voted a Great Place To Work France and Europe by its employees for no less than 4 years , as well as one of the largest B Corps in France, named Best in the World in the “employees” category in 2022! (“B Corps” form a community of companies that have decided not to be the best in the world but the best FOR the world). Because our development is based on strong principles: Deep respect for all our stakeholders: consultants, customers and suppliers. Because if work “can’t buy you happiness”, it can however cause unhappiness. Therefore, we are committed to listening and acting honestly. Equal opportuniti",
+    "stack": [
+      "javascript",
+      "jquery",
+      "angularjs",
+      "vuejs",
+      "nodejs"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 66,
+        "score": 92,
+        "reason": "Deze kandidaat leidt momenteel een AngularJS-naar-React-migratie en heeft bewezen lead dev-ervaring bij Zimmo, Wit-Gele Kruis en Clovio.",
+        "check": "n9",
+        "pitch": "Beste,\n\nWe lazen met interesse de vacature voor een JS Full Stack Developer & Lead Developer bij Davidson Belgium. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWe hebben een uitzonderlijk sterke kandidaat beschikbaar die momenteel als lead developer een AngularJS-naar-React-migratie leidt — exact wat Davidson zoekt. Deze kandidaat combineert 9 jaar hands-on ervaring in React, Angular (t.e.m. v18 met signals), React Native, Node.js en TypeScript met bewezen technical lead-verantwoordelijkheid bij o.a. Zimmo (teamlead app), Wit-Gele Kruis (Angular architectuur, NX monorepo) en Clovio (team van 5, Next.js + Angular 16). Bovendien geeft deze kandidaat vandaag les in mobile & backend development aan een hogeschool, wat de mentoring-rol als Lead Dev volledig ondersteunt. De breedte van sectoren — zorg, vastgoed, energie, non-profit — sluit naadloos aan bij het variabele missiemodel van Davidson.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 75,
+        "score": 88,
+        "reason": "Deze kandidaat heeft 7 jaar React/Angular/Node.js-ervaring inclusief mobile team lead (6 devs) en Angular-modernisering bij KBC Bolero.",
+        "check": "m7",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor JS Full Stack Developer & Lead Developer bij Davidson Belgium: werkt u ook met externe consultants voor dit type profiel?\n\nDeze kandidaat beschikt over 7 jaar ervaring in exact de gevraagde stack: React, Angular (NgRx, Nx), Node.js en TypeScript — met aantoonbare lead dev-capaciteit. Bij KBC Bolero moderniseerde deze kandidaat een trading platform voor 100k+ gebruikers in Angular/NgRx/Nx met een laadtijdverbetering van 30%. Als mobile team lead bij ACA Group stuurde deze kandidaat een team van 6 developers en leverde 12 releases in 12 maanden. Bovendien is er een eigen SaaS-product (Next.js, FastAPI) en pionierservaring met AI-gedreven development. De combinatie van sterke technische achtergrond, aantoonbaar leiderschap en sectorbreedte (banking, geospatial, zorg) maakt dit een uitstekende Davidson-consultant.\n\nGraag bel ik u kort deze week om dit profiel toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 84,
+        "score": 76,
+        "reason": "Deze kandidaat heeft 7 jaar Angular-expertise (t.e.m. v22, signals, NX) en full-stack ervaring bij Wit-Gele Kruis en Liantis.",
+        "check": "v7",
+        "pitch": "Beste,\n\nBij het lezen van de vacature voor JS Full Stack Developer & Lead Developer bij Davidson Belgium vroegen we ons af of u ook openstaat voor externe consultants.\n\nDeze kandidaat heeft 7 jaar diepgaande Angular-expertise — van v1 tot v22 inclusief standalone components, signals en de resource API — aangevuld met Node.js, TypeScript en NX monorepos. Vandaag actief als fullstack developer bij Wit-Gele Kruis (Angular, Capacitor, TypeORM) en daarvoor 3 jaar bij Liantis voor klantgerichte webapps met Angular en Azure. Via de eigen vennootschap bouwde deze kandidaat meerdere SaaS-producten end-to-end, inclusief code reviews en teambegeleiding. Sterk profiel voor een Lead Dev-rol bij Davidson dankzij de combinatie van technische diepgang in Angular/Node en bewezen eigenaarschap over volledige producten.\n\nZin in een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "AI Augmented Software Engineer [gn] Data Intelligence Platform Europe - Remote",
+    "url": "https://jobs.lever.co/actian/4b29635b-649a-4b62-9cf9-e2448807cf3f",
+    "company": "Wobby",
+    "source": "https://www.actian.com/company/careers/",
+    "first_seen": "2026-08-27",
+    "snippet": "Actian Corporation - AI Augmented Software Engineer [gn] Data Intelligence Platform AI Augmented Software Engineer [gn] Data Intelligence Platform Europe - Remote Engineering – Engineering / Full-Time / Remote apply for this job Actian is the company behind the Data Intelligence Platform — an enterprise solution that helps organisations discover, govern, and trust their data at scale. Our platform connects metadata, data lineage, data quality, and business context into a single knowledge graph, enabling enterprises to turn raw data into reliable decisions. We operate globally, move fast, and build for the long term. Software engineering is being redefined. The engineers who will shape the next decade of product development are not the ones who write the most code — they are the ones who know how to think clearly, ship confidently, and use every tool available to them, including AI, to multiply their impact. We are looking for an AI-First Software Engineer who is a builder by instinct. You are comfortable picking up a feature end-to-end, making architectural decisions, writing production-grade code, and shipping without waiting to be told what to do next. You treat AI coding assista",
+    "stack": [
+      "Scala",
+      "Java",
+      "TypeScript",
+      "Angular",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 84,
+        "reason": "Deze kandidaat combineert Java/Kotlin backend, Angular frontend, AWS/Kubernetes en een bewezen RAG-AI-project bij BMW in productie.",
+        "check": "a14",
+        "pitch": "Beste,\n\nMet interesse lazen we de vacature voor een AI Augmented Software Engineer op het Actian Data Intelligence Platform. Werkt u ook samen met externe consultants?\n\nWe stellen graag een senior full-stack engineer voor met 14 jaar ervaring die precies aansluit op uw zoekprofiel. Deze kandidaat bouwt momenteel bij BMW een RAG-gebaseerde AI-agent in productie — AI-tools zijn dus geen bijzaak maar dagelijkse praktijk. Op de backend werkt deze kandidaat met Java/Kotlin en Spring Boot in event-driven microservices-architecturen; op de frontend levert hij Angular-applicaties. De AWS- en Kubernetes-expertise is concreet: Terraform-beheerde infra, AKS-migraties en GitHub Actions CI/CD zijn allemaal aantoonbaar in het parcours.\n\nBij DPG Media leverde deze kandidaat SaaS-features met Kotlin, MongoDB en Stripe-integraties in een hoog-tempo CI/CD-omgeving — vergelijkbaar met de productiecultuur die Actian vraagt.\n\nGraag toelichting in een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 57,
+        "score": 76,
+        "reason": "Deze kandidaat heeft aantoonbare Java/Spring Boot, TypeScript, AWS, Kafka en Kubernetes-ervaring in complexe enterprise SaaS-omgevingen bij Nike en Brussels Airport.",
+        "check": "r5",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een AI Augmented Software Engineer bij Actian willen we u graag een sterk profiel voorstellen. Werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat werkte bij Nike op een multi-region actief-actief platform met Spring Boot, TypeScript/Next.js, Kafka, AWS via Terraform en Kubernetes — exact de stack die Actian vraagt. Bij Brussels Airport bouwde deze kandidaat greenfield event-driven microservices op Kafka en ontwikkelde een herbruikbaar Spring Boot-framework dat het volledige squad adopteerde: een duidelijk signaal van eigenaarschap en architectuurdenken.\n\nDe same-day-deploy CI/CD-cultuur bij Nike sluit naadloos aan op de iteratieve leveringsstijl die Actian waardeert. De frontend-ervaring met TypeScript/Next.js maakt deze kandidaat functioneel full-stack.\n\nZin om dit in een kort gesprek te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 34,
+        "score": 68,
+        "reason": "Deze kandidaat heeft bewezen end-to-end eigenaarschap van een enterprise SaaS-platform met TypeScript, Angular, microservices en cloud in productie.",
+        "check": "a6"
+      }
+    ]
+  },
+  {
+    "title": "Security Engineer",
+    "url": "https://jobs.lebonit.be/security-engineer",
+    "company": "LEBON IT SERVICES",
+    "source": "https://jobs.lebonit.be/",
+    "first_seen": "2026-08-27",
+    "snippet": "Security Engineer - Lebon.IT Jobs Security Engineer Security Engineer Solliciteer nu Lebon IT Services biedt ICT oplossingen voor bedrijven en lokale overheden. Met een team van 50 collega’s zijn wij gespecialiseerd in Infra & Networking, Security en Modern Work. Om onze groei verder te ondersteunen, zijn wij op zoek naar een Security Engineer . Jouw takenpakket Solliciteer nu Je volgt de securitymeldingen van de klanten op en analyseert potentiële risico's . Ter plaatse bij de klant analyseer je de security posture , rekening houdend met de visie van de klant en de specifieke situatie. Je werkt actieplannen en groeitrajecten uit voor de klant waarna je deze ook implementeert en monitort (People, Process & Technology). Je wordt mee ingeschakeld in het Incident Response Team . Je wordt ingeschakeld om User Awareness opleidingen te geven aan klanten. Je groeit door tot product specialist in een van onze technologieën (Elastic, Vulnerability Management, Phishing platform,...). Jouw profiel Solliciteer nu Je bent in het bezit van een graduaat of bachelor diploma Informatica. Je hebt kennis van Cybersecurity en staat open om de nodige certificaties te behalen. Je hebt kennis van Cyberse",
+    "stack": [
+      "Azure",
+      "M365",
+      "Elastic",
+      "Vulnerability Management",
+      "Phishing platform"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Domien",
+      "email": "jobs@lebonit.be"
+    },
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 82,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring met Sentinel SIEM, Qualys vulnerability management, Defender, NIS2 en Entra ID/Azure over meerdere sectoren.",
+        "check": "k20",
+        "pitch": "Beste,\n\nWe lazen met interesse de vacature voor Security Engineer bij Lebon IT Services. Werkt u ook samen met externe consultants om uw team te versterken?\n\nWij hebben een kandidaat die naadloos aansluit bij uw zoekprofiel. Deze kandidaat werkt momenteel als security engineer bij Toyota Motor Europe, waar hij verantwoordelijk is voor Europe-brede Active Directory-beveiliging, vulnerability lifecycle management via Qualys VMDR en de Defender-suite, en protocol-hardening (Kerberos, NTLM, LDAP/SMB). Dat zijn exact de competenties die u zoekt.\n\nDaarnaast heeft deze kandidaat 20 jaar ervaring met Azure, Entra ID, Sentinel SIEM en NIS2/ISO 27001 — en dit in gereguleerde sectoren zoals overheid, farma en defensie. De combinatie van technische diepgang, compliance-kennis en klantgerichte aanpak maakt van hem een sterke match voor uw security-team in Roeselare.\n\nMag ik u bellen voor een kort gesprek van 15 minuten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 64,
+        "score": 76,
+        "reason": "Deze kandidaat combineert 8 jaar datacenter security (Palo Alto, Check Point, Cisco ISE) met NetDevOps en een expliciete security-stage bij politie.",
+        "check": "l8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor Security Engineer bij Lebon IT Services: werkt u ook met externe consultants samen?\n\nDeze kandidaat is momenteel actief als datacenter network & security engineer bij KBC Group, waar hij dagelijks werkt met Palo Alto, Check Point en Cisco ISE voor netwerktoegangscontrole — technologieën die rechtstreeks aansluiten bij uw securityprofiel. Daarnaast beheerst hij Ansible/Python-automatisering en Infrastructure-as-Code, wat uw groeitrajecten voor klanten concreet kan ondersteunen.\n\nMet een achtergrond in elektronica-ICT, een politie-stage in security en certificaten als Cisco DevNet Associate en Check Point CCSA/CCSE toont deze kandidaat zowel technische diepgang als veiligheidsinstinct. De overstap naar een consultancy-omgeving gericht op KMO's en lokale overheden — het doelpubliek van Lebon IT — is dan ook logisch.\n\nZin in een kort kennismakingsgesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 82,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare hands-on security-ervaring: OWASP, SAST/SCA, pipeline-hardening, IAM en Azure/AKS-beveiliging in productieomgevingen.",
+        "check": "r6"
+      }
+    ]
+  },
+  {
+    "title": "C++ Operations Research Developer BE",
+    "url": "https://careers.omp.com/jobs/belgium/c-operations-research-developer--4871847101",
+    "company": "OM PARTNERS",
+    "source": "https://careers.omp.com/",
+    "first_seen": "2026-08-27",
+    "snippet": "Operations Research Developer at OMP We see you are located in China. Do you want to switch to our Chinese website? Go to Chinese website smart with heart smart with heart Life at OMP Life at OMP What we do What drives us Your future with us Meet our talent Meet our talent Tech and Product Consulting Business Operations Early talent Our activities Our activities Blog News Testimonials Events Get in touch Get in touch Contact us Our locations FAQ Search for jobs logged in as jobs c++ operations research developer https://careers.omp.com C++ Operations Research Developer Belgium - Product Development department We’re a game changer that optimizes supply chains of the world’s leading companies with our very own smart software and services. Are you an expert in C++ and passionate about programming? Are you eager to apply smart mathematical optimization techniques to real-world problems? Ready to join a place where smart solutions meet human collaboration? Become an Operations Research Developer! The world of supply chain planning offers plenty of interesting challenges for you to solve. Read on to learn more. Apply now Our offer We offer you more than just a job. Our culture and benefi",
+    "stack": [
+      "C++",
+      "Java"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare C++ ervaring bij Nasdaq en Nuance, plus wiskundige optimalisatie- en algoritme-achtergrond.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk wil u graag contacteren omtrent uw vacature voor een C++ Operations Research Developer bij OMP. Werkt u ook samen met externe consultants voor dit type profielen?\n\nDeze kandidaat heeft een sterk profiel dat nauw aansluit bij wat OMP zoekt. Concreet: bewezen C++ ervaring bij Nasdaq Sydney (tijdreeksanalyse) en Nuance (spraakherkenning automotive), aangevuld met een achtergrond in algoritmische implementaties waaronder een C++ crypto-betalingsmodule. Bovendien beschikt deze kandidaat over 11 jaar brede software-engineeringervaring, inclusief werken met datastructuren, event-driven systemen en wiskundige modellen.\n\nDe combinatie van C++-historiek, algoritmisch denkvermogen en ervaring met complexe technische domeinen maakt deze kandidaat een interessant profiel voor een rol waar mathematische optimalisatie centraal staat. De AI/ML-achtergrond toont ook de analytische mindset die OMP vereist.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 57,
+        "score": 38,
+        "reason": "Deze kandidaat optimaliseerde trailer-loading logistiek bij Nike, wat raakvlakken heeft met supply chain, maar mist C++ en OR-expertise volledig.",
+        "check": "r5"
+      },
+      {
+        "row": 0,
+        "score": 35,
+        "reason": "Deze kandidaat implementeerde een gedistribueerd load-balancing algoritme voor EV-laders in Java, wat enige algoritmische overlap toont maar geen C++ of OR.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "C++ Operations Research Developer Antwerp - BE",
+    "url": "https://careers.omp.com/jobs/belgium-antwerp/c-operations-research-developer--4871847101",
+    "company": "OM PARTNERS",
+    "source": "https://careers.omp.com/",
+    "first_seen": "2026-08-27",
+    "snippet": "Operations Research Developer at OMP We see you are located in China. Do you want to switch to our Chinese website? Go to Chinese website smart with heart smart with heart Life at OMP Life at OMP What we do What drives us Your future with us Meet our talent Meet our talent Tech and Product Consulting Business Operations Early talent Our activities Our activities Blog News Testimonials Events Get in touch Get in touch Contact us Our locations FAQ Search for jobs logged in as jobs c++ operations research developer https://careers.omp.com C++ Operations Research Developer Antwerp, Belgium - Product Development department We’re a game changer that optimizes supply chains of the world’s leading companies with our very own smart software and services. Are you an expert in C++ and passionate about programming? Are you eager to apply smart mathematical optimization techniques to real-world problems? Ready to join a place where smart solutions meet human collaboration? Become an Operations Research Developer! The world of supply chain planning offers plenty of interesting challenges for you to solve. Read on to learn more. Apply now Our offer We offer you more than just a job. Our culture a",
+    "stack": [
+      "C++",
+      "Java"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 62,
+        "reason": "Deze kandidaat heeft bewezen C++ ervaring bij Nasdaq en Nuance, plus OR-raakvlakken via algoritmen en optimalisatie.",
+        "check": "w11"
+      },
+      {
+        "row": 0,
+        "score": 32,
+        "reason": "Deze kandidaat heeft Java/Python achtergrond maar geen aantoonbare operations research of C++ optimalisatie-ervaring.",
+        "check": "l7"
+      },
+      {
+        "row": 57,
+        "score": 28,
+        "reason": "Deze kandidaat werkte aan transportoptimalisatie bij Nike maar mist C++ en operations research wiskundige achtergrond volledig.",
+        "check": "r5"
+      }
+    ]
+  },
+  {
+    "title": "Fullstack Drupal developer",
+    "url": "https://www.webfluence.be/jobs/fullstack-drupal-developer",
+    "company": "LIFEWORX GROUP",
+    "source": "https://www.webfluence.be/jobs",
+    "first_seen": "2026-08-27",
+    "snippet": "Vacature Fullstack Drupal Developer in Pittem regio Tielt, Roeselare, Kortrijk | Webfluence Website Webshop Drupal ontwikkeling Online platformen Projecten Samen jouw project aanpakken? Website Webshop Drupal ontwikkeling Online platformen Jobs Over ons Wat doen we? Projecten Contact Fullstack Drupal developer Droom je ’s nachts nog van websites bouwen? Wake up, de job van Fullstack Drupal developer bij Webfluence is je op het lijf geschreven! Wie je bent Je hebt minstens 2 jaar Drupal-ervaring Goede kennis van: HTML, JS, CSS/SCSS Goede kennis van PHP Kennis van Git Het opzetten van een Drupal omgeving is voor jou geen onbekend terrein. Wat je doet Je bouwt websites, webshops en klantenportalen van A tot Z. Daarvoor schrijf je nette en duidelijke SCSS, JS en PHP, en zet je een overzichtelijke Drupal-structuur op. Nog geen Drupal wizard? Geen probleem! Wij begeleiden jou waar nodig. Wat je krijgt Een vast contract van onbepaalde duur. 4/5 of deeltijds is bespreekbaar. Werken op freelance-basis is ook mogelijk. Een mooie verloning, op basis van je ervaring. Plus extralegale voordelen (MacBook, maaltijdcheques, optioneel: bedrijfswagen) en bijkomende vakantiedagen. Een aangename, file",
+    "stack": [
+      "Drupal",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "PHP",
+      "Git"
+    ],
+    "experience": "2+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Lothar",
+      "email": "lothar@webfluence.be"
+    },
+    "ai_matches": [
+      {
+        "row": 65,
+        "score": 95,
+        "reason": "Deze kandidaat heeft 12 jaar Drupal/PHP-ervaring, Drupal-certificeringen en 7 jaar agencywerk bij PHPro — exacte match.",
+        "check": "k12",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een Fullstack Drupal Developer en wilde meteen vragen of jullie openstaan voor externe consultants — want ik heb een kandidaat die ik met vertrouwen kan voorstellen.\n\nDeze kandidaat beschikt over 12 jaar Drupal- en PHP-ervaring, waarvan 7 jaar bij PHPro — een van de bekendste Drupal-agencies in België. Sindsdien werkt hij als freelance Drupal-specialist en technical lead op uiteenlopende Drupal-projecten, telkens als full-stack developer. De combinatie van Drupal, PHP, HTML, JavaScript en CSS/SCSS sluit naadloos aan op wat jullie zoeken. Bovendien is hij gecertificeerd Drupal Developer én Front-end Specialist, wat zijn diepgaande kennis onderstreept.\n\nWat me vooral aantrekt voor Webfluence: deze kandidaat kent het agencyritme van binnen en buiten, levert zelfstandig en is gewend websites en platformen van A tot Z te bouwen.\n\nGraag stel ik hem voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 43,
+        "score": 68,
+        "reason": "Deze kandidaat heeft sterke PHP/Laravel- en frontend-expertise, maar geen aantoonbare Drupal-ervaring — kernvereiste ontbreekt.",
+        "check": "a12"
+      },
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat heeft PHP-achtergrond en brede full-stack ervaring, maar geen Drupal-kennis vermeld in het profiel.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Frontend Drupal developer",
+    "url": "https://www.webfluence.be/jobs/frontend-drupal-developer",
+    "company": "LIFEWORX GROUP",
+    "source": "https://www.webfluence.be/jobs",
+    "first_seen": "2026-08-27",
+    "snippet": "Vacature Frontend Drupal Developer in Pittem regio Tielt, Roeselare, Kortrijk | Webfluence Website Webshop Drupal ontwikkeling Online platformen Projecten Samen jouw project aanpakken? Website Webshop Drupal ontwikkeling Online platformen Jobs Over ons Wat doen we? Projecten Contact Frontend Drupal developer We zoeken een gepassioneerde front-end developer om ons Webfluence-team te versterken. Samen met je collega’s werk je aan Drupal-projecten waar jij de designs omzet in pixel-perfecte websites. Dit heb je: Minstens 2 jaar ervaring in het programmeren van de front-end van websites. Goede kennis van HTML, Twig, JS, CSS/SCSS en basiskennis van PHP. Kennis van Vue.js is een pluspunt. Basiskennis van Drupal. Kennis van Git. De nodige flexibiliteit om je aan te passen in een snel veranderende omgeving. Dit krijg je: Je komt terecht in een geestige, groeiende onderneming waar je volop jezelf kunt zijn (want hé: wie zou je anders zijn?). Autonomie en ruimte om je werk te doen en alles wat je graag doet (stiekem hopen we dat je werk daar straks ook onder valt ?). Een vast fulltimecontract van onbepaalde duur. Liever 4/5 of een andere vorm van deeltijdswerk? Let’s talk Een verloning die d",
+    "stack": [
+      "HTML",
+      "Twig",
+      "JS",
+      "CSS",
+      "SCSS",
+      "PHP",
+      "Vue.js",
+      "Drupal",
+      "Git"
+    ],
+    "experience": "2+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Lothar",
+      "email": "lothar@webfluence.be"
+    },
+    "ai_matches": [
+      {
+        "row": 65,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 7 jaar Drupal-agencyervaring bij PHPro én een Drupal Front-end Specialist certificering.",
+        "check": "k12",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een Frontend Drupal Developer en wilde even peilen of jullie bij Webfluence ook samenwerken met externe consultants.\n\nIk heb een kandidaat in portefeuille die naadloos aansluit op wat jullie zoeken. Deze kandidaat beschikt over meer dan 12 jaar ervaring, waarvan 7 jaar als PHP/Drupal developer bij PHPro — een van de bekendste Drupal-agencies in België. Sindsdien is deze kandidaat actief als freelance Drupal-specialist en technical lead, met een brede praktijkervaring in HTML, CSS, JavaScript en PHP op uiteenlopende Drupal-projecten.\n\nBovenop de technische bagage is deze kandidaat gecertificeerd als Drupal Developer én Drupal Front-end Specialist, wat het profiel extra onderbouwt. De combinatie van agencyachtergrond en zelfstandige projectervaring maakt dit iemand die meteen meekan in een no-nonsense omgeving zoals de uwe.\n\nZin om dit even te bespreken in een kort gesprek? Ik hoor graag van u.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 43,
+        "score": 68,
+        "reason": "Deze kandidaat heeft sterke frontend-expertise (Vue/Nuxt, PHP, Laravel) maar geen aantoonbare Drupal-ervaring.",
+        "check": "a12"
+      },
+      {
+        "row": 84,
+        "score": 42,
+        "reason": "Deze kandidaat is sterk in Angular/Firebase maar mist Drupal, Twig en CSS/SCSS-focus die de vacature vereist.",
+        "check": "v7"
+      }
+    ]
+  },
+  {
+    "title": "IT business analysis",
+    "url": "https://jobs.theguardian.com/jobs/it-business-analysis/",
+    "company": "MAX ARTHUR",
+    "source": "https://jobs.theguardian.com/",
+    "first_seen": "2026-08-27",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 10,
+        "score": 84,
+        "reason": "Deze kandidaat combineert 20 jaar financiële sector met senior BA-rol in publieke sector en complexe stakeholdermanagement.",
+        "check": "b20",
+        "pitch": "Beste,\n\nWij vernamen dat MAX ARTHUR op zoek is naar een IT Business Analyst — werkt u hierbij ook met externe consultants?\n\nWij hebben een uitstekende kandidaat die wij graag voorstellen. Deze kandidaat brengt 20 jaar ervaring mee, waarvan recente trajecten als senior functional analyst bij Digitaal Vlaanderen (Vastgoedinformatieplatform) en als Product Manager bij Isabel voor het Isabel6 multi-bank betalingsplatform. De combinatie van business analysis, BPMN, sequentiediagrammen en UAT is sterk verankerd in de praktijk. Bovendien heeft deze kandidaat bewezen complexe stakeholders te kunnen managen in zowel de financiële sector als de publieke sector, en leidde deze kandidaat de digitale transformatie van een payroll-engine binnen Belgische sociale wetgeving.\n\nDeze breedte aan domeinen, gecombineerd met een solide analytisch profiel en ownership van end-to-end features, maakt dit een uitzonderlijk sterk profiel.\n\nGraag spreek ik u kort bij over de mogelijkheden. Met vriendelijke groeten,"
+      },
+      {
+        "row": 28,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 13 jaar FA-ervaring inclusief chapter lead, ERP-implementaties en coaching van analisten.",
+        "check": "r13",
+        "pitch": "Beste,\n\nIs MAX ARTHUR momenteel ook open voor externe IT-consultants voor de rol van Business Analyst?\n\nWij stellen graag een kandidaat voor met 13 jaar brede functional analysis-ervaring. Deze kandidaat is momenteel actief als FA op een Dynamics 365 F&O ERP-implementatie bij Febelco, met focus op migraties, API-integraties en functionele én technische ontwerpen. Eerder leidde deze kandidaat als Solution Manager bij Xerius alle business development-projecten, coachte een chapter van 6 functionele analisten en zetelde in het IT-leiderschapsteam. Ervaring met Outsystems, Scrum Master-rol bij CM en een track record in sectoren als mutualities, pharma-distributie en HR-diensten maakt dit profiel bijzonder veelzijdig. Deze kandidaat schakelt snel tussen business en techniek en bouwt vlot bruggen met key users en ontwikkelteams.\n\nKan ik u volgende week even bellen voor een korte toelichting? Met vriendelijke groeten,"
+      },
+      {
+        "row": 26,
+        "score": 75,
+        "reason": "Deze kandidaat toont 15 jaar BA/PO-ervaring in ERP, supply chain en HR met bewezen ownership van complexe domeinen.",
+        "check": "n15",
+        "pitch": "Beste,\n\nWij begrijpen dat MAX ARTHUR een ervaren IT Business Analyst zoekt — werkt u daarbij ook met externe profielen?\n\nDeze kandidaat heeft 15 jaar ervaring als Business/Functional Analyst en Product Owner in complexe omgevingen. Bij Ravago is deze kandidaat verantwoordelijk voor de Supply Chain-domein, met onder andere het ontkoppelen van een manufacturing-applicatie van het ERP-systeem en e-delivery compliance voor meerdere landen. Eerder bij RGF Staffing fungeerde deze kandidaat als Scrum BA in een productontwikkelingsteam en als Product Owner van een vendor management-systeem voor klanten zoals de Vlaamse Overheid, Fluvius en DHL. De combinatie van backlog ownership, story breakdown, stakeholdermanagement en diepgaande HR/staffing- en supply chain-domeinkennis maakt dit een sterk allround profiel.\n\nIk vertel u graag meer in een kort gesprek. Met vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "IT support",
+    "url": "https://jobs.theguardian.com/jobs/it-support/",
+    "company": "MAX ARTHUR",
+    "source": "https://jobs.theguardian.com/",
+    "first_seen": "2026-08-27",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke netwerkervaring maar het profiel is te gespecialiseerd voor een algemene IT support rol.",
+        "check": "k28"
+      }
+    ]
+  }
+]
