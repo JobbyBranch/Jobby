@@ -1,0 +1,786 @@
+[
+  {
+    "title": "Cybersecurity Intern",
+    "url": "https://jobs.keysight.com/external/jobs/53691?lang=en-us",
+    "company": "EASICS",
+    "source": "https://jobs.keysight.com/external/jobs",
+    "first_seen": "2026-08-31",
+    "snippet": "Cybersecurity Intern in Leuven, Belgium | Keysight Technologies, Inc. Skip to Main Content Careers Search Jobs Why Keysight Our Culture Our Benefits Employer Awards Locations Americas United States Brazil Canada Mexico EMEA Austria Belgium Denmark Finland France Germany Israel Italy Romania Spain Sweden Switzerland The Netherlands United Kingdom APAC Malaysia Australia India Japan Korea Singapore Vietnam Greater China China Hong Kong, China Taiwan, China Students & Graduates Login Global Applicants U.S. Applicants Keysight Employees Manage Job Alerts Know Your Rights: Workplace Discrimination is Illegal . View all US Notices . Follow @KeysightCareers © Keysight Technologies 2000–2026 Privacy Terms Feedback Contact Keysight Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 38,
+        "reason": "Deze kandidaat heeft ISO 27001 en security governance ervaring, maar is een C-level executive zonder hands-on cybersecurity of stage-relevante achtergrond.",
+        "check": "d12"
+      },
+      {
+        "row": 48,
+        "score": 32,
+        "reason": "Deze kandidaat heeft sterke cybersecurity expertise maar is een senior professional met 20 jaar ervaring — ver verwijderd van een stageprofiel.",
+        "check": "k20"
+      },
+      {
+        "row": 80,
+        "score": 18,
+        "reason": "Deze kandidaat is een ervaren IT-projectmanager; cybersecurity is slechts een randdomein zonder technische diepgang relevant voor een stage.",
+        "check": "t20"
+      }
+    ]
+  },
+  {
+    "title": "Senior Software Developer and Data Specialist",
+    "url": "https://www.decomecc.be/jobs/senior-software-developer/",
+    "company": "DECOMECC",
+    "source": "https://www.decomecc.be/jobs/",
+    "first_seen": "2026-08-31",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 18,
+        "score": 72,
+        "reason": "Combineert 16 jaar .NET-backend met hands-on data-architectuur (GraphQL, CDC, CQRS, Postgres) en technische leiderschapservaring.",
+        "check": "n16",
+        "pitch": "Beste,\n\nWe zagen jullie vacature voor Senior Software Developer and Data Specialist en wilden even polsen of jullie openstaan voor externe consultants.\n\nDeze kandidaat heeft 16 jaar .NET-ervaring (C#, ASP.NET, Blazor, Entity Framework) gecombineerd met een sterke data-achtergrond: recentelijk leidde hij een volledige herarchitectuur van legacy desktop-applicaties naar een cloud-webplatform met PostgreSQL, GraphQL, Kafka+Debezium (CDC), CQRS en AWS/Kubernetes. Dit toont precies de hybride software-én-data-competentie die jullie zoeken. Daarnaast heeft deze kandidaat ervaring als teamlead en technisch analist, wat betekent dat hij niet enkel uitvoert maar ook mee richting bepaalt. Met certified expertise in gedistribueerde systemen en een brede stack (Docker, Redis, Terraform, Auth0) is dit een profiel dat meteen inzetbaar is op complexe projecten.\n\nMag ik een kort gesprekje inplannen om te kijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 17,
+        "score": 68,
+        "reason": "Toont 8 jaar industrieel .NET-werk met sterke SQL/database-focus, testdiscipline en schaalbaarheidsoptimalisaties in complexe omgevingen.",
+        "check": "j8"
+      },
+      {
+        "row": 4,
+        "score": 58,
+        "reason": "Brengt diepgaande data-expertise mee (Microsoft Fabric, Power BI, ETL, sterschema) maar mist de software-developmentcomponent van de vacature.",
+        "check": "n6"
+      }
+    ]
+  },
+  {
+    "title": "Group Reporting & BI Specialist",
+    "url": "https://www.deli-home.com/nl/vacature/group-reporting-bi-specialist/",
+    "company": "Deli Home Belgium",
+    "source": "https://www.deli-home.com/nl/vacatures/",
+    "first_seen": "2026-08-31",
+    "snippet": "",
+    "stack": [
+      "Power BI",
+      "SQL",
+      "Excel",
+      "DAX"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 50,
+        "score": 82,
+        "reason": "Deze kandidaat combineert Power BI, financial reporting (FP&A/KPI-dashboards) en data governance in logistiek en manufacturing.",
+        "check": "s6",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Group Reporting & BI Specialist bij Deli Home Belgium: werkt u ook samen met externe consultants voor deze invulling?\n\nDeze kandidaat is een Finance-literate BI Lead met 6 jaar ervaring in Power BI, SQL, Python en Microsoft Fabric — exact de tools die voor deze rol relevant zijn. Bij Lineage Logistics stond deze kandidaat als interim FP&A Manager in voor Europese KPI-dashboards en self-service financiële datasets — een directe match met de group reporting context van Deli Home. Bij Atlas Copco werd Power BI ingezet voor Sustainability reporting en bij Gosselin Group leidde deze kandidaat data governance-trajecten op financiële en logistieke processen. Bovendien heeft deze kandidaat aantoonbare AI-readiness (ChatGPT-API PoC voor automatische BI-documentatie) en spreekt vijf talen — een troef in een internationale groepsstructuur.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 72,
+        "score": 76,
+        "reason": "Deze kandidaat werkt nu op een AWS data-analyticsplatform voor Group Reporting Services bij KBC, inclusief SQL-logica en Python-validatie.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Group Reporting & BI Specialist bij Deli Home Belgium. Werkt u hiervoor ook met externe profielen?\n\nDeze kandidaat is momenteel actief als functioneel analist binnen het Group Reporting Services-team van KBC, op een data-analyticsplatform voor EBA-stresstesting — een directe parallel met group reporting in een complexe, multi-entiteit-omgeving. De combinatie van Power BI, SAP Analytics Cloud, SQL-validatielogica en cross-systeem-integratieanalyse sluit nauw aan bij wat Deli Home zoekt. Eerder bouwde deze kandidaat bij Deloitte ervaring op in S/4HANA-transformaties met BW/4HANA en SAP Analytics Cloud, en leidde bij Acerta ETL-integraties en teamcoördinatie in SAFe-verband. Met een Master Business Engineering en certificaten in PSPO, SAFe en zelfs Agentic AI is dit een analytisch sterk en toekomstgericht profiel.\n\nBereikbaar voor een kort kennismakingsgesprek — wanneer past het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 4,
+        "score": 68,
+        "reason": "Deze kandidaat realiseerde een Microsoft Fabric + Power BI-oplossing met ETL en ster-schema-modellering, relevant voor group reporting.",
+        "check": "n6"
+      }
+    ]
+  },
+  {
+    "title": "Senior UI Designer Brussel – Hybride 02 juli 2025 Meer details",
+    "url": "https://imalink.be/jobs/senior-ui-designer/",
+    "company": "IMALINK",
+    "source": "https://imalink.be/vacatures/",
+    "first_seen": "2026-08-31",
+    "snippet": "Senior UI Designer - Imalink Ga naar de inhoud Vacatures Vast of Freelance ? Diensten Ons DNA Blog Op de Koffie Vacatures Vast of Freelance ? Diensten Ons DNA Blog Op de Koffie NL EN Senior UI Designer Bij interesse neem contact met: Isabelle De Meyer Chief Executive Officer - Vennoot -32 9 356 85 61 Stuur jouw CV Vacature: Senior UI Designer Locatie: Brussel (hybride) Type: Vast dienstverband of freelance Waarom deze rol? Ben jij een Senior UI Designer met een passie voor complexe ontwerpprojecten en strategische vormgeving? Bij Imalink speel je een sleutelrol in de ontwikkeling en validatie van UI-componenten, werk je nauw samen met UX consultants, product owners en developers, en geef je vorm aan de toekomst van corporate design. Functieomschrijving Wireframes & Prototypes: In samenwerking met de UX-researcher ontwerp je wireframes, prototypes én finale UI’s in Figma . Stakeholderpresentaties: Je presenteert concepten en ontwerpoplossingen aan de business, UX Designers, Product Owners en Developers. Workshops & Facilitatie: Je bereidt interactieve workshops voor en begeleidt deze samen met UX-teams en eindgebruikers. Interactiemodellen: Je definieert de optimale interacties, mee",
+    "stack": [
+      "Figma",
+      "Miro",
+      "HTML",
+      "CSS"
+    ],
+    "experience": "7+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Isabelle De Meyer",
+      "email": "demeyer.i@imalink.be"
+    },
+    "ai_matches": [
+      {
+        "row": 76,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 20 jaar UX/service design-ervaring met Figma, Miro, workshopfacilitatie en informatiearchitectuur bij Belgische topbanken.",
+        "check": "d20",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een Senior UI Designer in Brussel. Werkt u ook samen met externe consultants voor dergelijke rollen?\n\nIk wil u graag deze kandidaat voorstellen: een freelance CX/UX-expert met meer dan 20 jaar ervaring, waaronder leidende UX- en service design-trajecten bij Belfius, BNP Paribas Fortis en KBC. Exact de Belgische financiële sector die veeleisende, complexe designprojecten kent.\n\nDeze kandidaat werkt dagelijks met Figma en Miro, begeleidt workshops met eindgebruikers en stakeholders, en heeft een sterke achtergrond in informatiearchitectuur en interactiemodellen — allemaal kernelementen uit uw vacature. De combinatie van HTML/CSS-kennis en WCAG-expertise maakt de brug naar development vlot.\n\nMet beschikbaarheid vanaf augustus en een bewezen freelanceprofiel is dit een kandidaat die snel inzetbaar is en meteen waarde toevoegt.\n\nZouden we kort kunnen bellen om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 81,
+        "score": 75,
+        "reason": "Deze kandidaat heeft 5 jaar UI/UX-ervaring met Figma, Miro, wireframing en prototyping, inclusief financiële sector bij Delen Private Bank.",
+        "check": "v5",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Senior UI Designer in Brussel wil ik u graag een sterke kandidaat voorstellen. Werkt u hiervoor ook samen met externe consultants?\n\nDeze kandidaat combineert 5 jaar hands-on ervaring in UI design, interaction design en UX research met een uitstekende toolset: Figma, Miro, wireframing, prototyping en basiskennis van HTML en CSS. Bij Delen Private Bank werkte deze kandidaat aan toegankelijke digitale interfaces voor klanten én interne tools — een complexe, gereguleerde omgeving die vergelijkbaar is met de uitdagingen in uw vacature.\n\nDaarnaast loopt momenteel een project bij een fintech/regtech SaaS-speler, wat aantoont dat deze kandidaat ook in Agile, iteratieve contexten thuis is. De opleiding UI Design (UX Design Institute) en Design Thinking versterken het profiel verder.\n\nZin om even af te stemmen via een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat heeft 11 jaar frontend/UX-ervaring met Figma en Agile, maar het profiel is primair development-gericht met beperkte pure UI design-focus.",
+        "check": "g11"
+      }
+    ]
+  },
+  {
+    "title": "helpdeskmedewerker hasselt",
+    "url": "https://www.randstad.be:443/werknemers/jobs/helpdeskmedewerker-hasselt_hasselt_f307870b-a9a2-4b1d-94ed-9959ad099ac0/",
+    "company": "RANDSTAD HR SOLUTIONS",
+    "source": "https://www.randstad.be:443/werknemers/jobs/",
+    "first_seen": "2026-08-31",
+    "snippet": "vacature voor Helpdeskmedewerker Hasselt in Hasselt, Limburg | Randstad kantoren NL FR EN randstad een job zoeken alle jobs flexijob studentenjob studiegerelateerde job tijdelijke jobs tijdelijke jobs optie vast vast contract jobs per stad Aalst Antwerpen Brugge Brussel Genk Gent Hasselt Mechelen populaire bedrijven BD Circle K Distrilog H.Essers Kuehne+nagel Plopsa Soudal Volvo Cars profiel aanmaken werknemers mijn carrière beroepen carrièretips opleidingen sollicitatietips terug aan het werk waarom kiezen voor randstad operational construct contact center horeca industry logistics retail technics transport professional engineering finance en accounting healthcare HR life sciences office en admin sales en marketing studenten alle studentenjobs studierelevante job digital werkgevers onze oplossingen inhouse interim management online tools opleidingen overheid payrolling personeel aanwerven vaste aanwerving operational construct contact center horeca industry logistics retail technics transport professional engineering finance en accounting healthcare HR life sciences office en admin support sales en marketing digital enterprise career development employability MSP outplacement RPO ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Jessica Raemdonck",
+      "email": "salesmarketing.banking@randstad.be"
+    },
+    "ai_matches": [
+      {
+        "row": 63,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bij ING en NN Insurance bewezen klantprocessen in banking te digitaliseren en complexe klantvragen te managen.",
+        "check": "g7",
+        "pitch": "Beste,\n\nWij merkten dat u op zoek bent naar een helpdeskmedewerker voor uw team bij BNP Paribas Fortis in Hasselt. Werkt u ook samen met externe consultants?\n\nWij hebben een kandidaat die zeven jaar ervaring heeft in banking en insurance, waaronder een lange periode bij ING België. Daar leidde deze kandidaat klantdataprocessen voor tientallen medewerkers en digitaliseerde complexe operationele workflows — inclusief fraude- en compliancegerelateerde dossiers (KYC, PSD2). De combinatie van sterk klantgericht denken, vlotte communicatie in het Nederlands en een diep begrip van bancaire producten en processen maakt deze kandidaat uitzonderlijk goed voorbereid op een rol als Support Specialist.\n\nHoewel het profiel seniorer is dan een typische junior helpdeskvacature, is deze kandidaat uitstekend in staat om snel waarde te leveren in een klantgerichte bancaire omgeving. Een korte kennismaking zou snel duidelijk maken of er een match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 54,
+        "score": 58,
+        "reason": "Deze kandidaat heeft bijna 30 jaar ervaring in financial services, inclusief retail banking bij Argenta, wat domeinkennis garandeert.",
+        "check": "s29"
+      },
+      {
+        "row": 72,
+        "score": 42,
+        "reason": "Deze kandidaat heeft bij KBC en Acerta functionele analyses uitgevoerd in bancaire en financiële omgevingen, maar is te senior voor een juniorrhelpdesk.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Forward Deployed Automation Engineer",
+    "url": "https://careers.teamleader.eu/o/forward-deployed-automation-engineer",
+    "company": "Teamleader",
+    "source": "https://careers.teamleader.eu/",
+    "first_seen": "2026-08-31",
+    "snippet": "Teamleader - Forward Deployed Automation Engineer Skip to content Teamleader Homepage Teamleader Homepage Teamleader Homepage Teamleader Homepage Teamleader Homepage Teamleader Homepage Teamleader Homepage Teamleader Homepage Forward Deployed Automation Engineer Hybrid Antwerp , Vlaams Gewest , Belgium General & Administration Job details Apply Job description Role: Forward Deployed Automation Engineer Scope: A great idea stuck behind authentication, complex setup or hosting. That’s where you come in Level: Medior Language requirement: Dutch/ English Location: Ghent/ Antwerp Who are we and why should you care? Teamleader is a SaaS scale-up born in 2012 in Ghent, Belgium, and part of the Visma Group since 2022. Our mission? To make work easier, not harder , for small and medium-sized businesses. Here’s what we bring to the table: Teamleader Focus : the all-in-one tool that helps small businesses optimise CRM, projects, and invoicing. Teamleader One : the go-to e-invoicing software that self-employed pros can count on. We’ve also been growing smarter through strategic acquisitions: Teamleader Orbit (2019): helping medium-sized agencies thrive and scale. Vectera (2022): powering seaml",
+    "stack": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Claude",
+      "MCP",
+      "webhooks"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring met Claude Code skills, LLM-tooling, API-scripting (Python, Node.js) en AWS-integraties in een AI-engineering rol.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de vacature Forward Deployed Automation Engineer bij Teamleader. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nDeze kandidaat is momenteel actief als AI Engineer en heeft hands-on ervaring met exact de technologieën die Teamleader zoekt: Claude Code skills, LLM fine-tuning (Axolotl, Ollama), Python-scripting, Node.js, AWS (EC2/S3) en API-integraties. Bij AWV droeg deze kandidaat als software-architect de adoptie van lokaal gehoste LLMs voor NLP — precies het soort interne enablement dat de rol vraagt. Eerder bij INTIX werd gewerkt met event streaming via Kafka en Zookeeper, wat aantoont dat deze kandidaat ook auth flows en integratie-patronen begrijpt. De combinatie van security-achtergrond (pentesting), brede stack en hands-on AI-engineering maakt dit profiel uitzonderlijk sterk voor een 'builder-generalist' rol.\n\nMag ik u bellen voor een kort gesprek om dit profiel toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 76,
+        "reason": "Deze kandidaat bouwde zelfstandig een SaaS-platform (inclusief auth, hosting en CI/CD) en heeft ervaring met Python, Docker, API-integraties en interne tooling voor KMO's.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk contacteer u in verband met de vacature Forward Deployed Automation Engineer bij Teamleader. Werkt u ook met externe consultants voor technische rollen?\n\nDeze kandidaat is een echte builder-generalist: als mede-oprichter van KMO-Facturatie SaaS beheerde deze kandidaat zelfstandig architectuur, hosting, SecOps en CI/CD — exact de 'last mile'-verantwoordelijkheden die Teamleader zoekt. Bij NSX werd een volledig SaaS privacy-platform gebouwd inclusief Keycloak-authenticatie, Jenkins CI/CD en Docker-deployments. De combinatie van Python, PHP, Angular, Docker en Linux, aangevuld met ervaring als interim teamlead en interne opleider, sluit sterk aan bij de zelfstandige, docentgerichte werkwijze die de rol vereist. De KMO-focus is bovendien rechtstreeks relevant voor Teamleader's doelgroep.\n\nKort gesprekje inplannen om dit profiel te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 50,
+        "score": 57,
+        "reason": "Deze kandidaat ontwikkelde een Python+ChatGPT-API PoC voor automatische documentatie en toont AI-readiness, maar de engineering diepgang voor auth en MCP-setup ontbreekt.",
+        "check": "s6"
+      }
+    ]
+  },
+  {
+    "title": "Valcke Group Digital Specialist Locatie: HQ Wevelgem (BE) · Voltijds · Junior-friendly · 1 positie Bekijk functie",
+    "url": "https://www.valckegroup.com/nl/vacancy-digital",
+    "company": "VALCKE GROUP",
+    "source": "https://www.valckegroup.com/nl/jobs",
+    "first_seen": "2026-08-31",
+    "snippet": "Digital Specialist — Jobs — Valcke Group ☰ Valcke Group Over Valcke Group Nieuws Galerij Divisies Bowling Fitness Merken Referenties Jobs Contact ← Jobs Valcke Group Digital Specialist Locatie: HQ Wevelgem (BE) · Voltijds · Junior-friendly · 1 positie Bowling en leisure digitaliseren razendsnel: online reservaties, self-service kiosken, cashless betalen, Sync-scoring en POS. Jij zorgt dat die platformen samenwerken — junior-friendly, wij leiden je volledig op. Jouw rol Functioneel aanspreekpunt voor ons digitale portfolio: reservaties, Sync-scoring & POS, cashless, kiosken. Ondersteun implementatie, configuratie en optimalisatie bij onze klanten. Stem af met operations, sales en leveranciers; test, documenteer en rol uit. Vertaal businessnoden naar digitale productvereisten. Wat wij bieden Een junior-friendly rol met training on the job vanaf dag één. Een breed, internationaal digitaal portfolio in een booming sector. Een werkplek op ons HQ in Wevelgem. Talen Nederlands · Engels · Frans of Duits Solliciteer nu → Een familiale Europese distributiegroep voor de bowling- en fitnesswereld. Inspired by Excellence. Valcke Group Over Valcke Group Referenties Galerij Nieuws Jobs Divisies V",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@valckegroup.com"
+    },
+    "ai_matches": [
+      {
+        "row": 50,
+        "score": 38,
+        "reason": "Deze kandidaat heeft ervaring met digitale platformen en stakeholder-afstemming, maar focust op BI/data en niet op POS, kiosken of leisure-systemen.",
+        "check": "s6"
+      },
+      {
+        "row": 53,
+        "score": 18,
+        "reason": "Deze kandidaat is een pure infrastructure/DevOps engineer zonder enige aansluiting bij digitale leisure-platformen, POS of functioneel beheer.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "(Senior) Consultant | SAP Consulting (Data Migration) (all genders)",
+    "url": "https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-Data-Migration-all-gender-de-j268.html",
+    "company": "Cronos Jobs",
+    "source": "https://www.cronos.de/jobs",
+    "first_seen": "2026-08-31",
+    "snippet": "",
+    "stack": [
+      "SAP"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 59,
+        "score": 88,
+        "reason": "Deze kandidaat heeft concrete SAP ECC-to-S4/HANA migratie-PM-ervaring bij Oleon én Colruyt, inclusief data migration bij Belfius.",
+        "check": "d26",
+        "pitch": "Beste,\n\nU bent op zoek naar een (Senior) Consultant SAP Data Migration — werkt u hiervoor ook met externe consultants?\n\nWij stellen graag deze kandidaat voor: een IT Project Manager met 26 jaar ervaring en een indrukwekkend SAP-trackrecord. Momenteel actief bij Colruyt Group als build manager voor SAP S4/HANA interface delivery én delivery PM voor SAP Digital Manufacturing. Daarvoor leidde deze kandidaat als dedicated PM het volledige SAP ECC-to-S4/HANA transformatieprogramma bij Oleon, inclusief programmagovernance. Bij Belfius beheerde deze kandidaat een data migration project binnen een FinTech-transformatieprogramma: planning, budget, scope én UAT.\n\nDe combinatie van diepgaande SAP data migration ervaring, sterk stakeholder management en Prince2/ITIL-certificering maakt deze kandidaat uiterst geschikt voor uw opdracht.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 71,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 13 jaar ETL- en data-migratie-ervaring, inclusief een mainframe-to-PowerCenter-migratieprogramma bij KBC.",
+        "check": "j13"
+      },
+      {
+        "row": 79,
+        "score": 42,
+        "reason": "Deze kandidaat heeft SAP-kennis en ERP-programma-ervaring, maar geen aantoonbare hands-on SAP data migration achtergrond.",
+        "check": "m15"
+      }
+    ]
+  },
+  {
+    "title": "Senior (Cloud) Fullstack Entwickler (all genders)",
+    "url": "https://www.cronos.de/jobs/Senior-Cloud-Fullstack-Entwickler-all-genders-de-j307.html",
+    "company": "Cronos Jobs",
+    "source": "https://www.cronos.de/jobs",
+    "first_seen": "2026-08-31",
+    "snippet": "Stellenangebot Senior (Cloud) Fullstack Entwickler (all genders) bei cronos Unternehmensberatung GmbH Stellenportal [email protected] +49 251 39966-0 Login Angemeldet bleiben Passwort Vergessen? Noch keinen Login? Jetzt registrieren! DE EN DE PL Menu Leistungen Produkte Karriere Jobs Karriere bei cronos cronos Aktuelles Kontakt Über uns Unser Leitbild Kunden & Partner Kunden Partner cronologe werden Jobs cronos > Jobs Senior (Cloud) Fullstack Entwickler (all genders) IT mit Leidenschaft und Leidenschaft für IT Du suchst nach einer Möglichkeit, deine Begeisterung für Technologie in einem inspirierenden Umfeld einzubringen? Werde Senior (Cloud) Fullstack Entwickler (all genders) bei cronos! Bei uns kannst du Verantwortung übernehmen und gemeinsam mit uns wachsen, in einem Umfeld voller Vielfalt, Innovation und Wertschätzung. Wer wir sind Gestalte die digitale Zukunft – werde Teil der cronos Gruppe! Die cronos Gruppe ist seit über 30 Jahren ein führender IT-Dienstleister und Berater für digitale Innovationen. Mit unserer Leidenschaft für IT, Expertise in vielfältigen Branchen und einem klaren Fokus auf Qualität unterstützen wir unsere Kunden bei der digitalen Transformation. Unsere Un",
+    "stack": [
+      "Python",
+      "Golang",
+      "C#",
+      "Java",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Azure"
+    ],
+    "experience": "10+ yrs",
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 49,
+        "score": 91,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring als cloud solution architect met Azure, microservices, event-driven architectuur, IaC (Bicep/Terraform), DDD en developer coaching.",
+        "check": "m15",
+        "pitch": "Beste,\n\nU bent op zoek naar een Senior Cloud Fullstack Entwickler — werkt u daarvoor ook met externe consultants?\n\nWij hebben een kandidaat die naadloos aansluit op uw profiel. Deze kandidaat heeft 15 jaar ervaring en werkt momenteel als cloud architect op een SAP-gelinkt platform bij een automotive klant, waarbij hij zelf de Azure-architectuur heeft ontworpen met .NET, Container Apps, Service Bus, Bicep en Entra ID — exact de stack en architectuurprincipes (microservices, event-driven, IaC) die u vraagt. Bij Kenze leidde hij pre-sales, coaching en Strategy Board — dit zijn de mentoring- en adviesvaardigheden die uw vacature expliciet vermeldt. C#, TypeScript, Python-kennis, CI/CD, DDD en Event Storming: allemaal concreet aantoonbaar. Bovendien heeft deze kandidaat ervaring met AI-adoptie via Semantic Kernel, wat aansluit op uw KI-vereiste.\n\nIk stel graag een kort gesprek voor om te bekijken hoe deze kandidaat uw team kan versterken.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 88,
+        "score": 86,
+        "reason": "Deze kandidaat combineert 14 jaar Java/Kotlin fullstack ervaring met Azure, event-driven microservices, Terraform, Kubernetes en een RAG-AI project bij BMW.",
+        "check": "a14",
+        "pitch": "Beste,\n\nVoor uw vacature Senior Cloud Fullstack Entwickler — werkt u hierbij ook met externe consultants?\n\nDeze kandidaat heeft 14 jaar aantoonbare fullstack ervaring met exact de gevraagde combinatie: Java/Kotlin/Spring Boot, event-driven microservices, Azure (Service Bus, Container Apps, AKS), Terraform en CI/CD (GitHub Actions, Jenkins). Bij BMW bouwde hij een RAG-gebaseerde AI-agent en migreerde hij complete Azure-infrastructuur — dat sluit direct aan op uw KI-vereiste. Bij DPG Media (Streamz/VTM GO) leverde hij dagelijks CI/CD in een Agile omgeving. Als tech lead bij Uitgeverij VAN IN coachte hij developers en droeg hij architectuurverantwoordelijkheid — precies de senioriteitsignalen die u zoekt. Zeer goede Duits- en Engelsvaardigheden voor directe klantencontacten zijn eveneens aanwezig.\n\nIk stel graag een kort gesprek voor om de fit te bespreken.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 43,
+        "score": 72,
+        "reason": "Deze kandidaat heeft als oprichter een volledig cloud platform gebouwd (compute, storage, netwerk, IaC) en werkte fullstack voor overheid, e-commerce en healthcare.",
+        "check": "a12"
+      }
+    ]
+  },
+  {
+    "title": "Senior Cloud Engineer met database ervaring",
+    "url": "https://vangenechten.com/jobs/senior-cloud-engineer-met-database-ervaring",
+    "company": "Van Genechten Packaging",
+    "source": "https://vangenechten.com/jobs",
+    "first_seen": "2026-08-31",
+    "snippet": "Senior Cloud Engineer met database ervaring | VGP Skip to main content VGP Mobile menu expand icon Menu Close Markets Packaging Promos & Gifts Blog About us Careers Contact en fr de Breadcrumb Home Careers Senior Cloud Engineer met database ervaring Senior Cloud Engineer met database ervaring Apply for this job Al meer dan 190 jaar gelooft VGP in de unieke impact van vouwkartonnen verpakkingen op merken en producten, op de mensen die ze gebruiken en op onze planeet. Vandaag zijn we de laatste echt onafhankelijke Europese verpakkingsspecialist met hoofdkantoor in Turnhout, België, 17 productievestigingen in 9 landen. VGP realiseert een jaarlijkse omzet van 500 miljoen euro en stelt meer dan 2300 werknemers tewerk en blijft groeien. Voor onze IT afdeling zijn we op zoek naar een Senior Cloud Engineer met database ervaring (M/V) Binnen onze organisatie versterken we het team met een bijkomende senior medewerker die fungeert als back-up over zowel de cloud- als databasedomeinen. Deze rol heeft als doel de continuïteit van onze platformen en operaties te waarborgen en ondersteuning te bieden waar nodig over de verschillende domeinen heen. In het kader van onze verdere cloudtransformatie",
+    "stack": [
+      "Tekton",
+      "Jenkins",
+      "OpenShift",
+      "Kubernetes",
+      "Apache Camel",
+      "Kamelets",
+      "Liquibase",
+      "CloudNativePG",
+      "Linux"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "bvandepaer@vangenechten.com"
+    },
+    "ai_matches": [
+      {
+        "row": 45,
+        "score": 82,
+        "reason": "Deze kandidaat heeft diepgaande OpenShift- en Kubernetes-ervaring bij Proximus, inclusief ArgoCD GitOps CI/CD-implementatie voor 100+ enterprise teams.",
+        "check": "j8",
+        "pitch": "Beste,\n\nVoor de vacature van Senior Cloud Engineer met database ervaring bij Van Genechten Packaging vroeg ik me af of jullie samenwerken met externe consultants. Zo ja, dan wil ik graag een sterke kandidaat voorstellen.\n\nDeze kandidaat heeft 8 jaar ervaring in platform- en DevOps-engineering met een uitgesproken focus op precies de technologieën die VGP zoekt. Bij Proximus bouwde deze kandidaat HA OpenShift-clusters voor 100+ enterprise dev teams en pioneerde ArgoCD GitOps CI/CD-pipelines, wat de deploymentfrequentie met 300% verhoogde. De Linux- en Kubernetes-expertise is bewezen in productieomgevingen op nationale schaal. CI/CD-beheer (Jenkins én moderne tooling) zit diep in het profiel. Containerplatformen zoals Kubernetes en OpenShift zijn dagelijkse kost. De hands-on, brede technische aanpak sluit perfect aan bij de back-up- en continuïteitsrol die VGP voor ogen heeft.\n\nGraag plan ik een kort gesprek in om deze kandidaat concreet voor te stellen. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 53,
+        "score": 78,
+        "reason": "Deze kandidaat heeft bewezen OpenShift-implementatie- en CI/CD-ervaring bij zowel overheids- als private klanten, met sterke Ansible- en Terraform-achtergrond.",
+        "check": "a8",
+        "pitch": "Beste,\n\nNaar aanleiding van de vacature voor Senior Cloud Engineer met database ervaring bij Van Genechten Packaging wou ik even polsen of jullie openstaan voor externe consultants. Ik heb namelijk een relevante kandidaat in portefeuille.\n\nDeze kandidaat heeft 8 jaar hands-on ervaring met precies de technologieën die VGP zoekt: Red Hat OpenShift installatie, configuratie en day-2 operations, Kubernetes-orkestratie, Terraform IaC en Ansible-automatisering. Bij FOD Justitie werd on-prem RHEL-beheer gecombineerd met OpenShift-deployment en Terraform — een profiel dat naadloos aansluit bij de cloud- en platformbeheer-taken bij VGP. CI/CD-pijplijnervaring bij meerdere klanten (overheid én industrie) maakt deze kandidaat een betrouwbare back-up over meerdere domeinen. RHCSA-certificering bevestigt de technische diepgang op Linux-vlak.\n\nIk stel graag een korte call voor om meer toe te lichten. Wanneer heeft u een momentje?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 60,
+        "score": 58,
+        "reason": "Deze kandidaat heeft brede Linux- en Ansible-automatiseringservaring bij Brussels Airport en KBC, maar beperkte OpenShift- en CI/CD-pipeline-diepgang voor deze rol.",
+        "check": "g29"
+      }
+    ]
+  },
+  {
+    "title": "Junior Developer",
+    "url": "https://www.asp.be/careers/junior-developer",
+    "company": "A.S.P",
+    "source": "https://www.asp.be/careers/",
+    "first_seen": "2026-08-31",
+    "snippet": "Junior Developer - ASP Our offerings Managed Services Network Security and Threat Management Infrastructure Solutions Cloud Services Optimization IT Automation Data Backup and Recovery ServiceNow Connector Apps Ansible CMDB Connector for ServiceNow Azure CMDB Connector for ServiceNow Intune CMDB Connector for ServiceNow ServiceNow Services ServiceNow Implementation ServiceNow Custom Applications ServiceNow Integrations ServiceNow Support ServiceNow Outsourcing Products ServiceNow Red Hat Ansible Automation Platform CrowdStrike Zscaler Dell Microsoft Azure F5 Boomi Checkmk Check Point Dynatrace Netbox Veeam VMware About us Customer stories News Customer Center Contact Careers About We are professional and reliable provider since we offer customers the most powerful and beautiful themes. Besides, we always catch the latest technology and adapt to follow world’s new trends to deliver the best themes to the market. 321 123 4567 info@example.com Wishlist Account Login 321 123 4567 info@example.com Wishlist Account Login ASP We Manage IT Our offerings Managed Services Network Security and Threat Management Infrastructure Solutions Cloud Services Optimization IT Automation Data Backup and",
+    "stack": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SQL",
+      "REST",
+      "SOAP",
+      "Git",
+      "ServiceNow"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "hr@asp.be"
+    },
+    "ai_matches": [
+      {
+        "row": 9,
+        "score": 72,
+        "reason": "Deze kandidaat heeft een Master Applied Informatics, sterke JavaScript/TypeScript-basis en aantoonbare full-stack ervaring in complexe overheidsprojecten.",
+        "check": "k4",
+        "pitch": "Beste,\n\nU bent op zoek naar een Junior Developer die wil groeien binnen het ServiceNow-ecosysteem — werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat beschikt over een Master Applied Informatics (KU Leuven) en vier jaar hands-on full-stack ervaring met Java/Spring, Angular, TypeScript en SQL — allemaal technologieën die aansluiten bij uw vacature. In de praktijk werkte deze kandidaat aan complexe overheidsplatformen (BelRAI, Gespecialiseerde Zorg) met Docker, Kubernetes en TDD, wat aantoont dat hij/zij kwaliteitscode levert in gestructureerde omgevingen. REST API-integraties en Agile/Scrum zijn dagelijkse realiteit. Hoewel ServiceNow-ervaring nog ontbreekt, is de leercurve minimaal gezien de sterke technische basis en de gecertificeerde mindset (CKAD, Spring Certified Professional).\n\nKort gezegd: een gemotiveerde, gecertificeerde developer klaar om uw CSA/CAD-traject te doorlopen.\n\nGraag bellen we even om dit profiel verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 6,
+        "score": 65,
+        "reason": "Deze kandidaat heeft vijf jaar .NET/Angular-ervaring met REST/SOAP-integraties en Dell Boomi, wat goed aansluit bij de technische vereisten.",
+        "check": "l5"
+      },
+      {
+        "row": 65,
+        "score": 38,
+        "reason": "Deze kandidaat heeft brede PHP/Drupal- en JavaScript-ervaring maar mist elke affiniteit met ServiceNow, .NET of de gevraagde integratiestacks.",
+        "check": "k12"
+      }
+    ]
+  },
+  {
+    "title": "Cloud & Support Engineer",
+    "url": "https://www.aarixa.be/werken-bij/jobs/cloud-support-engineer/",
+    "company": "AARIXA",
+    "source": "https://www.aarixa.be/werken-bij/jobs/",
+    "first_seen": "2026-08-31",
+    "snippet": "Cloud & Support Engineer - aarixa Home Diensten Software factory ICT-consultancy Infrastructuur, cloud & support Adviezen en opleidingen Producten AssetBuddy® Classid Neglect-X Jobs 5 Jobaanbod Waarom solliciteren? Referral Freelance 1 Freelance aanbod Waarom samenwerken met Aarixa Over Aarixa We care, we share, we are Een warm hart voor... Succesverhalen Contact E-mail: info@aarixa.be Phone: +32 13 55 01 80 Skip to content Jobs Ons jobaanbod / Interesse? Wil je meer weten over deze vacature? Neem dan gerust contact op. +32 13 55 01 80 jobs@aarixa.be Solliciteer nu / Wat deel jij met onze Aarixianen? Doe de test / Cloud & Support Engineer Ben jij die gedreven Cloud & Support Engineer op zoek naar een toffe uitdaging in een groeiend deel van een Limburgs IT-bedrijf? Lees dan zeker verder ... Jouw rol : In de rol van Cloud & Support Engineer bied je eersteklas ondersteuning aan onze klanten en zorg je voor het beheer en de implementatie van de volledige Azure IT-infrastructuur binnen Aarixa. Je wordt een expert in Microsoft Azure-cloudtechnologieën en bent verantwoordelijk voor het bieden van technische ondersteuning, het oplossen van problemen en het geven van advies aan onze klante",
+    "stack": [
+      "Microsoft Azure",
+      "Microsoft 365",
+      "SharePoint",
+      "Teams"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@aarixa.be"
+    },
+    "ai_matches": [
+      {
+        "row": 25,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare Azure-ervaring (ADF, Databricks, ADX) én een Azure Administrator-certificering, relevant voor cloud- en infrastructuurbeheer.",
+        "check": "b7",
+        "pitch": "Beste,\n\nWe merkten dat u op zoek bent naar een Cloud & Support Engineer met sterke Microsoft Azure-kennis. Werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft ruime hands-on Azure-ervaring opgebouwd bij Inimco, met Azure Data Factory, Azure Data Explorer, Databricks en Microsoft Fabric. Bovendien beschikt deze kandidaat over maar liefst vijf Microsoft-certificeringen, waaronder Azure Administrator Associate — exact het certificaat dat Aarixa vermeldt als pluspunt. Ervaring met het beheren van pipelines, dashboarding en het optimaliseren van Azure-omgevingen sluit nauw aan bij de beheers- en implementatietaken in uw vacature. De achtergrond in IoT en telemetrie toont bovendien aan dat deze kandidaat technisch breed inzetbaar is.\n\nKorte leercurve op M365-ondersteuning, maar de Azure-basis en certificeringsmentaliteit zijn precies wat u zoekt.\n\nGraag stellen we deze kandidaat voor in een kort gesprek — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke netwerkervaring (LAN/WAN, SD-WAN, Teams/VOIP) maar beperkte aantoonbare Azure- of M365-beheerervaring.",
+        "check": "k28"
+      },
+      {
+        "row": 31,
+        "score": 38,
+        "reason": "Deze kandidaat heeft datacenter- en netwerkexpertise bij KBC, maar mist aantoonbare Azure cloud- en M365-supportervaring voor deze rol.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Digital Transformation Specialist",
+    "url": "https://abo.global/jobs/digital-transformation-specialist/",
+    "company": "ABO GLOBAL",
+    "source": "https://abo.global/jobs/",
+    "first_seen": "2026-08-31",
+    "snippet": "Digital Transformation Specialist – ABO Global About ABO Global Products Team Highlights Jobs Contact Digital Transformation Specialist Home » Digital Transformation Specialist Digital Transformation Specialist Driving Digital Change As our digital transformation specialist, you are responsible for… Defining, leading, and executing strategic digital transformation initiatives in collaboration with the Group Administration & Finance Manager. Designing, developing, training, and implementing an IT infrastructure that supports the overall business and creates transparency within the organization. Providing expert guidance on the implementation of our new ERP system, Tegos suite (software solution based on Microsoft Dynamics 365 Business Central technology). Successfully rolling out our new ERP system to our subsidiary in Rouen, France. Supporting the data management process, being responsible for data housekeeping and aiding in ensuring data integrity. Initiating and coordinating IT projects accurately and within budget and deadlines to enhance efficiency (BI, automation processes for integrating external partner data, etc.). Escalating issues to the correct and predefined contact per",
+    "stack": [
+      "Microsoft Dynamics 365 Business Central",
+      "Tegos suite",
+      "Microsoft applications",
+      "ERP systems",
+      "BI tools"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": "Marie Vandergraesen",
+      "email": "jobs@abo.global"
+    },
+    "ai_matches": [
+      {
+        "row": 50,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare BI-, data governance- en projectmanagementervaring in finance/logistics, maar mist directe ERP/Dynamics 365-achtergrond.",
+        "check": "s6"
+      },
+      {
+        "row": 53,
+        "score": 28,
+        "reason": "Deze kandidaat is een infrastructure/DevOps-specialist zonder ERP-, digitale transformatie- of Dynamics 365-ervaring.",
+        "check": "a8"
+      }
+    ]
+  },
+  {
+    "title": "Junior System Engineer",
+    "url": "https://www.asp.be/careers/junior-system-engineer",
+    "company": "A.S.P",
+    "source": "https://www.asp.be/careers/",
+    "first_seen": "2026-08-31",
+    "snippet": "Junior System Engineer - ASP Our offerings Managed Services Network Security and Threat Management Infrastructure Solutions Cloud Services Optimization IT Automation Data Backup and Recovery ServiceNow Connector Apps Ansible CMDB Connector for ServiceNow Azure CMDB Connector for ServiceNow Intune CMDB Connector for ServiceNow ServiceNow Services ServiceNow Implementation ServiceNow Custom Applications ServiceNow Integrations ServiceNow Support ServiceNow Outsourcing Products ServiceNow Red Hat Ansible Automation Platform CrowdStrike Zscaler Dell Microsoft Azure F5 Boomi Checkmk Check Point Dynatrace Netbox Veeam VMware About us Customer stories News Customer Center Contact Careers About We are professional and reliable provider since we offer customers the most powerful and beautiful themes. Besides, we always catch the latest technology and adapt to follow world’s new trends to deliver the best themes to the market. 321 123 4567 info@example.com Wishlist Account Login 321 123 4567 info@example.com Wishlist Account Login ASP We Manage IT Our offerings Managed Services Network Security and Threat Management Infrastructure Solutions Cloud Services Optimization IT Automation Data Back",
+    "stack": [
+      "Windows 10",
+      "Windows 11",
+      "Microsoft 365",
+      "Active Directory",
+      "Microsoft Entra ID",
+      "Azure AD",
+      "Exchange Online",
+      "Outlook",
+      "Teams",
+      "OneDrive"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "hr@asp.be"
+    },
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 20+ jaar Microsoft-infrastructuurervaring met Active Directory, Entra ID, Windows Server en VMware — exact de kern van deze rol.",
+        "check": "k20",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Junior System Engineer. Werkt u samen met externe consultants om uw team te versterken?\n\nDeze kandidaat heeft meer dan 20 jaar hands-on ervaring met precies de technologieën die u zoekt: Active Directory en Microsoft Entra ID (hybride omgevingen), Windows Server, VMware en PowerShell-automatisering. Momenteel actief als security engineer bij Toyota Motor Europe, met verantwoordelijkheid voor enterprise-brede AD-compliance en Windows-hardening.\n\nHoewel het profiel seniorer is dan de vacature vraagt, is deze kandidaat sterk in kennisoverdracht en teamwerking — een solide versterking die direct productief is zonder lange inlooptijd. Ervaring met Intune, Defender en CrowdStrike sluit bovendien aan bij de bredere toolset van A.S.P.\n\nKort overleg om te bekijken of dit een match is? Ik plan graag een call in.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 39,
+        "score": 58,
+        "reason": "Deze kandidaat heeft brede infrastructuurervaring met Intune, SCCM, netwerken en Windows-migraties over meerdere sectoren heen.",
+        "check": "k28"
+      },
+      {
+        "row": 31,
+        "score": 42,
+        "reason": "Deze kandidaat heeft relevante netwerk- en systeemervaring (DNS, DHCP, F5, VMware, Ansible) maar mist concrete Microsoft 365 en Windows endpoint-achtergrond.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Security Analist",
+    "url": "https://www.aarixa.be/werken-bij/jobs/security-analist-3/",
+    "company": "AARIXA",
+    "source": "https://www.aarixa.be/werken-bij/jobs/",
+    "first_seen": "2026-08-31",
+    "snippet": "Security Analist - aarixa Home Diensten Software factory ICT-consultancy Infrastructuur, cloud & support Adviezen en opleidingen Producten AssetBuddy® Classid Neglect-X Jobs 5 Jobaanbod Waarom solliciteren? Referral Freelance 1 Freelance aanbod Waarom samenwerken met Aarixa Over Aarixa We care, we share, we are Een warm hart voor... Succesverhalen Contact E-mail: info@aarixa.be Phone: +32 13 55 01 80 Skip to content Jobs Ons jobaanbod / Interesse? Wil je meer weten over deze vacature? Neem dan gerust contact op. +32 13 55 01 80 jobs@aarixa.be Solliciteer nu / Wat deel jij met onze Aarixianen? Doe de test / Security Analist Wil je je professionele en persoonlijke horizon verbreden en gechallenged worden in een leuke en creatieve omgeving? Wens je een echt lid te zijn van onze familie van Aarixianen in plaats van als nummer behandeld te worden? Lees dan verder! Wat doe je: Als security Analist kan je op een pragmatische en projectmatige manier beveiligingstrends en risico’s mee vertalen naar actiegerichte wijzigingen die je ook zelf of samen met collega’s van andere teams gaat uitvoeren; Je implementeert tools en onderhoudt ze op continue wijze. Je voert regelmatig controles uit die ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@aarixa.be"
+    },
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 82,
+        "reason": "Deze kandidaat heeft hands-on security-ervaring met Sentinel, Defender, Qualys, NIS2/ISO 27001 en identity-hardening in enterprise-omgevingen.",
+        "check": "k20",
+        "pitch": "Beste,\n\nWe merkten dat u op zoek bent naar een Security Analist en wilden vragen of u openstaat voor externe consultants.\n\nWe hebben een sterke kandidaat die momenteel als security engineer bij Toyota Motor Europe werkt, waar deze kandidaat verantwoordelijk is voor Europa-brede Active Directory-compliance, LDAPS-enforcement en kwetsbaarhedenbeheer via Qualys VMDR en de volledige Defender-suite. Dit sluit rechtstreeks aan bij uw zoektocht naar iemand die tools implementeert, infrastructuur monitort en risico's mitgeert.\n\nDaarnaast heeft deze kandidaat aantoonbare ervaring met Sentinel SIEM, IAM/PAM, NIS2/CyFun en ISO 27001/27005 — allemaal elementen die u expliciet vermeldt. Met meer dan 20 jaar ervaring in sectoren als overheid, farma, defensie en automotive beschikt deze kandidaat over de breedte én diepte die uw rol vereist.\n\nGraag plan ik een kort gesprek in om te bekijken of dit een goede match kan zijn.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 90,
+        "score": 72,
+        "reason": "Deze kandidaat leidde volledige netwerkheropbouw na cyberaanvallen en heeft brede security-architectuurervaring met firewalls, VPN, SOC-tools en monitoring.",
+        "check": "n15"
+      },
+      {
+        "row": 64,
+        "score": 58,
+        "reason": "Deze kandidaat beheert security-platforms bij KBC en heeft ervaring met netwerktoegangscontrole, maar mist expliciete IAM-, compliance- en incidentresponservaring.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Stagiair Data Scientist België Gent",
+    "url": "https://accurat.ai/nl/careers/stagiair-data-scientist",
+    "company": "ACCURAT",
+    "source": "https://accurat.ai/nl/careers",
+    "first_seen": "2026-08-31",
+    "snippet": "Stagiair Data Scientist - Accurat AI (Gent) Open menu Producten Retail Media App owners Platform Hoe het werkt Privacy en beveiliging Sectoren Tarieven Over onze data Bedrijf Over ons Team Careers Contact Bronnen Blog Kijk & Luister Support Nederlands Boek demo Contact Terug Producten Retail MarketMonitor CampaignCompass Zoom levels Vergelijk ons Media (D)OOH reach Campaign Attribution Audience Selectivity & Targetting App owners Platform Hoe het werkt Privacy en beveiliging Sectoren Tarieven Over onze data Bedrijf Over ons Team Careers Contact Bronnen Blog Kijk & Luister Support NL Inloggen Contact Boek demo Accurat / careers / stagiair data scientist Stagiair Data Scientist Als je op zoek bent naar een stage die te maken heeft met big data en waarin je je vaardigheden kunt bewijzen met echte uitdagingen, dan is deze stage misschien iets voor jou. België Gent Stage Nu soliciteren -> Inhoudsopgave What’s on our wish list? Experience with any of the following is considered a plus We are currently providing internships focused on two different challenges: 1. Transport mode algorithm improvements Our current transport algorithm detects when an individual is 'in vehicle', travelling 'b",
+    "stack": [
+      "python",
+      "mysql",
+      "git",
+      "google cloud",
+      "bigquery",
+      "dataflow"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare LLM-ervaring, geospatiale data en Python in een AWS data lake-context.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw open positie voor Stagiair Data Scientist bij Accurat in Gent. Werkt u samen met externe consultants voor het versterken van uw team?\n\nDeze kandidaat beschikt over concrete, hands-on ervaring met precies de technologieën die voor uw twee stage-uitdagingen relevant zijn. Bij Foliant werkte deze kandidaat met LLM fine-tuning (Axolotl, Ollama) én bouwde een AWS data lake met geospatiale en tijdreeksdata — een directe match met uw proactieve aanbevelingstrack én uw transportmodus-algoritme. Eerder bij AWV implementeerde deze kandidaat een lokaal gehoste LLM voor NLP in productieomgevingen, wat aantoont dat LLM-kennis niet louter theoretisch is. Python is de primaire taal doorheen de hele carrière, en Linux/Docker zijn vertrouwd terrein.\n\nIk zou graag een kort gesprek inplannen om te bekijken of er een goede match is. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 9,
+        "score": 38,
+        "reason": "Deze kandidaat heeft sterke Java/Python-achtergrond maar geen data science, ML of big data-ervaring.",
+        "check": "k4"
+      },
+      {
+        "row": 11,
+        "score": 32,
+        "reason": "Deze kandidaat heeft Python en Azure-ervaring maar geen data science, ML of geospatiale verwerking in de historiek.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "Network Engineer",
+    "url": "https://www.asp.be/careers/network-engineer/",
+    "company": "A.S.P",
+    "source": "https://www.asp.be/careers/",
+    "first_seen": "2026-08-31",
+    "snippet": "",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 64,
+        "score": 88,
+        "reason": "Deze kandidaat werkt al jaren bij KBC als datacenter network & security engineer met exact dezelfde stack: Cisco ACI, Check Point, Palo Alto, Infoblox, Ansible/Python CI/CD en VMware.",
+        "check": "l8",
+        "pitch": "Beste,\n\nWe merkten dat A.S.P op zoek is naar een Network Engineer en vroegen ons af of u ook samenwerkt met externe consultants.\n\nWe hebben momenteel een sterke kandidaat beschikbaar die wij graag aan u voorstellen. Deze kandidaat werkt al jaren als datacenter network & security engineer binnen een van de grootste financiële instellingen van België (KBC Group). De technische match met uw vacature is uitstekend: Cisco ACI leaf-spine architectuur, Check Point en Palo Alto firewallbeheer, Infoblox DNS/DHCP/IPAM, en een volwaardige NetDevOps-aanpak met Ansible, Python en Jenkins CI/CD.\n\nBovenop de klassieke netwerkcompetenties brengt deze kandidaat automatisering en Infrastructure-as-Code mee — een echte meerwaarde voor elke moderne netwerkorganisatie. Cisco DevNet Associate en Check Point CCSA/CCSE certifications onderbouwen de expertise.\n\nGraag plannen we een korte call om te bekijken of er een goede match is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 31,
+        "score": 84,
+        "reason": "Deze kandidaat is een ervaren network/system engineer bij KBC met diepgaande Infoblox-, F5-, Check Point- en Palo Alto-expertise, inclusief architectuuropdrachten en mentoring.",
+        "check": "l8",
+        "pitch": "Beste,\n\nWe zagen dat A.S.P op zoek is naar een Network Engineer en wilden graag peilen of u ook werkt met externe profielen.\n\nWij stellen u graag een senior netwerkkandidaat voor met 8 jaar aantoonbare ervaring in datacenter-networking bij KBC Group. Deze kandidaat tekende mee voor architecturele beslissingen rond Infoblox DNS/DHCP/IPAM, leidde de uitrol van Infoblox Anycast voor België én Hongarije, en herconfigureerde de DMZ-layering. De ervaring met Check Point, Palo Alto, Cisco ACI en F5 load balancing sluit nauw aan bij wat u zoekt.\n\nDeze kandidaat combineert technische diepgang met communicatieve sterktes: actief als freelance consultant én trainer, met bewezen ervaring in vendor management en onboarding. Een afgerond profiel voor complexe netwerkomgevingen.\n\nMag ik u een korte call voorstellen om dit verder te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 90,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 15 jaar ervaring als freelance network security architect met Palo Alto, Fortinet, Cisco en SD-WAN over meerdere sectoren heen.",
+        "check": "n15"
+      }
+    ]
+  },
+  {
+    "title": "Ervaren Full stack C# .NET/Angular Developer",
+    "url": "https://www.aarixa.be/werken-bij/jobs/ervaren-full-stack-c-net-angular-developer-3/",
+    "company": "AARIXA",
+    "source": "https://www.aarixa.be/werken-bij/jobs/",
+    "first_seen": "2026-08-31",
+    "snippet": "Ervaren Full stack C# .NET/Angular Developer - aarixa Home Diensten Software factory ICT-consultancy Infrastructuur, cloud & support Adviezen en opleidingen Producten AssetBuddy® Classid Neglect-X Jobs 5 Jobaanbod Waarom solliciteren? Referral Freelance 1 Freelance aanbod Waarom samenwerken met Aarixa Over Aarixa We care, we share, we are Een warm hart voor... Succesverhalen Contact E-mail: info@aarixa.be Phone: +32 13 55 01 80 Skip to content Jobs Ons jobaanbod / Interesse? Wil je meer weten over deze vacature? Neem dan gerust contact op. +32 13 55 01 80 jobs@aarixa.be Solliciteer nu / Wat deel jij met onze Aarixianen? Doe de test / Ervaren Full stack C# .NET/Angular Developer Ben jij de Full stack Developer die klaar is om zijn/haar collega's te inspireren met jouw kennis en samen te streven naar het beste eindresultaat? Stel je dan zeker kandidaat voor deze positie! Wat doe je? Developen uiteraard en in een tof team, wat had je gedacht? Dat komt op de eerste plaats! Dit gaat van nieuwe code schrijven tot verbeteren en uitbreiden van bestaande applicaties. Nee, dat gaan we niet doen via oude technologie zoals oude .NET of de voorloper hiervan. De projecten bij onze klanten zijn o",
+    "stack": [
+      "C#",
+      ".NET",
+      ".NET Core",
+      "Angular",
+      "React",
+      "RabbitMQ",
+      "Azure Service Bus",
+      "Docker",
+      "Kubernetes"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@aarixa.be"
+    },
+    "ai_matches": [
+      {
+        "row": 37,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare C#/.NET + Angular-ervaring bij meerdere klanten, met CQRS, DDD, Azure en Docker in productie.",
+        "check": "e8",
+        "pitch": "Beste,\n\nWe zagen jullie vacature voor een ervaren Full Stack C#/.NET/Angular Developer en vroegen ons af of Aarixa ook samenwerkt met externe consultants.\n\nWij hebben een freelance profiel beschikbaar dat naadloos aansluit bij wat jullie zoeken. Deze kandidaat heeft 8 jaar hands-on ervaring met exact de gevraagde stack: C#, .NET, Angular (inclusief NgRx, Signals, Nx), Entity Framework, Azure, Docker en CQRS/DDD op de backend. Bij recente opdrachten voor Wit-Gele Kruis en via Greenstack (bij o.a. CERM en Solidaris) bouwde deze kandidaat cloud-gebaseerde webapplicaties met geautomatiseerde billing-flows en complexe integraties. Eerder bij Realdolmen stond deze kandidaat in bij multiproject-consultancy voor namen als PwC en IOK.\n\nKwaliteitsbewustzijn zit sterk ingebakken: Jest, Cypress, NUnit, TDD — en ook de nice-to-haves zoals CQRS/event sourcing en Azure zijn aanwezig. Kortom: klaar om meteen bij een klant te schitteren.\n\nMogen we dit even toelichten in een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 13,
+        "score": 86,
+        "reason": "Deze kandidaat heeft 26 jaar .NET-ervaring, is teamlead, en beheerst Angular t/m v19 én message bus-technologie productief.",
+        "check": "i26",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een ervaren Full Stack C#/.NET/Angular Developer contacteren wij u — werkt Aarixa ook met externe profielen?\n\nWij stellen graag een uitzonderlijk sterk profiel voor. Deze kandidaat heeft meer dan 26 jaar .NET-ervaring — van .NET Framework tot .NET 10 — en beheerst de volledige gevraagde stack: C# (ASP.NET Core, EF Core), Angular 2 t/m 19 (NgRx, PrimeNG) én React. Wat deze kandidaat extra onderscheidt: NServiceBus, Docker, Elasticsearch en Clean Architecture zijn geen theorie maar dagelijkse praktijk. De nice-to-haves zijn eveneens afgedekt: message bus (NServiceBus), microservices en containerisatie (Docker, Service Fabric).\n\nAls teamlead begeleidt deze kandidaat actief juniors en interns — wat perfect aansluit bij jullie verwachting rond kennisdeling. Met conferentie-aanwezigheid (DDD Europe, GOTO) en brede enterprise-ervaring over meerdere sectoren is dit een profiel dat direct waarde toevoegt.\n\nKan ik u morgen even bellen voor een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 22,
+        "score": 82,
+        "reason": "Deze kandidaat combineert C#/.NET Core, Angular, Azure Service Bus en Docker met aantoonbare architectuurverantwoordelijkheid bij BrainSolutions.",
+        "check": "r4",
+        "pitch": "Beste,\n\nWe zagen jullie openstaande vacature voor een Full Stack C#/.NET/Angular Developer en vragen ons af of jullie openstaan voor externe consultants.\n\nDeze kandidaat heeft in 4 jaar een indrukwekkend parcours opgebouwd dat sterk aansluit bij wat Aarixa zoekt. Bij BrainSolutions architectureerde deze kandidaat een modulair Azure-integratieframework en werkte aan een beveiligd project met Angular frontend en hoge eisen rond auditabiliteit. Eerder bij Cloudware bouwde deze kandidaat twee Blazor-applicaties met Unity WebGL-rendering en herontwerp van een orderportaal. De gevraagde stack is volledig aanwezig: C#, .NET Core, Angular én React, Azure Service Bus, Docker en CQRS/DDD. De nice-to-haves zijn dus ook grotendeels afgedekt. Intern leidt deze kandidaat kennissessies over React en lokale LLMs — een teken van het mentorschap dat jullie ook verwachten.\n\nZin om dit profiel even te bespreken in een kort gesprek?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "Service Desk Engineer",
+    "url": "https://www.asp.be/careers/service-desk-engineer",
+    "company": "A.S.P",
+    "source": "https://www.asp.be/careers/",
+    "first_seen": "2026-08-31",
+    "snippet": "Service Desk Engineer - ASP Our offerings Managed Services Network Security and Threat Management Infrastructure Solutions Cloud Services Optimization IT Automation Data Backup and Recovery ServiceNow Connector Apps Ansible CMDB Connector for ServiceNow Azure CMDB Connector for ServiceNow Intune CMDB Connector for ServiceNow ServiceNow Services ServiceNow Implementation ServiceNow Custom Applications ServiceNow Integrations ServiceNow Support ServiceNow Outsourcing Products ServiceNow Red Hat Ansible Automation Platform CrowdStrike Zscaler Dell Microsoft Azure F5 Boomi Checkmk Check Point Dynatrace Netbox Veeam VMware About us Customer stories News Customer Center Contact Careers About We are professional and reliable provider since we offer customers the most powerful and beautiful themes. Besides, we always catch the latest technology and adapt to follow world’s new trends to deliver the best themes to the market. 321 123 4567 info@example.com Wishlist Account Login 321 123 4567 info@example.com Wishlist Account Login ASP We Manage IT Our offerings Managed Services Network Security and Threat Management Infrastructure Solutions Cloud Services Optimization IT Automation Data Backu",
+    "stack": [
+      "Windows",
+      "Linux",
+      "Mac OS",
+      "ServiceNow",
+      "remote desktop applications"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "hr@asp.be"
+    },
+    "ai_matches": [
+      {
+        "row": 64,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen ervaring met Check Point, Ansible, Python en CI/CD-automatisering, aansluitend bij het ASP-productportfolio.",
+        "check": "l8",
+        "pitch": "Beste,\n\nWe merkten dat A.S.P. op zoek is naar een Service Desk Engineer en wilden u vragen of u samenwerkt met externe consultants voor dergelijke profielen.\n\nWij stellen u graag deze kandidaat voor. Met 8 jaar ervaring als Datacenter Network & Security Engineer bij KBC heeft deze kandidaat hands-on gewerkt met technologieën die nauw aansluiten bij het ASP-portfolio: Check Point (CCSA/CCSE gecertificeerd), Ansible voor automatisering, en Python/Jenkins-gebaseerde CI/CD-pipelines. Ervaring met VMware en Linux biedt een solide basis voor operationele ondersteuning van klanten. Het profiel combineert technische diepgang met cross-team communicatie en infrastructuurbeheer — precies wat ASP zoekt in een groeiende 1st-line-naar-expert-rol.\n\nDeze kandidaat is klaar om snel bij te dragen aan uw servicedesk en door te groeien richting complexere technische uitdagingen.\n\nGraag plannen we een kort gesprek om dit profiel toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 53,
+        "score": 62,
+        "reason": "Deze kandidaat heeft bewezen Ansible- en Linux-ervaring bij Orange Cyberdefense en overheidsklanten, relevant voor het ASP managed services-profiel.",
+        "check": "a8"
+      },
+      {
+        "row": 60,
+        "score": 58,
+        "reason": "Deze kandidaat heeft ruime Linux-, Ansible- en VMware-ervaring bij luchthaven en overheid, passend bij ASP's infrastructuurbeheer en operationele ondersteuning.",
+        "check": "g29"
+      }
+    ]
+  },
+  {
+    "title": "Vacature: C# Software Developer",
+    "url": "https://afternoon-software.be/project/vacature-c-software-developer/",
+    "company": "AFTERNOON SOFTWARE SOLUTIONS",
+    "source": "https://afternoon-software.be/vacatures/",
+    "first_seen": "2026-08-31",
+    "snippet": "Vacature: C# Software Developer | Afternoon Software Solutions Contacteer ons Comments Dit veld is bedoeld voor validatiedoeleinden en moet niet worden gewijzigd. Voornaam * Familienaam * Uw bedrijf Telefoonnummer * E-mailadres * Vraag of opmerking +32 3 501 32 94 Support Jobs Contact Over ons Diensten Portfolio Tips & tricks Over ons Diensten Portfolio Tips & tricks Jobs Contact Vacature: C# Software Developer Home > Vacature: C# Software Developer Afternoon Software Solutions ontwikkelt software op maat van bedrijven mét uitstekende service. Op dit moment zijn wij op zoek naar een C# Software Developer . Heb jij een passie voor programmeren, uitstekende kennis van C# en .NET en ben je op zoek naar een nieuwe uitdaging ? Lees dan meteen verder en solliciteer! Functieomschrijving Als C# Software Developer ontwerp je maatwerksoftware volgens de wensen van de klant. Denk aan Windowsapplicaties, webapplicaties, mobiele toepassingen, enz. Daarbij maak je gebruik van moderne technieken zoals C#, EntityFramework, MS SQL, ASP.NET, Xamarin, MS Azure, enz. Je zal zoveel mogelijk zelfstandig aan projecten werken, die je dan ook van begin tot eind mag uitvoeren op basis van een bestaande proj",
+    "stack": [
+      "C#",
+      ".NET",
+      "EntityFramework",
+      "MS SQL",
+      "ASP.NET",
+      "Xamarin",
+      "MS Azure"
+    ],
+    "experience": "2+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@afternoon-software.be"
+    },
+    "ai_matches": [
+      {
+        "row": 56,
+        "score": 88,
+        "reason": "Deze kandidaat heeft aantoonbare Xamarin/MAUI-ervaring, Blazor, Azure en 19 jaar C#/.NET productie-ervaring inclusief mobiele en webapplicaties.",
+        "check": "k19",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor een C# Software Developer bij Afternoon Software Solutions. Werkt u ook samen met externe consultants?\n\nIk wil u graag een freelance .NET-profiel voorstellen met maar liefst 19 jaar hands-on C#-ervaring. Deze kandidaat heeft bewezen expertise in exact de technologieën die u zoekt: C#, .NET, Blazor, Xamarin/.NET MAUI, Azure en SQL — geen theoretische kennis, maar productie-ervaring in complexe omgevingen.\n\nBij Mediahuis bouwde deze kandidaat Xamarin-apps voor tien nieuwsmerken. Bij NMBS/Ypto leverde hij mission-critical backend services en een mobiele treinpersoneel-app in .NET 8. Bij Gervi een volledig Blazor-verkoopportaal. De combinatie van desktop, web én mobiel sluit naadloos aan op uw projectportfolio.\n\nZou u openstaan voor een korte kennismaking? Ik licht graag toe hoe deze kandidaat direct inzetbaar is.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 17,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 8 jaar C#/.NET-ervaring met WPF, Blazor, Entity Framework, Azure en SQL Server in industriële maatwerkprojecten.",
+        "check": "j8",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een C# Software Developer bij Afternoon Software Solutions wil ik u graag een sterk .NET-profiel voorstellen. Werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft 8 jaar ervaring in C#, ASP.NET, Entity Framework, Azure DevOps en SQL Server — precies de stack die u zoekt. Bij Smulders werkt hij aan ERP-maatwerksoftware voor een internationale staalconstructeur, bij Belden bouwde hij een industrieel netwerkmonitoringplatform met WPF en MVVM, en bij Lonza onderhield hij kritische productieapplicaties met Blazor en EF Core.\n\nDeze kandidaat werkt zelfstandig van analyse tot oplevering, heeft oog voor kwaliteit en is gewend te communiceren met eindklanten — een combinatie die perfect aansluit bij uw werkwijze.\n\nZou u openstaan voor een kort gesprek? Ik vertel u graag meer.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 38,
+        "score": 76,
+        "reason": "Deze kandidaat heeft aantoonbare ASP.NET, Blazor, SQL en Azure-ervaring inclusief een Tech Lead-rol bij RIZIV in complexe enterprise-omgevingen.",
+        "check": "d8",
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw vacature voor een C# Software Developer bij Afternoon Software Solutions. Werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft 8 jaar .NET-ervaring met C#, ASP.NET MVC, Blazor, SQL en Azure Service Bus — en bewijst zijn senioriteitsniveau als backup Tech Lead bij RIZIV, waar hij architectuurbeslissingen neemt en PR-reviews begeleidt. Bij Colruyt Group migreerde hij legacy-monolithische systemen naar microservices met event-driven integratie.\n\nWat hem onderscheidt: hij combineert brede full-stack kennis met een zeldzame infrastructuurachtergrond, wat hem bijzonder handig maakt bij klantomgevingen met gemengde IT-setups — een troef in maatwerksoftware-projecten zoals de uwe.\n\nZou u openstaan voor een kort kennismakingsgesprek? Ik vertel u graag meer.\n\nMet vriendelijke groeten,"
+      }
+    ]
+  }
+]
