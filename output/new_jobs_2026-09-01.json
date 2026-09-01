@@ -1,0 +1,183 @@
+[
+  {
+    "title": "Gepassioneerd door technologie en data? AI, cloud, chatbots...: innoveer met impact.",
+    "url": "https://jobs.belfius.be/content/Data-Tech-talenten/",
+    "company": "BELFIUS AUTO LEASE",
+    "source": "https://jobs.belfius.be/",
+    "first_seen": "2026-09-01",
+    "snippet": "Data Tech talenten Welkom bij Belfius jobs. Ook wij werken met cookies! Deze website gebruikt enkel interne, strikt noodzakelijke cookies. Die zijn nodig om de website correct en veilig te laten functioneren en kan u bijgevolg niet weigeren. Meer weten? Bekijk gerust ons cookiebeleid . In de cookiedetails krijgt u een overzicht van de geplaatste cookies Ok, ik begrijp het Verdergaan naar primaire inhoud Taal Français Nederlands Aanmelding werknemer Taal Français Nederlands Aanmelding werknemer Taal Français Nederlands Aanmelding werknemer Welkom Vind je job Alle jobs Kansen voor jonge talenten Hoe solliciteer je? Volg je passie Volg je passie Banking & Commercial Customer Services Marketing & Communication Financial Reporting & Controlling Legal & Tax Business Support Projects & Transformation Technology Data Scientist, Actuary & Quant Waarom Belfius? Waarom Belfius? Aantrekkelijk aanbod Diversiteit en inclusie Stories Tech & Data talenten Heb je een drive voor technologie of data? Dan vind je bij Belfius gegarandeerd de job van je leven. Bij ons aan de slag gaan, betekent terechtkomen in een bedrijf dat tech & data ademt. Want Belfius investeerde in 2022 maar liefst 190 miljoen eu",
+    "stack": [
+      "Kotlin",
+      "Swift",
+      "Python",
+      "Spring",
+      "JavaScript",
+      "Java",
+      "Ansible",
+      "Cobol"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 85,
+        "reason": "Deze kandidaat bouwde een RAG-based AI agent en event-driven microservices op Azure, met bewezen cloud-, chatbot- en MLOps-aanverwante ervaring.",
+        "check": "a14",
+        "pitch": "Beste,\n\nVia deze weg wil ik even polsen of Belfius Auto Lease samenwerkt met externe IT-consultants voor technische profielen — want ik heb een kandidaat die ik u graag even voorstel.\n\nDeze kandidaat heeft 14 jaar ervaring als Senior Software Engineer en Tech Lead, met een sterk bewezen track record in exact de technologieën die Belfius zoekt. Bij BMW (vlootbeheer) bouwde deze kandidaat een RAG-based AI agent, event-driven microservices, GraphQL APIs en Azure Service Bus-integraties — allemaal op een Terraform-beheerde Azure-omgeving met AKS en Container Apps. Bij DPG Media werkte deze kandidaat op Spring Boot/Kotlin-microservices met AWS en CI/CD. Eerder bij Danone leidde deze kandidaat ook een chatbot-project.\n\nDe combinatie van AI-ontwikkeling, cloud-native architectuur (Azure, Kubernetes), Agile samenwerking en tech-leadervaring maakt dit een profiel dat naadloos aansluit bij de ambities van Belfius op het vlak van gepersonaliseerde digitale diensten en innovatie.\n\nMag ik u even bellen voor een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 1,
+        "score": 78,
+        "reason": "Deze kandidaat heeft concrete LLM fine-tuning, AI engineering en locally-hosted NLP-ervaring, aangevuld met brede softwarearchitectuurachtergrond.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op omdat ik verneem dat Belfius Auto Lease actief inzet op AI, chatbots en cloud-innovatie — en ik een sterk profiel heb dat hierbij aansluit.\n\nDeze kandidaat heeft 11 jaar ervaring, waarvan recentelijk als AI Engineer met focus op LLM fine-tuning (Axolotl, Ollama, Claude), AWS-dataplatforms (EC2/S3) en geospatiale/tijdreeksdata. Bij AWV droeg deze kandidaat als softwarearchitect de adoptie van locally-hosted LLMs voor NLP, wat directe relevantie heeft voor Belfius' conversational AI en chatbot-ambities. Eerder bij INTIX werd gewerkt met event-driven systemen (Kafka, Zookeeper) en financiële transactieverwerking — een domein dicht bij de bancaire context van Belfius.\n\nDe combinatie van AI/ML-diepgang, cloud (AWS), Python en een brede technische achtergrond (Go, Node, Java) maakt dit een veelzijdig profiel voor een innovatieve data- en AI-omgeving.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 72,
+        "reason": "Deze kandidaat heeft recentelijk 2 Azure AI-projecten opgezet (Azure Foundry, Cosmos DB) en een volledige hybride cloud-infrastructuur beheerd, inclusief ADF en Kafka.",
+        "check": "j25"
+      }
+    ]
+  },
+  {
+    "title": "Explore Software Engineering",
+    "url": "https://www.siemens-healthineers.com/careers/software-engineering-it-digital",
+    "company": "SIEMENS HEALTHCARE",
+    "source": "https://www.siemens-healthineers.com/careers",
+    "first_seen": "2026-09-01",
+    "snippet": "Software Engineering, IT & Digital at Siemens Healthineers Investors Talents Press Healthcare professionals de | en Products & services Perspectives Innovations Purpose Explore our comprehensive portfolio that addresses the complete care continuum for many of the world’s most threatening diseases. Products & services Medical imaging Cancer Care Laboratory diagnostics Point-of-care testing Clinical fields Digital Solutions & Automation Value Partnerships & Consulting Services Healthcare IT Support & Documentation Cybersecurity at Siemens Healthineers eCommerce Education & training IT standards Online services Quality control management for assays Business partners Sales partners Suppliers Siemens Healthineers Shape Spotlight Explore Shape Industry trends Insights Conferences & events Join us at the Expo Hub Events calendar Discover the stories of pioneers pushing the boundaries of what’s possible in healthcare to help improve people’s lives around the world. Perspectives of ... Healthcare experts Patients Employees See all our stories Stories about ... Innovation culture Cancer care Neuro care Cardio care Access to care Inclusive culture See all our stories Featured topics Oncology ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 14 jaar Java/Kotlin/Spring Boot ervaring met event-driven microservices, cloud (Azure/AWS/Kubernetes) en AI-integratie in productieomgevingen.",
+        "check": "a14",
+        "pitch": "Beste,\n\nVoor de Software Engineering-vacature bij Siemens Healthineers wou ik u graag een sterke kandidaat voorstellen — werkt u ook samen met externe consultants?\n\nDeze kandidaat brengt 14 jaar diepgaande ervaring mee in Java, Kotlin en Spring Boot, exact de technologieën die u zoekt. Bij BMW ontwikkelde deze kandidaat een RAG-based AI agent en event-driven microservices op Azure (AKS, Service Bus, Terraform) — een aanpak die naadloos aansluit op de AI/ML- en cloudfocus van Siemens Healthineers. Bij DPG Media werd dagelijkse CI/CD met Snyk en AWS gecombineerd met Kotlin-microservices in productie. Eerder fungeerde deze kandidaat als tech lead bij Uitgeverij VAN IN, met reactive APIs (Spring WebFlux), Kubernetes en SAFe — bewijs van zowel architecturale als leiderschapscapaciteiten.\n\nDeze combinatie van cloud-native engineering, AI-integratie en tech-lead ownership maakt deze kandidaat bijzonder relevant voor uw team.\n\nBent u beschikbaar voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 30,
+        "score": 78,
+        "reason": "Deze kandidaat werkte rechtstreeks op een patiënttraject-platform bij Johnson & Johnson met Camunda, Kafka en CQRS/event sourcing in een healthcare context.",
+        "check": "e6",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de Software Engineering-openstaande rol bij Siemens Healthineers — werkt u ook met externe profielen?\n\nDeze kandidaat heeft aantoonbare healthcare IT-ervaring: bij Johnson & Johnson werd een BPMN-gedreven patiënttrajectplatform gebouwd met Camunda, Kafka (Avro), Axon CQRS/event sourcing en contract-first API's — exact het type complexe, domeingedreven architectuur dat Siemens Healthineers vereist. Daarnaast leidde deze kandidaat mee de migratie van 25 microservices van Java 11 naar 21 en Spring Boot 2 naar 3, inclusief productie-rotaties als first responder. Met 6 jaar ervaring in Java, Spring Boot, Kafka, PostgreSQL en cloud (AWS/GCP/Terraform) is het profiel sterk afgestemd op uw stack.\n\nDe directe healthcare-achtergrond en bewezen ownership maken dit een profiel dat uw aandacht verdient.\n\nZin om kort te bellen deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 55,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring in health tech via Evoluno en beheert Kubernetes-clusters met React, NestJS en Azure in productieomgevingen.",
+        "check": "b8"
+      }
+    ]
+  },
+  {
+    "title": "ICT en Data",
+    "url": "https://www.mourik.be/jobs/vacatures/?discipline-nl=ict-en-data",
+    "company": "Mourik",
+    "source": "https://www.mourik.be/jobs/",
+    "first_seen": "2026-09-01",
+    "snippet": "Vacatures | Mourik For English, visit our global website: Mourik Global Kies een ander land voor content die is afgestemd op jouw locatie: Nederland Kies een ander land voor content die is afgestemd op jouw locatie: Nederland of België Nieuws Bedrijven Contact België - NL Nederland - NL Global - EN België - NL België - NL Mourik Close menu Sluiten Nederland - NL Global - EN België - NL Save on CO 2 emissions Mourik Zoeken Zoeken Menu Sluiten Over Mourik Jaarverslag Events Certificaten Diensten Industrie Industriële Reiniging Catalyst Handling Bouw Civiele en Utiliteitsbouw Sloop & Asbestverwijdering Asbestverwijdering Nucleaire Dienstverlening Betononderhoud Gebouwtechnieken Milieutechniek Onderzoek Emissiebeperking Afvalmanagement Grondwater- en Bodemsanering Waterzuivering Projecten Jobs Alle Vacatures Mourik Maakt Morgen Jobs Alle Vacatures Vacatures Filter Zoeken Discipline Chauffeurs en Machinisten Kwaliteit, Gezondheid, Veiligheid en Milieu (HSEQ) Monteurs Projectleiding en Engineering Staf en Management Uitvoering Werfleiding Werkvoorbereiding en Calculatie Opleiding ASO Bachelor BSO Graduaat Master TSO Locatie Antwerpen Gent Hasselt Filter Weet je waarom de achtergrond van ",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 62,
+        "score": 52,
+        "reason": "Deze kandidaat heeft 7 jaar ervaring met Databricks, Azure Data Factory en Power BI in een architecturale leidersrol bij delaware BeLux.",
+        "check": "w7"
+      },
+      {
+        "row": 25,
+        "score": 48,
+        "reason": "Deze kandidaat combineert Azure Data Factory, Databricks, Power BI en Microsoft Fabric met 5 Microsoft-certificeringen en IoT/manufacturing-achtergrond.",
+        "check": "b7"
+      },
+      {
+        "row": 50,
+        "score": 44,
+        "reason": "Deze kandidaat toonde BI-projectleiding met Power BI, Microsoft Fabric en data governance bij logistics- en manufacturing-klanten zoals Gosselin en Atlas Copco.",
+        "check": "s6"
+      }
+    ]
+  },
+  {
+    "title": "Junior AI Innovation Designer",
+    "url": "https://www.tomorrowlab.com/job-offers/junior-ai-innovation-designer",
+    "company": "TOMORROWLAB",
+    "source": "https://www.tomorrowlab.com/job-offers",
+    "first_seen": "2026-09-01",
+    "snippet": "Junior AI Innovation Designer - TomorrowLab Main navigation TomorrowLab Show/hide mobile navigation Services Future Strategy & Scenario Navigation Operating Model, Digital Processes & AI Leverage Ecosystem Strategy & Orchestration Lighthouse Project Design & Execution Academy The 360° Integrated Transformation Program Foresight Strategy Develop & Deliver Innovation Excellence Connect & Ecosystem Workshops & trainings Cases Insights IRIS - AI Agent homepage Platform Pricing About Request a demo About us Contact Jobs Junior AI Innovation Designer Share this article Als jonge, dynamische speler breek jij vastgeroeste patronen open en daag je gevestigde organisaties uit om voorbij hun vertrouwde kaders te kijken. Je werkt in tandem met onze senior consultants. Zij bieden jou omkadering zodat jij het beste van jezelf kan geven. Als Junior AI Innovation Designer ... 🚀 … word jij de gids naar een AI-gedreven toekomst. Je vertaalt businessuitdagingen naar slimme AI-oplossingen die processen automatiseren, kosten verlagen en groei versnellen – zonder de menselijke warmte te verliezen. 💡 … zet je ideeën om in proof-of-concepts dankzij je kennis van AI en data (ML, MLOps, pipelines, modeltrai",
+    "stack": [
+      "ML",
+      "MLOps",
+      "AI"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@tomorrowlab.com"
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare LLM-ervaring (fine-tuning, Ollama, AWS data lake) en bouwde AI/ML-oplossingen in productie bij meerdere werkgevers.",
+        "check": "w11",
+        "pitch": "Beste,\n\nTomorrowLab is op zoek naar een Junior AI Innovation Designer die AI-proof-of-concepts vertaalt naar concrete business impact — werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft ruime, hands-on AI-ervaring: LLM fine-tuning met Axolotl en Ollama, AWS data lake architectuur (EC2/S3) met timeseries- en geospatiale data, en een track record van het introduceren van lokaal gehoste LLM's voor NLP binnen een grote Vlaamse overheidsorganisatie (AWV). Dat laatste toont exact de brug tussen business en technologie die TomorrowLab zoekt. Daarnaast heeft deze kandidaat ervaring in security, fintech en publieke infrastructuur — domeinen die sterk aansluiten bij de klanten van TomorrowLab.\n\nMet een achtergrond in Python, ML-pipelines en cloud kan deze kandidaat snel proof-of-concepts realiseren en als verbindend aanspreekpunt fungeren tussen IT, security en business.\n\nMag ik u even bellen om dit concreet te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat bouwde een AI-app met Claude API voor beeldclassificatie en heeft brede ervaring in UX en agile samenwerking in complexe omgevingen.",
+        "check": "g11"
+      },
+      {
+        "row": 81,
+        "score": 38,
+        "reason": "Deze kandidaat heeft UX/UI-expertise maar mist de vereiste AI/ML-technische kennis (pipelines, modeltraining, ML) voor deze rol.",
+        "check": "v5"
+      }
+    ]
+  },
+  {
+    "title": "Modelling and Data Engineer",
+    "url": "https://www.am-team.com/careers/senior-modelling-and-data-engineer",
+    "company": "AM-TEAM",
+    "source": "https://www.am-team.com/careers",
+    "first_seen": "2026-09-01",
+    "snippet": "AM-Team We use cookies to provide you with the best possible experience. Read our Privacy Policy for extra info. Privacy Policy Reject all I want to choose Accept All Functionality Analytics Storage Personalization Storage Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. Accept selection Solutions CHALLENGES Effluent quality Net zero emissions Resource efficiency Advanced treatment New water sources Digitalisation SERVICES For water utilities For industry For technology vendors For engineering firms INDUSTRIES Process industry Enviromental Water reuse Drinking water Wastewater and resource recovery KEY SOLUTIONS Digital twins CFD AMNOXA AMOZONE Projects Learning hub Blog Explore our latest insights, tips, and trends in our blog, your go-to source for inspiration and knowledge. Webinar Learn from experts and stay updated on the latest developments in our engaging webinars. Publications Dive into our publications and gain access to valuable resources and research on various topics. About Company Discover who we are, what we do, and how we turn your vision into reality with innovation and expertise. Updates Stay informed with the late",
+    "stack": [],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "usman.rehman@am-team.com"
+    },
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 38,
+        "reason": "Deze kandidaat heeft digital-twin prototyping bij imec en sterke data-engineeringervaring, maar geen water/wastewater-domeinkennis of mechanistisch modelleerwerk.",
+        "check": "a8"
+      },
+      {
+        "row": 25,
+        "score": 32,
+        "reason": "Deze kandidaat heeft IoT- en telemetrieervaring met Azure, maar mist water/wastewater-achtergrond en mechanistische of hybride modelleerkennis volledig.",
+        "check": "b7"
+      },
+      {
+        "row": 36,
+        "score": 30,
+        "reason": "Deze kandidaat heeft brede data-engineeringervaring bij Nike en Cognizant, maar geen aansluiting bij water, milieutechniek of procesmodellering.",
+        "check": "b17"
+      }
+    ]
+  }
+]

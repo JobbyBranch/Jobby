@@ -1,5 +1,181 @@
 [
   {
+    "title": "Gepassioneerd door technologie en data? AI, cloud, chatbots...: innoveer met impact.",
+    "url": "https://jobs.belfius.be/content/Data-Tech-talenten/",
+    "company": "BELFIUS AUTO LEASE",
+    "source": "https://jobs.belfius.be/",
+    "first_seen": "2026-09-01",
+    "stack": [
+      "Kotlin",
+      "Swift",
+      "Python",
+      "Spring",
+      "JavaScript",
+      "Java",
+      "Ansible",
+      "Cobol"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 85,
+        "reason": "Deze kandidaat bouwde een RAG-based AI agent en event-driven microservices op Azure, met bewezen cloud-, chatbot- en MLOps-aanverwante ervaring.",
+        "check": "a14",
+        "pitch": "Beste,\n\nVia deze weg wil ik even polsen of Belfius Auto Lease samenwerkt met externe IT-consultants voor technische profielen — want ik heb een kandidaat die ik u graag even voorstel.\n\nDeze kandidaat heeft 14 jaar ervaring als Senior Software Engineer en Tech Lead, met een sterk bewezen track record in exact de technologieën die Belfius zoekt. Bij BMW (vlootbeheer) bouwde deze kandidaat een RAG-based AI agent, event-driven microservices, GraphQL APIs en Azure Service Bus-integraties — allemaal op een Terraform-beheerde Azure-omgeving met AKS en Container Apps. Bij DPG Media werkte deze kandidaat op Spring Boot/Kotlin-microservices met AWS en CI/CD. Eerder bij Danone leidde deze kandidaat ook een chatbot-project.\n\nDe combinatie van AI-ontwikkeling, cloud-native architectuur (Azure, Kubernetes), Agile samenwerking en tech-leadervaring maakt dit een profiel dat naadloos aansluit bij de ambities van Belfius op het vlak van gepersonaliseerde digitale diensten en innovatie.\n\nMag ik u even bellen voor een kort gesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 1,
+        "score": 78,
+        "reason": "Deze kandidaat heeft concrete LLM fine-tuning, AI engineering en locally-hosted NLP-ervaring, aangevuld met brede softwarearchitectuurachtergrond.",
+        "check": "w11",
+        "pitch": "Beste,\n\nIk neem contact op omdat ik verneem dat Belfius Auto Lease actief inzet op AI, chatbots en cloud-innovatie — en ik een sterk profiel heb dat hierbij aansluit.\n\nDeze kandidaat heeft 11 jaar ervaring, waarvan recentelijk als AI Engineer met focus op LLM fine-tuning (Axolotl, Ollama, Claude), AWS-dataplatforms (EC2/S3) en geospatiale/tijdreeksdata. Bij AWV droeg deze kandidaat als softwarearchitect de adoptie van locally-hosted LLMs voor NLP, wat directe relevantie heeft voor Belfius' conversational AI en chatbot-ambities. Eerder bij INTIX werd gewerkt met event-driven systemen (Kafka, Zookeeper) en financiële transactieverwerking — een domein dicht bij de bancaire context van Belfius.\n\nDe combinatie van AI/ML-diepgang, cloud (AWS), Python en een brede technische achtergrond (Go, Node, Java) maakt dit een veelzijdig profiel voor een innovatieve data- en AI-omgeving.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 68,
+        "score": 72,
+        "reason": "Deze kandidaat heeft recentelijk 2 Azure AI-projecten opgezet (Azure Foundry, Cosmos DB) en een volledige hybride cloud-infrastructuur beheerd, inclusief ADF en Kafka.",
+        "check": "j25"
+      }
+    ]
+  },
+  {
+    "title": "Explore Software Engineering",
+    "url": "https://www.siemens-healthineers.com/careers/software-engineering-it-digital",
+    "company": "SIEMENS HEALTHCARE",
+    "source": "https://www.siemens-healthineers.com/careers",
+    "first_seen": "2026-09-01",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 14 jaar Java/Kotlin/Spring Boot ervaring met event-driven microservices, cloud (Azure/AWS/Kubernetes) en AI-integratie in productieomgevingen.",
+        "check": "a14",
+        "pitch": "Beste,\n\nVoor de Software Engineering-vacature bij Siemens Healthineers wou ik u graag een sterke kandidaat voorstellen — werkt u ook samen met externe consultants?\n\nDeze kandidaat brengt 14 jaar diepgaande ervaring mee in Java, Kotlin en Spring Boot, exact de technologieën die u zoekt. Bij BMW ontwikkelde deze kandidaat een RAG-based AI agent en event-driven microservices op Azure (AKS, Service Bus, Terraform) — een aanpak die naadloos aansluit op de AI/ML- en cloudfocus van Siemens Healthineers. Bij DPG Media werd dagelijkse CI/CD met Snyk en AWS gecombineerd met Kotlin-microservices in productie. Eerder fungeerde deze kandidaat als tech lead bij Uitgeverij VAN IN, met reactive APIs (Spring WebFlux), Kubernetes en SAFe — bewijs van zowel architecturale als leiderschapscapaciteiten.\n\nDeze combinatie van cloud-native engineering, AI-integratie en tech-lead ownership maakt deze kandidaat bijzonder relevant voor uw team.\n\nBent u beschikbaar voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 30,
+        "score": 78,
+        "reason": "Deze kandidaat werkte rechtstreeks op een patiënttraject-platform bij Johnson & Johnson met Camunda, Kafka en CQRS/event sourcing in een healthcare context.",
+        "check": "e6",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van de Software Engineering-openstaande rol bij Siemens Healthineers — werkt u ook met externe profielen?\n\nDeze kandidaat heeft aantoonbare healthcare IT-ervaring: bij Johnson & Johnson werd een BPMN-gedreven patiënttrajectplatform gebouwd met Camunda, Kafka (Avro), Axon CQRS/event sourcing en contract-first API's — exact het type complexe, domeingedreven architectuur dat Siemens Healthineers vereist. Daarnaast leidde deze kandidaat mee de migratie van 25 microservices van Java 11 naar 21 en Spring Boot 2 naar 3, inclusief productie-rotaties als first responder. Met 6 jaar ervaring in Java, Spring Boot, Kafka, PostgreSQL en cloud (AWS/GCP/Terraform) is het profiel sterk afgestemd op uw stack.\n\nDe directe healthcare-achtergrond en bewezen ownership maken dit een profiel dat uw aandacht verdient.\n\nZin om kort te bellen deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 55,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare ervaring in health tech via Evoluno en beheert Kubernetes-clusters met React, NestJS en Azure in productieomgevingen.",
+        "check": "b8"
+      }
+    ]
+  },
+  {
+    "title": "ICT en Data",
+    "url": "https://www.mourik.be/jobs/vacatures/?discipline-nl=ict-en-data",
+    "company": "Mourik",
+    "source": "https://www.mourik.be/jobs/",
+    "first_seen": "2026-09-01",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 62,
+        "score": 52,
+        "reason": "Deze kandidaat heeft 7 jaar ervaring met Databricks, Azure Data Factory en Power BI in een architecturale leidersrol bij delaware BeLux.",
+        "check": "w7"
+      },
+      {
+        "row": 25,
+        "score": 48,
+        "reason": "Deze kandidaat combineert Azure Data Factory, Databricks, Power BI en Microsoft Fabric met 5 Microsoft-certificeringen en IoT/manufacturing-achtergrond.",
+        "check": "b7"
+      },
+      {
+        "row": 50,
+        "score": 44,
+        "reason": "Deze kandidaat toonde BI-projectleiding met Power BI, Microsoft Fabric en data governance bij logistics- en manufacturing-klanten zoals Gosselin en Atlas Copco.",
+        "check": "s6"
+      }
+    ]
+  },
+  {
+    "title": "Junior AI Innovation Designer",
+    "url": "https://www.tomorrowlab.com/job-offers/junior-ai-innovation-designer",
+    "company": "TOMORROWLAB",
+    "source": "https://www.tomorrowlab.com/job-offers",
+    "first_seen": "2026-09-01",
+    "stack": [
+      "ML",
+      "MLOps",
+      "AI"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@tomorrowlab.com"
+    },
+    "ai_matches": [
+      {
+        "row": 1,
+        "score": 72,
+        "reason": "Deze kandidaat heeft aantoonbare LLM-ervaring (fine-tuning, Ollama, AWS data lake) en bouwde AI/ML-oplossingen in productie bij meerdere werkgevers.",
+        "check": "w11",
+        "pitch": "Beste,\n\nTomorrowLab is op zoek naar een Junior AI Innovation Designer die AI-proof-of-concepts vertaalt naar concrete business impact — werkt u hiervoor ook met externe consultants?\n\nDeze kandidaat heeft ruime, hands-on AI-ervaring: LLM fine-tuning met Axolotl en Ollama, AWS data lake architectuur (EC2/S3) met timeseries- en geospatiale data, en een track record van het introduceren van lokaal gehoste LLM's voor NLP binnen een grote Vlaamse overheidsorganisatie (AWV). Dat laatste toont exact de brug tussen business en technologie die TomorrowLab zoekt. Daarnaast heeft deze kandidaat ervaring in security, fintech en publieke infrastructuur — domeinen die sterk aansluiten bij de klanten van TomorrowLab.\n\nMet een achtergrond in Python, ML-pipelines en cloud kan deze kandidaat snel proof-of-concepts realiseren en als verbindend aanspreekpunt fungeren tussen IT, security en business.\n\nMag ik u even bellen om dit concreet te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat bouwde een AI-app met Claude API voor beeldclassificatie en heeft brede ervaring in UX en agile samenwerking in complexe omgevingen.",
+        "check": "g11"
+      },
+      {
+        "row": 81,
+        "score": 38,
+        "reason": "Deze kandidaat heeft UX/UI-expertise maar mist de vereiste AI/ML-technische kennis (pipelines, modeltraining, ML) voor deze rol.",
+        "check": "v5"
+      }
+    ]
+  },
+  {
+    "title": "Modelling and Data Engineer",
+    "url": "https://www.am-team.com/careers/senior-modelling-and-data-engineer",
+    "company": "AM-TEAM",
+    "source": "https://www.am-team.com/careers",
+    "first_seen": "2026-09-01",
+    "stack": [],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "usman.rehman@am-team.com"
+    },
+    "ai_matches": [
+      {
+        "row": 24,
+        "score": 38,
+        "reason": "Deze kandidaat heeft digital-twin prototyping bij imec en sterke data-engineeringervaring, maar geen water/wastewater-domeinkennis of mechanistisch modelleerwerk.",
+        "check": "a8"
+      },
+      {
+        "row": 25,
+        "score": 32,
+        "reason": "Deze kandidaat heeft IoT- en telemetrieervaring met Azure, maar mist water/wastewater-achtergrond en mechanistische of hybride modelleerkennis volledig.",
+        "check": "b7"
+      },
+      {
+        "row": 36,
+        "score": 30,
+        "reason": "Deze kandidaat heeft brede data-engineeringervaring bij Nike en Cognizant, maar geen aansluiting bij water, milieutechniek of procesmodellering.",
+        "check": "b17"
+      }
+    ]
+  },
+  {
     "title": "Cybersecurity Intern",
     "url": "https://jobs.keysight.com/external/jobs/53691?lang=en-us",
     "company": "EASICS",
@@ -20016,23 +20192,23 @@
       {
         "row": 38,
         "score": 91,
-        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met Azure Service Bus en actieve legacy-naar-microservices migratie bij Colruyt.",
+        "reason": "Deze kandidaat heeft bewezen Blazor, ASP.NET, Azure Service Bus en legacy-.NET-migratie-ervaring, inclusief Tech Lead-verantwoordelijkheden.",
         "check": "d8",
-        "pitch": "Beste,\n\nWe zagen uw vacature voor een .NET Software Engineer bij Pionira en vroegen ons af of u ook samenwerkt met externe consultants.\n\nWij hebben een uitzonderlijk sterke kandidaat beschikbaar die vrijwel naadloos aansluit op uw profiel. Deze kandidaat heeft 8 jaar ervaring met exact de technologieën die u vraagt: C#, ASP.NET, Blazor en Azure Service Bus. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie met event-driven integratie via Azure Service Bus — precies het type schaalbaarheidswerk dat Pionira vraagt. Bij RIZIV-INAMI functioneert deze kandidaat als backup Tech Lead met taktverdeling, PR-reviews en architectuuroverleg, wat aantoont dat kennisdeling en technische begeleiding al verankerd zijn in het dagelijkse werk.\n\nDe combinatie van Blazor full-stack, Azure-services en aantoonbare architectuurervaring maakt dit een profiel dat u normaal niet snel vindt.\n\nKunnen we een kort gesprek inplannen deze week?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook samenwerkt met externe consultants.\n\nIk heb een uitstekende kandidaat die naadloos aansluit op jullie zoekprofiel. Deze kandidaat werkt momenteel als senior .NET developer bij een grote publieke instelling, waarbij ASP.NET MVC en Blazor dagelijkse tools zijn — exact de stack die Pionira vraagt. Daarvoor leidde deze kandidaat bij Colruyt Group een legacy-to-microservices-traject met Azure Service Bus als kern van de event-driven architectuur, wat perfect aansluit bij jullie gedistribueerde systemen.\n\nMet 8 jaar ervaring, aantoonbare Tech Lead-verantwoordelijkheden (PR-reviews, architectuurafstemming, taakverdeling) en een achtergrond in zowel .NET Framework als .NET Core vormt deze kandidaat een directe match voor de technische en begeleidende rol die jullie beschrijven.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 56,
         "score": 88,
-        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring, inclusief .NET MAUI-migratieplanning, Blazor, Azure en mission-critical distributed systems.",
+        "reason": "Deze kandidaat heeft .NET MAUI-migratie-ervaring, Blazor, Azure en mission-critical backend-projecten in productie gebracht.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van uw openstaande vacature voor een .NET Software Engineer bij Pionira contacteren wij u graag — werkt u ook met externe consultants?\n\nDeze kandidaat is een doorgewinterde freelance .NET-specialist met 19 jaar ervaring en een indrukwekkend trackrecord dat sterk aansluit op uw noden. Concreet: .NET MAUI-migratieplanning van een legacy Xamarin-app (TenForce), Blazor met .NET Aspire en OpenTelemetry, en Azure Cosmos DB in mission-critical omgevingen bij NMBS/Infrabel. Dit zijn geen theoretische kennis maar bewezen leveringen in complexe, productiekritische contexten.\n\nBovendien heeft deze kandidaat actieve ervaring met distributed systems, CQRS/Clean Architecture en TDD-discipline — ideaal voor de schaalbare en betrouwbare oplossingen die Pionira nastreeft in de logistieke sector.\n\nGraag stellen we deze kandidaat voor in een kort kennismakingsgesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer bij Pionira, wil ik peilen of jullie openstaan voor externe consultants.\n\nDeze kandidaat is een ervaren freelance .NET-specialist met 19 jaar praktijkervaring en een indrukwekkend relevant parcours. Concreet: een .NET MAUI-migratietraject voor een legacy Xamarin-applicatie (TenForce), Blazor-development met .NET Aspire en Azure-integraties, en mission-critical backend-services voor NMBS/Ypto op Kubernetes met Azure Cosmos DB. Dit zijn exact de technologieën die Pionira zoekt: C#, ASP.NET, Blazor, Azure services en MAUI-migratie als expliciete plus.\n\nBij Mediahuis bouwde deze kandidaat jarenlang schaalbare .NET Core-backends voor meerdere productieomgevingen. Clean Architecture, TDD en CQRS zijn vaste methodieken.\n\nIk stel graag een korte kennismaking voor om de match te bespreken.\n\nMet vriendelijke groeten,"
       },
       {
         "row": 18,
         "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, distributed systems en bewezen team lead-capaciteiten.",
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring, aantoonbare Azure Service Bus-projecten en gedistribueerde systeemarchitectuur in productie.",
         "check": "n16",
-        "pitch": "Beste,\n\nWe lazen uw vacature voor een .NET Software Engineer bij Pionira met interesse — werkt u ook samen met externe consultants?\n\nDeze kandidaat brengt 16 jaar .NET-ervaring mee, waaronder concrete Blazor-ontwikkeling, Azure App Services en Azure Service Bus (via Runners Lab, actief since 2014). Het huidige project betreft een volledige rewrite van legacy desktopapplicaties naar een cloud-webapplicatie met .NET 8, CQRS, Kafka en Kubernetes — exact het type moderniseringswerk dat relevant is voor een groeiend softwarebedrijf als Pionira.\n\nDe kandidaat heeft ook team lead- en technische analyseervaring, wat aansluit bij uw vraag naar kennisdeling en technische begeleiding binnen het team. Met MCSD-certificering en expertise in distributed systems is dit een profiel met bewezen diepgang.\n\nMag ik u bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk zag jullie zoektocht naar een .NET Software Engineer bij Pionira en vroeg me af of jullie ook werken met externe consultants.\n\nDeze kandidaat brengt 16 jaar .NET-ervaring mee, met een bewezen track record in cloud-native en gedistribueerde systemen. Bij een lopend project worden drie legacy desktop-applicaties herschreven naar één cloudwebapplicatie op AWS/Kubernetes met Kafka, CQRS en Postgres — een schaalbaarheidstraject dat sterk resoneert met de uitdagingen die Pionira beschrijft. Daarnaast loopt er een langlopend Azure-project (App Services, Service Bus, SQL) dat direct matcht met jullie Azure-vereisten.\n\nAls team lead met technische analyseervaring en MCSD-certificering combineert deze kandidaat diepgaande .NET-kennis met de begeleiding en kennisdeling die jullie vragen. Blazor, ASP.NET en REST zijn dagelijkse praktijk.\n\nMag ik een kort gesprek inplannen?\n\nMet vriendelijke groeten,"
       }
     ]
   },
