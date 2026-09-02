@@ -1,5 +1,456 @@
 [
   {
+    "title": "IT Business Analyst",
+    "url": "https://www.stepstone.be/jobs--IT-Business-Analyst-Antwerpen-VANBREDA-RISK-BENEFITS--2200234-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-09-02",
+    "stack": [
+      ".NET",
+      "Microsoft"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 27,
+        "score": 82,
+        "reason": "Deze kandidaat combineert bewezen BA-ervaring bij AG Insurance met diepgaande kennis van payroll-regelgeving en stakeholdermanagement in complexe IT-trajecten.",
+        "check": "y9",
+        "pitch": "Beste,\n\nVanbreda Risk & Benefits is op zoek naar een IT Business Analyst die business en technologie verbindt in een verzekeringsomgeving — werkt u daarbij ook met externe consultants?\n\nDeze kandidaat heeft exact dat profiel. Met 9 jaar ervaring als BA en Product Owner heeft deze kandidaat bij AG Insurance de digitalisering van het medisch acceptatieproces geleid — end-to-end ownership, stakeholdermanagement én applicatiebeheer in de verzekeringssector. Nadien bouwde deze kandidaat bij Acerta een moderne payroll-engine mee, inclusief domeinleiderschap en afstemming tussen juridische, business- en IT-teams. Analyse-technieken zoals BPMN en requirements-management zijn dagelijkse praktijk, net als agile werken in complexe multi-stakeholder-omgevingen.\n\nDe combinatie van directe verzekeringservaring (AG Insurance) en bewezen projectleiding maakt deze kandidaat bijzonder sterk voor uw vacature.\n\nMag ik u bellen voor een kort gesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 76,
+        "reason": "Deze kandidaat werkt momenteel als Business Analyst bij Baloise en heeft aantoonbare BA-ervaring met BPMN, UAT en stakeholdermanagement in de verzekeringssector.",
+        "check": "c3",
+        "pitch": "Beste,\n\nVoor uw openstaande vacature als IT Business Analyst bij Vanbreda Risk & Benefits hebben wij een kandidaat die u onmiddellijk herkent — werkt u ook samen met externe consultants voor dergelijke profielen?\n\nDeze kandidaat is momenteel actief als Business Analyst bij Baloise, dus de verzekeringssector is vertrouwd terrein. De dagelijkse praktijk omvat requirements-analyse, BPMN as-is/to-be, UAT-facilitatie en stakeholdermanagement — precies wat uw vacature vraagt. Eerder bij de Vlaamse overheid leidde deze kandidaat zelfstandig workshops, werkte aan REST API-projecten en coördineerde impactanalyses naast data- en ETL-teams.\n\nAzure DevOps, Power Apps en een sterke brug tussen business en IT maken dit een afgerond profiel voor uw Microsoft-omgeving.\n\nGraag vertel ik u meer in een kort telefoongesprek deze week.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 86,
+        "score": 74,
+        "reason": "Deze kandidaat combineert BPMN, .NET-affiniteit en scrum master-ervaring met aantoonbaar stakeholdermanagement bij Partena Professional over meerdere complexe IT-projecten.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "Technology Owner & Product Owner Security",
+    "url": "https://www.stepstone.be/jobs--Technology-Owner-Product-Owner-Security-Bruxelles-ASTRID--2240799-inline.html",
+    "company": "t Soetekint - de Levensboom",
+    "source": "https://www.stepstone.be/jobs",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "Check Point",
+      "Palo Alto",
+      "F5",
+      "Cisco ESA",
+      "Microsoft 365 E5 Security",
+      "CyberArk",
+      "Cisco ACI/SDA",
+      "Infoblox"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 64,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 8 jaar hands-on ervaring met Check Point, Palo Alto, Cisco ACI en Infoblox in een bancaire datacenteromgeving.",
+        "check": "l8",
+        "pitch": "Beste,\n\nIk nam uw vacature voor Technology Owner & Product Owner Security bij ASTRID door en vroeg me af of u samenwerkt met externe consultants voor deze rol.\n\nDeze kandidaat heeft 8 jaar ervaring als Datacenter Network & Security Engineer bij KBC Group, waar hij dagelijks werkt met exact de technologieën die ASTRID zoekt: Check Point, Palo Alto, Cisco ACI en Infoblox. Daarnaast heeft hij ervaring met netwerksecurity, RADIUS/TACACS via Cisco ISE en NetDevOps-automatisering via Ansible en Python. Zijn Bachelor Electronics-ICT en certificaten (Cisco DevNet Associate, Check Point CCSA/CCSE) onderbouwen zijn technische diepgang. De overstap naar een TO/PO Security-rol is logisch: hij heeft cross-team en cross-region coördinatie bewezen in een complexe omgeving.\n\nGraag bespreek ik dit in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 90,
+        "score": 68,
+        "reason": "Deze kandidaat heeft 15 jaar netwerkbeveiliging met Palo Alto, F5, Cisco en post-cyberaanval herstelprojecten bij meerdere sectoren.",
+        "check": "n15"
+      },
+      {
+        "row": 31,
+        "score": 62,
+        "reason": "Deze kandidaat heeft diepgaande Infoblox-, F5-, Check Point- en Palo Alto-expertise bij KBC, inclusief architectuurontwerp en vendor management.",
+        "check": "l8"
+      }
+    ]
+  },
+  {
+    "title": "Python developer and lead developer (M/F)",
+    "url": "https://www.davidson.group/nos-offres/developpeur-et-lead-dev-python-h-f",
+    "company": "DAVIDSON BELGIUM",
+    "source": "https://www.davidson.group/nos-offres",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "python",
+      "django",
+      "flask"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "contact": {
+      "name": "Sevane Sarian",
+      "email": "sevane.sarian@davidson.fr"
+    },
+    "ai_matches": [
+      {
+        "row": 75,
+        "score": 82,
+        "reason": "Deze kandidaat heeft bewezen Python/FastAPI-ervaring én lead-ervaring als mobile team lead bij ACA Group met 6 developers.",
+        "check": "m7",
+        "pitch": "Beste,\n\nVoor uw vacature van Python Developer & Lead Developer bij Davidson Belgium vraag ik mij af of u samenwerkt met externe consultants — want ik heb een sterk profiel dat ik u graag voorstel.\n\nDeze kandidaat combineert 7 jaar full-stack ontwikkeling met concrete Python- en FastAPI-ervaring, onder meer via een eigen live AI-SaaS (Next.js + FastAPI + Supabase). Als mobile team lead bij ACA Group stuurde deze kandidaat een team van 6 ontwikkelaars aan over 12 releases in 12 maanden — precies het soort technisch leiderschap en kwaliteitsbewaking dat uw Lead Dev-rol vraagt. Daarnaast heeft deze kandidaat hands-on ervaring met Docker, CI/CD, E2E-testing (Playwright) en multi-agent AI-delivery, wat aansluit bij uw focus op code quality en refactoring.\n\nIk stel graag een kort gesprek voor om te bespreken of dit profiel bij uw team past.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 78,
+        "reason": "Deze kandidaat heeft aantoonbare Python-projectervaring bij Barco en bouwde als interim team lead een volledig SaaS-platform met CI/CD.",
+        "check": "l7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Python Developer & Lead Developer bij Davidson Belgium. Werkt u hiervoor ook met externe consultants? Dan heb ik een interessant profiel voor u.\n\nDeze kandidaat heeft 7 jaar brede software-ervaring en zette Python in bij Barco voor geautomatiseerde testsystemen. Als co-founder van een SaaS-platform nam deze kandidaat ownership over de volledige architectuur, CI/CD (Jenkins, Docker) en security — signalen van echte senioriteit. Bij NSX fungeerde deze kandidaat als interim team lead en gaf interne seminars over deployment en Keycloak, wat aansluit bij de Lead Dev-verantwoordelijkheden in uw vacature. Frameworks zoals Django of Flask zijn een logische volgende stap gegeven de brede Python- en backend-achtergrond.\n\nGraag vertel ik u meer in een kort gesprek.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 11,
+        "score": 62,
+        "reason": "Deze kandidaat zette Python en Azure Functions in bij een cloudmigratie voor een accountantskantoor met 5.000+ klanten.",
+        "check": "y5"
+      }
+    ]
+  },
+  {
+    "title": "Tech Lead /AI Python Developer BE",
+    "url": "https://careers.omp.com/jobs/belgium/tech-lead-ai-python-developer-4965093101",
+    "company": "OM PARTNERS",
+    "source": "https://careers.omp.com/",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "Python",
+      "JavaScript",
+      "Azure AI",
+      "Azure Foundry",
+      "LLMs",
+      "RAG",
+      "Azure DevOps"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 75,
+        "score": 78,
+        "reason": "Deze kandidaat bouwde een live AI-SaaS met FastAPI/Python en pionierde multi-agent AI-delivery, met bewezen full-stack én AI-integratie-ervaring.",
+        "check": "m7",
+        "pitch": "Beste,\n\nIk las jullie vacature voor een Tech Lead / AI Python Developer en vroeg me af of OMP ook samenwerkt met externe consultants voor dit soort profielen.\n\nIk stel graag deze kandidaat voor: een senior full-stack developer met 7 jaar ervaring en een concrete track record in Python (FastAPI), AI-integratie en productierijpe applicaties. Zo bouwde deze kandidaat volledig zelfstandig een live AI-SaaS op Next.js en FastAPI met realtime data-verwerking, en pionierde multi-agent AI-delivery (Claude Code) bij Hexagon op een geospatiaal platform. Bij KBC Bolero werd een Angular-tradingplatform van 100k+ gebruikers gemoderniseerd — een schaaluitdaging vergelijkbaar met OMP's enterprise-klanten zoals L'Oréal en Nestlé.\n\nDe combinatie van hands-on Python/AI-bouw, frontend leadership én ervaring met snelle iteratie en prototyping sluit sterk aan bij wat jullie zoeken.\n\nMag ik een kort gesprekje inplannen om dit toe te lichten?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 13,
+        "score": 75,
+        "reason": "Deze kandidaat verkent actief RAG, LLMs en Copilot in de praktijk en heeft 26 jaar bewezen senior engineering- en mentorervaring.",
+        "check": "i26",
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een Tech Lead / AI Python Developer bij OMP wou ik even peilen of jullie openstaan voor externe consultants.\n\nDeze kandidaat combineert 26 jaar enterprise full-stack engineering met een actieve en gedocumenteerde interesse in precies de technologieën die OMP zoekt: RAG, lokale LLMs, MCP en GitHub Copilot. Als team lead en mentor — met ervaring in het begeleiden van juniors en interns, clean architecture en conferentiedeelname (DDD Europe, GOTO) — past dit profiel naadloos bij de coachings- en kennisdelingsrol in jullie vacature. Python is aanwezig in de stack, en de brede enterprise-achtergrond over meerdere industrieën maakt het eenvoudig om snel waarde te leveren in OMP's cross-domein omgeving.\n\nIk denk dat dit een interessant gesprek kan zijn. Zin in een korte call deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat integreerde Claude AI API in een eigen app-project en heeft bewezen ervaring met Python, Next.js en Azure DevOps.",
+        "check": "g11"
+      }
+    ]
+  },
+  {
+    "title": "Tech Lead /AI Python Developer Antwerp - BE",
+    "url": "https://careers.omp.com/jobs/belgium-antwerp/tech-lead-ai-python-developer-4965093101",
+    "company": "OM PARTNERS",
+    "source": "https://careers.omp.com/",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "Python",
+      "JavaScript",
+      "Azure AI",
+      "Azure Foundry",
+      "Azure DevOps",
+      "LLMs",
+      "RAG"
+    ],
+    "experience": "3+ yrs",
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 75,
+        "score": 78,
+        "reason": "Deze kandidaat bouwde een eigen AI-SaaS met FastAPI/Python en pionierde multi-agent AI-delivery, met bewezen full-stack en cloud-ervaring.",
+        "check": "m7",
+        "pitch": "Beste,\n\nIk las uw vacature voor een Tech Lead / AI Python Developer en vroeg me af of u samenwerkt met externe consultants voor dit soort profielen.\n\nIk heb een kandidaat die ik graag aan u zou voorstellen. Deze kandidaat heeft bewezen ervaring met Python (FastAPI) en het bouwen van productie-AI-oplossingen, waaronder een live AI-SaaS-platform voor e-commerce met Next.js en FastAPI. Recentelijk pionierde deze kandidaat multi-agent AI-delivery (Claude Code) binnen een professioneel team bij Hexagon/Octave — exact wat OMP zoekt voor AI-adoptie over ontwikkelteams heen. Als mobile team lead bij ACA Group stuurde deze kandidaat zes developers aan, wat de coaching- en samenwerkingsdimensie van uw rol dekt. De combinatie van frontend-diepgang (Angular, React, TypeScript), backend-Python, en hands-on generatieve AI-ervaring maakt dit een sterk en onderscheidend profiel.\n\nZou u open staan voor een kort gesprek om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 13,
+        "score": 75,
+        "reason": "Deze kandidaat verkent actief RAG, MCP en lokale LLM's en heeft 26 jaar bewezen senior full-stack en teamlead-ervaring.",
+        "check": "i26",
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Tech Lead / AI Python Developer wilde ik peilen of OMP samenwerkt met externe consultants.\n\nDeze kandidaat is een ervaren full-stack developer en teamlead met actieve, hands-on kennis van RAG, MCP, lokale LLM's en GitHub Copilot — de kerntechnologieën in uw vacature. Hoewel Python een nevenrol speelt naast een primaire .NET-achtergrond, combineert deze kandidaat dat met concrete AI-exploratie in productiecontexten en een sterke mentorcultuur (coaching van juniors, clean architecture, conferenties zoals DDD Europe en GOTO). De breedte van 25+ jaar enterprise software over meerdere sectoren sluit aan bij OMP's cross-domain ambitie (HR, finance, software development). De bereidheid om AI-assisted development practices te introduceren en te evangeliseren is hier geen buzzword maar een bewezen houding.\n\nBent u beschikbaar voor een kort kennismakingsgesprek?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 7,
+        "score": 58,
+        "reason": "Deze kandidaat ontwikkelde een eigen AI-app met Claude API en heeft brede frontend/GraphQL-ervaring, maar beperkte Python-productie-achtergrond voor deze rol.",
+        "check": "g11"
+      }
+    ]
+  },
+  {
+    "title": "(Senior) Consultant | IT-Management (ERP- & ISU Architektur) (all genders)",
+    "url": "https://www.cronos.de/jobs/Senior-Consultant-IT-Management-ERP-ISU-Architektur-all-ge-de-j250.html",
+    "company": "Cronos Jobs",
+    "source": "https://www.cronos.de/jobs",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "ERP",
+      "ISU"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 82,
+        "reason": "Deze kandidaat leidde een volledig D365 F&O ERP-implementatietraject inclusief migraties, integraties en functioneel/technisch design.",
+        "check": "r13",
+        "pitch": "Beste,\n\nWe contacteren u naar aanleiding van uw vacature voor een (Senior) Consultant IT-Management met focus op ERP- en ISU-architectuur. Werkt u ook samen met externe consultants voor dit soort profielen?\n\nWe hebben een sterke kandidaat beschikbaar die momenteel actief is als functioneel analist op een Microsoft Dynamics 365 F&O ERP-implementatie, inclusief migraties en API-integraties tussen D365 en interne/externe systemen. Daarvoor was deze kandidaat Solution Manager bij Xerius — verantwoordelijk voor de richting van alle business-development projecten, leiding over een chapter van 6 functionele analisten en lid van het IT-leadership team. Deze combinatie van ERP-expertise, architecturaal inzicht en stakeholdermanagement sluit sterk aan bij wat u zoekt.\n\nMet 13 jaar ervaring als freelance business & functioneel analist, aangevuld met Scrum Master-ervaring en coachingvaardigheden, is deze kandidaat een volwaardige gesprekspartner op consultant-niveau.\n\nMag ik u voorstellen voor een kort kennismakingsgesprek deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 46,
+        "score": 76,
+        "reason": "Deze kandidaat heeft bewezen ERP-rollouts en bedrijfskritische IT-programma's geleid bij grote Belgische organisaties over 27 jaar.",
+        "check": "f27",
+        "pitch": "Beste,\n\nWe bereiken u naar aanleiding van uw openstaande vacature voor een (Senior) Consultant IT-Management met ERP- en ISU-architectuurkennis. Werkt u ook samen met externe consultants?\n\nWe stellen graag een ervaren kandidaat voor met 27 jaar trackrecord in IT- en businessprogramma's, waaronder concrete ERP-uitroltrajecten gecombineerd met business improvement en legacy migraties. Deze kandidaat werkte voor organisaties als De Lijn, Digipolis, Infrabel en Telenet — stuk voor stuk complexe omgevingen met zware stakeholderdynamiek richting CEO, CIO en bestuur.\n\nDaarnaast is deze kandidaat gecertificeerd in Prince2, Scrum en SAFe, en heeft bewezen gemengde business+IT-teams van 25+ FTE aan te sturen. Die combinatie van programmamanagement, ERP-kennis en veranderingsmanagement maakt dit een sterk profiel voor een seniorrol binnen IT-management consulting.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Schikt het u deze week?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 10,
+        "score": 62,
+        "reason": "Deze kandidaat combineert 20 jaar business- en functionele analyseervaring met enterprise-architectuurinzicht in payments, publieke sector en payroll.",
+        "check": "b20"
+      }
+    ]
+  },
+  {
+    "title": "Thinkwise Software Engineer",
+    "url": "https://www.werkenbijomoda.nl/vacature/1566/thinkwise-software-engineer-1",
+    "company": "O MODA BELGIE",
+    "source": "https://www.werkenbijomoda.nl/",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "Thinkwise",
+      "SQL"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Martijn van der Maas",
+      "email": "martijn@omoda.nl"
+    },
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 62,
+        "reason": "Deze kandidaat heeft aantoonbare SQL-ervaring en werkte aan retail supply chain-logistiek bij Nike, wat aansluit bij de logistieke focus van de vacature.",
+        "check": "b17"
+      },
+      {
+        "row": 44,
+        "score": 28,
+        "reason": "Deze kandidaat heeft sterke PHP/Laravel/Symfony-ervaring maar geen enkele Thinkwise-kennis of logistieke domeinervaring.",
+        "check": "l10"
+      },
+      {
+        "row": 0,
+        "score": 22,
+        "reason": "Deze kandidaat heeft brede Java/SaaS-achtergrond maar geen Thinkwise-ervaring en profiel sluit niet aan bij de vacature.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Cybersecurity",
+    "url": "https://artisteeq.be/cyberveiligheidsbeleid/",
+    "company": "ARTISTEEQ",
+    "source": "https://artisteeq.be",
+    "first_seen": "2026-09-02",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "support@artisteeq.be"
+    },
+    "ai_matches": [
+      {
+        "row": 42,
+        "score": 32,
+        "reason": "Deze kandidaat heeft ISO 27001 en NIS2-ervaring, maar is sterk overkwalificeerd voor een kleine web-agency.",
+        "check": "d12"
+      },
+      {
+        "row": 80,
+        "score": 28,
+        "reason": "Deze kandidaat begeleidt KMO's via eigen IT-dienstverlening, maar het profiel overstijgt de schaal van deze organisatie.",
+        "check": "t20"
+      },
+      {
+        "row": 48,
+        "score": 18,
+        "reason": "Deze kandidaat heeft enterprise-niveau security-engineering bij Toyota en defensie, volledig disproportioneel voor deze context.",
+        "check": "k20"
+      }
+    ]
+  },
+  {
+    "title": "Senior System Engineer / Service Desk Tech Wizard",
+    "url": "https://atait.com/jobs/senior-system-engineer-service-desk-tech-wizard/",
+    "company": "ATA IT",
+    "source": "https://atait.com/jobs/",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "Microsoft 365",
+      "Windows Server",
+      "Windows Remote Desktop",
+      "Azure Virtual Desktop",
+      "Awingu",
+      "Azure Infrastructure",
+      "VMWare",
+      "HyperV",
+      "PowerShell",
+      "CCNA"
+    ],
+    "experience": "5+ yrs",
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "jobs@atait.com"
+    },
+    "ai_matches": [
+      {
+        "row": 48,
+        "score": 78,
+        "reason": "Deze kandidaat heeft 20 jaar Microsoft-infrastructuurervaring met Windows Server, VMware, Hyper-V, Azure, PowerShell en security — exact de gevraagde stack.",
+        "check": "k20",
+        "pitch": "Beste,\n\nWe lazen met interesse de vacature voor Senior System Engineer / Service Desk Tech Wizard bij ATA IT. Werkt u hiervoor ook met externe consultants? Dan hebben wij een sterke kandidaat die uw aandacht verdient.\n\nDeze kandidaat beschikt over 20 jaar hands-on ervaring met exact de technologieën die u zoekt: Windows Server, VMware, Hyper-V, Azure/Entra ID, Active Directory en PowerShell-scripting. Bovendien heeft deze kandidaat een diepgaande security-achtergrond — inclusief cyber incident response, vulnerability management en protocol-hardening — wat perfect aansluit bij uw vereisten rond cybersecurity en 0-day-kwetsbaarheden.\n\nDe combinatie van enterprise-breedte (automotive, overheid, farma) en technische diepgang maakt deze kandidaat tot iemand die uw service desk structureel naar een hoger niveau kan tillen. De aantoonbare ownership in complexe omgevingen bewijst de senioriteit die u zoekt.\n\nKan ik u volgende week even bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 87,
+        "score": 56,
+        "reason": "Deze kandidaat heeft aantoonbare 2de-lijns service desk ervaring bij Honda/TiTANS én brede Windows Server, Azure en Ansible-kennis relevant voor de gevraagde rol.",
+        "check": "s10"
+      },
+      {
+        "row": 90,
+        "score": 52,
+        "reason": "Deze kandidaat heeft sterke netwerk- en security-expertise (Fortinet, Palo Alto, Cisco, SD-WAN, 802.1x) en KMO-ervaring, maar mist de Microsoft 365- en Windows Server-focus die ATA IT vraagt.",
+        "check": "n15"
+      }
+    ]
+  },
+  {
+    "title": "Junior Technical Support Engineer",
+    "url": "https://auresjobs.be/vacatures/job/10374-02S0008BZP/Junior-Technical-Support-Engineer.html",
+    "company": "AURES",
+    "source": "https://auresjobs.be/vacatures/index.html",
+    "first_seen": "2026-09-02",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@auresjobs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 42,
+        "reason": "Deze kandidaat heeft brede IT-infrastructuurervaring maar geen bouwkundige of mechanische achtergrond vereist voor deze rol.",
+        "check": "k28"
+      },
+      {
+        "row": 12,
+        "score": 38,
+        "reason": "Deze kandidaat heeft analytische en stakeholderskills maar mist de vereiste master Bouwkunde/Mechanica/Elektromechanica.",
+        "check": "d20"
+      },
+      {
+        "row": 19,
+        "score": 32,
+        "reason": "Deze kandidaat heeft communicatieve en analytische vaardigheden maar het profiel sluit niet aan bij de technisch-bouwkundige vereisten.",
+        "check": "b10"
+      }
+    ]
+  },
+  {
+    "title": "Junior Technical Support Engineer",
+    "url": "https://auresjobs.be/vacatures/job/10374-02S00086UP/Junior-Technical-Support-Engineer.html",
+    "company": "AURES",
+    "source": "https://auresjobs.be/vacatures/index.html",
+    "first_seen": "2026-09-02",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@auresjobs.be"
+    },
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 42,
+        "reason": "Deze kandidaat heeft brede IT-infrastructuurervaring maar geen bouwkundige of elektromechanische achtergrond vereist voor deze rol.",
+        "check": "k28"
+      },
+      {
+        "row": 25,
+        "score": 22,
+        "reason": "Deze kandidaat is data-engineer met Azure-focus, wat volledig afwijkt van de technische support in bouwfysica vereist door deze vacature.",
+        "check": "b7"
+      },
+      {
+        "row": 0,
+        "score": 18,
+        "reason": "Deze kandidaat heeft softwareontwikkelervaring maar geen relevante achtergrond in bouwkunde, mechanica of technische productondersteuning.",
+        "check": "l7"
+      }
+    ]
+  },
+  {
+    "title": "Sr. Data Engineer - Snowflake & ADF - Tieto Tech Consulting (m/f/d)",
+    "url": "https://careers.tieto.com/job/sr-data-engineer-snowflake-and-adf-tieto-tech-consulting-m-f-d-in-bangalore-india-jid-2810",
+    "company": "ATM SERVICES",
+    "source": "https://careers.tieto.com/",
+    "first_seen": "2026-09-02",
+    "stack": [
+      "Snowflake",
+      "ADF"
+    ],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 25,
+        "score": 82,
+        "reason": "Deze kandidaat heeft 7 jaar hands-on Azure Data Factory én Snowflake-verwante ervaring met bewezen ETL-pipelines en Databricks.",
+        "check": "b7",
+        "pitch": "Beste,\n\nWe merkten dat ATM Services via Tieto Tech Consulting op zoek is naar een Senior Data Engineer met Snowflake en Azure Data Factory. Werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWe hebben een sterk profiel dat naadloos aansluit: deze kandidaat heeft 7 jaar ervaring als Azure Data Engineer bij Inimco, waar hij scalable ETL-pipelines bouwde met Azure Data Factory en SQL Server — exact de stack die uw vacature vereist. Daarnaast migreerde hij time-series data naar Azure Data Explorer, implementeerde Databricks voor grootschalige verwerking en beheert hij Grafana-telemetriedashboards. Vijf Microsoft-certificeringen, waaronder Azure Data Engineer Associate, ondersteunen de technische diepgang.\n\nDeze combinatie van ADF-expertise, cloud-architectuurervaring en een sterk certificeringsprofiel maakt dit een kandidaat die snel productief zal zijn in uw omgeving.\n\nKunt u 15 minuten vrijmaken voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 36,
+        "score": 78,
+        "reason": "Deze kandidaat leidde een Snowflake-migratie als architect bij Cognizant en beheert nu Kafka/PySpark-pipelines bij Nike.",
+        "check": "b17",
+        "pitch": "Beste,\n\nWe zagen uw zoektocht naar een Senior Data Engineer met Snowflake en ADF via Tieto Tech Consulting. Maakt u gebruik van externe consultants voor dergelijke rollen?\n\nDeze kandidaat brengt 17 jaar data-engineering ervaring mee en heeft concreet bewijs van Snowflake-expertise: als architect bij Cognizant leidde hij een volledige Snowflake-migratie inclusief data governance, lineage controls en self-service analytics. Momenteel ontwerpt hij bij Nike Databricks/PySpark-pipelines voor supply chain data, implementeert Kafka-streaming voor real-time order- en inventarisfeeds en borgt datakwaliteit via CI/CD met geautomatiseerde testing.\n\nDe combinatie van hands-on Snowflake-migratie-ownership, sterke DataOps-mindset en bewezen mentoring maakt dit een kandidaat die zowel technisch als organisatorisch direct waarde toevoegt.\n\nZin in een korte call om dit profiel te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 75,
+        "reason": "Deze kandidaat bouwde een volledig data platform met Snowflake, Airflow en AWS bij DPG Media met sterke streaming-architectuurervaring.",
+        "check": "a8",
+        "pitch": "Beste,\n\nVia Tieto Tech Consulting zochten we naar uw vacature voor Senior Data Engineer met Snowflake en ADF. Werkt ATM Services ook met externe consultants voor gespecialiseerde data-engineering profielen?\n\nDeze kandidaat heeft 8 jaar ervaring en bouwde bij DPG Media een volledig data platform op met Snowflake, Kafka, Spark en Airflow op AWS — een stack die sterk overlapt met uw vereisten. Momenteel vervangt hij legacy Spark-batchprocessen door event-driven Kafka Streams-applicaties in Scala, inclusief Terraform-beheerde AWS EKS-infrastructuur.\n\nBij imec leverde hij daarnaast Azure ETL-werk in Scala/Python met Avro data contracts, wat zijn cloud-breedte aantoont naast AWS. Zijn data-mesh en hexagonale architectuurmindset zorgen voor duurzame, schaalbare oplossingen.\n\nKortom, een senior profiel met bewezen Snowflake-ervaring en brede data-platform ownership. Kunnen we dit kort bespreken?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
     "title": "Gepassioneerd door technologie en data? AI, cloud, chatbots...: innoveer met impact.",
     "url": "https://jobs.belfius.be/content/Data-Tech-talenten/",
     "company": "BELFIUS AUTO LEASE",
@@ -20192,23 +20643,23 @@
       {
         "row": 38,
         "score": 91,
-        "reason": "Deze kandidaat heeft bewezen Blazor, ASP.NET, Azure Service Bus en legacy-.NET-migratie-ervaring, inclusief Tech Lead-verantwoordelijkheden.",
+        "reason": "Deze kandidaat combineert exact de gevraagde stack (C#, ASP.NET, Blazor, Azure Service Bus) met bewezen senior ownership bij RIZIV en Colruyt.",
         "check": "d8",
-        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook samenwerkt met externe consultants.\n\nIk heb een uitstekende kandidaat die naadloos aansluit op jullie zoekprofiel. Deze kandidaat werkt momenteel als senior .NET developer bij een grote publieke instelling, waarbij ASP.NET MVC en Blazor dagelijkse tools zijn — exact de stack die Pionira vraagt. Daarvoor leidde deze kandidaat bij Colruyt Group een legacy-to-microservices-traject met Azure Service Bus als kern van de event-driven architectuur, wat perfect aansluit bij jullie gedistribueerde systemen.\n\nMet 8 jaar ervaring, aantoonbare Tech Lead-verantwoordelijkheden (PR-reviews, architectuurafstemming, taakverdeling) en een achtergrond in zowel .NET Framework als .NET Core vormt deze kandidaat een directe match voor de technische en begeleidende rol die jullie beschrijven.\n\nMag ik een kort gesprek inplannen om dit verder toe te lichten?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook werkt met externe consultants. Ik heb een kandidaat die ik graag even onder de aandacht breng.\n\nDeze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer — dagelijks in C#, ASP.NET MVC en Blazor, exact de technologieën die jullie zoeken. Bij Colruyt Group leidde deze kandidaat een legacy-to-microservices migratie met event-driven integratie via Azure Service Bus, wat perfect aansluit bij jullie gedistribueerde systeemvereisten. Daarnaast vervult deze kandidaat de rol van backup Tech Lead (PR-reviews, taakverdeling, architectuurafstemming), wat aantoont dat het niet enkel om codering gaat maar ook om technische begeleiding — precies wat Pionira vraagt.\n\nDe combinatie van Blazor full-stack, Azure Service Bus en seniore ownership in een productieomgeving maakt dit profiel bijzonder sterk voor jullie logistieke softwareplatform.\n\nZouden we dit kort kunnen bespreken via een telefoontje deze week?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 56,
         "score": 88,
-        "reason": "Deze kandidaat heeft .NET MAUI-migratie-ervaring, Blazor, Azure en mission-critical backend-projecten in productie gebracht.",
+        "reason": "Deze kandidaat brengt 19 jaar .NET-ervaring mee inclusief .NET MAUI-migratie, Blazor, Azure en mission-critical distributed systems.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer bij Pionira, wil ik peilen of jullie openstaan voor externe consultants.\n\nDeze kandidaat is een ervaren freelance .NET-specialist met 19 jaar praktijkervaring en een indrukwekkend relevant parcours. Concreet: een .NET MAUI-migratietraject voor een legacy Xamarin-applicatie (TenForce), Blazor-development met .NET Aspire en Azure-integraties, en mission-critical backend-services voor NMBS/Ypto op Kubernetes met Azure Cosmos DB. Dit zijn exact de technologieën die Pionira zoekt: C#, ASP.NET, Blazor, Azure services en MAUI-migratie als expliciete plus.\n\nBij Mediahuis bouwde deze kandidaat jarenlang schaalbare .NET Core-backends voor meerdere productieomgevingen. Clean Architecture, TDD en CQRS zijn vaste methodieken.\n\nIk stel graag een korte kennismaking voor om de match te bespreken.\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer bij Pionira wil ik graag een sterk profiel voorstellen — mits jullie openstaan voor samenwerking met externe consultants.\n\nDeze kandidaat is freelance .NET developer met 19 jaar ervaring en een indrukwekkende reeks recente projecten. Bij Ypto/NMBS bouwde deze kandidaat een mission-critical integratiebrug in .NET Core met Azure Cosmos DB en enterprise messaging — een gedistribueerd systeem onder hoge betrouwbaarheidseisen. Daarnaast was deze kandidaat betrokken bij .NET MAUI-migratieplanning vanuit Xamarin, een expliciete nice-to-have in jullie vacature. Blazor-ontwikkeling is ook aanwezig via een volledig sales portal met .NET Aspire.\n\nDe combinatie van Azure-services, MAUI-migratie-ervaring, Blazor en een sterke TDD/Clean Architecture discipline maakt dit profiel uitzonderlijk geschikt voor Pionira's technische ambities.\n\nMag ik jullie even bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 18,
         "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring, aantoonbare Azure Service Bus-projecten en gedistribueerde systeemarchitectuur in productie.",
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en bewezen distributed systems architectuur in productie.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk zag jullie zoektocht naar een .NET Software Engineer bij Pionira en vroeg me af of jullie ook werken met externe consultants.\n\nDeze kandidaat brengt 16 jaar .NET-ervaring mee, met een bewezen track record in cloud-native en gedistribueerde systemen. Bij een lopend project worden drie legacy desktop-applicaties herschreven naar één cloudwebapplicatie op AWS/Kubernetes met Kafka, CQRS en Postgres — een schaalbaarheidstraject dat sterk resoneert met de uitdagingen die Pionira beschrijft. Daarnaast loopt er een langlopend Azure-project (App Services, Service Bus, SQL) dat direct matcht met jullie Azure-vereisten.\n\nAls team lead met technische analyseervaring en MCSD-certificering combineert deze kandidaat diepgaande .NET-kennis met de begeleiding en kennisdeling die jullie vragen. Blazor, ASP.NET en REST zijn dagelijkse praktijk.\n\nMag ik een kort gesprek inplannen?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk nam jullie vacature voor een .NET Software Engineer bij Pionira door en wil graag een senior profiel voorstellen — werken jullie ook met externe consultants?\n\nDeze kandidaat werkt al sinds 2010 met .NET en heeft recentelijk een volledige herschrijving van legacy desktopapplicaties naar een cloudwebapplicatie geleid op .NET 8, Azure (App Services, Service Bus, SQL) en AWS met Kubernetes. De ervaring met Azure Service Bus, ASP.NET, Blazor en distributed systems sluit nauw aan bij wat Pionira vraagt. Als team lead en technisch analist heeft deze kandidaat ook ruime ervaring in het begeleiden van teams en het vertalen van klantvereisten naar technische oplossingen.\n\nMet 16 jaar trackrecord, MCSD-certificering en bewezen architectuurkeuzes in productie is dit een kandidaat die snel waarde toevoegt in jullie groeiende team.\n\nKan ik jullie even bellen om dit profiel concreet toe te lichten?\n\nMet vriendelijke groeten,"
       }
     ]
   },
