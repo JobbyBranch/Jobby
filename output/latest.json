@@ -1,5 +1,232 @@
 [
   {
+    "title": "TEAM LEAD INDUSTRIAL NETWORKING SERVICES",
+    "url": "https://careers.belden.com/job/Venlo-TEAM-LEAD-INDUSTRIAL-NETWORKING-SERVICES-5928-PG/1356111900/",
+    "company": "Belden Solutions",
+    "source": "https://careers.belden.com/",
+    "first_seen": "2026-09-03",
+    "stack": [],
+    "experience": "10+ yrs",
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 39,
+        "score": 72,
+        "reason": "Deze kandidaat leidde een SD-WAN-uitrol over ~280 productiesites met Aruba en beheerde LAN/WAN/security/WiFi in de utiliteitssector.",
+        "check": "k28",
+        "pitch": "Beste,\n\nNaar aanleiding van de openstaande vacature voor Team Lead Industrial Networking Services bij Belden wou ik u contacteren — werkt u ook samen met externe consultants voor dergelijke profielen?\n\nWij hebben een senior netwerkengineer met teamleadervaring die nauw aansluit bij wat u zoekt. Deze kandidaat beheert momenteel de volledige LAN/WAN/security/WiFi-infrastructuur bij een grote nutsbedrijvenklant en leidde een grootschalige SD-WAN-uitrol (HPE Aruba EdgeConnect) over ~280 productiesites — exact het industriële en operationele netwerkomgeving dat Belden beoogt. Ruime ervaring met monitoring, leveranciersbeheer, logische en fysieke netwerkdocumentatie en projectcoördinatie versterken het profiel verder. Met bijna 28 jaar IT-ervaring en een bewezen trackrecord in complexe migraties en netwerkontwerp in zowel private als publieke sector is dit een stabiel en sterk profiel.\n\nGraag plan ik een kort gesprek in om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 40,
+        "score": 42,
+        "reason": "Deze kandidaat heeft sterke leiderschaps- en programmamanagementervaring in energie/utilities, maar mist industrieel netwerk- en technische dienstverleningsexpertise.",
+        "check": "p22"
+      },
+      {
+        "row": 16,
+        "score": 36,
+        "reason": "Deze kandidaat heeft technisch leiderschap in utilities/water (Aquafin), maar profiel is volledig Java-development gericht zonder industriële netwerkervaring.",
+        "check": "t21"
+      }
+    ]
+  },
+  {
+    "title": "Functioneel Analyst 1 open vacatures -- Transfo Zwevegem -- Business Solutions Permanent",
+    "url": "https://www.cloudware.be/jobs/functioneel-analyst-8",
+    "company": "CLOUDWARE",
+    "source": "https://www.cloudware.be/jobs",
+    "first_seen": "2026-09-03",
+    "stack": [
+      "Odoo"
+    ],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 86,
+        "score": 72,
+        "reason": "Deze kandidaat heeft bewezen ervaring met user stories, BPMN, stakeholder-management en coaching — kerncompetenties voor deze Odoo FA-rol.",
+        "check": "y5",
+        "pitch": "Beste,\n\nCloudware zoekt een Odoo Functioneel Analyst die bedrijfsprocessen vertaalt naar heldere user stories en als brug fungeert tussen klant en development team. Werkt u ook met externe consultants?\n\nDeze kandidaat heeft bij Partena Professional jarenlang exact dit gedaan: as-is/to-be flows in BPMN uittekenen, functionele vereisten opstellen voor API-integraties, en een volledige backlog met user stories beheren in Azure DevOps. Daarnaast combineerde deze kandidaat de analistenrol met scrum master — wat naadloos aansluit bij de samenwerking met een project manager die Cloudware beschrijft. De HR- en payroll-achtergrond is een extra troef gezien Odoo HR expliciet als pluspunt wordt vermeld. Communicatief sterk, empathisch van nature (8 jaar begeleider voor de IT-carrière) en vlot in het Engels.\n\nGraag stel ik deze kandidaat voor in een kort gesprek — wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 2,
+        "score": 65,
+        "reason": "Deze kandidaat heeft solide ervaring met BPMN, user stories, stakeholder-workshops en UAT, inclusief een HR-domeinachtergrond bij de Vlaamse overheid.",
+        "check": "c3"
+      },
+      {
+        "row": 26,
+        "score": 55,
+        "reason": "Deze kandidaat heeft brede BA/PO-ervaring met ERP, HR en scrum, maar mist concrete Odoo-kennis en een klantgerichte consultancycontext.",
+        "check": "n15"
+      }
+    ]
+  },
+  {
+    "title": "Data Engineer - INSIGHTS Address Lokeren, Belgium",
+    "url": "https://www.movu-robotics.com/en/our-latest-jobs/data-engineer-insights",
+    "company": "MOVU",
+    "source": "https://www.movu-robotics.com/en/our-latest-jobs",
+    "first_seen": "2026-09-03",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "ai_matches": [
+      {
+        "row": 36,
+        "score": 82,
+        "reason": "Deze kandidaat combineert Databricks/PySpark, Kafka streaming, Snowflake en sterke DataOps-ervaring bij Nike en Cognizant.",
+        "check": "b17",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw zoektocht naar een Data Engineer bij MOVU in Lokeren — werkt u ook samen met externe consultants?\n\nIk stel u graag een ervaren profiel voor met 17 jaar data-engineering, momenteel actief bij Nike waar deze kandidaat Databricks/PySpark-pipelines ontwerpt en beheert voor supply-chain en commerciële data. De combinatie van Kafka streaming, Snowflake-migraties en CI/CD met geautomatiseerd testen sluit nauw aan bij wat MOVU zoekt. Eerder bij Cognizant leidde deze kandidaat als architect een volledige Snowflake-migratie inclusief data governance en self-service analytics. De sterke observability- en DataOps-mindset — Splunk-monitoring, SLA-opvolging, runbooks en mentoring — maakt dit profiel onmiddellijk inzetbaar in een productieomgeving.\n\nMag ik u bellen voor een kort gesprek om te bekijken of er een match is?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 24,
+        "score": 78,
+        "reason": "Deze kandidaat bouwt bij DPG Media real-time Kafka Streams pipelines in Scala met Spark, Airflow en Snowflake op AWS.",
+        "check": "a8",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw vacature voor Data Engineer bij MOVU in Lokeren — werkt u ook samen met externe consultants?\n\nDeze kandidaat heeft 8 jaar hands-on ervaring met precies de technologieën die voor deze rol relevant zijn: Kafka, Spark, Airflow en Snowflake, gecombineerd met Terraform en Kubernetes op AWS. Bij DPG Media verving deze kandidaat legacy batch-pipelines door event-driven Kafka Streams-applicaties voor real-time gebruikersprofilering — een concreet bewijs van productierijpe streaming-expertise. Eerder bij imec werden Avro data contracts en Azure ETL-trajecten opgezet, wat de breedte van het profiel aantoont. De data-mesh en hexagonale architectuurmindset is een bonus voor een groeiend platform.\n\nZou u openstaan voor een korte kennismaking om de fit te bespreken?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 62,
+        "score": 76,
+        "reason": "Deze kandidaat leidt bij delaware een multi-source dataplatform met Databricks, dbt en Azure Data Factory als Track Lead.",
+        "check": "w7",
+        "pitch": "Beste,\n\nIk neem contact op naar aanleiding van uw zoektocht naar een Data Engineer bij MOVU in Lokeren — werkt u ook samen met externe consultants?\n\nDeze kandidaat combineert diepgaande technische expertise in Databricks, dbt, Azure Data Factory en PySpark met een architecturale en leidinggevende rol bij delaware BeLux, waar een multi-source dataplatform voor diverse klanten wordt uitgebouwd. De Databricks Certified Data Engineer Associate-certificering en de nominatie als Databricks Champion onderstrepen de technische geloofwaardigheid. Vanuit een .NET-achtergrond brengt deze kandidaat ook zeldzame full-stack breedte mee. Met 7 jaar ervaring, CI/CD-discipline en een aangetoond vermogen om teams van 12 mensen te coachen, is dit een profiel dat snel waarde toevoegt.\n\nMag ik u bellen voor een korte kennismaking?\n\nMet vriendelijke groeten,"
+      }
+    ]
+  },
+  {
+    "title": "IT & Datamanagement 0",
+    "url": "https://vento.be/jobs/jobs/it-datamanagement/",
+    "company": "VENTO",
+    "source": "https://vento.be/jobs/jobs/",
+    "first_seen": "2026-09-03",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": null,
+      "email": "info@vento.be"
+    },
+    "ai_matches": [
+      {
+        "row": 0,
+        "score": 52,
+        "reason": "Deze kandidaat bouwde zelf een SaaS-platform (PHP, Docker, Linux) en heeft Java/Angular-ervaring, maar geen directe Power Apps of digital workspace achtergrond.",
+        "check": "l7"
+      },
+      {
+        "row": 9,
+        "score": 38,
+        "reason": "Deze kandidaat heeft solide full-stack Java/Angular-ervaring bij Vlaamse overheid, maar geen aansluiting bij ventilatie, Power Apps of digital workspace.",
+        "check": "k4"
+      },
+      {
+        "row": 81,
+        "score": 33,
+        "reason": "Deze kandidaat heeft UX/UI-designervaring bij SaaS en private banking, maar geen match met Power Apps of IT/datamanagement bij een industrieel bedrijf.",
+        "check": "v5"
+      }
+    ]
+  },
+  {
+    "title": "IT Senior IT Support",
+    "url": "https://jobs.upgrade-estate.be/nl/senior-it-support",
+    "company": "DEBLAERE HOUTBOUW",
+    "source": "https://upgrade-estate.be/nl/jobs",
+    "first_seen": "2026-09-03",
+    "stack": [],
+    "experience": null,
+    "in_belgium": true,
+    "contact": {
+      "name": "Sandra",
+      "email": null
+    },
+    "ai_matches": [
+      {
+        "row": 3,
+        "score": 62,
+        "reason": "Deze kandidaat beheerde endpoint management, L3 support-teams en IT-continuïteit bij grote klanten zoals Delhaize en Daikin.",
+        "check": "g20"
+      },
+      {
+        "row": 38,
+        "score": 42,
+        "reason": "Deze kandidaat heeft een zeldzame dev+infra achtergrond met netwerk- en serverbeheer, maar focust primair op .NET-ontwikkeling.",
+        "check": "d8"
+      },
+      {
+        "row": 33,
+        "score": 38,
+        "reason": "Deze kandidaat bouwde helpdesk- en planningstools bij een ISP en heeft een brede technische achtergrond, maar is geen IT-support profiel.",
+        "check": "k14"
+      }
+    ]
+  },
+  {
+    "title": "Freelance RSE",
+    "url": "https://jobs.makesense.org/fr/s/jobs/all/sustainability-csr-decarbonization-expert/freelance?source=menu&professions=sustainability-csr-sustainable-procurment&professions=sustainability-csr-csr-manager&professions=sustainability-csr-others&professions=sustainability-csr-consultant&professions=sustainability-csr-csr-director&professions=sustainability-csr-impact-measurement-manager&professions=sustainability-csr-certification-manager&professions=sustainability-csr-esg-sri-manager&professions=sustainability-csr-qse-manager&professions=sustainability-csr-chief-impact-officier&sortBy=relevance",
+    "company": "ALTOPI",
+    "source": "https://jobs.makesense.org/fr/projects/altopi-4571",
+    "first_seen": "2026-09-03",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 28,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 13 jaar ervaring als functioneel analist en scrum master in maatschappelijk relevante sectoren zoals gezondheidszorg, ed-tech en HR.",
+        "check": "r13",
+        "pitch": "Beste,\n\nVia deze weg neem ik contact op naar aanleiding van uw zoektocht naar een Freelance RSE-consultant bij ALTOPI. Werkt u hiervoor samen met externe partners?\n\nDeze kandidaat beschikt over 13 jaar ervaring als functioneel analist en solution manager, waarbij hij/zij herhaaldelijk brug sloeg tussen strategische doelstellingen en concrete implementatie in maatschappelijk gedreven organisaties — van gezondheidsverzekering (CM) en farma (Febelco) tot ed-tech. Als chapter lead van 6 analisten en lid van een IT-leiderschapsteam toont deze kandidaat het ownership en de stakeholdercommunicatie die essentieel zijn voor een RSE-rol. De combinatie van coachingervaring, systemisch denken en vertrouwdheid met complexe organisatietransformaties sluit nauw aan bij wat ALTOPI zoekt. De overstap naar een RSE-adviescontext is inhoudelijk gefundeerd en overtuigend te maken.\n\nGraag stel ik deze kandidaat voor in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 53,
+        "score": 38,
+        "reason": "Deze kandidaat is een infrastructure/DevOps engineer zonder aantoonbare RSE- of duurzaamheidservaring, maar volgt wel een MBA aan Solvay.",
+        "check": "a8"
+      },
+      {
+        "row": 52,
+        "score": 32,
+        "reason": "Deze kandidaat is een senior Java-ontwikkelaar met diepgaande domeinkennis in HR en overheid, maar zonder raakvlakken met RSE of duurzaamheid.",
+        "check": "r11"
+      }
+    ]
+  },
+  {
+    "title": "Software Engineering",
+    "url": "https://careers.arm.com/software-Engineering",
+    "company": "ARM",
+    "source": "https://careers.arm.com/",
+    "first_seen": "2026-09-03",
+    "stack": [],
+    "experience": null,
+    "in_belgium": null,
+    "ai_matches": [
+      {
+        "row": 88,
+        "score": 72,
+        "reason": "Deze kandidaat heeft 14 jaar Java/Kotlin-ervaring met microservices, cloud en embedded-adjacent domeinen zoals automotive en media.",
+        "check": "a14",
+        "pitch": "Beste,\n\nWe zagen uw vacature voor Software Engineering bij Arm voorbijkomen en vroegen ons af of u ook samenwerkt met externe consultants voor dit type profiel.\n\nDeze kandidaat beschikt over 14 jaar diepgaande ervaring in Java, Kotlin, Spring Boot en event-driven microservices — technologieën die aansluiten bij Arm's softwareontwikkeling rond compute en cloud. Bij BMW werkte deze kandidaat aan fleet-management met Azure, Terraform, Kubernetes en GraphQL, wat de complexiteit weerspiegelt van Arm's gedistribueerde software-ecosystemen. Bij DPG Media leverde deze kandidaat event-driven microservices op schaal met AWS en Terraform. De rol als tech lead bij Uitgeverij VAN IN toont architecturaal eigenaarschap en mentoring van teams — exact de senioriteitssignalen die Arm zoekt. De combinatie van cloud-native expertise, CI/CD-rijpheid en brede stack maakt dit een sterk profiel voor Arm's Software Engineering teams.\n\nGraag plannen we een kort gesprek om dit verder toe te lichten.\n\nMet vriendelijke groeten,"
+      },
+      {
+        "row": 0,
+        "score": 58,
+        "reason": "Deze kandidaat combineert embedded Java voor EV-chargers met volledige CI/CD-architectuur en co-founder SaaS-ervaring, relevant voor Arm's software-omgeving.",
+        "check": "l7"
+      },
+      {
+        "row": 55,
+        "score": 42,
+        "reason": "Deze kandidaat is sterk in fullstack webontwikkeling maar mist embedded, C/C++ of hardware-nabije ervaring die Arm's vacatures typisch vereisen.",
+        "check": "b8"
+      }
+    ]
+  },
+  {
     "title": "IT Business Analyst",
     "url": "https://www.stepstone.be/jobs--IT-Business-Analyst-Antwerpen-VANBREDA-RISK-BENEFITS--2200234-inline.html",
     "company": "t Soetekint - de Levensboom",
@@ -20642,24 +20869,24 @@
     "ai_matches": [
       {
         "row": 38,
-        "score": 91,
-        "reason": "Deze kandidaat combineert exact de gevraagde stack (C#, ASP.NET, Blazor, Azure Service Bus) met bewezen senior ownership bij RIZIV en Colruyt.",
+        "score": 88,
+        "reason": "Deze kandidaat combineert 8 jaar C#/ASP.NET/Blazor met aantoonbare Azure Service Bus-ervaring en tech lead-verantwoordelijkheden.",
         "check": "d8",
-        "pitch": "Beste,\n\nIk las jullie vacature voor een .NET Software Engineer en vroeg me af of Pionira ook werkt met externe consultants. Ik heb een kandidaat die ik graag even onder de aandacht breng.\n\nDeze kandidaat heeft 8 jaar .NET-ervaring en werkt momenteel als senior .NET developer — dagelijks in C#, ASP.NET MVC en Blazor, exact de technologieën die jullie zoeken. Bij Colruyt Group leidde deze kandidaat een legacy-to-microservices migratie met event-driven integratie via Azure Service Bus, wat perfect aansluit bij jullie gedistribueerde systeemvereisten. Daarnaast vervult deze kandidaat de rol van backup Tech Lead (PR-reviews, taakverdeling, architectuurafstemming), wat aantoont dat het niet enkel om codering gaat maar ook om technische begeleiding — precies wat Pionira vraagt.\n\nDe combinatie van Blazor full-stack, Azure Service Bus en seniore ownership in een productieomgeving maakt dit profiel bijzonder sterk voor jullie logistieke softwareplatform.\n\nZouden we dit kort kunnen bespreken via een telefoontje deze week?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk contacteer u naar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira. Werkt u ook samen met externe consultants voor zulke profielen?\n\nIk heb een uitstekende kandidaat die naadloos aansluit op uw vereisten. Deze kandidaat heeft 8 jaar ervaring met C#, ASP.NET en Blazor — exact de stack die u vraagt. Bij Colruyt Group leidde deze kandidaat een legacy-naar-microservices-migratie met Azure Service Bus als integratiemechanisme, wat perfect aansluit bij uw gedistribueerde systeemvereisten. Momenteel actief als senior .NET developer met backup tech lead-rol: architecture reviews, PR-begeleiding en samenwerking met solution architects — de technische begeleiding die u zoekt.\n\nDarenboven is er ervaring met SOAP/REST-integraties en .NET Framework-onderhoud, en heeft deze kandidaat ook een infrastructuurachtergrond die de brug slaat naar Azure-omgevingen.\n\nGraag vertel ik u meer in een kort gesprek. Wanneer schikt het u?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 56,
-        "score": 88,
-        "reason": "Deze kandidaat brengt 19 jaar .NET-ervaring mee inclusief .NET MAUI-migratie, Blazor, Azure en mission-critical distributed systems.",
+        "score": 85,
+        "reason": "Deze kandidaat heeft 19 jaar .NET-ervaring inclusief Blazor, .NET MAUI-migratie en Azure-integraties op mission-critical projecten.",
         "check": "k19",
-        "pitch": "Beste,\n\nNaar aanleiding van jullie vacature voor een .NET Software Engineer bij Pionira wil ik graag een sterk profiel voorstellen — mits jullie openstaan voor samenwerking met externe consultants.\n\nDeze kandidaat is freelance .NET developer met 19 jaar ervaring en een indrukwekkende reeks recente projecten. Bij Ypto/NMBS bouwde deze kandidaat een mission-critical integratiebrug in .NET Core met Azure Cosmos DB en enterprise messaging — een gedistribueerd systeem onder hoge betrouwbaarheidseisen. Daarnaast was deze kandidaat betrokken bij .NET MAUI-migratieplanning vanuit Xamarin, een expliciete nice-to-have in jullie vacature. Blazor-ontwikkeling is ook aanwezig via een volledig sales portal met .NET Aspire.\n\nDe combinatie van Azure-services, MAUI-migratie-ervaring, Blazor en een sterke TDD/Clean Architecture discipline maakt dit profiel uitzonderlijk geschikt voor Pionira's technische ambities.\n\nMag ik jullie even bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nNaar aanleiding van uw vacature voor een Software Engineer .NET bij Pionira wil ik u een sterk profiel voorstellen. Werkt Pionira ook met externe consultants?\n\nDeze kandidaat heeft maar liefst 19 jaar .NET-ervaring en scoort op vrijwel alle vereisten: Blazor (actief ingezet bij een luxury retail portal), .NET MAUI-migratie (Xamarin-naar-MAUI planning bij TenForce — exact het pluspunt uit uw vacature), en Azure-diensten zoals Cosmos DB en Kubernetes. Bij NMBS/Infrabel bouwde deze kandidaat een mission-critical synchronisatiebrug met versie-agnostische API-architectuur — een concreet voorbeeld van robuuste, schaalbare systemen in productie.\n\nCQRS, Clean Architecture en TDD zijn geen buzzwords maar dagelijkse praktijk. Dit is een freelancer met bewezen senioriteit die snel inzetbaar is en meteen toegevoegde waarde levert.\n\nMag ik u even bellen voor een korte toelichting?\n\nMet vriendelijke groeten,"
       },
       {
         "row": 18,
-        "score": 82,
-        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus, ASP.NET en bewezen distributed systems architectuur in productie.",
+        "score": 80,
+        "reason": "Deze kandidaat heeft 16 jaar .NET-ervaring met Blazor, Azure Service Bus en microservices-architectuur op complexe cloudprojecten.",
         "check": "n16",
-        "pitch": "Beste,\n\nIk nam jullie vacature voor een .NET Software Engineer bij Pionira door en wil graag een senior profiel voorstellen — werken jullie ook met externe consultants?\n\nDeze kandidaat werkt al sinds 2010 met .NET en heeft recentelijk een volledige herschrijving van legacy desktopapplicaties naar een cloudwebapplicatie geleid op .NET 8, Azure (App Services, Service Bus, SQL) en AWS met Kubernetes. De ervaring met Azure Service Bus, ASP.NET, Blazor en distributed systems sluit nauw aan bij wat Pionira vraagt. Als team lead en technisch analist heeft deze kandidaat ook ruime ervaring in het begeleiden van teams en het vertalen van klantvereisten naar technische oplossingen.\n\nMet 16 jaar trackrecord, MCSD-certificering en bewezen architectuurkeuzes in productie is dit een kandidaat die snel waarde toevoegt in jullie groeiende team.\n\nKan ik jullie even bellen om dit profiel concreet toe te lichten?\n\nMet vriendelijke groeten,"
+        "pitch": "Beste,\n\nIk neem contact op omwille van uw openstaande vacature voor een Software Engineer .NET bij Pionira. Staat u open voor externe consultants?\n\nDeze kandidaat heeft 16 jaar .NET-ervaring en werkt momenteel aan een cloud-rewrite van legacy desktop-applicaties naar .NET 8 — een traject dat sterk lijkt op de migratie-uitdagingen die Pionira kent. Concrete Azure-ervaring omvat App Services, Service Bus en SQL Database, aangevuld met CQRS, Kafka en Kubernetes voor gedistribueerde systemen. Blazor, ASP.NET en C# worden dagelijks ingezet in productie.\n\nAls team lead met MCSD-certificering en ervaring in technische analyse is deze kandidaat ook in staat kennis te delen en technische begeleiding te bieden — precies wat uw vacature vraagt.\n\nEen korte kennismaking zou zeker de moeite waard zijn. Wanneer heeft u tijd voor een gesprek?\n\nMet vriendelijke groeten,"
       }
     ]
   },
