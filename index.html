@@ -1081,6 +1081,13 @@ function DashboardView({ enriched, searchFiltered, jobs, query, setQuery, expand
         }
       />
 
+      <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+        <Stat icon={Building2} label="Bedrijven gevolgd" value={companiesCount} tint="blue" />
+        <Stat icon={Sparkles} label="Nieuwe jobs vandaag" value={newToday} tint="pink" />
+        <Stat icon={TrendingUp} label="Nieuw deze week" value={newCount} tint="blue" />
+        <Stat icon={Users} label="Kandidaten in CV-database" value={candidatesCount} tint="pink" />
+      </div>
+
       {/* search */}
       <div className="flex items-center gap-2 px-3 h-11 rounded-[10px] max-w-[520px] mb-5" style={{ background: "#fff", border: `1px solid ${T.line}` }}>
         <Search size={14} color={T.faint} />
