@@ -32,6 +32,7 @@ from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 import csv
+import hashlib
 import io
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -605,9 +606,13 @@ def load_candidates() -> list[dict]:
     if not url:
         return []
     try:
-        r = requests.get(url, headers=HEADERS, timeout=25)
-        r.raise_for_status()
-        rows = list(csv.reader(io.StringIO(r.text)))
+        if "://" not in url:                    # local file (private CV repo)
+            text = Path(url).read_text(encoding="utf-8")
+        else:
+            r = requests.get(url, headers=HEADERS, timeout=25)
+            r.raise_for_status()
+            text = r.text
+        rows = list(csv.reader(io.StringIO(text)))
         if len(rows) < 2:
             return []
         header = [h.strip().lower() for h in rows[0]]
@@ -666,6 +671,23 @@ def prefilter_candidates(job: dict, candidates: list[dict], top: int = 10) -> li
 
 def _match_check(c: dict) -> str:
     return (c["name"][:1].lower() or "?") + str(c["years"])
+
+
+def _cand_id(name: str) -> str:
+    """Stabiele, niet-herleidbare kandidaat-id voor de publieke repo."""
+    return hashlib.sha1(name.encode("utf-8")).hexdigest()[:12]
+
+
+def write_public_candidates(candidates: list[dict]) -> None:
+    """output/candidates_public.json: enkel voornaam + rol — het dashboard
+    gebruikt dit om matches te tonen zonder dat volledige namen publiek staan."""
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    pub = [{"row": c["row"],
+            "voornaam": (c["name"].split()[0] if c["name"] else ""),
+            "role": c["role"], "years": c["years"],
+            "check": _match_check(c)} for c in candidates]
+    (OUTPUT_DIR / "candidates_public.json").write_text(
+        json.dumps(pub, ensure_ascii=False), encoding="utf-8")
 
 
 def ai_match_job(job: dict, page_text: str, candidates: list[dict]) -> dict:
@@ -867,6 +889,8 @@ def main() -> None:
         if suspects:
             print(f"[cleanup] AI-hercontrole: {len(suspects)} verdachte titels, {removed} verwijderd")
     candidates = load_candidates()
+    if candidates:
+        write_public_candidates(candidates)
     if os.environ.get("ANTHROPIC_API_KEY"):
         try:
             anthropic_call({"model": "claude-haiku-4-5-20251001", "max_tokens": 1,
@@ -967,11 +991,13 @@ def main() -> None:
             prev_names = set(json.loads(META_FILE.read_text(encoding="utf-8"))
                              .get("candidate_names", []))
         if candidates and meta_exists:
-            new_cands = [c for c in candidates if c["name"] not in prev_names]
+            # meta bevat hashes (privacy); oude meta's met volle namen blijven werken
+            new_cands = [c for c in candidates
+                         if c["name"] not in prev_names
+                         and _cand_id(c["name"]) not in prev_names]
             if new_cands:
                 new_rows = {c["row"] for c in new_cands}
-                names = ", ".join(c["name"] for c in new_cands)
-                print(f"\n[rematch] nieuwe kandidaten gedetecteerd: {names}")
+                print(f"\n[rematch] {len(new_cands)} nieuwe kandidaten gedetecteerd")
                 affected = []
                 for job in state.values():
                     existing_rows = {m.get("row") for m in (job.get("ai_matches") or [])}
@@ -995,7 +1021,7 @@ def main() -> None:
         if candidates:
             META_FILE.parent.mkdir(exist_ok=True)
             META_FILE.write_text(json.dumps(
-                {"candidate_names": [c["name"] for c in candidates]},
+                {"candidate_names": [_cand_id(c["name"]) for c in candidates]},
                 ensure_ascii=False), encoding="utf-8")
     except Exception as e:
         print(f"[rematch] overgeslagen door fout: {e}")
