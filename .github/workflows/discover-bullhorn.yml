@@ -1,0 +1,41 @@
+name: Bullhorn source discovery (eenmalig)
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_serper:
+        description: "Serper-budget voor deze run"
+        default: "300"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobradar-pipeline        # nooit tegelijk met de nightly pipeline
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests PyYAML
+      - name: Discover Bullhorn career pages
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          MAX_SERPER: ${{ inputs.max_serper || '300' }}
+        run: python discover_bullhorn.py
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "jobradar-bot"
+          git config user.email "bot@jobradar"
+          git add sources.yaml bullhorn_discovery_report.txt
+          git diff --cached --quiet || git commit -m "bullhorn: career pages toegevoegd aan sources"
+          git pull --rebase origin main
+          git push
