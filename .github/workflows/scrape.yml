@@ -28,9 +28,18 @@ jobs:
       - name: Run scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CANDIDATES_CSV_URL: ${{ secrets.CANDIDATES_CSV_URL }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SCAN_WORKERS: "12"
+                - name: Fetch private CV database
+        env:
+          CV_DB_TOKEN: ${{ secrets.CV_DB_TOKEN }}
+        run: |
+          curl -sfL \
+            -H "Authorization: Bearer $CV_DB_TOKEN" \
+            -H "Accept: application/vnd.github.raw" \
+            "https://api.github.com/repos/JobbyBranch/cv-database/contents/candidates.csv?ref=main" \
+            -o "$RUNNER_TEMP/candidates.csv"
+          echo "CANDIDATES_CSV_URL=$RUNNER_TEMP/candidates.csv" >> "$GITHUB_ENV"
         run: python scraper.py
 
       - name: Commit results
