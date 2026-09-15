@@ -28586,3 +28586,76 @@ DOKTER BAEKELANDT;gynaecologischcentrummechelen.be
 DOKTER BART VANHAVERBEKE;dokterbartvanhaverbeke.be
 DOKTER DEROUS;oogartsderous.be
 DOKTER ESSEL;dokteressel.be
+DOKTER ISABEL PINXTEN, OOGARTS;oogartsknokke.be
+DOKTER KARL THEERENS;doktertheerens.be
+DOKTER KATRIEN MAERTENS;huisartsenpraktijkdelangemunte.be
+DOKTER LEEN PACOLET;oreluneclinic.be
+DOKTER MARIEKE CRIEL, KLINISCH BIOLOOG;imelda.be
+DOKTER MARIJN DEVOS;medicplaza.be
+DOKTER PIERRE FLORÉ;dokterpierreflore.be
+DOKTER SARAH LOOF - PNEUMOLOOG;betransparent.be
+DOKTER SOLANGE LINTERMANS;bo-magazine.be
+DOKTER THOMAS GEVAERT;deapotheker.pmg.be
+DOKTER VAN DE MERWE;azsintmaarten.be
+DOKTER VERMEULEN, OOGARTS;oogartsvermeulen.be
+DOKTER WAFFELAERT;dokterwaffelaert.be
+DOKTER WARD DE GEEST;stemvanhetvolk.be
+DOKTERMAES;doktermaeskno.be
+DOKTERS D'HAENS EN DRIJVERS;databakkes.be
+DOKTERS VANBIERVLIET-ERREGAT;datasnoop.be
+DOL - FIJN;dolfijndeerlijk.be
+DOLCE DONNA;dolcedonna.shop
+DOLTCINI;doltcini.be
+DOMAR;domar.it
+DOMCO;domco.ca
+DOME;domeassistance.be
+DOMINIQUE;abnamromeespierson.be
+DOMINIQUE ANDRIES;hoorspecialistdominique.nl
+DOMINIQUE DE COOMAN;dominiquedecooman.com
+DOMOTECHNOLOGY;domotechnology.be
+DOMOTECNO;domotecno.be
+DOMUS PLUS;domusplus.be
+DOMUS VIVENDI INTERIOR;domusvivendi.be
+DONAVI;donavi.be
+DONCK;donck.eu
+DONKO'S KOFFIE;donkos.be
+DONNA;askdonna.com
+DONNÉ VERZEKERINGEN;donneverzekeringen.be
+DOOLAEGHE;doolaeghe.eu
+DOOMS;dooms-agri.be
+DOOPSUIKER VAN DEN BRANDE;doopsuiker-vandenbrande.be
+DOORDROP;doordropmedia.nl
+DORIA;meat-doria.be
+DORIN CO;dorinco.be
+DORMEX;dormex.be
+DORSOO INTERNATIONAL;dorsoo.be
+DORTANT BVBA;vloerverwarming-installateur.be
+DOSANOVA;dosanova.com
+DOTWORK;dotwork.be
+DOUBLE BEE;doublebee.ai
+DOUBLE PRECISION;doubleprecision.be
+DOUBLE V BELGIUM;adjbenelux.com
+DOUBLE YOU;doubleyouresearch.be
+DOUBLE-U;double-u.be
+DOVAN;dovan.be
+DOW BELGIUM;be.dow.com
+DP INTERIEUR;dpinterieur.be
+DP MANUE;immospeurder.com
+DP RECYCLING;dprc.be
+DP SALES;dp-sales.be
+DQN.;dqn.be
+DQS;dqsglobal.com
+DR Bikes;drbikes.be
+DR Coffee Service;drcoffeeservice.be
+DR ELS PASTIJN;drelspastijn.be
+DR REINIGINGSTECHNIEK;machineseeker.nl
+DR VANDERSTAPPEN INGE;kampenhout.100procentlokaal.be
+DR-M Design;dr-m.be
+DR. AN CARLIER;mariamiddelares.be
+DR. BAS CALCOEN;labomaenhout.be
+DR. BENJAMIN MATTELAER;medimalinas.be
+DR. CAROLIEN DE MAEYER;zevendoc.be
+DR. CAROLINE DEJONCKHEERE;psychiatercarolinedejonckheere.be
+DR. D. VAN DIEST;vlaamseneurologen.be
+DR. DAVY HAEGEMAN;huisartsgids.be
+DR. DIETER KEMPENEERS;boortmeerbeek.100procentlokaal.be
